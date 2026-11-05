@@ -1,0 +1,14 @@
+{
+  "id": "portuguese",
+  "title": "Portuguese (Portugal)",
+  "shortName": "Portuguese",
+  "nativeName": "Português europeu",
+  "fromLanguage": "en",
+  "speechLang": "pt-PT",
+  "description": "Learn European Portuguese as spoken in Portugal: greetings, numbers, food, family and travel.",
+  "units": [
+    "unit1.json",
+    "unit2.json",
+    "unit3.json"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "spanish",
+  "title": "Spanish",
+  "shortName": "Spanish",
+  "nativeName": "Español",
+  "fromLanguage": "en",
+  "speechLang": "es-ES",
+  "description": "Learn everyday Spanish: greetings, numbers, food, family and getting around.",
+  "units": [
+    "unit1.json",
+    "unit2.json",
+    "unit3.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "lingualoop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LinguaLoop - bite-sized Spanish and European Portuguese lessons",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "init-db": "node scripts/init-db.js",
+    "start": "node scripts/init-db.js && next start -p ${PORT:-3000}",
+    "check-content": "node -e \"require('./lib/content').loadAllCourses(); console.log('content ok')\""
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "next": "14.2.25",
+    "pg": "8.13.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

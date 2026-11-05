@@ -1,0 +1,1716 @@
+{
+  "id": "u2",
+  "title": "Everyday basics",
+  "description": "Numbers, food and drink, and talking about your family.",
+  "skills": [
+    {
+      "id": "u2s1",
+      "title": "Numbers 1–10",
+      "icon": "hash",
+      "tip": "'Uno' becomes 'un' before a masculine noun (un libro) and 'una' before a feminine noun (una manzana).",
+      "lessons": [
+        {
+          "id": "u2s1l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "uno",
+              "promptLang": "target",
+              "options": [
+                "One",
+                "Five",
+                "Nine",
+                "Four"
+              ],
+              "answer": "One",
+              "words": [
+                "uno"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "dos",
+              "promptLang": "target",
+              "options": [
+                "Ten",
+                "Four",
+                "Two",
+                "Five"
+              ],
+              "answer": "Two",
+              "words": [
+                "dos"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Three",
+              "promptLang": "en",
+              "options": [
+                "uno",
+                "nueve",
+                "tres",
+                "diez"
+              ],
+              "answer": "tres",
+              "words": [
+                "tres"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "cuatro",
+              "promptLang": "target",
+              "options": [
+                "Seven",
+                "Two",
+                "Four",
+                "One"
+              ],
+              "answer": "Four",
+              "words": [
+                "cuatro"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "uno",
+                  "One"
+                ],
+                [
+                  "dos",
+                  "Two"
+                ],
+                [
+                  "tres",
+                  "Three"
+                ],
+                [
+                  "cuatro",
+                  "Four"
+                ]
+              ],
+              "words": [
+                "uno",
+                "dos",
+                "tres",
+                "cuatro"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I have two brothers.",
+              "promptLang": "en",
+              "tiles": [
+                "Quiero",
+                "hermanos",
+                "libros",
+                "Tengo",
+                "dos",
+                "cuatro"
+              ],
+              "answer": [
+                "Tengo",
+                "dos",
+                "hermanos"
+              ],
+              "accepted": [],
+              "words": [
+                "dos"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Tengo veinte años.",
+              "translation": "I am twenty years old.",
+              "answers": [
+                "Tengo veinte años."
+              ],
+              "words": [
+                "Tengo veinte años."
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Son las tres.",
+              "promptLang": "target",
+              "tiles": [
+                "It",
+                "brothers",
+                "is",
+                "o'clock",
+                "I",
+                "twenty",
+                "three"
+              ],
+              "answer": [
+                "It",
+                "is",
+                "three",
+                "o'clock"
+              ],
+              "accepted": [
+                "It is three.",
+                "It is 3 o'clock.",
+                "It is 3."
+              ],
+              "words": [
+                "tres"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Tengo dos hermanos.",
+              "promptLang": "target",
+              "answers": [
+                "I have two brothers.",
+                "I have two siblings.",
+                "I have 2 brothers.",
+                "I have 2 siblings."
+              ],
+              "words": [
+                "dos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2s1l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "cinco",
+              "promptLang": "target",
+              "options": [
+                "Three",
+                "Five",
+                "One",
+                "Nine"
+              ],
+              "answer": "Five",
+              "words": [
+                "cinco"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Six",
+              "promptLang": "en",
+              "options": [
+                "tres",
+                "cuatro",
+                "uno",
+                "seis"
+              ],
+              "answer": "seis",
+              "words": [
+                "seis"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "siete",
+              "promptLang": "target",
+              "options": [
+                "Two",
+                "One",
+                "Six",
+                "Seven"
+              ],
+              "answer": "Seven",
+              "words": [
+                "siete"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Eight",
+              "promptLang": "en",
+              "options": [
+                "seis",
+                "ocho",
+                "dos",
+                "cuatro"
+              ],
+              "answer": "ocho",
+              "words": [
+                "ocho"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "cinco",
+                  "Five"
+                ],
+                [
+                  "seis",
+                  "Six"
+                ],
+                [
+                  "siete",
+                  "Seven"
+                ],
+                [
+                  "ocho",
+                  "Eight"
+                ]
+              ],
+              "words": [
+                "cinco",
+                "seis",
+                "siete",
+                "ocho"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I want five apples.",
+              "promptLang": "en",
+              "tiles": [
+                "Cuántos",
+                "Son",
+                "tres",
+                "manzanas",
+                "Quiero",
+                "cinco"
+              ],
+              "answer": [
+                "Quiero",
+                "cinco",
+                "manzanas"
+              ],
+              "accepted": [],
+              "words": [
+                "cinco"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "¿Cuántos años tienes?",
+              "promptLang": "target",
+              "tiles": [
+                "How",
+                "old",
+                "It",
+                "o'clock",
+                "you",
+                "are",
+                "I"
+              ],
+              "answer": [
+                "How",
+                "old",
+                "are",
+                "you"
+              ],
+              "accepted": [],
+              "words": [
+                "¿Cuántos años tienes?"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Quiero cinco manzanas.",
+              "translation": "I want five apples.",
+              "answers": [
+                "Quiero cinco manzanas."
+              ],
+              "words": [
+                "cinco"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Hay diez libros.",
+              "promptLang": "target",
+              "answers": [
+                "There are ten books.",
+                "There are 10 books."
+              ],
+              "words": [
+                "diez"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "One",
+              "promptLang": "en",
+              "answers": [
+                "uno"
+              ],
+              "words": [
+                "uno"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2s1l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this sentence mean?",
+              "prompt": "Tengo cuatro gatos.",
+              "promptLang": "target",
+              "options": [
+                "I want five apples.",
+                "I have four cats.",
+                "I am twenty years old.",
+                "I have two brothers."
+              ],
+              "answer": "I have four cats.",
+              "words": [
+                "cuatro"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "nueve",
+              "promptLang": "target",
+              "options": [
+                "Nine",
+                "Seven",
+                "Eight",
+                "Four"
+              ],
+              "answer": "Nine",
+              "words": [
+                "nueve"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "dos",
+                  "Two"
+                ],
+                [
+                  "nueve",
+                  "Nine"
+                ],
+                [
+                  "cinco",
+                  "Five"
+                ],
+                [
+                  "ocho",
+                  "Eight"
+                ],
+                [
+                  "seis",
+                  "Six"
+                ]
+              ],
+              "words": [
+                "dos",
+                "nueve",
+                "cinco",
+                "ocho",
+                "seis"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I have four cats.",
+              "promptLang": "en",
+              "tiles": [
+                "Tengo",
+                "veinte",
+                "cuatro",
+                "hermanos",
+                "gatos",
+                "manzanas"
+              ],
+              "answer": [
+                "Tengo",
+                "cuatro",
+                "gatos"
+              ],
+              "accepted": [],
+              "words": [
+                "cuatro"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Tengo veinte años.",
+              "promptLang": "target",
+              "tiles": [
+                "There",
+                "am",
+                "old",
+                "five",
+                "years",
+                "twenty",
+                "are",
+                "I"
+              ],
+              "answer": [
+                "I",
+                "am",
+                "twenty",
+                "years",
+                "old"
+              ],
+              "accepted": [
+                "I am twenty.",
+                "I am 20 years old.",
+                "I am 20."
+              ],
+              "words": [
+                "Tengo veinte años."
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Hay diez libros.",
+              "translation": "There are ten books.",
+              "answers": [
+                "Hay diez libros."
+              ],
+              "words": [
+                "diez"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "How old are you?",
+              "promptLang": "en",
+              "answers": [
+                "¿Cuántos años tienes?",
+                "¿Cuántos años tiene?",
+                "¿Cuántos años tiene usted?"
+              ],
+              "words": [
+                "¿Cuántos años tienes?"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Son las tres.",
+              "promptLang": "target",
+              "answers": [
+                "It is three o'clock.",
+                "It is three.",
+                "It is 3 o'clock.",
+                "It is 3."
+              ],
+              "words": [
+                "tres"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "Ten",
+              "promptLang": "en",
+              "answers": [
+                "diez"
+              ],
+              "words": [
+                "diez"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "There are ten books.",
+              "promptLang": "en",
+              "tiles": [
+                "Hay",
+                "dos",
+                "libros",
+                "Quiero",
+                "manzanas",
+                "diez"
+              ],
+              "answer": [
+                "Hay",
+                "diez",
+                "libros"
+              ],
+              "accepted": [],
+              "words": [
+                "diez"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2s2",
+      "title": "Food and drink",
+      "icon": "cup",
+      "tip": "'Me gusta' literally means 'it pleases me'. Spanish usually keeps the article: 'Me gusta el café' = 'I like coffee'.",
+      "lessons": [
+        {
+          "id": "u2s2l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "agua",
+              "promptLang": "target",
+              "options": [
+                "Meat",
+                "Milk",
+                "Water",
+                "Rice"
+              ],
+              "answer": "Water",
+              "words": [
+                "agua"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "pan",
+              "promptLang": "target",
+              "options": [
+                "Apple",
+                "Bread",
+                "Chicken",
+                "Coffee"
+              ],
+              "answer": "Bread",
+              "words": [
+                "pan"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Milk",
+              "promptLang": "en",
+              "options": [
+                "arroz",
+                "carne",
+                "leche",
+                "manzana"
+              ],
+              "answer": "leche",
+              "words": [
+                "leche"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "café",
+              "promptLang": "target",
+              "options": [
+                "Meat",
+                "Rice",
+                "Coffee",
+                "Milk"
+              ],
+              "answer": "Coffee",
+              "words": [
+                "café"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "agua",
+                  "Water"
+                ],
+                [
+                  "pan",
+                  "Bread"
+                ],
+                [
+                  "leche",
+                  "Milk"
+                ],
+                [
+                  "café",
+                  "Coffee"
+                ]
+              ],
+              "words": [
+                "agua",
+                "pan",
+                "leche",
+                "café"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I eat bread.",
+              "promptLang": "en",
+              "tiles": [
+                "pan",
+                "No",
+                "como",
+                "queso",
+                "Yo",
+                "carne"
+              ],
+              "answer": [
+                "Yo",
+                "como",
+                "pan"
+              ],
+              "accepted": [
+                "Como pan."
+              ],
+              "words": [
+                "yo",
+                "pan"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Ella bebe agua.",
+              "translation": "She drinks water.",
+              "answers": [
+                "Ella bebe agua."
+              ],
+              "words": [
+                "ella",
+                "agua"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Me gusta el café.",
+              "promptLang": "target",
+              "tiles": [
+                "do",
+                "good",
+                "I",
+                "like",
+                "coffee",
+                "cheese"
+              ],
+              "answer": [
+                "I",
+                "like",
+                "coffee"
+              ],
+              "accepted": [
+                "I like the coffee."
+              ],
+              "words": [
+                "café"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Yo como pan.",
+              "promptLang": "target",
+              "answers": [
+                "I eat bread.",
+                "I am eating bread."
+              ],
+              "words": [
+                "yo",
+                "pan"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2s2l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "manzana",
+              "promptLang": "target",
+              "options": [
+                "Apple",
+                "Chicken",
+                "Coffee",
+                "Water"
+              ],
+              "answer": "Apple",
+              "words": [
+                "manzana"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Cheese",
+              "promptLang": "en",
+              "options": [
+                "queso",
+                "arroz",
+                "pollo",
+                "manzana"
+              ],
+              "answer": "queso",
+              "words": [
+                "queso"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "arroz",
+              "promptLang": "target",
+              "options": [
+                "Rice",
+                "Milk",
+                "Water",
+                "Apple"
+              ],
+              "answer": "Rice",
+              "words": [
+                "arroz"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Chicken",
+              "promptLang": "en",
+              "options": [
+                "pollo",
+                "arroz",
+                "queso",
+                "leche"
+              ],
+              "answer": "pollo",
+              "words": [
+                "pollo"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "manzana",
+                  "Apple"
+                ],
+                [
+                  "queso",
+                  "Cheese"
+                ],
+                [
+                  "arroz",
+                  "Rice"
+                ],
+                [
+                  "pollo",
+                  "Chicken"
+                ]
+              ],
+              "words": [
+                "manzana",
+                "queso",
+                "arroz",
+                "pollo"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I want an apple.",
+              "promptLang": "en",
+              "tiles": [
+                "una",
+                "café",
+                "No",
+                "pan",
+                "Quiero",
+                "manzana"
+              ],
+              "answer": [
+                "Quiero",
+                "una",
+                "manzana"
+              ],
+              "accepted": [
+                "Yo quiero una manzana."
+              ],
+              "words": [
+                "manzana"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "El queso es bueno.",
+              "promptLang": "target",
+              "tiles": [
+                "cheese",
+                "drinks",
+                "I",
+                "The",
+                "is",
+                "good",
+                "not"
+              ],
+              "answer": [
+                "The",
+                "cheese",
+                "is",
+                "good"
+              ],
+              "accepted": [
+                "Cheese is good."
+              ],
+              "words": [
+                "queso"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Quiero una manzana.",
+              "translation": "I want an apple.",
+              "answers": [
+                "Quiero una manzana."
+              ],
+              "words": [
+                "manzana"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "No como carne.",
+              "promptLang": "target",
+              "answers": [
+                "I do not eat meat."
+              ],
+              "words": [
+                "carne"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "Water",
+              "promptLang": "en",
+              "answers": [
+                "agua"
+              ],
+              "words": [
+                "agua"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2s2l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this sentence mean?",
+              "prompt": "Tengo hambre.",
+              "promptLang": "target",
+              "options": [
+                "I want an apple.",
+                "I eat bread.",
+                "I like coffee.",
+                "I am hungry."
+              ],
+              "answer": "I am hungry.",
+              "words": [
+                "Tengo hambre."
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "carne",
+              "promptLang": "target",
+              "options": [
+                "Cheese",
+                "Rice",
+                "Meat",
+                "Coffee"
+              ],
+              "answer": "Meat",
+              "words": [
+                "carne"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "queso",
+                  "Cheese"
+                ],
+                [
+                  "manzana",
+                  "Apple"
+                ],
+                [
+                  "café",
+                  "Coffee"
+                ],
+                [
+                  "carne",
+                  "Meat"
+                ],
+                [
+                  "arroz",
+                  "Rice"
+                ]
+              ],
+              "words": [
+                "queso",
+                "manzana",
+                "café",
+                "carne",
+                "arroz"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I am hungry.",
+              "promptLang": "en",
+              "tiles": [
+                "Ella",
+                "hambre",
+                "carne",
+                "Tengo",
+                "es"
+              ],
+              "answer": [
+                "Tengo",
+                "hambre"
+              ],
+              "accepted": [
+                "Yo tengo hambre."
+              ],
+              "words": [
+                "Tengo hambre."
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Ella bebe agua.",
+              "promptLang": "target",
+              "tiles": [
+                "like",
+                "is",
+                "apple",
+                "She",
+                "water",
+                "drinks"
+              ],
+              "answer": [
+                "She",
+                "drinks",
+                "water"
+              ],
+              "accepted": [
+                "She is drinking water."
+              ],
+              "words": [
+                "ella",
+                "agua"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "No como carne.",
+              "translation": "I do not eat meat.",
+              "answers": [
+                "No como carne."
+              ],
+              "words": [
+                "carne"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "The cheese is good.",
+              "promptLang": "en",
+              "answers": [
+                "El queso es bueno.",
+                "El queso está bueno."
+              ],
+              "words": [
+                "queso"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Me gusta el café.",
+              "promptLang": "target",
+              "answers": [
+                "I like coffee.",
+                "I like the coffee."
+              ],
+              "words": [
+                "café"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "Meat",
+              "promptLang": "en",
+              "answers": [
+                "carne"
+              ],
+              "words": [
+                "carne"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "I do not eat meat.",
+              "promptLang": "en",
+              "tiles": [
+                "bueno",
+                "es",
+                "Ella",
+                "carne",
+                "como",
+                "No"
+              ],
+              "answer": [
+                "No",
+                "como",
+                "carne"
+              ],
+              "accepted": [
+                "Yo no como carne."
+              ],
+              "words": [
+                "carne"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2s3",
+      "title": "Family",
+      "icon": "home",
+      "tip": "The masculine plural can cover mixed groups: 'hermanos' can mean 'brothers' or 'brothers and sisters'.",
+      "lessons": [
+        {
+          "id": "u2s3l1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "madre",
+              "promptLang": "target",
+              "options": [
+                "Family",
+                "Mother",
+                "Grandfather",
+                "Daughter"
+              ],
+              "answer": "Mother",
+              "words": [
+                "madre"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "padre",
+              "promptLang": "target",
+              "options": [
+                "Mother",
+                "Sister",
+                "Grandmother",
+                "Father"
+              ],
+              "answer": "Father",
+              "words": [
+                "padre"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Brother",
+              "promptLang": "en",
+              "options": [
+                "hermano",
+                "abuela",
+                "abuelo",
+                "madre"
+              ],
+              "answer": "hermano",
+              "words": [
+                "hermano"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "hermana",
+              "promptLang": "target",
+              "options": [
+                "Family",
+                "Mother",
+                "Grandfather",
+                "Sister"
+              ],
+              "answer": "Sister",
+              "words": [
+                "hermana"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "madre",
+                  "Mother"
+                ],
+                [
+                  "padre",
+                  "Father"
+                ],
+                [
+                  "hermano",
+                  "Brother"
+                ],
+                [
+                  "hermana",
+                  "Sister"
+                ]
+              ],
+              "words": [
+                "madre",
+                "padre",
+                "hermano",
+                "hermana"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "My mother is called Rosa.",
+              "promptLang": "en",
+              "tiles": [
+                "madre",
+                "Mi",
+                "se",
+                "Ellos",
+                "Tengo",
+                "mis",
+                "llama",
+                "Rosa"
+              ],
+              "answer": [
+                "Mi",
+                "madre",
+                "se",
+                "llama",
+                "Rosa"
+              ],
+              "accepted": [],
+              "words": [
+                "madre"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Tengo una hermana.",
+              "translation": "I have a sister.",
+              "answers": [
+                "Tengo una hermana."
+              ],
+              "words": [
+                "hermana"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Mi padre es alto.",
+              "promptLang": "target",
+              "tiles": [
+                "tall",
+                "father",
+                "My",
+                "are",
+                "Rosa",
+                "son",
+                "is"
+              ],
+              "answer": [
+                "My",
+                "father",
+                "is",
+                "tall"
+              ],
+              "accepted": [
+                "My dad is tall."
+              ],
+              "words": [
+                "padre"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Mi madre se llama Rosa.",
+              "promptLang": "target",
+              "answers": [
+                "My mother is called Rosa.",
+                "My mother's name is Rosa.",
+                "My mum is called Rosa.",
+                "My mom is called Rosa.",
+                "My mum's name is Rosa.",
+                "My mom's name is Rosa."
+              ],
+              "words": [
+                "madre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2s3l2",
+          "title": "Lesson 2",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "hijo",
+              "promptLang": "target",
+              "options": [
+                "Family",
+                "Son",
+                "Brother",
+                "Father"
+              ],
+              "answer": "Son",
+              "words": [
+                "hijo"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Daughter",
+              "promptLang": "en",
+              "options": [
+                "familia",
+                "hija",
+                "hermana",
+                "hijo"
+              ],
+              "answer": "hija",
+              "words": [
+                "hija"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "abuela",
+              "promptLang": "target",
+              "options": [
+                "Daughter",
+                "Mother",
+                "Grandmother",
+                "Brother"
+              ],
+              "answer": "Grandmother",
+              "words": [
+                "abuela"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "Pick the correct translation",
+              "prompt": "Grandfather",
+              "promptLang": "en",
+              "options": [
+                "abuelo",
+                "madre",
+                "hijo",
+                "familia"
+              ],
+              "answer": "abuelo",
+              "words": [
+                "abuelo"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "hijo",
+                  "Son"
+                ],
+                [
+                  "hija",
+                  "Daughter"
+                ],
+                [
+                  "abuela",
+                  "Grandmother"
+                ],
+                [
+                  "abuelo",
+                  "Grandfather"
+                ]
+              ],
+              "words": [
+                "hijo",
+                "hija",
+                "abuela",
+                "abuelo"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "They are my grandparents.",
+              "promptLang": "en",
+              "tiles": [
+                "Ellos",
+                "abuelos",
+                "son",
+                "mis",
+                "familia",
+                "hermana",
+                "madre"
+              ],
+              "answer": [
+                "Ellos",
+                "son",
+                "mis",
+                "abuelos"
+              ],
+              "accepted": [
+                "Son mis abuelos."
+              ],
+              "words": [
+                "Ellos son mis abuelos."
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Mi hermano tiene un hijo.",
+              "promptLang": "target",
+              "tiles": [
+                "They",
+                "My",
+                "father",
+                "son",
+                "have",
+                "a",
+                "brother",
+                "has"
+              ],
+              "answer": [
+                "My",
+                "brother",
+                "has",
+                "a",
+                "son"
+              ],
+              "accepted": [
+                "My brother has one son."
+              ],
+              "words": [
+                "hermano",
+                "hijo"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Ellos son mis abuelos.",
+              "translation": "They are my grandparents.",
+              "answers": [
+                "Ellos son mis abuelos."
+              ],
+              "words": [
+                "Ellos son mis abuelos."
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Mi familia es grande.",
+              "promptLang": "target",
+              "answers": [
+                "My family is big.",
+                "My family is large."
+              ],
+              "words": [
+                "familia"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "Mother",
+              "promptLang": "en",
+              "answers": [
+                "madre"
+              ],
+              "words": [
+                "madre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2s3l3",
+          "title": "Lesson 3",
+          "exercises": [
+            {
+              "type": "mc",
+              "instruction": "What does this sentence mean?",
+              "prompt": "¿Tienes hijos?",
+              "promptLang": "target",
+              "options": [
+                "They are my grandparents.",
+                "My mother is called Rosa.",
+                "Do you have children?",
+                "I have a sister."
+              ],
+              "answer": "Do you have children?",
+              "words": [
+                "¿Tienes hijos?"
+              ]
+            },
+            {
+              "type": "mc",
+              "instruction": "What does this mean?",
+              "prompt": "familia",
+              "promptLang": "target",
+              "options": [
+                "Mother",
+                "Family",
+                "Sister",
+                "Grandmother"
+              ],
+              "answer": "Family",
+              "words": [
+                "familia"
+              ]
+            },
+            {
+              "type": "match",
+              "instruction": "Match the pairs",
+              "pairs": [
+                [
+                  "padre",
+                  "Father"
+                ],
+                [
+                  "madre",
+                  "Mother"
+                ],
+                [
+                  "abuela",
+                  "Grandmother"
+                ],
+                [
+                  "abuelo",
+                  "Grandfather"
+                ],
+                [
+                  "hermana",
+                  "Sister"
+                ]
+              ],
+              "words": [
+                "padre",
+                "madre",
+                "abuela",
+                "abuelo",
+                "hermana"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "Do you have children?",
+              "promptLang": "en",
+              "tiles": [
+                "familia",
+                "es",
+                "hermano",
+                "hijos",
+                "Tienes"
+              ],
+              "answer": [
+                "Tienes",
+                "hijos"
+              ],
+              "accepted": [],
+              "words": [
+                "¿Tienes hijos?"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in English",
+              "prompt": "Tengo una hermana.",
+              "promptLang": "target",
+              "tiles": [
+                "I",
+                "tall",
+                "have",
+                "sister",
+                "big",
+                "grandparents",
+                "a"
+              ],
+              "answer": [
+                "I",
+                "have",
+                "a",
+                "sister"
+              ],
+              "accepted": [
+                "I have one sister."
+              ],
+              "words": [
+                "hermana"
+              ]
+            },
+            {
+              "type": "listen",
+              "instruction": "Type what you hear",
+              "text": "Mi familia es grande.",
+              "translation": "My family is big.",
+              "answers": [
+                "Mi familia es grande."
+              ],
+              "words": [
+                "familia"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "My brother has a son.",
+              "promptLang": "en",
+              "answers": [
+                "Mi hermano tiene un hijo."
+              ],
+              "words": [
+                "hermano",
+                "hijo"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in English",
+              "prompt": "Mi padre es alto.",
+              "promptLang": "target",
+              "answers": [
+                "My father is tall.",
+                "My dad is tall."
+              ],
+              "words": [
+                "padre"
+              ]
+            },
+            {
+              "type": "type",
+              "instruction": "Type this in Spanish",
+              "prompt": "Family",
+              "promptLang": "en",
+              "answers": [
+                "familia"
+              ],
+              "words": [
+                "familia"
+              ]
+            },
+            {
+              "type": "tap",
+              "instruction": "Build the sentence in Spanish",
+              "prompt": "My family is big.",
+              "promptLang": "en",
+              "tiles": [
+                "Mi",
+                "son",
+                "es",
+                "grande",
+                "hijo",
+                "familia",
+                "Tienes"
+              ],
+              "answer": [
+                "Mi",
+                "familia",
+                "es",
+                "grande"
+              ],
+              "accepted": [],
+              "words": [
+                "familia"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
