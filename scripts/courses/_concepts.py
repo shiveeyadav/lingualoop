@@ -1,0 +1,167 @@
+"""Shared English side of the concept-based courses.
+
+Each language file maps every key below to its translation in the compact form
+"target | alternative @ romanization" (see _helpers.parse_entry). Keeping the
+English in one place means every course teaches the same core material and
+accepts the same English answers.
+
+Every unit has 8 vocabulary items and exactly 7 sentences; the generator turns
+each unit into 4 lessons.
+"""
+
+MUM = ["Mum", "Mom", "Mother"]
+
+UNITS = [
+    {
+        "key": "greetings",
+        "title": "Greetings",
+        "description": "Say hello, introduce yourself and be polite.",
+        "icon": "wave",
+        "vocab": [
+            ("hello", "hello", ["hi"]),
+            ("goodbye", "goodbye", ["bye"]),
+            ("thanks", "thank you", ["thanks"]),
+            ("please", "please", []),
+            ("yes", "yes", []),
+            ("no", "no", []),
+            ("good_morning", "good morning", []),
+            ("sorry", "sorry", ["excuse me", "I am sorry"]),
+        ],
+        "sentences": [
+            ("how_are_you", "How are you?", ["How are you doing?"]),
+            ("fine_thanks", "I am fine, thank you.", ["I am fine, thanks.", "I am well, thank you.", "I am well, thanks.", "I am good, thank you.", "Fine, thank you.", "Fine, thanks."]),
+            ("my_name", "My name is Anna.", ["I am Anna.", "I am called Anna."]),
+            ("nice_to_meet", "Nice to meet you.", ["Pleased to meet you."]),
+            ("thanks_a_lot", "Thank you very much.", ["Thanks a lot.", "Many thanks.", "Thank you so much."]),
+            ("see_you_tomorrow", "See you tomorrow.", ["Until tomorrow."]),
+            ("whats_your_name", "What is your name?", ["What are you called?"]),
+        ],
+    },
+    {
+        "key": "people",
+        "title": "People and family",
+        "description": "Talk about the people around you.",
+        "icon": "person",
+        "vocab": [
+            ("man", "man", ["the man"]),
+            ("woman", "woman", ["the woman"]),
+            ("child", "child", ["kid", "the child"]),
+            ("friend", "friend", ["the friend"]),
+            ("mother", "mother", ["mum", "mom"]),
+            ("father", "father", ["dad"]),
+            ("son", "son", ["the son"]),
+            ("daughter", "daughter", ["the daughter"]),
+        ],
+        "sentences": [
+            ("this_is_my_mother", "This is my mother.", ["This is my mum.", "This is my mom."]),
+            ("he_is_my_friend", "He is my friend.", []),
+            ("i_have_a_son", "I have a son.", ["I have one son.", "I have got a son."]),
+            ("where_is_my_father", "Where is my father?", ["Where is my dad?"]),
+            ("mother_at_home", "My mother is at home.", ["My mum is at home.", "My mom is at home.", "My mother is home.", "My mum is home.", "My mom is home."]),
+            ("she_is_my_daughter", "She is my daughter.", []),
+            ("who_is_this_man", "Who is this man?", ["Who is that man?"]),
+        ],
+    },
+    {
+        "key": "food",
+        "title": "Food and drink",
+        "description": "Order, eat and drink.",
+        "icon": "cup",
+        "vocab": [
+            ("water", "water", ["the water"]),
+            ("bread", "bread", ["the bread"]),
+            ("coffee", "coffee", ["the coffee"]),
+            ("tea", "tea", ["the tea"]),
+            ("milk", "milk", ["the milk"]),
+            ("apple", "apple", ["an apple", "the apple"]),
+            ("rice", "rice", ["the rice"]),
+            ("egg", "egg", ["an egg", "the egg"]),
+        ],
+        "sentences": [
+            ("water_please", "Water, please.", ["Some water, please."]),
+            ("i_drink_coffee", "I drink coffee.", ["I am drinking coffee."]),
+            ("i_eat_bread", "I eat bread.", ["I am eating bread."]),
+            ("tea_is_hot", "The tea is hot.", []),
+            ("no_milk", "I do not drink milk.", []),
+            ("i_like_apples", "I like apples.", []),
+            ("i_am_hungry", "I am hungry.", []),
+        ],
+    },
+    {
+        "key": "numbers",
+        "title": "Numbers",
+        "description": "Count from one to ten, ask prices and tell the time.",
+        "icon": "hash",
+        "vocab": [
+            ("one", "one", ["1"]),
+            ("two", "two", ["2"]),
+            ("three", "three", ["3"]),
+            ("four", "four", ["4"]),
+            ("five", "five", ["5"]),
+            ("six", "six", ["6"]),
+            ("seven", "seven", ["7"]),
+            ("eight", "eight", ["8"]),
+            ("nine", "nine", ["9"]),
+            ("ten", "ten", ["10"]),
+        ],
+        "sentences": [
+            ("two_children", "I have two children.", ["I have 2 children.", "I have two kids.", "I have 2 kids."]),
+            ("how_much", "How much is it?", ["How much does it cost?", "How much is this?", "How much does this cost?"]),
+            ("four_apples", "I have four apples.", ["I have 4 apples."]),
+            ("one_coffee", "One coffee, please.", ["A coffee, please.", "1 coffee, please."]),
+            ("two_teas", "Two teas, please.", ["2 teas, please.", "Two cups of tea, please.", "2 cups of tea, please."]),
+            ("three_oclock", "It is three o'clock.", ["It is three.", "It is 3 o'clock.", "It is 3.", "It's three o'clock."]),
+            ("one_moment", "One moment, please.", ["Just a moment, please.", "A moment, please."]),
+        ],
+    },
+    {
+        "key": "travel",
+        "title": "Travel and directions",
+        "description": "Find your way around a new city.",
+        "icon": "train",
+        "vocab": [
+            ("hotel", "hotel", ["the hotel"]),
+            ("station", "station", ["the station", "train station"]),
+            ("airport", "airport", ["the airport"]),
+            ("ticket", "ticket", ["the ticket"]),
+            ("left", "left", ["on the left", "to the left"]),
+            ("right", "right", ["on the right", "to the right"]),
+            ("where", "where", ["where is"]),
+            ("toilet", "toilet", ["the toilet", "bathroom", "the bathroom", "toilets", "restroom"]),
+        ],
+        "sentences": [
+            ("where_hotel", "Where is the hotel?", []),
+            ("where_toilet", "Where is the toilet?", ["Where is the bathroom?", "Where are the toilets?", "Where is the restroom?"]),
+            ("turn_left", "Turn left.", ["Go left."]),
+            ("station_right", "The station is on the right.", ["The station is to the right.", "The station is on your right."]),
+            ("ticket_please", "A ticket, please.", ["One ticket, please."]),
+            ("going_airport", "I am going to the airport.", ["I go to the airport."]),
+            ("is_it_far", "Is it far?", ["Is it far away?"]),
+        ],
+    },
+    {
+        "key": "daily",
+        "title": "Daily routine",
+        "description": "Home, work, school and the time of day.",
+        "icon": "calendar",
+        "vocab": [
+            ("today", "today", []),
+            ("tomorrow", "tomorrow", []),
+            ("now", "now", ["right now"]),
+            ("morning", "morning", ["the morning"]),
+            ("night", "night", ["the night"]),
+            ("house", "house", ["home", "the house"]),
+            ("work", "work", ["job"]),
+            ("school", "school", ["the school"]),
+        ],
+        "sentences": [
+            ("go_to_work", "I go to work.", ["I am going to work."]),
+            ("at_home", "I am at home.", ["I am home."]),
+            ("today_monday", "Today is Monday.", ["It is Monday today."]),
+            ("coffee_morning", "I drink coffee in the morning.", ["In the morning I drink coffee.", "In the morning, I drink coffee."]),
+            ("sleep_night", "I sleep at night.", ["At night I sleep.", "At night, I sleep."]),
+            ("children_school", "The children go to school.", ["The kids go to school.", "The children are going to school."]),
+            ("what_time_now", "What time is it now?", ["What is the time now?"]),
+        ],
+    },
+]

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import LessonPlayer from '../../../components/LessonPlayer';
 import { loadUser } from '../../../lib/ssr';
-import { getCourse, getLesson } from '../../../lib/content';
+import { getCourse, getLesson, courseClientInfo } from '../../../lib/content';
 import { canStartLesson } from '../../../lib/progress';
 import { prepareExercise } from '../../../lib/prepare';
 
@@ -17,15 +17,15 @@ export async function getServerSideProps(ctx) {
   if (!(await canStartLesson(r.user.id, courseId, lessonId))) {
     return { redirect: { destination: '/learn/' + courseId, permanent: false } };
   }
-  const skill = course.skillIndex[ref.skillId].skill;
+  const unit = course.units[ref.unitIndex];
   const outOfHearts = r.user.hearts <= 0;
   return {
     props: {
       user: r.user,
       todayXp: r.todayXp,
-      course: { id: courseId, title: course.meta.title, shortName: course.meta.shortName, speechLang: course.meta.speechLang },
+      course: courseClientInfo(course),
       lessonId,
-      title: skill.title + ' · ' + ref.lesson.title,
+      title: 'Unit ' + (ref.unitIndex + 1) + ': ' + unit.title + ' · ' + ref.lesson.title,
       outOfHearts,
       items: outOfHearts
         ? []

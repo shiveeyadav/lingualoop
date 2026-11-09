@@ -52,7 +52,7 @@ export default function Courses({ user, todayXp, courses }) {
               </p>
               <p>{c.description}</p>
               <p className="muted small">
-                {c.units} units · {c.skills} skills · {c.lessons} lessons · {c.exercises} exercises
+                {c.units} units · {c.lessons} lessons · {c.exercises} exercises
               </p>
               <button type="button" className="btn btn-block" disabled={busy !== null} onClick={() => choose(c.id)}>
                 {busy === c.id ? 'Opening…' : current ? 'Continue ' + c.shortName : 'Start ' + c.shortName}

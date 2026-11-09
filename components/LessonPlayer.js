@@ -191,9 +191,12 @@ export default function LessonPlayer({
             <span style={{ width: Math.min(100, (summary.todayXp / summary.dailyGoal) * 100) + '%' }} />
           </div>
           {goalMet ? <p className="alert alert-ok">Daily goal reached. See you tomorrow!</p> : null}
-          {summary.crowns ? (
+          {summary.unit ? (
             <p className="crowns" style={{ justifyContent: 'center', display: 'flex' }}>
-              <Icon name="crown" /> Skill level {summary.crowns}
+              <Icon name="trophy" />
+              {summary.unit.justCompleted
+                ? 'Unit ' + summary.unit.number + ' complete!'
+                : 'Unit ' + summary.unit.number + ': ' + summary.unit.done + ' of ' + summary.unit.total + ' lessons done'}
             </p>
           ) : null}
           {mode === 'practice' ? <p className="muted small">Practice earns a heart back. Hearts: {hearts}</p> : null}

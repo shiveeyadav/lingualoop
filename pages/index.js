@@ -70,7 +70,7 @@ export default function Home({ user, todayXp, courses }) {
               </p>
               <p>{c.description}</p>
               <p className="muted small">
-                {c.units} units · {c.skills} skills · {c.lessons} lessons
+                {c.units} units · {c.lessons} lessons
               </p>
             </div>
           ))}

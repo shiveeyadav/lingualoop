@@ -1,0 +1,6781 @@
+{
+ "id": "portuguese",
+ "title": "Portuguese (Portugal)",
+ "shortName": "Portuguese",
+ "nativeName": "Português europeu",
+ "fromLanguage": "en",
+ "speechLang": "pt-PT",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [
+  "á",
+  "à",
+  "â",
+  "ã",
+  "ç",
+  "é",
+  "ê",
+  "í",
+  "ó",
+  "ô",
+  "õ",
+  "ú"
+ ],
+ "order": 20,
+ "description": "Learn European Portuguese as spoken in Portugal: greetings, numbers, food, family and travel.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "Men say 'obrigado' and women say 'obrigada'. Both mean 'thank you'.",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "olá",
+       "promptLang": "target",
+       "options": [
+        "Good night",
+        "See you later",
+        "Goodbye",
+        "Hello"
+       ],
+       "answer": "Hello",
+       "words": [
+        "olá"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "adeus",
+       "promptLang": "target",
+       "options": [
+        "See you later",
+        "Goodbye",
+        "Good afternoon",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "adeus"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "bom dia",
+       "words": [
+        "bom dia"
+       ],
+       "options": [
+        "bom dia",
+        "até logo",
+        "por favor",
+        "obrigado"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "boa tarde",
+       "promptLang": "target",
+       "options": [
+        "Good afternoon",
+        "Hello",
+        "See you later",
+        "Good morning"
+       ],
+       "answer": "Good afternoon",
+       "words": [
+        "boa tarde"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "olá",
+         "Hello"
+        ],
+        [
+         "adeus",
+         "Goodbye"
+        ],
+        [
+         "bom dia",
+         "Good morning"
+        ],
+        [
+         "boa tarde",
+         "Good afternoon"
+        ]
+       ],
+       "words": [
+        "olá",
+        "adeus",
+        "bom dia",
+        "boa tarde"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Hello, how are you?",
+       "promptLang": "en",
+       "tiles": [
+        "até",
+        "mãe",
+        "Olá",
+        "bem",
+        "Bom",
+        "tudo"
+       ],
+       "answer": [
+        "Olá",
+        "tudo",
+        "bem"
+       ],
+       "accepted": [],
+       "words": [
+        "olá"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bom dia, senhor.",
+       "translation": "Good morning, sir.",
+       "answers": [
+        "Bom dia, senhor."
+       ],
+       "words": [
+        "bom dia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Boa noite, mãe.",
+       "promptLang": "target",
+       "tiles": [
+        "Mum",
+        "I",
+        "Good",
+        "Goodbye",
+        "tomorrow",
+        "night"
+       ],
+       "answer": [
+        "Good",
+        "night",
+        "Mum"
+       ],
+       "accepted": [
+        "Good night, Mom.",
+        "Good evening, Mum.",
+        "Good evening, Mom.",
+        "Good night, Mother."
+       ],
+       "words": [
+        "boa noite",
+        "mãe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Olá, tudo bem?",
+       "promptLang": "target",
+       "answers": [
+        "Hello, how are you?",
+        "Hi, how are you?",
+        "Hello, all good?",
+        "Hi, all good?",
+        "Hello, how is it going?",
+        "Hi, how is it going?",
+        "Hello, is everything OK?",
+        "Hi, is everything OK?"
+       ],
+       "words": [
+        "olá"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "boa noite",
+       "promptLang": "target",
+       "options": [
+        "See you later",
+        "Good night",
+        "Thank you",
+        "Hello"
+       ],
+       "answer": "Good night",
+       "words": [
+        "boa noite"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "obrigado",
+       "words": [
+        "obrigado"
+       ],
+       "options": [
+        "até logo",
+        "por favor",
+        "obrigado",
+        "olá"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "por favor",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Hello",
+        "Thank you",
+        "Goodbye"
+       ],
+       "answer": "Please",
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "See you later",
+       "promptLang": "en",
+       "answer": "até logo",
+       "words": [
+        "até logo"
+       ],
+       "options": [
+        "boa noite",
+        "obrigado",
+        "até logo",
+        "olá"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "boa noite",
+         "Good night"
+        ],
+        [
+         "obrigado",
+         "Thank you"
+        ],
+        [
+         "por favor",
+         "Please"
+        ],
+        [
+         "até logo",
+         "See you later"
+        ]
+       ],
+       "words": [
+        "boa noite",
+        "obrigado",
+        "por favor",
+        "até logo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Goodbye, see you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "amanhã",
+        "até",
+        "Como",
+        "Adeus",
+        "Bom",
+        "noite"
+       ],
+       "answer": [
+        "Adeus",
+        "até",
+        "amanhã"
+       ],
+       "accepted": [],
+       "words": [
+        "adeus",
+        "amanhã"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Muito bem, obrigada.",
+       "promptLang": "target",
+       "tiles": [
+        "well",
+        "Very",
+        "how",
+        "am",
+        "you",
+        "tomorrow",
+        "thank"
+       ],
+       "answer": [
+        "Very",
+        "well",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "Very well, thanks.",
+        "Very good, thank you.",
+        "Very good, thanks."
+       ],
+       "words": [
+        "obrigado"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Adeus, até amanhã.",
+       "translation": "Goodbye, see you tomorrow.",
+       "answers": [
+        "Adeus, até amanhã."
+       ],
+       "words": [
+        "adeus",
+        "amanhã"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Como está?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?"
+       ],
+       "words": [
+        "Como está?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "olá"
+       ],
+       "words": [
+        "olá"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Estou bem.",
+       "promptLang": "target",
+       "options": [
+        "Very well, thank you.",
+        "Good morning, sir.",
+        "Goodbye, see you tomorrow.",
+        "I am fine."
+       ],
+       "answer": "I am fine.",
+       "words": [
+        "Estou bem."
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "adeus",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Good night",
+        "Thank you",
+        "Hello"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "adeus"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bom dia",
+         "Good morning"
+        ],
+        [
+         "olá",
+         "Hello"
+        ],
+        [
+         "boa tarde",
+         "Good afternoon"
+        ],
+        [
+         "adeus",
+         "Goodbye"
+        ],
+        [
+         "boa noite",
+         "Good night"
+        ]
+       ],
+       "words": [
+        "bom dia",
+        "olá",
+        "boa tarde",
+        "adeus",
+        "boa noite"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I am fine.",
+       "promptLang": "en",
+       "tiles": [
+        "está",
+        "Bom",
+        "Como",
+        "bem",
+        "Estou"
+       ],
+       "answer": [
+        "Estou",
+        "bem"
+       ],
+       "accepted": [
+        "Eu estou bem."
+       ],
+       "words": [
+        "Estou bem."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Bom dia, senhor.",
+       "promptLang": "target",
+       "tiles": [
+        "well",
+        "Good",
+        "fine",
+        "morning",
+        "sir",
+        "I"
+       ],
+       "answer": [
+        "Good",
+        "morning",
+        "sir"
+       ],
+       "accepted": [],
+       "words": [
+        "bom dia"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Como está?",
+       "translation": "How are you?",
+       "answers": [
+        "Como está?"
+       ],
+       "words": [
+        "Como está?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Very well, thank you.",
+       "promptLang": "en",
+       "answers": [
+        "Muito bem, obrigada.",
+        "Muito bem, obrigado."
+       ],
+       "words": [
+        "obrigado"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Boa noite, mãe.",
+       "promptLang": "target",
+       "answers": [
+        "Good night, Mum.",
+        "Good night, Mom.",
+        "Good evening, Mum.",
+        "Good evening, Mom.",
+        "Good night, Mother."
+       ],
+       "words": [
+        "boa noite",
+        "mãe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "adeus"
+       ],
+       "words": [
+        "adeus"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "Como",
+        "está",
+        "até",
+        "bem",
+        "mãe"
+       ],
+       "answer": [
+        "Como",
+        "está"
+       ],
+       "accepted": [
+        "Como estás?",
+        "Tudo bem?"
+       ],
+       "words": [
+        "Como está?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Olá, tudo bem?",
+       "promptLang": "target",
+       "options": [
+        "Very well, thank you.",
+        "Good night, Mum.",
+        "How are you?",
+        "Hello, how are you?"
+       ],
+       "answer": "Hello, how are you?",
+       "words": [
+        "olá"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "obrigado",
+         "Thank you"
+        ],
+        [
+         "boa tarde",
+         "Good afternoon"
+        ],
+        [
+         "por favor",
+         "Please"
+        ],
+        [
+         "adeus",
+         "Goodbye"
+        ]
+       ],
+       "words": [
+        "obrigado",
+        "boa tarde",
+        "por favor",
+        "adeus"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "See you later",
+       "promptLang": "en",
+       "answer": "até logo",
+       "words": [
+        "até logo"
+       ],
+       "options": [
+        "boa noite",
+        "bom dia",
+        "até logo",
+        "adeus"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Good night, Mum.",
+       "promptLang": "en",
+       "tiles": [
+        "senhor",
+        "noite",
+        "obrigada",
+        "mãe",
+        "Boa",
+        "Como"
+       ],
+       "answer": [
+        "Boa",
+        "noite",
+        "mãe"
+       ],
+       "accepted": [],
+       "words": [
+        "boa noite",
+        "mãe"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Estou bem.",
+       "translation": "I am fine.",
+       "answers": [
+        "Estou bem."
+       ],
+       "words": [
+        "Estou bem."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Adeus, até amanhã.",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "see",
+        "Goodbye",
+        "tomorrow",
+        "morning",
+        "night",
+        "you"
+       ],
+       "answer": [
+        "Goodbye",
+        "see",
+        "you",
+        "tomorrow"
+       ],
+       "accepted": [
+        "Bye, see you tomorrow.",
+        "Goodbye, until tomorrow."
+       ],
+       "words": [
+        "adeus",
+        "amanhã"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answers": [
+        "bom dia"
+       ],
+       "words": [
+        "bom dia"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bom dia, senhor.",
+       "promptLang": "target",
+       "answers": [
+        "Good morning, sir."
+       ],
+       "words": [
+        "bom dia"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Muito bem, obrigada.",
+       "translation": "Very well, thank you.",
+       "answers": [
+        "Muito bem, obrigada."
+       ],
+       "words": [
+        "obrigado"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "Introductions",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "person",
+   "tip": "In Portugal the pronoun usually goes after the verb with a hyphen: 'Chamo-me Ana' (My name is Ana).",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "eu",
+       "promptLang": "target",
+       "options": [
+        "I",
+        "He",
+        "You",
+        "Nice to meet you"
+       ],
+       "answer": "I",
+       "words": [
+        "eu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tu",
+       "promptLang": "target",
+       "options": [
+        "He",
+        "You",
+        "Country",
+        "Friend"
+       ],
+       "answer": "You",
+       "words": [
+        "tu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "He",
+       "promptLang": "en",
+       "answer": "ele",
+       "words": [
+        "ele"
+       ],
+       "options": [
+        "ela",
+        "amigo",
+        "ele",
+        "eu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ela",
+       "promptLang": "target",
+       "options": [
+        "She",
+        "Nice to meet you",
+        "I",
+        "Friend"
+       ],
+       "answer": "She",
+       "words": [
+        "ela"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "eu",
+         "I"
+        ],
+        [
+         "tu",
+         "You"
+        ],
+        [
+         "ele",
+         "He"
+        ],
+        [
+         "ela",
+         "She"
+        ]
+       ],
+       "words": [
+        "eu",
+        "tu",
+        "ele",
+        "ela"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "My name is Ana.",
+       "promptLang": "en",
+       "tiles": [
+        "Chamo-me",
+        "meu",
+        "te",
+        "Inglaterra",
+        "Ana"
+       ],
+       "answer": [
+        "Chamo-me",
+        "Ana"
+       ],
+       "accepted": [
+        "Eu chamo-me Ana.",
+        "O meu nome é Ana.",
+        "Sou a Ana."
+       ],
+       "words": [
+        "Chamo-me Ana."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Como te chamas?",
+       "translation": "What is your name?",
+       "answers": [
+        "Como te chamas?"
+       ],
+       "words": [
+        "Como te chamas?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Sou de Inglaterra.",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "England",
+        "from",
+        "am",
+        "I",
+        "your",
+        "is"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "from",
+        "England"
+       ],
+       "accepted": [],
+       "words": [
+        "Sou de Inglaterra."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Chamo-me Ana.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Ana.",
+        "I am called Ana.",
+        "I am Ana."
+       ],
+       "words": [
+        "Chamo-me Ana."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nome",
+       "promptLang": "target",
+       "options": [
+        "I",
+        "She",
+        "You",
+        "Name"
+       ],
+       "answer": "Name",
+       "words": [
+        "nome"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Nice to meet you",
+       "promptLang": "en",
+       "answer": "muito prazer",
+       "words": [
+        "muito prazer"
+       ],
+       "options": [
+        "ela",
+        "muito prazer",
+        "ele",
+        "país"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "amigo",
+       "promptLang": "target",
+       "options": [
+        "You",
+        "She",
+        "Country",
+        "Friend"
+       ],
+       "answer": "Friend",
+       "words": [
+        "amigo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Country",
+       "promptLang": "en",
+       "answer": "país",
+       "words": [
+        "país"
+       ],
+       "options": [
+        "ela",
+        "ele",
+        "país",
+        "tu"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "nome",
+         "Name"
+        ],
+        [
+         "muito prazer",
+         "Nice to meet you"
+        ],
+        [
+         "amigo",
+         "Friend"
+        ],
+        [
+         "país",
+         "Country"
+        ]
+       ],
+       "words": [
+        "nome",
+        "muito prazer",
+        "amigo",
+        "país"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "She is from Lisbon.",
+       "promptLang": "en",
+       "tiles": [
+        "Carlos",
+        "és",
+        "Muito",
+        "Ela",
+        "Lisboa",
+        "é",
+        "de"
+       ],
+       "answer": [
+        "Ela",
+        "é",
+        "de",
+        "Lisboa"
+       ],
+       "accepted": [],
+       "words": [
+        "ela"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ele é o meu amigo.",
+       "promptLang": "target",
+       "tiles": [
+        "my",
+        "He",
+        "your",
+        "England",
+        "Lisbon",
+        "friend",
+        "is"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "ele",
+        "amigo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ela é de Lisboa.",
+       "translation": "She is from Lisbon.",
+       "answers": [
+        "Ela é de Lisboa."
+       ],
+       "words": [
+        "ela"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Muito prazer, Carlos.",
+       "promptLang": "target",
+       "answers": [
+        "Nice to meet you, Carlos.",
+        "Pleased to meet you, Carlos."
+       ],
+       "words": [
+        "muito prazer"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "I",
+       "promptLang": "en",
+       "answers": [
+        "eu"
+       ],
+       "words": [
+        "eu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "De onde és?",
+       "promptLang": "target",
+       "options": [
+        "He is my friend.",
+        "My name is Ana.",
+        "Where are you from?",
+        "Nice to meet you, Carlos."
+       ],
+       "answer": "Where are you from?",
+       "words": [
+        "De onde és?"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tu",
+       "promptLang": "target",
+       "options": [
+        "Name",
+        "Friend",
+        "He",
+        "You"
+       ],
+       "answer": "You",
+       "words": [
+        "tu"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "tu",
+         "You"
+        ],
+        [
+         "ela",
+         "She"
+        ],
+        [
+         "muito prazer",
+         "Nice to meet you"
+        ],
+        [
+         "eu",
+         "I"
+        ],
+        [
+         "país",
+         "Country"
+        ]
+       ],
+       "words": [
+        "tu",
+        "ela",
+        "muito prazer",
+        "eu",
+        "país"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Where are you from?",
+       "promptLang": "en",
+       "tiles": [
+        "De",
+        "onde",
+        "Carlos",
+        "Sou",
+        "és",
+        "o"
+       ],
+       "answer": [
+        "De",
+        "onde",
+        "és"
+       ],
+       "accepted": [
+        "De onde és tu?",
+        "De onde é?"
+       ],
+       "words": [
+        "De onde és?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Como te chamas?",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "is",
+        "your",
+        "What",
+        "name",
+        "you",
+        "Nice"
+       ],
+       "answer": [
+        "What",
+        "is",
+        "your",
+        "name"
+       ],
+       "accepted": [
+        "What are you called?"
+       ],
+       "words": [
+        "Como te chamas?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Muito prazer, Carlos.",
+       "translation": "Nice to meet you, Carlos.",
+       "answers": [
+        "Muito prazer, Carlos."
+       ],
+       "words": [
+        "muito prazer"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "He is my friend.",
+       "promptLang": "en",
+       "answers": [
+        "Ele é o meu amigo.",
+        "Ele é meu amigo.",
+        "É o meu amigo."
+       ],
+       "words": [
+        "ele",
+        "amigo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sou de Inglaterra.",
+       "promptLang": "target",
+       "answers": [
+        "I am from England."
+       ],
+       "words": [
+        "Sou de Inglaterra."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "You",
+       "promptLang": "en",
+       "answers": [
+        "tu"
+       ],
+       "words": [
+        "tu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Nice to meet you, Carlos.",
+       "promptLang": "en",
+       "tiles": [
+        "Muito",
+        "prazer",
+        "Chamo-me",
+        "Carlos",
+        "onde",
+        "Sou"
+       ],
+       "answer": [
+        "Muito",
+        "prazer",
+        "Carlos"
+       ],
+       "accepted": [],
+       "words": [
+        "muito prazer"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Chamo-me Ana.",
+       "promptLang": "target",
+       "options": [
+        "He is my friend.",
+        "I am from England.",
+        "She is from Lisbon.",
+        "My name is Ana."
+       ],
+       "answer": "My name is Ana.",
+       "words": [
+        "Chamo-me Ana."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "amigo",
+         "Friend"
+        ],
+        [
+         "país",
+         "Country"
+        ],
+        [
+         "ela",
+         "She"
+        ],
+        [
+         "ele",
+         "He"
+        ]
+       ],
+       "words": [
+        "amigo",
+        "país",
+        "ela",
+        "ele"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "I",
+       "promptLang": "en",
+       "answer": "eu",
+       "words": [
+        "eu"
+       ],
+       "options": [
+        "amigo",
+        "nome",
+        "eu",
+        "tu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I am from England.",
+       "promptLang": "en",
+       "tiles": [
+        "de",
+        "Inglaterra",
+        "Sou",
+        "Ele",
+        "o",
+        "Lisboa"
+       ],
+       "answer": [
+        "Sou",
+        "de",
+        "Inglaterra"
+       ],
+       "accepted": [
+        "Eu sou de Inglaterra."
+       ],
+       "words": [
+        "Sou de Inglaterra."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "De onde és?",
+       "translation": "Where are you from?",
+       "answers": [
+        "De onde és?"
+       ],
+       "words": [
+        "De onde és?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ela é de Lisboa.",
+       "promptLang": "target",
+       "tiles": [
+        "Nice",
+        "from",
+        "friend",
+        "England",
+        "She",
+        "is",
+        "Lisbon"
+       ],
+       "answer": [
+        "She",
+        "is",
+        "from",
+        "Lisbon"
+       ],
+       "accepted": [],
+       "words": [
+        "ela"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "You",
+       "promptLang": "en",
+       "answers": [
+        "tu"
+       ],
+       "words": [
+        "tu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Como te chamas?",
+       "promptLang": "target",
+       "answers": [
+        "What is your name?",
+        "What are you called?"
+       ],
+       "words": [
+        "Como te chamas?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ele é o meu amigo.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Ele é o meu amigo."
+       ],
+       "words": [
+        "ele",
+        "amigo"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Being polite",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "heart",
+   "tip": "'Percebo' (I understand) is very common in Portugal; 'compreendo' and 'entendo' are also correct.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "desculpe",
+       "promptLang": "target",
+       "options": [
+        "Excuse me",
+        "A little",
+        "Yes",
+        "Welcome"
+       ],
+       "answer": "Excuse me",
+       "words": [
+        "desculpe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "peço desculpa",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "A little",
+        "I am sorry",
+        "You are welcome"
+       ],
+       "answer": "I am sorry",
+       "words": [
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "You are welcome",
+       "promptLang": "en",
+       "answer": "de nada",
+       "words": [
+        "de nada"
+       ],
+       "options": [
+        "peço desculpa",
+        "claro",
+        "de nada",
+        "sim"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sim",
+       "promptLang": "target",
+       "options": [
+        "You are welcome",
+        "Excuse me",
+        "Yes",
+        "I understand"
+       ],
+       "answer": "Yes",
+       "words": [
+        "sim"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "desculpe",
+         "Excuse me"
+        ],
+        [
+         "peço desculpa",
+         "I am sorry"
+        ],
+        [
+         "de nada",
+         "You are welcome"
+        ],
+        [
+         "sim",
+         "Yes"
+        ]
+       ],
+       "words": [
+        "desculpe",
+        "peço desculpa",
+        "de nada",
+        "sim"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "fala",
+        "Mais",
+        "Muito",
+        "Desculpe",
+        "obrigado"
+       ],
+       "answer": [
+        "Muito",
+        "obrigado"
+       ],
+       "accepted": [
+        "Muito obrigada."
+       ],
+       "words": [
+        "obrigado"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "De nada.",
+       "translation": "You are welcome.",
+       "answers": [
+        "De nada."
+       ],
+       "words": [
+        "de nada"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Peço desculpa.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "am",
+        "me",
+        "sorry",
+        "speak",
+        "Thank"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "sorry"
+       ],
+       "accepted": [
+        "I apologise.",
+        "I apologize.",
+        "Sorry."
+       ],
+       "words": [
+        "desculpe",
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Muito obrigado.",
+       "promptLang": "target",
+       "answers": [
+        "Thank you very much.",
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "obrigado"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "percebo",
+       "promptLang": "target",
+       "options": [
+        "Welcome",
+        "A little",
+        "Of course",
+        "I understand"
+       ],
+       "answer": "I understand",
+       "words": [
+        "percebo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Welcome",
+       "promptLang": "en",
+       "answer": "bem-vindo",
+       "words": [
+        "bem-vindo"
+       ],
+       "options": [
+        "um pouco",
+        "desculpe",
+        "peço desculpa",
+        "bem-vindo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "claro",
+       "promptLang": "target",
+       "options": [
+        "I understand",
+        "Yes",
+        "Of course",
+        "Welcome"
+       ],
+       "answer": "Of course",
+       "words": [
+        "claro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "A little",
+       "promptLang": "en",
+       "answer": "um pouco",
+       "words": [
+        "um pouco"
+       ],
+       "options": [
+        "claro",
+        "bem-vindo",
+        "de nada",
+        "um pouco"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "percebo",
+         "I understand"
+        ],
+        [
+         "bem-vindo",
+         "Welcome"
+        ],
+        [
+         "claro",
+         "Of course"
+        ],
+        [
+         "um pouco",
+         "A little"
+        ]
+       ],
+       "words": [
+        "percebo",
+        "bem-vindo",
+        "claro",
+        "um pouco"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Excuse me, do you speak English?",
+       "promptLang": "en",
+       "tiles": [
+        "favor",
+        "fala",
+        "pouco",
+        "Desculpe",
+        "Muito",
+        "inglês"
+       ],
+       "answer": [
+        "Desculpe",
+        "fala",
+        "inglês"
+       ],
+       "accepted": [
+        "Desculpa, falas inglês?"
+       ],
+       "words": [
+        "desculpe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Sim, um pouco.",
+       "promptLang": "target",
+       "tiles": [
+        "little",
+        "me",
+        "Thank",
+        "Yes",
+        "a",
+        "English"
+       ],
+       "answer": [
+        "Yes",
+        "a",
+        "little"
+       ],
+       "accepted": [
+        "Yes, a bit."
+       ],
+       "words": [
+        "sim",
+        "um pouco",
+        "um"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Desculpe, fala inglês?",
+       "translation": "Excuse me, do you speak English?",
+       "answers": [
+        "Desculpe, fala inglês?"
+       ],
+       "words": [
+        "desculpe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Não percebo.",
+       "promptLang": "target",
+       "answers": [
+        "I do not understand."
+       ],
+       "words": [
+        "percebo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Excuse me",
+       "promptLang": "en",
+       "answers": [
+        "desculpe",
+        "desculpa",
+        "com licença"
+       ],
+       "words": [
+        "desculpe"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Mais devagar, por favor.",
+       "promptLang": "target",
+       "options": [
+        "You are welcome.",
+        "Excuse me, do you speak English?",
+        "Thank you very much.",
+        "More slowly, please."
+       ],
+       "answer": "More slowly, please.",
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "peço desculpa",
+       "promptLang": "target",
+       "options": [
+        "You are welcome",
+        "Yes",
+        "A little",
+        "I am sorry"
+       ],
+       "answer": "I am sorry",
+       "words": [
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "desculpe",
+         "Excuse me"
+        ],
+        [
+         "bem-vindo",
+         "Welcome"
+        ],
+        [
+         "percebo",
+         "I understand"
+        ],
+        [
+         "claro",
+         "Of course"
+        ],
+        [
+         "peço desculpa",
+         "I am sorry"
+        ]
+       ],
+       "words": [
+        "desculpe",
+        "bem-vindo",
+        "percebo",
+        "claro",
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "More slowly, please.",
+       "promptLang": "en",
+       "tiles": [
+        "obrigado",
+        "por",
+        "devagar",
+        "favor",
+        "um",
+        "Mais",
+        "Não"
+       ],
+       "answer": [
+        "Mais",
+        "devagar",
+        "por",
+        "favor"
+       ],
+       "accepted": [],
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "De nada.",
+       "promptLang": "target",
+       "tiles": [
+        "are",
+        "slowly",
+        "not",
+        "welcome",
+        "very",
+        "You"
+       ],
+       "answer": [
+        "You",
+        "are",
+        "welcome"
+       ],
+       "accepted": [],
+       "words": [
+        "de nada"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Não percebo.",
+       "translation": "I do not understand.",
+       "answers": [
+        "Não percebo."
+       ],
+       "words": [
+        "percebo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Yes, a little.",
+       "promptLang": "en",
+       "answers": [
+        "Sim, um pouco."
+       ],
+       "words": [
+        "sim",
+        "um pouco",
+        "um"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Peço desculpa.",
+       "promptLang": "target",
+       "answers": [
+        "I am sorry.",
+        "I apologise.",
+        "I apologize.",
+        "Sorry."
+       ],
+       "words": [
+        "desculpe",
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "I am sorry",
+       "promptLang": "en",
+       "answers": [
+        "peço desculpa"
+       ],
+       "words": [
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I do not understand.",
+       "promptLang": "en",
+       "tiles": [
+        "percebo",
+        "desculpa",
+        "Não",
+        "Peço",
+        "Sim"
+       ],
+       "answer": [
+        "Não",
+        "percebo"
+       ],
+       "accepted": [
+        "Não compreendo.",
+        "Não entendo.",
+        "Eu não percebo."
+       ],
+       "words": [
+        "percebo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Muito obrigado.",
+       "promptLang": "target",
+       "options": [
+        "Thank you very much.",
+        "I am sorry.",
+        "More slowly, please.",
+        "Yes, a little."
+       ],
+       "answer": "Thank you very much.",
+       "words": [
+        "obrigado"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "um pouco",
+         "A little"
+        ],
+        [
+         "desculpe",
+         "Excuse me"
+        ],
+        [
+         "sim",
+         "Yes"
+        ],
+        [
+         "percebo",
+         "I understand"
+        ]
+       ],
+       "words": [
+        "um pouco",
+        "desculpe",
+        "sim",
+        "percebo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "You are welcome",
+       "promptLang": "en",
+       "answer": "de nada",
+       "words": [
+        "de nada"
+       ],
+       "options": [
+        "sim",
+        "claro",
+        "de nada",
+        "um pouco"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I am sorry.",
+       "promptLang": "en",
+       "tiles": [
+        "Sim",
+        "desculpa",
+        "De",
+        "percebo",
+        "Peço"
+       ],
+       "answer": [
+        "Peço",
+        "desculpa"
+       ],
+       "accepted": [
+        "Desculpe.",
+        "Desculpa."
+       ],
+       "words": [
+        "desculpe",
+        "peço desculpa"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mais devagar, por favor.",
+       "translation": "More slowly, please.",
+       "answers": [
+        "Mais devagar, por favor."
+       ],
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Desculpe, fala inglês?",
+       "promptLang": "target",
+       "tiles": [
+        "More",
+        "you",
+        "Excuse",
+        "speak",
+        "me",
+        "do",
+        "very",
+        "much",
+        "English"
+       ],
+       "answer": [
+        "Excuse",
+        "me",
+        "do",
+        "you",
+        "speak",
+        "English"
+       ],
+       "accepted": [
+        "Sorry, do you speak English?"
+       ],
+       "words": [
+        "desculpe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Welcome",
+       "promptLang": "en",
+       "answers": [
+        "bem-vindo"
+       ],
+       "words": [
+        "bem-vindo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "De nada.",
+       "promptLang": "target",
+       "answers": [
+        "You are welcome."
+       ],
+       "words": [
+        "de nada"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sim, um pouco.",
+       "translation": "Yes, a little.",
+       "answers": [
+        "Sim, um pouco."
+       ],
+       "words": [
+        "sim",
+        "um pouco",
+        "um"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers 1–10",
+   "description": "Numbers, food and drink, and talking about your family.",
+   "icon": "hash",
+   "tip": "'Um' and 'dois' change for feminine nouns: 'uma maçã', 'duas maçãs'.",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "um",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Seven",
+        "Five",
+        "One"
+       ],
+       "answer": "One",
+       "words": [
+        "um"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dois",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+       ],
+       "answer": "Two",
+       "words": [
+        "dois"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "três",
+       "words": [
+        "três"
+       ],
+       "options": [
+        "oito",
+        "dois",
+        "três",
+        "seis"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "quatro",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Three",
+        "Four",
+        "Six"
+       ],
+       "answer": "Four",
+       "words": [
+        "quatro"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "um",
+         "One"
+        ],
+        [
+         "dois",
+         "Two"
+        ],
+        [
+         "três",
+         "Three"
+        ],
+        [
+         "quatro",
+         "Four"
+        ]
+       ],
+       "words": [
+        "um",
+        "dois",
+        "três",
+        "quatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I have two brothers.",
+       "promptLang": "en",
+       "tiles": [
+        "Há",
+        "irmãos",
+        "dez",
+        "vinte",
+        "dois",
+        "Tenho"
+       ],
+       "answer": [
+        "Tenho",
+        "dois",
+        "irmãos"
+       ],
+       "accepted": [
+        "Eu tenho dois irmãos."
+       ],
+       "words": [
+        "dois"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tenho vinte anos.",
+       "translation": "I am twenty years old.",
+       "answers": [
+        "Tenho vinte anos."
+       ],
+       "words": [
+        "Tenho vinte anos."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "São três horas.",
+       "promptLang": "target",
+       "tiles": [
+        "There",
+        "It",
+        "you",
+        "How",
+        "o'clock",
+        "three",
+        "is"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "three",
+        "o'clock"
+       ],
+       "accepted": [
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3."
+       ],
+       "words": [
+        "três"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tenho dois irmãos.",
+       "promptLang": "target",
+       "answers": [
+        "I have two brothers.",
+        "I have two siblings.",
+        "I have 2 brothers.",
+        "I have 2 siblings."
+       ],
+       "words": [
+        "dois"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cinco",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Six",
+        "Five",
+        "Two"
+       ],
+       "answer": "Five",
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "seis",
+       "words": [
+        "seis"
+       ],
+       "options": [
+        "nove",
+        "quatro",
+        "seis",
+        "três"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sete",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Six",
+        "Seven",
+        "One"
+       ],
+       "answer": "Seven",
+       "words": [
+        "sete"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "oito",
+       "words": [
+        "oito"
+       ],
+       "options": [
+        "quatro",
+        "oito",
+        "cinco",
+        "dois"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cinco",
+         "Five"
+        ],
+        [
+         "seis",
+         "Six"
+        ],
+        [
+         "sete",
+         "Seven"
+        ],
+        [
+         "oito",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "cinco",
+        "seis",
+        "sete",
+        "oito"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I want five apples.",
+       "promptLang": "en",
+       "tiles": [
+        "maçãs",
+        "anos",
+        "quatro",
+        "cinco",
+        "Quantos",
+        "Quero"
+       ],
+       "answer": [
+        "Quero",
+        "cinco",
+        "maçãs"
+       ],
+       "accepted": [
+        "Eu quero cinco maçãs."
+       ],
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quantos anos tens?",
+       "promptLang": "target",
+       "tiles": [
+        "are",
+        "old",
+        "How",
+        "five",
+        "three",
+        "o'clock",
+        "you"
+       ],
+       "answer": [
+        "How",
+        "old",
+        "are",
+        "you"
+       ],
+       "accepted": [],
+       "words": [
+        "Quantos anos tens?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quero cinco maçãs.",
+       "translation": "I want five apples.",
+       "answers": [
+        "Quero cinco maçãs."
+       ],
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Há dez livros.",
+       "promptLang": "target",
+       "answers": [
+        "There are ten books.",
+        "There are 10 books."
+       ],
+       "words": [
+        "dez"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "um",
+        "uma"
+       ],
+       "words": [
+        "um"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tenho quatro gatos.",
+       "promptLang": "target",
+       "options": [
+        "How old are you?",
+        "There are ten books.",
+        "I have four cats.",
+        "It is three o'clock."
+       ],
+       "answer": "I have four cats.",
+       "words": [
+        "quatro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nove",
+       "promptLang": "target",
+       "options": [
+        "Ten",
+        "Three",
+        "Nine",
+        "Five"
+       ],
+       "answer": "Nine",
+       "words": [
+        "nove"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "três",
+         "Three"
+        ],
+        [
+         "nove",
+         "Nine"
+        ],
+        [
+         "oito",
+         "Eight"
+        ],
+        [
+         "um",
+         "One"
+        ],
+        [
+         "quatro",
+         "Four"
+        ]
+       ],
+       "words": [
+        "três",
+        "nove",
+        "oito",
+        "um",
+        "quatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I have four cats.",
+       "promptLang": "en",
+       "tiles": [
+        "anos",
+        "Tenho",
+        "Quantos",
+        "Quero",
+        "quatro",
+        "gatos"
+       ],
+       "answer": [
+        "Tenho",
+        "quatro",
+        "gatos"
+       ],
+       "accepted": [
+        "Eu tenho quatro gatos."
+       ],
+       "words": [
+        "quatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tenho vinte anos.",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "twenty",
+        "old",
+        "have",
+        "I",
+        "brothers",
+        "five",
+        "years"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "twenty",
+        "years",
+        "old"
+       ],
+       "accepted": [
+        "I am twenty.",
+        "I am 20 years old.",
+        "I am 20."
+       ],
+       "words": [
+        "Tenho vinte anos."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Há dez livros.",
+       "translation": "There are ten books.",
+       "answers": [
+        "Há dez livros."
+       ],
+       "words": [
+        "dez"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "How old are you?",
+       "promptLang": "en",
+       "answers": [
+        "Quantos anos tens?",
+        "Quantos anos tem?"
+       ],
+       "words": [
+        "Quantos anos tens?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "São três horas.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3."
+       ],
+       "words": [
+        "três"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "dez"
+       ],
+       "words": [
+        "dez"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "There are ten books.",
+       "promptLang": "en",
+       "tiles": [
+        "maçãs",
+        "dez",
+        "horas",
+        "Há",
+        "livros",
+        "quatro"
+       ],
+       "answer": [
+        "Há",
+        "dez",
+        "livros"
+       ],
+       "accepted": [],
+       "words": [
+        "dez"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tenho dois irmãos.",
+       "promptLang": "target",
+       "options": [
+        "I have four cats.",
+        "There are ten books.",
+        "I want five apples.",
+        "I have two brothers."
+       ],
+       "answer": "I have two brothers.",
+       "words": [
+        "dois"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "sete",
+         "Seven"
+        ],
+        [
+         "quatro",
+         "Four"
+        ],
+        [
+         "um",
+         "One"
+        ],
+        [
+         "cinco",
+         "Five"
+        ]
+       ],
+       "words": [
+        "sete",
+        "quatro",
+        "um",
+        "cinco"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "oito",
+       "words": [
+        "oito"
+       ],
+       "options": [
+        "dois",
+        "sete",
+        "um",
+        "oito"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "horas",
+        "três",
+        "São",
+        "maçãs",
+        "livros",
+        "tens"
+       ],
+       "answer": [
+        "São",
+        "três",
+        "horas"
+       ],
+       "accepted": [
+        "São as três."
+       ],
+       "words": [
+        "três"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tenho quatro gatos.",
+       "translation": "I have four cats.",
+       "answers": [
+        "Tenho quatro gatos."
+       ],
+       "words": [
+        "quatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quero cinco maçãs.",
+       "promptLang": "target",
+       "tiles": [
+        "five",
+        "apples",
+        "There",
+        "want",
+        "ten",
+        "I",
+        "books"
+       ],
+       "answer": [
+        "I",
+        "want",
+        "five",
+        "apples"
+       ],
+       "accepted": [
+        "I want 5 apples.",
+        "I would like five apples."
+       ],
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "dez"
+       ],
+       "words": [
+        "dez"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tenho vinte anos.",
+       "promptLang": "target",
+       "answers": [
+        "I am twenty years old.",
+        "I am twenty.",
+        "I am 20 years old.",
+        "I am 20."
+       ],
+       "words": [
+        "Tenho vinte anos."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quantos anos tens?",
+       "translation": "How old are you?",
+       "answers": [
+        "Quantos anos tens?"
+       ],
+       "words": [
+        "Quantos anos tens?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Food and drink",
+   "description": "Numbers, food and drink, and talking about your family.",
+   "icon": "cup",
+   "tip": "In Portugal, breakfast is 'o pequeno-almoço' and a short espresso is often called 'uma bica' in Lisbon.",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "água",
+       "promptLang": "target",
+       "options": [
+        "Meat",
+        "Water",
+        "Milk",
+        "Bread"
+       ],
+       "answer": "Water",
+       "words": [
+        "água"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pão",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Cheese",
+        "Water",
+        "Milk"
+       ],
+       "answer": "Bread",
+       "words": [
+        "pão"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answer": "leite",
+       "words": [
+        "leite"
+       ],
+       "options": [
+        "leite",
+        "queijo",
+        "carne",
+        "café"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "café",
+       "promptLang": "target",
+       "options": [
+        "Cheese",
+        "Coffee",
+        "Chicken",
+        "Bread"
+       ],
+       "answer": "Coffee",
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "água",
+         "Water"
+        ],
+        [
+         "pão",
+         "Bread"
+        ],
+        [
+         "leite",
+         "Milk"
+        ],
+        [
+         "café",
+         "Coffee"
+        ]
+       ],
+       "words": [
+        "água",
+        "pão",
+        "leite",
+        "café"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "como",
+        "pão",
+        "uma",
+        "Não",
+        "Eu",
+        "O"
+       ],
+       "answer": [
+        "Eu",
+        "como",
+        "pão"
+       ],
+       "accepted": [
+        "Como pão."
+       ],
+       "words": [
+        "eu",
+        "pão"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ela bebe água.",
+       "translation": "She drinks water.",
+       "answers": [
+        "Ela bebe água."
+       ],
+       "words": [
+        "ela",
+        "água"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Gosto de café.",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "like",
+        "an",
+        "I",
+        "good",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "like",
+        "coffee"
+       ],
+       "accepted": [],
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Eu como pão.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "eu",
+        "pão"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "maçã",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Milk",
+        "Apple",
+        "Chicken"
+       ],
+       "answer": "Apple",
+       "words": [
+        "maçã"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Cheese",
+       "promptLang": "en",
+       "answer": "queijo",
+       "words": [
+        "queijo"
+       ],
+       "options": [
+        "queijo",
+        "maçã",
+        "café",
+        "carne"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "arroz",
+       "promptLang": "target",
+       "options": [
+        "Chicken",
+        "Rice",
+        "Apple",
+        "Coffee"
+       ],
+       "answer": "Rice",
+       "words": [
+        "arroz"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Chicken",
+       "promptLang": "en",
+       "answer": "frango",
+       "words": [
+        "frango"
+       ],
+       "options": [
+        "café",
+        "frango",
+        "arroz",
+        "carne"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "maçã",
+         "Apple"
+        ],
+        [
+         "queijo",
+         "Cheese"
+        ],
+        [
+         "arroz",
+         "Rice"
+        ],
+        [
+         "frango",
+         "Chicken"
+        ]
+       ],
+       "words": [
+        "maçã",
+        "queijo",
+        "arroz",
+        "frango"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I want an apple.",
+       "promptLang": "en",
+       "tiles": [
+        "bebe",
+        "Eu",
+        "uma",
+        "maçã",
+        "fome",
+        "Quero"
+       ],
+       "answer": [
+        "Quero",
+        "uma",
+        "maçã"
+       ],
+       "accepted": [
+        "Eu quero uma maçã.",
+        "Queria uma maçã."
+       ],
+       "words": [
+        "um",
+        "maçã"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "O queijo é bom.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "water",
+        "good",
+        "meat",
+        "is",
+        "not",
+        "cheese"
+       ],
+       "answer": [
+        "The",
+        "cheese",
+        "is",
+        "good"
+       ],
+       "accepted": [
+        "Cheese is good."
+       ],
+       "words": [
+        "queijo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quero uma maçã.",
+       "translation": "I want an apple.",
+       "answers": [
+        "Quero uma maçã."
+       ],
+       "words": [
+        "um",
+        "maçã"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Não como carne.",
+       "promptLang": "target",
+       "answers": [
+        "I do not eat meat."
+       ],
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "água"
+       ],
+       "words": [
+        "água"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tenho fome.",
+       "promptLang": "target",
+       "options": [
+        "I like coffee.",
+        "I am hungry.",
+        "I eat bread.",
+        "She drinks water."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Tenho fome."
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "carne",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Meat",
+        "Water",
+        "Cheese"
+       ],
+       "answer": "Meat",
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "carne",
+         "Meat"
+        ],
+        [
+         "maçã",
+         "Apple"
+        ],
+        [
+         "água",
+         "Water"
+        ],
+        [
+         "leite",
+         "Milk"
+        ],
+        [
+         "arroz",
+         "Rice"
+        ]
+       ],
+       "words": [
+        "carne",
+        "maçã",
+        "água",
+        "leite",
+        "arroz"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "Ela",
+        "bom",
+        "pão",
+        "Tenho",
+        "fome"
+       ],
+       "answer": [
+        "Tenho",
+        "fome"
+       ],
+       "accepted": [
+        "Eu tenho fome.",
+        "Estou com fome."
+       ],
+       "words": [
+        "Tenho fome."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ela bebe água.",
+       "promptLang": "target",
+       "tiles": [
+        "an",
+        "drinks",
+        "water",
+        "She",
+        "bread",
+        "want"
+       ],
+       "answer": [
+        "She",
+        "drinks",
+        "water"
+       ],
+       "accepted": [
+        "She is drinking water."
+       ],
+       "words": [
+        "ela",
+        "água"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Não como carne.",
+       "translation": "I do not eat meat.",
+       "answers": [
+        "Não como carne."
+       ],
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "The cheese is good.",
+       "promptLang": "en",
+       "answers": [
+        "O queijo é bom.",
+        "O queijo está bom."
+       ],
+       "words": [
+        "queijo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Gosto de café.",
+       "promptLang": "target",
+       "answers": [
+        "I like coffee."
+       ],
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Meat",
+       "promptLang": "en",
+       "answers": [
+        "carne"
+       ],
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I do not eat meat.",
+       "promptLang": "en",
+       "tiles": [
+        "Gosto",
+        "carne",
+        "maçã",
+        "uma",
+        "Não",
+        "como"
+       ],
+       "answer": [
+        "Não",
+        "como",
+        "carne"
+       ],
+       "accepted": [
+        "Eu não como carne."
+       ],
+       "words": [
+        "carne"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Eu como pão.",
+       "promptLang": "target",
+       "options": [
+        "I do not eat meat.",
+        "She drinks water.",
+        "I eat bread.",
+        "I want an apple."
+       ],
+       "answer": "I eat bread.",
+       "words": [
+        "eu",
+        "pão"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "leite",
+         "Milk"
+        ],
+        [
+         "frango",
+         "Chicken"
+        ],
+        [
+         "água",
+         "Water"
+        ],
+        [
+         "carne",
+         "Meat"
+        ]
+       ],
+       "words": [
+        "leite",
+        "frango",
+        "água",
+        "carne"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "arroz",
+       "words": [
+        "arroz"
+       ],
+       "options": [
+        "arroz",
+        "queijo",
+        "maçã",
+        "pão"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I like coffee.",
+       "promptLang": "en",
+       "tiles": [
+        "carne",
+        "de",
+        "Gosto",
+        "bebe",
+        "queijo",
+        "café"
+       ],
+       "answer": [
+        "Gosto",
+        "de",
+        "café"
+       ],
+       "accepted": [
+        "Eu gosto de café."
+       ],
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tenho fome.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Tenho fome."
+       ],
+       "words": [
+        "Tenho fome."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quero uma maçã.",
+       "promptLang": "target",
+       "tiles": [
+        "an",
+        "water",
+        "want",
+        "not",
+        "apple",
+        "meat",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "want",
+        "an",
+        "apple"
+       ],
+       "accepted": [
+        "I would like an apple."
+       ],
+       "words": [
+        "um",
+        "maçã"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Cheese",
+       "promptLang": "en",
+       "answers": [
+        "queijo"
+       ],
+       "words": [
+        "queijo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ela bebe água.",
+       "promptLang": "target",
+       "answers": [
+        "She drinks water.",
+        "She is drinking water."
+       ],
+       "words": [
+        "ela",
+        "água"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "O queijo é bom.",
+       "translation": "The cheese is good.",
+       "answers": [
+        "O queijo é bom."
+       ],
+       "words": [
+        "queijo"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Family",
+   "description": "Numbers, food and drink, and talking about your family.",
+   "icon": "home",
+   "tip": "In Portugal the article usually comes before possessives: 'a minha mãe' (my mother), 'o meu pai' (my father).",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mãe",
+       "promptLang": "target",
+       "options": [
+        "Sister",
+        "Daughter",
+        "Son",
+        "Mother"
+       ],
+       "answer": "Mother",
+       "words": [
+        "mãe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pai",
+       "promptLang": "target",
+       "options": [
+        "Father",
+        "Brother",
+        "Grandfather",
+        "Family"
+       ],
+       "answer": "Father",
+       "words": [
+        "pai"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Brother",
+       "promptLang": "en",
+       "answer": "irmão",
+       "words": [
+        "irmão"
+       ],
+       "options": [
+        "irmã",
+        "irmão",
+        "filho",
+        "avô"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "irmã",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Sister",
+        "Grandfather",
+        "Father"
+       ],
+       "answer": "Sister",
+       "words": [
+        "irmã"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mãe",
+         "Mother"
+        ],
+        [
+         "pai",
+         "Father"
+        ],
+        [
+         "irmão",
+         "Brother"
+        ],
+        [
+         "irmã",
+         "Sister"
+        ]
+       ],
+       "words": [
+        "mãe",
+        "pai",
+        "irmão",
+        "irmã"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "My mother is called Rosa.",
+       "promptLang": "en",
+       "tiles": [
+        "Rosa",
+        "chama-se",
+        "Tenho",
+        "os",
+        "minha",
+        "mãe",
+        "A",
+        "filhos"
+       ],
+       "answer": [
+        "A",
+        "minha",
+        "mãe",
+        "chama-se",
+        "Rosa"
+       ],
+       "accepted": [
+        "Minha mãe chama-se Rosa."
+       ],
+       "words": [
+        "mãe"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tenho uma irmã.",
+       "translation": "I have a sister.",
+       "answers": [
+        "Tenho uma irmã."
+       ],
+       "words": [
+        "um",
+        "irmã"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "O meu pai é alto.",
+       "promptLang": "target",
+       "tiles": [
+        "My",
+        "brother",
+        "are",
+        "father",
+        "tall",
+        "is",
+        "you"
+       ],
+       "answer": [
+        "My",
+        "father",
+        "is",
+        "tall"
+       ],
+       "accepted": [
+        "My dad is tall."
+       ],
+       "words": [
+        "pai"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "A minha mãe chama-se Rosa.",
+       "promptLang": "target",
+       "answers": [
+        "My mother is called Rosa.",
+        "My mother's name is Rosa.",
+        "My mum is called Rosa.",
+        "My mom is called Rosa.",
+        "My mum's name is Rosa.",
+        "My mom's name is Rosa."
+       ],
+       "words": [
+        "mãe"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "filho",
+       "promptLang": "target",
+       "options": [
+        "Family",
+        "Son",
+        "Mother",
+        "Father"
+       ],
+       "answer": "Son",
+       "words": [
+        "filho"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "filha",
+       "words": [
+        "filha"
+       ],
+       "options": [
+        "filha",
+        "irmão",
+        "avó",
+        "filho"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "avó",
+       "promptLang": "target",
+       "options": [
+        "Grandmother",
+        "Mother",
+        "Sister",
+        "Family"
+       ],
+       "answer": "Grandmother",
+       "words": [
+        "avó"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Grandfather",
+       "promptLang": "en",
+       "answer": "avô",
+       "words": [
+        "avô"
+       ],
+       "options": [
+        "filho",
+        "filha",
+        "mãe",
+        "avô"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "filho",
+         "Son"
+        ],
+        [
+         "filha",
+         "Daughter"
+        ],
+        [
+         "avó",
+         "Grandmother"
+        ],
+        [
+         "avô",
+         "Grandfather"
+        ]
+       ],
+       "words": [
+        "filho",
+        "filha",
+        "avó",
+        "avô"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "They are my grandparents.",
+       "promptLang": "en",
+       "tiles": [
+        "família",
+        "Eles",
+        "mãe",
+        "os",
+        "meus",
+        "filho",
+        "são",
+        "avós"
+       ],
+       "answer": [
+        "Eles",
+        "são",
+        "os",
+        "meus",
+        "avós"
+       ],
+       "accepted": [
+        "São os meus avós.",
+        "Eles são meus avós."
+       ],
+       "words": [
+        "Eles são os meus avós."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "O meu irmão tem um filho.",
+       "promptLang": "target",
+       "tiles": [
+        "brother",
+        "is",
+        "a",
+        "children",
+        "My",
+        "has",
+        "grandparents",
+        "son"
+       ],
+       "answer": [
+        "My",
+        "brother",
+        "has",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "My brother has one son."
+       ],
+       "words": [
+        "um",
+        "irmão",
+        "filho"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Eles são os meus avós.",
+       "translation": "They are my grandparents.",
+       "answers": [
+        "Eles são os meus avós."
+       ],
+       "words": [
+        "Eles são os meus avós."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "A minha família é grande.",
+       "promptLang": "target",
+       "answers": [
+        "My family is big.",
+        "My family is large."
+       ],
+       "words": [
+        "família"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Mother",
+       "promptLang": "en",
+       "answers": [
+        "mãe"
+       ],
+       "words": [
+        "mãe"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tens filhos?",
+       "promptLang": "target",
+       "options": [
+        "I have a sister.",
+        "My brother has a son.",
+        "My family is big.",
+        "Do you have children?"
+       ],
+       "answer": "Do you have children?",
+       "words": [
+        "Tens filhos?"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "família",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Grandmother",
+        "Family",
+        "Grandfather"
+       ],
+       "answer": "Family",
+       "words": [
+        "família"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "avó",
+         "Grandmother"
+        ],
+        [
+         "mãe",
+         "Mother"
+        ],
+        [
+         "irmão",
+         "Brother"
+        ],
+        [
+         "filho",
+         "Son"
+        ],
+        [
+         "avô",
+         "Grandfather"
+        ]
+       ],
+       "words": [
+        "avó",
+        "mãe",
+        "irmão",
+        "filho",
+        "avô"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Do you have children?",
+       "promptLang": "en",
+       "tiles": [
+        "Tens",
+        "filhos",
+        "é",
+        "um",
+        "avós"
+       ],
+       "answer": [
+        "Tens",
+        "filhos"
+       ],
+       "accepted": [
+        "Tem filhos?"
+       ],
+       "words": [
+        "Tens filhos?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tenho uma irmã.",
+       "promptLang": "target",
+       "tiles": [
+        "sister",
+        "are",
+        "called",
+        "a",
+        "I",
+        "have",
+        "big"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "sister"
+       ],
+       "accepted": [
+        "I have one sister."
+       ],
+       "words": [
+        "um",
+        "irmã"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "A minha família é grande.",
+       "translation": "My family is big.",
+       "answers": [
+        "A minha família é grande."
+       ],
+       "words": [
+        "família"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "My brother has a son.",
+       "promptLang": "en",
+       "answers": [
+        "O meu irmão tem um filho.",
+        "Meu irmão tem um filho."
+       ],
+       "words": [
+        "um",
+        "irmão",
+        "filho"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "O meu pai é alto.",
+       "promptLang": "target",
+       "answers": [
+        "My father is tall.",
+        "My dad is tall."
+       ],
+       "words": [
+        "pai"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Family",
+       "promptLang": "en",
+       "answers": [
+        "família"
+       ],
+       "words": [
+        "família"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "My family is big.",
+       "promptLang": "en",
+       "tiles": [
+        "filhos",
+        "família",
+        "irmã",
+        "minha",
+        "A",
+        "grande",
+        "meus",
+        "é"
+       ],
+       "answer": [
+        "A",
+        "minha",
+        "família",
+        "é",
+        "grande"
+       ],
+       "accepted": [
+        "Minha família é grande."
+       ],
+       "words": [
+        "família"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "A minha mãe chama-se Rosa.",
+       "promptLang": "target",
+       "options": [
+        "My father is tall.",
+        "I have a sister.",
+        "My family is big.",
+        "My mother is called Rosa."
+       ],
+       "answer": "My mother is called Rosa.",
+       "words": [
+        "mãe"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mãe",
+         "Mother"
+        ],
+        [
+         "filha",
+         "Daughter"
+        ],
+        [
+         "filho",
+         "Son"
+        ],
+        [
+         "irmã",
+         "Sister"
+        ]
+       ],
+       "words": [
+        "mãe",
+        "filha",
+        "filho",
+        "irmã"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Grandfather",
+       "promptLang": "en",
+       "answer": "avô",
+       "words": [
+        "avô"
+       ],
+       "options": [
+        "filha",
+        "avô",
+        "filho",
+        "pai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "My father is tall.",
+       "promptLang": "en",
+       "tiles": [
+        "O",
+        "avós",
+        "meu",
+        "chama-se",
+        "é",
+        "meus",
+        "pai",
+        "alto"
+       ],
+       "answer": [
+        "O",
+        "meu",
+        "pai",
+        "é",
+        "alto"
+       ],
+       "accepted": [
+        "Meu pai é alto."
+       ],
+       "words": [
+        "pai"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tens filhos?",
+       "translation": "Do you have children?",
+       "answers": [
+        "Tens filhos?"
+       ],
+       "words": [
+        "Tens filhos?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Eles são os meus avós.",
+       "promptLang": "target",
+       "tiles": [
+        "father",
+        "are",
+        "my",
+        "grandparents",
+        "brother",
+        "mother",
+        "They"
+       ],
+       "answer": [
+        "They",
+        "are",
+        "my",
+        "grandparents"
+       ],
+       "accepted": [],
+       "words": [
+        "Eles são os meus avós."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Family",
+       "promptLang": "en",
+       "answers": [
+        "família"
+       ],
+       "words": [
+        "família"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tenho uma irmã.",
+       "promptLang": "target",
+       "answers": [
+        "I have a sister.",
+        "I have one sister."
+       ],
+       "words": [
+        "um",
+        "irmã"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "O meu irmão tem um filho.",
+       "translation": "My brother has a son.",
+       "answers": [
+        "O meu irmão tem um filho."
+       ],
+       "words": [
+        "um",
+        "irmão",
+        "filho"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Getting around",
+   "description": "Travel basics, ordering at a café, and days of the week.",
+   "icon": "train",
+   "tip": "European Portuguese has its own travel words: a train is 'o comboio' and a bus is 'o autocarro'.",
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "comboio",
+       "promptLang": "target",
+       "options": [
+        "Map",
+        "Train",
+        "Station",
+        "Street"
+       ],
+       "answer": "Train",
+       "words": [
+        "comboio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "autocarro",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Map",
+        "Bus",
+        "Airport"
+       ],
+       "answer": "Bus",
+       "words": [
+        "autocarro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "aeroporto",
+       "words": [
+        "aeroporto"
+       ],
+       "options": [
+        "bilhete",
+        "estação",
+        "aeroporto",
+        "comboio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "estação",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Station",
+        "Street",
+        "Hotel"
+       ],
+       "answer": "Station",
+       "words": [
+        "estação"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "comboio",
+         "Train"
+        ],
+        [
+         "autocarro",
+         "Bus"
+        ],
+        [
+         "aeroporto",
+         "Airport"
+        ],
+        [
+         "estação",
+         "Station"
+        ]
+       ],
+       "words": [
+        "comboio",
+        "autocarro",
+        "aeroporto",
+        "estação"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Where is the station?",
+       "promptLang": "en",
+       "tiles": [
+        "Onde",
+        "a",
+        "favor",
+        "de",
+        "é",
+        "mapa",
+        "estação"
+       ],
+       "answer": [
+        "Onde",
+        "é",
+        "a",
+        "estação"
+       ],
+       "accepted": [
+        "Onde fica a estação?",
+        "Onde está a estação?"
+       ],
+       "words": [
+        "estação"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Um bilhete, por favor.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Um bilhete, por favor."
+       ],
+       "words": [
+        "por favor",
+        "um",
+        "bilhete"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "O comboio parte às oito.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "The",
+        "ticket",
+        "hotel",
+        "leaves",
+        "eight",
+        "train",
+        "at"
+       ],
+       "answer": [
+        "The",
+        "train",
+        "leaves",
+        "at",
+        "eight"
+       ],
+       "accepted": [
+        "The train leaves at eight o'clock.",
+        "The train leaves at 8.",
+        "The train departs at eight.",
+        "The train departs at 8."
+       ],
+       "words": [
+        "oito",
+        "comboio"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Onde é a estação?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the station?"
+       ],
+       "words": [
+        "estação"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bilhete",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Map",
+        "Station",
+        "Ticket"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "bilhete"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answer": "hotel",
+       "words": [
+        "hotel"
+       ],
+       "options": [
+        "hotel",
+        "bilhete",
+        "mapa",
+        "estação"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "rua",
+       "promptLang": "target",
+       "options": [
+        "Map",
+        "Street",
+        "Station",
+        "Ticket"
+       ],
+       "answer": "Street",
+       "words": [
+        "rua"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Map",
+       "promptLang": "en",
+       "answer": "mapa",
+       "words": [
+        "mapa"
+       ],
+       "options": [
+        "bilhete",
+        "mapa",
+        "hotel",
+        "estação"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bilhete",
+         "Ticket"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "rua",
+         "Street"
+        ],
+        [
+         "mapa",
+         "Map"
+        ]
+       ],
+       "words": [
+        "bilhete",
+        "hotel",
+        "rua",
+        "mapa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "às",
+        "bilhete",
+        "para",
+        "perto",
+        "Vou",
+        "aeroporto",
+        "o"
+       ],
+       "answer": [
+        "Vou",
+        "para",
+        "o",
+        "aeroporto"
+       ],
+       "accepted": [
+        "Vou ao aeroporto.",
+        "Eu vou para o aeroporto."
+       ],
+       "words": [
+        "aeroporto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "O hotel fica perto.",
+       "promptLang": "target",
+       "tiles": [
+        "need",
+        "does",
+        "is",
+        "The",
+        "leave",
+        "hotel",
+        "near"
+       ],
+       "answer": [
+        "The",
+        "hotel",
+        "is",
+        "near"
+       ],
+       "accepted": [
+        "The hotel is nearby.",
+        "The hotel is close.",
+        "The hotel is close by."
+       ],
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Vou para o aeroporto.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Vou para o aeroporto."
+       ],
+       "words": [
+        "aeroporto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Preciso de um mapa.",
+       "promptLang": "target",
+       "answers": [
+        "I need a map."
+       ],
+       "words": [
+        "um",
+        "mapa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Train",
+       "promptLang": "en",
+       "answers": [
+        "comboio"
+       ],
+       "words": [
+        "comboio"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "A que horas parte o autocarro?",
+       "promptLang": "target",
+       "options": [
+        "What time does the bus leave?",
+        "The hotel is near.",
+        "The train leaves at eight.",
+        "I need a map."
+       ],
+       "answer": "What time does the bus leave?",
+       "words": [
+        "autocarro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "autocarro",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Bus",
+        "Airport",
+        "Station"
+       ],
+       "answer": "Bus",
+       "words": [
+        "autocarro"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "aeroporto",
+         "Airport"
+        ],
+        [
+         "rua",
+         "Street"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "estação",
+         "Station"
+        ],
+        [
+         "bilhete",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "aeroporto",
+        "rua",
+        "hotel",
+        "estação",
+        "bilhete"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "What time does the bus leave?",
+       "promptLang": "en",
+       "tiles": [
+        "fica",
+        "parte",
+        "que",
+        "horas",
+        "comboio",
+        "autocarro",
+        "bilhete",
+        "o",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "que",
+        "horas",
+        "parte",
+        "o",
+        "autocarro"
+       ],
+       "accepted": [
+        "A que horas sai o autocarro?"
+       ],
+       "words": [
+        "autocarro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Um bilhete, por favor.",
+       "promptLang": "target",
+       "tiles": [
+        "A",
+        "airport",
+        "going",
+        "please",
+        "need",
+        "ticket"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "por favor",
+        "um",
+        "bilhete"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Preciso de um mapa.",
+       "translation": "I need a map.",
+       "answers": [
+        "Preciso de um mapa."
+       ],
+       "words": [
+        "um",
+        "mapa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "The hotel is near.",
+       "promptLang": "en",
+       "answers": [
+        "O hotel fica perto.",
+        "O hotel é perto.",
+        "O hotel está perto."
+       ],
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "O comboio parte às oito.",
+       "promptLang": "target",
+       "answers": [
+        "The train leaves at eight.",
+        "The train leaves at eight o'clock.",
+        "The train leaves at 8.",
+        "The train departs at eight.",
+        "The train departs at 8."
+       ],
+       "words": [
+        "oito",
+        "comboio"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Bus",
+       "promptLang": "en",
+       "answers": [
+        "autocarro"
+       ],
+       "words": [
+        "autocarro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I need a map.",
+       "promptLang": "en",
+       "tiles": [
+        "oito",
+        "Preciso",
+        "mapa",
+        "O",
+        "às",
+        "um",
+        "de"
+       ],
+       "answer": [
+        "Preciso",
+        "de",
+        "um",
+        "mapa"
+       ],
+       "accepted": [
+        "Eu preciso de um mapa."
+       ],
+       "words": [
+        "um",
+        "mapa"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Onde é a estação?",
+       "promptLang": "target",
+       "options": [
+        "Where is the station?",
+        "A ticket, please.",
+        "What time does the bus leave?",
+        "I need a map."
+       ],
+       "answer": "Where is the station?",
+       "words": [
+        "estação"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mapa",
+         "Map"
+        ],
+        [
+         "aeroporto",
+         "Airport"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "estação",
+         "Station"
+        ]
+       ],
+       "words": [
+        "mapa",
+        "aeroporto",
+        "hotel",
+        "estação"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Ticket",
+       "promptLang": "en",
+       "answer": "bilhete",
+       "words": [
+        "bilhete"
+       ],
+       "options": [
+        "autocarro",
+        "estação",
+        "hotel",
+        "bilhete"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "The train leaves at eight.",
+       "promptLang": "en",
+       "tiles": [
+        "comboio",
+        "Vou",
+        "fica",
+        "às",
+        "parte",
+        "oito",
+        "que",
+        "O"
+       ],
+       "answer": [
+        "O",
+        "comboio",
+        "parte",
+        "às",
+        "oito"
+       ],
+       "accepted": [
+        "O comboio sai às oito."
+       ],
+       "words": [
+        "oito",
+        "comboio"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "A que horas parte o autocarro?",
+       "translation": "What time does the bus leave?",
+       "answers": [
+        "A que horas parte o autocarro?"
+       ],
+       "words": [
+        "autocarro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Vou para o aeroporto.",
+       "promptLang": "target",
+       "tiles": [
+        "airport",
+        "need",
+        "the",
+        "I",
+        "leaves",
+        "going",
+        "am",
+        "ticket",
+        "to"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "going",
+        "to",
+        "the",
+        "airport"
+       ],
+       "accepted": [
+        "I go to the airport."
+       ],
+       "words": [
+        "aeroporto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Street",
+       "promptLang": "en",
+       "answers": [
+        "rua"
+       ],
+       "words": [
+        "rua"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Um bilhete, por favor.",
+       "promptLang": "target",
+       "answers": [
+        "A ticket, please.",
+        "One ticket, please."
+       ],
+       "words": [
+        "por favor",
+        "um",
+        "bilhete"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "O hotel fica perto.",
+       "translation": "The hotel is near.",
+       "answers": [
+        "O hotel fica perto."
+       ],
+       "words": [
+        "hotel"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u8",
+   "title": "At the café",
+   "description": "Travel basics, ordering at a café, and days of the week.",
+   "icon": "fork",
+   "tip": "'Queria' (I would like) is a polite way to order in Portugal. A menu is 'a ementa'.",
+   "lessons": [
+    {
+     "id": "u8l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "empregado",
+       "promptLang": "target",
+       "options": [
+        "Table",
+        "Tea",
+        "Beer",
+        "Waiter"
+       ],
+       "answer": "Waiter",
+       "words": [
+        "empregado"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "conta",
+       "promptLang": "target",
+       "options": [
+        "Bill",
+        "Wine",
+        "Tea",
+        "Waiter"
+       ],
+       "answer": "Bill",
+       "words": [
+        "conta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Menu",
+       "promptLang": "en",
+       "answer": "ementa",
+       "words": [
+        "ementa"
+       ],
+       "options": [
+        "cerveja",
+        "ementa",
+        "mesa",
+        "conta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "chá",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Bill",
+        "Wine",
+        "Beer"
+       ],
+       "answer": "Tea",
+       "words": [
+        "chá"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "empregado",
+         "Waiter"
+        ],
+        [
+         "conta",
+         "Bill"
+        ],
+        [
+         "ementa",
+         "Menu"
+        ],
+        [
+         "chá",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "empregado",
+        "conta",
+        "ementa",
+        "chá"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "A coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Um",
+        "custa",
+        "Queria",
+        "café",
+        "vinho",
+        "favor",
+        "por"
+       ],
+       "answer": [
+        "Um",
+        "café",
+        "por",
+        "favor"
+       ],
+       "accepted": [],
+       "words": [
+        "por favor",
+        "um",
+        "café"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "A conta, por favor.",
+       "translation": "The bill, please.",
+       "answers": [
+        "A conta, por favor."
+       ],
+       "words": [
+        "por favor",
+        "conta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Uma mesa para dois.",
+       "promptLang": "target",
+       "tiles": [
+        "A",
+        "table",
+        "for",
+        "coffee",
+        "me",
+        "two",
+        "bill"
+       ],
+       "answer": [
+        "A",
+        "table",
+        "for",
+        "two"
+       ],
+       "accepted": [],
+       "words": [
+        "um",
+        "dois",
+        "mesa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Um café, por favor.",
+       "promptLang": "target",
+       "answers": [
+        "A coffee, please.",
+        "One coffee, please."
+       ],
+       "words": [
+        "por favor",
+        "um",
+        "café"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u8l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cerveja",
+       "promptLang": "target",
+       "options": [
+        "Table",
+        "Beer",
+        "Wine",
+        "Tea"
+       ],
+       "answer": "Beer",
+       "words": [
+        "cerveja"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Wine",
+       "promptLang": "en",
+       "answer": "vinho",
+       "words": [
+        "vinho"
+       ],
+       "options": [
+        "conta",
+        "sumo",
+        "vinho",
+        "chá"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mesa",
+       "promptLang": "target",
+       "options": [
+        "Wine",
+        "Bill",
+        "Beer",
+        "Table"
+       ],
+       "answer": "Table",
+       "words": [
+        "mesa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Juice",
+       "promptLang": "en",
+       "answer": "sumo",
+       "words": [
+        "sumo"
+       ],
+       "options": [
+        "empregado",
+        "sumo",
+        "chá",
+        "mesa"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cerveja",
+         "Beer"
+        ],
+        [
+         "vinho",
+         "Wine"
+        ],
+        [
+         "mesa",
+         "Table"
+        ],
+        [
+         "sumo",
+         "Juice"
+        ]
+       ],
+       "words": [
+        "cerveja",
+        "vinho",
+        "mesa",
+        "sumo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I would like a tea with milk.",
+       "promptLang": "en",
+       "tiles": [
+        "com",
+        "bom",
+        "chá",
+        "por",
+        "Queria",
+        "mesa",
+        "leite",
+        "um"
+       ],
+       "answer": [
+        "Queria",
+        "um",
+        "chá",
+        "com",
+        "leite"
+       ],
+       "accepted": [
+        "Quero um chá com leite."
+       ],
+       "words": [
+        "um",
+        "leite",
+        "chá"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quanto custa?",
+       "promptLang": "target",
+       "tiles": [
+        "much",
+        "two",
+        "How",
+        "The",
+        "is",
+        "it",
+        "I"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?"
+       ],
+       "words": [
+        "Quanto custa?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Queria um chá com leite.",
+       "translation": "I would like a tea with milk.",
+       "answers": [
+        "Queria um chá com leite."
+       ],
+       "words": [
+        "um",
+        "leite",
+        "chá"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "O vinho é muito bom.",
+       "promptLang": "target",
+       "answers": [
+        "The wine is very good."
+       ],
+       "words": [
+        "vinho"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Waiter",
+       "promptLang": "en",
+       "answers": [
+        "empregado"
+       ],
+       "words": [
+        "empregado"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u8l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Para mim, uma cerveja.",
+       "promptLang": "target",
+       "options": [
+        "The bill, please.",
+        "For me, a beer.",
+        "The wine is very good.",
+        "How much is it?"
+       ],
+       "answer": "For me, a beer.",
+       "words": [
+        "um",
+        "cerveja"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "conta",
+       "promptLang": "target",
+       "options": [
+        "Bill",
+        "Waiter",
+        "Juice",
+        "Table"
+       ],
+       "answer": "Bill",
+       "words": [
+        "conta"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mesa",
+         "Table"
+        ],
+        [
+         "chá",
+         "Tea"
+        ],
+        [
+         "sumo",
+         "Juice"
+        ],
+        [
+         "vinho",
+         "Wine"
+        ],
+        [
+         "cerveja",
+         "Beer"
+        ]
+       ],
+       "words": [
+        "mesa",
+        "chá",
+        "sumo",
+        "vinho",
+        "cerveja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "For me, a beer.",
+       "promptLang": "en",
+       "tiles": [
+        "cerveja",
+        "por",
+        "conta",
+        "Para",
+        "uma",
+        "muito",
+        "mim"
+       ],
+       "answer": [
+        "Para",
+        "mim",
+        "uma",
+        "cerveja"
+       ],
+       "accepted": [],
+       "words": [
+        "um",
+        "cerveja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "A conta, por favor.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "wine",
+        "two",
+        "The",
+        "it",
+        "bill"
+       ],
+       "answer": [
+        "The",
+        "bill",
+        "please"
+       ],
+       "accepted": [
+        "The check, please."
+       ],
+       "words": [
+        "por favor",
+        "conta"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "O vinho é muito bom.",
+       "translation": "The wine is very good.",
+       "answers": [
+        "O vinho é muito bom."
+       ],
+       "words": [
+        "vinho"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "How much is it?",
+       "promptLang": "en",
+       "answers": [
+        "Quanto custa?",
+        "Quanto é?"
+       ],
+       "words": [
+        "Quanto custa?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Uma mesa para dois.",
+       "promptLang": "target",
+       "answers": [
+        "A table for two."
+       ],
+       "words": [
+        "um",
+        "dois",
+        "mesa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Bill",
+       "promptLang": "en",
+       "answers": [
+        "conta"
+       ],
+       "words": [
+        "conta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "The wine is very good.",
+       "promptLang": "en",
+       "tiles": [
+        "mesa",
+        "O",
+        "é",
+        "bom",
+        "com",
+        "vinho",
+        "muito",
+        "mim"
+       ],
+       "answer": [
+        "O",
+        "vinho",
+        "é",
+        "muito",
+        "bom"
+       ],
+       "accepted": [],
+       "words": [
+        "vinho"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u8l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Um café, por favor.",
+       "promptLang": "target",
+       "options": [
+        "I would like a tea with milk.",
+        "The bill, please.",
+        "The wine is very good.",
+        "A coffee, please."
+       ],
+       "answer": "A coffee, please.",
+       "words": [
+        "por favor",
+        "um",
+        "café"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vinho",
+         "Wine"
+        ],
+        [
+         "cerveja",
+         "Beer"
+        ],
+        [
+         "ementa",
+         "Menu"
+        ],
+        [
+         "chá",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "vinho",
+        "cerveja",
+        "ementa",
+        "chá"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Juice",
+       "promptLang": "en",
+       "answer": "sumo",
+       "words": [
+        "sumo"
+       ],
+       "options": [
+        "conta",
+        "mesa",
+        "sumo",
+        "vinho"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "A table for two.",
+       "promptLang": "en",
+       "tiles": [
+        "dois",
+        "Quanto",
+        "para",
+        "O",
+        "mesa",
+        "Uma",
+        "conta"
+       ],
+       "answer": [
+        "Uma",
+        "mesa",
+        "para",
+        "dois"
+       ],
+       "accepted": [],
+       "words": [
+        "um",
+        "dois",
+        "mesa"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Para mim, uma cerveja.",
+       "translation": "For me, a beer.",
+       "answers": [
+        "Para mim, uma cerveja."
+       ],
+       "words": [
+        "um",
+        "cerveja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Queria um chá com leite.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "two",
+        "I",
+        "tea",
+        "would",
+        "a",
+        "good",
+        "with",
+        "milk",
+        "like"
+       ],
+       "answer": [
+        "I",
+        "would",
+        "like",
+        "a",
+        "tea",
+        "with",
+        "milk"
+       ],
+       "accepted": [
+        "I would like tea with milk.",
+        "I want a tea with milk.",
+        "I want tea with milk."
+       ],
+       "words": [
+        "um",
+        "leite",
+        "chá"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Waiter",
+       "promptLang": "en",
+       "answers": [
+        "empregado"
+       ],
+       "words": [
+        "empregado"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "A conta, por favor.",
+       "promptLang": "target",
+       "answers": [
+        "The bill, please.",
+        "The check, please."
+       ],
+       "words": [
+        "por favor",
+        "conta"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quanto custa?",
+       "translation": "How much is it?",
+       "answers": [
+        "Quanto custa?"
+       ],
+       "words": [
+        "Quanto custa?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u9",
+   "title": "Days and time",
+   "description": "Travel basics, ordering at a café, and days of the week.",
+   "icon": "calendar",
+   "tip": "Weekdays are numbered: 'segunda-feira' is Monday (the 'second day'). People often shorten them: 'segunda', 'terça'…",
+   "lessons": [
+    {
+     "id": "u9l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "segunda-feira",
+       "promptLang": "target",
+       "options": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+       ],
+       "answer": "Monday",
+       "words": [
+        "segunda-feira"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "terça-feira",
+       "promptLang": "target",
+       "options": [
+        "Sunday",
+        "Monday",
+        "Saturday",
+        "Tuesday"
+       ],
+       "answer": "Tuesday",
+       "words": [
+        "terça-feira"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Wednesday",
+       "promptLang": "en",
+       "answer": "quarta-feira",
+       "words": [
+        "quarta-feira"
+       ],
+       "options": [
+        "sábado",
+        "domingo",
+        "quarta-feira",
+        "segunda-feira"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "quinta-feira",
+       "promptLang": "target",
+       "options": [
+        "Thursday",
+        "Monday",
+        "Sunday",
+        "Tomorrow"
+       ],
+       "answer": "Thursday",
+       "words": [
+        "quinta-feira"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "segunda-feira",
+         "Monday"
+        ],
+        [
+         "terça-feira",
+         "Tuesday"
+        ],
+        [
+         "quarta-feira",
+         "Wednesday"
+        ],
+        [
+         "quinta-feira",
+         "Thursday"
+        ]
+       ],
+       "words": [
+        "segunda-feira",
+        "terça-feira",
+        "quarta-feira",
+        "quinta-feira"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "na",
+        "tem",
+        "segunda-feira",
+        "Hoje",
+        "é",
+        "horas"
+       ],
+       "answer": [
+        "Hoje",
+        "é",
+        "segunda-feira"
+       ],
+       "accepted": [
+        "Hoje é segunda."
+       ],
+       "words": [
+        "segunda-feira",
+        "hoje"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Amanhã é sábado.",
+       "translation": "Tomorrow is Saturday.",
+       "answers": [
+        "Amanhã é sábado."
+       ],
+       "words": [
+        "sábado",
+        "amanhã"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Trabalho na sexta-feira.",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "seven",
+        "work",
+        "What",
+        "I",
+        "on",
+        "Friday"
+       ],
+       "answer": [
+        "I",
+        "work",
+        "on",
+        "Friday"
+       ],
+       "accepted": [
+        "I am working on Friday.",
+        "I work Friday.",
+        "I am working Friday."
+       ],
+       "words": [
+        "sexta-feira"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hoje é segunda-feira.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "segunda-feira",
+        "hoje"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u9l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sexta-feira",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "Friday",
+        "Monday",
+        "Wednesday"
+       ],
+       "answer": "Friday",
+       "words": [
+        "sexta-feira"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Saturday",
+       "promptLang": "en",
+       "answer": "sábado",
+       "words": [
+        "sábado"
+       ],
+       "options": [
+        "terça-feira",
+        "sábado",
+        "hoje",
+        "sexta-feira"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "domingo",
+       "promptLang": "target",
+       "options": [
+        "Monday",
+        "Sunday",
+        "Week",
+        "Wednesday"
+       ],
+       "answer": "Sunday",
+       "words": [
+        "domingo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answer": "hoje",
+       "words": [
+        "hoje"
+       ],
+       "options": [
+        "quinta-feira",
+        "hoje",
+        "domingo",
+        "semana"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "sexta-feira",
+         "Friday"
+        ],
+        [
+         "sábado",
+         "Saturday"
+        ],
+        [
+         "domingo",
+         "Sunday"
+        ],
+        [
+         "hoje",
+         "Today"
+        ]
+       ],
+       "words": [
+        "sexta-feira",
+        "sábado",
+        "domingo",
+        "hoje"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "What time is it?",
+       "promptLang": "en",
+       "tiles": [
+        "horas",
+        "hora",
+        "domingo",
+        "são",
+        "Que",
+        "sábado"
+       ],
+       "answer": [
+        "Que",
+        "horas",
+        "são"
+       ],
+       "accepted": [],
+       "words": [
+        "Que horas são?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "É uma hora.",
+       "promptLang": "target",
+       "tiles": [
+        "on",
+        "one",
+        "is",
+        "What",
+        "o'clock",
+        "It",
+        "has"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "one",
+        "o'clock"
+       ],
+       "accepted": [
+        "It is one.",
+        "It is 1 o'clock.",
+        "It is 1."
+       ],
+       "words": [
+        "um"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Que horas são?",
+       "translation": "What time is it?",
+       "answers": [
+        "Que horas são?"
+       ],
+       "words": [
+        "Que horas são?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Até domingo.",
+       "promptLang": "target",
+       "answers": [
+        "See you on Sunday.",
+        "See you Sunday.",
+        "Until Sunday."
+       ],
+       "words": [
+        "domingo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Monday",
+       "promptLang": "en",
+       "answers": [
+        "segunda-feira",
+        "segunda"
+       ],
+       "words": [
+        "segunda-feira"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u9l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "A semana tem sete dias.",
+       "promptLang": "target",
+       "options": [
+        "Today is Monday.",
+        "It is one o'clock.",
+        "The week has seven days.",
+        "What time is it?"
+       ],
+       "answer": "The week has seven days.",
+       "words": [
+        "sete",
+        "semana"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "amanhã",
+       "promptLang": "target",
+       "options": [
+        "Friday",
+        "Tomorrow",
+        "Sunday",
+        "Week"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "amanhã"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "amanhã",
+         "Tomorrow"
+        ],
+        [
+         "quinta-feira",
+         "Thursday"
+        ],
+        [
+         "quarta-feira",
+         "Wednesday"
+        ],
+        [
+         "sábado",
+         "Saturday"
+        ],
+        [
+         "segunda-feira",
+         "Monday"
+        ]
+       ],
+       "words": [
+        "amanhã",
+        "quinta-feira",
+        "quarta-feira",
+        "sábado",
+        "segunda-feira"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "The week has seven days.",
+       "promptLang": "en",
+       "tiles": [
+        "tem",
+        "semana",
+        "dias",
+        "hora",
+        "sete",
+        "Até",
+        "A",
+        "Hoje"
+       ],
+       "answer": [
+        "A",
+        "semana",
+        "tem",
+        "sete",
+        "dias"
+       ],
+       "accepted": [],
+       "words": [
+        "sete",
+        "semana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Amanhã é sábado.",
+       "promptLang": "target",
+       "tiles": [
+        "work",
+        "Saturday",
+        "is",
+        "Tomorrow",
+        "on",
+        "What"
+       ],
+       "answer": [
+        "Tomorrow",
+        "is",
+        "Saturday"
+       ],
+       "accepted": [],
+       "words": [
+        "sábado",
+        "amanhã"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Até domingo.",
+       "translation": "See you on Sunday.",
+       "answers": [
+        "Até domingo."
+       ],
+       "words": [
+        "domingo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "It is one o'clock.",
+       "promptLang": "en",
+       "answers": [
+        "É uma hora.",
+        "É uma."
+       ],
+       "words": [
+        "um"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Trabalho na sexta-feira.",
+       "promptLang": "target",
+       "answers": [
+        "I work on Friday.",
+        "I am working on Friday.",
+        "I work Friday.",
+        "I am working Friday."
+       ],
+       "words": [
+        "sexta-feira"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Week",
+       "promptLang": "en",
+       "answers": [
+        "semana"
+       ],
+       "words": [
+        "semana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "See you on Sunday.",
+       "promptLang": "en",
+       "tiles": [
+        "Hoje",
+        "semana",
+        "Até",
+        "horas",
+        "domingo"
+       ],
+       "answer": [
+        "Até",
+        "domingo"
+       ],
+       "accepted": [],
+       "words": [
+        "domingo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u9l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Hoje é segunda-feira.",
+       "promptLang": "target",
+       "options": [
+        "It is one o'clock.",
+        "Today is Monday.",
+        "What time is it?",
+        "I work on Friday."
+       ],
+       "answer": "Today is Monday.",
+       "words": [
+        "segunda-feira",
+        "hoje"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "quarta-feira",
+         "Wednesday"
+        ],
+        [
+         "amanhã",
+         "Tomorrow"
+        ],
+        [
+         "hoje",
+         "Today"
+        ],
+        [
+         "sábado",
+         "Saturday"
+        ]
+       ],
+       "words": [
+        "quarta-feira",
+        "amanhã",
+        "hoje",
+        "sábado"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Week",
+       "promptLang": "en",
+       "answer": "semana",
+       "words": [
+        "semana"
+       ],
+       "options": [
+        "hoje",
+        "terça-feira",
+        "semana",
+        "sexta-feira"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Portuguese",
+       "prompt": "I work on Friday.",
+       "promptLang": "en",
+       "tiles": [
+        "sábado",
+        "sexta-feira",
+        "Trabalho",
+        "é",
+        "na",
+        "Amanhã"
+       ],
+       "answer": [
+        "Trabalho",
+        "na",
+        "sexta-feira"
+       ],
+       "accepted": [
+        "Trabalho na sexta.",
+        "Eu trabalho na sexta-feira."
+       ],
+       "words": [
+        "sexta-feira"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "A semana tem sete dias.",
+       "translation": "The week has seven days.",
+       "answers": [
+        "A semana tem sete dias."
+       ],
+       "words": [
+        "sete",
+        "semana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Que horas são?",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "it",
+        "is",
+        "The",
+        "What",
+        "time",
+        "on"
+       ],
+       "answer": [
+        "What",
+        "time",
+        "is",
+        "it"
+       ],
+       "accepted": [],
+       "words": [
+        "Que horas são?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Portuguese",
+       "prompt": "Monday",
+       "promptLang": "en",
+       "answers": [
+        "segunda-feira",
+        "segunda"
+       ],
+       "words": [
+        "segunda-feira"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Amanhã é sábado.",
+       "promptLang": "target",
+       "answers": [
+        "Tomorrow is Saturday."
+       ],
+       "words": [
+        "sábado",
+        "amanhã"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "É uma hora.",
+       "translation": "It is one o'clock.",
+       "answers": [
+        "É uma hora."
+       ],
+       "words": [
+        "um"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

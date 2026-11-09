@@ -94,7 +94,7 @@ export default function Profile({ user, todayXp, stats }) {
                 Lessons: {c.doneLessons} / {c.totalLessons}
                 <br />
                 <span className="crowns">
-                  <Icon name="crown" /> {c.crowns} / {c.maxCrowns}
+                  <Icon name="trophy" /> Units finished: {c.unitsDone} / {c.totalUnits}
                 </span>
                 <br />
                 Words seen: {c.wordsLearned} · needing practice: {c.weakWords}

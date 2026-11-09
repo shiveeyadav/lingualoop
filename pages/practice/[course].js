@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import LessonPlayer from '../../components/LessonPlayer';
 import { loadUser } from '../../lib/ssr';
-import { getCourse } from '../../lib/content';
+import { getCourse, courseClientInfo } from '../../lib/content';
 import { buildPractice } from '../../lib/progress';
 import { prepareExercise } from '../../lib/prepare';
 
@@ -17,7 +17,7 @@ export async function getServerSideProps(ctx) {
     props: {
       user: r.user,
       todayXp: r.todayXp,
-      course: { id: courseId, title: course.meta.title, shortName: course.meta.shortName, speechLang: course.meta.speechLang },
+      course: courseClientInfo(course),
       weakWords: practice.weakWords,
       items: practice.items.map((it) => ({ lessonId: it.lessonId, index: it.index, exercise: prepareExercise(it.exercise) })),
     },

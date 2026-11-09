@@ -1,0 +1,6690 @@
+{
+ "id": "spanish",
+ "title": "Spanish",
+ "shortName": "Spanish",
+ "nativeName": "Español",
+ "fromLanguage": "en",
+ "speechLang": "es-ES",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [
+  "á",
+  "é",
+  "í",
+  "ó",
+  "ú",
+  "ñ",
+  "ü"
+ ],
+ "order": 10,
+ "description": "Learn everyday Spanish: greetings, numbers, food, family and getting around.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "Use 'buenos días' until lunchtime, 'buenas tardes' in the afternoon and early evening, and 'buenas noches' late in the evening or to say good night.",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hola",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "See you later",
+        "Please",
+        "Hello"
+       ],
+       "answer": "Hello",
+       "words": [
+        "hola"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "adiós",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Hello",
+        "Good morning",
+        "Good night"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "adiós"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "buenos días",
+       "words": [
+        "buenos días"
+       ],
+       "options": [
+        "buenos días",
+        "buenas tardes",
+        "adiós",
+        "gracias"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "buenas tardes",
+       "promptLang": "target",
+       "options": [
+        "Good afternoon",
+        "Goodbye",
+        "Good morning",
+        "See you later"
+       ],
+       "answer": "Good afternoon",
+       "words": [
+        "buenas tardes"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hola",
+         "Hello"
+        ],
+        [
+         "adiós",
+         "Goodbye"
+        ],
+        [
+         "buenos días",
+         "Good morning"
+        ],
+        [
+         "buenas tardes",
+         "Good afternoon"
+        ]
+       ],
+       "words": [
+        "hola",
+        "adiós",
+        "buenos días",
+        "buenas tardes"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Hello, how are you?",
+       "promptLang": "en",
+       "tiles": [
+        "qué",
+        "tal",
+        "Buenos",
+        "Hola",
+        "noches",
+        "bien"
+       ],
+       "answer": [
+        "Hola",
+        "qué",
+        "tal"
+       ],
+       "accepted": [
+        "Hola, ¿cómo estás?"
+       ],
+       "words": [
+        "hola"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Buenos días, señor.",
+       "translation": "Good morning, sir.",
+       "answers": [
+        "Buenos días, señor."
+       ],
+       "words": [
+        "buenos días"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Buenas noches, mamá.",
+       "promptLang": "target",
+       "tiles": [
+        "Goodbye",
+        "Good",
+        "Mum",
+        "you",
+        "well",
+        "night"
+       ],
+       "answer": [
+        "Good",
+        "night",
+        "Mum"
+       ],
+       "accepted": [
+        "Good night, Mom.",
+        "Good evening, Mum.",
+        "Good evening, Mom.",
+        "Good night, Mother."
+       ],
+       "words": [
+        "buenas noches"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hola, ¿qué tal?",
+       "promptLang": "target",
+       "answers": [
+        "Hello, how are you?",
+        "Hi, how are you?",
+        "Hello, how is it going?",
+        "Hi, how is it going?",
+        "Hello, how are things?"
+       ],
+       "words": [
+        "hola"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "buenas noches",
+       "promptLang": "target",
+       "options": [
+        "Good afternoon",
+        "Please",
+        "See you later",
+        "Good night"
+       ],
+       "answer": "Good night",
+       "words": [
+        "buenas noches"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "gracias",
+       "words": [
+        "gracias"
+       ],
+       "options": [
+        "hola",
+        "hasta luego",
+        "por favor",
+        "gracias"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "por favor",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Hello",
+        "Thank you",
+        "Good night"
+       ],
+       "answer": "Please",
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "See you later",
+       "promptLang": "en",
+       "answer": "hasta luego",
+       "words": [
+        "hasta luego"
+       ],
+       "options": [
+        "buenos días",
+        "hasta luego",
+        "por favor",
+        "gracias"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "buenas noches",
+         "Good night"
+        ],
+        [
+         "gracias",
+         "Thank you"
+        ],
+        [
+         "por favor",
+         "Please"
+        ],
+        [
+         "hasta luego",
+         "See you later"
+        ]
+       ],
+       "words": [
+        "buenas noches",
+        "gracias",
+        "por favor",
+        "hasta luego"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Goodbye, see you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "Cómo",
+        "Buenas",
+        "mañana",
+        "hasta",
+        "Hola",
+        "Adiós"
+       ],
+       "answer": [
+        "Adiós",
+        "hasta",
+        "mañana"
+       ],
+       "accepted": [],
+       "words": [
+        "adiós",
+        "mañana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Muy bien, gracias.",
+       "promptLang": "target",
+       "tiles": [
+        "well",
+        "you",
+        "I",
+        "Good",
+        "Very",
+        "thank",
+        "morning"
+       ],
+       "answer": [
+        "Very",
+        "well",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "Very well, thanks.",
+        "Very good, thank you.",
+        "Very good, thanks."
+       ],
+       "words": [
+        "gracias"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Adiós, hasta mañana.",
+       "translation": "Goodbye, see you tomorrow.",
+       "answers": [
+        "Adiós, hasta mañana."
+       ],
+       "words": [
+        "adiós",
+        "mañana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "¿Cómo estás?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?"
+       ],
+       "words": [
+        "¿Cómo estás?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "hola"
+       ],
+       "words": [
+        "hola"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Estoy bien.",
+       "promptLang": "target",
+       "options": [
+        "Hello, how are you?",
+        "Goodbye, see you tomorrow.",
+        "Very well, thank you.",
+        "I am fine."
+       ],
+       "answer": "I am fine.",
+       "words": [
+        "Estoy bien."
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "adiós",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Good night",
+        "Goodbye",
+        "Good afternoon"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "adiós"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hola",
+         "Hello"
+        ],
+        [
+         "por favor",
+         "Please"
+        ],
+        [
+         "buenas noches",
+         "Good night"
+        ],
+        [
+         "buenas tardes",
+         "Good afternoon"
+        ],
+        [
+         "buenos días",
+         "Good morning"
+        ]
+       ],
+       "words": [
+        "hola",
+        "por favor",
+        "buenas noches",
+        "buenas tardes",
+        "buenos días"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I am fine.",
+       "promptLang": "en",
+       "tiles": [
+        "bien",
+        "Adiós",
+        "noches",
+        "días",
+        "Estoy"
+       ],
+       "answer": [
+        "Estoy",
+        "bien"
+       ],
+       "accepted": [
+        "Yo estoy bien."
+       ],
+       "words": [
+        "Estoy bien."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Buenos días, señor.",
+       "promptLang": "target",
+       "tiles": [
+        "morning",
+        "are",
+        "see",
+        "sir",
+        "I",
+        "Good"
+       ],
+       "answer": [
+        "Good",
+        "morning",
+        "sir"
+       ],
+       "accepted": [],
+       "words": [
+        "buenos días"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿Cómo estás?",
+       "translation": "How are you?",
+       "answers": [
+        "¿Cómo estás?"
+       ],
+       "words": [
+        "¿Cómo estás?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Very well, thank you.",
+       "promptLang": "en",
+       "answers": [
+        "Muy bien, gracias."
+       ],
+       "words": [
+        "gracias"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Buenas noches, mamá.",
+       "promptLang": "target",
+       "answers": [
+        "Good night, Mum.",
+        "Good night, Mom.",
+        "Good evening, Mum.",
+        "Good evening, Mom.",
+        "Good night, Mother."
+       ],
+       "words": [
+        "buenas noches"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "adiós"
+       ],
+       "words": [
+        "adiós"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "bien",
+        "estás",
+        "señor",
+        "mamá",
+        "Cómo"
+       ],
+       "answer": [
+        "Cómo",
+        "estás"
+       ],
+       "accepted": [
+        "¿Qué tal?",
+        "¿Cómo estás tú?"
+       ],
+       "words": [
+        "¿Cómo estás?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Hola, ¿qué tal?",
+       "promptLang": "target",
+       "options": [
+        "How are you?",
+        "Very well, thank you.",
+        "Hello, how are you?",
+        "Good night, Mum."
+       ],
+       "answer": "Hello, how are you?",
+       "words": [
+        "hola"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "gracias",
+         "Thank you"
+        ],
+        [
+         "buenos días",
+         "Good morning"
+        ],
+        [
+         "hola",
+         "Hello"
+        ],
+        [
+         "hasta luego",
+         "See you later"
+        ]
+       ],
+       "words": [
+        "gracias",
+        "buenos días",
+        "hola",
+        "hasta luego"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good night",
+       "promptLang": "en",
+       "answer": "buenas noches",
+       "words": [
+        "buenas noches"
+       ],
+       "options": [
+        "buenas tardes",
+        "hola",
+        "buenos días",
+        "buenas noches"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Good night, Mum.",
+       "promptLang": "en",
+       "tiles": [
+        "mamá",
+        "mañana",
+        "gracias",
+        "Buenas",
+        "Estoy",
+        "noches"
+       ],
+       "answer": [
+        "Buenas",
+        "noches",
+        "mamá"
+       ],
+       "accepted": [],
+       "words": [
+        "buenas noches"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Estoy bien.",
+       "translation": "I am fine.",
+       "answers": [
+        "Estoy bien."
+       ],
+       "words": [
+        "Estoy bien."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Adiós, hasta mañana.",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "Goodbye",
+        "well",
+        "tomorrow",
+        "how",
+        "see",
+        "fine"
+       ],
+       "answer": [
+        "Goodbye",
+        "see",
+        "you",
+        "tomorrow"
+       ],
+       "accepted": [
+        "Bye, see you tomorrow.",
+        "Goodbye, until tomorrow."
+       ],
+       "words": [
+        "adiós",
+        "mañana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Please",
+       "promptLang": "en",
+       "answers": [
+        "por favor"
+       ],
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Buenos días, señor.",
+       "promptLang": "target",
+       "answers": [
+        "Good morning, sir."
+       ],
+       "words": [
+        "buenos días"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Muy bien, gracias.",
+       "translation": "Very well, thank you.",
+       "answers": [
+        "Muy bien, gracias."
+       ],
+       "words": [
+        "gracias"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "Introductions",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "person",
+   "tip": "'Tú' is the informal 'you'. Accents matter in writing: 'tú' (you) and 'tu' (your) are different words.",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "yo",
+       "promptLang": "target",
+       "options": [
+        "She",
+        "You",
+        "Nice to meet you",
+        "I"
+       ],
+       "answer": "I",
+       "words": [
+        "yo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tú",
+       "promptLang": "target",
+       "options": [
+        "She",
+        "Name",
+        "He",
+        "You"
+       ],
+       "answer": "You",
+       "words": [
+        "tú"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "He",
+       "promptLang": "en",
+       "answer": "él",
+       "words": [
+        "él"
+       ],
+       "options": [
+        "tú",
+        "amigo",
+        "país",
+        "él"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ella",
+       "promptLang": "target",
+       "options": [
+        "She",
+        "Nice to meet you",
+        "He",
+        "Country"
+       ],
+       "answer": "She",
+       "words": [
+        "ella"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "yo",
+         "I"
+        ],
+        [
+         "tú",
+         "You"
+        ],
+        [
+         "él",
+         "He"
+        ],
+        [
+         "ella",
+         "She"
+        ]
+       ],
+       "words": [
+        "yo",
+        "tú",
+        "él",
+        "ella"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "My name is Ana.",
+       "promptLang": "en",
+       "tiles": [
+        "Ana",
+        "te",
+        "Inglaterra",
+        "llamo",
+        "Me",
+        "Ella"
+       ],
+       "answer": [
+        "Me",
+        "llamo",
+        "Ana"
+       ],
+       "accepted": [
+        "Yo me llamo Ana.",
+        "Mi nombre es Ana.",
+        "Soy Ana."
+       ],
+       "words": [
+        "Me llamo Ana."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿Cómo te llamas?",
+       "translation": "What is your name?",
+       "answers": [
+        "¿Cómo te llamas?"
+       ],
+       "words": [
+        "¿Cómo te llamas?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Soy de Inglaterra.",
+       "promptLang": "target",
+       "tiles": [
+        "friend",
+        "My",
+        "am",
+        "Carlos",
+        "I",
+        "from",
+        "England"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "from",
+        "England"
+       ],
+       "accepted": [],
+       "words": [
+        "Soy de Inglaterra."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Me llamo Ana.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Ana.",
+        "I am called Ana.",
+        "I am Ana."
+       ],
+       "words": [
+        "Me llamo Ana."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nombre",
+       "promptLang": "target",
+       "options": [
+        "He",
+        "Name",
+        "Friend",
+        "Nice to meet you"
+       ],
+       "answer": "Name",
+       "words": [
+        "nombre"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Nice to meet you",
+       "promptLang": "en",
+       "answer": "mucho gusto",
+       "words": [
+        "mucho gusto"
+       ],
+       "options": [
+        "amigo",
+        "ella",
+        "yo",
+        "mucho gusto"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "amigo",
+       "promptLang": "target",
+       "options": [
+        "I",
+        "Friend",
+        "Nice to meet you",
+        "She"
+       ],
+       "answer": "Friend",
+       "words": [
+        "amigo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Country",
+       "promptLang": "en",
+       "answer": "país",
+       "words": [
+        "país"
+       ],
+       "options": [
+        "él",
+        "yo",
+        "nombre",
+        "país"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "nombre",
+         "Name"
+        ],
+        [
+         "mucho gusto",
+         "Nice to meet you"
+        ],
+        [
+         "amigo",
+         "Friend"
+        ],
+        [
+         "país",
+         "Country"
+        ]
+       ],
+       "words": [
+        "nombre",
+        "mucho gusto",
+        "amigo",
+        "país"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "She is from Mexico.",
+       "promptLang": "en",
+       "tiles": [
+        "México",
+        "eres",
+        "es",
+        "de",
+        "Ella",
+        "llamas",
+        "Mucho"
+       ],
+       "answer": [
+        "Ella",
+        "es",
+        "de",
+        "México"
+       ],
+       "accepted": [],
+       "words": [
+        "ella"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Él es mi amigo.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "my",
+        "friend",
+        "She",
+        "Carlos",
+        "What",
+        "He"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "él",
+        "amigo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ella es de México.",
+       "translation": "She is from Mexico.",
+       "answers": [
+        "Ella es de México."
+       ],
+       "words": [
+        "ella"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mucho gusto, Carlos.",
+       "promptLang": "target",
+       "answers": [
+        "Nice to meet you, Carlos.",
+        "Pleased to meet you, Carlos."
+       ],
+       "words": [
+        "mucho gusto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "I",
+       "promptLang": "en",
+       "answers": [
+        "yo"
+       ],
+       "words": [
+        "yo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "¿De dónde eres?",
+       "promptLang": "target",
+       "options": [
+        "He is my friend.",
+        "Where are you from?",
+        "She is from Mexico.",
+        "What is your name?"
+       ],
+       "answer": "Where are you from?",
+       "words": [
+        "¿De dónde eres?"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tú",
+       "promptLang": "target",
+       "options": [
+        "Name",
+        "He",
+        "Friend",
+        "You"
+       ],
+       "answer": "You",
+       "words": [
+        "tú"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mucho gusto",
+         "Nice to meet you"
+        ],
+        [
+         "él",
+         "He"
+        ],
+        [
+         "yo",
+         "I"
+        ],
+        [
+         "ella",
+         "She"
+        ],
+        [
+         "país",
+         "Country"
+        ]
+       ],
+       "words": [
+        "mucho gusto",
+        "él",
+        "yo",
+        "ella",
+        "país"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Where are you from?",
+       "promptLang": "en",
+       "tiles": [
+        "Cómo",
+        "De",
+        "dónde",
+        "Mucho",
+        "mi",
+        "eres"
+       ],
+       "answer": [
+        "De",
+        "dónde",
+        "eres"
+       ],
+       "accepted": [
+        "¿De dónde eres tú?"
+       ],
+       "words": [
+        "¿De dónde eres?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "¿Cómo te llamas?",
+       "promptLang": "target",
+       "tiles": [
+        "meet",
+        "is",
+        "I",
+        "your",
+        "Where",
+        "What",
+        "name"
+       ],
+       "answer": [
+        "What",
+        "is",
+        "your",
+        "name"
+       ],
+       "accepted": [
+        "What are you called?"
+       ],
+       "words": [
+        "¿Cómo te llamas?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mucho gusto, Carlos.",
+       "translation": "Nice to meet you, Carlos.",
+       "answers": [
+        "Mucho gusto, Carlos."
+       ],
+       "words": [
+        "mucho gusto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "He is my friend.",
+       "promptLang": "en",
+       "answers": [
+        "Él es mi amigo.",
+        "Es mi amigo."
+       ],
+       "words": [
+        "él",
+        "amigo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Soy de Inglaterra.",
+       "promptLang": "target",
+       "answers": [
+        "I am from England."
+       ],
+       "words": [
+        "Soy de Inglaterra."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "You",
+       "promptLang": "en",
+       "answers": [
+        "tú"
+       ],
+       "words": [
+        "tú"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Nice to meet you, Carlos.",
+       "promptLang": "en",
+       "tiles": [
+        "gusto",
+        "Mucho",
+        "es",
+        "Carlos",
+        "Me",
+        "Ella"
+       ],
+       "answer": [
+        "Mucho",
+        "gusto",
+        "Carlos"
+       ],
+       "accepted": [],
+       "words": [
+        "mucho gusto"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Me llamo Ana.",
+       "promptLang": "target",
+       "options": [
+        "What is your name?",
+        "Nice to meet you, Carlos.",
+        "My name is Ana.",
+        "Where are you from?"
+       ],
+       "answer": "My name is Ana.",
+       "words": [
+        "Me llamo Ana."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "tú",
+         "You"
+        ],
+        [
+         "país",
+         "Country"
+        ],
+        [
+         "él",
+         "He"
+        ],
+        [
+         "amigo",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "tú",
+        "país",
+        "él",
+        "amigo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "She",
+       "promptLang": "en",
+       "answer": "ella",
+       "words": [
+        "ella"
+       ],
+       "options": [
+        "ella",
+        "yo",
+        "tú",
+        "él"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I am from England.",
+       "promptLang": "en",
+       "tiles": [
+        "Inglaterra",
+        "Ana",
+        "dónde",
+        "Soy",
+        "de",
+        "es"
+       ],
+       "answer": [
+        "Soy",
+        "de",
+        "Inglaterra"
+       ],
+       "accepted": [
+        "Yo soy de Inglaterra."
+       ],
+       "words": [
+        "Soy de Inglaterra."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿De dónde eres?",
+       "translation": "Where are you from?",
+       "answers": [
+        "¿De dónde eres?"
+       ],
+       "words": [
+        "¿De dónde eres?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ella es de México.",
+       "promptLang": "target",
+       "tiles": [
+        "She",
+        "is",
+        "from",
+        "He",
+        "your",
+        "Mexico",
+        "What"
+       ],
+       "answer": [
+        "She",
+        "is",
+        "from",
+        "Mexico"
+       ],
+       "accepted": [],
+       "words": [
+        "ella"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Nice to meet you",
+       "promptLang": "en",
+       "answers": [
+        "mucho gusto"
+       ],
+       "words": [
+        "mucho gusto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "¿Cómo te llamas?",
+       "promptLang": "target",
+       "answers": [
+        "What is your name?",
+        "What are you called?"
+       ],
+       "words": [
+        "¿Cómo te llamas?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Él es mi amigo.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Él es mi amigo."
+       ],
+       "words": [
+        "él",
+        "amigo"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Being polite",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "heart",
+   "tip": "Spanish questions start with an upside-down question mark (¿) and exclamations with (¡). You do not need to type them here.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "perdón",
+       "promptLang": "target",
+       "options": [
+        "A little",
+        "Of course",
+        "Excuse me",
+        "Welcome"
+       ],
+       "answer": "Excuse me",
+       "words": [
+        "perdón"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "lo siento",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "Excuse me",
+        "I am sorry",
+        "You are welcome"
+       ],
+       "answer": "I am sorry",
+       "words": [
+        "lo siento"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "You are welcome",
+       "promptLang": "en",
+       "answer": "de nada",
+       "words": [
+        "de nada"
+       ],
+       "options": [
+        "un poco",
+        "de nada",
+        "claro",
+        "perdón"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sí",
+       "promptLang": "target",
+       "options": [
+        "I am sorry",
+        "Welcome",
+        "Yes",
+        "Of course"
+       ],
+       "answer": "Yes",
+       "words": [
+        "sí"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "perdón",
+         "Excuse me"
+        ],
+        [
+         "lo siento",
+         "I am sorry"
+        ],
+        [
+         "de nada",
+         "You are welcome"
+        ],
+        [
+         "sí",
+         "Yes"
+        ]
+       ],
+       "words": [
+        "perdón",
+        "lo siento",
+        "de nada",
+        "sí"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "siento",
+        "entiendo",
+        "gracias",
+        "poco",
+        "Muchas"
+       ],
+       "answer": [
+        "Muchas",
+        "gracias"
+       ],
+       "accepted": [],
+       "words": [
+        "gracias"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "De nada.",
+       "translation": "You are welcome.",
+       "answers": [
+        "De nada."
+       ],
+       "words": [
+        "de nada"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Lo siento mucho.",
+       "promptLang": "target",
+       "tiles": [
+        "welcome",
+        "understand",
+        "sorry",
+        "am",
+        "very",
+        "I",
+        "me"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "very",
+        "sorry"
+       ],
+       "accepted": [
+        "I am so sorry.",
+        "I am really sorry."
+       ],
+       "words": [
+        "lo siento"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Muchas gracias.",
+       "promptLang": "target",
+       "answers": [
+        "Thank you very much.",
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "gracias"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "entiendo",
+       "promptLang": "target",
+       "options": [
+        "Welcome",
+        "I understand",
+        "Of course",
+        "A little"
+       ],
+       "answer": "I understand",
+       "words": [
+        "entiendo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Welcome",
+       "promptLang": "en",
+       "answer": "bienvenido",
+       "words": [
+        "bienvenido"
+       ],
+       "options": [
+        "de nada",
+        "sí",
+        "lo siento",
+        "bienvenido"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "claro",
+       "promptLang": "target",
+       "options": [
+        "Of course",
+        "You are welcome",
+        "Yes",
+        "Excuse me"
+       ],
+       "answer": "Of course",
+       "words": [
+        "claro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "A little",
+       "promptLang": "en",
+       "answer": "un poco",
+       "words": [
+        "un poco"
+       ],
+       "options": [
+        "un poco",
+        "claro",
+        "bienvenido",
+        "sí"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "entiendo",
+         "I understand"
+        ],
+        [
+         "bienvenido",
+         "Welcome"
+        ],
+        [
+         "claro",
+         "Of course"
+        ],
+        [
+         "un poco",
+         "A little"
+        ]
+       ],
+       "words": [
+        "entiendo",
+        "bienvenido",
+        "claro",
+        "un poco"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Excuse me, do you speak English?",
+       "promptLang": "en",
+       "tiles": [
+        "Más",
+        "Perdón",
+        "un",
+        "siento",
+        "hablas",
+        "inglés"
+       ],
+       "answer": [
+        "Perdón",
+        "hablas",
+        "inglés"
+       ],
+       "accepted": [
+        "Perdón, ¿habla inglés?"
+       ],
+       "words": [
+        "perdón"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Sí, un poco.",
+       "promptLang": "target",
+       "tiles": [
+        "speak",
+        "Yes",
+        "I",
+        "a",
+        "little",
+        "More"
+       ],
+       "answer": [
+        "Yes",
+        "a",
+        "little"
+       ],
+       "accepted": [
+        "Yes, a bit."
+       ],
+       "words": [
+        "sí",
+        "un poco"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Perdón, ¿hablas inglés?",
+       "translation": "Excuse me, do you speak English?",
+       "answers": [
+        "Perdón, ¿hablas inglés?"
+       ],
+       "words": [
+        "perdón"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "No entiendo.",
+       "promptLang": "target",
+       "answers": [
+        "I do not understand."
+       ],
+       "words": [
+        "entiendo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Excuse me",
+       "promptLang": "en",
+       "answers": [
+        "perdón",
+        "disculpe",
+        "perdone"
+       ],
+       "words": [
+        "perdón"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Más despacio, por favor.",
+       "promptLang": "target",
+       "options": [
+        "Excuse me, do you speak English?",
+        "You are welcome.",
+        "More slowly, please.",
+        "Thank you very much."
+       ],
+       "answer": "More slowly, please.",
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "lo siento",
+       "promptLang": "target",
+       "options": [
+        "Excuse me",
+        "Of course",
+        "You are welcome",
+        "I am sorry"
+       ],
+       "answer": "I am sorry",
+       "words": [
+        "lo siento"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "perdón",
+         "Excuse me"
+        ],
+        [
+         "sí",
+         "Yes"
+        ],
+        [
+         "lo siento",
+         "I am sorry"
+        ],
+        [
+         "un poco",
+         "A little"
+        ],
+        [
+         "bienvenido",
+         "Welcome"
+        ]
+       ],
+       "words": [
+        "perdón",
+        "sí",
+        "lo siento",
+        "un poco",
+        "bienvenido"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "More slowly, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Más",
+        "favor",
+        "mucho",
+        "despacio",
+        "siento",
+        "por",
+        "No"
+       ],
+       "answer": [
+        "Más",
+        "despacio",
+        "por",
+        "favor"
+       ],
+       "accepted": [],
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "De nada.",
+       "promptLang": "target",
+       "tiles": [
+        "More",
+        "are",
+        "do",
+        "slowly",
+        "welcome",
+        "You"
+       ],
+       "answer": [
+        "You",
+        "are",
+        "welcome"
+       ],
+       "accepted": [],
+       "words": [
+        "de nada"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "No entiendo.",
+       "translation": "I do not understand.",
+       "answers": [
+        "No entiendo."
+       ],
+       "words": [
+        "entiendo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Yes, a little.",
+       "promptLang": "en",
+       "answers": [
+        "Sí, un poco."
+       ],
+       "words": [
+        "sí",
+        "un poco"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Lo siento mucho.",
+       "promptLang": "target",
+       "answers": [
+        "I am very sorry.",
+        "I am so sorry.",
+        "I am really sorry."
+       ],
+       "words": [
+        "lo siento"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "I am sorry",
+       "promptLang": "en",
+       "answers": [
+        "lo siento"
+       ],
+       "words": [
+        "lo siento"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I do not understand.",
+       "promptLang": "en",
+       "tiles": [
+        "nada",
+        "Lo",
+        "entiendo",
+        "No",
+        "despacio"
+       ],
+       "answer": [
+        "No",
+        "entiendo"
+       ],
+       "accepted": [
+        "Yo no entiendo."
+       ],
+       "words": [
+        "entiendo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Muchas gracias.",
+       "promptLang": "target",
+       "options": [
+        "I am very sorry.",
+        "I do not understand.",
+        "Thank you very much.",
+        "You are welcome."
+       ],
+       "answer": "Thank you very much.",
+       "words": [
+        "gracias"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "entiendo",
+         "I understand"
+        ],
+        [
+         "de nada",
+         "You are welcome"
+        ],
+        [
+         "perdón",
+         "Excuse me"
+        ],
+        [
+         "lo siento",
+         "I am sorry"
+        ]
+       ],
+       "words": [
+        "entiendo",
+        "de nada",
+        "perdón",
+        "lo siento"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Welcome",
+       "promptLang": "en",
+       "answer": "bienvenido",
+       "words": [
+        "bienvenido"
+       ],
+       "options": [
+        "sí",
+        "entiendo",
+        "bienvenido",
+        "claro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I am very sorry.",
+       "promptLang": "en",
+       "tiles": [
+        "siento",
+        "mucho",
+        "por",
+        "Sí",
+        "Lo",
+        "gracias"
+       ],
+       "answer": [
+        "Lo",
+        "siento",
+        "mucho"
+       ],
+       "accepted": [],
+       "words": [
+        "lo siento"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Más despacio, por favor.",
+       "translation": "More slowly, please.",
+       "answers": [
+        "Más despacio, por favor."
+       ],
+       "words": [
+        "por favor"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Perdón, ¿hablas inglés?",
+       "promptLang": "target",
+       "tiles": [
+        "do",
+        "me",
+        "you",
+        "Excuse",
+        "English",
+        "More",
+        "speak",
+        "little",
+        "Thank"
+       ],
+       "answer": [
+        "Excuse",
+        "me",
+        "do",
+        "you",
+        "speak",
+        "English"
+       ],
+       "accepted": [
+        "Sorry, do you speak English?"
+       ],
+       "words": [
+        "perdón"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "A little",
+       "promptLang": "en",
+       "answers": [
+        "un poco"
+       ],
+       "words": [
+        "un poco"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "De nada.",
+       "promptLang": "target",
+       "answers": [
+        "You are welcome."
+       ],
+       "words": [
+        "de nada"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sí, un poco.",
+       "translation": "Yes, a little.",
+       "answers": [
+        "Sí, un poco."
+       ],
+       "words": [
+        "sí",
+        "un poco"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers 1–10",
+   "description": "Numbers, food and drink, and talking about your family.",
+   "icon": "hash",
+   "tip": "'Uno' becomes 'un' before a masculine noun (un libro) and 'una' before a feminine noun (una manzana).",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "uno",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "One",
+        "Six",
+        "Seven"
+       ],
+       "answer": "One",
+       "words": [
+        "uno"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dos",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Seven",
+        "Two",
+        "Ten"
+       ],
+       "answer": "Two",
+       "words": [
+        "dos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "tres",
+       "words": [
+        "tres"
+       ],
+       "options": [
+        "diez",
+        "tres",
+        "cinco",
+        "ocho"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cuatro",
+       "promptLang": "target",
+       "options": [
+        "Seven",
+        "Eight",
+        "Nine",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "cuatro"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "uno",
+         "One"
+        ],
+        [
+         "dos",
+         "Two"
+        ],
+        [
+         "tres",
+         "Three"
+        ],
+        [
+         "cuatro",
+         "Four"
+        ]
+       ],
+       "words": [
+        "uno",
+        "dos",
+        "tres",
+        "cuatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I have two brothers.",
+       "promptLang": "en",
+       "tiles": [
+        "Quiero",
+        "Son",
+        "hermanos",
+        "dos",
+        "libros",
+        "Tengo"
+       ],
+       "answer": [
+        "Tengo",
+        "dos",
+        "hermanos"
+       ],
+       "accepted": [],
+       "words": [
+        "dos"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tengo veinte años.",
+       "translation": "I am twenty years old.",
+       "answers": [
+        "Tengo veinte años."
+       ],
+       "words": [
+        "Tengo veinte años."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Son las tres.",
+       "promptLang": "target",
+       "tiles": [
+        "It",
+        "books",
+        "three",
+        "two",
+        "you",
+        "is",
+        "o'clock"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "three",
+        "o'clock"
+       ],
+       "accepted": [
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3."
+       ],
+       "words": [
+        "tres"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tengo dos hermanos.",
+       "promptLang": "target",
+       "answers": [
+        "I have two brothers.",
+        "I have two siblings.",
+        "I have 2 brothers.",
+        "I have 2 siblings."
+       ],
+       "words": [
+        "dos"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cinco",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Five",
+        "Ten",
+        "Six"
+       ],
+       "answer": "Five",
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "seis",
+       "words": [
+        "seis"
+       ],
+       "options": [
+        "seis",
+        "nueve",
+        "cuatro",
+        "dos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "siete",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Eight",
+        "Four",
+        "Seven"
+       ],
+       "answer": "Seven",
+       "words": [
+        "siete"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "ocho",
+       "words": [
+        "ocho"
+       ],
+       "options": [
+        "nueve",
+        "ocho",
+        "dos",
+        "cinco"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cinco",
+         "Five"
+        ],
+        [
+         "seis",
+         "Six"
+        ],
+        [
+         "siete",
+         "Seven"
+        ],
+        [
+         "ocho",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "cinco",
+        "seis",
+        "siete",
+        "ocho"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I want five apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Quiero",
+        "Cuántos",
+        "las",
+        "cinco",
+        "Son",
+        "manzanas"
+       ],
+       "answer": [
+        "Quiero",
+        "cinco",
+        "manzanas"
+       ],
+       "accepted": [],
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "¿Cuántos años tienes?",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "books",
+        "you",
+        "are",
+        "How",
+        "There",
+        "old"
+       ],
+       "answer": [
+        "How",
+        "old",
+        "are",
+        "you"
+       ],
+       "accepted": [],
+       "words": [
+        "¿Cuántos años tienes?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quiero cinco manzanas.",
+       "translation": "I want five apples.",
+       "answers": [
+        "Quiero cinco manzanas."
+       ],
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hay diez libros.",
+       "promptLang": "target",
+       "answers": [
+        "There are ten books.",
+        "There are 10 books."
+       ],
+       "words": [
+        "diez"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "uno"
+       ],
+       "words": [
+        "uno"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tengo cuatro gatos.",
+       "promptLang": "target",
+       "options": [
+        "I have four cats.",
+        "It is three o'clock.",
+        "I want five apples.",
+        "There are ten books."
+       ],
+       "answer": "I have four cats.",
+       "words": [
+        "cuatro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nueve",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Three",
+        "Four",
+        "Nine"
+       ],
+       "answer": "Nine",
+       "words": [
+        "nueve"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "dos",
+         "Two"
+        ],
+        [
+         "seis",
+         "Six"
+        ],
+        [
+         "cuatro",
+         "Four"
+        ],
+        [
+         "diez",
+         "Ten"
+        ],
+        [
+         "ocho",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "dos",
+        "seis",
+        "cuatro",
+        "diez",
+        "ocho"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I have four cats.",
+       "promptLang": "en",
+       "tiles": [
+        "diez",
+        "hermanos",
+        "cuatro",
+        "Tengo",
+        "gatos",
+        "años"
+       ],
+       "answer": [
+        "Tengo",
+        "cuatro",
+        "gatos"
+       ],
+       "accepted": [],
+       "words": [
+        "cuatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tengo veinte años.",
+       "promptLang": "target",
+       "tiles": [
+        "want",
+        "have",
+        "are",
+        "am",
+        "old",
+        "years",
+        "twenty",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "twenty",
+        "years",
+        "old"
+       ],
+       "accepted": [
+        "I am twenty.",
+        "I am 20 years old.",
+        "I am 20."
+       ],
+       "words": [
+        "Tengo veinte años."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hay diez libros.",
+       "translation": "There are ten books.",
+       "answers": [
+        "Hay diez libros."
+       ],
+       "words": [
+        "diez"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "How old are you?",
+       "promptLang": "en",
+       "answers": [
+        "¿Cuántos años tienes?",
+        "¿Cuántos años tiene?",
+        "¿Cuántos años tiene usted?"
+       ],
+       "words": [
+        "¿Cuántos años tienes?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Son las tres.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3."
+       ],
+       "words": [
+        "tres"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "diez"
+       ],
+       "words": [
+        "diez"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "There are ten books.",
+       "promptLang": "en",
+       "tiles": [
+        "gatos",
+        "tres",
+        "libros",
+        "diez",
+        "Hay",
+        "las"
+       ],
+       "answer": [
+        "Hay",
+        "diez",
+        "libros"
+       ],
+       "accepted": [],
+       "words": [
+        "diez"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tengo dos hermanos.",
+       "promptLang": "target",
+       "options": [
+        "I have four cats.",
+        "I want five apples.",
+        "I have two brothers.",
+        "How old are you?"
+       ],
+       "answer": "I have two brothers.",
+       "words": [
+        "dos"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cinco",
+         "Five"
+        ],
+        [
+         "ocho",
+         "Eight"
+        ],
+        [
+         "seis",
+         "Six"
+        ],
+        [
+         "uno",
+         "One"
+        ]
+       ],
+       "words": [
+        "cinco",
+        "ocho",
+        "seis",
+        "uno"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "siete",
+       "words": [
+        "siete"
+       ],
+       "options": [
+        "seis",
+        "siete",
+        "diez",
+        "cinco"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "gatos",
+        "las",
+        "Hay",
+        "cuatro",
+        "tres",
+        "Son"
+       ],
+       "answer": [
+        "Son",
+        "las",
+        "tres"
+       ],
+       "accepted": [],
+       "words": [
+        "tres"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tengo cuatro gatos.",
+       "translation": "I have four cats.",
+       "answers": [
+        "Tengo cuatro gatos."
+       ],
+       "words": [
+        "cuatro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quiero cinco manzanas.",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "five",
+        "want",
+        "I",
+        "am",
+        "two",
+        "cats"
+       ],
+       "answer": [
+        "I",
+        "want",
+        "five",
+        "apples"
+       ],
+       "accepted": [
+        "I want 5 apples.",
+        "I would like five apples."
+       ],
+       "words": [
+        "cinco"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Four",
+       "promptLang": "en",
+       "answers": [
+        "cuatro"
+       ],
+       "words": [
+        "cuatro"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tengo veinte años.",
+       "promptLang": "target",
+       "answers": [
+        "I am twenty years old.",
+        "I am twenty.",
+        "I am 20 years old.",
+        "I am 20."
+       ],
+       "words": [
+        "Tengo veinte años."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿Cuántos años tienes?",
+       "translation": "How old are you?",
+       "answers": [
+        "¿Cuántos años tienes?"
+       ],
+       "words": [
+        "¿Cuántos años tienes?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Food and drink",
+   "description": "Numbers, food and drink, and talking about your family.",
+   "icon": "cup",
+   "tip": "'Me gusta' literally means 'it pleases me'. Spanish usually keeps the article: 'Me gusta el café' = 'I like coffee'.",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "agua",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Rice",
+        "Chicken",
+        "Bread"
+       ],
+       "answer": "Water",
+       "words": [
+        "agua"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pan",
+       "promptLang": "target",
+       "options": [
+        "Meat",
+        "Water",
+        "Chicken",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "pan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answer": "leche",
+       "words": [
+        "leche"
+       ],
+       "options": [
+        "manzana",
+        "agua",
+        "arroz",
+        "leche"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "café",
+       "promptLang": "target",
+       "options": [
+        "Chicken",
+        "Coffee",
+        "Apple",
+        "Bread"
+       ],
+       "answer": "Coffee",
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "agua",
+         "Water"
+        ],
+        [
+         "pan",
+         "Bread"
+        ],
+        [
+         "leche",
+         "Milk"
+        ],
+        [
+         "café",
+         "Coffee"
+        ]
+       ],
+       "words": [
+        "agua",
+        "pan",
+        "leche",
+        "café"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "Yo",
+        "pan",
+        "el",
+        "como",
+        "es",
+        "No"
+       ],
+       "answer": [
+        "Yo",
+        "como",
+        "pan"
+       ],
+       "accepted": [
+        "Como pan."
+       ],
+       "words": [
+        "yo",
+        "pan"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ella bebe agua.",
+       "translation": "She drinks water.",
+       "answers": [
+        "Ella bebe agua."
+       ],
+       "words": [
+        "ella",
+        "agua"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Me gusta el café.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "hungry",
+        "coffee",
+        "good",
+        "like",
+        "eat"
+       ],
+       "answer": [
+        "I",
+        "like",
+        "coffee"
+       ],
+       "accepted": [
+        "I like the coffee."
+       ],
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Yo como pan.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "yo",
+        "pan"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "manzana",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Meat",
+        "Chicken",
+        "Apple"
+       ],
+       "answer": "Apple",
+       "words": [
+        "manzana"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Cheese",
+       "promptLang": "en",
+       "answer": "queso",
+       "words": [
+        "queso"
+       ],
+       "options": [
+        "café",
+        "pan",
+        "arroz",
+        "queso"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "arroz",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Meat",
+        "Chicken",
+        "Apple"
+       ],
+       "answer": "Rice",
+       "words": [
+        "arroz"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Chicken",
+       "promptLang": "en",
+       "answer": "pollo",
+       "words": [
+        "pollo"
+       ],
+       "options": [
+        "manzana",
+        "carne",
+        "queso",
+        "pollo"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "manzana",
+         "Apple"
+        ],
+        [
+         "queso",
+         "Cheese"
+        ],
+        [
+         "arroz",
+         "Rice"
+        ],
+        [
+         "pollo",
+         "Chicken"
+        ]
+       ],
+       "words": [
+        "manzana",
+        "queso",
+        "arroz",
+        "pollo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I want an apple.",
+       "promptLang": "en",
+       "tiles": [
+        "gusta",
+        "una",
+        "Me",
+        "Ella",
+        "Quiero",
+        "manzana"
+       ],
+       "answer": [
+        "Quiero",
+        "una",
+        "manzana"
+       ],
+       "accepted": [
+        "Yo quiero una manzana."
+       ],
+       "words": [
+        "manzana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "El queso es bueno.",
+       "promptLang": "target",
+       "tiles": [
+        "She",
+        "apple",
+        "good",
+        "The",
+        "is",
+        "hungry",
+        "cheese"
+       ],
+       "answer": [
+        "The",
+        "cheese",
+        "is",
+        "good"
+       ],
+       "accepted": [
+        "Cheese is good."
+       ],
+       "words": [
+        "queso"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quiero una manzana.",
+       "translation": "I want an apple.",
+       "answers": [
+        "Quiero una manzana."
+       ],
+       "words": [
+        "manzana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "No como carne.",
+       "promptLang": "target",
+       "answers": [
+        "I do not eat meat."
+       ],
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "agua"
+       ],
+       "words": [
+        "agua"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tengo hambre.",
+       "promptLang": "target",
+       "options": [
+        "I want an apple.",
+        "I eat bread.",
+        "The cheese is good.",
+        "I am hungry."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Tengo hambre."
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "carne",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Meat",
+        "Bread",
+        "Cheese"
+       ],
+       "answer": "Meat",
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "leche",
+         "Milk"
+        ],
+        [
+         "pan",
+         "Bread"
+        ],
+        [
+         "agua",
+         "Water"
+        ],
+        [
+         "arroz",
+         "Rice"
+        ],
+        [
+         "carne",
+         "Meat"
+        ]
+       ],
+       "words": [
+        "leche",
+        "pan",
+        "agua",
+        "arroz",
+        "carne"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "Ella",
+        "café",
+        "bueno",
+        "hambre",
+        "Tengo"
+       ],
+       "answer": [
+        "Tengo",
+        "hambre"
+       ],
+       "accepted": [
+        "Yo tengo hambre."
+       ],
+       "words": [
+        "Tengo hambre."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ella bebe agua.",
+       "promptLang": "target",
+       "tiles": [
+        "She",
+        "cheese",
+        "drinks",
+        "not",
+        "meat",
+        "water"
+       ],
+       "answer": [
+        "She",
+        "drinks",
+        "water"
+       ],
+       "accepted": [
+        "She is drinking water."
+       ],
+       "words": [
+        "ella",
+        "agua"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "No como carne.",
+       "translation": "I do not eat meat.",
+       "answers": [
+        "No como carne."
+       ],
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "The cheese is good.",
+       "promptLang": "en",
+       "answers": [
+        "El queso es bueno.",
+        "El queso está bueno."
+       ],
+       "words": [
+        "queso"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Me gusta el café.",
+       "promptLang": "target",
+       "answers": [
+        "I like coffee.",
+        "I like the coffee."
+       ],
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Meat",
+       "promptLang": "en",
+       "answers": [
+        "carne"
+       ],
+       "words": [
+        "carne"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I do not eat meat.",
+       "promptLang": "en",
+       "tiles": [
+        "carne",
+        "como",
+        "No",
+        "café",
+        "Yo",
+        "una"
+       ],
+       "answer": [
+        "No",
+        "como",
+        "carne"
+       ],
+       "accepted": [
+        "Yo no como carne."
+       ],
+       "words": [
+        "carne"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Yo como pan.",
+       "promptLang": "target",
+       "options": [
+        "I eat bread.",
+        "She drinks water.",
+        "I do not eat meat.",
+        "I want an apple."
+       ],
+       "answer": "I eat bread.",
+       "words": [
+        "yo",
+        "pan"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "carne",
+         "Meat"
+        ],
+        [
+         "pollo",
+         "Chicken"
+        ],
+        [
+         "café",
+         "Coffee"
+        ],
+        [
+         "manzana",
+         "Apple"
+        ]
+       ],
+       "words": [
+        "carne",
+        "pollo",
+        "café",
+        "manzana"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Cheese",
+       "promptLang": "en",
+       "answer": "queso",
+       "words": [
+        "queso"
+       ],
+       "options": [
+        "pan",
+        "carne",
+        "arroz",
+        "queso"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I like coffee.",
+       "promptLang": "en",
+       "tiles": [
+        "manzana",
+        "gusta",
+        "como",
+        "carne",
+        "el",
+        "café",
+        "Me"
+       ],
+       "answer": [
+        "Me",
+        "gusta",
+        "el",
+        "café"
+       ],
+       "accepted": [],
+       "words": [
+        "café"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tengo hambre.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Tengo hambre."
+       ],
+       "words": [
+        "Tengo hambre."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quiero una manzana.",
+       "promptLang": "target",
+       "tiles": [
+        "an",
+        "not",
+        "I",
+        "She",
+        "apple",
+        "want",
+        "meat"
+       ],
+       "answer": [
+        "I",
+        "want",
+        "an",
+        "apple"
+       ],
+       "accepted": [
+        "I would like an apple."
+       ],
+       "words": [
+        "manzana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answers": [
+        "arroz"
+       ],
+       "words": [
+        "arroz"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ella bebe agua.",
+       "promptLang": "target",
+       "answers": [
+        "She drinks water.",
+        "She is drinking water."
+       ],
+       "words": [
+        "ella",
+        "agua"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "El queso es bueno.",
+       "translation": "The cheese is good.",
+       "answers": [
+        "El queso es bueno."
+       ],
+       "words": [
+        "queso"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Family",
+   "description": "Numbers, food and drink, and talking about your family.",
+   "icon": "home",
+   "tip": "The masculine plural can cover mixed groups: 'hermanos' can mean 'brothers' or 'brothers and sisters'.",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "madre",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Grandfather",
+        "Son",
+        "Mother"
+       ],
+       "answer": "Mother",
+       "words": [
+        "madre"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "padre",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Father",
+        "Mother",
+        "Brother"
+       ],
+       "answer": "Father",
+       "words": [
+        "padre"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Brother",
+       "promptLang": "en",
+       "answer": "hermano",
+       "words": [
+        "hermano"
+       ],
+       "options": [
+        "padre",
+        "hermana",
+        "hermano",
+        "hija"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hermana",
+       "promptLang": "target",
+       "options": [
+        "Grandmother",
+        "Sister",
+        "Family",
+        "Daughter"
+       ],
+       "answer": "Sister",
+       "words": [
+        "hermana"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "madre",
+         "Mother"
+        ],
+        [
+         "padre",
+         "Father"
+        ],
+        [
+         "hermano",
+         "Brother"
+        ],
+        [
+         "hermana",
+         "Sister"
+        ]
+       ],
+       "words": [
+        "madre",
+        "padre",
+        "hermano",
+        "hermana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "My mother is called Rosa.",
+       "promptLang": "en",
+       "tiles": [
+        "familia",
+        "un",
+        "hermana",
+        "llama",
+        "madre",
+        "Rosa",
+        "se",
+        "Mi"
+       ],
+       "answer": [
+        "Mi",
+        "madre",
+        "se",
+        "llama",
+        "Rosa"
+       ],
+       "accepted": [],
+       "words": [
+        "madre"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tengo una hermana.",
+       "translation": "I have a sister.",
+       "answers": [
+        "Tengo una hermana."
+       ],
+       "words": [
+        "hermana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mi padre es alto.",
+       "promptLang": "target",
+       "tiles": [
+        "They",
+        "is",
+        "tall",
+        "brother",
+        "My",
+        "big",
+        "father"
+       ],
+       "answer": [
+        "My",
+        "father",
+        "is",
+        "tall"
+       ],
+       "accepted": [
+        "My dad is tall."
+       ],
+       "words": [
+        "padre"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mi madre se llama Rosa.",
+       "promptLang": "target",
+       "answers": [
+        "My mother is called Rosa.",
+        "My mother's name is Rosa.",
+        "My mum is called Rosa.",
+        "My mom is called Rosa.",
+        "My mum's name is Rosa.",
+        "My mom's name is Rosa."
+       ],
+       "words": [
+        "madre"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hijo",
+       "promptLang": "target",
+       "options": [
+        "Father",
+        "Son",
+        "Daughter",
+        "Sister"
+       ],
+       "answer": "Son",
+       "words": [
+        "hijo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "hija",
+       "words": [
+        "hija"
+       ],
+       "options": [
+        "abuela",
+        "hija",
+        "abuelo",
+        "hijo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "abuela",
+       "promptLang": "target",
+       "options": [
+        "Grandmother",
+        "Daughter",
+        "Son",
+        "Grandfather"
+       ],
+       "answer": "Grandmother",
+       "words": [
+        "abuela"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Grandfather",
+       "promptLang": "en",
+       "answer": "abuelo",
+       "words": [
+        "abuelo"
+       ],
+       "options": [
+        "padre",
+        "hermana",
+        "hijo",
+        "abuelo"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hijo",
+         "Son"
+        ],
+        [
+         "hija",
+         "Daughter"
+        ],
+        [
+         "abuela",
+         "Grandmother"
+        ],
+        [
+         "abuelo",
+         "Grandfather"
+        ]
+       ],
+       "words": [
+        "hijo",
+        "hija",
+        "abuela",
+        "abuelo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "They are my grandparents.",
+       "promptLang": "en",
+       "tiles": [
+        "Ellos",
+        "hermano",
+        "abuelos",
+        "se",
+        "son",
+        "un",
+        "mis"
+       ],
+       "answer": [
+        "Ellos",
+        "son",
+        "mis",
+        "abuelos"
+       ],
+       "accepted": [
+        "Son mis abuelos."
+       ],
+       "words": [
+        "Ellos son mis abuelos."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mi hermano tiene un hijo.",
+       "promptLang": "target",
+       "tiles": [
+        "a",
+        "you",
+        "My",
+        "has",
+        "brother",
+        "big",
+        "father",
+        "son"
+       ],
+       "answer": [
+        "My",
+        "brother",
+        "has",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "My brother has one son."
+       ],
+       "words": [
+        "hermano",
+        "hijo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ellos son mis abuelos.",
+       "translation": "They are my grandparents.",
+       "answers": [
+        "Ellos son mis abuelos."
+       ],
+       "words": [
+        "Ellos son mis abuelos."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mi familia es grande.",
+       "promptLang": "target",
+       "answers": [
+        "My family is big.",
+        "My family is large."
+       ],
+       "words": [
+        "familia"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Mother",
+       "promptLang": "en",
+       "answers": [
+        "madre"
+       ],
+       "words": [
+        "madre"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "¿Tienes hijos?",
+       "promptLang": "target",
+       "options": [
+        "My brother has a son.",
+        "My family is big.",
+        "Do you have children?",
+        "I have a sister."
+       ],
+       "answer": "Do you have children?",
+       "words": [
+        "¿Tienes hijos?"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "familia",
+       "promptLang": "target",
+       "options": [
+        "Family",
+        "Sister",
+        "Mother",
+        "Daughter"
+       ],
+       "answer": "Family",
+       "words": [
+        "familia"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "familia",
+         "Family"
+        ],
+        [
+         "hijo",
+         "Son"
+        ],
+        [
+         "abuelo",
+         "Grandfather"
+        ],
+        [
+         "madre",
+         "Mother"
+        ],
+        [
+         "hermana",
+         "Sister"
+        ]
+       ],
+       "words": [
+        "familia",
+        "hijo",
+        "abuelo",
+        "madre",
+        "hermana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Do you have children?",
+       "promptLang": "en",
+       "tiles": [
+        "hermana",
+        "hermano",
+        "hijos",
+        "tiene",
+        "Tienes"
+       ],
+       "answer": [
+        "Tienes",
+        "hijos"
+       ],
+       "accepted": [],
+       "words": [
+        "¿Tienes hijos?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tengo una hermana.",
+       "promptLang": "target",
+       "tiles": [
+        "mother",
+        "I",
+        "have",
+        "sister",
+        "brother",
+        "children",
+        "a"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "sister"
+       ],
+       "accepted": [
+        "I have one sister."
+       ],
+       "words": [
+        "hermana"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mi familia es grande.",
+       "translation": "My family is big.",
+       "answers": [
+        "Mi familia es grande."
+       ],
+       "words": [
+        "familia"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "My brother has a son.",
+       "promptLang": "en",
+       "answers": [
+        "Mi hermano tiene un hijo."
+       ],
+       "words": [
+        "hermano",
+        "hijo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mi padre es alto.",
+       "promptLang": "target",
+       "answers": [
+        "My father is tall.",
+        "My dad is tall."
+       ],
+       "words": [
+        "padre"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Family",
+       "promptLang": "en",
+       "answers": [
+        "familia"
+       ],
+       "words": [
+        "familia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "My family is big.",
+       "promptLang": "en",
+       "tiles": [
+        "familia",
+        "Tengo",
+        "hermana",
+        "Mi",
+        "es",
+        "se",
+        "grande"
+       ],
+       "answer": [
+        "Mi",
+        "familia",
+        "es",
+        "grande"
+       ],
+       "accepted": [],
+       "words": [
+        "familia"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Mi madre se llama Rosa.",
+       "promptLang": "target",
+       "options": [
+        "Do you have children?",
+        "My mother is called Rosa.",
+        "I have a sister.",
+        "My brother has a son."
+       ],
+       "answer": "My mother is called Rosa.",
+       "words": [
+        "madre"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "abuelo",
+         "Grandfather"
+        ],
+        [
+         "hermano",
+         "Brother"
+        ],
+        [
+         "madre",
+         "Mother"
+        ],
+        [
+         "abuela",
+         "Grandmother"
+        ]
+       ],
+       "words": [
+        "abuelo",
+        "hermano",
+        "madre",
+        "abuela"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sister",
+       "promptLang": "en",
+       "answer": "hermana",
+       "words": [
+        "hermana"
+       ],
+       "options": [
+        "padre",
+        "abuelo",
+        "hermana",
+        "hermano"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "My father is tall.",
+       "promptLang": "en",
+       "tiles": [
+        "padre",
+        "alto",
+        "grande",
+        "es",
+        "un",
+        "hermana",
+        "Mi"
+       ],
+       "answer": [
+        "Mi",
+        "padre",
+        "es",
+        "alto"
+       ],
+       "accepted": [],
+       "words": [
+        "padre"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿Tienes hijos?",
+       "translation": "Do you have children?",
+       "answers": [
+        "¿Tienes hijos?"
+       ],
+       "words": [
+        "¿Tienes hijos?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ellos son mis abuelos.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "Do",
+        "you",
+        "They",
+        "grandparents",
+        "are",
+        "my"
+       ],
+       "answer": [
+        "They",
+        "are",
+        "my",
+        "grandparents"
+       ],
+       "accepted": [],
+       "words": [
+        "Ellos son mis abuelos."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answers": [
+        "hijo"
+       ],
+       "words": [
+        "hijo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tengo una hermana.",
+       "promptLang": "target",
+       "answers": [
+        "I have a sister.",
+        "I have one sister."
+       ],
+       "words": [
+        "hermana"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mi hermano tiene un hijo.",
+       "translation": "My brother has a son.",
+       "answers": [
+        "Mi hermano tiene un hijo."
+       ],
+       "words": [
+        "hermano",
+        "hijo"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Getting around",
+   "description": "Travel basics, ordering at a café, and days of the week.",
+   "icon": "train",
+   "tip": "'Billete' is used in Spain; in much of Latin America a ticket is a 'boleto'.",
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tren",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Bus",
+        "Train",
+        "Ticket"
+       ],
+       "answer": "Train",
+       "words": [
+        "tren"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "autobús",
+       "promptLang": "target",
+       "options": [
+        "Map",
+        "Hotel",
+        "Airport",
+        "Bus"
+       ],
+       "answer": "Bus",
+       "words": [
+        "autobús"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "aeropuerto",
+       "words": [
+        "aeropuerto"
+       ],
+       "options": [
+        "estación",
+        "aeropuerto",
+        "calle",
+        "mapa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "estación",
+       "promptLang": "target",
+       "options": [
+        "Street",
+        "Station",
+        "Airport",
+        "Hotel"
+       ],
+       "answer": "Station",
+       "words": [
+        "estación"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "tren",
+         "Train"
+        ],
+        [
+         "autobús",
+         "Bus"
+        ],
+        [
+         "aeropuerto",
+         "Airport"
+        ],
+        [
+         "estación",
+         "Station"
+        ]
+       ],
+       "words": [
+        "tren",
+        "autobús",
+        "aeropuerto",
+        "estación"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Where is the station?",
+       "promptLang": "en",
+       "tiles": [
+        "El",
+        "Dónde",
+        "la",
+        "qué",
+        "mapa",
+        "estación",
+        "está"
+       ],
+       "answer": [
+        "Dónde",
+        "está",
+        "la",
+        "estación"
+       ],
+       "accepted": [],
+       "words": [
+        "estación"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un billete, por favor.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Un billete, por favor."
+       ],
+       "words": [
+        "por favor",
+        "billete"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "El tren sale a las ocho.",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "leaves",
+        "near",
+        "The",
+        "A",
+        "train",
+        "eight",
+        "need"
+       ],
+       "answer": [
+        "The",
+        "train",
+        "leaves",
+        "at",
+        "eight"
+       ],
+       "accepted": [
+        "The train leaves at eight o'clock.",
+        "The train leaves at 8.",
+        "The train departs at eight.",
+        "The train departs at 8."
+       ],
+       "words": [
+        "ocho",
+        "tren"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "¿Dónde está la estación?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the station?"
+       ],
+       "words": [
+        "estación"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "billete",
+       "promptLang": "target",
+       "options": [
+        "Map",
+        "Station",
+        "Ticket",
+        "Train"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "billete"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answer": "hotel",
+       "words": [
+        "hotel"
+       ],
+       "options": [
+        "autobús",
+        "billete",
+        "hotel",
+        "mapa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "calle",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Hotel",
+        "Station",
+        "Street"
+       ],
+       "answer": "Street",
+       "words": [
+        "calle"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Map",
+       "promptLang": "en",
+       "answer": "mapa",
+       "words": [
+        "mapa"
+       ],
+       "options": [
+        "mapa",
+        "tren",
+        "estación",
+        "billete"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "billete",
+         "Ticket"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "calle",
+         "Street"
+        ],
+        [
+         "mapa",
+         "Map"
+        ]
+       ],
+       "words": [
+        "billete",
+        "hotel",
+        "calle",
+        "mapa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "favor",
+        "tren",
+        "al",
+        "aeropuerto",
+        "Voy",
+        "Un"
+       ],
+       "answer": [
+        "Voy",
+        "al",
+        "aeropuerto"
+       ],
+       "accepted": [
+        "Yo voy al aeropuerto."
+       ],
+       "words": [
+        "aeropuerto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "El hotel está cerca.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "hotel",
+        "is",
+        "to",
+        "am",
+        "near",
+        "airport"
+       ],
+       "answer": [
+        "The",
+        "hotel",
+        "is",
+        "near"
+       ],
+       "accepted": [
+        "The hotel is nearby.",
+        "The hotel is close.",
+        "The hotel is close by."
+       ],
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Voy al aeropuerto.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Voy al aeropuerto."
+       ],
+       "words": [
+        "aeropuerto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Necesito un mapa.",
+       "promptLang": "target",
+       "answers": [
+        "I need a map."
+       ],
+       "words": [
+        "mapa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Train",
+       "promptLang": "en",
+       "answers": [
+        "tren"
+       ],
+       "words": [
+        "tren"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "¿A qué hora sale el autobús?",
+       "promptLang": "target",
+       "options": [
+        "The train leaves at eight.",
+        "I am going to the airport.",
+        "What time does the bus leave?",
+        "Where is the station?"
+       ],
+       "answer": "What time does the bus leave?",
+       "words": [
+        "autobús"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "autobús",
+       "promptLang": "target",
+       "options": [
+        "Bus",
+        "Ticket",
+        "Airport",
+        "Station"
+       ],
+       "answer": "Bus",
+       "words": [
+        "autobús"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "calle",
+         "Street"
+        ],
+        [
+         "billete",
+         "Ticket"
+        ],
+        [
+         "tren",
+         "Train"
+        ],
+        [
+         "estación",
+         "Station"
+        ],
+        [
+         "aeropuerto",
+         "Airport"
+        ]
+       ],
+       "words": [
+        "calle",
+        "billete",
+        "tren",
+        "estación",
+        "aeropuerto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "What time does the bus leave?",
+       "promptLang": "en",
+       "tiles": [
+        "tren",
+        "hora",
+        "el",
+        "la",
+        "qué",
+        "A",
+        "autobús",
+        "sale",
+        "mapa"
+       ],
+       "answer": [
+        "A",
+        "qué",
+        "hora",
+        "sale",
+        "el",
+        "autobús"
+       ],
+       "accepted": [],
+       "words": [
+        "autobús"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Un billete, por favor.",
+       "promptLang": "target",
+       "tiles": [
+        "What",
+        "the",
+        "station",
+        "please",
+        "ticket",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "por favor",
+        "billete"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Necesito un mapa.",
+       "translation": "I need a map.",
+       "answers": [
+        "Necesito un mapa."
+       ],
+       "words": [
+        "mapa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "The hotel is near.",
+       "promptLang": "en",
+       "answers": [
+        "El hotel está cerca."
+       ],
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "El tren sale a las ocho.",
+       "promptLang": "target",
+       "answers": [
+        "The train leaves at eight.",
+        "The train leaves at eight o'clock.",
+        "The train leaves at 8.",
+        "The train departs at eight.",
+        "The train departs at 8."
+       ],
+       "words": [
+        "ocho",
+        "tren"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Bus",
+       "promptLang": "en",
+       "answers": [
+        "autobús"
+       ],
+       "words": [
+        "autobús"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I need a map.",
+       "promptLang": "en",
+       "tiles": [
+        "estación",
+        "Necesito",
+        "un",
+        "ocho",
+        "mapa",
+        "favor"
+       ],
+       "answer": [
+        "Necesito",
+        "un",
+        "mapa"
+       ],
+       "accepted": [
+        "Yo necesito un mapa."
+       ],
+       "words": [
+        "mapa"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "¿Dónde está la estación?",
+       "promptLang": "target",
+       "options": [
+        "Where is the station?",
+        "A ticket, please.",
+        "The hotel is near.",
+        "I am going to the airport."
+       ],
+       "answer": "Where is the station?",
+       "words": [
+        "estación"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "aeropuerto",
+         "Airport"
+        ],
+        [
+         "autobús",
+         "Bus"
+        ],
+        [
+         "tren",
+         "Train"
+        ],
+        [
+         "calle",
+         "Street"
+        ]
+       ],
+       "words": [
+        "aeropuerto",
+        "autobús",
+        "tren",
+        "calle"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Ticket",
+       "promptLang": "en",
+       "answer": "billete",
+       "words": [
+        "billete"
+       ],
+       "options": [
+        "billete",
+        "autobús",
+        "tren",
+        "hotel"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "The train leaves at eight.",
+       "promptLang": "en",
+       "tiles": [
+        "El",
+        "sale",
+        "cerca",
+        "a",
+        "tren",
+        "hotel",
+        "las",
+        "ocho",
+        "Dónde"
+       ],
+       "answer": [
+        "El",
+        "tren",
+        "sale",
+        "a",
+        "las",
+        "ocho"
+       ],
+       "accepted": [],
+       "words": [
+        "ocho",
+        "tren"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿A qué hora sale el autobús?",
+       "translation": "What time does the bus leave?",
+       "answers": [
+        "¿A qué hora sale el autobús?"
+       ],
+       "words": [
+        "autobús"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Voy al aeropuerto.",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "the",
+        "airport",
+        "am",
+        "to",
+        "Where",
+        "going",
+        "leaves",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "going",
+        "to",
+        "the",
+        "airport"
+       ],
+       "accepted": [
+        "I go to the airport."
+       ],
+       "words": [
+        "aeropuerto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "hotel"
+       ],
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Un billete, por favor.",
+       "promptLang": "target",
+       "answers": [
+        "A ticket, please.",
+        "One ticket, please."
+       ],
+       "words": [
+        "por favor",
+        "billete"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "El hotel está cerca.",
+       "translation": "The hotel is near.",
+       "answers": [
+        "El hotel está cerca."
+       ],
+       "words": [
+        "hotel"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u8",
+   "title": "At the café",
+   "description": "Travel basics, ordering at a café, and days of the week.",
+   "icon": "fork",
+   "tip": "'Zumo' is used in Spain and 'jugo' in Latin America. Both are accepted.",
+   "lessons": [
+    {
+     "id": "u8l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "camarero",
+       "promptLang": "target",
+       "options": [
+        "Juice",
+        "Waiter",
+        "Beer",
+        "Menu"
+       ],
+       "answer": "Waiter",
+       "words": [
+        "camarero"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cuenta",
+       "promptLang": "target",
+       "options": [
+        "Menu",
+        "Juice",
+        "Tea",
+        "Bill"
+       ],
+       "answer": "Bill",
+       "words": [
+        "cuenta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Menu",
+       "promptLang": "en",
+       "answer": "menú",
+       "words": [
+        "menú"
+       ],
+       "options": [
+        "mesa",
+        "menú",
+        "cuenta",
+        "té"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "té",
+       "promptLang": "target",
+       "options": [
+        "Juice",
+        "Tea",
+        "Table",
+        "Beer"
+       ],
+       "answer": "Tea",
+       "words": [
+        "té"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "camarero",
+         "Waiter"
+        ],
+        [
+         "cuenta",
+         "Bill"
+        ],
+        [
+         "menú",
+         "Menu"
+        ],
+        [
+         "té",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "camarero",
+        "cuenta",
+        "menú",
+        "té"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "A coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "es",
+        "Un",
+        "favor",
+        "bueno",
+        "café",
+        "dos",
+        "por"
+       ],
+       "answer": [
+        "Un",
+        "café",
+        "por",
+        "favor"
+       ],
+       "accepted": [],
+       "words": [
+        "por favor",
+        "café"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "La cuenta, por favor.",
+       "translation": "The bill, please.",
+       "answers": [
+        "La cuenta, por favor."
+       ],
+       "words": [
+        "por favor",
+        "cuenta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Una mesa para dos.",
+       "promptLang": "target",
+       "tiles": [
+        "A",
+        "The",
+        "coffee",
+        "bill",
+        "two",
+        "for",
+        "table"
+       ],
+       "answer": [
+        "A",
+        "table",
+        "for",
+        "two"
+       ],
+       "accepted": [],
+       "words": [
+        "dos",
+        "mesa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Un café, por favor.",
+       "promptLang": "target",
+       "answers": [
+        "A coffee, please.",
+        "One coffee, please."
+       ],
+       "words": [
+        "por favor",
+        "café"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u8l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cerveza",
+       "promptLang": "target",
+       "options": [
+        "Wine",
+        "Juice",
+        "Menu",
+        "Beer"
+       ],
+       "answer": "Beer",
+       "words": [
+        "cerveza"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Wine",
+       "promptLang": "en",
+       "answer": "vino",
+       "words": [
+        "vino"
+       ],
+       "options": [
+        "zumo",
+        "vino",
+        "menú",
+        "cuenta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mesa",
+       "promptLang": "target",
+       "options": [
+        "Beer",
+        "Table",
+        "Tea",
+        "Waiter"
+       ],
+       "answer": "Table",
+       "words": [
+        "mesa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Juice",
+       "promptLang": "en",
+       "answer": "zumo",
+       "words": [
+        "zumo"
+       ],
+       "options": [
+        "cerveza",
+        "camarero",
+        "vino",
+        "zumo"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cerveza",
+         "Beer"
+        ],
+        [
+         "vino",
+         "Wine"
+        ],
+        [
+         "mesa",
+         "Table"
+        ],
+        [
+         "zumo",
+         "Juice"
+        ]
+       ],
+       "words": [
+        "cerveza",
+        "vino",
+        "mesa",
+        "zumo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I want a tea with milk.",
+       "promptLang": "en",
+       "tiles": [
+        "muy",
+        "un",
+        "Quiero",
+        "El",
+        "leche",
+        "cuenta",
+        "con",
+        "té"
+       ],
+       "answer": [
+        "Quiero",
+        "un",
+        "té",
+        "con",
+        "leche"
+       ],
+       "accepted": [],
+       "words": [
+        "leche",
+        "té"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "¿Cuánto cuesta?",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "How",
+        "milk",
+        "much",
+        "it",
+        "want",
+        "very"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?"
+       ],
+       "words": [
+        "¿Cuánto cuesta?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quiero un té con leche.",
+       "translation": "I want a tea with milk.",
+       "answers": [
+        "Quiero un té con leche."
+       ],
+       "words": [
+        "leche",
+        "té"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "El vino es muy bueno.",
+       "promptLang": "target",
+       "answers": [
+        "The wine is very good."
+       ],
+       "words": [
+        "vino"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Waiter",
+       "promptLang": "en",
+       "answers": [
+        "camarero"
+       ],
+       "words": [
+        "camarero"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u8l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Para mí, una cerveza.",
+       "promptLang": "target",
+       "options": [
+        "The bill, please.",
+        "For me, a beer.",
+        "I want a tea with milk.",
+        "A coffee, please."
+       ],
+       "answer": "For me, a beer.",
+       "words": [
+        "cerveza"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cuenta",
+       "promptLang": "target",
+       "options": [
+        "Menu",
+        "Table",
+        "Beer",
+        "Bill"
+       ],
+       "answer": "Bill",
+       "words": [
+        "cuenta"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "zumo",
+         "Juice"
+        ],
+        [
+         "vino",
+         "Wine"
+        ],
+        [
+         "camarero",
+         "Waiter"
+        ],
+        [
+         "té",
+         "Tea"
+        ],
+        [
+         "menú",
+         "Menu"
+        ]
+       ],
+       "words": [
+        "zumo",
+        "vino",
+        "camarero",
+        "té",
+        "menú"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "For me, a beer.",
+       "promptLang": "en",
+       "tiles": [
+        "cerveza",
+        "Para",
+        "El",
+        "mí",
+        "una",
+        "es",
+        "leche"
+       ],
+       "answer": [
+        "Para",
+        "mí",
+        "una",
+        "cerveza"
+       ],
+       "accepted": [],
+       "words": [
+        "cerveza"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "La cuenta, por favor.",
+       "promptLang": "target",
+       "tiles": [
+        "bill",
+        "please",
+        "The",
+        "want",
+        "tea",
+        "with"
+       ],
+       "answer": [
+        "The",
+        "bill",
+        "please"
+       ],
+       "accepted": [
+        "The check, please."
+       ],
+       "words": [
+        "por favor",
+        "cuenta"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "El vino es muy bueno.",
+       "translation": "The wine is very good.",
+       "answers": [
+        "El vino es muy bueno."
+       ],
+       "words": [
+        "vino"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "How much is it?",
+       "promptLang": "en",
+       "answers": [
+        "¿Cuánto cuesta?",
+        "¿Cuánto es?"
+       ],
+       "words": [
+        "¿Cuánto cuesta?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Una mesa para dos.",
+       "promptLang": "target",
+       "answers": [
+        "A table for two."
+       ],
+       "words": [
+        "dos",
+        "mesa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Bill",
+       "promptLang": "en",
+       "answers": [
+        "cuenta"
+       ],
+       "words": [
+        "cuenta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "The wine is very good.",
+       "promptLang": "en",
+       "tiles": [
+        "cerveza",
+        "El",
+        "vino",
+        "Quiero",
+        "té",
+        "es",
+        "muy",
+        "bueno"
+       ],
+       "answer": [
+        "El",
+        "vino",
+        "es",
+        "muy",
+        "bueno"
+       ],
+       "accepted": [],
+       "words": [
+        "vino"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u8l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Un café, por favor.",
+       "promptLang": "target",
+       "options": [
+        "A table for two.",
+        "For me, a beer.",
+        "The wine is very good.",
+        "A coffee, please."
+       ],
+       "answer": "A coffee, please.",
+       "words": [
+        "por favor",
+        "café"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vino",
+         "Wine"
+        ],
+        [
+         "menú",
+         "Menu"
+        ],
+        [
+         "mesa",
+         "Table"
+        ],
+        [
+         "camarero",
+         "Waiter"
+        ]
+       ],
+       "words": [
+        "vino",
+        "menú",
+        "mesa",
+        "camarero"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bill",
+       "promptLang": "en",
+       "answer": "cuenta",
+       "words": [
+        "cuenta"
+       ],
+       "options": [
+        "zumo",
+        "cerveza",
+        "té",
+        "cuenta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "A table for two.",
+       "promptLang": "en",
+       "tiles": [
+        "con",
+        "mesa",
+        "para",
+        "té",
+        "café",
+        "Una",
+        "dos"
+       ],
+       "answer": [
+        "Una",
+        "mesa",
+        "para",
+        "dos"
+       ],
+       "accepted": [],
+       "words": [
+        "dos",
+        "mesa"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Para mí, una cerveza.",
+       "translation": "For me, a beer.",
+       "answers": [
+        "Para mí, una cerveza."
+       ],
+       "words": [
+        "cerveza"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Quiero un té con leche.",
+       "promptLang": "target",
+       "tiles": [
+        "a",
+        "milk",
+        "very",
+        "tea",
+        "with",
+        "much",
+        "I",
+        "is",
+        "want"
+       ],
+       "answer": [
+        "I",
+        "want",
+        "a",
+        "tea",
+        "with",
+        "milk"
+       ],
+       "accepted": [
+        "I want tea with milk.",
+        "I would like a tea with milk.",
+        "I would like tea with milk."
+       ],
+       "words": [
+        "leche",
+        "té"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Beer",
+       "promptLang": "en",
+       "answers": [
+        "cerveza"
+       ],
+       "words": [
+        "cerveza"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "La cuenta, por favor.",
+       "promptLang": "target",
+       "answers": [
+        "The bill, please.",
+        "The check, please."
+       ],
+       "words": [
+        "por favor",
+        "cuenta"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿Cuánto cuesta?",
+       "translation": "How much is it?",
+       "answers": [
+        "¿Cuánto cuesta?"
+       ],
+       "words": [
+        "¿Cuánto cuesta?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u9",
+   "title": "Days and time",
+   "description": "Travel basics, ordering at a café, and days of the week.",
+   "icon": "calendar",
+   "tip": "Days of the week are not capitalised in Spanish. 'El lunes' means 'on Monday'.",
+   "lessons": [
+    {
+     "id": "u9l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "lunes",
+       "promptLang": "target",
+       "options": [
+        "Saturday",
+        "Monday",
+        "Wednesday",
+        "Tomorrow"
+       ],
+       "answer": "Monday",
+       "words": [
+        "lunes"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "martes",
+       "promptLang": "target",
+       "options": [
+        "Thursday",
+        "Week",
+        "Today",
+        "Tuesday"
+       ],
+       "answer": "Tuesday",
+       "words": [
+        "martes"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Wednesday",
+       "promptLang": "en",
+       "answer": "miércoles",
+       "words": [
+        "miércoles"
+       ],
+       "options": [
+        "miércoles",
+        "domingo",
+        "jueves",
+        "hoy"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "jueves",
+       "promptLang": "target",
+       "options": [
+        "Saturday",
+        "Week",
+        "Monday",
+        "Thursday"
+       ],
+       "answer": "Thursday",
+       "words": [
+        "jueves"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "lunes",
+         "Monday"
+        ],
+        [
+         "martes",
+         "Tuesday"
+        ],
+        [
+         "miércoles",
+         "Wednesday"
+        ],
+        [
+         "jueves",
+         "Thursday"
+        ]
+       ],
+       "words": [
+        "lunes",
+        "martes",
+        "miércoles",
+        "jueves"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "hora",
+        "lunes",
+        "es",
+        "Mañana",
+        "Hoy",
+        "la"
+       ],
+       "answer": [
+        "Hoy",
+        "es",
+        "lunes"
+       ],
+       "accepted": [],
+       "words": [
+        "lunes",
+        "hoy"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mañana es sábado.",
+       "translation": "Tomorrow is Saturday.",
+       "answers": [
+        "Mañana es sábado."
+       ],
+       "words": [
+        "sábado",
+        "mañana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Trabajo el viernes.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "you",
+        "on",
+        "Friday",
+        "work",
+        "The",
+        "Sunday"
+       ],
+       "answer": [
+        "I",
+        "work",
+        "on",
+        "Friday"
+       ],
+       "accepted": [
+        "I am working on Friday.",
+        "I work Friday.",
+        "I am working Friday."
+       ],
+       "words": [
+        "viernes"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hoy es lunes.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "lunes",
+        "hoy"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u9l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "viernes",
+       "promptLang": "target",
+       "options": [
+        "Week",
+        "Tomorrow",
+        "Monday",
+        "Friday"
+       ],
+       "answer": "Friday",
+       "words": [
+        "viernes"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Saturday",
+       "promptLang": "en",
+       "answer": "sábado",
+       "words": [
+        "sábado"
+       ],
+       "options": [
+        "semana",
+        "viernes",
+        "sábado",
+        "jueves"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "domingo",
+       "promptLang": "target",
+       "options": [
+        "Saturday",
+        "Friday",
+        "Week",
+        "Sunday"
+       ],
+       "answer": "Sunday",
+       "words": [
+        "domingo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answer": "hoy",
+       "words": [
+        "hoy"
+       ],
+       "options": [
+        "hoy",
+        "mañana",
+        "domingo",
+        "lunes"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "viernes",
+         "Friday"
+        ],
+        [
+         "sábado",
+         "Saturday"
+        ],
+        [
+         "domingo",
+         "Sunday"
+        ],
+        [
+         "hoy",
+         "Today"
+        ]
+       ],
+       "words": [
+        "viernes",
+        "sábado",
+        "domingo",
+        "hoy"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "What time is it?",
+       "promptLang": "en",
+       "tiles": [
+        "Qué",
+        "hora",
+        "sábado",
+        "Hoy",
+        "lunes",
+        "es"
+       ],
+       "answer": [
+        "Qué",
+        "hora",
+        "es"
+       ],
+       "accepted": [],
+       "words": [
+        "¿Qué hora es?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Es la una.",
+       "promptLang": "target",
+       "tiles": [
+        "one",
+        "What",
+        "is",
+        "See",
+        "o'clock",
+        "It",
+        "I"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "one",
+        "o'clock"
+       ],
+       "accepted": [
+        "It is one.",
+        "It is 1 o'clock.",
+        "It is 1."
+       ],
+       "words": [
+        "Es la una."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "¿Qué hora es?",
+       "translation": "What time is it?",
+       "answers": [
+        "¿Qué hora es?"
+       ],
+       "words": [
+        "¿Qué hora es?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hasta el domingo.",
+       "promptLang": "target",
+       "answers": [
+        "See you on Sunday.",
+        "See you Sunday.",
+        "Until Sunday."
+       ],
+       "words": [
+        "domingo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Monday",
+       "promptLang": "en",
+       "answers": [
+        "lunes"
+       ],
+       "words": [
+        "lunes"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u9l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "La semana tiene siete días.",
+       "promptLang": "target",
+       "options": [
+        "It is one o'clock.",
+        "I work on Friday.",
+        "The week has seven days.",
+        "Today is Monday."
+       ],
+       "answer": "The week has seven days.",
+       "words": [
+        "siete",
+        "semana"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mañana",
+       "promptLang": "target",
+       "options": [
+        "Saturday",
+        "Week",
+        "Tomorrow",
+        "Monday"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "mañana"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "viernes",
+         "Friday"
+        ],
+        [
+         "martes",
+         "Tuesday"
+        ],
+        [
+         "lunes",
+         "Monday"
+        ],
+        [
+         "miércoles",
+         "Wednesday"
+        ],
+        [
+         "domingo",
+         "Sunday"
+        ]
+       ],
+       "words": [
+        "viernes",
+        "martes",
+        "lunes",
+        "miércoles",
+        "domingo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "The week has seven days.",
+       "promptLang": "en",
+       "tiles": [
+        "días",
+        "siete",
+        "viernes",
+        "Hoy",
+        "tiene",
+        "La",
+        "semana",
+        "Trabajo"
+       ],
+       "answer": [
+        "La",
+        "semana",
+        "tiene",
+        "siete",
+        "días"
+       ],
+       "accepted": [],
+       "words": [
+        "siete",
+        "semana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mañana es sábado.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "Saturday",
+        "week",
+        "Tomorrow",
+        "o'clock",
+        "days"
+       ],
+       "answer": [
+        "Tomorrow",
+        "is",
+        "Saturday"
+       ],
+       "accepted": [],
+       "words": [
+        "sábado",
+        "mañana"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hasta el domingo.",
+       "translation": "See you on Sunday.",
+       "answers": [
+        "Hasta el domingo."
+       ],
+       "words": [
+        "domingo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "It is one o'clock.",
+       "promptLang": "en",
+       "answers": [
+        "Es la una."
+       ],
+       "words": [
+        "Es la una."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Trabajo el viernes.",
+       "promptLang": "target",
+       "answers": [
+        "I work on Friday.",
+        "I am working on Friday.",
+        "I work Friday.",
+        "I am working Friday."
+       ],
+       "words": [
+        "viernes"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Week",
+       "promptLang": "en",
+       "answers": [
+        "semana"
+       ],
+       "words": [
+        "semana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "See you on Sunday.",
+       "promptLang": "en",
+       "tiles": [
+        "Qué",
+        "tiene",
+        "viernes",
+        "el",
+        "Hasta",
+        "domingo"
+       ],
+       "answer": [
+        "Hasta",
+        "el",
+        "domingo"
+       ],
+       "accepted": [],
+       "words": [
+        "domingo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u9l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Hoy es lunes.",
+       "promptLang": "target",
+       "options": [
+        "See you on Sunday.",
+        "Today is Monday.",
+        "What time is it?",
+        "It is one o'clock."
+       ],
+       "answer": "Today is Monday.",
+       "words": [
+        "lunes",
+        "hoy"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "martes",
+         "Tuesday"
+        ],
+        [
+         "domingo",
+         "Sunday"
+        ],
+        [
+         "semana",
+         "Week"
+        ],
+        [
+         "jueves",
+         "Thursday"
+        ]
+       ],
+       "words": [
+        "martes",
+        "domingo",
+        "semana",
+        "jueves"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answer": "hoy",
+       "words": [
+        "hoy"
+       ],
+       "options": [
+        "miércoles",
+        "sábado",
+        "semana",
+        "hoy"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Spanish",
+       "prompt": "I work on Friday.",
+       "promptLang": "en",
+       "tiles": [
+        "semana",
+        "la",
+        "el",
+        "una",
+        "viernes",
+        "Trabajo"
+       ],
+       "answer": [
+        "Trabajo",
+        "el",
+        "viernes"
+       ],
+       "accepted": [
+        "Yo trabajo el viernes."
+       ],
+       "words": [
+        "viernes"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "La semana tiene siete días.",
+       "translation": "The week has seven days.",
+       "answers": [
+        "La semana tiene siete días."
+       ],
+       "words": [
+        "siete",
+        "semana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "¿Qué hora es?",
+       "promptLang": "target",
+       "tiles": [
+        "time",
+        "Monday",
+        "What",
+        "Today",
+        "it",
+        "The",
+        "is"
+       ],
+       "answer": [
+        "What",
+        "time",
+        "is",
+        "it"
+       ],
+       "accepted": [],
+       "words": [
+        "¿Qué hora es?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Spanish",
+       "prompt": "Saturday",
+       "promptLang": "en",
+       "answers": [
+        "sábado"
+       ],
+       "words": [
+        "sábado"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mañana es sábado.",
+       "promptLang": "target",
+       "answers": [
+        "Tomorrow is Saturday."
+       ],
+       "words": [
+        "sábado",
+        "mañana"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Es la una.",
+       "translation": "It is one o'clock.",
+       "answers": [
+        "Es la una."
+       ],
+       "words": [
+        "Es la una."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

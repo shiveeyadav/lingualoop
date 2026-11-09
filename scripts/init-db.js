@@ -75,7 +75,7 @@ async function ensureAdmin(client) {
 async function main() {
   loadAllCourses();
   listCourses().forEach((c) => {
-    console.log('[init-db] content ok: ' + c.id + ' (' + c.units + ' units, ' + c.skills + ' skills, ' +
+    console.log('[init-db] content ok: ' + c.id + ' (' + c.units + ' units, ' +
       c.lessons + ' lessons, ' + c.exercises + ' exercises)');
   });
 

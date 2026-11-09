@@ -12,7 +12,7 @@
     "init-db": "node scripts/init-db.js",
     "start": "node scripts/init-db.js && next start -p ${PORT:-3000}",
     "check-content": "node -e \"require('./lib/content').loadAllCourses(); console.log('content ok')\"",
-    "test": "node --test test/"
+    "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
     "bcryptjs": "2.4.3",

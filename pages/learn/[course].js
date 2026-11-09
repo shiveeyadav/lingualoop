@@ -3,10 +3,9 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import { Icon } from '../../components/Icons';
 import { loadUser } from '../../lib/ssr';
-import { getCourse, courseOutline } from '../../lib/content';
+import { getCourse, courseOutline, courseClientInfo } from '../../lib/content';
 import { getCourseProgress } from '../../lib/progress';
 import { query } from '../../lib/db';
-import { MAX_CROWNS } from '../../lib/constants';
 
 export async function getServerSideProps(ctx) {
   const r = await loadUser(ctx, { required: true, redirectTo: '/courses' });
@@ -18,6 +17,7 @@ export async function getServerSideProps(ctx) {
   let user = r.user;
   if (user.currentCourse !== courseId) {
     await query('UPDATE users SET current_course = $2 WHERE id = $1', [user.id, courseId]);
+    await query('INSERT INTO enrollments (user_id, course) VALUES ($1, $2) ON CONFLICT DO NOTHING', [user.id, courseId]);
     user = { ...user, currentCourse: courseId };
   }
   const anyDone = Object.values(progress.times).some((n) => n > 0);
@@ -25,134 +25,130 @@ export async function getServerSideProps(ctx) {
     props: {
       user,
       todayXp: r.todayXp,
-      course: { id: courseId, title: course.meta.title, shortName: course.meta.shortName, speechLang: course.meta.speechLang },
+      course: courseClientInfo(course),
       outline: courseOutline(courseId),
-      skills: progress.skills,
-      times: progress.times,
+      map: progress.map,
       canPractice: anyDone,
     },
   };
 }
 
-function Crowns({ n }) {
-  return (
-    <span className="crowns" title={'Level ' + n + ' of ' + MAX_CROWNS}>
-      <Icon name="crown" />
-      {n}/{MAX_CROWNS}
-      <span className="sr-only"> skill level</span>
-    </span>
-  );
-}
+// Zig-zag offsets for the path nodes (in units of node width), repeating.
+const OFFSETS = [0, 0.6, 0.9, 0.6, 0, -0.6, -0.9, -0.6];
 
-function SkillCard({ skill, state, times, courseId, prevTitle }) {
-  const [open, setOpen] = useState(false);
+function PathNode({ lesson, number, state, current, courseId, unitTitle, offset }) {
+  const done = state.times > 0;
   const locked = !state.unlocked;
-  const mastered = state.crowns >= MAX_CROWNS;
-  const panelId = 'skill-' + skill.id;
+  const status = locked ? 'locked' : done ? 'completed' : current ? 'start here' : 'open';
+  const label = 'Lesson ' + number + ': ' + lesson.title + ' (' + unitTitle + '), ' + status;
+  const cls = 'path-node' + (done ? ' is-done' : '') + (locked ? ' is-locked' : '') + (current ? ' is-current' : '');
+  const icon = locked ? 'lock' : done ? 'check' : current ? 'star' : 'bolt';
   return (
-    <li className={'skill' + (locked ? ' locked' : '') + (mastered ? ' mastered' : '')}>
-      <div className="skill-row">
-        <span className="skill-icon">
-          <Icon name={locked ? 'lock' : skill.icon} />
+    <li className="path-item" style={{ '--offset': offset }}>
+      {current ? (
+        <span className="path-bubble" aria-hidden="true">
+          {done ? 'Review' : 'Start'}
         </span>
-        <div className="skill-info">
-          <h3>{skill.title}</h3>
-          {locked ? (
-            <p className="muted small" style={{ margin: 0 }}>
-              Locked - reach level 1 in {prevTitle || 'the previous skill'} to open.
-            </p>
-          ) : (
-            <>
-              <Crowns n={state.crowns} />
-              <div
-                className="level-bar"
-                role="progressbar"
-                aria-label={'Progress to next level in ' + skill.title}
-                aria-valuemin={0}
-                aria-valuemax={100}
-                aria-valuenow={Math.round(state.levelProgress * 100)}
-              >
-                <span style={{ width: Math.round(state.levelProgress * 100) + '%' }} />
-              </div>
-            </>
-          )}
-        </div>
-      </div>
-      {!locked ? (
-        <div className="row" style={{ marginTop: 12 }}>
-          {mastered ? (
-            <span className="done-mark">Mastered</span>
-          ) : (
-            <Link href={'/lesson/' + courseId + '/' + state.nextLessonId} className="btn">
-              {state.crowns === 0 && !times[skill.lessons[0].id] ? 'Start' : 'Continue'}
-            </Link>
-          )}
-          <button
-            type="button"
-            className="btn btn-secondary skill-toggle"
-            aria-expanded={open}
-            aria-controls={panelId}
-            onClick={() => setOpen(!open)}
-          >
-            {open ? 'Hide' : 'Lessons & tips'}
-          </button>
-        </div>
       ) : null}
-      {!locked && open ? (
-        <div className="skill-panel" id={panelId}>
-          {skill.tip ? (
-            <p className="tip">
-              <strong>Tip: </strong>
-              {skill.tip}
-            </p>
-          ) : null}
-          <ul className="lesson-list">
-            {skill.lessons.map((l, i) => {
-              const done = times[l.id] || 0;
-              const isOpen = state.openLessons[i];
-              return (
-                <li key={l.id}>
-                  <span>
-                    {l.title} <span className="muted small">({l.count} exercises)</span>{' '}
-                    {done ? <span className="done-mark">done ×{done}</span> : null}
-                  </span>
-                  {isOpen ? (
-                    <Link href={'/lesson/' + courseId + '/' + l.id} className="btn btn-secondary">
-                      {done ? 'Redo' : 'Start'}
-                      <span className="sr-only"> {skill.title} {l.title}</span>
-                    </Link>
-                  ) : (
-                    <span className="muted small">
-                      <Icon name="lock" className="crowns" /> Locked
-                    </span>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      ) : null}
+      {locked ? (
+        <span className={cls} role="img" aria-label={label} title={label}>
+          <Icon name={icon} />
+        </span>
+      ) : (
+        <Link href={'/lesson/' + courseId + '/' + lesson.id} className={cls} aria-label={label} title={label}>
+          <Icon name={icon} />
+        </Link>
+      )}
+      <span className="path-label" aria-hidden="true">
+        {lesson.title}
+        {done && state.times > 1 ? <span className="muted"> ×{state.times}</span> : null}
+      </span>
     </li>
   );
 }
 
-export default function Learn({ user, todayXp, course, outline, skills, times, canPractice }) {
+function Unit({ unit, index, map, courseId, currentId }) {
+  const [guideOpen, setGuideOpen] = useState(false);
+  const st = map.units[unit.id];
+  const complete = st.done === st.total;
+  const firstLocked = !map.lessons[unit.lessons[0].id].unlocked;
+  const guideId = 'guide-' + unit.id;
+  return (
+    <section className={'unit unit-c' + (index % 6) + (firstLocked ? ' unit-locked' : '')} aria-labelledby={'unit-' + unit.id}>
+      <div className="unit-banner">
+        <div>
+          <p className="unit-kicker">
+            Unit {index + 1} · {st.done}/{st.total} lessons{complete ? ' · complete' : ''}
+          </p>
+          <h2 id={'unit-' + unit.id}>{unit.title}</h2>
+          {unit.description ? <p className="unit-desc">{unit.description}</p> : null}
+        </div>
+        {unit.tip ? (
+          <button
+            type="button"
+            className="btn btn-ghost guide-btn"
+            aria-expanded={guideOpen}
+            aria-controls={guideId}
+            onClick={() => setGuideOpen(!guideOpen)}
+          >
+            <Icon name="star" /> {guideOpen ? 'Hide tips' : 'Tips'}
+          </button>
+        ) : null}
+      </div>
+      {unit.tip && guideOpen ? (
+        <p className="tip" id={guideId}>
+          {unit.tip}
+        </p>
+      ) : null}
+      <ol className="path" aria-label={'Lessons in unit ' + (index + 1)}>
+        {unit.lessons.map((l, i) => (
+          <PathNode
+            key={l.id}
+            lesson={l}
+            number={i + 1}
+            state={map.lessons[l.id]}
+            current={l.id === currentId}
+            courseId={courseId}
+            unitTitle={unit.title}
+            offset={OFFSETS[(index * 2 + i) % OFFSETS.length]}
+          />
+        ))}
+      </ol>
+    </section>
+  );
+}
+
+export default function Learn({ user, todayXp, course, outline, map, canPractice }) {
   const goalPct = Math.min(100, Math.round((todayXp / user.dailyGoal) * 100));
-  let prevTitle = null;
+  const totalLessons = Object.keys(map.lessons).length;
+  const doneLessons = Object.values(map.lessons).filter((l) => l.times > 0).length;
+  const currentId = map.finished ? null : map.nextLessonId;
   return (
     <Layout title={course.title} user={user} todayXp={todayXp}>
       <div className="path-top">
         <div>
-          <h1 style={{ marginBottom: 2 }}>{course.title}</h1>
-          <Link href="/courses" className="small">
-            Change course
-          </Link>
+          <h1 style={{ marginBottom: 2 }}>
+            {course.title}{' '}
+            <span className="native-inline" lang={course.speechLang} dir={course.dir}>
+              {course.nativeName}
+            </span>
+          </h1>
+          <p className="muted small" style={{ margin: 0 }}>
+            {doneLessons} of {totalLessons} lessons done · <Link href="/courses">Change course</Link>
+          </p>
         </div>
-        {canPractice ? (
-          <Link href={'/practice/' + course.id} className="btn btn-secondary">
-            Practise weak words
-          </Link>
-        ) : null}
+        <div className="row">
+          {!map.finished ? (
+            <Link href={'/lesson/' + course.id + '/' + map.nextLessonId} className="btn">
+              {doneLessons ? 'Continue' : 'Start'}
+            </Link>
+          ) : null}
+          {canPractice ? (
+            <Link href={'/practice/' + course.id} className="btn btn-secondary">
+              Practise
+            </Link>
+          ) : null}
+        </div>
       </div>
 
       {user.isGuest ? (
@@ -166,10 +162,15 @@ export default function Learn({ user, todayXp, course, outline, skills, times, c
           one back{user.heartsNextAt ? ', or wait for the next one to refill' : ''}.
         </p>
       ) : null}
+      {map.finished ? (
+        <p className="alert alert-ok">You have finished every lesson in {course.title}. Keep practising to stay sharp!</p>
+      ) : null}
 
-      <div className="card">
+      <div className="card goal-card">
         <div className="row" style={{ justifyContent: 'space-between' }}>
-          <strong>Daily goal</strong>
+          <strong>
+            <Icon name="bolt" /> Daily goal
+          </strong>
           <span className="muted">
             {todayXp} / {user.dailyGoal} XP
           </span>
@@ -177,26 +178,13 @@ export default function Learn({ user, todayXp, course, outline, skills, times, c
         <div className="goal-bar" role="progressbar" aria-label="Daily goal" aria-valuemin={0} aria-valuemax={100} aria-valuenow={goalPct}>
           <span style={{ width: goalPct + '%' }} />
         </div>
+        <p className="muted small" style={{ margin: '6px 0 0' }}>
+          <Icon name="flame" /> {user.streak} day streak{user.streak ? '' : ' - finish a lesson today to start one'}
+        </p>
       </div>
 
       {outline.map((unit, ui) => (
-        <section className="unit" key={unit.id} aria-labelledby={'unit-' + unit.id}>
-          <div className="unit-head">
-            <h2 id={'unit-' + unit.id}>
-              Unit {ui + 1}: {unit.title}
-            </h2>
-            {unit.description ? <p>{unit.description}</p> : null}
-          </div>
-          <ul className="skills">
-            {unit.skills.map((s) => {
-              const card = (
-                <SkillCard key={s.id} skill={s} state={skills[s.id]} times={times} courseId={course.id} prevTitle={prevTitle} />
-              );
-              prevTitle = s.title;
-              return card;
-            })}
-          </ul>
-        </section>
+        <Unit key={unit.id} unit={unit} index={ui} map={map} courseId={course.id} currentId={currentId} />
       ))}
     </Layout>
   );
