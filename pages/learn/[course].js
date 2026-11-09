@@ -44,7 +44,7 @@ function PathNode({ lesson, number, state, current, courseId, unitTitle, offset 
   const cls = 'path-node' + (done ? ' is-done' : '') + (locked ? ' is-locked' : '') + (current ? ' is-current' : '');
   const icon = locked ? 'lock' : done ? 'check' : current ? 'star' : 'bolt';
   return (
-    <li className="path-item" style={{ '--offset': offset }}>
+    <li className={'path-item' + (current ? ' has-bubble' : '')} style={{ '--offset': offset }}>
       {current ? (
         <span className="path-bubble" aria-hidden="true">
           {done ? 'Review' : 'Start'}

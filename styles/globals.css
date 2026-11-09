@@ -776,6 +776,7 @@ a.path-node:active {
 }
 
 .path-node.is-current {
+  outline: 5px solid var(--primary-soft);
   outline: 5px solid color-mix(in srgb, var(--unit) 30%, transparent);
   outline-offset: 4px;
 }
@@ -795,7 +796,7 @@ a.path-node:active {
   animation: bob 1.6s ease-in-out infinite;
 }
 
-.path-item:has(.path-bubble) {
+.path-item.has-bubble {
   margin-top: 26px;
 }
 

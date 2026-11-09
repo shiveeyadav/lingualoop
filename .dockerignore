@@ -9,3 +9,5 @@ Dockerfile
 docker-compose.yml
 README.md
 scripts/gen-content.py
+scripts/courses
+test
