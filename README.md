@@ -151,6 +151,7 @@ Exercise fields: `mc` (prompt, options, answer, optional promptRoman/optionsRoma
 ```python
 COURSE = {"id": "greek", "title": "Greek", "nativeName": "Ελληνικά", "speechLang": "el-GR",
           "description": "...", "order": 150, "romanization": "transliteration", "keyboard": []}
+        "people": "...", "food": "...", "numbers": "...", "travel": "...", "daily": "..."}
 TIPS = {"greetings": ["...", "..."],  # 1-3 tips per unit (a single string also works)
 T = {
     "hello": "γεια σου | γεια σας @ ya sou",   # main | accepted alternatives @ romanization | other spellings
