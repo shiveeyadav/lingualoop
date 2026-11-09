@@ -27,6 +27,13 @@ Stack: Next.js 14 (pages router, plain JavaScript), PostgreSQL (`pg`), `bcryptjs
 
 Content uses only common vocabulary and short, simple sentences. Where a sentence depends on the speaker's gender (Arabic, Hindi, Polish, Russian), the masculine form is shown and the feminine form is accepted. **Before launch, have a native speaker skim each course** - see "Content review" below.
 
+## How learners are taught
+
+- **New words first.** Each lesson opens with one card per word or phrase it uses for the first time on the learning path: the text (with romanization for non-Latin scripts, right-to-left for Arabic), its English meaning and a listen button. Enter / Next moves on.
+- **Gentle order.** After the cards come multiple choice and match pairs on those words, then word tiles and listening, and typing last.
+- **Tap-a-word hints.** In prompts, every word taught so far is underlined; tap it (or Tab + Enter) to see its meaning and romanization. Korean hints see through grammar particles (커피를 → 커피, coffee); Chinese/Japanese hints match the longest known word.
+- **Unit guidebook.** The Guidebook button on each unit in the path map opens `/guide/<course>/<unit>`: the unit's tips, key words and key phrases, each with meaning, romanization and audio.
+
 ## Exercise types
 
 - **Multiple choice** - pick the meaning of a word or sentence, or the right translation (keys 1-4 work).
@@ -118,9 +125,13 @@ The app reads every `content/*.json` file at start-up; the file name is the cour
   "order": 30,                    // position on the course page
   "description": "...",
   "units": [
-    { "id": "u1", "title": "Greetings", "description": "...", "icon": "wave", "tip": "...",
+    { "id": "u1", "title": "Greetings", "description": "...", "icon": "wave",
+      "tips": ["1-3 short grammar or usage tips"],
+      "guide": { "words": [{ "t": "bonjour", "e": "Good morning" }], "phrases": [{ "t": "Ça va ?", "e": "How are you?" }] },
       "lessons": [
-        { "id": "u1l1", "title": "New words", "exercises": [
+        { "id": "u1l1", "title": "New words",
+          "teach": [{ "t": "bonjour", "e": "Good morning", "kind": "word", "alts": ["salut"] }],   // add "r" for romanization
+          "exercises": [
           { "type": "mc", "instruction": "What does this mean?", "prompt": "bonjour", "promptLang": "target",
             "options": ["Good morning", "Thank you", "Yes", "No"], "answer": "Good morning", "words": ["bonjour"] }
         ] }
@@ -129,7 +140,7 @@ The app reads every `content/*.json` file at start-up; the file name is the cour
 }
 ```
 
-Exercise fields: `mc` (prompt, options, answer, optional promptRoman/optionsRoman), `tap` (prompt, tiles, answer as an array of tiles, accepted alternatives, optional tilesRoman), `type` (prompt, answers), `listen` (text plus either answers to type or options to choose; optional roman), `match` (pairs of [target, English], optional romans). `words` are the vocabulary keys used by spaced-repetition practice. The validator in `lib/content.js` rejects a course whose answers are not among its options/tiles, whose romanization arrays do not line up, or whose ids repeat; it runs in the Docker build and on every start.
+Exercise fields: `mc` (prompt, options, answer, optional promptRoman/optionsRoman), `tap` (prompt, tiles, answer as an array of tiles, accepted alternatives, optional tilesRoman), `type` (prompt, answers), `listen` (text plus either answers to type or options to choose; optional roman), `match` (pairs of [target, English], optional romans). `words` are the vocabulary keys used by spaced-repetition practice. `teach` cards drive the lesson intro and the tap-a-word hints (only `kind: "word"` cards become hints). `particles` (course level, optional) lists grammar endings the hints should look through, as Korean does. The validator in `lib/content.js` rejects a course whose answers are not among its options/tiles, whose romanization arrays do not line up, or whose ids repeat; it runs in the Docker build and on every start.
 
 ## Adding a language
 
@@ -140,7 +151,7 @@ Exercise fields: `mc` (prompt, options, answer, optional promptRoman/optionsRoma
 ```python
 COURSE = {"id": "greek", "title": "Greek", "nativeName": "Ελληνικά", "speechLang": "el-GR",
           "description": "...", "order": 150, "romanization": "transliteration", "keyboard": []}
-TIPS = {"greetings": "...", "people": "...", "food": "...", "numbers": "...", "travel": "...", "daily": "..."}
+TIPS = {"greetings": ["...", "..."],  # 1-3 tips per unit (a single string also works)
 T = {
     "hello": "γεια σου | γεια σας @ ya sou",   # main | accepted alternatives @ romanization | other spellings
     "how_are_you": "Τι κάνεις; @ Ti kaneis?",  # sentences: romanization must have the same number of words
@@ -155,7 +166,7 @@ python3 scripts/gen-content.py greek     # writes content/greek.json (or no argu
 npm test                                 # validator + "every answer grades correctly" checks
 ```
 
-The generator stops with a clear message if a key is missing, a romanization is missing, or a sentence's romanization has a different number of words. Output is deterministic.
+The generator works out the `teach` list of every lesson (each word or phrase goes on the first lesson in path order that uses it) and the unit `guide`. It stops with a clear message if a key is missing, a romanization is missing, or a sentence's romanization has a different number of words. Output is deterministic.
 
 ## Game rules
 
@@ -163,7 +174,7 @@ The generator stops with a clear message if a key is missing, a romanization is 
 - **Streak:** goes up on the first XP of each UK calendar day (Europe/London). It is shown as 0 once a whole UK day is missed.
 - **Daily goal:** 10, 20, 30 or 50 XP, set in Settings.
 - **Hearts:** 5 maximum. You lose one for each wrong answer in a lesson (match-pair slips and practice are free). One heart refills every hour, and finishing a practice session gives one back. Lessons need at least 1 heart.
-- **Learning path:** lessons open one after another across the whole course; finishing a lesson opens the next one. Finished lessons stay open for review. Each unit shows its progress and a tips panel.
+- **Learning path:** lessons open one after another across the whole course; finishing a lesson opens the next one. Finished lessons stay open for review. Each unit shows its progress and a Guidebook button.
 - **Lesson complete:** shows XP, streak, today's progress towards the daily goal, unit progress, a list of your mistakes with the correct answers, and a Next lesson button.
 - **Practice:** 10 exercises from completed lessons, focused on the weakest words. Word strength goes up when you answer right first time and down after mistakes, and it decays when a word goes unseen.
 - **Leaderboard:** XP since Monday 00:00 UK time. Guests and people who opt out are hidden.
@@ -177,12 +188,13 @@ The generator stops with a clear message if a key is missing, a romanization is 
 ## Tests
 
 ```sh
-npm test          # node:test, no dependencies: grading, learning path, every course file
+npm test          # node:test, no dependencies: grading, hints, learning path, every course file
+                  # (incl. "every word is taught before it is tested" and "typing comes last")
 ```
 
 ## Status of this version (November 2026)
 
-Built and checked in the development container: content generation for all 14 courses, the content validator, and `npm test` (grading for all scripts, lesson unlocking, and a check that every one of the 3,420 exercises accepts its own answer and rejects its wrong options). The client components (lesson player, all five exercise types, path map, course picker) were also bundled with esbuild against a locally available React 19 and clicked through in headless Chromium: the first lesson of every course plus several later lessons (with and without a speech voice, including one deliberate mistake), confirming the lesson completes, the mistake is re-asked and listed in the review, and the submitted answers pass the server's re-grading.
+Built and checked in the development container: content generation for all 14 courses, the content validator, and `npm test` (grading for all scripts, lesson unlocking, and a check that every one of the 3,420 exercises accepts its own answer and rejects its wrong options). The client components (lesson player with new-word cards and hints, all five exercise types, path map, guidebook, course picker) were also bundled with esbuild against a locally available React 19 and clicked through in headless Chromium: the first lesson of every course plus several later lessons (with and without a speech voice, including one deliberate mistake), confirming the lesson completes, the mistake is re-asked and listed in the review, and the submitted answers pass the server's re-grading.
 
 **Not run here:** npm could not reach the registry from the container, so `npm install`, `next build`, the API routes with PostgreSQL, the Docker image and the real Next.js app were **not** run for this version. No new npm dependencies were added. Before deploying, run `npm install && npm run build` (or `docker compose up -d --build`) and click through one lesson in a Latin-script course, Arabic and Japanese, including a listening exercise on a phone.
 

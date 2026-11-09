@@ -76,3 +76,25 @@ test('14 or more courses, with the required languages', () => {
   for (const w of want) assert.ok(courses[w], w + ' exists');
   assert.equal(courses.arabic.meta.dir, 'rtl');
 });
+
+for (const [id, course] of Object.entries(courses)) {
+  test(id + ': words are taught before they are tested, easy exercises first', () => {
+    const taught = new Set();
+    for (const lid of course.lessonOrder) {
+      const lesson = course.lessonIndex[lid].lesson;
+      for (const k of lesson.teach || []) taught.add(k.t);
+      lesson.exercises.forEach((ex, i) => {
+        const where = id + ' ' + lid + ' #' + i;
+        if (ex.type === 'mc' && ex.promptLang === 'target') assert.ok(taught.has(ex.prompt), where + ' prompt taught: ' + ex.prompt);
+        if (ex.type === 'mc' && ex.promptLang === 'en') assert.ok(taught.has(ex.answer), where + ' answer taught: ' + ex.answer);
+        if (ex.type === 'match') ex.pairs.forEach((p) => assert.ok(taught.has(p[0]), where + ' pair taught: ' + p[0]));
+        if (ex.type === 'listen') assert.ok(taught.has(ex.text), where + ' listen text taught');
+      });
+      const firstTyping = lesson.exercises.findIndex((e) => e.type === 'type');
+      const lastEasy = lesson.exercises.map((e) => e.type === 'mc' || e.type === 'match').lastIndexOf(true);
+      assert.ok(['mc', 'match'].includes(lesson.exercises[0].type), lid + ' starts with an easy exercise');
+      if (firstTyping !== -1) assert.ok(firstTyping > lastEasy, lid + ' typing comes after multiple choice / match');
+    }
+    for (const u of course.units) assert.ok((u.tips || []).length >= 1 && u.tips.length <= 3, u.id + ' has 1-3 tips');
+  });
+}
