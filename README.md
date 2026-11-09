@@ -182,9 +182,9 @@ npm test          # node:test, no dependencies: grading, learning path, every co
 
 ## Status of this version (November 2026)
 
-Built and checked in the development container: content generation for all 14 courses, the content validator, and `npm test` (grading for all scripts, lesson unlocking, and a check that every one of the 3,420 exercises accepts its own answer and rejects its wrong options). JSX was syntax-checked with the TypeScript compiler and linted for undefined names.
+Built and checked in the development container: content generation for all 14 courses, the content validator, and `npm test` (grading for all scripts, lesson unlocking, and a check that every one of the 3,420 exercises accepts its own answer and rejects its wrong options). The client components (lesson player, all five exercise types, path map, course picker) were also bundled with esbuild against a locally available React 19 and clicked through in headless Chromium: the first lesson of every course plus several later lessons (with and without a speech voice, including one deliberate mistake), confirming the lesson completes, the mistake is re-asked and listed in the review, and the submitted answers pass the server's re-grading.
 
-**Not run here:** npm could not reach the registry from the container, so `npm install`, `next build`, the Docker image and the app in a browser were **not** run for this version. No new npm dependencies were added. Before deploying, run `npm install && npm run build` (or `docker compose up -d --build`) and click through one lesson in a Latin-script course, Arabic and Japanese, including a listening exercise.
+**Not run here:** npm could not reach the registry from the container, so `npm install`, `next build`, the API routes with PostgreSQL, the Docker image and the real Next.js app were **not** run for this version. No new npm dependencies were added. Before deploying, run `npm install && npm run build` (or `docker compose up -d --build`) and click through one lesson in a Latin-script course, Arabic and Japanese, including a listening exercise on a phone.
 
 **Upgrade note:** lesson ids changed from the MVP (`u1s1l1` to `u1l1`) when skills were replaced by the learning path, so lesson progress saved by the earlier MVP does not carry over. XP, streaks and accounts are unaffected.
 
