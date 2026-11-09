@@ -1,0 +1,5914 @@
+{
+ "id": "hindi",
+ "title": "Hindi",
+ "shortName": "Hindi",
+ "nativeName": "हिन्दी",
+ "fromLanguage": "en",
+ "speechLang": "hi-IN",
+ "dir": "ltr",
+ "romanization": "romanization",
+ "noSpaces": false,
+ "keyboard": [],
+ "order": 110,
+ "description": "Everyday Hindi in Devanagari with romanization: greetings, family, food, numbers, travel and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "'नमस्ते' (namaste) works for hello and goodbye. 'आप' (aap) is the polite 'you'; 'तुम' (tum) is for friends.",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "नमस्ते",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Hello",
+        "Good morning",
+        "No"
+       ],
+       "answer": "Hello",
+       "words": [
+        "नमस्ते"
+       ],
+       "promptRoman": "namaste"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "अलविदा",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Goodbye",
+        "Hello",
+        "No"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "अलविदा"
+       ],
+       "promptRoman": "alvida"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "धन्यवाद",
+       "words": [
+        "धन्यवाद"
+       ],
+       "options": [
+        "धन्यवाद",
+        "सुप्रभात",
+        "अलविदा",
+        "हाँ"
+       ],
+       "optionsRoman": [
+        "dhanyavaad",
+        "suprabhaat",
+        "alvida",
+        "haan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "कृपया",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Yes",
+        "Goodbye",
+        "Good morning"
+       ],
+       "answer": "Please",
+       "words": [
+        "कृपया"
+       ],
+       "promptRoman": "kripaya"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "नमस्ते",
+         "Hello"
+        ],
+        [
+         "अलविदा",
+         "Goodbye"
+        ],
+        [
+         "धन्यवाद",
+         "Thank you"
+        ],
+        [
+         "कृपया",
+         "Please"
+        ]
+       ],
+       "words": [
+        "नमस्ते",
+        "अलविदा",
+        "धन्यवाद",
+        "कृपया"
+       ],
+       "romans": [
+        "namaste",
+        "alvida",
+        "dhanyavaad",
+        "kripaya"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "हुई",
+        "आप",
+        "हैं",
+        "कैसे",
+        "कल",
+        "मिलते"
+       ],
+       "answer": [
+        "आप",
+        "कैसे",
+        "हैं"
+       ],
+       "accepted": [
+        "आप कैसी हैं?",
+        "तुम कैसे हो?"
+       ],
+       "words": [
+        "हाँ"
+       ],
+       "tilesRoman": [
+        "hui",
+        "aap",
+        "hain",
+        "kaise",
+        "kal",
+        "milte"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं ठीक हूँ, धन्यवाद।",
+       "roman": "main theek hoon, dhanyavaad.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "धन्यवाद",
+        "हाँ",
+        "माँ",
+        "दो"
+       ],
+       "options": [
+        "आप कैसे हैं?",
+        "आपका नाम क्या है?",
+        "मैं ठीक हूँ, धन्यवाद।",
+        "कल मिलते हैं।"
+       ],
+       "optionsRoman": [
+        "aap kaise hain?",
+        "aapka naam kya hai?",
+        "main theek hoon, dhanyavaad.",
+        "kal milte hain."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मेरा नाम अन्ना है।",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "thank",
+        "very",
+        "My",
+        "Anna",
+        "is",
+        "name"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "promptRoman": "mera naam Anna hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "आप कैसे हैं?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "हाँ"
+       ],
+       "promptRoman": "aap kaise hain?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "हाँ",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Goodbye",
+        "Good morning",
+        "Yes"
+       ],
+       "answer": "Yes",
+       "words": [
+        "हाँ"
+       ],
+       "promptRoman": "haan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "नहीं",
+       "words": [
+        "नहीं"
+       ],
+       "options": [
+        "हाँ",
+        "सुप्रभात",
+        "नहीं",
+        "कृपया"
+       ],
+       "optionsRoman": [
+        "haan",
+        "suprabhaat",
+        "nahin",
+        "kripaya"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "सुप्रभात",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "Goodbye",
+        "Hello",
+        "Good morning"
+       ],
+       "answer": "Good morning",
+       "words": [
+        "सुप्रभात"
+       ],
+       "promptRoman": "suprabhaat"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "माफ़ कीजिए",
+       "words": [
+        "माफ़ कीजिए"
+       ],
+       "options": [
+        "माफ़ कीजिए",
+        "हाँ",
+        "नहीं",
+        "धन्यवाद"
+       ],
+       "optionsRoman": [
+        "maaf kijiye",
+        "haan",
+        "nahin",
+        "dhanyavaad"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "हाँ",
+         "Yes"
+        ],
+        [
+         "नहीं",
+         "No"
+        ],
+        [
+         "सुप्रभात",
+         "Good morning"
+        ],
+        [
+         "माफ़ कीजिए",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "हाँ",
+        "नहीं",
+        "सुप्रभात",
+        "माफ़ कीजिए"
+       ],
+       "romans": [
+        "haan",
+        "nahin",
+        "suprabhaat",
+        "maaf kijiye"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "आपसे",
+        "खुशी",
+        "आप",
+        "कल",
+        "हुई",
+        "मिलकर",
+        "बहुत"
+       ],
+       "answer": [
+        "आपसे",
+        "मिलकर",
+        "खुशी",
+        "हुई"
+       ],
+       "accepted": [
+        "आपसे मिलकर ख़ुशी हुई।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "tilesRoman": [
+        "aapse",
+        "khushi",
+        "aap",
+        "kal",
+        "hui",
+        "milkar",
+        "bahut"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "बहुत धन्यवाद।",
+       "promptLang": "target",
+       "tiles": [
+        "See",
+        "Thank",
+        "much",
+        "meet",
+        "very",
+        "you",
+        "Nice"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "धन्यवाद",
+        "दो"
+       ],
+       "promptRoman": "bahut dhanyavaad."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "आपसे मिलकर खुशी हुई।",
+       "roman": "aapse milkar khushi hui.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "options": [
+        "आपसे मिलकर खुशी हुई।",
+        "कल मिलते हैं।",
+        "मैं ठीक हूँ, धन्यवाद।",
+        "बहुत धन्यवाद।"
+       ],
+       "optionsRoman": [
+        "aapse milkar khushi hui.",
+        "kal milte hain.",
+        "main theek hoon, dhanyavaad.",
+        "bahut dhanyavaad."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "कल मिलते हैं।",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "कल"
+       ],
+       "promptRoman": "kal milte hain."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "नमस्ते",
+        "नमस्कार",
+        "namaste"
+       ],
+       "words": [
+        "नमस्ते"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "आपका नाम क्या है?",
+       "promptLang": "target",
+       "options": [
+        "See you tomorrow.",
+        "What is your name?",
+        "I am fine, thank you.",
+        "Nice to meet you."
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "promptRoman": "aapka naam kya hai?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "अलविदा",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "No",
+        "Goodbye",
+        "Thank you"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "अलविदा"
+       ],
+       "promptRoman": "alvida"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "माफ़ कीजिए",
+         "Sorry"
+        ],
+        [
+         "अलविदा",
+         "Goodbye"
+        ],
+        [
+         "कृपया",
+         "Please"
+        ],
+        [
+         "सुप्रभात",
+         "Good morning"
+        ],
+        [
+         "हाँ",
+         "Yes"
+        ]
+       ],
+       "words": [
+        "माफ़ कीजिए",
+        "अलविदा",
+        "कृपया",
+        "सुप्रभात",
+        "हाँ"
+       ],
+       "romans": [
+        "maaf kijiye",
+        "alvida",
+        "kripaya",
+        "suprabhaat",
+        "haan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "है",
+        "मिलकर",
+        "क्या",
+        "आपका",
+        "कैसे",
+        "हुई",
+        "नाम"
+       ],
+       "answer": [
+        "आपका",
+        "नाम",
+        "क्या",
+        "है"
+       ],
+       "accepted": [
+        "तुम्हारा नाम क्या है?"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "tilesRoman": [
+        "hai",
+        "milkar",
+        "kya",
+        "aapka",
+        "kaise",
+        "hui",
+        "naam"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं ठीक हूँ, धन्यवाद।",
+       "promptLang": "target",
+       "tiles": [
+        "thank",
+        "am",
+        "you",
+        "I",
+        "Nice",
+        "See",
+        "is",
+        "fine"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "धन्यवाद",
+        "हाँ",
+        "माँ",
+        "दो"
+       ],
+       "promptRoman": "main theek hoon, dhanyavaad."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "कल मिलते हैं।",
+       "roman": "kal milte hain.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "कल"
+       ],
+       "options": [
+        "आपसे मिलकर खुशी हुई।",
+        "कल मिलते हैं।",
+        "बहुत धन्यवाद।",
+        "मैं ठीक हूँ, धन्यवाद।"
+       ],
+       "optionsRoman": [
+        "aapse milkar khushi hui.",
+        "kal milte hain.",
+        "bahut dhanyavaad.",
+        "main theek hoon, dhanyavaad."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "आप",
+        "बहुत",
+        "मिलते",
+        "हुई",
+        "धन्यवाद"
+       ],
+       "answer": [
+        "बहुत",
+        "धन्यवाद"
+       ],
+       "accepted": [
+        "बहुत-बहुत धन्यवाद।",
+        "बहुत शुक्रिया।"
+       ],
+       "words": [
+        "धन्यवाद",
+        "दो"
+       ],
+       "tilesRoman": [
+        "aap",
+        "bahut",
+        "milte",
+        "hui",
+        "dhanyavaad"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मेरा नाम अन्ना है।",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "promptRoman": "mera naam Anna hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "अलविदा",
+        "फिर मिलेंगे",
+        "alvida"
+       ],
+       "words": [
+        "अलविदा"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "अन्ना",
+        "मिलकर",
+        "मिलते",
+        "बहुत",
+        "हैं",
+        "कल"
+       ],
+       "answer": [
+        "कल",
+        "मिलते",
+        "हैं"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "माँ",
+        "कल"
+       ],
+       "tilesRoman": [
+        "Anna",
+        "milkar",
+        "milte",
+        "bahut",
+        "hain",
+        "kal"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "आप कैसे हैं?",
+       "promptLang": "target",
+       "options": [
+        "I am fine, thank you.",
+        "Thank you very much.",
+        "Nice to meet you.",
+        "How are you?"
+       ],
+       "answer": "How are you?",
+       "words": [
+        "हाँ"
+       ],
+       "promptRoman": "aap kaise hain?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "अलविदा",
+         "Goodbye"
+        ],
+        [
+         "सुप्रभात",
+         "Good morning"
+        ],
+        [
+         "माफ़ कीजिए",
+         "Sorry"
+        ],
+        [
+         "नमस्ते",
+         "Hello"
+        ]
+       ],
+       "words": [
+        "अलविदा",
+        "सुप्रभात",
+        "माफ़ कीजिए",
+        "नमस्ते"
+       ],
+       "romans": [
+        "alvida",
+        "suprabhaat",
+        "maaf kijiye",
+        "namaste"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "नहीं",
+       "words": [
+        "नहीं"
+       ],
+       "options": [
+        "नहीं",
+        "सुप्रभात",
+        "धन्यवाद",
+        "नमस्ते"
+       ],
+       "optionsRoman": [
+        "nahin",
+        "suprabhaat",
+        "dhanyavaad",
+        "namaste"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "अन्ना",
+        "नाम",
+        "बहुत",
+        "मेरा",
+        "है",
+        "आप",
+        "हूँ"
+       ],
+       "answer": [
+        "मेरा",
+        "नाम",
+        "अन्ना",
+        "है"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "tilesRoman": [
+        "Anna",
+        "naam",
+        "bahut",
+        "mera",
+        "hai",
+        "aap",
+        "hoon"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "आपका नाम क्या है?",
+       "roman": "aapka naam kya hai?",
+       "translation": "What is your name?",
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "options": [
+        "मैं ठीक हूँ, धन्यवाद।",
+        "बहुत धन्यवाद।",
+        "आपका नाम क्या है?",
+        "मेरा नाम अन्ना है।"
+       ],
+       "optionsRoman": [
+        "main theek hoon, dhanyavaad.",
+        "bahut dhanyavaad.",
+        "aapka naam kya hai?",
+        "mera naam Anna hai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "आपसे मिलकर खुशी हुई।",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "fine",
+        "Nice",
+        "What",
+        "meet",
+        "Anna",
+        "you"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "promptRoman": "aapse milkar khushi hui."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Yes",
+       "promptLang": "en",
+       "answers": [
+        "हाँ",
+        "हां",
+        "haan",
+        "han"
+       ],
+       "words": [
+        "हाँ"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मैं ठीक हूँ, धन्यवाद।",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "धन्यवाद",
+        "हाँ",
+        "माँ",
+        "दो"
+       ],
+       "promptRoman": "main theek hoon, dhanyavaad."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "बहुत धन्यवाद।",
+       "roman": "bahut dhanyavaad.",
+       "translation": "Thank you very much.",
+       "words": [
+        "धन्यवाद",
+        "दो"
+       ],
+       "options": [
+        "मेरा नाम अन्ना है।",
+        "कल मिलते हैं।",
+        "बहुत धन्यवाद।",
+        "मैं ठीक हूँ, धन्यवाद।"
+       ],
+       "optionsRoman": [
+        "mera naam Anna hai.",
+        "kal milte hain.",
+        "bahut dhanyavaad.",
+        "main theek hoon, dhanyavaad."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tip": "Words like 'my' change with the noun's gender: 'मेरा बेटा' (mera beta, my son) but 'मेरी बेटी' (meri beti, my daughter).",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "आदमी",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Man",
+        "Woman",
+        "Friend"
+       ],
+       "answer": "Man",
+       "words": [
+        "आदमी"
+       ],
+       "promptRoman": "aadmi"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "औरत",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Woman",
+        "Child",
+        "Friend"
+       ],
+       "answer": "Woman",
+       "words": [
+        "औरत"
+       ],
+       "promptRoman": "aurat"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "बच्चा",
+       "words": [
+        "बच्चा"
+       ],
+       "options": [
+        "बेटा",
+        "माँ",
+        "बच्चा",
+        "पिता"
+       ],
+       "optionsRoman": [
+        "beta",
+        "maa",
+        "bachcha",
+        "pita"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "दोस्त",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Mother",
+        "Son",
+        "Father"
+       ],
+       "answer": "Friend",
+       "words": [
+        "दोस्त"
+       ],
+       "promptRoman": "dost"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "आदमी",
+         "Man"
+        ],
+        [
+         "औरत",
+         "Woman"
+        ],
+        [
+         "बच्चा",
+         "Child"
+        ],
+        [
+         "दोस्त",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "आदमी",
+        "औरत",
+        "बच्चा",
+        "दोस्त"
+       ],
+       "romans": [
+        "aadmi",
+        "aurat",
+        "bachcha",
+        "dost"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "मेरे",
+        "ये",
+        "माँ",
+        "मेरी",
+        "आदमी",
+        "हैं",
+        "बेटा"
+       ],
+       "answer": [
+        "ये",
+        "मेरी",
+        "माँ",
+        "हैं"
+       ],
+       "accepted": [
+        "यह मेरी माँ है।",
+        "ये मेरी मां हैं।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "tilesRoman": [
+        "mere",
+        "ye",
+        "maa",
+        "meri",
+        "aadmi",
+        "hain",
+        "beta"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "वह मेरा दोस्त है।",
+       "roman": "vah mera dost hai.",
+       "translation": "He is my friend.",
+       "words": [
+        "हाँ",
+        "दोस्त",
+        "माँ",
+        "दो",
+        "सात"
+       ],
+       "options": [
+        "वह मेरा दोस्त है।",
+        "वह मेरी बेटी है।",
+        "मेरी माँ घर पर हैं।",
+        "मेरे पिता कहाँ हैं?"
+       ],
+       "optionsRoman": [
+        "vah mera dost hai.",
+        "vah meri beti hai.",
+        "meri maa ghar par hain.",
+        "mere pita kahaan hain?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मेरा एक बेटा है।",
+       "promptLang": "target",
+       "tiles": [
+        "a",
+        "home",
+        "have",
+        "mother",
+        "This",
+        "son",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "बेटा",
+        "बेटी",
+        "एक"
+       ],
+       "promptRoman": "mera ek beta hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "ये मेरी माँ हैं।",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "promptRoman": "ye meri maa hain."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "माँ",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Mother",
+        "Woman",
+        "Daughter"
+       ],
+       "answer": "Mother",
+       "words": [
+        "माँ"
+       ],
+       "promptRoman": "maa"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answer": "पिता",
+       "words": [
+        "पिता"
+       ],
+       "options": [
+        "आदमी",
+        "बेटी",
+        "बच्चा",
+        "पिता"
+       ],
+       "optionsRoman": [
+        "aadmi",
+        "beti",
+        "bachcha",
+        "pita"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "बेटा",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Son",
+        "Father",
+        "Child"
+       ],
+       "answer": "Son",
+       "words": [
+        "बेटा"
+       ],
+       "promptRoman": "beta"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "बेटी",
+       "words": [
+        "बेटी"
+       ],
+       "options": [
+        "आदमी",
+        "पिता",
+        "बेटी",
+        "औरत"
+       ],
+       "optionsRoman": [
+        "aadmi",
+        "pita",
+        "beti",
+        "aurat"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "माँ",
+         "Mother"
+        ],
+        [
+         "पिता",
+         "Father"
+        ],
+        [
+         "बेटा",
+         "Son"
+        ],
+        [
+         "बेटी",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "माँ",
+        "पिता",
+        "बेटा",
+        "बेटी"
+       ],
+       "romans": [
+        "maa",
+        "pita",
+        "beta",
+        "beti"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "पिता",
+        "कहाँ",
+        "पर",
+        "हैं",
+        "मेरे",
+        "ये",
+        "यह"
+       ],
+       "answer": [
+        "मेरे",
+        "पिता",
+        "कहाँ",
+        "हैं"
+       ],
+       "accepted": [
+        "मेरे पिताजी कहाँ हैं?",
+        "मेरे पिता कहां हैं?"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कहाँ"
+       ],
+       "tilesRoman": [
+        "pita",
+        "kahaan",
+        "par",
+        "hain",
+        "mere",
+        "ye",
+        "yah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मेरी माँ घर पर हैं।",
+       "promptLang": "target",
+       "tiles": [
+        "mother",
+        "home",
+        "I",
+        "have",
+        "at",
+        "son",
+        "is",
+        "My"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "घर"
+       ],
+       "promptRoman": "meri maa ghar par hain."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मेरे पिता कहाँ हैं?",
+       "roman": "mere pita kahaan hain?",
+       "translation": "Where is my father?",
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कहाँ"
+       ],
+       "options": [
+        "मेरे पिता कहाँ हैं?",
+        "मेरी माँ घर पर हैं।",
+        "यह आदमी कौन है?",
+        "मेरा एक बेटा है।"
+       ],
+       "optionsRoman": [
+        "mere pita kahaan hain?",
+        "meri maa ghar par hain.",
+        "yah aadmi kaun hai?",
+        "mera ek beta hai."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "वह मेरी बेटी है।",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "बेटा",
+        "बेटी"
+       ],
+       "promptRoman": "vah meri beti hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "आदमी",
+        "aadmi",
+        "admi"
+       ],
+       "words": [
+        "आदमी"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "यह आदमी कौन है?",
+       "promptLang": "target",
+       "options": [
+        "Where is my father?",
+        "My mother is at home.",
+        "She is my daughter.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "हाँ",
+        "आदमी",
+        "नौ"
+       ],
+       "promptRoman": "yah aadmi kaun hai?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "औरत",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Friend",
+        "Son",
+        "Woman"
+       ],
+       "answer": "Woman",
+       "words": [
+        "औरत"
+       ],
+       "promptRoman": "aurat"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "माँ",
+         "Mother"
+        ],
+        [
+         "आदमी",
+         "Man"
+        ],
+        [
+         "बेटा",
+         "Son"
+        ],
+        [
+         "औरत",
+         "Woman"
+        ],
+        [
+         "बच्चा",
+         "Child"
+        ]
+       ],
+       "words": [
+        "माँ",
+        "आदमी",
+        "बेटा",
+        "औरत",
+        "बच्चा"
+       ],
+       "romans": [
+        "maa",
+        "aadmi",
+        "beta",
+        "aurat",
+        "bachcha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "आदमी",
+        "है",
+        "एक",
+        "कौन",
+        "दोस्त",
+        "पिता",
+        "यह"
+       ],
+       "answer": [
+        "यह",
+        "आदमी",
+        "कौन",
+        "है"
+       ],
+       "accepted": [
+        "ये आदमी कौन है?"
+       ],
+       "words": [
+        "हाँ",
+        "आदमी",
+        "नौ"
+       ],
+       "tilesRoman": [
+        "aadmi",
+        "hai",
+        "ek",
+        "kaun",
+        "dost",
+        "pita",
+        "yah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "वह मेरा दोस्त है।",
+       "promptLang": "target",
+       "tiles": [
+        "He",
+        "friend",
+        "is",
+        "my",
+        "This",
+        "I",
+        "man"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "दोस्त",
+        "माँ",
+        "दो",
+        "सात"
+       ],
+       "promptRoman": "vah mera dost hai."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "वह मेरी बेटी है।",
+       "roman": "vah meri beti hai.",
+       "translation": "She is my daughter.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "बेटा",
+        "बेटी"
+       ],
+       "options": [
+        "मेरा एक बेटा है।",
+        "यह आदमी कौन है?",
+        "वह मेरी बेटी है।",
+        "मेरे पिता कहाँ हैं?"
+       ],
+       "optionsRoman": [
+        "mera ek beta hai.",
+        "yah aadmi kaun hai?",
+        "vah meri beti hai.",
+        "mere pita kahaan hain?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "हैं",
+        "पर",
+        "है",
+        "बेटा",
+        "घर",
+        "माँ",
+        "मेरी",
+        "कहाँ"
+       ],
+       "answer": [
+        "मेरी",
+        "माँ",
+        "घर",
+        "पर",
+        "हैं"
+       ],
+       "accepted": [
+        "मेरी माँ घर पर है।",
+        "मेरी मां घर पर हैं।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "घर"
+       ],
+       "tilesRoman": [
+        "hain",
+        "par",
+        "hai",
+        "beta",
+        "ghar",
+        "maa",
+        "meri",
+        "kahaan"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मेरा एक बेटा है।",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "बेटा",
+        "बेटी",
+        "एक"
+       ],
+       "promptRoman": "mera ek beta hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "औरत",
+        "महिला",
+        "aurat"
+       ],
+       "words": [
+        "औरत"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "मेरी",
+        "है",
+        "मेरे",
+        "बेटी",
+        "कौन",
+        "ये",
+        "वह"
+       ],
+       "answer": [
+        "वह",
+        "मेरी",
+        "बेटी",
+        "है"
+       ],
+       "accepted": [
+        "यह मेरी बेटी है।",
+        "वो मेरी बेटी है।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "बेटा",
+        "बेटी"
+       ],
+       "tilesRoman": [
+        "meri",
+        "hai",
+        "mere",
+        "beti",
+        "kaun",
+        "ye",
+        "vah"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "ये मेरी माँ हैं।",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "This is my mother.",
+        "Who is this man?",
+        "Where is my father?"
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "promptRoman": "ye meri maa hain."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "बेटा",
+         "Son"
+        ],
+        [
+         "दोस्त",
+         "Friend"
+        ],
+        [
+         "पिता",
+         "Father"
+        ],
+        [
+         "बेटी",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "बेटा",
+        "दोस्त",
+        "पिता",
+        "बेटी"
+       ],
+       "romans": [
+        "beta",
+        "dost",
+        "pita",
+        "beti"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Mother",
+       "promptLang": "en",
+       "answer": "माँ",
+       "words": [
+        "माँ"
+       ],
+       "options": [
+        "बच्चा",
+        "माँ",
+        "पिता",
+        "बेटी"
+       ],
+       "optionsRoman": [
+        "bachcha",
+        "maa",
+        "pita",
+        "beti"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "बेटा",
+        "मेरा",
+        "एक",
+        "है",
+        "पिता",
+        "दोस्त",
+        "ये"
+       ],
+       "answer": [
+        "मेरा",
+        "एक",
+        "बेटा",
+        "है"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "माँ",
+        "बेटा",
+        "बेटी",
+        "एक"
+       ],
+       "tilesRoman": [
+        "beta",
+        "mera",
+        "ek",
+        "hai",
+        "pita",
+        "dost",
+        "ye"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "यह आदमी कौन है?",
+       "roman": "yah aadmi kaun hai?",
+       "translation": "Who is this man?",
+       "words": [
+        "हाँ",
+        "आदमी",
+        "नौ"
+       ],
+       "options": [
+        "यह आदमी कौन है?",
+        "ये मेरी माँ हैं।",
+        "वह मेरी बेटी है।",
+        "मेरा एक बेटा है।"
+       ],
+       "optionsRoman": [
+        "yah aadmi kaun hai?",
+        "ye meri maa hain.",
+        "vah meri beti hai.",
+        "mera ek beta hai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मेरे पिता कहाँ हैं?",
+       "promptLang": "target",
+       "tiles": [
+        "friend",
+        "home",
+        "This",
+        "my",
+        "Where",
+        "is",
+        "father"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कहाँ"
+       ],
+       "promptRoman": "mere pita kahaan hain?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "औरत",
+        "महिला",
+        "aurat"
+       ],
+       "words": [
+        "औरत"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "वह मेरा दोस्त है।",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "हाँ",
+        "दोस्त",
+        "माँ",
+        "दो",
+        "सात"
+       ],
+       "promptRoman": "vah mera dost hai."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मेरी माँ घर पर हैं।",
+       "roman": "meri maa ghar par hain.",
+       "translation": "My mother is at home.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "घर"
+       ],
+       "options": [
+        "मेरे पिता कहाँ हैं?",
+        "मेरा एक बेटा है।",
+        "यह आदमी कौन है?",
+        "मेरी माँ घर पर हैं।"
+       ],
+       "optionsRoman": [
+        "mere pita kahaan hain?",
+        "mera ek beta hai.",
+        "yah aadmi kaun hai?",
+        "meri maa ghar par hain."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tip": "Many verbs change with the speaker's gender: a man says 'पीता हूँ' (peeta hoon), a woman 'पीती हूँ' (peeti hoon).",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "पानी",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Apple",
+        "Rice",
+        "Coffee"
+       ],
+       "answer": "Water",
+       "words": [
+        "पानी"
+       ],
+       "promptRoman": "paani"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "रोटी",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Water",
+        "Coffee",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "रोटी"
+       ],
+       "promptRoman": "roti"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "कॉफ़ी",
+       "words": [
+        "कॉफ़ी"
+       ],
+       "options": [
+        "सेब",
+        "चाय",
+        "कॉफ़ी",
+        "दूध"
+       ],
+       "optionsRoman": [
+        "seb",
+        "chaay",
+        "kofi",
+        "doodh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "चाय",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Apple",
+        "Egg",
+        "Water"
+       ],
+       "answer": "Tea",
+       "words": [
+        "चाय"
+       ],
+       "promptRoman": "chaay"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "पानी",
+         "Water"
+        ],
+        [
+         "रोटी",
+         "Bread"
+        ],
+        [
+         "कॉफ़ी",
+         "Coffee"
+        ],
+        [
+         "चाय",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "पानी",
+        "रोटी",
+        "कॉफ़ी",
+        "चाय"
+       ],
+       "romans": [
+        "paani",
+        "roti",
+        "kofi",
+        "chaay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "दीजिए",
+        "कॉफ़ी",
+        "दूध",
+        "पानी",
+        "गरम"
+       ],
+       "answer": [
+        "पानी",
+        "दीजिए"
+       ],
+       "accepted": [
+        "कृपया पानी दीजिए।"
+       ],
+       "words": [
+        "पानी",
+        "दो",
+        "नौ"
+       ],
+       "tilesRoman": [
+        "dijiye",
+        "kofi",
+        "doodh",
+        "paani",
+        "garam"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं कॉफ़ी पीता हूँ।",
+       "roman": "main kofi peeta hoon.",
+       "translation": "I drink coffee.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कॉफ़ी"
+       ],
+       "options": [
+        "मैं रोटी खाता हूँ।",
+        "मैं कॉफ़ी पीता हूँ।",
+        "मुझे भूख लगी है।",
+        "पानी दीजिए।"
+       ],
+       "optionsRoman": [
+        "main roti khaata hoon.",
+        "main kofi peeta hoon.",
+        "mujhe bhookh lagi hai.",
+        "paani dijiye."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं रोटी खाता हूँ।",
+       "promptLang": "target",
+       "tiles": [
+        "eat",
+        "hungry",
+        "Water",
+        "is",
+        "bread",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "रोटी"
+       ],
+       "promptRoman": "main roti khaata hoon."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "पानी दीजिए।",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "पानी",
+        "दो",
+        "नौ"
+       ],
+       "promptRoman": "paani dijiye."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "दूध",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Apple",
+        "Egg",
+        "Milk"
+       ],
+       "answer": "Milk",
+       "words": [
+        "दूध"
+       ],
+       "promptRoman": "doodh"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "सेब",
+       "words": [
+        "सेब"
+       ],
+       "options": [
+        "सेब",
+        "चाय",
+        "अंडा",
+        "पानी"
+       ],
+       "optionsRoman": [
+        "seb",
+        "chaay",
+        "anda",
+        "paani"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "चावल",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Bread",
+        "Tea",
+        "Rice"
+       ],
+       "answer": "Rice",
+       "words": [
+        "चावल"
+       ],
+       "promptRoman": "chaaval"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "अंडा",
+       "words": [
+        "अंडा"
+       ],
+       "options": [
+        "पानी",
+        "अंडा",
+        "कॉफ़ी",
+        "दूध"
+       ],
+       "optionsRoman": [
+        "paani",
+        "anda",
+        "kofi",
+        "doodh"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "दूध",
+         "Milk"
+        ],
+        [
+         "सेब",
+         "Apple"
+        ],
+        [
+         "चावल",
+         "Rice"
+        ],
+        [
+         "अंडा",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "दूध",
+        "सेब",
+        "चावल",
+        "अंडा"
+       ],
+       "romans": [
+        "doodh",
+        "seb",
+        "chaaval",
+        "anda"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "है",
+        "गरम",
+        "पीता",
+        "दीजिए",
+        "चाय",
+        "मुझे"
+       ],
+       "answer": [
+        "चाय",
+        "गरम",
+        "है"
+       ],
+       "accepted": [
+        "चाय गर्म है।"
+       ],
+       "words": [
+        "हाँ",
+        "चाय"
+       ],
+       "tilesRoman": [
+        "hai",
+        "garam",
+        "peeta",
+        "dijiye",
+        "chaay",
+        "mujhe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं दूध नहीं पीता।",
+       "promptLang": "target",
+       "tiles": [
+        "do",
+        "not",
+        "drink",
+        "milk",
+        "I",
+        "eat",
+        "tea",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "नहीं",
+        "माँ",
+        "पिता",
+        "दूध",
+        "दो"
+       ],
+       "promptRoman": "main doodh nahin peeta."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "चाय गरम है।",
+       "roman": "chaay garam hai.",
+       "translation": "The tea is hot.",
+       "words": [
+        "हाँ",
+        "चाय"
+       ],
+       "options": [
+        "मैं रोटी खाता हूँ।",
+        "पानी दीजिए।",
+        "चाय गरम है।",
+        "मुझे सेब पसंद हैं।"
+       ],
+       "optionsRoman": [
+        "main roti khaata hoon.",
+        "paani dijiye.",
+        "chaay garam hai.",
+        "mujhe seb pasand hain."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मुझे सेब पसंद हैं।",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सेब",
+        "दो"
+       ],
+       "promptRoman": "mujhe seb pasand hain."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "पानी",
+        "paani",
+        "pani"
+       ],
+       "words": [
+        "पानी"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "मुझे भूख लगी है।",
+       "promptLang": "target",
+       "options": [
+        "Water, please.",
+        "I am hungry.",
+        "I like apples.",
+        "The tea is hot."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "promptRoman": "mujhe bhookh lagi hai."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "रोटी",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Bread",
+        "Coffee",
+        "Rice"
+       ],
+       "answer": "Bread",
+       "words": [
+        "रोटी"
+       ],
+       "promptRoman": "roti"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "दूध",
+         "Milk"
+        ],
+        [
+         "चाय",
+         "Tea"
+        ],
+        [
+         "पानी",
+         "Water"
+        ],
+        [
+         "कॉफ़ी",
+         "Coffee"
+        ],
+        [
+         "रोटी",
+         "Bread"
+        ]
+       ],
+       "words": [
+        "दूध",
+        "चाय",
+        "पानी",
+        "कॉफ़ी",
+        "रोटी"
+       ],
+       "romans": [
+        "doodh",
+        "chaay",
+        "paani",
+        "kofi",
+        "roti"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "लगी",
+        "भूख",
+        "मैं",
+        "मुझे",
+        "कॉफ़ी",
+        "है",
+        "चाय"
+       ],
+       "answer": [
+        "मुझे",
+        "भूख",
+        "लगी",
+        "है"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "tilesRoman": [
+        "lagi",
+        "bhookh",
+        "main",
+        "mujhe",
+        "kofi",
+        "hai",
+        "chaay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं कॉफ़ी पीता हूँ।",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "drink",
+        "am",
+        "I",
+        "hungry",
+        "please"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कॉफ़ी"
+       ],
+       "promptRoman": "main kofi peeta hoon."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मुझे सेब पसंद हैं।",
+       "roman": "mujhe seb pasand hain.",
+       "translation": "I like apples.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "सेब",
+        "दो"
+       ],
+       "options": [
+        "मैं कॉफ़ी पीता हूँ।",
+        "मुझे सेब पसंद हैं।",
+        "मैं दूध नहीं पीता।",
+        "चाय गरम है।"
+       ],
+       "optionsRoman": [
+        "main kofi peeta hoon.",
+        "mujhe seb pasand hain.",
+        "main doodh nahin peeta.",
+        "chaay garam hai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "दूध",
+        "मैं",
+        "गरम",
+        "चाय",
+        "नहीं",
+        "पीता",
+        "खाता"
+       ],
+       "answer": [
+        "मैं",
+        "दूध",
+        "नहीं",
+        "पीता"
+       ],
+       "accepted": [
+        "मैं दूध नहीं पीती।",
+        "मैं दूध नहीं पीता हूँ।",
+        "मैं दूध नहीं पीती हूँ।"
+       ],
+       "words": [
+        "नहीं",
+        "माँ",
+        "पिता",
+        "दूध",
+        "दो"
+       ],
+       "tilesRoman": [
+        "doodh",
+        "main",
+        "garam",
+        "chaay",
+        "nahin",
+        "peeta",
+        "khaata"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मैं रोटी खाता हूँ।",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "रोटी"
+       ],
+       "promptRoman": "main roti khaata hoon."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "रोटी",
+        "ब्रेड",
+        "roti"
+       ],
+       "words": [
+        "रोटी"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "मुझे",
+        "खाता",
+        "हैं",
+        "रोटी",
+        "पसंद",
+        "सेब",
+        "दूध"
+       ],
+       "answer": [
+        "मुझे",
+        "सेब",
+        "पसंद",
+        "हैं"
+       ],
+       "accepted": [
+        "मुझे सेब पसंद है।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सेब",
+        "दो"
+       ],
+       "tilesRoman": [
+        "mujhe",
+        "khaata",
+        "hain",
+        "roti",
+        "pasand",
+        "seb",
+        "doodh"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "पानी दीजिए।",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee.",
+        "Water, please.",
+        "I eat bread.",
+        "I am hungry."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "पानी",
+        "दो",
+        "नौ"
+       ],
+       "promptRoman": "paani dijiye."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "रोटी",
+         "Bread"
+        ],
+        [
+         "चावल",
+         "Rice"
+        ],
+        [
+         "पानी",
+         "Water"
+        ],
+        [
+         "दूध",
+         "Milk"
+        ]
+       ],
+       "words": [
+        "रोटी",
+        "चावल",
+        "पानी",
+        "दूध"
+       ],
+       "romans": [
+        "roti",
+        "chaaval",
+        "paani",
+        "doodh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "सेब",
+       "words": [
+        "सेब"
+       ],
+       "options": [
+        "चाय",
+        "कॉफ़ी",
+        "सेब",
+        "दूध"
+       ],
+       "optionsRoman": [
+        "chaay",
+        "kofi",
+        "seb",
+        "doodh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "नहीं",
+        "हूँ",
+        "दीजिए",
+        "रोटी",
+        "पीता",
+        "खाता",
+        "मैं"
+       ],
+       "answer": [
+        "मैं",
+        "रोटी",
+        "खाता",
+        "हूँ"
+       ],
+       "accepted": [
+        "मैं रोटी खाती हूँ।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "रोटी"
+       ],
+       "tilesRoman": [
+        "nahin",
+        "hoon",
+        "dijiye",
+        "roti",
+        "peeta",
+        "khaata",
+        "main"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मुझे भूख लगी है।",
+       "roman": "mujhe bhookh lagi hai.",
+       "translation": "I am hungry.",
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "options": [
+        "मुझे भूख लगी है।",
+        "मैं रोटी खाता हूँ।",
+        "पानी दीजिए।",
+        "चाय गरम है।"
+       ],
+       "optionsRoman": [
+        "mujhe bhookh lagi hai.",
+        "main roti khaata hoon.",
+        "paani dijiye.",
+        "chaay garam hai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "चाय गरम है।",
+       "promptLang": "target",
+       "tiles": [
+        "milk",
+        "hot",
+        "tea",
+        "is",
+        "please",
+        "The",
+        "do"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "चाय"
+       ],
+       "promptRoman": "chaay garam hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answers": [
+        "कॉफ़ी",
+        "कॉफी",
+        "kofi",
+        "coffee"
+       ],
+       "words": [
+        "कॉफ़ी"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मैं कॉफ़ी पीता हूँ।",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कॉफ़ी"
+       ],
+       "promptRoman": "main kofi peeta hoon."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं दूध नहीं पीता।",
+       "roman": "main doodh nahin peeta.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "नहीं",
+        "माँ",
+        "पिता",
+        "दूध",
+        "दो"
+       ],
+       "options": [
+        "मुझे भूख लगी है।",
+        "मैं कॉफ़ी पीता हूँ।",
+        "चाय गरम है।",
+        "मैं दूध नहीं पीता।"
+       ],
+       "optionsRoman": [
+        "mujhe bhookh lagi hai.",
+        "main kofi peeta hoon.",
+        "chaay garam hai.",
+        "main doodh nahin peeta."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tip": "To tell the time use 'बजे' (baje): 'तीन बजे हैं' (teen baje hain) = it is three o'clock.",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "एक",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Two",
+        "One",
+        "Five"
+       ],
+       "answer": "One",
+       "words": [
+        "एक"
+       ],
+       "promptRoman": "ek"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "दो",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Ten",
+        "One",
+        "Three"
+       ],
+       "answer": "Two",
+       "words": [
+        "दो"
+       ],
+       "promptRoman": "do"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "तीन",
+       "words": [
+        "तीन"
+       ],
+       "options": [
+        "छह",
+        "एक",
+        "तीन",
+        "सात"
+       ],
+       "optionsRoman": [
+        "chhah",
+        "ek",
+        "teen",
+        "saat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "चार",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Five",
+        "Four",
+        "Ten"
+       ],
+       "answer": "Four",
+       "words": [
+        "चार"
+       ],
+       "promptRoman": "chaar"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "एक",
+         "One"
+        ],
+        [
+         "दो",
+         "Two"
+        ],
+        [
+         "तीन",
+         "Three"
+        ],
+        [
+         "चार",
+         "Four"
+        ]
+       ],
+       "words": [
+        "एक",
+        "दो",
+        "तीन",
+        "चार"
+       ],
+       "romans": [
+        "ek",
+        "do",
+        "teen",
+        "chaar"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "दो",
+        "हैं",
+        "बच्चे",
+        "दीजिए",
+        "मेरे",
+        "सेब",
+        "चार"
+       ],
+       "answer": [
+        "मेरे",
+        "दो",
+        "बच्चे",
+        "हैं"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "बच्चा",
+        "माँ",
+        "दो"
+       ],
+       "tilesRoman": [
+        "do",
+        "hain",
+        "bachche",
+        "dijiye",
+        "mere",
+        "seb",
+        "chaar"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "यह कितने का है?",
+       "roman": "yah kitne ka hai?",
+       "translation": "How much is it?",
+       "words": [
+        "हाँ"
+       ],
+       "options": [
+        "एक मिनट रुकिए।",
+        "यह कितने का है?",
+        "एक कॉफ़ी दीजिए।",
+        "दो चाय दीजिए।"
+       ],
+       "optionsRoman": [
+        "ek minat rukiye.",
+        "yah kitne ka hai?",
+        "ek kofi dijiye.",
+        "do chaay dijiye."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मेरे पास चार सेब हैं।",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "much",
+        "four",
+        "it",
+        "How",
+        "have",
+        "apples"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सेब",
+        "चार"
+       ],
+       "promptRoman": "mere paas chaar seb hain."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मेरे दो बच्चे हैं।",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "हाँ",
+        "बच्चा",
+        "माँ",
+        "दो"
+       ],
+       "promptRoman": "mere do bachche hain."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "पाँच",
+       "promptLang": "target",
+       "options": [
+        "Ten",
+        "Two",
+        "Five",
+        "Seven"
+       ],
+       "answer": "Five",
+       "words": [
+        "पाँच"
+       ],
+       "promptRoman": "paanch"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "छह",
+       "words": [
+        "छह"
+       ],
+       "options": [
+        "दो",
+        "चार",
+        "छह",
+        "आठ"
+       ],
+       "optionsRoman": [
+        "do",
+        "chaar",
+        "chhah",
+        "aath"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "सात",
+       "promptLang": "target",
+       "options": [
+        "Seven",
+        "Five",
+        "Six",
+        "Three"
+       ],
+       "answer": "Seven",
+       "words": [
+        "सात"
+       ],
+       "promptRoman": "saat"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "आठ",
+       "words": [
+        "आठ"
+       ],
+       "options": [
+        "तीन",
+        "आठ",
+        "नौ",
+        "सात"
+       ],
+       "optionsRoman": [
+        "teen",
+        "aath",
+        "nau",
+        "saat"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "पाँच",
+         "Five"
+        ],
+        [
+         "छह",
+         "Six"
+        ],
+        [
+         "सात",
+         "Seven"
+        ],
+        [
+         "आठ",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "पाँच",
+        "छह",
+        "सात",
+        "आठ"
+       ],
+       "romans": [
+        "paanch",
+        "chhah",
+        "saat",
+        "aath"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "दीजिए",
+        "एक",
+        "कॉफ़ी",
+        "सेब",
+        "चार",
+        "है"
+       ],
+       "answer": [
+        "एक",
+        "कॉफ़ी",
+        "दीजिए"
+       ],
+       "accepted": [
+        "एक कॉफी दीजिए।"
+       ],
+       "words": [
+        "कॉफ़ी",
+        "एक",
+        "दो"
+       ],
+       "tilesRoman": [
+        "dijiye",
+        "ek",
+        "kofi",
+        "seb",
+        "chaar",
+        "hai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "दो चाय दीजिए।",
+       "promptLang": "target",
+       "tiles": [
+        "Two",
+        "teas",
+        "coffee",
+        "it",
+        "please",
+        "children"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "चाय",
+        "दो"
+       ],
+       "promptRoman": "do chaay dijiye."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "एक कॉफ़ी दीजिए।",
+       "roman": "ek kofi dijiye.",
+       "translation": "One coffee, please.",
+       "words": [
+        "कॉफ़ी",
+        "एक",
+        "दो"
+       ],
+       "options": [
+        "तीन बजे हैं।",
+        "दो चाय दीजिए।",
+        "मेरे पास चार सेब हैं।",
+        "एक कॉफ़ी दीजिए।"
+       ],
+       "optionsRoman": [
+        "teen baje hain.",
+        "do chaay dijiye.",
+        "mere paas chaar seb hain.",
+        "ek kofi dijiye."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "तीन बजे हैं।",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "हाँ",
+        "तीन",
+        "नौ"
+       ],
+       "promptRoman": "teen baje hain."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "एक",
+        "ek"
+       ],
+       "words": [
+        "एक"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "एक मिनट रुकिए।",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "One moment, please.",
+        "I have four apples.",
+        "How much is it?"
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "माँ",
+        "एक"
+       ],
+       "promptRoman": "ek minat rukiye."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "नौ",
+       "promptLang": "target",
+       "options": [
+        "Ten",
+        "One",
+        "Seven",
+        "Nine"
+       ],
+       "answer": "Nine",
+       "words": [
+        "नौ"
+       ],
+       "promptRoman": "nau"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "दस",
+         "Ten"
+        ],
+        [
+         "पाँच",
+         "Five"
+        ],
+        [
+         "नौ",
+         "Nine"
+        ],
+        [
+         "आठ",
+         "Eight"
+        ],
+        [
+         "सात",
+         "Seven"
+        ]
+       ],
+       "words": [
+        "दस",
+        "पाँच",
+        "नौ",
+        "आठ",
+        "सात"
+       ],
+       "romans": [
+        "das",
+        "paanch",
+        "nau",
+        "aath",
+        "saat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "एक",
+        "मेरे",
+        "दीजिए",
+        "मिनट",
+        "रुकिए",
+        "पास"
+       ],
+       "answer": [
+        "एक",
+        "मिनट",
+        "रुकिए"
+       ],
+       "accepted": [
+        "एक मिनट।"
+       ],
+       "words": [
+        "माँ",
+        "एक"
+       ],
+       "tilesRoman": [
+        "ek",
+        "mere",
+        "dijiye",
+        "minat",
+        "rukiye",
+        "paas"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "यह कितने का है?",
+       "promptLang": "target",
+       "tiles": [
+        "How",
+        "apples",
+        "much",
+        "four",
+        "coffee",
+        "it",
+        "is"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "हाँ"
+       ],
+       "promptRoman": "yah kitne ka hai?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "तीन बजे हैं।",
+       "roman": "teen baje hain.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "हाँ",
+        "तीन",
+        "नौ"
+       ],
+       "options": [
+        "तीन बजे हैं।",
+        "एक मिनट रुकिए।",
+        "मेरे दो बच्चे हैं।",
+        "दो चाय दीजिए।"
+       ],
+       "optionsRoman": [
+        "teen baje hain.",
+        "ek minat rukiye.",
+        "mere do bachche hain.",
+        "do chaay dijiye."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "कितने",
+        "बजे",
+        "का",
+        "दो",
+        "चाय",
+        "दीजिए"
+       ],
+       "answer": [
+        "दो",
+        "चाय",
+        "दीजिए"
+       ],
+       "accepted": [],
+       "words": [
+        "चाय",
+        "दो"
+       ],
+       "tilesRoman": [
+        "kitne",
+        "baje",
+        "ka",
+        "do",
+        "chaay",
+        "dijiye"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मेरे पास चार सेब हैं।",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सेब",
+        "चार"
+       ],
+       "promptRoman": "mere paas chaar seb hain."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "दस",
+        "das"
+       ],
+       "words": [
+        "दस"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "चाय",
+        "हैं",
+        "तीन",
+        "बजे",
+        "रुकिए",
+        "यह"
+       ],
+       "answer": [
+        "तीन",
+        "बजे",
+        "हैं"
+       ],
+       "accepted": [
+        "तीन बज गए हैं।"
+       ],
+       "words": [
+        "हाँ",
+        "तीन",
+        "नौ"
+       ],
+       "tilesRoman": [
+        "chaay",
+        "hain",
+        "teen",
+        "baje",
+        "rukiye",
+        "yah"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "मेरे दो बच्चे हैं।",
+       "promptLang": "target",
+       "options": [
+        "I have four apples.",
+        "One moment, please.",
+        "One coffee, please.",
+        "I have two children."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "हाँ",
+        "बच्चा",
+        "माँ",
+        "दो"
+       ],
+       "promptRoman": "mere do bachche hain."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "सात",
+         "Seven"
+        ],
+        [
+         "तीन",
+         "Three"
+        ],
+        [
+         "पाँच",
+         "Five"
+        ],
+        [
+         "नौ",
+         "Nine"
+        ]
+       ],
+       "words": [
+        "सात",
+        "तीन",
+        "पाँच",
+        "नौ"
+       ],
+       "romans": [
+        "saat",
+        "teen",
+        "paanch",
+        "nau"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Two",
+       "promptLang": "en",
+       "answer": "दो",
+       "words": [
+        "दो"
+       ],
+       "options": [
+        "छह",
+        "दो",
+        "दस",
+        "नौ"
+       ],
+       "optionsRoman": [
+        "chhah",
+        "do",
+        "das",
+        "nau"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "सेब",
+        "मेरे",
+        "कॉफ़ी",
+        "दीजिए",
+        "पास",
+        "हैं",
+        "मिनट",
+        "चार"
+       ],
+       "answer": [
+        "मेरे",
+        "पास",
+        "चार",
+        "सेब",
+        "हैं"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सेब",
+        "चार"
+       ],
+       "tilesRoman": [
+        "seb",
+        "mere",
+        "kofi",
+        "dijiye",
+        "paas",
+        "hain",
+        "minat",
+        "chaar"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "एक मिनट रुकिए।",
+       "roman": "ek minat rukiye.",
+       "translation": "One moment, please.",
+       "words": [
+        "माँ",
+        "एक"
+       ],
+       "options": [
+        "एक कॉफ़ी दीजिए।",
+        "एक मिनट रुकिए।",
+        "दो चाय दीजिए।",
+        "मेरे दो बच्चे हैं।"
+       ],
+       "optionsRoman": [
+        "ek kofi dijiye.",
+        "ek minat rukiye.",
+        "do chaay dijiye.",
+        "mere do bachche hain."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "एक कॉफ़ी दीजिए।",
+       "promptLang": "target",
+       "tiles": [
+        "four",
+        "apples",
+        "One",
+        "two",
+        "coffee",
+        "please"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "कॉफ़ी",
+        "एक",
+        "दो"
+       ],
+       "promptRoman": "ek kofi dijiye."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answers": [
+        "छह",
+        "छः",
+        "chhah",
+        "chhe",
+        "che"
+       ],
+       "words": [
+        "छह"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "यह कितने का है?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "हाँ"
+       ],
+       "promptRoman": "yah kitne ka hai?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "दो चाय दीजिए।",
+       "roman": "do chaay dijiye.",
+       "translation": "Two teas, please.",
+       "words": [
+        "चाय",
+        "दो"
+       ],
+       "options": [
+        "मेरे पास चार सेब हैं।",
+        "एक कॉफ़ी दीजिए।",
+        "तीन बजे हैं।",
+        "दो चाय दीजिए।"
+       ],
+       "optionsRoman": [
+        "mere paas chaar seb hain.",
+        "ek kofi dijiye.",
+        "teen baje hain.",
+        "do chaay dijiye."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tip": "Hindi puts the verb at the end: 'होटल कहाँ है?' (hotal kahaan hai) = hotel where is?",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "होटल",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Right",
+        "Left",
+        "Ticket"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "होटल"
+       ],
+       "promptRoman": "hotal"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "स्टेशन",
+       "promptLang": "target",
+       "options": [
+        "Left",
+        "Ticket",
+        "Right",
+        "Station"
+       ],
+       "answer": "Station",
+       "words": [
+        "स्टेशन"
+       ],
+       "promptRoman": "steshan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "हवाई अड्डा",
+       "words": [
+        "हवाई अड्डा"
+       ],
+       "options": [
+        "बाएँ",
+        "होटल",
+        "हवाई अड्डा",
+        "टिकट"
+       ],
+       "optionsRoman": [
+        "baayen",
+        "hotal",
+        "havaai adda",
+        "tikat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "टिकट",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Where",
+        "Airport",
+        "Toilet"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "टिकट"
+       ],
+       "promptRoman": "tikat"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "होटल",
+         "Hotel"
+        ],
+        [
+         "स्टेशन",
+         "Station"
+        ],
+        [
+         "हवाई अड्डा",
+         "Airport"
+        ],
+        [
+         "टिकट",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "होटल",
+        "स्टेशन",
+        "हवाई अड्डा",
+        "टिकट"
+       ],
+       "romans": [
+        "hotal",
+        "steshan",
+        "havaai adda",
+        "tikat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "कहाँ",
+        "है",
+        "शौचालय",
+        "होटल",
+        "दाईं",
+        "ओर"
+       ],
+       "answer": [
+        "होटल",
+        "कहाँ",
+        "है"
+       ],
+       "accepted": [
+        "होटल कहां है?"
+       ],
+       "words": [
+        "हाँ",
+        "होटल",
+        "कहाँ"
+       ],
+       "tilesRoman": [
+        "kahaan",
+        "hai",
+        "shauchaalay",
+        "hotal",
+        "daayin",
+        "or"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "शौचालय कहाँ है?",
+       "roman": "shauchaalay kahaan hai?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "हाँ",
+        "कहाँ",
+        "शौचालय"
+       ],
+       "options": [
+        "शौचालय कहाँ है?",
+        "क्या यह दूर है?",
+        "बाएँ मुड़िए।",
+        "होटल कहाँ है?"
+       ],
+       "optionsRoman": [
+        "shauchaalay kahaan hai?",
+        "kya yah door hai?",
+        "baayen mudiye.",
+        "hotal kahaan hai?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "बाएँ मुड़िए।",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "is",
+        "left",
+        "the",
+        "Turn"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "माँ",
+        "बाएँ"
+       ],
+       "promptRoman": "baayen mudiye."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "होटल कहाँ है?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "हाँ",
+        "होटल",
+        "कहाँ"
+       ],
+       "promptRoman": "hotal kahaan hai?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "बाएँ",
+       "promptLang": "target",
+       "options": [
+        "Left",
+        "Station",
+        "Toilet",
+        "Ticket"
+       ],
+       "answer": "Left",
+       "words": [
+        "बाएँ"
+       ],
+       "promptRoman": "baayen"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "दाएँ",
+       "words": [
+        "दाएँ"
+       ],
+       "options": [
+        "हवाई अड्डा",
+        "दाएँ",
+        "बाएँ",
+        "कहाँ"
+       ],
+       "optionsRoman": [
+        "havaai adda",
+        "daayen",
+        "baayen",
+        "kahaan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "कहाँ",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Airport",
+        "Where",
+        "Hotel"
+       ],
+       "answer": "Where",
+       "words": [
+        "कहाँ"
+       ],
+       "promptRoman": "kahaan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "शौचालय",
+       "words": [
+        "शौचालय"
+       ],
+       "options": [
+        "टिकट",
+        "स्टेशन",
+        "शौचालय",
+        "होटल"
+       ],
+       "optionsRoman": [
+        "tikat",
+        "steshan",
+        "shauchaalay",
+        "hotal"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "बाएँ",
+         "Left"
+        ],
+        [
+         "दाएँ",
+         "Right"
+        ],
+        [
+         "कहाँ",
+         "Where"
+        ],
+        [
+         "शौचालय",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "बाएँ",
+        "दाएँ",
+        "कहाँ",
+        "शौचालय"
+       ],
+       "romans": [
+        "baayen",
+        "daayen",
+        "kahaan",
+        "shauchaalay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "अड्डे",
+        "है",
+        "स्टेशन",
+        "दूर",
+        "हवाई",
+        "ओर",
+        "दाईं"
+       ],
+       "answer": [
+        "स्टेशन",
+        "दाईं",
+        "ओर",
+        "है"
+       ],
+       "accepted": [
+        "स्टेशन दाएँ है।"
+       ],
+       "words": [
+        "हाँ",
+        "दो",
+        "स्टेशन",
+        "दाएँ"
+       ],
+       "tilesRoman": [
+        "adde",
+        "hai",
+        "steshan",
+        "door",
+        "havaai",
+        "or",
+        "daayin"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "एक टिकट दीजिए।",
+       "promptLang": "target",
+       "tiles": [
+        "ticket",
+        "Where",
+        "going",
+        "please",
+        "is",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "एक",
+        "दो",
+        "टिकट"
+       ],
+       "promptRoman": "ek tikat dijiye."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "स्टेशन दाईं ओर है।",
+       "roman": "steshan daayin or hai.",
+       "translation": "The station is on the right.",
+       "words": [
+        "हाँ",
+        "दो",
+        "स्टेशन",
+        "दाएँ"
+       ],
+       "options": [
+        "स्टेशन दाईं ओर है।",
+        "एक टिकट दीजिए।",
+        "बाएँ मुड़िए।",
+        "क्या यह दूर है?"
+       ],
+       "optionsRoman": [
+        "steshan daayin or hai.",
+        "ek tikat dijiye.",
+        "baayen mudiye.",
+        "kya yah door hai?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मैं हवाई अड्डे जा रहा हूँ।",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "हवाई अड्डा"
+       ],
+       "promptRoman": "main havaai adde ja raha hoon."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "होटल",
+        "hotal",
+        "hotel"
+       ],
+       "words": [
+        "होटल"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "क्या यह दूर है?",
+       "promptLang": "target",
+       "options": [
+        "Turn left.",
+        "Where is the hotel?",
+        "A ticket, please.",
+        "Is it far?"
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "हाँ",
+        "दो"
+       ],
+       "promptRoman": "kya yah door hai?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "स्टेशन",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Left",
+        "Toilet",
+        "Station"
+       ],
+       "answer": "Station",
+       "words": [
+        "स्टेशन"
+       ],
+       "promptRoman": "steshan"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "स्टेशन",
+         "Station"
+        ],
+        [
+         "टिकट",
+         "Ticket"
+        ],
+        [
+         "हवाई अड्डा",
+         "Airport"
+        ],
+        [
+         "कहाँ",
+         "Where"
+        ],
+        [
+         "शौचालय",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "स्टेशन",
+        "टिकट",
+        "हवाई अड्डा",
+        "कहाँ",
+        "शौचालय"
+       ],
+       "romans": [
+        "steshan",
+        "tikat",
+        "havaai adda",
+        "kahaan",
+        "shauchaalay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "हूँ",
+        "क्या",
+        "कहाँ",
+        "दूर",
+        "है",
+        "यह",
+        "दाईं"
+       ],
+       "answer": [
+        "क्या",
+        "यह",
+        "दूर",
+        "है"
+       ],
+       "accepted": [
+        "क्या वह दूर है?"
+       ],
+       "words": [
+        "हाँ",
+        "दो"
+       ],
+       "tilesRoman": [
+        "hoon",
+        "kya",
+        "kahaan",
+        "door",
+        "hai",
+        "yah",
+        "daayin"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "शौचालय कहाँ है?",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "Where",
+        "the",
+        "please",
+        "left",
+        "A",
+        "toilet"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "हाँ",
+        "कहाँ",
+        "शौचालय"
+       ],
+       "promptRoman": "shauchaalay kahaan hai?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं हवाई अड्डे जा रहा हूँ।",
+       "roman": "main havaai adde ja raha hoon.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "हवाई अड्डा"
+       ],
+       "options": [
+        "शौचालय कहाँ है?",
+        "स्टेशन दाईं ओर है।",
+        "मैं हवाई अड्डे जा रहा हूँ।",
+        "एक टिकट दीजिए।"
+       ],
+       "optionsRoman": [
+        "shauchaalay kahaan hai?",
+        "steshan daayin or hai.",
+        "main havaai adde ja raha hoon.",
+        "ek tikat dijiye."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "एक",
+        "टिकट",
+        "बाएँ",
+        "दाईं",
+        "दीजिए",
+        "रहा"
+       ],
+       "answer": [
+        "एक",
+        "टिकट",
+        "दीजिए"
+       ],
+       "accepted": [],
+       "words": [
+        "एक",
+        "दो",
+        "टिकट"
+       ],
+       "tilesRoman": [
+        "ek",
+        "tikat",
+        "baayen",
+        "daayin",
+        "dijiye",
+        "raha"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "बाएँ मुड़िए।",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "माँ",
+        "बाएँ"
+       ],
+       "promptRoman": "baayen mudiye."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "स्टेशन",
+        "steshan",
+        "station"
+       ],
+       "words": [
+        "स्टेशन"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "बाएँ",
+        "रहा",
+        "स्टेशन",
+        "हवाई",
+        "हूँ",
+        "जा",
+        "यह",
+        "अड्डे",
+        "मैं"
+       ],
+       "answer": [
+        "मैं",
+        "हवाई",
+        "अड्डे",
+        "जा",
+        "रहा",
+        "हूँ"
+       ],
+       "accepted": [
+        "मैं हवाई अड्डे जा रही हूँ।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "हवाई अड्डा"
+       ],
+       "tilesRoman": [
+        "baayen",
+        "raha",
+        "steshan",
+        "havaai",
+        "hoon",
+        "ja",
+        "yah",
+        "adde",
+        "main"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "होटल कहाँ है?",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "Where is the hotel?",
+        "I am going to the airport.",
+        "The station is on the right."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "हाँ",
+        "होटल",
+        "कहाँ"
+       ],
+       "promptRoman": "hotal kahaan hai?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "टिकट",
+         "Ticket"
+        ],
+        [
+         "होटल",
+         "Hotel"
+        ],
+        [
+         "हवाई अड्डा",
+         "Airport"
+        ],
+        [
+         "दाएँ",
+         "Right"
+        ]
+       ],
+       "words": [
+        "टिकट",
+        "होटल",
+        "हवाई अड्डा",
+        "दाएँ"
+       ],
+       "romans": [
+        "tikat",
+        "hotal",
+        "havaai adda",
+        "daayen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "कहाँ",
+       "words": [
+        "कहाँ"
+       ],
+       "options": [
+        "होटल",
+        "स्टेशन",
+        "दाएँ",
+        "कहाँ"
+       ],
+       "optionsRoman": [
+        "hotal",
+        "steshan",
+        "daayen",
+        "kahaan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "अड्डे",
+        "बाएँ",
+        "एक",
+        "स्टेशन",
+        "मुड़िए"
+       ],
+       "answer": [
+        "बाएँ",
+        "मुड़िए"
+       ],
+       "accepted": [
+        "बाएं मुड़िए।",
+        "बाएँ मुड़ो।"
+       ],
+       "words": [
+        "माँ",
+        "बाएँ"
+       ],
+       "tilesRoman": [
+        "adde",
+        "baayen",
+        "ek",
+        "steshan",
+        "mudiye"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "क्या यह दूर है?",
+       "roman": "kya yah door hai?",
+       "translation": "Is it far?",
+       "words": [
+        "हाँ",
+        "दो"
+       ],
+       "options": [
+        "एक टिकट दीजिए।",
+        "शौचालय कहाँ है?",
+        "क्या यह दूर है?",
+        "मैं हवाई अड्डे जा रहा हूँ।"
+       ],
+       "optionsRoman": [
+        "ek tikat dijiye.",
+        "shauchaalay kahaan hai?",
+        "kya yah door hai?",
+        "main havaai adde ja raha hoon."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "स्टेशन दाईं ओर है।",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "on",
+        "I",
+        "airport",
+        "is",
+        "am",
+        "station",
+        "The",
+        "right"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "हाँ",
+        "दो",
+        "स्टेशन",
+        "दाएँ"
+       ],
+       "promptRoman": "steshan daayin or hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answers": [
+        "शौचालय",
+        "टॉयलेट",
+        "shauchaalay",
+        "shauchalay"
+       ],
+       "words": [
+        "शौचालय"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "शौचालय कहाँ है?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "हाँ",
+        "कहाँ",
+        "शौचालय"
+       ],
+       "promptRoman": "shauchaalay kahaan hai?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "एक टिकट दीजिए।",
+       "roman": "ek tikat dijiye.",
+       "translation": "A ticket, please.",
+       "words": [
+        "एक",
+        "दो",
+        "टिकट"
+       ],
+       "options": [
+        "एक टिकट दीजिए।",
+        "शौचालय कहाँ है?",
+        "होटल कहाँ है?",
+        "स्टेशन दाईं ओर है।"
+       ],
+       "optionsRoman": [
+        "ek tikat dijiye.",
+        "shauchaalay kahaan hai?",
+        "hotal kahaan hai?",
+        "steshan daayin or hai."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tip": "'कल' (kal) means both tomorrow and yesterday - the verb tense tells you which one.",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "आज",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Today",
+        "Tomorrow",
+        "House"
+       ],
+       "answer": "Today",
+       "words": [
+        "आज"
+       ],
+       "promptRoman": "aaj"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "कल",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Morning",
+        "Night",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "कल"
+       ],
+       "promptRoman": "kal"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "अभी",
+       "words": [
+        "अभी"
+       ],
+       "options": [
+        "आज",
+        "घर",
+        "अभी",
+        "रात"
+       ],
+       "optionsRoman": [
+        "aaj",
+        "ghar",
+        "abhi",
+        "raat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "सुबह",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "Today",
+        "Now",
+        "House"
+       ],
+       "answer": "Morning",
+       "words": [
+        "सुबह"
+       ],
+       "promptRoman": "subah"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "आज",
+         "Today"
+        ],
+        [
+         "कल",
+         "Tomorrow"
+        ],
+        [
+         "अभी",
+         "Now"
+        ],
+        [
+         "सुबह",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "आज",
+        "कल",
+        "अभी",
+        "सुबह"
+       ],
+       "romans": [
+        "aaj",
+        "kal",
+        "abhi",
+        "subah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "मैं",
+        "काम",
+        "जाता",
+        "रात",
+        "पर",
+        "सोमवार",
+        "हूँ",
+        "बच्चे"
+       ],
+       "answer": [
+        "मैं",
+        "काम",
+        "पर",
+        "जाता",
+        "हूँ"
+       ],
+       "accepted": [
+        "मैं काम पर जाती हूँ।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "काम"
+       ],
+       "tilesRoman": [
+        "main",
+        "kaam",
+        "jaata",
+        "raat",
+        "par",
+        "somvaar",
+        "hoon",
+        "bachche"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं घर पर हूँ।",
+       "roman": "main ghar par hoon.",
+       "translation": "I am at home.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "घर"
+       ],
+       "options": [
+        "अभी कितने बजे हैं?",
+        "आज सोमवार है।",
+        "मैं घर पर हूँ।",
+        "मैं रात को सोता हूँ।"
+       ],
+       "optionsRoman": [
+        "abhi kitne baje hain?",
+        "aaj somvaar hai.",
+        "main ghar par hoon.",
+        "main raat ko sota hoon."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "आज सोमवार है।",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "go",
+        "Monday",
+        "Today",
+        "home",
+        "children"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "हाँ",
+        "आज"
+       ],
+       "promptRoman": "aaj somvaar hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मैं काम पर जाता हूँ।",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "काम"
+       ],
+       "promptRoman": "main kaam par jaata hoon."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "रात",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "School",
+        "Night",
+        "Now"
+       ],
+       "answer": "Night",
+       "words": [
+        "रात"
+       ],
+       "promptRoman": "raat"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "घर",
+       "words": [
+        "घर"
+       ],
+       "options": [
+        "अभी",
+        "काम",
+        "घर",
+        "रात"
+       ],
+       "optionsRoman": [
+        "abhi",
+        "kaam",
+        "ghar",
+        "raat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "काम",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "Tomorrow",
+        "Now",
+        "Night"
+       ],
+       "answer": "Work",
+       "words": [
+        "काम"
+       ],
+       "promptRoman": "kaam"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "स्कूल",
+       "words": [
+        "स्कूल"
+       ],
+       "options": [
+        "सुबह",
+        "स्कूल",
+        "रात",
+        "घर"
+       ],
+       "optionsRoman": [
+        "subah",
+        "skool",
+        "raat",
+        "ghar"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "रात",
+         "Night"
+        ],
+        [
+         "घर",
+         "House"
+        ],
+        [
+         "काम",
+         "Work"
+        ],
+        [
+         "स्कूल",
+         "School"
+        ]
+       ],
+       "words": [
+        "रात",
+        "घर",
+        "काम",
+        "स्कूल"
+       ],
+       "romans": [
+        "raat",
+        "ghar",
+        "kaam",
+        "skool"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "कॉफ़ी",
+        "पीता",
+        "को",
+        "हूँ",
+        "मैं",
+        "बच्चे",
+        "सुबह",
+        "है"
+       ],
+       "answer": [
+        "मैं",
+        "सुबह",
+        "कॉफ़ी",
+        "पीता",
+        "हूँ"
+       ],
+       "accepted": [
+        "मैं सुबह कॉफ़ी पीती हूँ।",
+        "मैं सुबह कॉफी पीता हूँ।",
+        "मैं सुबह कॉफी पीती हूँ।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कॉफ़ी",
+        "सुबह"
+       ],
+       "tilesRoman": [
+        "kofi",
+        "peeta",
+        "ko",
+        "hoon",
+        "main",
+        "bachche",
+        "subah",
+        "hai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं रात को सोता हूँ।",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "night",
+        "sleep",
+        "Today",
+        "the",
+        "I",
+        "Monday"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सात",
+        "रात"
+       ],
+       "promptRoman": "main raat ko sota hoon."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं सुबह कॉफ़ी पीता हूँ।",
+       "roman": "main subah kofi peeta hoon.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कॉफ़ी",
+        "सुबह"
+       ],
+       "options": [
+        "मैं सुबह कॉफ़ी पीता हूँ।",
+        "मैं रात को सोता हूँ।",
+        "आज सोमवार है।",
+        "मैं काम पर जाता हूँ।"
+       ],
+       "optionsRoman": [
+        "main subah kofi peeta hoon.",
+        "main raat ko sota hoon.",
+        "aaj somvaar hai.",
+        "main kaam par jaata hoon."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "बच्चे स्कूल जाते हैं।",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "हाँ",
+        "बच्चा",
+        "स्कूल"
+       ],
+       "promptRoman": "bachche skool jaate hain."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "आज",
+        "aaj",
+        "aj"
+       ],
+       "words": [
+        "आज"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "अभी कितने बजे हैं?",
+       "promptLang": "target",
+       "options": [
+        "I go to work.",
+        "Today is Monday.",
+        "The children go to school.",
+        "What time is it now?"
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "हाँ",
+        "अभी"
+       ],
+       "promptRoman": "abhi kitne baje hain?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "कल",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Tomorrow",
+        "School",
+        "Morning"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "कल"
+       ],
+       "promptRoman": "kal"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "रात",
+         "Night"
+        ],
+        [
+         "घर",
+         "House"
+        ],
+        [
+         "कल",
+         "Tomorrow"
+        ],
+        [
+         "आज",
+         "Today"
+        ],
+        [
+         "सुबह",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "रात",
+        "घर",
+        "कल",
+        "आज",
+        "सुबह"
+       ],
+       "romans": [
+        "raat",
+        "ghar",
+        "kal",
+        "aaj",
+        "subah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "आज",
+        "बजे",
+        "कितने",
+        "कॉफ़ी",
+        "अभी",
+        "हैं",
+        "को"
+       ],
+       "answer": [
+        "अभी",
+        "कितने",
+        "बजे",
+        "हैं"
+       ],
+       "accepted": [
+        "अभी क्या समय है?"
+       ],
+       "words": [
+        "हाँ",
+        "अभी"
+       ],
+       "tilesRoman": [
+        "aaj",
+        "baje",
+        "kitne",
+        "kofi",
+        "abhi",
+        "hain",
+        "ko"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं घर पर हूँ।",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "at",
+        "children",
+        "to",
+        "am",
+        "coffee",
+        "home"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "घर"
+       ],
+       "promptRoman": "main ghar par hoon."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "बच्चे स्कूल जाते हैं।",
+       "roman": "bachche skool jaate hain.",
+       "translation": "The children go to school.",
+       "words": [
+        "हाँ",
+        "बच्चा",
+        "स्कूल"
+       ],
+       "options": [
+        "मैं सुबह कॉफ़ी पीता हूँ।",
+        "बच्चे स्कूल जाते हैं।",
+        "अभी कितने बजे हैं?",
+        "मैं रात को सोता हूँ।"
+       ],
+       "optionsRoman": [
+        "main subah kofi peeta hoon.",
+        "bachche skool jaate hain.",
+        "abhi kitne baje hain?",
+        "main raat ko sota hoon."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "को",
+        "घर",
+        "सोता",
+        "रात",
+        "बजे",
+        "पीता",
+        "मैं",
+        "हूँ"
+       ],
+       "answer": [
+        "मैं",
+        "रात",
+        "को",
+        "सोता",
+        "हूँ"
+       ],
+       "accepted": [
+        "मैं रात को सोती हूँ।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "सात",
+        "रात"
+       ],
+       "tilesRoman": [
+        "ko",
+        "ghar",
+        "sota",
+        "raat",
+        "baje",
+        "peeta",
+        "main",
+        "hoon"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "आज सोमवार है।",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "हाँ",
+        "आज"
+       ],
+       "promptRoman": "aaj somvaar hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "कल",
+        "kal"
+       ],
+       "words": [
+        "कल"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "हैं",
+        "कितने",
+        "पर",
+        "बच्चे",
+        "जाते",
+        "रात",
+        "स्कूल"
+       ],
+       "answer": [
+        "बच्चे",
+        "स्कूल",
+        "जाते",
+        "हैं"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "बच्चा",
+        "स्कूल"
+       ],
+       "tilesRoman": [
+        "hain",
+        "kitne",
+        "par",
+        "bachche",
+        "jaate",
+        "raat",
+        "skool"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "मैं काम पर जाता हूँ।",
+       "promptLang": "target",
+       "options": [
+        "I go to work.",
+        "The children go to school.",
+        "What time is it now?",
+        "I am at home."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "काम"
+       ],
+       "promptRoman": "main kaam par jaata hoon."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "कल",
+         "Tomorrow"
+        ],
+        [
+         "अभी",
+         "Now"
+        ],
+        [
+         "आज",
+         "Today"
+        ],
+        [
+         "स्कूल",
+         "School"
+        ]
+       ],
+       "words": [
+        "कल",
+        "अभी",
+        "आज",
+        "स्कूल"
+       ],
+       "romans": [
+        "kal",
+        "abhi",
+        "aaj",
+        "skool"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Night",
+       "promptLang": "en",
+       "answer": "रात",
+       "words": [
+        "रात"
+       ],
+       "options": [
+        "आज",
+        "रात",
+        "कल",
+        "काम"
+       ],
+       "optionsRoman": [
+        "aaj",
+        "raat",
+        "kal",
+        "kaam"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "आज",
+        "पीता",
+        "बजे",
+        "सोमवार",
+        "है",
+        "सोता"
+       ],
+       "answer": [
+        "आज",
+        "सोमवार",
+        "है"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "आज"
+       ],
+       "tilesRoman": [
+        "aaj",
+        "peeta",
+        "baje",
+        "somvaar",
+        "hai",
+        "sota"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "अभी कितने बजे हैं?",
+       "roman": "abhi kitne baje hain?",
+       "translation": "What time is it now?",
+       "words": [
+        "हाँ",
+        "अभी"
+       ],
+       "options": [
+        "मैं सुबह कॉफ़ी पीता हूँ।",
+        "अभी कितने बजे हैं?",
+        "मैं रात को सोता हूँ।",
+        "बच्चे स्कूल जाते हैं।"
+       ],
+       "optionsRoman": [
+        "main subah kofi peeta hoon.",
+        "abhi kitne baje hain?",
+        "main raat ko sota hoon.",
+        "bachche skool jaate hain."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मैं सुबह कॉफ़ी पीता हूँ।",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "it",
+        "Today",
+        "coffee",
+        "drink",
+        "in",
+        "the",
+        "Monday",
+        "morning"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "पिता",
+        "कॉफ़ी",
+        "सुबह"
+       ],
+       "promptRoman": "main subah kofi peeta hoon."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "House",
+       "promptLang": "en",
+       "answers": [
+        "घर",
+        "ghar"
+       ],
+       "words": [
+        "घर"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मैं घर पर हूँ।",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "घर"
+       ],
+       "promptRoman": "main ghar par hoon."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं रात को सोता हूँ।",
+       "roman": "main raat ko sota hoon.",
+       "translation": "I sleep at night.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "सात",
+        "रात"
+       ],
+       "options": [
+        "अभी कितने बजे हैं?",
+        "मैं सुबह कॉफ़ी पीता हूँ।",
+        "बच्चे स्कूल जाते हैं।",
+        "मैं रात को सोता हूँ।"
+       ],
+       "optionsRoman": [
+        "abhi kitne baje hain?",
+        "main subah kofi peeta hoon.",
+        "bachche skool jaate hain.",
+        "main raat ko sota hoon."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

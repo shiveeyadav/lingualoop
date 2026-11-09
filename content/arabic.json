@@ -1,0 +1,5488 @@
+{
+ "id": "arabic",
+ "title": "Arabic",
+ "shortName": "Arabic",
+ "nativeName": "العربية",
+ "fromLanguage": "en",
+ "speechLang": "ar-SA",
+ "dir": "rtl",
+ "romanization": "transcription",
+ "noSpaces": false,
+ "keyboard": [],
+ "order": 100,
+ "description": "Modern Standard Arabic, written right to left with transcription: greetings, family, food, numbers, travel and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "Arabic is written from right to left. 'السلام عليكم' (as-salamu 'alaykum) is a common greeting; the reply is 'وعليكم السلام' (wa 'alaykum as-salam).",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "مرحبا",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "No",
+        "Goodbye",
+        "Sorry"
+       ],
+       "answer": "Hello",
+       "words": [
+        "مرحبا"
+       ],
+       "promptRoman": "marhaban"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "مع السلامة",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Yes",
+        "Hello",
+        "Goodbye"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "مع السلامة"
+       ],
+       "promptRoman": "ma'a as-salama"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "شكرا",
+       "words": [
+        "شكرا"
+       ],
+       "options": [
+        "صباح الخير",
+        "نعم",
+        "مرحبا",
+        "شكرا"
+       ],
+       "optionsRoman": [
+        "sabah al-khayr",
+        "na'am",
+        "marhaban",
+        "shukran"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "من فضلك",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Sorry",
+        "Good morning",
+        "Please"
+       ],
+       "answer": "Please",
+       "words": [
+        "من فضلك"
+       ],
+       "promptRoman": "min fadlak"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "مرحبا",
+         "Hello"
+        ],
+        [
+         "مع السلامة",
+         "Goodbye"
+        ],
+        [
+         "شكرا",
+         "Thank you"
+        ],
+        [
+         "من فضلك",
+         "Please"
+        ]
+       ],
+       "words": [
+        "مرحبا",
+        "مع السلامة",
+        "شكرا",
+        "من فضلك"
+       ],
+       "romans": [
+        "marhaban",
+        "ma'a as-salama",
+        "shukran",
+        "min fadlak"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "جزيلا",
+        "حالك",
+        "كيف",
+        "غدا",
+        "اسمك"
+       ],
+       "answer": [
+        "كيف",
+        "حالك"
+       ],
+       "accepted": [],
+       "words": [
+        "كيف حالك؟"
+       ],
+       "tilesRoman": [
+        "jazilan",
+        "haluk",
+        "kayfa",
+        "ghadan",
+        "ismuk"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أنا بخير، شكرا.",
+       "roman": "ana bikhayr, shukran.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "شكرا"
+       ],
+       "options": [
+        "أراك غدا.",
+        "شكرا جزيلا.",
+        "أنا بخير، شكرا.",
+        "اسمي آنا."
+       ],
+       "optionsRoman": [
+        "araka ghadan.",
+        "shukran jazilan.",
+        "ana bikhayr, shukran.",
+        "ismi Anna."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "اسمي آنا.",
+       "promptLang": "target",
+       "tiles": [
+        "Anna",
+        "you",
+        "My",
+        "is",
+        "your",
+        "am",
+        "name"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "اسمي آنا."
+       ],
+       "promptRoman": "ismi Anna."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "كيف حالك؟",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "كيف حالك؟"
+       ],
+       "promptRoman": "kayfa haluk?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "نعم",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "No",
+        "Yes",
+        "Good morning"
+       ],
+       "answer": "Yes",
+       "words": [
+        "نعم"
+       ],
+       "promptRoman": "na'am"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "لا",
+       "words": [
+        "لا"
+       ],
+       "options": [
+        "من فضلك",
+        "لا",
+        "مع السلامة",
+        "شكرا"
+       ],
+       "optionsRoman": [
+        "min fadlak",
+        "la",
+        "ma'a as-salama",
+        "shukran"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "صباح الخير",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "Good morning",
+        "Please",
+        "Goodbye"
+       ],
+       "answer": "Good morning",
+       "words": [
+        "صباح الخير"
+       ],
+       "promptRoman": "sabah al-khayr"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "آسف",
+       "words": [
+        "آسف"
+       ],
+       "options": [
+        "لا",
+        "نعم",
+        "آسف",
+        "شكرا"
+       ],
+       "optionsRoman": [
+        "la",
+        "na'am",
+        "asif",
+        "shukran"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "نعم",
+         "Yes"
+        ],
+        [
+         "لا",
+         "No"
+        ],
+        [
+         "صباح الخير",
+         "Good morning"
+        ],
+        [
+         "آسف",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "نعم",
+        "لا",
+        "صباح الخير",
+        "آسف"
+       ],
+       "romans": [
+        "na'am",
+        "la",
+        "sabah al-khayr",
+        "asif"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "تشرفنا",
+        "حالك",
+        "شكرا",
+        "جزيلا"
+       ],
+       "answer": [
+        "تشرفنا"
+       ],
+       "accepted": [
+        "فرصة سعيدة."
+       ],
+       "words": [
+        "تشرفنا."
+       ],
+       "tilesRoman": [
+        "tasharrafna",
+        "haluk",
+        "shukran",
+        "jazilan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "شكرا جزيلا.",
+       "promptLang": "target",
+       "tiles": [
+        "very",
+        "you",
+        "My",
+        "See",
+        "to",
+        "much",
+        "Thank"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "شكرا"
+       ],
+       "promptRoman": "shukran jazilan."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "تشرفنا.",
+       "roman": "tasharrafna.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "تشرفنا."
+       ],
+       "options": [
+        "أنا بخير، شكرا.",
+        "اسمي آنا.",
+        "تشرفنا.",
+        "شكرا جزيلا."
+       ],
+       "optionsRoman": [
+        "ana bikhayr, shukran.",
+        "ismi Anna.",
+        "tasharrafna.",
+        "shukran jazilan."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أراك غدا.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "غدا"
+       ],
+       "promptRoman": "araka ghadan."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "مرحبا",
+        "السلام عليكم",
+        "marhaban"
+       ],
+       "words": [
+        "مرحبا"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "ما اسمك؟",
+       "promptLang": "target",
+       "options": [
+        "What is your name?",
+        "I am fine, thank you.",
+        "See you tomorrow.",
+        "How are you?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "ما اسمك؟"
+       ],
+       "promptRoman": "ma ismuk?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "مع السلامة",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Please",
+        "Goodbye",
+        "No"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "مع السلامة"
+       ],
+       "promptRoman": "ma'a as-salama"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "شكرا",
+         "Thank you"
+        ],
+        [
+         "صباح الخير",
+         "Good morning"
+        ],
+        [
+         "لا",
+         "No"
+        ],
+        [
+         "من فضلك",
+         "Please"
+        ],
+        [
+         "نعم",
+         "Yes"
+        ]
+       ],
+       "words": [
+        "شكرا",
+        "صباح الخير",
+        "لا",
+        "من فضلك",
+        "نعم"
+       ],
+       "romans": [
+        "shukran",
+        "sabah al-khayr",
+        "la",
+        "min fadlak",
+        "na'am"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "جزيلا",
+        "غدا",
+        "حالك",
+        "ما",
+        "اسمك"
+       ],
+       "answer": [
+        "ما",
+        "اسمك"
+       ],
+       "accepted": [],
+       "words": [
+        "ما اسمك؟"
+       ],
+       "tilesRoman": [
+        "jazilan",
+        "ghadan",
+        "haluk",
+        "ma",
+        "ismuk"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أنا بخير، شكرا.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "to",
+        "fine",
+        "you",
+        "is",
+        "thank",
+        "am",
+        "tomorrow"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "شكرا"
+       ],
+       "promptRoman": "ana bikhayr, shukran."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أراك غدا.",
+       "roman": "araka ghadan.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "غدا"
+       ],
+       "options": [
+        "شكرا جزيلا.",
+        "ما اسمك؟",
+        "تشرفنا.",
+        "أراك غدا."
+       ],
+       "optionsRoman": [
+        "shukran jazilan.",
+        "ma ismuk?",
+        "tasharrafna.",
+        "araka ghadan."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "شكرا",
+        "جزيلا",
+        "ما",
+        "حالك",
+        "أنا"
+       ],
+       "answer": [
+        "شكرا",
+        "جزيلا"
+       ],
+       "accepted": [],
+       "words": [
+        "شكرا"
+       ],
+       "tilesRoman": [
+        "shukran",
+        "jazilan",
+        "ma",
+        "haluk",
+        "ana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "اسمي آنا.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "اسمي آنا."
+       ],
+       "promptRoman": "ismi Anna."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "مع السلامة",
+        "وداعا",
+        "ma'a as-salama"
+       ],
+       "words": [
+        "مع السلامة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "اسمي",
+        "أراك",
+        "غدا",
+        "تشرفنا",
+        "آنا"
+       ],
+       "answer": [
+        "أراك",
+        "غدا"
+       ],
+       "accepted": [
+        "إلى اللقاء غدا."
+       ],
+       "words": [
+        "غدا"
+       ],
+       "tilesRoman": [
+        "ismi",
+        "araka",
+        "ghadan",
+        "tasharrafna",
+        "Anna"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "كيف حالك؟",
+       "promptLang": "target",
+       "options": [
+        "How are you?",
+        "Thank you very much.",
+        "I am fine, thank you.",
+        "See you tomorrow."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "كيف حالك؟"
+       ],
+       "promptRoman": "kayfa haluk?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "صباح الخير",
+         "Good morning"
+        ],
+        [
+         "لا",
+         "No"
+        ],
+        [
+         "شكرا",
+         "Thank you"
+        ],
+        [
+         "نعم",
+         "Yes"
+        ]
+       ],
+       "words": [
+        "صباح الخير",
+        "لا",
+        "شكرا",
+        "نعم"
+       ],
+       "romans": [
+        "sabah al-khayr",
+        "la",
+        "shukran",
+        "na'am"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answer": "مرحبا",
+       "words": [
+        "مرحبا"
+       ],
+       "options": [
+        "شكرا",
+        "من فضلك",
+        "مرحبا",
+        "لا"
+       ],
+       "optionsRoman": [
+        "shukran",
+        "min fadlak",
+        "marhaban",
+        "la"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "حالك",
+        "آنا",
+        "اسمي",
+        "أراك",
+        "شكرا"
+       ],
+       "answer": [
+        "اسمي",
+        "آنا"
+       ],
+       "accepted": [],
+       "words": [
+        "اسمي آنا."
+       ],
+       "tilesRoman": [
+        "haluk",
+        "Anna",
+        "ismi",
+        "araka",
+        "shukran"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "ما اسمك؟",
+       "roman": "ma ismuk?",
+       "translation": "What is your name?",
+       "words": [
+        "ما اسمك؟"
+       ],
+       "options": [
+        "تشرفنا.",
+        "أنا بخير، شكرا.",
+        "أراك غدا.",
+        "ما اسمك؟"
+       ],
+       "optionsRoman": [
+        "tasharrafna.",
+        "ana bikhayr, shukran.",
+        "araka ghadan.",
+        "ma ismuk?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "تشرفنا.",
+       "promptLang": "target",
+       "tiles": [
+        "name",
+        "to",
+        "Nice",
+        "are",
+        "you",
+        "See",
+        "meet"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "تشرفنا."
+       ],
+       "promptRoman": "tasharrafna."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "مع السلامة",
+        "وداعا",
+        "ma'a as-salama"
+       ],
+       "words": [
+        "مع السلامة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أنا بخير، شكرا.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "شكرا"
+       ],
+       "promptRoman": "ana bikhayr, shukran."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "شكرا جزيلا.",
+       "roman": "shukran jazilan.",
+       "translation": "Thank you very much.",
+       "words": [
+        "شكرا"
+       ],
+       "options": [
+        "أنا بخير، شكرا.",
+        "تشرفنا.",
+        "كيف حالك؟",
+        "شكرا جزيلا."
+       ],
+       "optionsRoman": [
+        "ana bikhayr, shukran.",
+        "tasharrafna.",
+        "kayfa haluk?",
+        "shukran jazilan."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tip": "Adding ـي (-i) to a noun means 'my': 'أم' (umm, mother) becomes 'أمي' (ummi, my mother).",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "رجل",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Child",
+        "Mother",
+        "Father"
+       ],
+       "answer": "Man",
+       "words": [
+        "رجل"
+       ],
+       "promptRoman": "rajul"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "امرأة",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Woman",
+        "Friend",
+        "Child"
+       ],
+       "answer": "Woman",
+       "words": [
+        "امرأة"
+       ],
+       "promptRoman": "imra'a"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "طفل",
+       "words": [
+        "طفل"
+       ],
+       "options": [
+        "طفل",
+        "أم",
+        "أب",
+        "صديق"
+       ],
+       "optionsRoman": [
+        "tifl",
+        "umm",
+        "ab",
+        "sadiq"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "صديق",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Son",
+        "Child",
+        "Friend"
+       ],
+       "answer": "Friend",
+       "words": [
+        "صديق"
+       ],
+       "promptRoman": "sadiq"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "رجل",
+         "Man"
+        ],
+        [
+         "امرأة",
+         "Woman"
+        ],
+        [
+         "طفل",
+         "Child"
+        ],
+        [
+         "صديق",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "رجل",
+        "امرأة",
+        "طفل",
+        "صديق"
+       ],
+       "romans": [
+        "rajul",
+        "imra'a",
+        "tifl",
+        "sadiq"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "أمي",
+        "البيت",
+        "أبي",
+        "هذه",
+        "في"
+       ],
+       "answer": [
+        "هذه",
+        "أمي"
+       ],
+       "accepted": [],
+       "words": [
+        "هذه أمي."
+       ],
+       "tilesRoman": [
+        "ummi",
+        "al-bayt",
+        "abi",
+        "hadhihi",
+        "fi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "هو صديقي.",
+       "roman": "huwa sadiqi.",
+       "translation": "He is my friend.",
+       "words": [
+        "هو صديقي."
+       ],
+       "options": [
+        "هو صديقي.",
+        "عندي ابن.",
+        "أمي في البيت.",
+        "من هذا الرجل؟"
+       ],
+       "optionsRoman": [
+        "huwa sadiqi.",
+        "'indi ibn.",
+        "ummi fi al-bayt.",
+        "man hadha ar-rajul?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "عندي ابن.",
+       "promptLang": "target",
+       "tiles": [
+        "son",
+        "have",
+        "Who",
+        "father",
+        "I",
+        "This",
+        "a"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "ابن"
+       ],
+       "promptRoman": "'indi ibn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "هذه أمي.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "هذه أمي."
+       ],
+       "promptRoman": "hadhihi ummi."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "أم",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Mother",
+        "Woman",
+        "Son"
+       ],
+       "answer": "Mother",
+       "words": [
+        "أم"
+       ],
+       "promptRoman": "umm"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answer": "أب",
+       "words": [
+        "أب"
+       ],
+       "options": [
+        "أب",
+        "طفل",
+        "ابن",
+        "أم"
+       ],
+       "optionsRoman": [
+        "ab",
+        "tifl",
+        "ibn",
+        "umm"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ابن",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Son",
+        "Father",
+        "Woman"
+       ],
+       "answer": "Son",
+       "words": [
+        "ابن"
+       ],
+       "promptRoman": "ibn"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "ابنة",
+       "words": [
+        "ابنة"
+       ],
+       "options": [
+        "صديق",
+        "رجل",
+        "طفل",
+        "ابنة"
+       ],
+       "optionsRoman": [
+        "sadiq",
+        "rajul",
+        "tifl",
+        "ibna"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "أم",
+         "Mother"
+        ],
+        [
+         "أب",
+         "Father"
+        ],
+        [
+         "ابن",
+         "Son"
+        ],
+        [
+         "ابنة",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "أم",
+        "أب",
+        "ابن",
+        "ابنة"
+       ],
+       "romans": [
+        "umm",
+        "ab",
+        "ibn",
+        "ibna"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "أبي",
+        "أين",
+        "الرجل",
+        "من",
+        "هذه"
+       ],
+       "answer": [
+        "أين",
+        "أبي"
+       ],
+       "accepted": [],
+       "words": [
+        "أين"
+       ],
+       "tilesRoman": [
+        "abi",
+        "ayna",
+        "ar-rajul",
+        "man",
+        "hadhihi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أمي في البيت.",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "Where",
+        "mother",
+        "My",
+        "is",
+        "have",
+        "friend",
+        "home"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "البيت"
+       ],
+       "promptRoman": "ummi fi al-bayt."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أين أبي؟",
+       "roman": "ayna abi?",
+       "translation": "Where is my father?",
+       "words": [
+        "أين"
+       ],
+       "options": [
+        "أين أبي؟",
+        "أمي في البيت.",
+        "هو صديقي.",
+        "عندي ابن."
+       ],
+       "optionsRoman": [
+        "ayna abi?",
+        "ummi fi al-bayt.",
+        "huwa sadiqi.",
+        "'indi ibn."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "هي ابنتي.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "هي ابنتي."
+       ],
+       "promptRoman": "hiya ibnati."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "رجل",
+        "rajul"
+       ],
+       "words": [
+        "رجل"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "من هذا الرجل؟",
+       "promptLang": "target",
+       "options": [
+        "My mother is at home.",
+        "This is my mother.",
+        "She is my daughter.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "من هذا الرجل؟"
+       ],
+       "promptRoman": "man hadha ar-rajul?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "امرأة",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Daughter",
+        "Mother",
+        "Woman"
+       ],
+       "answer": "Woman",
+       "words": [
+        "امرأة"
+       ],
+       "promptRoman": "imra'a"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "صديق",
+         "Friend"
+        ],
+        [
+         "رجل",
+         "Man"
+        ],
+        [
+         "أب",
+         "Father"
+        ],
+        [
+         "طفل",
+         "Child"
+        ],
+        [
+         "امرأة",
+         "Woman"
+        ]
+       ],
+       "words": [
+        "صديق",
+        "رجل",
+        "أب",
+        "طفل",
+        "امرأة"
+       ],
+       "romans": [
+        "sadiq",
+        "rajul",
+        "ab",
+        "tifl",
+        "imra'a"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "هو",
+        "هذا",
+        "من",
+        "البيت",
+        "هي",
+        "الرجل"
+       ],
+       "answer": [
+        "من",
+        "هذا",
+        "الرجل"
+       ],
+       "accepted": [],
+       "words": [
+        "من هذا الرجل؟"
+       ],
+       "tilesRoman": [
+        "huwa",
+        "hadha",
+        "man",
+        "al-bayt",
+        "hiya",
+        "ar-rajul"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "هو صديقي.",
+       "promptLang": "target",
+       "tiles": [
+        "friend",
+        "my",
+        "is",
+        "This",
+        "father",
+        "Who",
+        "He"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "هو صديقي."
+       ],
+       "promptRoman": "huwa sadiqi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "هي ابنتي.",
+       "roman": "hiya ibnati.",
+       "translation": "She is my daughter.",
+       "words": [
+        "هي ابنتي."
+       ],
+       "options": [
+        "من هذا الرجل؟",
+        "هي ابنتي.",
+        "أين أبي؟",
+        "أمي في البيت."
+       ],
+       "optionsRoman": [
+        "man hadha ar-rajul?",
+        "hiya ibnati.",
+        "ayna abi?",
+        "ummi fi al-bayt."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "أمي",
+        "عندي",
+        "البيت",
+        "أين",
+        "أبي",
+        "في"
+       ],
+       "answer": [
+        "أمي",
+        "في",
+        "البيت"
+       ],
+       "accepted": [
+        "أمي في المنزل."
+       ],
+       "words": [
+        "البيت"
+       ],
+       "tilesRoman": [
+        "ummi",
+        "'indi",
+        "al-bayt",
+        "ayna",
+        "abi",
+        "fi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "عندي ابن.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "ابن"
+       ],
+       "promptRoman": "'indi ibn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "امرأة",
+        "imra'a"
+       ],
+       "words": [
+        "امرأة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "هي",
+        "البيت",
+        "أين",
+        "ابنتي",
+        "أبي"
+       ],
+       "answer": [
+        "هي",
+        "ابنتي"
+       ],
+       "accepted": [
+        "هي بنتي."
+       ],
+       "words": [
+        "هي ابنتي."
+       ],
+       "tilesRoman": [
+        "hiya",
+        "al-bayt",
+        "ayna",
+        "ibnati",
+        "abi"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "هذه أمي.",
+       "promptLang": "target",
+       "options": [
+        "Who is this man?",
+        "She is my daughter.",
+        "This is my mother.",
+        "I have a son."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "هذه أمي."
+       ],
+       "promptRoman": "hadhihi ummi."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "امرأة",
+         "Woman"
+        ],
+        [
+         "ابن",
+         "Son"
+        ],
+        [
+         "أم",
+         "Mother"
+        ],
+        [
+         "طفل",
+         "Child"
+        ]
+       ],
+       "words": [
+        "امرأة",
+        "ابن",
+        "أم",
+        "طفل"
+       ],
+       "romans": [
+        "imra'a",
+        "ibn",
+        "umm",
+        "tifl"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Friend",
+       "promptLang": "en",
+       "answer": "صديق",
+       "words": [
+        "صديق"
+       ],
+       "options": [
+        "رجل",
+        "أب",
+        "صديق",
+        "امرأة"
+       ],
+       "optionsRoman": [
+        "rajul",
+        "ab",
+        "sadiq",
+        "imra'a"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "من",
+        "صديقي",
+        "عندي",
+        "ابن",
+        "أمي"
+       ],
+       "answer": [
+        "عندي",
+        "ابن"
+       ],
+       "accepted": [
+        "لدي ابن."
+       ],
+       "words": [
+        "ابن"
+       ],
+       "tilesRoman": [
+        "man",
+        "sadiqi",
+        "'indi",
+        "ibn",
+        "ummi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "من هذا الرجل؟",
+       "roman": "man hadha ar-rajul?",
+       "translation": "Who is this man?",
+       "words": [
+        "من هذا الرجل؟"
+       ],
+       "options": [
+        "أين أبي؟",
+        "من هذا الرجل؟",
+        "هذه أمي.",
+        "أمي في البيت."
+       ],
+       "optionsRoman": [
+        "ayna abi?",
+        "man hadha ar-rajul?",
+        "hadhihi ummi.",
+        "ummi fi al-bayt."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أين أبي؟",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "mother",
+        "I",
+        "my",
+        "Where",
+        "father",
+        "Who"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "أين"
+       ],
+       "promptRoman": "ayna abi?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answers": [
+        "ابنة",
+        "بنت",
+        "ibna"
+       ],
+       "words": [
+        "ابنة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "هو صديقي.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "هو صديقي."
+       ],
+       "promptRoman": "huwa sadiqi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أمي في البيت.",
+       "roman": "ummi fi al-bayt.",
+       "translation": "My mother is at home.",
+       "words": [
+        "البيت"
+       ],
+       "options": [
+        "أمي في البيت.",
+        "هو صديقي.",
+        "هي ابنتي.",
+        "هذه أمي."
+       ],
+       "optionsRoman": [
+        "ummi fi al-bayt.",
+        "huwa sadiqi.",
+        "hiya ibnati.",
+        "hadhihi ummi."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tip": "'ال' (al-) means 'the'. Before some letters its sound blends into the next one: 'الشاي' is said ash-shay.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ماء",
+       "promptLang": "target",
+       "options": [
+        "Egg",
+        "Rice",
+        "Coffee",
+        "Water"
+       ],
+       "answer": "Water",
+       "words": [
+        "ماء"
+       ],
+       "promptRoman": "ma'"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "خبز",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Bread",
+        "Egg",
+        "Coffee"
+       ],
+       "answer": "Bread",
+       "words": [
+        "خبز"
+       ],
+       "promptRoman": "khubz"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "قهوة",
+       "words": [
+        "قهوة"
+       ],
+       "options": [
+        "حليب",
+        "شاي",
+        "قهوة",
+        "تفاحة"
+       ],
+       "optionsRoman": [
+        "halib",
+        "shay",
+        "qahwa",
+        "tuffaha"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "شاي",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Water",
+        "Milk",
+        "Egg"
+       ],
+       "answer": "Tea",
+       "words": [
+        "شاي"
+       ],
+       "promptRoman": "shay"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ماء",
+         "Water"
+        ],
+        [
+         "خبز",
+         "Bread"
+        ],
+        [
+         "قهوة",
+         "Coffee"
+        ],
+        [
+         "شاي",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "ماء",
+        "خبز",
+        "قهوة",
+        "شاي"
+       ],
+       "romans": [
+        "ma'",
+        "khubz",
+        "qahwa",
+        "shay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "ماء",
+        "من",
+        "فضلك",
+        "الشاي",
+        "الحليب",
+        "لا"
+       ],
+       "answer": [
+        "ماء",
+        "من",
+        "فضلك"
+       ],
+       "accepted": [],
+       "words": [
+        "من فضلك",
+        "ماء"
+       ],
+       "tilesRoman": [
+        "ma'",
+        "min",
+        "fadlak",
+        "ash-shay",
+        "al-halib",
+        "la"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أشرب القهوة.",
+       "roman": "ashrabu al-qahwa.",
+       "translation": "I drink coffee.",
+       "words": [
+        "أشرب القهوة."
+       ],
+       "options": [
+        "لا أشرب الحليب.",
+        "الشاي ساخن.",
+        "أشرب القهوة.",
+        "أحب التفاح."
+       ],
+       "optionsRoman": [
+        "la ashrabu al-halib.",
+        "ash-shay sakhin.",
+        "ashrabu al-qahwa.",
+        "uhibbu at-tuffah."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "آكل الخبز.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "drink",
+        "bread",
+        "is",
+        "tea",
+        "eat"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "آكل الخبز."
+       ],
+       "promptRoman": "akulu al-khubz."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "ماء من فضلك.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "من فضلك",
+        "ماء"
+       ],
+       "promptRoman": "ma' min fadlak."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "حليب",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Coffee",
+        "Bread",
+        "Tea"
+       ],
+       "answer": "Milk",
+       "words": [
+        "حليب"
+       ],
+       "promptRoman": "halib"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "تفاحة",
+       "words": [
+        "تفاحة"
+       ],
+       "options": [
+        "شاي",
+        "خبز",
+        "تفاحة",
+        "بيضة"
+       ],
+       "optionsRoman": [
+        "shay",
+        "khubz",
+        "tuffaha",
+        "bayda"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "أرز",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Milk",
+        "Rice",
+        "Water"
+       ],
+       "answer": "Rice",
+       "words": [
+        "أرز"
+       ],
+       "promptRoman": "aruzz"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "بيضة",
+       "words": [
+        "بيضة"
+       ],
+       "options": [
+        "قهوة",
+        "بيضة",
+        "تفاحة",
+        "حليب"
+       ],
+       "optionsRoman": [
+        "qahwa",
+        "bayda",
+        "tuffaha",
+        "halib"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "حليب",
+         "Milk"
+        ],
+        [
+         "تفاحة",
+         "Apple"
+        ],
+        [
+         "أرز",
+         "Rice"
+        ],
+        [
+         "بيضة",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "حليب",
+        "تفاحة",
+        "أرز",
+        "بيضة"
+       ],
+       "romans": [
+        "halib",
+        "tuffaha",
+        "aruzz",
+        "bayda"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "الشاي",
+        "لا",
+        "جائع",
+        "ماء",
+        "ساخن"
+       ],
+       "answer": [
+        "الشاي",
+        "ساخن"
+       ],
+       "accepted": [],
+       "words": [
+        "الشاي ساخن."
+       ],
+       "tilesRoman": [
+        "ash-shay",
+        "la",
+        "ja'i'",
+        "ma'",
+        "sakhin"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "لا أشرب الحليب.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "not",
+        "apples",
+        "milk",
+        "hot",
+        "bread",
+        "drink",
+        "do"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "لا"
+       ],
+       "promptRoman": "la ashrabu al-halib."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "الشاي ساخن.",
+       "roman": "ash-shay sakhin.",
+       "translation": "The tea is hot.",
+       "words": [
+        "الشاي ساخن."
+       ],
+       "options": [
+        "الشاي ساخن.",
+        "أحب التفاح.",
+        "آكل الخبز.",
+        "لا أشرب الحليب."
+       ],
+       "optionsRoman": [
+        "ash-shay sakhin.",
+        "uhibbu at-tuffah.",
+        "akulu al-khubz.",
+        "la ashrabu al-halib."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أحب التفاح.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "أحب التفاح."
+       ],
+       "promptRoman": "uhibbu at-tuffah."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "ماء",
+        "ma'"
+       ],
+       "words": [
+        "ماء"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "أنا جائع.",
+       "promptLang": "target",
+       "options": [
+        "Water, please.",
+        "The tea is hot.",
+        "I am hungry.",
+        "I eat bread."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "أنا جائع."
+       ],
+       "promptRoman": "ana ja'i'."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "خبز",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Bread",
+        "Water",
+        "Milk"
+       ],
+       "answer": "Bread",
+       "words": [
+        "خبز"
+       ],
+       "promptRoman": "khubz"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "شاي",
+         "Tea"
+        ],
+        [
+         "خبز",
+         "Bread"
+        ],
+        [
+         "حليب",
+         "Milk"
+        ],
+        [
+         "قهوة",
+         "Coffee"
+        ],
+        [
+         "أرز",
+         "Rice"
+        ]
+       ],
+       "words": [
+        "شاي",
+        "خبز",
+        "حليب",
+        "قهوة",
+        "أرز"
+       ],
+       "romans": [
+        "shay",
+        "khubz",
+        "halib",
+        "qahwa",
+        "aruzz"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "الحليب",
+        "آكل",
+        "أنا",
+        "التفاح",
+        "جائع"
+       ],
+       "answer": [
+        "أنا",
+        "جائع"
+       ],
+       "accepted": [
+        "أنا جائعة."
+       ],
+       "words": [
+        "أنا جائع."
+       ],
+       "tilesRoman": [
+        "al-halib",
+        "akulu",
+        "ana",
+        "at-tuffah",
+        "ja'i'"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أشرب القهوة.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "bread",
+        "is",
+        "hot",
+        "drink",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "أشرب القهوة."
+       ],
+       "promptRoman": "ashrabu al-qahwa."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أحب التفاح.",
+       "roman": "uhibbu at-tuffah.",
+       "translation": "I like apples.",
+       "words": [
+        "أحب التفاح."
+       ],
+       "options": [
+        "ماء من فضلك.",
+        "أحب التفاح.",
+        "لا أشرب الحليب.",
+        "الشاي ساخن."
+       ],
+       "optionsRoman": [
+        "ma' min fadlak.",
+        "uhibbu at-tuffah.",
+        "la ashrabu al-halib.",
+        "ash-shay sakhin."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "لا",
+        "القهوة",
+        "أشرب",
+        "الخبز",
+        "الحليب",
+        "فضلك"
+       ],
+       "answer": [
+        "لا",
+        "أشرب",
+        "الحليب"
+       ],
+       "accepted": [],
+       "words": [
+        "لا"
+       ],
+       "tilesRoman": [
+        "la",
+        "al-qahwa",
+        "ashrabu",
+        "al-khubz",
+        "al-halib",
+        "fadlak"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "آكل الخبز.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "آكل الخبز."
+       ],
+       "promptRoman": "akulu al-khubz."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "خبز",
+        "khubz"
+       ],
+       "words": [
+        "خبز"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "الحليب",
+        "لا",
+        "ماء",
+        "التفاح",
+        "أحب"
+       ],
+       "answer": [
+        "أحب",
+        "التفاح"
+       ],
+       "accepted": [],
+       "words": [
+        "أحب التفاح."
+       ],
+       "tilesRoman": [
+        "al-halib",
+        "la",
+        "ma'",
+        "at-tuffah",
+        "uhibbu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "ماء من فضلك.",
+       "promptLang": "target",
+       "options": [
+        "Water, please.",
+        "I do not drink milk.",
+        "The tea is hot.",
+        "I drink coffee."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "من فضلك",
+        "ماء"
+       ],
+       "promptRoman": "ma' min fadlak."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "قهوة",
+         "Coffee"
+        ],
+        [
+         "تفاحة",
+         "Apple"
+        ],
+        [
+         "أرز",
+         "Rice"
+        ],
+        [
+         "شاي",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "قهوة",
+        "تفاحة",
+        "أرز",
+        "شاي"
+       ],
+       "romans": [
+        "qahwa",
+        "tuffaha",
+        "aruzz",
+        "shay"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "بيضة",
+       "words": [
+        "بيضة"
+       ],
+       "options": [
+        "شاي",
+        "تفاحة",
+        "حليب",
+        "بيضة"
+       ],
+       "optionsRoman": [
+        "shay",
+        "tuffaha",
+        "halib",
+        "bayda"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "آكل",
+        "الخبز",
+        "الشاي",
+        "لا",
+        "فضلك"
+       ],
+       "answer": [
+        "آكل",
+        "الخبز"
+       ],
+       "accepted": [],
+       "words": [
+        "آكل الخبز."
+       ],
+       "tilesRoman": [
+        "akulu",
+        "al-khubz",
+        "ash-shay",
+        "la",
+        "fadlak"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أنا جائع.",
+       "roman": "ana ja'i'.",
+       "translation": "I am hungry.",
+       "words": [
+        "أنا جائع."
+       ],
+       "options": [
+        "أشرب القهوة.",
+        "آكل الخبز.",
+        "أنا جائع.",
+        "أحب التفاح."
+       ],
+       "optionsRoman": [
+        "ashrabu al-qahwa.",
+        "akulu al-khubz.",
+        "ana ja'i'.",
+        "uhibbu at-tuffah."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "الشاي ساخن.",
+       "promptLang": "target",
+       "tiles": [
+        "tea",
+        "is",
+        "hungry",
+        "The",
+        "apples",
+        "do",
+        "hot"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "الشاي ساخن."
+       ],
+       "promptRoman": "ash-shay sakhin."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answers": [
+        "حليب",
+        "halib"
+       ],
+       "words": [
+        "حليب"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أشرب القهوة.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "أشرب القهوة."
+       ],
+       "promptRoman": "ashrabu al-qahwa."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "لا أشرب الحليب.",
+       "roman": "la ashrabu al-halib.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "لا"
+       ],
+       "options": [
+        "أحب التفاح.",
+        "لا أشرب الحليب.",
+        "أشرب القهوة.",
+        "الشاي ساخن."
+       ],
+       "optionsRoman": [
+        "uhibbu at-tuffah.",
+        "la ashrabu al-halib.",
+        "ashrabu al-qahwa.",
+        "ash-shay sakhin."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tip": "Both Western digits (1, 2, 3) and Arabic-Indic digits (١ ٢ ٣) are used in the Arab world.",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "واحد",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "Five",
+        "One",
+        "Ten"
+       ],
+       "answer": "One",
+       "words": [
+        "واحد"
+       ],
+       "promptRoman": "wahid"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "اثنان",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Ten"
+       ],
+       "answer": "Two",
+       "words": [
+        "اثنان"
+       ],
+       "promptRoman": "ithnan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "ثلاثة",
+       "words": [
+        "ثلاثة"
+       ],
+       "options": [
+        "تسعة",
+        "عشرة",
+        "ثلاثة",
+        "واحد"
+       ],
+       "optionsRoman": [
+        "tis'a",
+        "'ashara",
+        "thalatha",
+        "wahid"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "أربعة",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Ten",
+        "Five",
+        "One"
+       ],
+       "answer": "Four",
+       "words": [
+        "أربعة"
+       ],
+       "promptRoman": "arba'a"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "واحد",
+         "One"
+        ],
+        [
+         "اثنان",
+         "Two"
+        ],
+        [
+         "ثلاثة",
+         "Three"
+        ],
+        [
+         "أربعة",
+         "Four"
+        ]
+       ],
+       "words": [
+        "واحد",
+        "اثنان",
+        "ثلاثة",
+        "أربعة"
+       ],
+       "romans": [
+        "wahid",
+        "ithnan",
+        "thalatha",
+        "arba'a"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "عندي",
+        "هذا",
+        "كوبان",
+        "طفلان",
+        "الثالثة"
+       ],
+       "answer": [
+        "عندي",
+        "طفلان"
+       ],
+       "accepted": [
+        "لدي طفلان."
+       ],
+       "words": [
+        "عندي طفلان."
+       ],
+       "tilesRoman": [
+        "'indi",
+        "hadha",
+        "kuban",
+        "tiflan",
+        "ath-thalitha"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "بكم هذا؟",
+       "roman": "bikam hadha?",
+       "translation": "How much is it?",
+       "words": [
+        "بكم هذا؟"
+       ],
+       "options": [
+        "قهوة واحدة من فضلك.",
+        "بكم هذا؟",
+        "كوبان من الشاي من فضلك.",
+        "الساعة الثالثة."
+       ],
+       "optionsRoman": [
+        "qahwa wahida min fadlak.",
+        "bikam hadha?",
+        "kuban min ash-shay min fadlak.",
+        "as-sa'a ath-thalitha."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "عندي أربع تفاحات.",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "four",
+        "I",
+        "please",
+        "three",
+        "have",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "عندي أربع تفاحات."
+       ],
+       "promptRoman": "'indi arba' tuffahat."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "عندي طفلان.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "عندي طفلان."
+       ],
+       "promptRoman": "'indi tiflan."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "خمسة",
+       "promptLang": "target",
+       "options": [
+        "Three",
+        "Nine",
+        "Five",
+        "One"
+       ],
+       "answer": "Five",
+       "words": [
+        "خمسة"
+       ],
+       "promptRoman": "khamsa"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "ستة",
+       "words": [
+        "ستة"
+       ],
+       "options": [
+        "ستة",
+        "واحد",
+        "اثنان",
+        "تسعة"
+       ],
+       "optionsRoman": [
+        "sitta",
+        "wahid",
+        "ithnan",
+        "tis'a"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "سبعة",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Seven",
+        "One",
+        "Eight"
+       ],
+       "answer": "Seven",
+       "words": [
+        "سبعة"
+       ],
+       "promptRoman": "sab'a"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "ثمانية",
+       "words": [
+        "ثمانية"
+       ],
+       "options": [
+        "سبعة",
+        "عشرة",
+        "ثمانية",
+        "واحد"
+       ],
+       "optionsRoman": [
+        "sab'a",
+        "'ashara",
+        "thamaniya",
+        "wahid"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "خمسة",
+         "Five"
+        ],
+        [
+         "ستة",
+         "Six"
+        ],
+        [
+         "سبعة",
+         "Seven"
+        ],
+        [
+         "ثمانية",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "خمسة",
+        "ستة",
+        "سبعة",
+        "ثمانية"
+       ],
+       "romans": [
+        "khamsa",
+        "sitta",
+        "sab'a",
+        "thamaniya"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "أربع",
+        "طفلان",
+        "الساعة",
+        "من",
+        "قهوة",
+        "واحدة",
+        "فضلك"
+       ],
+       "answer": [
+        "قهوة",
+        "واحدة",
+        "من",
+        "فضلك"
+       ],
+       "accepted": [],
+       "words": [
+        "من فضلك",
+        "قهوة"
+       ],
+       "tilesRoman": [
+        "arba'",
+        "tiflan",
+        "as-sa'a",
+        "min",
+        "qahwa",
+        "wahida",
+        "fadlak"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "كوبان من الشاي من فضلك.",
+       "promptLang": "target",
+       "tiles": [
+        "three",
+        "Two",
+        "please",
+        "teas",
+        "it",
+        "o'clock"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "من فضلك"
+       ],
+       "promptRoman": "kuban min ash-shay min fadlak."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "قهوة واحدة من فضلك.",
+       "roman": "qahwa wahida min fadlak.",
+       "translation": "One coffee, please.",
+       "words": [
+        "من فضلك",
+        "قهوة"
+       ],
+       "options": [
+        "كوبان من الشاي من فضلك.",
+        "قهوة واحدة من فضلك.",
+        "الساعة الثالثة.",
+        "عندي أربع تفاحات."
+       ],
+       "optionsRoman": [
+        "kuban min ash-shay min fadlak.",
+        "qahwa wahida min fadlak.",
+        "as-sa'a ath-thalitha.",
+        "'indi arba' tuffahat."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "الساعة الثالثة.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "الساعة الثالثة."
+       ],
+       "promptRoman": "as-sa'a ath-thalitha."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "واحد",
+        "wahid"
+       ],
+       "words": [
+        "واحد"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "لحظة من فضلك.",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "I have four apples.",
+        "How much is it?",
+        "One moment, please."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "من فضلك"
+       ],
+       "promptRoman": "lahza min fadlak."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "تسعة",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Ten",
+        "Seven",
+        "Nine"
+       ],
+       "answer": "Nine",
+       "words": [
+        "تسعة"
+       ],
+       "promptRoman": "tis'a"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "سبعة",
+         "Seven"
+        ],
+        [
+         "اثنان",
+         "Two"
+        ],
+        [
+         "تسعة",
+         "Nine"
+        ],
+        [
+         "ثمانية",
+         "Eight"
+        ],
+        [
+         "واحد",
+         "One"
+        ]
+       ],
+       "words": [
+        "سبعة",
+        "اثنان",
+        "تسعة",
+        "ثمانية",
+        "واحد"
+       ],
+       "romans": [
+        "sab'a",
+        "ithnan",
+        "tis'a",
+        "thamaniya",
+        "wahid"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "واحدة",
+        "لحظة",
+        "تفاحات",
+        "من",
+        "الشاي",
+        "فضلك"
+       ],
+       "answer": [
+        "لحظة",
+        "من",
+        "فضلك"
+       ],
+       "accepted": [],
+       "words": [
+        "من فضلك"
+       ],
+       "tilesRoman": [
+        "wahida",
+        "lahza",
+        "tuffahat",
+        "min",
+        "ash-shay",
+        "fadlak"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "بكم هذا؟",
+       "promptLang": "target",
+       "tiles": [
+        "children",
+        "much",
+        "How",
+        "is",
+        "it",
+        "apples",
+        "I"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "بكم هذا؟"
+       ],
+       "promptRoman": "bikam hadha?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "الساعة الثالثة.",
+       "roman": "as-sa'a ath-thalitha.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "الساعة الثالثة."
+       ],
+       "options": [
+        "بكم هذا؟",
+        "الساعة الثالثة.",
+        "عندي طفلان.",
+        "قهوة واحدة من فضلك."
+       ],
+       "optionsRoman": [
+        "bikam hadha?",
+        "as-sa'a ath-thalitha.",
+        "'indi tiflan.",
+        "qahwa wahida min fadlak."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "أربع",
+        "الثالثة",
+        "من",
+        "فضلك",
+        "الشاي",
+        "كوبان",
+        "واحدة",
+        "من"
+       ],
+       "answer": [
+        "كوبان",
+        "من",
+        "الشاي",
+        "من",
+        "فضلك"
+       ],
+       "accepted": [],
+       "words": [
+        "من فضلك"
+       ],
+       "tilesRoman": [
+        "arba'",
+        "ath-thalitha",
+        "min",
+        "fadlak",
+        "ash-shay",
+        "kuban",
+        "wahida",
+        "min"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "عندي أربع تفاحات.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "عندي أربع تفاحات."
+       ],
+       "promptRoman": "'indi arba' tuffahat."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "عشرة",
+        "'ashara"
+       ],
+       "words": [
+        "عشرة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "الشاي",
+        "كوبان",
+        "الثالثة",
+        "قهوة",
+        "الساعة"
+       ],
+       "answer": [
+        "الساعة",
+        "الثالثة"
+       ],
+       "accepted": [],
+       "words": [
+        "الساعة الثالثة."
+       ],
+       "tilesRoman": [
+        "ash-shay",
+        "kuban",
+        "ath-thalitha",
+        "qahwa",
+        "as-sa'a"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "عندي طفلان.",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "One coffee, please.",
+        "I have four apples.",
+        "It is three o'clock."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "عندي طفلان."
+       ],
+       "promptRoman": "'indi tiflan."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "أربعة",
+         "Four"
+        ],
+        [
+         "اثنان",
+         "Two"
+        ],
+        [
+         "ثلاثة",
+         "Three"
+        ],
+        [
+         "سبعة",
+         "Seven"
+        ]
+       ],
+       "words": [
+        "أربعة",
+        "اثنان",
+        "ثلاثة",
+        "سبعة"
+       ],
+       "romans": [
+        "arba'a",
+        "ithnan",
+        "thalatha",
+        "sab'a"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "ثمانية",
+       "words": [
+        "ثمانية"
+       ],
+       "options": [
+        "سبعة",
+        "اثنان",
+        "ثمانية",
+        "تسعة"
+       ],
+       "optionsRoman": [
+        "sab'a",
+        "ithnan",
+        "thamaniya",
+        "tis'a"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "تفاحات",
+        "عندي",
+        "قهوة",
+        "أربع",
+        "الساعة",
+        "فضلك"
+       ],
+       "answer": [
+        "عندي",
+        "أربع",
+        "تفاحات"
+       ],
+       "accepted": [],
+       "words": [
+        "عندي أربع تفاحات."
+       ],
+       "tilesRoman": [
+        "tuffahat",
+        "'indi",
+        "qahwa",
+        "arba'",
+        "as-sa'a",
+        "fadlak"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "لحظة من فضلك.",
+       "roman": "lahza min fadlak.",
+       "translation": "One moment, please.",
+       "words": [
+        "من فضلك"
+       ],
+       "options": [
+        "الساعة الثالثة.",
+        "لحظة من فضلك.",
+        "عندي طفلان.",
+        "عندي أربع تفاحات."
+       ],
+       "optionsRoman": [
+        "as-sa'a ath-thalitha.",
+        "lahza min fadlak.",
+        "'indi tiflan.",
+        "'indi arba' tuffahat."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "قهوة واحدة من فضلك.",
+       "promptLang": "target",
+       "tiles": [
+        "One",
+        "four",
+        "much",
+        "please",
+        "coffee",
+        "teas"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "من فضلك",
+        "قهوة"
+       ],
+       "promptRoman": "qahwa wahida min fadlak."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Nine",
+       "promptLang": "en",
+       "answers": [
+        "تسعة",
+        "tis'a"
+       ],
+       "words": [
+        "تسعة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "بكم هذا؟",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "بكم هذا؟"
+       ],
+       "promptRoman": "bikam hadha?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "كوبان من الشاي من فضلك.",
+       "roman": "kuban min ash-shay min fadlak.",
+       "translation": "Two teas, please.",
+       "words": [
+        "من فضلك"
+       ],
+       "options": [
+        "عندي طفلان.",
+        "بكم هذا؟",
+        "قهوة واحدة من فضلك.",
+        "كوبان من الشاي من فضلك."
+       ],
+       "optionsRoman": [
+        "'indi tiflan.",
+        "bikam hadha?",
+        "qahwa wahida min fadlak.",
+        "kuban min ash-shay min fadlak."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tip": "'من فضلك' is said min fadlak to a man and min fadliki to a woman - the spelling is the same.",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "فندق",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Ticket",
+        "Station",
+        "Hotel"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "فندق"
+       ],
+       "promptRoman": "funduq"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "محطة",
+       "promptLang": "target",
+       "options": [
+        "Where",
+        "Station",
+        "Right",
+        "Toilet"
+       ],
+       "answer": "Station",
+       "words": [
+        "محطة"
+       ],
+       "promptRoman": "mahatta"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "مطار",
+       "words": [
+        "مطار"
+       ],
+       "options": [
+        "فندق",
+        "مطار",
+        "يمين",
+        "تذكرة"
+       ],
+       "optionsRoman": [
+        "funduq",
+        "matar",
+        "yamin",
+        "tadhkira"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "تذكرة",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Ticket",
+        "Toilet",
+        "Where"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "تذكرة"
+       ],
+       "promptRoman": "tadhkira"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "فندق",
+         "Hotel"
+        ],
+        [
+         "محطة",
+         "Station"
+        ],
+        [
+         "مطار",
+         "Airport"
+        ],
+        [
+         "تذكرة",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "فندق",
+        "محطة",
+        "مطار",
+        "تذكرة"
+       ],
+       "romans": [
+        "funduq",
+        "mahatta",
+        "matar",
+        "tadhkira"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "ذاهب",
+        "أين",
+        "الفندق",
+        "اليمين",
+        "هل"
+       ],
+       "answer": [
+        "أين",
+        "الفندق"
+       ],
+       "accepted": [],
+       "words": [
+        "أين"
+       ],
+       "tilesRoman": [
+        "dhahib",
+        "ayna",
+        "al-funduq",
+        "al-yamin",
+        "hal"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أين الحمام؟",
+       "roman": "ayna al-hammam?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "أين"
+       ],
+       "options": [
+        "تذكرة من فضلك.",
+        "أين الفندق؟",
+        "اتجه يسارا.",
+        "أين الحمام؟"
+       ],
+       "optionsRoman": [
+        "tadhkira min fadlak.",
+        "ayna al-funduq?",
+        "ittajih yasaran.",
+        "ayna al-hammam?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "اتجه يسارا.",
+       "promptLang": "target",
+       "tiles": [
+        "right",
+        "Turn",
+        "the",
+        "left",
+        "going"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "اتجه يسارا."
+       ],
+       "promptRoman": "ittajih yasaran."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أين الفندق؟",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "أين"
+       ],
+       "promptRoman": "ayna al-funduq?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "يسار",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Left",
+        "Where",
+        "Hotel"
+       ],
+       "answer": "Left",
+       "words": [
+        "يسار"
+       ],
+       "promptRoman": "yasar"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "يمين",
+       "words": [
+        "يمين"
+       ],
+       "options": [
+        "أين",
+        "مطار",
+        "حمام",
+        "يمين"
+       ],
+       "optionsRoman": [
+        "ayna",
+        "matar",
+        "hammam",
+        "yamin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "أين",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Toilet",
+        "Where",
+        "Right"
+       ],
+       "answer": "Where",
+       "words": [
+        "أين"
+       ],
+       "promptRoman": "ayna"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "حمام",
+       "words": [
+        "حمام"
+       ],
+       "options": [
+        "محطة",
+        "حمام",
+        "يمين",
+        "يسار"
+       ],
+       "optionsRoman": [
+        "mahatta",
+        "hammam",
+        "yamin",
+        "yasar"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "يسار",
+         "Left"
+        ],
+        [
+         "يمين",
+         "Right"
+        ],
+        [
+         "أين",
+         "Where"
+        ],
+        [
+         "حمام",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "يسار",
+        "يمين",
+        "أين",
+        "حمام"
+       ],
+       "romans": [
+        "yasar",
+        "yamin",
+        "ayna",
+        "hammam"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "أنا",
+        "اتجه",
+        "على",
+        "اليمين",
+        "المحطة",
+        "هل"
+       ],
+       "answer": [
+        "المحطة",
+        "على",
+        "اليمين"
+       ],
+       "accepted": [],
+       "words": [
+        "يمين"
+       ],
+       "tilesRoman": [
+        "ana",
+        "ittajih",
+        "'ala",
+        "al-yamin",
+        "al-mahatta",
+        "hal"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "تذكرة من فضلك.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "Turn",
+        "on",
+        "ticket",
+        "it",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "من فضلك",
+        "تذكرة"
+       ],
+       "promptRoman": "tadhkira min fadlak."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "المحطة على اليمين.",
+       "roman": "al-mahatta 'ala al-yamin.",
+       "translation": "The station is on the right.",
+       "words": [
+        "يمين"
+       ],
+       "options": [
+        "أين الحمام؟",
+        "هل هو بعيد؟",
+        "أين الفندق؟",
+        "المحطة على اليمين."
+       ],
+       "optionsRoman": [
+        "ayna al-hammam?",
+        "hal huwa ba'id?",
+        "ayna al-funduq?",
+        "al-mahatta 'ala al-yamin."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أنا ذاهب إلى المطار.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "أنا ذاهب إلى المطار."
+       ],
+       "promptRoman": "ana dhahib ila al-matar."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "فندق",
+        "funduq"
+       ],
+       "words": [
+        "فندق"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "هل هو بعيد؟",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "A ticket, please.",
+        "Is it far?",
+        "Where is the hotel?"
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "هل هو بعيد؟"
+       ],
+       "promptRoman": "hal huwa ba'id?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "محطة",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Right",
+        "Airport",
+        "Left"
+       ],
+       "answer": "Station",
+       "words": [
+        "محطة"
+       ],
+       "promptRoman": "mahatta"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "مطار",
+         "Airport"
+        ],
+        [
+         "يمين",
+         "Right"
+        ],
+        [
+         "يسار",
+         "Left"
+        ],
+        [
+         "محطة",
+         "Station"
+        ],
+        [
+         "فندق",
+         "Hotel"
+        ]
+       ],
+       "words": [
+        "مطار",
+        "يمين",
+        "يسار",
+        "محطة",
+        "فندق"
+       ],
+       "romans": [
+        "matar",
+        "yamin",
+        "yasar",
+        "mahatta",
+        "funduq"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "تذكرة",
+        "من",
+        "هل",
+        "الفندق",
+        "بعيد",
+        "هو"
+       ],
+       "answer": [
+        "هل",
+        "هو",
+        "بعيد"
+       ],
+       "accepted": [],
+       "words": [
+        "هل هو بعيد؟"
+       ],
+       "tilesRoman": [
+        "tadhkira",
+        "min",
+        "hal",
+        "al-funduq",
+        "ba'id",
+        "huwa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أين الحمام؟",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "ticket",
+        "right",
+        "the",
+        "Where",
+        "on",
+        "toilet"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "أين"
+       ],
+       "promptRoman": "ayna al-hammam?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أنا ذاهب إلى المطار.",
+       "roman": "ana dhahib ila al-matar.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "أنا ذاهب إلى المطار."
+       ],
+       "options": [
+        "اتجه يسارا.",
+        "هل هو بعيد؟",
+        "المحطة على اليمين.",
+        "أنا ذاهب إلى المطار."
+       ],
+       "optionsRoman": [
+        "ittajih yasaran.",
+        "hal huwa ba'id?",
+        "al-mahatta 'ala al-yamin.",
+        "ana dhahib ila al-matar."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "تذكرة",
+        "هل",
+        "من",
+        "بعيد",
+        "فضلك",
+        "الفندق"
+       ],
+       "answer": [
+        "تذكرة",
+        "من",
+        "فضلك"
+       ],
+       "accepted": [],
+       "words": [
+        "من فضلك",
+        "تذكرة"
+       ],
+       "tilesRoman": [
+        "tadhkira",
+        "hal",
+        "min",
+        "ba'id",
+        "fadlak",
+        "al-funduq"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "اتجه يسارا.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "اتجه يسارا."
+       ],
+       "promptRoman": "ittajih yasaran."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "محطة",
+        "mahatta"
+       ],
+       "words": [
+        "محطة"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "المطار",
+        "ذاهب",
+        "بعيد",
+        "هو",
+        "إلى",
+        "أنا",
+        "هل"
+       ],
+       "answer": [
+        "أنا",
+        "ذاهب",
+        "إلى",
+        "المطار"
+       ],
+       "accepted": [
+        "أنا ذاهبة إلى المطار."
+       ],
+       "words": [
+        "أنا ذاهب إلى المطار."
+       ],
+       "tilesRoman": [
+        "al-matar",
+        "dhahib",
+        "ba'id",
+        "huwa",
+        "ila",
+        "ana",
+        "hal"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "أين الفندق؟",
+       "promptLang": "target",
+       "options": [
+        "I am going to the airport.",
+        "Turn left.",
+        "Where is the hotel?",
+        "Where is the toilet?"
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "أين"
+       ],
+       "promptRoman": "ayna al-funduq?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "تذكرة",
+         "Ticket"
+        ],
+        [
+         "مطار",
+         "Airport"
+        ],
+        [
+         "فندق",
+         "Hotel"
+        ],
+        [
+         "أين",
+         "Where"
+        ]
+       ],
+       "words": [
+        "تذكرة",
+        "مطار",
+        "فندق",
+        "أين"
+       ],
+       "romans": [
+        "tadhkira",
+        "matar",
+        "funduq",
+        "ayna"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answer": "محطة",
+       "words": [
+        "محطة"
+       ],
+       "options": [
+        "يمين",
+        "محطة",
+        "مطار",
+        "فندق"
+       ],
+       "optionsRoman": [
+        "yamin",
+        "mahatta",
+        "matar",
+        "funduq"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "الفندق",
+        "يسارا",
+        "هو",
+        "إلى",
+        "اتجه"
+       ],
+       "answer": [
+        "اتجه",
+        "يسارا"
+       ],
+       "accepted": [
+        "انعطف يسارا."
+       ],
+       "words": [
+        "اتجه يسارا."
+       ],
+       "tilesRoman": [
+        "al-funduq",
+        "yasaran",
+        "huwa",
+        "ila",
+        "ittajih"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "هل هو بعيد؟",
+       "roman": "hal huwa ba'id?",
+       "translation": "Is it far?",
+       "words": [
+        "هل هو بعيد؟"
+       ],
+       "options": [
+        "أين الحمام؟",
+        "هل هو بعيد؟",
+        "اتجه يسارا.",
+        "أين الفندق؟"
+       ],
+       "optionsRoman": [
+        "ayna al-hammam?",
+        "hal huwa ba'id?",
+        "ittajih yasaran.",
+        "ayna al-funduq?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "المحطة على اليمين.",
+       "promptLang": "target",
+       "tiles": [
+        "on",
+        "The",
+        "airport",
+        "station",
+        "to",
+        "right",
+        "A",
+        "the",
+        "is"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "يمين"
+       ],
+       "promptRoman": "al-mahatta 'ala al-yamin."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answers": [
+        "حمام",
+        "دورة المياه",
+        "hammam"
+       ],
+       "words": [
+        "حمام"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أين الحمام؟",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "أين"
+       ],
+       "promptRoman": "ayna al-hammam?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "تذكرة من فضلك.",
+       "roman": "tadhkira min fadlak.",
+       "translation": "A ticket, please.",
+       "words": [
+        "من فضلك",
+        "تذكرة"
+       ],
+       "options": [
+        "أين الحمام؟",
+        "تذكرة من فضلك.",
+        "أين الفندق؟",
+        "المحطة على اليمين."
+       ],
+       "optionsRoman": [
+        "ayna al-hammam?",
+        "tadhkira min fadlak.",
+        "ayna al-funduq?",
+        "al-mahatta 'ala al-yamin."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tip": "Many words change for men and women: a man says 'أنا ذاهب' (ana dhahib), a woman 'أنا ذاهبة' (ana dhahiba).",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "اليوم",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "Today",
+        "Now",
+        "House"
+       ],
+       "answer": "Today",
+       "words": [
+        "اليوم"
+       ],
+       "promptRoman": "al-yawm"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "غدا",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "School",
+        "Night",
+        "House"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "غدا"
+       ],
+       "promptRoman": "ghadan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "الآن",
+       "words": [
+        "الآن"
+       ],
+       "options": [
+        "الليل",
+        "الآن",
+        "غدا",
+        "المدرسة"
+       ],
+       "optionsRoman": [
+        "al-layl",
+        "al-an",
+        "ghadan",
+        "al-madrasa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "الصباح",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Tomorrow",
+        "Night",
+        "Morning"
+       ],
+       "answer": "Morning",
+       "words": [
+        "الصباح"
+       ],
+       "promptRoman": "as-sabah"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "اليوم",
+         "Today"
+        ],
+        [
+         "غدا",
+         "Tomorrow"
+        ],
+        [
+         "الآن",
+         "Now"
+        ],
+        [
+         "الصباح",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "اليوم",
+        "غدا",
+        "الآن",
+        "الصباح"
+       ],
+       "romans": [
+        "al-yawm",
+        "ghadan",
+        "al-an",
+        "as-sabah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "القهوة",
+        "الأطفال",
+        "الآن",
+        "العمل",
+        "إلى",
+        "أذهب"
+       ],
+       "answer": [
+        "أذهب",
+        "إلى",
+        "العمل"
+       ],
+       "accepted": [],
+       "words": [
+        "العمل"
+       ],
+       "tilesRoman": [
+        "al-qahwa",
+        "al-atfal",
+        "al-an",
+        "al-'amal",
+        "ila",
+        "adhhabu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أنا في البيت.",
+       "roman": "ana fi al-bayt.",
+       "translation": "I am at home.",
+       "words": [
+        "البيت"
+       ],
+       "options": [
+        "أشرب القهوة في الصباح.",
+        "أذهب إلى العمل.",
+        "أنا في البيت.",
+        "الأطفال يذهبون إلى المدرسة."
+       ],
+       "optionsRoman": [
+        "ashrabu al-qahwa fi as-sabah.",
+        "adhhabu ila al-'amal.",
+        "ana fi al-bayt.",
+        "al-atfal yadhhabuna ila al-madrasa."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "اليوم الاثنين.",
+       "promptLang": "target",
+       "tiles": [
+        "school",
+        "Today",
+        "morning",
+        "is",
+        "the",
+        "Monday"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "اليوم"
+       ],
+       "promptRoman": "al-yawm al-ithnayn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أذهب إلى العمل.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "العمل"
+       ],
+       "promptRoman": "adhhabu ila al-'amal."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "الليل",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "House",
+        "Night",
+        "Tomorrow"
+       ],
+       "answer": "Night",
+       "words": [
+        "الليل"
+       ],
+       "promptRoman": "al-layl"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "البيت",
+       "words": [
+        "البيت"
+       ],
+       "options": [
+        "المدرسة",
+        "الصباح",
+        "البيت",
+        "الليل"
+       ],
+       "optionsRoman": [
+        "al-madrasa",
+        "as-sabah",
+        "al-bayt",
+        "al-layl"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "العمل",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "Work",
+        "Now",
+        "Tomorrow"
+       ],
+       "answer": "Work",
+       "words": [
+        "العمل"
+       ],
+       "promptRoman": "al-'amal"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "المدرسة",
+       "words": [
+        "المدرسة"
+       ],
+       "options": [
+        "البيت",
+        "غدا",
+        "المدرسة",
+        "الآن"
+       ],
+       "optionsRoman": [
+        "al-bayt",
+        "ghadan",
+        "al-madrasa",
+        "al-an"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "الليل",
+         "Night"
+        ],
+        [
+         "البيت",
+         "House"
+        ],
+        [
+         "العمل",
+         "Work"
+        ],
+        [
+         "المدرسة",
+         "School"
+        ]
+       ],
+       "words": [
+        "الليل",
+        "البيت",
+        "العمل",
+        "المدرسة"
+       ],
+       "romans": [
+        "al-layl",
+        "al-bayt",
+        "al-'amal",
+        "al-madrasa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "القهوة",
+        "الصباح",
+        "أذهب",
+        "العمل",
+        "أنا",
+        "في",
+        "أشرب"
+       ],
+       "answer": [
+        "أشرب",
+        "القهوة",
+        "في",
+        "الصباح"
+       ],
+       "accepted": [],
+       "words": [
+        "الصباح"
+       ],
+       "tilesRoman": [
+        "al-qahwa",
+        "as-sabah",
+        "adhhabu",
+        "al-'amal",
+        "ana",
+        "fi",
+        "ashrabu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أنام في الليل.",
+       "promptLang": "target",
+       "tiles": [
+        "sleep",
+        "Monday",
+        "I",
+        "night",
+        "is",
+        "What",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "الليل"
+       ],
+       "promptRoman": "anamu fi al-layl."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أشرب القهوة في الصباح.",
+       "roman": "ashrabu al-qahwa fi as-sabah.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "الصباح"
+       ],
+       "options": [
+        "أذهب إلى العمل.",
+        "الأطفال يذهبون إلى المدرسة.",
+        "أشرب القهوة في الصباح.",
+        "أنام في الليل."
+       ],
+       "optionsRoman": [
+        "adhhabu ila al-'amal.",
+        "al-atfal yadhhabuna ila al-madrasa.",
+        "ashrabu al-qahwa fi as-sabah.",
+        "anamu fi al-layl."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "الأطفال يذهبون إلى المدرسة.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "المدرسة"
+       ],
+       "promptRoman": "al-atfal yadhhabuna ila al-madrasa."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "اليوم",
+        "al-yawm"
+       ],
+       "words": [
+        "اليوم"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "كم الساعة الآن؟",
+       "promptLang": "target",
+       "options": [
+        "I go to work.",
+        "I drink coffee in the morning.",
+        "What time is it now?",
+        "The children go to school."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "الآن"
+       ],
+       "promptRoman": "kam as-sa'a al-an?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "غدا",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Today",
+        "Tomorrow",
+        "School"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "غدا"
+       ],
+       "promptRoman": "ghadan"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "المدرسة",
+         "School"
+        ],
+        [
+         "الآن",
+         "Now"
+        ],
+        [
+         "الليل",
+         "Night"
+        ],
+        [
+         "اليوم",
+         "Today"
+        ],
+        [
+         "غدا",
+         "Tomorrow"
+        ]
+       ],
+       "words": [
+        "المدرسة",
+        "الآن",
+        "الليل",
+        "اليوم",
+        "غدا"
+       ],
+       "romans": [
+        "al-madrasa",
+        "al-an",
+        "al-layl",
+        "al-yawm",
+        "ghadan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "كم",
+        "أشرب",
+        "الآن",
+        "يذهبون",
+        "الساعة",
+        "أذهب"
+       ],
+       "answer": [
+        "كم",
+        "الساعة",
+        "الآن"
+       ],
+       "accepted": [],
+       "words": [
+        "الآن"
+       ],
+       "tilesRoman": [
+        "kam",
+        "ashrabu",
+        "al-an",
+        "yadhhabuna",
+        "as-sa'a",
+        "adhhabu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أنا في البيت.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "to",
+        "I",
+        "night",
+        "in",
+        "am",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "البيت"
+       ],
+       "promptRoman": "ana fi al-bayt."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "الأطفال يذهبون إلى المدرسة.",
+       "roman": "al-atfal yadhhabuna ila al-madrasa.",
+       "translation": "The children go to school.",
+       "words": [
+        "المدرسة"
+       ],
+       "options": [
+        "أنا في البيت.",
+        "أذهب إلى العمل.",
+        "الأطفال يذهبون إلى المدرسة.",
+        "أنام في الليل."
+       ],
+       "optionsRoman": [
+        "ana fi al-bayt.",
+        "adhhabu ila al-'amal.",
+        "al-atfal yadhhabuna ila al-madrasa.",
+        "anamu fi al-layl."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "البيت",
+        "الليل",
+        "في",
+        "أشرب",
+        "المدرسة",
+        "أنام"
+       ],
+       "answer": [
+        "أنام",
+        "في",
+        "الليل"
+       ],
+       "accepted": [
+        "أنام ليلا."
+       ],
+       "words": [
+        "الليل"
+       ],
+       "tilesRoman": [
+        "al-bayt",
+        "al-layl",
+        "fi",
+        "ashrabu",
+        "al-madrasa",
+        "anamu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "اليوم الاثنين.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "اليوم"
+       ],
+       "promptRoman": "al-yawm al-ithnayn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "غدا",
+        "ghadan"
+       ],
+       "words": [
+        "غدا"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "أنام",
+        "الأطفال",
+        "المدرسة",
+        "الاثنين",
+        "إلى",
+        "أنا",
+        "يذهبون"
+       ],
+       "answer": [
+        "الأطفال",
+        "يذهبون",
+        "إلى",
+        "المدرسة"
+       ],
+       "accepted": [],
+       "words": [
+        "المدرسة"
+       ],
+       "tilesRoman": [
+        "anamu",
+        "al-atfal",
+        "al-madrasa",
+        "al-ithnayn",
+        "ila",
+        "ana",
+        "yadhhabuna"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "أذهب إلى العمل.",
+       "promptLang": "target",
+       "options": [
+        "I sleep at night.",
+        "I drink coffee in the morning.",
+        "I go to work.",
+        "Today is Monday."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "العمل"
+       ],
+       "promptRoman": "adhhabu ila al-'amal."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "العمل",
+         "Work"
+        ],
+        [
+         "المدرسة",
+         "School"
+        ],
+        [
+         "الليل",
+         "Night"
+        ],
+        [
+         "اليوم",
+         "Today"
+        ]
+       ],
+       "words": [
+        "العمل",
+        "المدرسة",
+        "الليل",
+        "اليوم"
+       ],
+       "romans": [
+        "al-'amal",
+        "al-madrasa",
+        "al-layl",
+        "al-yawm"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answer": "غدا",
+       "words": [
+        "غدا"
+       ],
+       "options": [
+        "اليوم",
+        "المدرسة",
+        "العمل",
+        "غدا"
+       ],
+       "optionsRoman": [
+        "al-yawm",
+        "al-madrasa",
+        "al-'amal",
+        "ghadan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "الصباح",
+        "اليوم",
+        "الآن",
+        "الاثنين",
+        "يذهبون"
+       ],
+       "answer": [
+        "اليوم",
+        "الاثنين"
+       ],
+       "accepted": [
+        "اليوم هو الاثنين."
+       ],
+       "words": [
+        "اليوم"
+       ],
+       "tilesRoman": [
+        "as-sabah",
+        "al-yawm",
+        "al-an",
+        "al-ithnayn",
+        "yadhhabuna"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "كم الساعة الآن؟",
+       "roman": "kam as-sa'a al-an?",
+       "translation": "What time is it now?",
+       "words": [
+        "الآن"
+       ],
+       "options": [
+        "اليوم الاثنين.",
+        "كم الساعة الآن؟",
+        "أنام في الليل.",
+        "أنا في البيت."
+       ],
+       "optionsRoman": [
+        "al-yawm al-ithnayn.",
+        "kam as-sa'a al-an?",
+        "anamu fi al-layl.",
+        "ana fi al-bayt."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أشرب القهوة في الصباح.",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "time",
+        "to",
+        "in",
+        "Today",
+        "drink",
+        "I",
+        "morning",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "الصباح"
+       ],
+       "promptRoman": "ashrabu al-qahwa fi as-sabah."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Morning",
+       "promptLang": "en",
+       "answers": [
+        "الصباح",
+        "صباح",
+        "as-sabah"
+       ],
+       "words": [
+        "الصباح"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أنا في البيت.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "البيت"
+       ],
+       "promptRoman": "ana fi al-bayt."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أنام في الليل.",
+       "roman": "anamu fi al-layl.",
+       "translation": "I sleep at night.",
+       "words": [
+        "الليل"
+       ],
+       "options": [
+        "اليوم الاثنين.",
+        "أنا في البيت.",
+        "أنام في الليل.",
+        "كم الساعة الآن؟"
+       ],
+       "optionsRoman": [
+        "al-yawm al-ithnayn.",
+        "ana fi al-bayt.",
+        "anamu fi al-layl.",
+        "kam as-sa'a al-an?"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
