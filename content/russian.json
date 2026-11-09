@@ -1,0 +1,5570 @@
+{
+ "id": "russian",
+ "title": "Russian",
+ "shortName": "Russian",
+ "nativeName": "Русский",
+ "fromLanguage": "en",
+ "speechLang": "ru-RU",
+ "dir": "ltr",
+ "romanization": "transliteration",
+ "noSpaces": false,
+ "keyboard": [],
+ "order": 80,
+ "description": "Everyday Russian in Cyrillic with transliteration: greetings, family, food, numbers, travel and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "'Привет' (privet) is informal; 'здравствуйте' (zdravstvuyte) is the polite hello.",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "привет",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Yes",
+        "Please",
+        "Hello"
+       ],
+       "answer": "Hello",
+       "words": [
+        "привет"
+       ],
+       "promptRoman": "privet"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "до свидания",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Thank you",
+        "Goodbye",
+        "Please"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "до свидания"
+       ],
+       "promptRoman": "do svidaniya"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "спасибо",
+       "words": [
+        "спасибо"
+       ],
+       "options": [
+        "спасибо",
+        "извините",
+        "доброе утро",
+        "нет"
+       ],
+       "optionsRoman": [
+        "spasibo",
+        "izvinite",
+        "dobroye utro",
+        "net"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "пожалуйста",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Yes",
+        "Hello",
+        "Goodbye"
+       ],
+       "answer": "Please",
+       "words": [
+        "пожалуйста"
+       ],
+       "promptRoman": "pozhaluysta"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "привет",
+         "Hello"
+        ],
+        [
+         "до свидания",
+         "Goodbye"
+        ],
+        [
+         "спасибо",
+         "Thank you"
+        ],
+        [
+         "пожалуйста",
+         "Please"
+        ]
+       ],
+       "words": [
+        "привет",
+        "до свидания",
+        "спасибо",
+        "пожалуйста"
+       ],
+       "romans": [
+        "privet",
+        "do svidaniya",
+        "spasibo",
+        "pozhaluysta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "До",
+        "тебя",
+        "Как",
+        "завтра",
+        "дела"
+       ],
+       "answer": [
+        "Как",
+        "дела"
+       ],
+       "accepted": [
+        "Как ты?",
+        "Как у вас дела?"
+       ],
+       "words": [
+        "Как дела?"
+       ],
+       "tilesRoman": [
+        "Do",
+        "tebya",
+        "Kak",
+        "zavtra",
+        "dela"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Хорошо, спасибо.",
+       "roman": "Khorosho, spasibo.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "спасибо"
+       ],
+       "options": [
+        "Как дела?",
+        "Очень приятно.",
+        "Хорошо, спасибо.",
+        "До завтра."
+       ],
+       "optionsRoman": [
+        "Kak dela?",
+        "Ochen' priyatno.",
+        "Khorosho, spasibo.",
+        "Do zavtra."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Меня зовут Анна.",
+       "promptLang": "target",
+       "tiles": [
+        "My",
+        "name",
+        "I",
+        "thank",
+        "your",
+        "is",
+        "Anna"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Меня зовут Анна."
+       ],
+       "promptRoman": "Menya zovut Anna."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Как дела?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "Как дела?"
+       ],
+       "promptRoman": "Kak dela?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "да",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Sorry",
+        "Yes",
+        "No"
+       ],
+       "answer": "Yes",
+       "words": [
+        "да"
+       ],
+       "promptRoman": "da"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "нет",
+       "words": [
+        "нет"
+       ],
+       "options": [
+        "доброе утро",
+        "привет",
+        "нет",
+        "извините"
+       ],
+       "optionsRoman": [
+        "dobroye utro",
+        "privet",
+        "net",
+        "izvinite"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "доброе утро",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Yes",
+        "Thank you",
+        "Good morning"
+       ],
+       "answer": "Good morning",
+       "words": [
+        "доброе утро"
+       ],
+       "promptRoman": "dobroye utro"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "извините",
+       "words": [
+        "извините"
+       ],
+       "options": [
+        "да",
+        "извините",
+        "нет",
+        "доброе утро"
+       ],
+       "optionsRoman": [
+        "da",
+        "izvinite",
+        "net",
+        "dobroye utro"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "да",
+         "Yes"
+        ],
+        [
+         "нет",
+         "No"
+        ],
+        [
+         "доброе утро",
+         "Good morning"
+        ],
+        [
+         "извините",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "да",
+        "нет",
+        "доброе утро",
+        "извините"
+       ],
+       "romans": [
+        "da",
+        "net",
+        "dobroye utro",
+        "izvinite"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "До",
+        "Большое",
+        "зовут",
+        "Очень",
+        "приятно"
+       ],
+       "answer": [
+        "Очень",
+        "приятно"
+       ],
+       "accepted": [
+        "Приятно познакомиться."
+       ],
+       "words": [
+        "Очень приятно."
+       ],
+       "tilesRoman": [
+        "Do",
+        "Bol'shoye",
+        "zovut",
+        "Ochen'",
+        "priyatno"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Большое спасибо.",
+       "promptLang": "target",
+       "tiles": [
+        "much",
+        "Nice",
+        "you",
+        "Thank",
+        "See",
+        "to",
+        "very"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "спасибо"
+       ],
+       "promptRoman": "Bol'shoye spasibo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Очень приятно.",
+       "roman": "Ochen' priyatno.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "Очень приятно."
+       ],
+       "options": [
+        "Меня зовут Анна.",
+        "Как тебя зовут?",
+        "Очень приятно.",
+        "Большое спасибо."
+       ],
+       "optionsRoman": [
+        "Menya zovut Anna.",
+        "Kak tebya zovut?",
+        "Ochen' priyatno.",
+        "Bol'shoye spasibo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "До завтра.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "завтра"
+       ],
+       "promptRoman": "Do zavtra."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "привет",
+        "здравствуйте",
+        "privet"
+       ],
+       "words": [
+        "привет"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Как тебя зовут?",
+       "promptLang": "target",
+       "options": [
+        "My name is Anna.",
+        "Nice to meet you.",
+        "What is your name?",
+        "I am fine, thank you."
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "Как тебя зовут?"
+       ],
+       "promptRoman": "Kak tebya zovut?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "до свидания",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Thank you",
+        "Yes",
+        "Please"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "до свидания"
+       ],
+       "promptRoman": "do svidaniya"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "до свидания",
+         "Goodbye"
+        ],
+        [
+         "нет",
+         "No"
+        ],
+        [
+         "да",
+         "Yes"
+        ],
+        [
+         "пожалуйста",
+         "Please"
+        ],
+        [
+         "доброе утро",
+         "Good morning"
+        ]
+       ],
+       "words": [
+        "до свидания",
+        "нет",
+        "да",
+        "пожалуйста",
+        "доброе утро"
+       ],
+       "romans": [
+        "do svidaniya",
+        "net",
+        "da",
+        "pozhaluysta",
+        "dobroye utro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "До",
+        "тебя",
+        "спасибо",
+        "зовут",
+        "Меня",
+        "Как"
+       ],
+       "answer": [
+        "Как",
+        "тебя",
+        "зовут"
+       ],
+       "accepted": [
+        "Как вас зовут?"
+       ],
+       "words": [
+        "Как тебя зовут?"
+       ],
+       "tilesRoman": [
+        "Do",
+        "tebya",
+        "spasibo",
+        "zovut",
+        "Menya",
+        "Kak"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Хорошо, спасибо.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "am",
+        "tomorrow",
+        "Anna",
+        "to",
+        "fine",
+        "you",
+        "thank"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "спасибо"
+       ],
+       "promptRoman": "Khorosho, spasibo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "До завтра.",
+       "roman": "Do zavtra.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "завтра"
+       ],
+       "options": [
+        "Большое спасибо.",
+        "Очень приятно.",
+        "Хорошо, спасибо.",
+        "До завтра."
+       ],
+       "optionsRoman": [
+        "Bol'shoye spasibo.",
+        "Ochen' priyatno.",
+        "Khorosho, spasibo.",
+        "Do zavtra."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "Большое",
+        "спасибо",
+        "завтра",
+        "тебя",
+        "Анна"
+       ],
+       "answer": [
+        "Большое",
+        "спасибо"
+       ],
+       "accepted": [
+        "Спасибо большое."
+       ],
+       "words": [
+        "спасибо"
+       ],
+       "tilesRoman": [
+        "Bol'shoye",
+        "spasibo",
+        "zavtra",
+        "tebya",
+        "Anna"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Меня зовут Анна.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Меня зовут Анна."
+       ],
+       "promptRoman": "Menya zovut Anna."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "до свидания",
+        "пока",
+        "do svidaniya"
+       ],
+       "words": [
+        "до свидания"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "приятно",
+        "До",
+        "спасибо",
+        "завтра",
+        "дела"
+       ],
+       "answer": [
+        "До",
+        "завтра"
+       ],
+       "accepted": [],
+       "words": [
+        "завтра"
+       ],
+       "tilesRoman": [
+        "priyatno",
+        "Do",
+        "spasibo",
+        "zavtra",
+        "dela"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Как дела?",
+       "promptLang": "target",
+       "options": [
+        "What is your name?",
+        "My name is Anna.",
+        "How are you?",
+        "I am fine, thank you."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "Как дела?"
+       ],
+       "promptRoman": "Kak dela?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "пожалуйста",
+         "Please"
+        ],
+        [
+         "спасибо",
+         "Thank you"
+        ],
+        [
+         "до свидания",
+         "Goodbye"
+        ],
+        [
+         "привет",
+         "Hello"
+        ]
+       ],
+       "words": [
+        "пожалуйста",
+        "спасибо",
+        "до свидания",
+        "привет"
+       ],
+       "romans": [
+        "pozhaluysta",
+        "spasibo",
+        "do svidaniya",
+        "privet"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "извините",
+       "words": [
+        "извините"
+       ],
+       "options": [
+        "нет",
+        "до свидания",
+        "привет",
+        "извините"
+       ],
+       "optionsRoman": [
+        "net",
+        "do svidaniya",
+        "privet",
+        "izvinite"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "тебя",
+        "До",
+        "Анна",
+        "дела",
+        "Меня",
+        "зовут"
+       ],
+       "answer": [
+        "Меня",
+        "зовут",
+        "Анна"
+       ],
+       "accepted": [],
+       "words": [
+        "Меня зовут Анна."
+       ],
+       "tilesRoman": [
+        "tebya",
+        "Do",
+        "Anna",
+        "dela",
+        "Menya",
+        "zovut"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Как тебя зовут?",
+       "roman": "Kak tebya zovut?",
+       "translation": "What is your name?",
+       "words": [
+        "Как тебя зовут?"
+       ],
+       "options": [
+        "Хорошо, спасибо.",
+        "Как дела?",
+        "Меня зовут Анна.",
+        "Как тебя зовут?"
+       ],
+       "optionsRoman": [
+        "Khorosho, spasibo.",
+        "Kak dela?",
+        "Menya zovut Anna.",
+        "Kak tebya zovut?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Очень приятно.",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "Nice",
+        "you",
+        "See",
+        "My",
+        "meet",
+        "to"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "Очень приятно."
+       ],
+       "promptRoman": "Ochen' priyatno."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answers": [
+        "доброе утро",
+        "dobroye utro",
+        "dobroe utro"
+       ],
+       "words": [
+        "доброе утро"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Хорошо, спасибо.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "спасибо"
+       ],
+       "promptRoman": "Khorosho, spasibo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Большое спасибо.",
+       "roman": "Bol'shoye spasibo.",
+       "translation": "Thank you very much.",
+       "words": [
+        "спасибо"
+       ],
+       "options": [
+        "Как тебя зовут?",
+        "Очень приятно.",
+        "Большое спасибо.",
+        "Как дела?"
+       ],
+       "optionsRoman": [
+        "Kak tebya zovut?",
+        "Ochen' priyatno.",
+        "Bol'shoye spasibo.",
+        "Kak dela?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tip": "Russian has no 'a' or 'the', and 'is' is usually left out: 'Он мой друг' = He (is) my friend.",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "мужчина",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Man",
+        "Mother",
+        "Friend"
+       ],
+       "answer": "Man",
+       "words": [
+        "мужчина"
+       ],
+       "promptRoman": "muzhchina"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "женщина",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Child",
+        "Friend",
+        "Daughter"
+       ],
+       "answer": "Woman",
+       "words": [
+        "женщина"
+       ],
+       "promptRoman": "zhenshchina"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "ребёнок",
+       "words": [
+        "ребёнок"
+       ],
+       "options": [
+        "женщина",
+        "ребёнок",
+        "дочь",
+        "мужчина"
+       ],
+       "optionsRoman": [
+        "zhenshchina",
+        "rebyonok",
+        "doch'",
+        "muzhchina"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "друг",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Father",
+        "Woman",
+        "Daughter"
+       ],
+       "answer": "Friend",
+       "words": [
+        "друг"
+       ],
+       "promptRoman": "drug"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "мужчина",
+         "Man"
+        ],
+        [
+         "женщина",
+         "Woman"
+        ],
+        [
+         "ребёнок",
+         "Child"
+        ],
+        [
+         "друг",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "мужчина",
+        "женщина",
+        "ребёнок",
+        "друг"
+       ],
+       "romans": [
+        "muzhchina",
+        "zhenshchina",
+        "rebyonok",
+        "drug"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "мама",
+        "Это",
+        "Где",
+        "дочь",
+        "меня",
+        "моя"
+       ],
+       "answer": [
+        "Это",
+        "моя",
+        "мама"
+       ],
+       "accepted": [],
+       "words": [
+        "мама"
+       ],
+       "tilesRoman": [
+        "mama",
+        "Eto",
+        "Gde",
+        "doch'",
+        "menya",
+        "moya"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Он мой друг.",
+       "roman": "On moy drug.",
+       "translation": "He is my friend.",
+       "words": [
+        "друг"
+       ],
+       "options": [
+        "Он мой друг.",
+        "Кто этот мужчина?",
+        "Она моя дочь.",
+        "Моя мама дома."
+       ],
+       "optionsRoman": [
+        "On moy drug.",
+        "Kto etot muzhchina?",
+        "Ona moya doch'.",
+        "Moya mama doma."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "У меня есть сын.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "He",
+        "I",
+        "a",
+        "son",
+        "have",
+        "man"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "сын"
+       ],
+       "promptRoman": "U menya yest' syn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Это моя мама.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "мама"
+       ],
+       "promptRoman": "Eto moya mama."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "мама",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Friend",
+        "Man",
+        "Daughter"
+       ],
+       "answer": "Mother",
+       "words": [
+        "мама"
+       ],
+       "promptRoman": "mama"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answer": "папа",
+       "words": [
+        "папа"
+       ],
+       "options": [
+        "мужчина",
+        "женщина",
+        "папа",
+        "мама"
+       ],
+       "optionsRoman": [
+        "muzhchina",
+        "zhenshchina",
+        "papa",
+        "mama"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "сын",
+       "promptLang": "target",
+       "options": [
+        "Father",
+        "Daughter",
+        "Son",
+        "Child"
+       ],
+       "answer": "Son",
+       "words": [
+        "сын"
+       ],
+       "promptRoman": "syn"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "дочь",
+       "words": [
+        "дочь"
+       ],
+       "options": [
+        "дочь",
+        "папа",
+        "мама",
+        "мужчина"
+       ],
+       "optionsRoman": [
+        "doch'",
+        "papa",
+        "mama",
+        "muzhchina"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "мама",
+         "Mother"
+        ],
+        [
+         "папа",
+         "Father"
+        ],
+        [
+         "сын",
+         "Son"
+        ],
+        [
+         "дочь",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "мама",
+        "папа",
+        "сын",
+        "дочь"
+       ],
+       "romans": [
+        "mama",
+        "papa",
+        "syn",
+        "doch'"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "моя",
+        "папа",
+        "Где",
+        "дома",
+        "мой",
+        "есть"
+       ],
+       "answer": [
+        "Где",
+        "мой",
+        "папа"
+       ],
+       "accepted": [
+        "Где мой отец?"
+       ],
+       "words": [
+        "папа",
+        "где"
+       ],
+       "tilesRoman": [
+        "moya",
+        "papa",
+        "Gde",
+        "doma",
+        "moy",
+        "yest'"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Моя мама дома.",
+       "promptLang": "target",
+       "tiles": [
+        "My",
+        "daughter",
+        "is",
+        "at",
+        "father",
+        "She",
+        "mother",
+        "home"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "мама"
+       ],
+       "promptRoman": "Moya mama doma."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Где мой папа?",
+       "roman": "Gde moy papa?",
+       "translation": "Where is my father?",
+       "words": [
+        "папа",
+        "где"
+       ],
+       "options": [
+        "Кто этот мужчина?",
+        "Где мой папа?",
+        "Это моя мама.",
+        "Он мой друг."
+       ],
+       "optionsRoman": [
+        "Kto etot muzhchina?",
+        "Gde moy papa?",
+        "Eto moya mama.",
+        "On moy drug."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Она моя дочь.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "дочь"
+       ],
+       "promptRoman": "Ona moya doch'."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "мужчина",
+        "muzhchina"
+       ],
+       "words": [
+        "мужчина"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Кто этот мужчина?",
+       "promptLang": "target",
+       "options": [
+        "Who is this man?",
+        "He is my friend.",
+        "This is my mother.",
+        "I have a son."
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "мужчина"
+       ],
+       "promptRoman": "Kto etot muzhchina?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "женщина",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Woman",
+        "Mother",
+        "Father"
+       ],
+       "answer": "Woman",
+       "words": [
+        "женщина"
+       ],
+       "promptRoman": "zhenshchina"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "мама",
+         "Mother"
+        ],
+        [
+         "папа",
+         "Father"
+        ],
+        [
+         "женщина",
+         "Woman"
+        ],
+        [
+         "ребёнок",
+         "Child"
+        ],
+        [
+         "друг",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "мама",
+        "папа",
+        "женщина",
+        "ребёнок",
+        "друг"
+       ],
+       "romans": [
+        "mama",
+        "papa",
+        "zhenshchina",
+        "rebyonok",
+        "drug"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "этот",
+        "папа",
+        "мужчина",
+        "меня",
+        "Это",
+        "Кто"
+       ],
+       "answer": [
+        "Кто",
+        "этот",
+        "мужчина"
+       ],
+       "accepted": [],
+       "words": [
+        "мужчина"
+       ],
+       "tilesRoman": [
+        "etot",
+        "papa",
+        "muzhchina",
+        "menya",
+        "Eto",
+        "Kto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Он мой друг.",
+       "promptLang": "target",
+       "tiles": [
+        "mother",
+        "friend",
+        "is",
+        "He",
+        "at",
+        "home",
+        "my"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "друг"
+       ],
+       "promptRoman": "On moy drug."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Она моя дочь.",
+       "roman": "Ona moya doch'.",
+       "translation": "She is my daughter.",
+       "words": [
+        "дочь"
+       ],
+       "options": [
+        "Где мой папа?",
+        "Это моя мама.",
+        "Моя мама дома.",
+        "Она моя дочь."
+       ],
+       "optionsRoman": [
+        "Gde moy papa?",
+        "Eto moya mama.",
+        "Moya mama doma.",
+        "Ona moya doch'."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "этот",
+        "дома",
+        "Он",
+        "Моя",
+        "папа",
+        "мама"
+       ],
+       "answer": [
+        "Моя",
+        "мама",
+        "дома"
+       ],
+       "accepted": [
+        "Мама дома."
+       ],
+       "words": [
+        "мама"
+       ],
+       "tilesRoman": [
+        "etot",
+        "doma",
+        "On",
+        "Moya",
+        "papa",
+        "mama"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "У меня есть сын.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "сын"
+       ],
+       "promptRoman": "U menya yest' syn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "женщина",
+        "zhenshchina"
+       ],
+       "words": [
+        "женщина"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "есть",
+        "моя",
+        "Кто",
+        "мужчина",
+        "дочь",
+        "Она"
+       ],
+       "answer": [
+        "Она",
+        "моя",
+        "дочь"
+       ],
+       "accepted": [
+        "Это моя дочь."
+       ],
+       "words": [
+        "дочь"
+       ],
+       "tilesRoman": [
+        "yest'",
+        "moya",
+        "Kto",
+        "muzhchina",
+        "doch'",
+        "Ona"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Это моя мама.",
+       "promptLang": "target",
+       "options": [
+        "Where is my father?",
+        "She is my daughter.",
+        "This is my mother.",
+        "Who is this man?"
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "мама"
+       ],
+       "promptRoman": "Eto moya mama."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "дочь",
+         "Daughter"
+        ],
+        [
+         "женщина",
+         "Woman"
+        ],
+        [
+         "папа",
+         "Father"
+        ],
+        [
+         "мужчина",
+         "Man"
+        ]
+       ],
+       "words": [
+        "дочь",
+        "женщина",
+        "папа",
+        "мужчина"
+       ],
+       "romans": [
+        "doch'",
+        "zhenshchina",
+        "papa",
+        "muzhchina"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Friend",
+       "promptLang": "en",
+       "answer": "друг",
+       "words": [
+        "друг"
+       ],
+       "options": [
+        "друг",
+        "мужчина",
+        "сын",
+        "женщина"
+       ],
+       "optionsRoman": [
+        "drug",
+        "muzhchina",
+        "syn",
+        "zhenshchina"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "мужчина",
+        "дочь",
+        "меня",
+        "есть",
+        "сын",
+        "моя",
+        "У"
+       ],
+       "answer": [
+        "У",
+        "меня",
+        "есть",
+        "сын"
+       ],
+       "accepted": [
+        "У меня сын."
+       ],
+       "words": [
+        "сын"
+       ],
+       "tilesRoman": [
+        "muzhchina",
+        "doch'",
+        "menya",
+        "yest'",
+        "syn",
+        "moya",
+        "U"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Кто этот мужчина?",
+       "roman": "Kto etot muzhchina?",
+       "translation": "Who is this man?",
+       "words": [
+        "мужчина"
+       ],
+       "options": [
+        "Кто этот мужчина?",
+        "Он мой друг.",
+        "Моя мама дома.",
+        "Она моя дочь."
+       ],
+       "optionsRoman": [
+        "Kto etot muzhchina?",
+        "On moy drug.",
+        "Moya mama doma.",
+        "Ona moya doch'."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Где мой папа?",
+       "promptLang": "target",
+       "tiles": [
+        "father",
+        "is",
+        "Where",
+        "friend",
+        "man",
+        "my",
+        "at"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "папа",
+        "где"
+       ],
+       "promptRoman": "Gde moy papa?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Mother",
+       "promptLang": "en",
+       "answers": [
+        "мама",
+        "мать",
+        "mama"
+       ],
+       "words": [
+        "мама"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Он мой друг.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "друг"
+       ],
+       "promptRoman": "On moy drug."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Моя мама дома.",
+       "roman": "Moya mama doma.",
+       "translation": "My mother is at home.",
+       "words": [
+        "мама"
+       ],
+       "options": [
+        "Моя мама дома.",
+        "Где мой папа?",
+        "У меня есть сын.",
+        "Он мой друг."
+       ],
+       "optionsRoman": [
+        "Moya mama doma.",
+        "Gde moy papa?",
+        "U menya yest' syn.",
+        "On moy drug."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tip": "'Я хочу есть' (ya khochu yest', I want to eat) is the usual way to say you are hungry.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "вода",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Bread",
+        "Water",
+        "Tea"
+       ],
+       "answer": "Water",
+       "words": [
+        "вода"
+       ],
+       "promptRoman": "voda"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "хлеб",
+       "promptLang": "target",
+       "options": [
+        "Egg",
+        "Milk",
+        "Apple",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "хлеб"
+       ],
+       "promptRoman": "khleb"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "кофе",
+       "words": [
+        "кофе"
+       ],
+       "options": [
+        "яблоко",
+        "вода",
+        "хлеб",
+        "кофе"
+       ],
+       "optionsRoman": [
+        "yabloko",
+        "voda",
+        "khleb",
+        "kofe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "чай",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Milk",
+        "Egg",
+        "Bread"
+       ],
+       "answer": "Tea",
+       "words": [
+        "чай"
+       ],
+       "promptRoman": "chay"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "вода",
+         "Water"
+        ],
+        [
+         "хлеб",
+         "Bread"
+        ],
+        [
+         "кофе",
+         "Coffee"
+        ],
+        [
+         "чай",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "вода",
+        "хлеб",
+        "кофе",
+        "чай"
+       ],
+       "romans": [
+        "voda",
+        "khleb",
+        "kofe",
+        "chay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "хлеб",
+        "молоко",
+        "пью",
+        "пожалуйста",
+        "Воды"
+       ],
+       "answer": [
+        "Воды",
+        "пожалуйста"
+       ],
+       "accepted": [
+        "Воду, пожалуйста."
+       ],
+       "words": [
+        "пожалуйста"
+       ],
+       "tilesRoman": [
+        "khleb",
+        "moloko",
+        "p'yu",
+        "pozhaluysta",
+        "Vody"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я пью кофе.",
+       "roman": "Ya p'yu kofe.",
+       "translation": "I drink coffee.",
+       "words": [
+        "кофе"
+       ],
+       "options": [
+        "Я пью кофе.",
+        "Я люблю яблоки.",
+        "Чай горячий.",
+        "Воды, пожалуйста."
+       ],
+       "optionsRoman": [
+        "Ya p'yu kofe.",
+        "Ya lyublyu yabloki.",
+        "Chay goryachiy.",
+        "Vody, pozhaluysta."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Я ем хлеб.",
+       "promptLang": "target",
+       "tiles": [
+        "eat",
+        "tea",
+        "hungry",
+        "am",
+        "I",
+        "bread"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "хлеб"
+       ],
+       "promptRoman": "Ya yem khleb."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Воды, пожалуйста.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "пожалуйста"
+       ],
+       "promptRoman": "Vody, pozhaluysta."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "молоко",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Milk",
+        "Apple",
+        "Bread"
+       ],
+       "answer": "Milk",
+       "words": [
+        "молоко"
+       ],
+       "promptRoman": "moloko"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "яблоко",
+       "words": [
+        "яблоко"
+       ],
+       "options": [
+        "вода",
+        "яблоко",
+        "чай",
+        "хлеб"
+       ],
+       "optionsRoman": [
+        "voda",
+        "yabloko",
+        "chay",
+        "khleb"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "рис",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Milk",
+        "Coffee",
+        "Rice"
+       ],
+       "answer": "Rice",
+       "words": [
+        "рис"
+       ],
+       "promptRoman": "ris"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "яйцо",
+       "words": [
+        "яйцо"
+       ],
+       "options": [
+        "чай",
+        "хлеб",
+        "яйцо",
+        "яблоко"
+       ],
+       "optionsRoman": [
+        "chay",
+        "khleb",
+        "yaytso",
+        "yabloko"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "молоко",
+         "Milk"
+        ],
+        [
+         "яблоко",
+         "Apple"
+        ],
+        [
+         "рис",
+         "Rice"
+        ],
+        [
+         "яйцо",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "молоко",
+        "яблоко",
+        "рис",
+        "яйцо"
+       ],
+       "romans": [
+        "moloko",
+        "yabloko",
+        "ris",
+        "yaytso"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "люблю",
+        "Воды",
+        "горячий",
+        "хочу",
+        "Чай"
+       ],
+       "answer": [
+        "Чай",
+        "горячий"
+       ],
+       "accepted": [],
+       "words": [
+        "чай"
+       ],
+       "tilesRoman": [
+        "lyublyu",
+        "Vody",
+        "goryachiy",
+        "khochu",
+        "Chay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Я не пью молоко.",
+       "promptLang": "target",
+       "tiles": [
+        "drink",
+        "not",
+        "The",
+        "do",
+        "milk",
+        "I",
+        "tea",
+        "please"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "молоко"
+       ],
+       "promptRoman": "Ya ne p'yu moloko."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Чай горячий.",
+       "roman": "Chay goryachiy.",
+       "translation": "The tea is hot.",
+       "words": [
+        "чай"
+       ],
+       "options": [
+        "Я хочу есть.",
+        "Я пью кофе.",
+        "Я не пью молоко.",
+        "Чай горячий."
+       ],
+       "optionsRoman": [
+        "Ya khochu yest'.",
+        "Ya p'yu kofe.",
+        "Ya ne p'yu moloko.",
+        "Chay goryachiy."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я люблю яблоки.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "Я люблю яблоки."
+       ],
+       "promptRoman": "Ya lyublyu yabloki."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "вода",
+        "voda"
+       ],
+       "words": [
+        "вода"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Я хочу есть.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "I eat bread.",
+        "Water, please.",
+        "I like apples."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Я хочу есть."
+       ],
+       "promptRoman": "Ya khochu yest'."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "хлеб",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Bread",
+        "Egg",
+        "Tea"
+       ],
+       "answer": "Bread",
+       "words": [
+        "хлеб"
+       ],
+       "promptRoman": "khleb"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "яблоко",
+         "Apple"
+        ],
+        [
+         "молоко",
+         "Milk"
+        ],
+        [
+         "яйцо",
+         "Egg"
+        ],
+        [
+         "вода",
+         "Water"
+        ],
+        [
+         "чай",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "яблоко",
+        "молоко",
+        "яйцо",
+        "вода",
+        "чай"
+       ],
+       "romans": [
+        "yabloko",
+        "moloko",
+        "yaytso",
+        "voda",
+        "chay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "кофе",
+        "хочу",
+        "Воды",
+        "горячий",
+        "есть",
+        "Я"
+       ],
+       "answer": [
+        "Я",
+        "хочу",
+        "есть"
+       ],
+       "accepted": [
+        "Я голоден.",
+        "Я голодна."
+       ],
+       "words": [
+        "Я хочу есть."
+       ],
+       "tilesRoman": [
+        "kofe",
+        "khochu",
+        "Vody",
+        "goryachiy",
+        "yest'",
+        "Ya"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Я пью кофе.",
+       "promptLang": "target",
+       "tiles": [
+        "tea",
+        "is",
+        "I",
+        "drink",
+        "please",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "кофе"
+       ],
+       "promptRoman": "Ya p'yu kofe."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я люблю яблоки.",
+       "roman": "Ya lyublyu yabloki.",
+       "translation": "I like apples.",
+       "words": [
+        "Я люблю яблоки."
+       ],
+       "options": [
+        "Я люблю яблоки.",
+        "Я не пью молоко.",
+        "Воды, пожалуйста.",
+        "Я пью кофе."
+       ],
+       "optionsRoman": [
+        "Ya lyublyu yabloki.",
+        "Ya ne p'yu moloko.",
+        "Vody, pozhaluysta.",
+        "Ya p'yu kofe."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "хлеб",
+        "пью",
+        "молоко",
+        "Я",
+        "не",
+        "яблоки",
+        "горячий"
+       ],
+       "answer": [
+        "Я",
+        "не",
+        "пью",
+        "молоко"
+       ],
+       "accepted": [
+        "Я не пью молока."
+       ],
+       "words": [
+        "молоко"
+       ],
+       "tilesRoman": [
+        "khleb",
+        "p'yu",
+        "moloko",
+        "Ya",
+        "ne",
+        "yabloki",
+        "goryachiy"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я ем хлеб.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "хлеб"
+       ],
+       "promptRoman": "Ya yem khleb."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "хлеб",
+        "khleb",
+        "hleb"
+       ],
+       "words": [
+        "хлеб"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "ем",
+        "пью",
+        "пожалуйста",
+        "люблю",
+        "Я",
+        "яблоки"
+       ],
+       "answer": [
+        "Я",
+        "люблю",
+        "яблоки"
+       ],
+       "accepted": [],
+       "words": [
+        "Я люблю яблоки."
+       ],
+       "tilesRoman": [
+        "yem",
+        "p'yu",
+        "pozhaluysta",
+        "lyublyu",
+        "Ya",
+        "yabloki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Воды, пожалуйста.",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee.",
+        "Water, please.",
+        "I am hungry.",
+        "The tea is hot."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "пожалуйста"
+       ],
+       "promptRoman": "Vody, pozhaluysta."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "яйцо",
+         "Egg"
+        ],
+        [
+         "молоко",
+         "Milk"
+        ],
+        [
+         "чай",
+         "Tea"
+        ],
+        [
+         "хлеб",
+         "Bread"
+        ]
+       ],
+       "words": [
+        "яйцо",
+        "молоко",
+        "чай",
+        "хлеб"
+       ],
+       "romans": [
+        "yaytso",
+        "moloko",
+        "chay",
+        "khleb"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "рис",
+       "words": [
+        "рис"
+       ],
+       "options": [
+        "кофе",
+        "яйцо",
+        "рис",
+        "чай"
+       ],
+       "optionsRoman": [
+        "kofe",
+        "yaytso",
+        "ris",
+        "chay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "Я",
+        "ем",
+        "Чай",
+        "горячий",
+        "кофе",
+        "хлеб"
+       ],
+       "answer": [
+        "Я",
+        "ем",
+        "хлеб"
+       ],
+       "accepted": [],
+       "words": [
+        "хлеб"
+       ],
+       "tilesRoman": [
+        "Ya",
+        "yem",
+        "Chay",
+        "goryachiy",
+        "kofe",
+        "khleb"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я хочу есть.",
+       "roman": "Ya khochu yest'.",
+       "translation": "I am hungry.",
+       "words": [
+        "Я хочу есть."
+       ],
+       "options": [
+        "Я люблю яблоки.",
+        "Я хочу есть.",
+        "Я ем хлеб.",
+        "Я не пью молоко."
+       ],
+       "optionsRoman": [
+        "Ya lyublyu yabloki.",
+        "Ya khochu yest'.",
+        "Ya yem khleb.",
+        "Ya ne p'yu moloko."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Чай горячий.",
+       "promptLang": "target",
+       "tiles": [
+        "hot",
+        "is",
+        "tea",
+        "hungry",
+        "please",
+        "The",
+        "like"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "чай"
+       ],
+       "promptRoman": "Chay goryachiy."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answers": [
+        "яблоко",
+        "yabloko"
+       ],
+       "words": [
+        "яблоко"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я пью кофе.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "кофе"
+       ],
+       "promptRoman": "Ya p'yu kofe."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я не пью молоко.",
+       "roman": "Ya ne p'yu moloko.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "молоко"
+       ],
+       "options": [
+        "Я не пью молоко.",
+        "Я хочу есть.",
+        "Я люблю яблоки.",
+        "Я ем хлеб."
+       ],
+       "optionsRoman": [
+        "Ya ne p'yu moloko.",
+        "Ya khochu yest'.",
+        "Ya lyublyu yabloki.",
+        "Ya yem khleb."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tip": "After 2, 3 and 4 a noun takes a special form: 'четыре яблока' (chetyre yabloka, four apples).",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "один",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "Two",
+        "One",
+        "Three"
+       ],
+       "answer": "One",
+       "words": [
+        "один"
+       ],
+       "promptRoman": "odin"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "два",
+       "promptLang": "target",
+       "options": [
+        "Five",
+        "Two",
+        "Seven",
+        "Six"
+       ],
+       "answer": "Two",
+       "words": [
+        "два"
+       ],
+       "promptRoman": "dva"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "три",
+       "words": [
+        "три"
+       ],
+       "options": [
+        "девять",
+        "десять",
+        "три",
+        "восемь"
+       ],
+       "optionsRoman": [
+        "devyat'",
+        "desyat'",
+        "tri",
+        "vosem'"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "четыре",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Nine",
+        "Eight",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "четыре"
+       ],
+       "promptRoman": "chetyre"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "один",
+         "One"
+        ],
+        [
+         "два",
+         "Two"
+        ],
+        [
+         "три",
+         "Three"
+        ],
+        [
+         "четыре",
+         "Four"
+        ]
+       ],
+       "words": [
+        "один",
+        "два",
+        "три",
+        "четыре"
+       ],
+       "romans": [
+        "odin",
+        "dva",
+        "tri",
+        "chetyre"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "яблока",
+        "детей",
+        "Одну",
+        "двое",
+        "меня",
+        "пожалуйста",
+        "У"
+       ],
+       "answer": [
+        "У",
+        "меня",
+        "двое",
+        "детей"
+       ],
+       "accepted": [
+        "У меня два ребёнка."
+       ],
+       "words": [
+        "У меня двое детей."
+       ],
+       "tilesRoman": [
+        "yabloka",
+        "detey",
+        "Odnu",
+        "dvoye",
+        "menya",
+        "pozhaluysta",
+        "U"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Сколько это стоит?",
+       "roman": "Skol'ko eto stoit?",
+       "translation": "How much is it?",
+       "words": [
+        "Сколько это стоит?"
+       ],
+       "options": [
+        "Одну минуту, пожалуйста.",
+        "У меня двое детей.",
+        "У меня четыре яблока.",
+        "Сколько это стоит?"
+       ],
+       "optionsRoman": [
+        "Odnu minutu, pozhaluysta.",
+        "U menya dvoye detey.",
+        "U menya chetyre yabloka.",
+        "Skol'ko eto stoit?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "У меня четыре яблока.",
+       "promptLang": "target",
+       "tiles": [
+        "four",
+        "it",
+        "three",
+        "have",
+        "o'clock",
+        "I",
+        "apples"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "четыре"
+       ],
+       "promptRoman": "U menya chetyre yabloka."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "У меня двое детей.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "У меня двое детей."
+       ],
+       "promptRoman": "U menya dvoye detey."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "пять",
+       "promptLang": "target",
+       "options": [
+        "Ten",
+        "Seven",
+        "Three",
+        "Five"
+       ],
+       "answer": "Five",
+       "words": [
+        "пять"
+       ],
+       "promptRoman": "pyat'"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "шесть",
+       "words": [
+        "шесть"
+       ],
+       "options": [
+        "шесть",
+        "восемь",
+        "девять",
+        "три"
+       ],
+       "optionsRoman": [
+        "shest'",
+        "vosem'",
+        "devyat'",
+        "tri"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "семь",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Seven",
+        "Two",
+        "Nine"
+       ],
+       "answer": "Seven",
+       "words": [
+        "семь"
+       ],
+       "promptRoman": "sem'"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "восемь",
+       "words": [
+        "восемь"
+       ],
+       "options": [
+        "девять",
+        "шесть",
+        "восемь",
+        "семь"
+       ],
+       "optionsRoman": [
+        "devyat'",
+        "shest'",
+        "vosem'",
+        "sem'"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "пять",
+         "Five"
+        ],
+        [
+         "шесть",
+         "Six"
+        ],
+        [
+         "семь",
+         "Seven"
+        ],
+        [
+         "восемь",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "пять",
+        "шесть",
+        "семь",
+        "восемь"
+       ],
+       "romans": [
+        "pyat'",
+        "shest'",
+        "sem'",
+        "vosem'"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "кофе",
+        "это",
+        "двое",
+        "пожалуйста",
+        "Один",
+        "чая"
+       ],
+       "answer": [
+        "Один",
+        "кофе",
+        "пожалуйста"
+       ],
+       "accepted": [],
+       "words": [
+        "пожалуйста",
+        "кофе",
+        "один"
+       ],
+       "tilesRoman": [
+        "kofe",
+        "eto",
+        "dvoye",
+        "pozhaluysta",
+        "Odin",
+        "chaya"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Два чая, пожалуйста.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "I",
+        "teas",
+        "please",
+        "have",
+        "Two"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "пожалуйста",
+        "два"
+       ],
+       "promptRoman": "Dva chaya, pozhaluysta."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Один кофе, пожалуйста.",
+       "roman": "Odin kofe, pozhaluysta.",
+       "translation": "One coffee, please.",
+       "words": [
+        "пожалуйста",
+        "кофе",
+        "один"
+       ],
+       "options": [
+        "Одну минуту, пожалуйста.",
+        "У меня двое детей.",
+        "Один кофе, пожалуйста.",
+        "Два чая, пожалуйста."
+       ],
+       "optionsRoman": [
+        "Odnu minutu, pozhaluysta.",
+        "U menya dvoye detey.",
+        "Odin kofe, pozhaluysta.",
+        "Dva chaya, pozhaluysta."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Сейчас три часа.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "три",
+        "сейчас"
+       ],
+       "promptRoman": "Seychas tri chasa."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "один",
+        "одна",
+        "одно",
+        "odin"
+       ],
+       "words": [
+        "один"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Одну минуту, пожалуйста.",
+       "promptLang": "target",
+       "options": [
+        "Two teas, please.",
+        "One moment, please.",
+        "How much is it?",
+        "One coffee, please."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "пожалуйста"
+       ],
+       "promptRoman": "Odnu minutu, pozhaluysta."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "девять",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Ten",
+        "Nine",
+        "Seven"
+       ],
+       "answer": "Nine",
+       "words": [
+        "девять"
+       ],
+       "promptRoman": "devyat'"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "пять",
+         "Five"
+        ],
+        [
+         "шесть",
+         "Six"
+        ],
+        [
+         "четыре",
+         "Four"
+        ],
+        [
+         "три",
+         "Three"
+        ],
+        [
+         "один",
+         "One"
+        ]
+       ],
+       "words": [
+        "пять",
+        "шесть",
+        "четыре",
+        "три",
+        "один"
+       ],
+       "romans": [
+        "pyat'",
+        "shest'",
+        "chetyre",
+        "tri",
+        "odin"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "три",
+        "детей",
+        "яблока",
+        "пожалуйста",
+        "минуту",
+        "Одну"
+       ],
+       "answer": [
+        "Одну",
+        "минуту",
+        "пожалуйста"
+       ],
+       "accepted": [
+        "Минуточку."
+       ],
+       "words": [
+        "пожалуйста"
+       ],
+       "tilesRoman": [
+        "tri",
+        "detey",
+        "yabloka",
+        "pozhaluysta",
+        "minutu",
+        "Odnu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Сколько это стоит?",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "moment",
+        "I",
+        "is",
+        "How",
+        "much",
+        "One"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Сколько это стоит?"
+       ],
+       "promptRoman": "Skol'ko eto stoit?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Сейчас три часа.",
+       "roman": "Seychas tri chasa.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "три",
+        "сейчас"
+       ],
+       "options": [
+        "Один кофе, пожалуйста.",
+        "У меня четыре яблока.",
+        "Два чая, пожалуйста.",
+        "Сейчас три часа."
+       ],
+       "optionsRoman": [
+        "Odin kofe, pozhaluysta.",
+        "U menya chetyre yabloka.",
+        "Dva chaya, pozhaluysta.",
+        "Seychas tri chasa."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "чая",
+        "Два",
+        "двое",
+        "пожалуйста",
+        "Один",
+        "это"
+       ],
+       "answer": [
+        "Два",
+        "чая",
+        "пожалуйста"
+       ],
+       "accepted": [],
+       "words": [
+        "пожалуйста",
+        "два"
+       ],
+       "tilesRoman": [
+        "chaya",
+        "Dva",
+        "dvoye",
+        "pozhaluysta",
+        "Odin",
+        "eto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "У меня четыре яблока.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "четыре"
+       ],
+       "promptRoman": "U menya chetyre yabloka."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "десять",
+        "desyat'"
+       ],
+       "words": [
+        "десять"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "чая",
+        "три",
+        "четыре",
+        "Сейчас",
+        "кофе",
+        "часа"
+       ],
+       "answer": [
+        "Сейчас",
+        "три",
+        "часа"
+       ],
+       "accepted": [
+        "Три часа."
+       ],
+       "words": [
+        "три",
+        "сейчас"
+       ],
+       "tilesRoman": [
+        "chaya",
+        "tri",
+        "chetyre",
+        "Seychas",
+        "kofe",
+        "chasa"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "У меня двое детей.",
+       "promptLang": "target",
+       "options": [
+        "Two teas, please.",
+        "How much is it?",
+        "I have two children.",
+        "One coffee, please."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "У меня двое детей."
+       ],
+       "promptRoman": "U menya dvoye detey."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "девять",
+         "Nine"
+        ],
+        [
+         "десять",
+         "Ten"
+        ],
+        [
+         "пять",
+         "Five"
+        ],
+        [
+         "два",
+         "Two"
+        ]
+       ],
+       "words": [
+        "девять",
+        "десять",
+        "пять",
+        "два"
+       ],
+       "romans": [
+        "devyat'",
+        "desyat'",
+        "pyat'",
+        "dva"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "One",
+       "promptLang": "en",
+       "answer": "один",
+       "words": [
+        "один"
+       ],
+       "options": [
+        "пять",
+        "три",
+        "один",
+        "два"
+       ],
+       "optionsRoman": [
+        "pyat'",
+        "tri",
+        "odin",
+        "dva"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "часа",
+        "меня",
+        "яблока",
+        "четыре",
+        "У",
+        "двое",
+        "детей"
+       ],
+       "answer": [
+        "У",
+        "меня",
+        "четыре",
+        "яблока"
+       ],
+       "accepted": [],
+       "words": [
+        "четыре"
+       ],
+       "tilesRoman": [
+        "chasa",
+        "menya",
+        "yabloka",
+        "chetyre",
+        "U",
+        "dvoye",
+        "detey"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Одну минуту, пожалуйста.",
+       "roman": "Odnu minutu, pozhaluysta.",
+       "translation": "One moment, please.",
+       "words": [
+        "пожалуйста"
+       ],
+       "options": [
+        "Одну минуту, пожалуйста.",
+        "Сейчас три часа.",
+        "Два чая, пожалуйста.",
+        "У меня двое детей."
+       ],
+       "optionsRoman": [
+        "Odnu minutu, pozhaluysta.",
+        "Seychas tri chasa.",
+        "Dva chaya, pozhaluysta.",
+        "U menya dvoye detey."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Один кофе, пожалуйста.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "please",
+        "teas",
+        "children",
+        "much",
+        "One"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "пожалуйста",
+        "кофе",
+        "один"
+       ],
+       "promptRoman": "Odin kofe, pozhaluysta."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Four",
+       "promptLang": "en",
+       "answers": [
+        "четыре",
+        "chetyre"
+       ],
+       "words": [
+        "четыре"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Сколько это стоит?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Сколько это стоит?"
+       ],
+       "promptRoman": "Skol'ko eto stoit?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Два чая, пожалуйста.",
+       "roman": "Dva chaya, pozhaluysta.",
+       "translation": "Two teas, please.",
+       "words": [
+        "пожалуйста",
+        "два"
+       ],
+       "options": [
+        "Два чая, пожалуйста.",
+        "Сейчас три часа.",
+        "У меня четыре яблока.",
+        "Одну минуту, пожалуйста."
+       ],
+       "optionsRoman": [
+        "Dva chaya, pozhaluysta.",
+        "Seychas tri chasa.",
+        "U menya chetyre yabloka.",
+        "Odnu minutu, pozhaluysta."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tip": "'Налево' / 'направо' mean to the left / right; 'слева' / 'справа' mean on the left / right.",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "гостиница",
+       "promptLang": "target",
+       "options": [
+        "Right",
+        "Station",
+        "Left",
+        "Hotel"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "гостиница"
+       ],
+       "promptRoman": "gostinitsa"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "вокзал",
+       "promptLang": "target",
+       "options": [
+        "Where",
+        "Right",
+        "Station",
+        "Toilet"
+       ],
+       "answer": "Station",
+       "words": [
+        "вокзал"
+       ],
+       "promptRoman": "vokzal"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "аэропорт",
+       "words": [
+        "аэропорт"
+       ],
+       "options": [
+        "налево",
+        "гостиница",
+        "направо",
+        "аэропорт"
+       ],
+       "optionsRoman": [
+        "nalevo",
+        "gostinitsa",
+        "napravo",
+        "aeroport"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "билет",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Airport",
+        "Ticket",
+        "Station"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "билет"
+       ],
+       "promptRoman": "bilet"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "гостиница",
+         "Hotel"
+        ],
+        [
+         "вокзал",
+         "Station"
+        ],
+        [
+         "аэропорт",
+         "Airport"
+        ],
+        [
+         "билет",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "гостиница",
+        "вокзал",
+        "аэропорт",
+        "билет"
+       ],
+       "romans": [
+        "gostinitsa",
+        "vokzal",
+        "aeroport",
+        "bilet"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "еду",
+        "гостиница",
+        "Вокзал",
+        "налево",
+        "Где"
+       ],
+       "answer": [
+        "Где",
+        "гостиница"
+       ],
+       "accepted": [
+        "Где отель?"
+       ],
+       "words": [
+        "гостиница",
+        "где"
+       ],
+       "tilesRoman": [
+        "yedu",
+        "gostinitsa",
+        "Vokzal",
+        "nalevo",
+        "Gde"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Где туалет?",
+       "roman": "Gde tualet?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "где",
+        "туалет"
+       ],
+       "options": [
+        "Это далеко?",
+        "Я еду в аэропорт.",
+        "Поверните налево.",
+        "Где туалет?"
+       ],
+       "optionsRoman": [
+        "Eto daleko?",
+        "Ya yedu v aeroport.",
+        "Povernite nalevo.",
+        "Gde tualet?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Поверните налево.",
+       "promptLang": "target",
+       "tiles": [
+        "Turn",
+        "left",
+        "I",
+        "is",
+        "please"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "налево"
+       ],
+       "promptRoman": "Povernite nalevo."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Где гостиница?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "гостиница",
+        "где"
+       ],
+       "promptRoman": "Gde gostinitsa?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "налево",
+       "promptLang": "target",
+       "options": [
+        "Left",
+        "Station",
+        "Hotel",
+        "Right"
+       ],
+       "answer": "Left",
+       "words": [
+        "налево"
+       ],
+       "promptRoman": "nalevo"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "направо",
+       "words": [
+        "направо"
+       ],
+       "options": [
+        "направо",
+        "налево",
+        "вокзал",
+        "где"
+       ],
+       "optionsRoman": [
+        "napravo",
+        "nalevo",
+        "vokzal",
+        "gde"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "где",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Where",
+        "Right",
+        "Station"
+       ],
+       "answer": "Where",
+       "words": [
+        "где"
+       ],
+       "promptRoman": "gde"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "туалет",
+       "words": [
+        "туалет"
+       ],
+       "options": [
+        "вокзал",
+        "направо",
+        "билет",
+        "туалет"
+       ],
+       "optionsRoman": [
+        "vokzal",
+        "napravo",
+        "bilet",
+        "tualet"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "налево",
+         "Left"
+        ],
+        [
+         "направо",
+         "Right"
+        ],
+        [
+         "где",
+         "Where"
+        ],
+        [
+         "туалет",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "налево",
+        "направо",
+        "где",
+        "туалет"
+       ],
+       "romans": [
+        "nalevo",
+        "napravo",
+        "gde",
+        "tualet"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "еду",
+        "Вокзал",
+        "Один",
+        "далеко",
+        "справа"
+       ],
+       "answer": [
+        "Вокзал",
+        "справа"
+       ],
+       "accepted": [
+        "Вокзал направо."
+       ],
+       "words": [
+        "вокзал",
+        "направо"
+       ],
+       "tilesRoman": [
+        "yedu",
+        "Vokzal",
+        "Odin",
+        "daleko",
+        "sprava"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Один билет, пожалуйста.",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "on",
+        "A",
+        "please",
+        "ticket",
+        "is"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "пожалуйста",
+        "один",
+        "билет"
+       ],
+       "promptRoman": "Odin bilet, pozhaluysta."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Вокзал справа.",
+       "roman": "Vokzal sprava.",
+       "translation": "The station is on the right.",
+       "words": [
+        "вокзал",
+        "направо"
+       ],
+       "options": [
+        "Где туалет?",
+        "Один билет, пожалуйста.",
+        "Где гостиница?",
+        "Вокзал справа."
+       ],
+       "optionsRoman": [
+        "Gde tualet?",
+        "Odin bilet, pozhaluysta.",
+        "Gde gostinitsa?",
+        "Vokzal sprava."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я еду в аэропорт.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "аэропорт"
+       ],
+       "promptRoman": "Ya yedu v aeroport."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "гостиница",
+        "отель",
+        "gostinitsa"
+       ],
+       "words": [
+        "гостиница"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Это далеко?",
+       "promptLang": "target",
+       "options": [
+        "I am going to the airport.",
+        "Where is the hotel?",
+        "Turn left.",
+        "Is it far?"
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "Это далеко?"
+       ],
+       "promptRoman": "Eto daleko?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "вокзал",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Right",
+        "Hotel",
+        "Airport"
+       ],
+       "answer": "Station",
+       "words": [
+        "вокзал"
+       ],
+       "promptRoman": "vokzal"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "аэропорт",
+         "Airport"
+        ],
+        [
+         "туалет",
+         "Toilet"
+        ],
+        [
+         "гостиница",
+         "Hotel"
+        ],
+        [
+         "направо",
+         "Right"
+        ],
+        [
+         "налево",
+         "Left"
+        ]
+       ],
+       "words": [
+        "аэропорт",
+        "туалет",
+        "гостиница",
+        "направо",
+        "налево"
+       ],
+       "romans": [
+        "aeroport",
+        "tualet",
+        "gostinitsa",
+        "napravo",
+        "nalevo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "гостиница",
+        "далеко",
+        "Я",
+        "налево",
+        "Это"
+       ],
+       "answer": [
+        "Это",
+        "далеко"
+       ],
+       "accepted": [],
+       "words": [
+        "Это далеко?"
+       ],
+       "tilesRoman": [
+        "gostinitsa",
+        "daleko",
+        "Ya",
+        "nalevo",
+        "Eto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Где туалет?",
+       "promptLang": "target",
+       "tiles": [
+        "toilet",
+        "the",
+        "I",
+        "A",
+        "please",
+        "is",
+        "Where"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "где",
+        "туалет"
+       ],
+       "promptRoman": "Gde tualet?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я еду в аэропорт.",
+       "roman": "Ya yedu v aeroport.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "аэропорт"
+       ],
+       "options": [
+        "Где гостиница?",
+        "Вокзал справа.",
+        "Это далеко?",
+        "Я еду в аэропорт."
+       ],
+       "optionsRoman": [
+        "Gde gostinitsa?",
+        "Vokzal sprava.",
+        "Eto daleko?",
+        "Ya yedu v aeroport."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "пожалуйста",
+        "билет",
+        "Один",
+        "Поверните",
+        "аэропорт",
+        "Где"
+       ],
+       "answer": [
+        "Один",
+        "билет",
+        "пожалуйста"
+       ],
+       "accepted": [
+        "Билет, пожалуйста."
+       ],
+       "words": [
+        "пожалуйста",
+        "один",
+        "билет"
+       ],
+       "tilesRoman": [
+        "pozhaluysta",
+        "bilet",
+        "Odin",
+        "Povernite",
+        "aeroport",
+        "Gde"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Поверните налево.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "налево"
+       ],
+       "promptRoman": "Povernite nalevo."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "вокзал",
+        "станция",
+        "vokzal"
+       ],
+       "words": [
+        "вокзал"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "аэропорт",
+        "далеко",
+        "налево",
+        "Я",
+        "Это",
+        "еду",
+        "в"
+       ],
+       "answer": [
+        "Я",
+        "еду",
+        "в",
+        "аэропорт"
+       ],
+       "accepted": [],
+       "words": [
+        "аэропорт"
+       ],
+       "tilesRoman": [
+        "aeroport",
+        "daleko",
+        "nalevo",
+        "Ya",
+        "Eto",
+        "yedu",
+        "v"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Где гостиница?",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "Where is the hotel?",
+        "Is it far?",
+        "The station is on the right."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "гостиница",
+        "где"
+       ],
+       "promptRoman": "Gde gostinitsa?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "где",
+         "Where"
+        ],
+        [
+         "вокзал",
+         "Station"
+        ],
+        [
+         "билет",
+         "Ticket"
+        ],
+        [
+         "направо",
+         "Right"
+        ]
+       ],
+       "words": [
+        "где",
+        "вокзал",
+        "билет",
+        "направо"
+       ],
+       "romans": [
+        "gde",
+        "vokzal",
+        "bilet",
+        "napravo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Left",
+       "promptLang": "en",
+       "answer": "налево",
+       "words": [
+        "налево"
+       ],
+       "options": [
+        "налево",
+        "билет",
+        "аэропорт",
+        "гостиница"
+       ],
+       "optionsRoman": [
+        "nalevo",
+        "bilet",
+        "aeroport",
+        "gostinitsa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "аэропорт",
+        "налево",
+        "Это",
+        "Поверните",
+        "билет"
+       ],
+       "answer": [
+        "Поверните",
+        "налево"
+       ],
+       "accepted": [
+        "Поверни налево."
+       ],
+       "words": [
+        "налево"
+       ],
+       "tilesRoman": [
+        "aeroport",
+        "nalevo",
+        "Eto",
+        "Povernite",
+        "bilet"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Это далеко?",
+       "roman": "Eto daleko?",
+       "translation": "Is it far?",
+       "words": [
+        "Это далеко?"
+       ],
+       "options": [
+        "Это далеко?",
+        "Один билет, пожалуйста.",
+        "Вокзал справа.",
+        "Где туалет?"
+       ],
+       "optionsRoman": [
+        "Eto daleko?",
+        "Odin bilet, pozhaluysta.",
+        "Vokzal sprava.",
+        "Gde tualet?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Вокзал справа.",
+       "promptLang": "target",
+       "tiles": [
+        "right",
+        "The",
+        "it",
+        "station",
+        "far",
+        "the",
+        "is",
+        "on",
+        "A"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "вокзал",
+        "направо"
+       ],
+       "promptRoman": "Vokzal sprava."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "гостиница",
+        "отель",
+        "gostinitsa"
+       ],
+       "words": [
+        "гостиница"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Где туалет?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "где",
+        "туалет"
+       ],
+       "promptRoman": "Gde tualet?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Один билет, пожалуйста.",
+       "roman": "Odin bilet, pozhaluysta.",
+       "translation": "A ticket, please.",
+       "words": [
+        "пожалуйста",
+        "один",
+        "билет"
+       ],
+       "options": [
+        "Это далеко?",
+        "Один билет, пожалуйста.",
+        "Вокзал справа.",
+        "Поверните налево."
+       ],
+       "optionsRoman": [
+        "Eto daleko?",
+        "Odin bilet, pozhaluysta.",
+        "Vokzal sprava.",
+        "Povernite nalevo."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tip": "'Утром' (utrom) means in the morning and 'ночью' (noch'yu) means at night.",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "сегодня",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "House",
+        "Work",
+        "Morning"
+       ],
+       "answer": "Today",
+       "words": [
+        "сегодня"
+       ],
+       "promptRoman": "segodnya"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "завтра",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "House",
+        "School",
+        "Morning"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "завтра"
+       ],
+       "promptRoman": "zavtra"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "сейчас",
+       "words": [
+        "сейчас"
+       ],
+       "options": [
+        "работа",
+        "сегодня",
+        "завтра",
+        "сейчас"
+       ],
+       "optionsRoman": [
+        "rabota",
+        "segodnya",
+        "zavtra",
+        "seychas"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "утро",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "Tomorrow",
+        "Today",
+        "Now"
+       ],
+       "answer": "Morning",
+       "words": [
+        "утро"
+       ],
+       "promptRoman": "utro"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "сегодня",
+         "Today"
+        ],
+        [
+         "завтра",
+         "Tomorrow"
+        ],
+        [
+         "сейчас",
+         "Now"
+        ],
+        [
+         "утро",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "сегодня",
+        "завтра",
+        "сейчас",
+        "утро"
+       ],
+       "romans": [
+        "segodnya",
+        "zavtra",
+        "seychas",
+        "utro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "Дети",
+        "работу",
+        "кофе",
+        "Я",
+        "в",
+        "на",
+        "иду"
+       ],
+       "answer": [
+        "Я",
+        "иду",
+        "на",
+        "работу"
+       ],
+       "accepted": [],
+       "words": [
+        "Я иду на работу."
+       ],
+       "tilesRoman": [
+        "Deti",
+        "rabotu",
+        "kofe",
+        "Ya",
+        "v",
+        "na",
+        "idu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я дома.",
+       "roman": "Ya doma.",
+       "translation": "I am at home.",
+       "words": [
+        "Я дома."
+       ],
+       "options": [
+        "Я дома.",
+        "Сегодня понедельник.",
+        "Дети идут в школу.",
+        "Я иду на работу."
+       ],
+       "optionsRoman": [
+        "Ya doma.",
+        "Segodnya ponedel'nik.",
+        "Deti idut v shkolu.",
+        "Ya idu na rabotu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Сегодня понедельник.",
+       "promptLang": "target",
+       "tiles": [
+        "children",
+        "Monday",
+        "Today",
+        "coffee",
+        "is",
+        "morning"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "сегодня"
+       ],
+       "promptRoman": "Segodnya ponedel'nik."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я иду на работу.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "Я иду на работу."
+       ],
+       "promptRoman": "Ya idu na rabotu."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ночь",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "Night",
+        "Today",
+        "School"
+       ],
+       "answer": "Night",
+       "words": [
+        "ночь"
+       ],
+       "promptRoman": "noch'"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "дом",
+       "words": [
+        "дом"
+       ],
+       "options": [
+        "школа",
+        "работа",
+        "дом",
+        "сегодня"
+       ],
+       "optionsRoman": [
+        "shkola",
+        "rabota",
+        "dom",
+        "segodnya"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "работа",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "School",
+        "Work",
+        "Morning"
+       ],
+       "answer": "Work",
+       "words": [
+        "работа"
+       ],
+       "promptRoman": "rabota"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "школа",
+       "words": [
+        "школа"
+       ],
+       "options": [
+        "ночь",
+        "сейчас",
+        "школа",
+        "работа"
+       ],
+       "optionsRoman": [
+        "noch'",
+        "seychas",
+        "shkola",
+        "rabota"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ночь",
+         "Night"
+        ],
+        [
+         "дом",
+         "House"
+        ],
+        [
+         "работа",
+         "Work"
+        ],
+        [
+         "школа",
+         "School"
+        ]
+       ],
+       "words": [
+        "ночь",
+        "дом",
+        "работа",
+        "школа"
+       ],
+       "romans": [
+        "noch'",
+        "dom",
+        "rabota",
+        "shkola"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "кофе",
+        "я",
+        "пью",
+        "иду",
+        "Сегодня",
+        "Утром",
+        "идут"
+       ],
+       "answer": [
+        "Утром",
+        "я",
+        "пью",
+        "кофе"
+       ],
+       "accepted": [
+        "Я пью кофе утром."
+       ],
+       "words": [
+        "кофе"
+       ],
+       "tilesRoman": [
+        "kofe",
+        "ya",
+        "p'yu",
+        "idu",
+        "Segodnya",
+        "Utrom",
+        "idut"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Я сплю ночью.",
+       "promptLang": "target",
+       "tiles": [
+        "sleep",
+        "at",
+        "drink",
+        "I",
+        "is",
+        "night",
+        "time"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "Я сплю ночью."
+       ],
+       "promptRoman": "Ya splyu noch'yu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Утром я пью кофе.",
+       "roman": "Utrom ya p'yu kofe.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "кофе"
+       ],
+       "options": [
+        "Дети идут в школу.",
+        "Я дома.",
+        "Утром я пью кофе.",
+        "Я иду на работу."
+       ],
+       "optionsRoman": [
+        "Deti idut v shkolu.",
+        "Ya doma.",
+        "Utrom ya p'yu kofe.",
+        "Ya idu na rabotu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Дети идут в школу.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "Дети идут в школу."
+       ],
+       "promptRoman": "Deti idut v shkolu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "сегодня",
+        "segodnya"
+       ],
+       "words": [
+        "сегодня"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Который сейчас час?",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I sleep at night.",
+        "I go to work.",
+        "I am at home."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "сейчас"
+       ],
+       "promptRoman": "Kotoryy seychas chas?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "завтра",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Work",
+        "Tomorrow",
+        "Morning"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "завтра"
+       ],
+       "promptRoman": "zavtra"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "завтра",
+         "Tomorrow"
+        ],
+        [
+         "школа",
+         "School"
+        ],
+        [
+         "работа",
+         "Work"
+        ],
+        [
+         "сейчас",
+         "Now"
+        ],
+        [
+         "ночь",
+         "Night"
+        ]
+       ],
+       "words": [
+        "завтра",
+        "школа",
+        "работа",
+        "сейчас",
+        "ночь"
+       ],
+       "romans": [
+        "zavtra",
+        "shkola",
+        "rabota",
+        "seychas",
+        "noch'"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "идут",
+        "Я",
+        "на",
+        "Который",
+        "час",
+        "сейчас"
+       ],
+       "answer": [
+        "Который",
+        "сейчас",
+        "час"
+       ],
+       "accepted": [
+        "Сколько сейчас времени?"
+       ],
+       "words": [
+        "сейчас"
+       ],
+       "tilesRoman": [
+        "idut",
+        "Ya",
+        "na",
+        "Kotoryy",
+        "chas",
+        "seychas"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Я дома.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "the",
+        "to",
+        "at",
+        "I",
+        "Today",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "Я дома."
+       ],
+       "promptRoman": "Ya doma."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Дети идут в школу.",
+       "roman": "Deti idut v shkolu.",
+       "translation": "The children go to school.",
+       "words": [
+        "Дети идут в школу."
+       ],
+       "options": [
+        "Я сплю ночью.",
+        "Утром я пью кофе.",
+        "Который сейчас час?",
+        "Дети идут в школу."
+       ],
+       "optionsRoman": [
+        "Ya splyu noch'yu.",
+        "Utrom ya p'yu kofe.",
+        "Kotoryy seychas chas?",
+        "Deti idut v shkolu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "пью",
+        "Я",
+        "сплю",
+        "Сегодня",
+        "ночью",
+        "дома"
+       ],
+       "answer": [
+        "Я",
+        "сплю",
+        "ночью"
+       ],
+       "accepted": [
+        "Ночью я сплю."
+       ],
+       "words": [
+        "Я сплю ночью."
+       ],
+       "tilesRoman": [
+        "p'yu",
+        "Ya",
+        "splyu",
+        "Segodnya",
+        "noch'yu",
+        "doma"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Сегодня понедельник.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "сегодня"
+       ],
+       "promptRoman": "Segodnya ponedel'nik."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "завтра",
+        "zavtra"
+       ],
+       "words": [
+        "завтра"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "кофе",
+        "Дети",
+        "в",
+        "пью",
+        "идут",
+        "школу",
+        "Я"
+       ],
+       "answer": [
+        "Дети",
+        "идут",
+        "в",
+        "школу"
+       ],
+       "accepted": [
+        "Дети ходят в школу."
+       ],
+       "words": [
+        "Дети идут в школу."
+       ],
+       "tilesRoman": [
+        "kofe",
+        "Deti",
+        "v",
+        "p'yu",
+        "idut",
+        "shkolu",
+        "Ya"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Я иду на работу.",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I drink coffee in the morning.",
+        "I go to work.",
+        "I am at home."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "Я иду на работу."
+       ],
+       "promptRoman": "Ya idu na rabotu."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "школа",
+         "School"
+        ],
+        [
+         "сегодня",
+         "Today"
+        ],
+        [
+         "утро",
+         "Morning"
+        ],
+        [
+         "дом",
+         "House"
+        ]
+       ],
+       "words": [
+        "школа",
+        "сегодня",
+        "утро",
+        "дом"
+       ],
+       "romans": [
+        "shkola",
+        "segodnya",
+        "utro",
+        "dom"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Night",
+       "promptLang": "en",
+       "answer": "ночь",
+       "words": [
+        "ночь"
+       ],
+       "options": [
+        "завтра",
+        "ночь",
+        "утро",
+        "работа"
+       ],
+       "optionsRoman": [
+        "zavtra",
+        "noch'",
+        "utro",
+        "rabota"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Russian",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "Утром",
+        "дома",
+        "понедельник",
+        "Сегодня",
+        "ночью"
+       ],
+       "answer": [
+        "Сегодня",
+        "понедельник"
+       ],
+       "accepted": [],
+       "words": [
+        "сегодня"
+       ],
+       "tilesRoman": [
+        "Utrom",
+        "doma",
+        "ponedel'nik",
+        "Segodnya",
+        "noch'yu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Который сейчас час?",
+       "roman": "Kotoryy seychas chas?",
+       "translation": "What time is it now?",
+       "words": [
+        "сейчас"
+       ],
+       "options": [
+        "Я иду на работу.",
+        "Я дома.",
+        "Сегодня понедельник.",
+        "Который сейчас час?"
+       ],
+       "optionsRoman": [
+        "Ya idu na rabotu.",
+        "Ya doma.",
+        "Segodnya ponedel'nik.",
+        "Kotoryy seychas chas?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Утром я пью кофе.",
+       "promptLang": "target",
+       "tiles": [
+        "in",
+        "the",
+        "drink",
+        "go",
+        "I",
+        "home",
+        "is",
+        "morning",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "кофе"
+       ],
+       "promptRoman": "Utrom ya p'yu kofe."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Russian",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answers": [
+        "работа",
+        "rabota"
+       ],
+       "words": [
+        "работа"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я дома.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "Я дома."
+       ],
+       "promptRoman": "Ya doma."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я сплю ночью.",
+       "roman": "Ya splyu noch'yu.",
+       "translation": "I sleep at night.",
+       "words": [
+        "Я сплю ночью."
+       ],
+       "options": [
+        "Я сплю ночью.",
+        "Я дома.",
+        "Который сейчас час?",
+        "Я иду на работу."
+       ],
+       "optionsRoman": [
+        "Ya splyu noch'yu.",
+        "Ya doma.",
+        "Kotoryy seychas chas?",
+        "Ya idu na rabotu."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
