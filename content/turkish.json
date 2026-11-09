@@ -17,6 +17,7 @@
   "ş",
   "ü"
  ],
+ "particles": [],
  "order": 90,
  "description": "Everyday Turkish: greetings, family, food, numbers, getting around and your day.",
  "units": [
@@ -25,11 +26,138 @@
    "title": "Greetings",
    "description": "Say hello, introduce yourself and be polite.",
    "icon": "wave",
-   "tip": "'Merhaba' works any time. When parting, the person leaving says 'hoşça kal' and the person staying says 'güle güle'.",
+   "tips": [
+    "'Merhaba' works any time. When parting, the person leaving says 'hoşça kal' and the person staying says 'güle güle'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "merhaba",
+      "e": "Hello"
+     },
+     {
+      "t": "hoşça kal",
+      "e": "Goodbye"
+     },
+     {
+      "t": "teşekkür ederim",
+      "e": "Thank you"
+     },
+     {
+      "t": "lütfen",
+      "e": "Please"
+     },
+     {
+      "t": "evet",
+      "e": "Yes"
+     },
+     {
+      "t": "hayır",
+      "e": "No"
+     },
+     {
+      "t": "günaydın",
+      "e": "Good morning"
+     },
+     {
+      "t": "özür dilerim",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Nasılsın?",
+      "e": "How are you?"
+     },
+     {
+      "t": "İyiyim, teşekkür ederim.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Benim adım Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Memnun oldum.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Çok teşekkür ederim.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Yarın görüşürüz.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Adın ne?",
+      "e": "What is your name?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u1l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "merhaba",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "selam"
+       ]
+      },
+      {
+       "t": "hoşça kal",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "güle güle",
+        "hoşça kalın"
+       ]
+      },
+      {
+       "t": "teşekkür ederim",
+       "e": "Thank you",
+       "kind": "word",
+       "alts": [
+        "teşekkürler",
+        "sağ ol"
+       ]
+      },
+      {
+       "t": "lütfen",
+       "e": "Please",
+       "kind": "word"
+      },
+      {
+       "t": "Nasılsın?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Nasılsınız?"
+       ]
+      },
+      {
+       "t": "Benim adım Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Adım Anna.",
+        "Ben Anna."
+       ]
+      },
+      {
+       "t": "İyiyim, teşekkür ederim.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "İyiyim, teşekkürler.",
+        "İyiyim, sağ ol."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -37,9 +165,9 @@
        "prompt": "merhaba",
        "promptLang": "target",
        "options": [
-        "Thank you",
+        "Good morning",
+        "Goodbye",
         "Hello",
-        "Sorry",
         "Yes"
        ],
        "answer": "Hello",
@@ -53,46 +181,14 @@
        "prompt": "hoşça kal",
        "promptLang": "target",
        "options": [
-        "Thank you",
-        "Sorry",
-        "Please",
-        "Goodbye"
-       ],
-       "answer": "Goodbye",
-       "words": [
-        "hoşça kal"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
-       "promptLang": "en",
-       "answer": "teşekkür ederim",
-       "words": [
-        "teşekkür ederim"
-       ],
-       "options": [
-        "özür dilerim",
-        "hayır",
-        "teşekkür ederim",
-        "günaydın"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "lütfen",
-       "promptLang": "target",
-       "options": [
-        "Please",
+        "Goodbye",
         "No",
         "Good morning",
         "Yes"
        ],
-       "answer": "Please",
+       "answer": "Goodbye",
        "words": [
-        "lütfen"
+        "hoşça kal"
        ]
       },
       {
@@ -124,15 +220,47 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "teşekkür ederim",
+       "words": [
+        "teşekkür ederim"
+       ],
+       "options": [
+        "özür dilerim",
+        "teşekkür ederim",
+        "günaydın",
+        "merhaba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "lütfen",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Sorry",
+        "Goodbye",
+        "Thank you"
+       ],
+       "answer": "Please",
+       "words": [
+        "lütfen"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "How are you?",
        "promptLang": "en",
        "tiles": [
-        "adım",
-        "ne",
+        "teşekkür",
         "Benim",
-        "Nasılsın"
+        "Nasılsın",
+        "oldum"
        ],
        "answer": [
         "Nasılsın"
@@ -145,30 +273,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "İyiyim, teşekkür ederim.",
-       "translation": "I am fine, thank you.",
-       "answers": [
-        "İyiyim, teşekkür ederim."
-       ],
-       "words": [
-        "teşekkür ederim"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Benim adım Anna.",
        "promptLang": "target",
        "tiles": [
-        "you",
-        "I",
         "name",
-        "to",
-        "My",
+        "much",
+        "you",
+        "Anna",
+        "See",
         "is",
-        "Anna"
+        "My"
        ],
        "answer": [
         "My",
@@ -182,6 +298,18 @@
        ],
        "words": [
         "Benim adım Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "İyiyim, teşekkür ederim.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "İyiyim, teşekkür ederim."
+       ],
+       "words": [
+        "teşekkür ederim"
        ]
       },
       {
@@ -202,6 +330,54 @@
     {
      "id": "u1l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "evet",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "hayır",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "günaydın",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "özür dilerim",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "pardon",
+        "affedersiniz"
+       ]
+      },
+      {
+       "t": "Memnun oldum.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "alts": [
+        "Tanıştığımıza memnun oldum."
+       ]
+      },
+      {
+       "t": "Çok teşekkür ederim.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Çok teşekkürler.",
+        "Çok sağ ol."
+       ]
+      },
+      {
+       "t": "Yarın görüşürüz.",
+       "e": "See you tomorrow.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -209,9 +385,9 @@
        "prompt": "evet",
        "promptLang": "target",
        "options": [
-        "No",
+        "Good morning",
         "Please",
-        "Goodbye",
+        "No",
         "Yes"
        ],
        "answer": "Yes",
@@ -221,49 +397,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "No",
-       "promptLang": "en",
-       "answer": "hayır",
-       "words": [
-        "hayır"
-       ],
-       "options": [
-        "merhaba",
-        "evet",
-        "hayır",
-        "lütfen"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "günaydın",
+       "prompt": "hayır",
        "promptLang": "target",
        "options": [
-        "Sorry",
-        "Good morning",
-        "Yes",
-        "Hello"
+        "Thank you",
+        "Please",
+        "No",
+        "Good morning"
        ],
-       "answer": "Good morning",
+       "answer": "No",
        "words": [
-        "günaydın"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
-       "promptLang": "en",
-       "answer": "özür dilerim",
-       "words": [
-        "özür dilerim"
-       ],
-       "options": [
-        "özür dilerim",
-        "teşekkür ederim",
-        "merhaba",
         "hayır"
        ]
       },
@@ -296,16 +440,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "günaydın",
+       "words": [
+        "günaydın"
+       ],
+       "options": [
+        "özür dilerim",
+        "teşekkür ederim",
+        "günaydın",
+        "hoşça kal"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "özür dilerim",
+       "words": [
+        "özür dilerim"
+       ],
+       "options": [
+        "hayır",
+        "lütfen",
+        "hoşça kal",
+        "özür dilerim"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "Nice to meet you.",
        "promptLang": "en",
        "tiles": [
         "oldum",
-        "Benim",
         "Nasılsın",
-        "Çok",
-        "Memnun"
+        "Memnun",
+        "Adın",
+        "Benim"
        ],
        "answer": [
         "Memnun",
@@ -324,13 +500,13 @@
        "prompt": "Çok teşekkür ederim.",
        "promptLang": "target",
        "tiles": [
-        "Thank",
-        "How",
-        "very",
         "you",
-        "to",
         "I",
-        "much"
+        "is",
+        "much",
+        "Thank",
+        "very",
+        "My"
        ],
        "answer": [
         "Thank",
@@ -390,33 +566,28 @@
     {
      "id": "u1l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Adın ne?",
-       "promptLang": "target",
-       "options": [
-        "My name is Anna.",
-        "Nice to meet you.",
-        "Thank you very much.",
-        "What is your name?"
-       ],
-       "answer": "What is your name?",
-       "words": [
-        "Adın ne?"
+       "t": "Adın ne?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Adınız ne?",
+        "Senin adın ne?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "hoşça kal",
        "promptLang": "target",
        "options": [
-        "No",
+        "Thank you",
         "Good morning",
-        "Goodbye",
-        "Yes"
+        "Please",
+        "Goodbye"
        ],
        "answer": "Goodbye",
        "words": [
@@ -436,12 +607,12 @@
          "Thank you"
         ],
         [
-         "hayır",
-         "No"
-        ],
-        [
          "hoşça kal",
          "Goodbye"
+        ],
+        [
+         "günaydın",
+         "Good morning"
         ],
         [
          "özür dilerim",
@@ -451,31 +622,23 @@
        "words": [
         "merhaba",
         "teşekkür ederim",
-        "hayır",
         "hoşça kal",
+        "günaydın",
         "özür dilerim"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "What is your name?",
-       "promptLang": "en",
-       "tiles": [
-        "ederim",
-        "ne",
-        "İyiyim",
-        "Çok",
-        "Adın"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Adın ne?",
+       "promptLang": "target",
+       "options": [
+        "How are you?",
+        "Thank you very much.",
+        "Nice to meet you.",
+        "What is your name?"
        ],
-       "answer": [
-        "Adın",
-        "ne"
-       ],
-       "accepted": [
-        "Adınız ne?",
-        "Senin adın ne?"
-       ],
+       "answer": "What is your name?",
        "words": [
         "Adın ne?"
        ]
@@ -486,14 +649,14 @@
        "prompt": "İyiyim, teşekkür ederim.",
        "promptLang": "target",
        "tiles": [
+        "thank",
+        "I",
+        "much",
+        "Nice",
         "am",
         "fine",
-        "meet",
         "you",
-        "tomorrow",
-        "Nice",
-        "I",
-        "thank"
+        "name"
        ],
        "answer": [
         "I",
@@ -515,6 +678,51 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "Benim",
+        "Adın",
+        "Çok",
+        "ne",
+        "Anna"
+       ],
+       "answer": [
+        "Adın",
+        "ne"
+       ],
+       "accepted": [
+        "Adınız ne?",
+        "Senin adın ne?"
+       ],
+       "words": [
+        "Adın ne?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "adım",
+        "Memnun",
+        "Nasılsın",
+        "Yarın",
+        "görüşürüz"
+       ],
+       "answer": [
+        "Yarın",
+        "görüşürüz"
+       ],
+       "accepted": [],
+       "words": [
+        "yarın"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Yarın görüşürüz.",
@@ -524,20 +732,6 @@
        ],
        "words": [
         "yarın"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Thank you very much.",
-       "promptLang": "en",
-       "answers": [
-        "Çok teşekkür ederim.",
-        "Çok teşekkürler.",
-        "Çok sağ ol."
-       ],
-       "words": [
-        "teşekkür ederim"
        ]
       },
       {
@@ -557,6 +751,20 @@
       {
        "type": "type",
        "instruction": "Type this in Turkish",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Çok teşekkür ederim.",
+        "Çok teşekkürler.",
+        "Çok sağ ol."
+       ],
+       "words": [
+        "teşekkür ederim"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
        "prompt": "Goodbye",
        "promptLang": "en",
        "answers": [
@@ -567,33 +775,13 @@
        "words": [
         "hoşça kal"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "See you tomorrow.",
-       "promptLang": "en",
-       "tiles": [
-        "görüşürüz",
-        "Yarın",
-        "ederim",
-        "İyiyim",
-        "adım"
-       ],
-       "answer": [
-        "Yarın",
-        "görüşürüz"
-       ],
-       "accepted": [],
-       "words": [
-        "yarın"
-       ]
       }
      ]
     },
     {
      "id": "u1l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -601,10 +789,10 @@
        "prompt": "Nasılsın?",
        "promptLang": "target",
        "options": [
-        "See you tomorrow.",
-        "Nice to meet you.",
         "I am fine, thank you.",
-        "How are you?"
+        "How are you?",
+        "Thank you very much.",
+        "See you tomorrow."
        ],
        "answer": "How are you?",
        "words": [
@@ -616,43 +804,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "günaydın",
-         "Good morning"
-        ],
-        [
-         "teşekkür ederim",
-         "Thank you"
+         "özür dilerim",
+         "Sorry"
         ],
         [
          "hoşça kal",
          "Goodbye"
         ],
         [
-         "merhaba",
-         "Hello"
+         "lütfen",
+         "Please"
+        ],
+        [
+         "günaydın",
+         "Good morning"
         ]
        ],
        "words": [
-        "günaydın",
-        "teşekkür ederim",
+        "özür dilerim",
         "hoşça kal",
-        "merhaba"
+        "lütfen",
+        "günaydın"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "No",
+       "prompt": "Thank you",
        "promptLang": "en",
-       "answer": "hayır",
+       "answer": "teşekkür ederim",
        "words": [
-        "hayır"
+        "teşekkür ederim"
        ],
        "options": [
-        "günaydın",
+        "özür dilerim",
         "hayır",
-        "lütfen",
-        "hoşça kal"
+        "teşekkür ederim",
+        "evet"
        ]
       },
       {
@@ -662,11 +850,11 @@
        "promptLang": "en",
        "tiles": [
         "Memnun",
-        "görüşürüz",
-        "Anna",
-        "teşekkür",
         "Benim",
-        "adım"
+        "adım",
+        "Anna",
+        "görüşürüz",
+        "oldum"
        ],
        "answer": [
         "Benim",
@@ -682,30 +870,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Adın ne?",
-       "translation": "What is your name?",
-       "answers": [
-        "Adın ne?"
-       ],
-       "words": [
-        "Adın ne?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Memnun oldum.",
        "promptLang": "target",
        "tiles": [
-        "I",
         "am",
+        "What",
         "to",
         "you",
-        "your",
-        "Nice",
-        "meet"
+        "meet",
+        "name",
+        "Nice"
        ],
        "answer": [
         "Nice",
@@ -721,17 +897,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Sorry",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Adın ne?",
+       "translation": "What is your name?",
        "answers": [
-        "özür dilerim",
-        "pardon",
-        "affedersiniz"
+        "Adın ne?"
        ],
        "words": [
-        "özür dilerim"
+        "Adın ne?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Çok teşekkür ederim.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Çok teşekkür ederim."
+       ],
+       "words": [
+        "teşekkür ederim"
        ]
       },
       {
@@ -753,15 +939,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Çok teşekkür ederim.",
-       "translation": "Thank you very much.",
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "No",
+       "promptLang": "en",
        "answers": [
-        "Çok teşekkür ederim."
+        "hayır"
        ],
        "words": [
-        "teşekkür ederim"
+        "hayır"
        ]
       }
      ]
@@ -773,11 +959,128 @@
    "title": "People and family",
    "description": "Talk about the people around you.",
    "icon": "person",
-   "tip": "'My' is a suffix: 'anne' (mother) becomes 'annem' (my mother), 'baba' becomes 'babam'.",
+   "tips": [
+    "'My' is a suffix: 'anne' (mother) becomes 'annem' (my mother), 'baba' becomes 'babam'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "adam",
+      "e": "Man"
+     },
+     {
+      "t": "kadın",
+      "e": "Woman"
+     },
+     {
+      "t": "çocuk",
+      "e": "Child"
+     },
+     {
+      "t": "arkadaş",
+      "e": "Friend"
+     },
+     {
+      "t": "anne",
+      "e": "Mother"
+     },
+     {
+      "t": "baba",
+      "e": "Father"
+     },
+     {
+      "t": "oğul",
+      "e": "Son"
+     },
+     {
+      "t": "kız",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Bu benim annem.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "O benim arkadaşım.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Bir oğlum var.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Babam nerede?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Annem evde.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "O benim kızım.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Bu adam kim?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u2l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "adam",
+       "e": "Man",
+       "kind": "word",
+       "alts": [
+        "erkek"
+       ]
+      },
+      {
+       "t": "kadın",
+       "e": "Woman",
+       "kind": "word"
+      },
+      {
+       "t": "çocuk",
+       "e": "Child",
+       "kind": "word"
+      },
+      {
+       "t": "arkadaş",
+       "e": "Friend",
+       "kind": "word"
+      },
+      {
+       "t": "Bu benim annem.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "Bu annem."
+       ]
+      },
+      {
+       "t": "Bir oğlum var.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "alts": [
+        "Oğlum var."
+       ]
+      },
+      {
+       "t": "O benim arkadaşım.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "alts": [
+        "O arkadaşım."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -785,10 +1088,10 @@
        "prompt": "adam",
        "promptLang": "target",
        "options": [
-        "Daughter",
+        "Friend",
+        "Woman",
         "Man",
-        "Mother",
-        "Father"
+        "Child"
        ],
        "answer": "Man",
        "words": [
@@ -801,46 +1104,14 @@
        "prompt": "kadın",
        "promptLang": "target",
        "options": [
-        "Daughter",
         "Woman",
-        "Friend",
-        "Child"
+        "Son",
+        "Daughter",
+        "Friend"
        ],
        "answer": "Woman",
        "words": [
         "kadın"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Child",
-       "promptLang": "en",
-       "answer": "çocuk",
-       "words": [
-        "çocuk"
-       ],
-       "options": [
-        "kadın",
-        "çocuk",
-        "arkadaş",
-        "adam"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "arkadaş",
-       "promptLang": "target",
-       "options": [
-        "Friend",
-        "Son",
-        "Daughter",
-        "Child"
-       ],
-       "answer": "Friend",
-       "words": [
-        "arkadaş"
        ]
       },
       {
@@ -872,17 +1143,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "çocuk",
+       "words": [
+        "çocuk"
+       ],
+       "options": [
+        "kadın",
+        "adam",
+        "arkadaş",
+        "çocuk"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "arkadaş",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Son",
+        "Mother",
+        "Friend"
+       ],
+       "answer": "Friend",
+       "words": [
+        "arkadaş"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "This is my mother.",
        "promptLang": "en",
        "tiles": [
-        "var",
-        "annem",
         "benim",
+        "oğlum",
+        "Bu",
+        "kızım",
         "evde",
-        "adam",
-        "Bu"
+        "annem"
        ],
        "answer": [
         "Bu",
@@ -897,29 +1200,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "O benim arkadaşım.",
-       "translation": "He is my friend.",
-       "answers": [
-        "O benim arkadaşım."
-       ],
-       "words": [
-        "O benim arkadaşım."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Bir oğlum var.",
        "promptLang": "target",
        "tiles": [
-        "home",
-        "son",
-        "She",
         "a",
-        "is",
+        "He",
+        "man",
+        "Who",
         "have",
+        "son",
         "I"
        ],
        "answer": [
@@ -934,6 +1225,18 @@
        ],
        "words": [
         "bir"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "O benim arkadaşım.",
+       "translation": "He is my friend.",
+       "answers": [
+        "O benim arkadaşım."
+       ],
+       "words": [
+        "O benim arkadaşım."
        ]
       },
       {
@@ -955,6 +1258,49 @@
     {
      "id": "u2l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "anne",
+       "e": "Mother",
+       "kind": "word"
+      },
+      {
+       "t": "baba",
+       "e": "Father",
+       "kind": "word"
+      },
+      {
+       "t": "oğul",
+       "e": "Son",
+       "kind": "word"
+      },
+      {
+       "t": "kız",
+       "e": "Daughter",
+       "kind": "word",
+       "alts": [
+        "kız evlat"
+       ]
+      },
+      {
+       "t": "Babam nerede?",
+       "e": "Where is my father?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Annem evde.",
+       "e": "My mother is at home.",
+       "kind": "phrase"
+      },
+      {
+       "t": "O benim kızım.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "alts": [
+        "O kızım."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -962,10 +1308,10 @@
        "prompt": "anne",
        "promptLang": "target",
        "options": [
-        "Child",
-        "Mother",
+        "Woman",
         "Son",
-        "Friend"
+        "Child",
+        "Mother"
        ],
        "answer": "Mother",
        "words": [
@@ -974,50 +1320,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Father",
-       "promptLang": "en",
-       "answer": "baba",
-       "words": [
-        "baba"
-       ],
-       "options": [
-        "adam",
-        "arkadaş",
-        "baba",
-        "kız"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "oğul",
+       "prompt": "baba",
        "promptLang": "target",
        "options": [
-        "Man",
         "Woman",
-        "Son",
-        "Friend"
+        "Man",
+        "Father",
+        "Son"
        ],
-       "answer": "Son",
+       "answer": "Father",
        "words": [
-        "oğul"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Daughter",
-       "promptLang": "en",
-       "answer": "kız",
-       "words": [
-        "kız"
-       ],
-       "options": [
-        "adam",
-        "baba",
-        "kadın",
-        "kız"
+        "baba"
        ]
       },
       {
@@ -1049,16 +1363,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "oğul",
+       "words": [
+        "oğul"
+       ],
+       "options": [
+        "çocuk",
+        "baba",
+        "kadın",
+        "oğul"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "kız",
+       "words": [
+        "kız"
+       ],
+       "options": [
+        "kız",
+        "arkadaş",
+        "adam",
+        "baba"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "Where is my father?",
        "promptLang": "en",
        "tiles": [
-        "adam",
         "Babam",
+        "arkadaşım",
+        "benim",
         "nerede",
-        "Bir",
-        "evde"
+        "O"
        ],
        "answer": [
         "Babam",
@@ -1075,14 +1421,14 @@
        "prompt": "Annem evde.",
        "promptLang": "target",
        "tiles": [
-        "home",
-        "at",
-        "This",
-        "is",
         "My",
-        "father",
+        "Where",
+        "She",
         "mother",
-        "I"
+        "This",
+        "at",
+        "home",
+        "is"
        ],
        "answer": [
         "My",
@@ -1144,33 +1490,24 @@
     {
      "id": "u2l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Bu adam kim?",
-       "promptLang": "target",
-       "options": [
-        "He is my friend.",
-        "Who is this man?",
-        "This is my mother.",
-        "She is my daughter."
-       ],
-       "answer": "Who is this man?",
-       "words": [
-        "adam"
-       ]
-      },
+       "t": "Bu adam kim?",
+       "e": "Who is this man?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "kadın",
        "promptLang": "target",
        "options": [
-        "Father",
-        "Woman",
-        "Friend",
-        "Man"
+        "Mother",
+        "Son",
+        "Man",
+        "Woman"
        ],
        "answer": "Woman",
        "words": [
@@ -1182,16 +1519,8 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "baba",
-         "Father"
-        ],
-        [
-         "adam",
-         "Man"
-        ],
-        [
-         "oğul",
-         "Son"
+         "çocuk",
+         "Child"
         ],
         [
          "kadın",
@@ -1200,35 +1529,36 @@
         [
          "kız",
          "Daughter"
+        ],
+        [
+         "oğul",
+         "Son"
+        ],
+        [
+         "arkadaş",
+         "Friend"
         ]
        ],
        "words": [
-        "baba",
-        "adam",
-        "oğul",
+        "çocuk",
         "kadın",
-        "kız"
+        "kız",
+        "oğul",
+        "arkadaş"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "Who is this man?",
-       "promptLang": "en",
-       "tiles": [
-        "Bir",
-        "evde",
-        "kim",
-        "benim",
-        "adam",
-        "Bu"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Bu adam kim?",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "He is my friend.",
+        "This is my mother.",
+        "Who is this man?"
        ],
-       "answer": [
-        "Bu",
-        "adam",
-        "kim"
-       ],
-       "accepted": [],
+       "answer": "Who is this man?",
        "words": [
         "adam"
        ]
@@ -1239,13 +1569,13 @@
        "prompt": "O benim arkadaşım.",
        "promptLang": "target",
        "tiles": [
-        "mother",
-        "is",
-        "Where",
+        "at",
+        "have",
+        "I",
+        "He",
         "my",
-        "Who",
-        "friend",
-        "He"
+        "is",
+        "friend"
        ],
        "answer": [
         "He",
@@ -1259,6 +1589,54 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "arkadaşım",
+        "annem",
+        "Bu",
+        "adam",
+        "kim",
+        "oğlum"
+       ],
+       "answer": [
+        "Bu",
+        "adam",
+        "kim"
+       ],
+       "accepted": [],
+       "words": [
+        "adam"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "oğlum",
+        "evde",
+        "kızım",
+        "O",
+        "annem",
+        "benim"
+       ],
+       "answer": [
+        "O",
+        "benim",
+        "kızım"
+       ],
+       "accepted": [
+        "O kızım."
+       ],
+       "words": [
+        "O benim kızım."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "O benim kızım.",
@@ -1268,18 +1646,6 @@
        ],
        "words": [
         "O benim kızım."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "My mother is at home.",
-       "promptLang": "en",
-       "answers": [
-        "Annem evde."
-       ],
-       "words": [
-        "Annem evde."
        ]
       },
       {
@@ -1299,6 +1665,18 @@
       {
        "type": "type",
        "instruction": "Type this in Turkish",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Annem evde."
+       ],
+       "words": [
+        "Annem evde."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
        "prompt": "Woman",
        "promptLang": "en",
        "answers": [
@@ -1307,37 +1685,13 @@
        "words": [
         "kadın"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "She is my daughter.",
-       "promptLang": "en",
-       "tiles": [
-        "oğlum",
-        "O",
-        "kızım",
-        "benim",
-        "Babam",
-        "evde"
-       ],
-       "answer": [
-        "O",
-        "benim",
-        "kızım"
-       ],
-       "accepted": [
-        "O kızım."
-       ],
-       "words": [
-        "O benim kızım."
-       ]
       }
      ]
     },
     {
      "id": "u2l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -1345,10 +1699,10 @@
        "prompt": "Bu benim annem.",
        "promptLang": "target",
        "options": [
-        "My mother is at home.",
         "This is my mother.",
-        "He is my friend.",
-        "Who is this man?"
+        "She is my daughter.",
+        "My mother is at home.",
+        "He is my friend."
        ],
        "answer": "This is my mother.",
        "words": [
@@ -1360,8 +1714,8 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "kadın",
-         "Woman"
+         "oğul",
+         "Son"
         ],
         [
          "arkadaş",
@@ -1372,31 +1726,31 @@
          "Mother"
         ],
         [
-         "adam",
-         "Man"
+         "kız",
+         "Daughter"
         ]
        ],
        "words": [
-        "kadın",
+        "oğul",
         "arkadaş",
         "anne",
-        "adam"
+        "kız"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Son",
+       "prompt": "Father",
        "promptLang": "en",
-       "answer": "oğul",
+       "answer": "baba",
        "words": [
-        "oğul"
+        "baba"
        ],
        "options": [
         "çocuk",
+        "adam",
         "arkadaş",
-        "kız",
-        "oğul"
+        "baba"
        ]
       },
       {
@@ -1405,12 +1759,12 @@
        "prompt": "I have a son.",
        "promptLang": "en",
        "tiles": [
-        "oğlum",
+        "O",
+        "adam",
         "kim",
-        "nerede",
         "var",
-        "Bir",
-        "evde"
+        "oğlum",
+        "Bir"
        ],
        "answer": [
         "Bir",
@@ -1425,30 +1779,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Bu adam kim?",
-       "translation": "Who is this man?",
-       "answers": [
-        "Bu adam kim?"
-       ],
-       "words": [
-        "adam"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Babam nerede?",
        "promptLang": "target",
        "tiles": [
-        "daughter",
-        "my",
-        "is",
-        "home",
-        "Where",
         "father",
-        "This"
+        "is",
+        "man",
+        "Where",
+        "my",
+        "daughter",
+        "a"
        ],
        "answer": [
         "Where",
@@ -1464,16 +1806,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Daughter",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bu adam kim?",
+       "translation": "Who is this man?",
        "answers": [
-        "kız",
-        "kız evlat"
+        "Bu adam kim?"
        ],
        "words": [
-        "kız"
+        "adam"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Annem evde.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Annem evde."
+       ],
+       "words": [
+        "Annem evde."
        ]
       },
       {
@@ -1489,15 +1842,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Annem evde.",
-       "translation": "My mother is at home.",
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Man",
+       "promptLang": "en",
        "answers": [
-        "Annem evde."
+        "adam",
+        "erkek"
        ],
        "words": [
-        "Annem evde."
+        "adam"
        ]
       }
      ]
@@ -1509,11 +1863,127 @@
    "title": "Food and drink",
    "description": "Order, eat and drink.",
    "icon": "cup",
-   "tip": "Turkish puts the verb at the end: 'Kahve içiyorum' = (I) coffee am drinking.",
+   "tips": [
+    "Turkish puts the verb at the end: 'Kahve içiyorum' = (I) coffee am drinking."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "su",
+      "e": "Water"
+     },
+     {
+      "t": "ekmek",
+      "e": "Bread"
+     },
+     {
+      "t": "kahve",
+      "e": "Coffee"
+     },
+     {
+      "t": "çay",
+      "e": "Tea"
+     },
+     {
+      "t": "süt",
+      "e": "Milk"
+     },
+     {
+      "t": "elma",
+      "e": "Apple"
+     },
+     {
+      "t": "pirinç",
+      "e": "Rice"
+     },
+     {
+      "t": "yumurta",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Su, lütfen.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Kahve içiyorum.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Ekmek yiyorum.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Çay sıcak.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Süt içmem.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Elma severim.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Acıktım.",
+      "e": "I am hungry."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u3l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "su",
+       "e": "Water",
+       "kind": "word"
+      },
+      {
+       "t": "ekmek",
+       "e": "Bread",
+       "kind": "word"
+      },
+      {
+       "t": "kahve",
+       "e": "Coffee",
+       "kind": "word"
+      },
+      {
+       "t": "çay",
+       "e": "Tea",
+       "kind": "word"
+      },
+      {
+       "t": "Su, lütfen.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Su lütfen."
+       ]
+      },
+      {
+       "t": "Ekmek yiyorum.",
+       "e": "I eat bread.",
+       "kind": "phrase",
+       "alts": [
+        "Ekmek yerim.",
+        "Ben ekmek yiyorum."
+       ]
+      },
+      {
+       "t": "Kahve içiyorum.",
+       "e": "I drink coffee.",
+       "kind": "phrase",
+       "alts": [
+        "Kahve içerim.",
+        "Ben kahve içiyorum."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1522,9 +1992,9 @@
        "promptLang": "target",
        "options": [
         "Water",
+        "Milk",
         "Bread",
-        "Egg",
-        "Tea"
+        "Egg"
        ],
        "answer": "Water",
        "words": [
@@ -1537,46 +2007,14 @@
        "prompt": "ekmek",
        "promptLang": "target",
        "options": [
-        "Apple",
         "Water",
+        "Egg",
         "Bread",
         "Tea"
        ],
        "answer": "Bread",
        "words": [
         "ekmek"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
-       "promptLang": "en",
-       "answer": "kahve",
-       "words": [
-        "kahve"
-       ],
-       "options": [
-        "süt",
-        "su",
-        "kahve",
-        "yumurta"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "çay",
-       "promptLang": "target",
-       "options": [
-        "Egg",
-        "Tea",
-        "Rice",
-        "Milk"
-       ],
-       "answer": "Tea",
-       "words": [
-        "çay"
        ]
       },
       {
@@ -1608,16 +2046,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "kahve",
+       "words": [
+        "kahve"
+       ],
+       "options": [
+        "ekmek",
+        "kahve",
+        "süt",
+        "su"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "çay",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Egg",
+        "Apple",
+        "Milk"
+       ],
+       "answer": "Tea",
+       "words": [
+        "çay"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "Water, please.",
        "promptLang": "en",
        "tiles": [
-        "içiyorum",
-        "Süt",
+        "yiyorum",
+        "lütfen",
+        "Çay",
         "Su",
-        "Kahve",
-        "lütfen"
+        "Ekmek"
        ],
        "answer": [
         "Su",
@@ -1632,29 +2102,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Kahve içiyorum.",
-       "translation": "I drink coffee.",
-       "answers": [
-        "Kahve içiyorum."
-       ],
-       "words": [
-        "kahve"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ekmek yiyorum.",
        "promptLang": "target",
        "tiles": [
         "I",
-        "hot",
+        "tea",
         "eat",
-        "bread",
-        "do",
-        "apples"
+        "hot",
+        "not",
+        "bread"
        ],
        "answer": [
         "I",
@@ -1666,6 +2124,18 @@
        ],
        "words": [
         "ekmek"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Kahve içiyorum.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Kahve içiyorum."
+       ],
+       "words": [
+        "kahve"
        ]
       },
       {
@@ -1687,6 +2157,53 @@
     {
      "id": "u3l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "süt",
+       "e": "Milk",
+       "kind": "word"
+      },
+      {
+       "t": "elma",
+       "e": "Apple",
+       "kind": "word"
+      },
+      {
+       "t": "pirinç",
+       "e": "Rice",
+       "kind": "word",
+       "alts": [
+        "pilav"
+       ]
+      },
+      {
+       "t": "yumurta",
+       "e": "Egg",
+       "kind": "word"
+      },
+      {
+       "t": "Çay sıcak.",
+       "e": "The tea is hot.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Süt içmem.",
+       "e": "I do not drink milk.",
+       "kind": "phrase",
+       "alts": [
+        "Süt içmiyorum."
+       ]
+      },
+      {
+       "t": "Elma severim.",
+       "e": "I like apples.",
+       "kind": "phrase",
+       "alts": [
+        "Elmaları severim.",
+        "Elmayı severim."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1694,10 +2211,10 @@
        "prompt": "süt",
        "promptLang": "target",
        "options": [
-        "Egg",
-        "Milk",
+        "Apple",
         "Tea",
-        "Apple"
+        "Rice",
+        "Milk"
        ],
        "answer": "Milk",
        "words": [
@@ -1706,50 +2223,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Apple",
-       "promptLang": "en",
-       "answer": "elma",
-       "words": [
-        "elma"
-       ],
-       "options": [
-        "pirinç",
-        "su",
-        "yumurta",
-        "elma"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "pirinç",
+       "prompt": "elma",
        "promptLang": "target",
        "options": [
-        "Rice",
-        "Water",
         "Tea",
+        "Water",
+        "Bread",
         "Apple"
        ],
-       "answer": "Rice",
+       "answer": "Apple",
        "words": [
-        "pirinç"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Egg",
-       "promptLang": "en",
-       "answer": "yumurta",
-       "words": [
-        "yumurta"
-       ],
-       "options": [
-        "pirinç",
-        "yumurta",
-        "su",
-        "ekmek"
+        "elma"
        ]
       },
       {
@@ -1781,16 +2266,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "pirinç",
+       "words": [
+        "pirinç"
+       ],
+       "options": [
+        "süt",
+        "çay",
+        "pirinç",
+        "ekmek"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "yumurta",
+       "words": [
+        "yumurta"
+       ],
+       "options": [
+        "yumurta",
+        "kahve",
+        "ekmek",
+        "su"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "The tea is hot.",
        "promptLang": "en",
        "tiles": [
-        "lütfen",
         "sıcak",
-        "içiyorum",
-        "Ekmek",
-        "Çay"
+        "Çay",
+        "içmem",
+        "severim",
+        "Ekmek"
        ],
        "answer": [
         "Çay",
@@ -1809,11 +2326,11 @@
        "tiles": [
         "do",
         "drink",
-        "is",
+        "like",
         "milk",
         "not",
         "I",
-        "like",
+        "eat",
         "please"
        ],
        "answer": [
@@ -1869,23 +2386,18 @@
     {
      "id": "u3l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Acıktım.",
-       "promptLang": "target",
-       "options": [
-        "The tea is hot.",
-        "I drink coffee.",
-        "I am hungry.",
-        "I like apples."
-       ],
-       "answer": "I am hungry.",
-       "words": [
-        "Acıktım."
+       "t": "Acıktım.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "alts": [
+        "Açım.",
+        "Ben açım."
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -1893,8 +2405,8 @@
        "promptLang": "target",
        "options": [
         "Milk",
+        "Coffee",
         "Bread",
-        "Water",
         "Egg"
        ],
        "answer": "Bread",
@@ -1911,48 +2423,42 @@
          "Apple"
         ],
         [
-         "süt",
-         "Milk"
+         "pirinç",
+         "Rice"
         ],
         [
          "kahve",
          "Coffee"
         ],
         [
-         "ekmek",
-         "Bread"
+         "su",
+         "Water"
         ],
         [
-         "çay",
-         "Tea"
+         "yumurta",
+         "Egg"
         ]
        ],
        "words": [
         "elma",
-        "süt",
+        "pirinç",
         "kahve",
-        "ekmek",
-        "çay"
+        "su",
+        "yumurta"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "I am hungry.",
-       "promptLang": "en",
-       "tiles": [
-        "içiyorum",
-        "Süt",
-        "Acıktım",
-        "yiyorum"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Acıktım.",
+       "promptLang": "target",
+       "options": [
+        "The tea is hot.",
+        "I am hungry.",
+        "Water, please.",
+        "I like apples."
        ],
-       "answer": [
-        "Acıktım"
-       ],
-       "accepted": [
-        "Açım.",
-        "Ben açım."
-       ],
+       "answer": "I am hungry.",
        "words": [
         "Acıktım."
        ]
@@ -1963,12 +2469,12 @@
        "prompt": "Kahve içiyorum.",
        "promptLang": "target",
        "tiles": [
-        "hot",
-        "I",
-        "milk",
-        "am",
         "coffee",
-        "drink"
+        "hungry",
+        "drink",
+        "am",
+        "I",
+        "like"
        ],
        "answer": [
         "I",
@@ -1983,6 +2489,52 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "Acıktım",
+        "Süt",
+        "Elma",
+        "sıcak"
+       ],
+       "answer": [
+        "Acıktım"
+       ],
+       "accepted": [
+        "Açım.",
+        "Ben açım."
+       ],
+       "words": [
+        "Acıktım."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Kahve",
+        "Süt",
+        "Elma",
+        "Acıktım",
+        "severim"
+       ],
+       "answer": [
+        "Elma",
+        "severim"
+       ],
+       "accepted": [
+        "Elmaları severim.",
+        "Elmayı severim."
+       ],
+       "words": [
+        "elma"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Elma severim.",
@@ -1992,19 +2544,6 @@
        ],
        "words": [
         "elma"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "I do not drink milk.",
-       "promptLang": "en",
-       "answers": [
-        "Süt içmem.",
-        "Süt içmiyorum."
-       ],
-       "words": [
-        "süt"
        ]
       },
       {
@@ -2023,6 +2562,19 @@
       {
        "type": "type",
        "instruction": "Type this in Turkish",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Süt içmem.",
+        "Süt içmiyorum."
+       ],
+       "words": [
+        "süt"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
        "prompt": "Bread",
        "promptLang": "en",
        "answers": [
@@ -2031,36 +2583,13 @@
        "words": [
         "ekmek"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "I like apples.",
-       "promptLang": "en",
-       "tiles": [
-        "Kahve",
-        "içmem",
-        "Elma",
-        "Ekmek",
-        "severim"
-       ],
-       "answer": [
-        "Elma",
-        "severim"
-       ],
-       "accepted": [
-        "Elmaları severim.",
-        "Elmayı severim."
-       ],
-       "words": [
-        "elma"
-       ]
       }
      ]
     },
     {
      "id": "u3l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2068,9 +2597,9 @@
        "prompt": "Su, lütfen.",
        "promptLang": "target",
        "options": [
-        "I am hungry.",
         "I do not drink milk.",
-        "I drink coffee.",
+        "I like apples.",
+        "The tea is hot.",
         "Water, please."
        ],
        "answer": "Water, please.",
@@ -2084,43 +2613,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "elma",
-         "Apple"
+         "su",
+         "Water"
         ],
         [
-         "çay",
-         "Tea"
+         "süt",
+         "Milk"
+        ],
+        [
+         "pirinç",
+         "Rice"
         ],
         [
          "yumurta",
          "Egg"
-        ],
-        [
-         "su",
-         "Water"
         ]
        ],
        "words": [
-        "elma",
-        "çay",
-        "yumurta",
-        "su"
+        "su",
+        "süt",
+        "pirinç",
+        "yumurta"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
+       "prompt": "Tea",
        "promptLang": "en",
-       "answer": "kahve",
+       "answer": "çay",
        "words": [
-        "kahve"
+        "çay"
        ],
        "options": [
-        "yumurta",
-        "süt",
-        "kahve",
-        "elma"
+        "elma",
+        "pirinç",
+        "çay",
+        "su"
        ]
       },
       {
@@ -2129,11 +2658,11 @@
        "prompt": "I eat bread.",
        "promptLang": "en",
        "tiles": [
+        "severim",
         "Ekmek",
+        "lütfen",
         "yiyorum",
-        "Kahve",
-        "Su",
-        "Çay"
+        "Süt"
        ],
        "answer": [
         "Ekmek",
@@ -2145,6 +2674,31 @@
        ],
        "words": [
         "ekmek"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Çay sıcak.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "am",
+        "hot",
+        "drink",
+        "tea",
+        "is",
+        "please"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "çay"
        ]
       },
       {
@@ -2160,41 +2714,15 @@
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Çay sıcak.",
-       "promptLang": "target",
-       "tiles": [
-        "The",
-        "apples",
-        "drink",
-        "is",
-        "hungry",
-        "hot",
-        "tea"
-       ],
-       "answer": [
-        "The",
-        "tea",
-        "is",
-        "hot"
-       ],
-       "accepted": [],
-       "words": [
-        "çay"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Rice",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Süt içmem.",
+       "translation": "I do not drink milk.",
        "answers": [
-        "pirinç",
-        "pilav"
+        "Süt içmem."
        ],
        "words": [
-        "pirinç"
+        "süt"
        ]
       },
       {
@@ -2211,15 +2739,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Süt içmem.",
-       "translation": "I do not drink milk.",
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Coffee",
+       "promptLang": "en",
        "answers": [
-        "Süt içmem."
+        "kahve"
        ],
        "words": [
-        "süt"
+        "kahve"
        ]
       }
      ]
@@ -2231,11 +2759,128 @@
    "title": "Numbers",
    "description": "Count from one to ten, ask prices and tell the time.",
    "icon": "hash",
-   "tip": "Nouns stay singular after a number: 'iki çay' (two teas), 'dört elma' (four apples).",
+   "tips": [
+    "Nouns stay singular after a number: 'iki çay' (two teas), 'dört elma' (four apples)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "bir",
+      "e": "One"
+     },
+     {
+      "t": "iki",
+      "e": "Two"
+     },
+     {
+      "t": "üç",
+      "e": "Three"
+     },
+     {
+      "t": "dört",
+      "e": "Four"
+     },
+     {
+      "t": "beş",
+      "e": "Five"
+     },
+     {
+      "t": "altı",
+      "e": "Six"
+     },
+     {
+      "t": "yedi",
+      "e": "Seven"
+     },
+     {
+      "t": "sekiz",
+      "e": "Eight"
+     },
+     {
+      "t": "dokuz",
+      "e": "Nine"
+     },
+     {
+      "t": "on",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "İki çocuğum var.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Bu ne kadar?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Dört elmam var.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Bir kahve, lütfen.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "İki çay, lütfen.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Saat üç.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Bir dakika, lütfen.",
+      "e": "One moment, please."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u4l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "bir",
+       "e": "One",
+       "kind": "word"
+      },
+      {
+       "t": "iki",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "üç",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "dört",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "İki çocuğum var.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Dört elmam var.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Bu ne kadar?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Ne kadar?",
+        "Kaç para?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2243,10 +2888,10 @@
        "prompt": "bir",
        "promptLang": "target",
        "options": [
-        "Two",
         "Six",
-        "Seven",
-        "One"
+        "One",
+        "Two",
+        "Three"
        ],
        "answer": "One",
        "words": [
@@ -2259,46 +2904,14 @@
        "prompt": "iki",
        "promptLang": "target",
        "options": [
-        "Eight",
-        "One",
-        "Ten",
-        "Two"
+        "Three",
+        "Two",
+        "Six",
+        "Ten"
        ],
        "answer": "Two",
        "words": [
         "iki"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Three",
-       "promptLang": "en",
-       "answer": "üç",
-       "words": [
-        "üç"
-       ],
-       "options": [
-        "dört",
-        "sekiz",
-        "üç",
-        "iki"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "dört",
-       "promptLang": "target",
-       "options": [
-        "Four",
-        "Five",
-        "Eight",
-        "Seven"
-       ],
-       "answer": "Four",
-       "words": [
-        "dört"
        ]
       },
       {
@@ -2330,17 +2943,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "üç",
+       "words": [
+        "üç"
+       ],
+       "options": [
+        "üç",
+        "on",
+        "beş",
+        "dört"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dört",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Ten",
+        "Two",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "dört"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "I have two children.",
        "promptLang": "en",
        "tiles": [
-        "kahve",
-        "İki",
-        "var",
-        "Dört",
         "çocuğum",
-        "çay"
+        "İki",
+        "elmam",
+        "var",
+        "ne",
+        "kadar"
        ],
        "answer": [
         "İki",
@@ -2353,30 +2998,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Bu ne kadar?",
-       "translation": "How much is it?",
-       "answers": [
-        "Bu ne kadar?"
-       ],
-       "words": [
-        "Bu ne kadar?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Dört elmam var.",
        "promptLang": "target",
        "tiles": [
-        "have",
-        "four",
+        "apples",
         "is",
-        "moment",
-        "I",
-        "three",
-        "apples"
+        "four",
+        "have",
+        "it",
+        "much",
+        "I"
        ],
        "answer": [
         "I",
@@ -2389,6 +3022,18 @@
        ],
        "words": [
         "dört"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bu ne kadar?",
+       "translation": "How much is it?",
+       "answers": [
+        "Bu ne kadar?"
+       ],
+       "words": [
+        "Bu ne kadar?"
        ]
       },
       {
@@ -2411,6 +3056,43 @@
     {
      "id": "u4l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "beş",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "altı",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "yedi",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "sekiz",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Bir kahve, lütfen.",
+       "e": "One coffee, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "İki çay, lütfen.",
+       "e": "Two teas, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Saat üç.",
+       "e": "It is three o'clock.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2418,10 +3100,10 @@
        "prompt": "beş",
        "promptLang": "target",
        "options": [
-        "Seven",
-        "Four",
+        "Five",
+        "Nine",
         "Two",
-        "Five"
+        "Seven"
        ],
        "answer": "Five",
        "words": [
@@ -2430,50 +3112,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Six",
-       "promptLang": "en",
-       "answer": "altı",
-       "words": [
-        "altı"
-       ],
-       "options": [
-        "yedi",
-        "dört",
-        "üç",
-        "altı"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "yedi",
+       "prompt": "altı",
        "promptLang": "target",
        "options": [
         "Seven",
         "Six",
         "One",
-        "Ten"
+        "Nine"
        ],
-       "answer": "Seven",
+       "answer": "Six",
        "words": [
-        "yedi"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Eight",
-       "promptLang": "en",
-       "answer": "sekiz",
-       "words": [
-        "sekiz"
-       ],
-       "options": [
-        "dört",
-        "yedi",
-        "sekiz",
-        "bir"
+        "altı"
        ]
       },
       {
@@ -2505,16 +3155,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "yedi",
+       "words": [
+        "yedi"
+       ],
+       "options": [
+        "yedi",
+        "iki",
+        "on",
+        "dokuz"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "sekiz",
+       "words": [
+        "sekiz"
+       ],
+       "options": [
+        "on",
+        "sekiz",
+        "iki",
+        "dokuz"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "One coffee, please.",
        "promptLang": "en",
        "tiles": [
-        "lütfen",
-        "kahve",
-        "ne",
         "Dört",
-        "üç",
+        "çocuğum",
+        "kahve",
+        "lütfen",
+        "kadar",
         "Bir"
        ],
        "answer": [
@@ -2535,12 +3217,12 @@
        "prompt": "İki çay, lütfen.",
        "promptLang": "target",
        "tiles": [
+        "moment",
         "please",
-        "o'clock",
-        "teas",
         "Two",
-        "apples",
-        "four"
+        "I",
+        "teas",
+        "One"
        ],
        "answer": [
         "Two",
@@ -2604,34 +3286,37 @@
     {
      "id": "u4l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Bir dakika, lütfen.",
-       "promptLang": "target",
-       "options": [
-        "One moment, please.",
-        "I have two children.",
-        "It is three o'clock.",
-        "How much is it?"
-       ],
-       "answer": "One moment, please.",
-       "words": [
-        "lütfen",
-        "bir"
-       ]
+       "t": "dokuz",
+       "e": "Nine",
+       "kind": "word"
       },
+      {
+       "t": "on",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Bir dakika, lütfen.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Bir saniye, lütfen."
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "dokuz",
        "promptLang": "target",
        "options": [
-        "Six",
         "Five",
         "Nine",
-        "Seven"
+        "Four",
+        "Eight"
        ],
        "answer": "Nine",
        "words": [
@@ -2643,20 +3328,20 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "dört",
-         "Four"
+         "iki",
+         "Two"
         ],
         [
-         "yedi",
-         "Seven"
+         "sekiz",
+         "Eight"
         ],
         [
          "on",
          "Ten"
         ],
         [
-         "dokuz",
-         "Nine"
+         "bir",
+         "One"
         ],
         [
          "beş",
@@ -2664,34 +3349,25 @@
         ]
        ],
        "words": [
-        "dört",
-        "yedi",
+        "iki",
+        "sekiz",
         "on",
-        "dokuz",
+        "bir",
         "beş"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "One moment, please.",
-       "promptLang": "en",
-       "tiles": [
-        "var",
-        "üç",
-        "Bir",
-        "lütfen",
-        "Dört",
-        "dakika"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Bir dakika, lütfen.",
+       "promptLang": "target",
+       "options": [
+        "How much is it?",
+        "I have two children.",
+        "One moment, please.",
+        "It is three o'clock."
        ],
-       "answer": [
-        "Bir",
-        "dakika",
-        "lütfen"
-       ],
-       "accepted": [
-        "Bir saniye, lütfen."
-       ],
+       "answer": "One moment, please.",
        "words": [
         "lütfen",
         "bir"
@@ -2703,13 +3379,13 @@
        "prompt": "Bu ne kadar?",
        "promptLang": "target",
        "tiles": [
-        "much",
-        "is",
-        "coffee",
-        "it",
-        "o'clock",
+        "moment",
         "How",
-        "have"
+        "One",
+        "it",
+        "two",
+        "much",
+        "is"
        ],
        "answer": [
         "How",
@@ -2727,6 +3403,53 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Bu",
+        "lütfen",
+        "dakika",
+        "çocuğum",
+        "üç",
+        "Bir"
+       ],
+       "answer": [
+        "Bir",
+        "dakika",
+        "lütfen"
+       ],
+       "accepted": [
+        "Bir saniye, lütfen."
+       ],
+       "words": [
+        "lütfen",
+        "bir"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "üç",
+        "çocuğum",
+        "İki",
+        "dakika",
+        "Saat"
+       ],
+       "answer": [
+        "Saat",
+        "üç"
+       ],
+       "accepted": [],
+       "words": [
+        "üç"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Saat üç.",
@@ -2736,19 +3459,6 @@
        ],
        "words": [
         "üç"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Two teas, please.",
-       "promptLang": "en",
-       "answers": [
-        "İki çay, lütfen."
-       ],
-       "words": [
-        "lütfen",
-        "çay"
        ]
       },
       {
@@ -2767,6 +3477,19 @@
       {
        "type": "type",
        "instruction": "Type this in Turkish",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "İki çay, lütfen."
+       ],
+       "words": [
+        "lütfen",
+        "çay"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
        "prompt": "Ten",
        "promptLang": "en",
        "answers": [
@@ -2775,33 +3498,13 @@
        "words": [
         "on"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "It is three o'clock.",
-       "promptLang": "en",
-       "tiles": [
-        "üç",
-        "Bir",
-        "İki",
-        "Dört",
-        "Saat"
-       ],
-       "answer": [
-        "Saat",
-        "üç"
-       ],
-       "accepted": [],
-       "words": [
-        "üç"
-       ]
       }
      ]
     },
     {
      "id": "u4l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2809,10 +3512,10 @@
        "prompt": "İki çocuğum var.",
        "promptLang": "target",
        "options": [
-        "One moment, please.",
-        "It is three o'clock.",
         "I have two children.",
-        "Two teas, please."
+        "It is three o'clock.",
+        "How much is it?",
+        "One coffee, please."
        ],
        "answer": "I have two children.",
        "words": [
@@ -2828,39 +3531,39 @@
          "Five"
         ],
         [
-         "dokuz",
-         "Nine"
-        ],
-        [
-         "bir",
-         "One"
+         "yedi",
+         "Seven"
         ],
         [
          "on",
          "Ten"
+        ],
+        [
+         "üç",
+         "Three"
         ]
        ],
        "words": [
         "beş",
-        "dokuz",
-        "bir",
-        "on"
+        "yedi",
+        "on",
+        "üç"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Two",
+       "prompt": "One",
        "promptLang": "en",
-       "answer": "iki",
+       "answer": "bir",
        "words": [
-        "iki"
+        "bir"
        ],
        "options": [
-        "on",
+        "altı",
+        "bir",
         "iki",
-        "yedi",
-        "üç"
+        "dokuz"
        ]
       },
       {
@@ -2869,12 +3572,12 @@
        "prompt": "I have four apples.",
        "promptLang": "en",
        "tiles": [
-        "İki",
-        "elmam",
-        "Saat",
+        "Bir",
         "Dört",
+        "Bu",
         "var",
-        "kadar"
+        "elmam",
+        "kahve"
        ],
        "answer": [
         "Dört",
@@ -2887,30 +3590,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Bir dakika, lütfen.",
-       "translation": "One moment, please.",
-       "answers": [
-        "Bir dakika, lütfen."
-       ],
-       "words": [
-        "lütfen",
-        "bir"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Bir kahve, lütfen.",
        "promptLang": "target",
        "tiles": [
-        "three",
-        "have",
+        "four",
         "please",
+        "I",
+        "One",
         "coffee",
-        "moment",
-        "One"
+        "children"
        ],
        "answer": [
         "One",
@@ -2928,15 +3618,29 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Three",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bir dakika, lütfen.",
+       "translation": "One moment, please.",
        "answers": [
-        "üç"
+        "Bir dakika, lütfen."
        ],
        "words": [
-        "üç"
+        "lütfen",
+        "bir"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "İki çay, lütfen.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "İki çay, lütfen."
+       ],
+       "words": [
+        "lütfen",
+        "çay"
        ]
       },
       {
@@ -2955,16 +3659,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "İki çay, lütfen.",
-       "translation": "Two teas, please.",
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Eight",
+       "promptLang": "en",
        "answers": [
-        "İki çay, lütfen."
+        "sekiz"
        ],
        "words": [
-        "lütfen",
-        "çay"
+        "sekiz"
        ]
       }
      ]
@@ -2976,11 +3679,125 @@
    "title": "Travel and directions",
    "description": "Find your way around a new city.",
    "icon": "train",
-   "tip": "Endings show direction and place: 'sola' (to the left), 'sağda' (on the right), 'evde' (at home).",
+   "tips": [
+    "Endings show direction and place: 'sola' (to the left), 'sağda' (on the right), 'evde' (at home)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "otel",
+      "e": "Hotel"
+     },
+     {
+      "t": "istasyon",
+      "e": "Station"
+     },
+     {
+      "t": "havalimanı",
+      "e": "Airport"
+     },
+     {
+      "t": "bilet",
+      "e": "Ticket"
+     },
+     {
+      "t": "sol",
+      "e": "Left"
+     },
+     {
+      "t": "sağ",
+      "e": "Right"
+     },
+     {
+      "t": "nerede",
+      "e": "Where"
+     },
+     {
+      "t": "tuvalet",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Otel nerede?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Tuvalet nerede?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Sola dönün.",
+      "e": "Turn left."
+     },
+     {
+      "t": "İstasyon sağda.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Bir bilet, lütfen.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Havalimanına gidiyorum.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Uzak mı?",
+      "e": "Is it far?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u5l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "otel",
+       "e": "Hotel",
+       "kind": "word"
+      },
+      {
+       "t": "istasyon",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "gar"
+       ]
+      },
+      {
+       "t": "havalimanı",
+       "e": "Airport",
+       "kind": "word",
+       "alts": [
+        "havaalanı"
+       ]
+      },
+      {
+       "t": "bilet",
+       "e": "Ticket",
+       "kind": "word"
+      },
+      {
+       "t": "Otel nerede?",
+       "e": "Where is the hotel?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sola dönün.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Sola dön."
+       ]
+      },
+      {
+       "t": "Tuvalet nerede?",
+       "e": "Where is the toilet?",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2990,7 +3807,7 @@
        "options": [
         "Ticket",
         "Station",
-        "Left",
+        "Toilet",
         "Hotel"
        ],
        "answer": "Hotel",
@@ -3012,6 +3829,34 @@
        "answer": "Station",
        "words": [
         "istasyon"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "otel",
+         "Hotel"
+        ],
+        [
+         "istasyon",
+         "Station"
+        ],
+        [
+         "havalimanı",
+         "Airport"
+        ],
+        [
+         "bilet",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "otel",
+        "istasyon",
+        "havalimanı",
+        "bilet"
        ]
       },
       {
@@ -3047,34 +3892,6 @@
        ]
       },
       {
-       "type": "match",
-       "instruction": "Match the pairs",
-       "pairs": [
-        [
-         "otel",
-         "Hotel"
-        ],
-        [
-         "istasyon",
-         "Station"
-        ],
-        [
-         "havalimanı",
-         "Airport"
-        ],
-        [
-         "bilet",
-         "Ticket"
-        ]
-       ],
-       "words": [
-        "otel",
-        "istasyon",
-        "havalimanı",
-        "bilet"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "Where is the hotel?",
@@ -3094,19 +3911,6 @@
        "words": [
         "otel",
         "nerede"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Tuvalet nerede?",
-       "translation": "Where is the toilet?",
-       "answers": [
-        "Tuvalet nerede?"
-       ],
-       "words": [
-        "nerede",
-        "tuvalet"
        ]
       },
       {
@@ -3133,6 +3937,19 @@
        ]
       },
       {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tuvalet nerede?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Tuvalet nerede?"
+       ],
+       "words": [
+        "nerede",
+        "tuvalet"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in English",
        "prompt": "Otel nerede?",
@@ -3150,6 +3967,54 @@
     {
      "id": "u5l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "sol",
+       "e": "Left",
+       "kind": "word",
+       "alts": [
+        "sola",
+        "solda"
+       ]
+      },
+      {
+       "t": "sağ",
+       "e": "Right",
+       "kind": "word",
+       "alts": [
+        "sağa",
+        "sağda"
+       ]
+      },
+      {
+       "t": "nerede",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "tuvalet",
+       "e": "Toilet",
+       "kind": "word"
+      },
+      {
+       "t": "İstasyon sağda.",
+       "e": "The station is on the right.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Bir bilet, lütfen.",
+       "e": "A ticket, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Havalimanına gidiyorum.",
+       "e": "I am going to the airport.",
+       "kind": "phrase",
+       "alts": [
+        "Havaalanına gidiyorum."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3169,50 +4034,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Right",
-       "promptLang": "en",
-       "answer": "sağ",
-       "words": [
-        "sağ"
-       ],
-       "options": [
-        "sol",
-        "sağ",
-        "istasyon",
-        "otel"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "nerede",
+       "prompt": "sağ",
        "promptLang": "target",
        "options": [
-        "Hotel",
-        "Where",
-        "Airport",
-        "Station"
+        "Left",
+        "Right",
+        "Station",
+        "Hotel"
        ],
-       "answer": "Where",
+       "answer": "Right",
        "words": [
-        "nerede"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Toilet",
-       "promptLang": "en",
-       "answer": "tuvalet",
-       "words": [
-        "tuvalet"
-       ],
-       "options": [
-        "istasyon",
-        "tuvalet",
-        "havalimanı",
-        "bilet"
+        "sağ"
        ]
       },
       {
@@ -3241,6 +4074,38 @@
         "sağ",
         "nerede",
         "tuvalet"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "nerede",
+       "words": [
+        "nerede"
+       ],
+       "options": [
+        "otel",
+        "nerede",
+        "havalimanı",
+        "istasyon"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "tuvalet",
+       "words": [
+        "tuvalet"
+       ],
+       "options": [
+        "istasyon",
+        "tuvalet",
+        "havalimanı",
+        "bilet"
        ]
       },
       {
@@ -3333,33 +4198,24 @@
     {
      "id": "u5l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Uzak mı?",
-       "promptLang": "target",
-       "options": [
-        "Is it far?",
-        "A ticket, please.",
-        "Where is the hotel?",
-        "The station is on the right."
-       ],
-       "answer": "Is it far?",
-       "words": [
-        "Uzak mı?"
-       ]
-      },
+       "t": "Uzak mı?",
+       "e": "Is it far?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "istasyon",
        "promptLang": "target",
        "options": [
-        "Station",
-        "Ticket",
         "Toilet",
-        "Right"
+        "Left",
+        "Right",
+        "Station"
        ],
        "answer": "Station",
        "words": [
@@ -3371,51 +4227,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "nerede",
-         "Where"
-        ],
-        [
-         "sağ",
-         "Right"
-        ],
-        [
-         "tuvalet",
-         "Toilet"
+         "havalimanı",
+         "Airport"
         ],
         [
          "sol",
          "Left"
         ],
         [
-         "havalimanı",
-         "Airport"
+         "nerede",
+         "Where"
+        ],
+        [
+         "istasyon",
+         "Station"
+        ],
+        [
+         "bilet",
+         "Ticket"
         ]
        ],
        "words": [
-        "nerede",
-        "sağ",
-        "tuvalet",
+        "havalimanı",
         "sol",
-        "havalimanı"
+        "nerede",
+        "istasyon",
+        "bilet"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "Is it far?",
-       "promptLang": "en",
-       "tiles": [
-        "bilet",
-        "Uzak",
-        "Bir",
-        "gidiyorum",
-        "mı"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Uzak mı?",
+       "promptLang": "target",
+       "options": [
+        "Is it far?",
+        "I am going to the airport.",
+        "Turn left.",
+        "The station is on the right."
        ],
-       "answer": [
-        "Uzak",
-        "mı"
-       ],
-       "accepted": [],
+       "answer": "Is it far?",
        "words": [
         "Uzak mı?"
        ]
@@ -3426,13 +4277,13 @@
        "prompt": "Tuvalet nerede?",
        "promptLang": "target",
        "tiles": [
-        "the",
-        "Where",
-        "is",
         "toilet",
-        "A",
-        "it",
-        "I"
+        "Where",
+        "the",
+        "Turn",
+        "I",
+        "please",
+        "is"
        ],
        "answer": [
         "Where",
@@ -3451,55 +4302,24 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Havalimanına gidiyorum.",
-       "translation": "I am going to the airport.",
-       "answers": [
-        "Havalimanına gidiyorum."
-       ],
-       "words": [
-        "Havalimanına gidiyorum."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "A ticket, please.",
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "Is it far?",
        "promptLang": "en",
-       "answers": [
-        "Bir bilet, lütfen."
+       "tiles": [
+        "gidiyorum",
+        "Uzak",
+        "mı",
+        "sağda",
+        "lütfen"
        ],
-       "words": [
-        "lütfen",
-        "bir",
-        "bilet"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in English",
-       "prompt": "Sola dönün.",
-       "promptLang": "target",
-       "answers": [
-        "Turn left.",
-        "Go left."
+       "answer": [
+        "Uzak",
+        "mı"
        ],
+       "accepted": [],
        "words": [
-        "sol"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Station",
-       "promptLang": "en",
-       "answers": [
-        "istasyon",
-        "gar"
-       ],
-       "words": [
-        "istasyon"
+        "Uzak mı?"
        ]
       },
       {
@@ -3524,12 +4344,65 @@
        "words": [
         "Havalimanına gidiyorum."
        ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Havalimanına gidiyorum.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Havalimanına gidiyorum."
+       ],
+       "words": [
+        "Havalimanına gidiyorum."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sola dönün.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "sol"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Bir bilet, lütfen."
+       ],
+       "words": [
+        "lütfen",
+        "bir",
+        "bilet"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "istasyon",
+        "gar"
+       ],
+       "words": [
+        "istasyon"
+       ]
       }
      ]
     },
     {
      "id": "u5l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -3537,10 +4410,10 @@
        "prompt": "Otel nerede?",
        "promptLang": "target",
        "options": [
-        "The station is on the right.",
-        "Is it far?",
+        "Where is the toilet?",
+        "A ticket, please.",
         "Where is the hotel?",
-        "I am going to the airport."
+        "Is it far?"
        ],
        "answer": "Where is the hotel?",
        "words": [
@@ -3553,12 +4426,12 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "istasyon",
-         "Station"
+         "otel",
+         "Hotel"
         ],
         [
-         "bilet",
-         "Ticket"
+         "havalimanı",
+         "Airport"
         ],
         [
          "tuvalet",
@@ -3570,8 +4443,8 @@
         ]
        ],
        "words": [
-        "istasyon",
-        "bilet",
+        "otel",
+        "havalimanı",
         "tuvalet",
         "sağ"
        ]
@@ -3579,17 +4452,17 @@
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Airport",
+       "prompt": "Ticket",
        "promptLang": "en",
-       "answer": "havalimanı",
+       "answer": "bilet",
        "words": [
-        "havalimanı"
+        "bilet"
        ],
        "options": [
-        "sağ",
-        "istasyon",
         "sol",
-        "havalimanı"
+        "havalimanı",
+        "bilet",
+        "sağ"
        ]
       },
       {
@@ -3599,10 +4472,10 @@
        "promptLang": "en",
        "tiles": [
         "dönün",
-        "gidiyorum",
-        "bilet",
-        "Sola",
-        "İstasyon"
+        "Tuvalet",
+        "Uzak",
+        "sağda",
+        "Sola"
        ],
        "answer": [
         "Sola",
@@ -3616,32 +4489,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Uzak mı?",
-       "translation": "Is it far?",
-       "answers": [
-        "Uzak mı?"
-       ],
-       "words": [
-        "Uzak mı?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "İstasyon sağda.",
        "promptLang": "target",
        "tiles": [
         "right",
-        "A",
+        "airport",
+        "I",
         "The",
-        "is",
-        "the",
-        "it",
-        "am",
         "station",
-        "on"
+        "on",
+        "going",
+        "is",
+        "the"
        ],
        "answer": [
         "The",
@@ -3660,17 +4521,29 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "Left",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Uzak mı?",
+       "translation": "Is it far?",
        "answers": [
-        "sol",
-        "sola",
-        "solda"
+        "Uzak mı?"
        ],
        "words": [
-        "sol"
+        "Uzak mı?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bir bilet, lütfen.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Bir bilet, lütfen."
+       ],
+       "words": [
+        "lütfen",
+        "bir",
+        "bilet"
        ]
       },
       {
@@ -3690,17 +4563,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Bir bilet, lütfen.",
-       "translation": "A ticket, please.",
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Where",
+       "promptLang": "en",
        "answers": [
-        "Bir bilet, lütfen."
+        "nerede"
        ],
        "words": [
-        "lütfen",
-        "bir",
-        "bilet"
+        "nerede"
        ]
       }
      ]
@@ -3712,11 +4583,116 @@
    "title": "Daily routine",
    "description": "Home, work, school and the time of day.",
    "icon": "calendar",
-   "tip": "Dotted 'i' and dotless 'ı' are different letters: 'kız' (girl, daughter) needs the dotless ı.",
+   "tips": [
+    "Dotted 'i' and dotless 'ı' are different letters: 'kız' (girl, daughter) needs the dotless ı."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "bugün",
+      "e": "Today"
+     },
+     {
+      "t": "yarın",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "şimdi",
+      "e": "Now"
+     },
+     {
+      "t": "sabah",
+      "e": "Morning"
+     },
+     {
+      "t": "gece",
+      "e": "Night"
+     },
+     {
+      "t": "ev",
+      "e": "House"
+     },
+     {
+      "t": "iş",
+      "e": "Work"
+     },
+     {
+      "t": "okul",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "İşe gidiyorum.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Evdeyim.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Bugün pazartesi.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Sabah kahve içerim.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Gece uyurum.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Çocuklar okula gidiyor.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Şimdi saat kaç?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u6l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "bugün",
+       "e": "Today",
+       "kind": "word"
+      },
+      {
+       "t": "yarın",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "şimdi",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "sabah",
+       "e": "Morning",
+       "kind": "word"
+      },
+      {
+       "t": "İşe gidiyorum.",
+       "e": "I go to work.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Bugün pazartesi.",
+       "e": "Today is Monday.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Evdeyim.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3724,10 +4700,10 @@
        "prompt": "bugün",
        "promptLang": "target",
        "options": [
-        "Today",
-        "House",
-        "Morning",
-        "Now"
+        "School",
+        "Night",
+        "Work",
+        "Today"
        ],
        "answer": "Today",
        "words": [
@@ -3740,46 +4716,14 @@
        "prompt": "yarın",
        "promptLang": "target",
        "options": [
-        "School",
-        "Night",
+        "Tomorrow",
+        "House",
         "Work",
-        "Tomorrow"
+        "Morning"
        ],
        "answer": "Tomorrow",
        "words": [
         "yarın"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Now",
-       "promptLang": "en",
-       "answer": "şimdi",
-       "words": [
-        "şimdi"
-       ],
-       "options": [
-        "şimdi",
-        "ev",
-        "iş",
-        "sabah"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "sabah",
-       "promptLang": "target",
-       "options": [
-        "House",
-        "Night",
-        "Now",
-        "Morning"
-       ],
-       "answer": "Morning",
-       "words": [
-        "sabah"
        ]
       },
       {
@@ -3811,16 +4755,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "şimdi",
+       "words": [
+        "şimdi"
+       ],
+       "options": [
+        "ev",
+        "gece",
+        "sabah",
+        "şimdi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sabah",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Morning",
+        "Work",
+        "House"
+       ],
+       "answer": "Morning",
+       "words": [
+        "sabah"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "I go to work.",
        "promptLang": "en",
        "tiles": [
-        "Bugün",
-        "İşe",
+        "uyurum",
         "gidiyorum",
-        "Evdeyim",
-        "içerim"
+        "gidiyor",
+        "pazartesi",
+        "İşe"
        ],
        "answer": [
         "İşe",
@@ -3829,6 +4805,31 @@
        "accepted": [],
        "words": [
         "İşe gidiyorum."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Bugün pazartesi.",
+       "promptLang": "target",
+       "tiles": [
+        "Monday",
+        "is",
+        "Today",
+        "time",
+        "children",
+        "to"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "bugün"
        ]
       },
       {
@@ -3841,31 +4842,6 @@
        ],
        "words": [
         "Evdeyim."
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Bugün pazartesi.",
-       "promptLang": "target",
-       "tiles": [
-        "is",
-        "Monday",
-        "work",
-        "Today",
-        "morning",
-        "sleep"
-       ],
-       "answer": [
-        "Today",
-        "is",
-        "Monday"
-       ],
-       "accepted": [
-        "It is Monday today."
-       ],
-       "words": [
-        "bugün"
        ]
       },
       {
@@ -3886,6 +4862,52 @@
     {
      "id": "u6l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "gece",
+       "e": "Night",
+       "kind": "word"
+      },
+      {
+       "t": "ev",
+       "e": "House",
+       "kind": "word"
+      },
+      {
+       "t": "iş",
+       "e": "Work",
+       "kind": "word"
+      },
+      {
+       "t": "okul",
+       "e": "School",
+       "kind": "word"
+      },
+      {
+       "t": "Sabah kahve içerim.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Sabahları kahve içerim."
+       ]
+      },
+      {
+       "t": "Gece uyurum.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "alts": [
+        "Geceleri uyurum."
+       ]
+      },
+      {
+       "t": "Çocuklar okula gidiyor.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "alts": [
+        "Çocuklar okula gider."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3893,10 +4915,10 @@
        "prompt": "gece",
        "promptLang": "target",
        "options": [
-        "Morning",
         "Night",
-        "Work",
-        "House"
+        "Today",
+        "House",
+        "Tomorrow"
        ],
        "answer": "Night",
        "words": [
@@ -3905,50 +4927,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "House",
-       "promptLang": "en",
-       "answer": "ev",
-       "words": [
-        "ev"
-       ],
-       "options": [
-        "şimdi",
-        "ev",
-        "iş",
-        "bugün"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "iş",
+       "prompt": "ev",
        "promptLang": "target",
        "options": [
-        "Work",
+        "Today",
         "House",
         "Now",
-        "Today"
+        "School"
        ],
-       "answer": "Work",
+       "answer": "House",
        "words": [
-        "iş"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "School",
-       "promptLang": "en",
-       "answer": "okul",
-       "words": [
-        "okul"
-       ],
-       "options": [
-        "okul",
-        "sabah",
-        "şimdi",
-        "iş"
+        "ev"
        ]
       },
       {
@@ -3980,6 +4970,38 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "iş",
+       "words": [
+        "iş"
+       ],
+       "options": [
+        "iş",
+        "gece",
+        "şimdi",
+        "ev"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "okul",
+       "words": [
+        "okul"
+       ],
+       "options": [
+        "sabah",
+        "şimdi",
+        "okul",
+        "ev"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Turkish",
        "prompt": "I drink coffee in the morning.",
@@ -3987,10 +5009,10 @@
        "tiles": [
         "Sabah",
         "içerim",
-        "pazartesi",
-        "Evdeyim",
+        "Bugün",
+        "İşe",
         "kahve",
-        "kaç"
+        "uyurum"
        ],
        "answer": [
         "Sabah",
@@ -4011,13 +5033,13 @@
        "prompt": "Gece uyurum.",
        "promptLang": "target",
        "tiles": [
-        "the",
-        "at",
-        "sleep",
-        "work",
-        "night",
+        "school",
         "I",
-        "it"
+        "Today",
+        "sleep",
+        "at",
+        "go",
+        "night"
        ],
        "answer": [
         "I",
@@ -4077,32 +5099,26 @@
     {
      "id": "u6l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Şimdi saat kaç?",
-       "promptLang": "target",
-       "options": [
-        "What time is it now?",
-        "I sleep at night.",
-        "I am at home.",
-        "The children go to school."
-       ],
-       "answer": "What time is it now?",
-       "words": [
-        "şimdi"
+       "t": "Şimdi saat kaç?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "alts": [
+        "Saat kaç?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "yarın",
        "promptLang": "target",
        "options": [
-        "Now",
-        "House",
+        "School",
         "Today",
+        "Work",
         "Tomorrow"
        ],
        "answer": "Tomorrow",
@@ -4115,55 +5131,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "yarın",
-         "Tomorrow"
-        ],
-        [
-         "bugün",
-         "Today"
-        ],
-        [
-         "sabah",
-         "Morning"
+         "ev",
+         "House"
         ],
         [
          "gece",
          "Night"
         ],
         [
+         "şimdi",
+         "Now"
+        ],
+        [
          "iş",
          "Work"
+        ],
+        [
+         "sabah",
+         "Morning"
         ]
        ],
        "words": [
-        "yarın",
-        "bugün",
-        "sabah",
+        "ev",
         "gece",
-        "iş"
+        "şimdi",
+        "iş",
+        "sabah"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "What time is it now?",
-       "promptLang": "en",
-       "tiles": [
-        "saat",
-        "gidiyor",
-        "gidiyorum",
-        "Şimdi",
-        "Evdeyim",
-        "kaç"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Şimdi saat kaç?",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I go to work.",
+        "I sleep at night.",
+        "The children go to school."
        ],
-       "answer": [
-        "Şimdi",
-        "saat",
-        "kaç"
-       ],
-       "accepted": [
-        "Saat kaç?"
-       ],
+       "answer": "What time is it now?",
        "words": [
         "şimdi"
        ]
@@ -4174,13 +5181,13 @@
        "prompt": "Evdeyim.",
        "promptLang": "target",
        "tiles": [
-        "home",
-        "children",
+        "sleep",
+        "at",
+        "am",
         "I",
         "the",
-        "am",
-        "at",
-        "school"
+        "now",
+        "home"
        ],
        "answer": [
         "I",
@@ -4196,6 +5203,56 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "uyurum",
+        "Şimdi",
+        "Bugün",
+        "kaç",
+        "içerim",
+        "saat"
+       ],
+       "answer": [
+        "Şimdi",
+        "saat",
+        "kaç"
+       ],
+       "accepted": [
+        "Saat kaç?"
+       ],
+       "words": [
+        "şimdi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "Bugün",
+        "okula",
+        "İşe",
+        "Çocuklar",
+        "gidiyor",
+        "Sabah"
+       ],
+       "answer": [
+        "Çocuklar",
+        "okula",
+        "gidiyor"
+       ],
+       "accepted": [
+        "Çocuklar okula gider."
+       ],
+       "words": [
+        "Çocuklar okula gidiyor."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Çocuklar okula gidiyor.",
@@ -4205,19 +5262,6 @@
        ],
        "words": [
         "Çocuklar okula gidiyor."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "I sleep at night.",
-       "promptLang": "en",
-       "answers": [
-        "Gece uyurum.",
-        "Geceleri uyurum."
-       ],
-       "words": [
-        "gece"
        ]
       },
       {
@@ -4236,6 +5280,19 @@
       {
        "type": "type",
        "instruction": "Type this in Turkish",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Gece uyurum.",
+        "Geceleri uyurum."
+       ],
+       "words": [
+        "gece"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
        "prompt": "Tomorrow",
        "promptLang": "en",
        "answers": [
@@ -4244,37 +5301,13 @@
        "words": [
         "yarın"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Turkish",
-       "prompt": "The children go to school.",
-       "promptLang": "en",
-       "tiles": [
-        "uyurum",
-        "Çocuklar",
-        "Gece",
-        "okula",
-        "gidiyor",
-        "kahve"
-       ],
-       "answer": [
-        "Çocuklar",
-        "okula",
-        "gidiyor"
-       ],
-       "accepted": [
-        "Çocuklar okula gider."
-       ],
-       "words": [
-        "Çocuklar okula gidiyor."
-       ]
       }
      ]
     },
     {
      "id": "u6l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -4282,8 +5315,8 @@
        "prompt": "İşe gidiyorum.",
        "promptLang": "target",
        "options": [
+        "I am at home.",
         "The children go to school.",
-        "What time is it now?",
         "I go to work.",
         "I drink coffee in the morning."
        ],
@@ -4297,42 +5330,42 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "iş",
-         "Work"
-        ],
-        [
-         "şimdi",
-         "Now"
-        ],
-        [
-         "bugün",
-         "Today"
-        ],
-        [
          "gece",
          "Night"
+        ],
+        [
+         "yarın",
+         "Tomorrow"
+        ],
+        [
+         "ev",
+         "House"
+        ],
+        [
+         "sabah",
+         "Morning"
         ]
        ],
        "words": [
-        "iş",
-        "şimdi",
-        "bugün",
-        "gece"
+        "gece",
+        "yarın",
+        "ev",
+        "sabah"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "School",
+       "prompt": "Work",
        "promptLang": "en",
-       "answer": "okul",
+       "answer": "iş",
        "words": [
-        "okul"
+        "iş"
        ],
        "options": [
         "ev",
-        "okul",
         "iş",
+        "okul",
         "bugün"
        ]
       },
@@ -4355,18 +5388,6 @@
        "accepted": [],
        "words": [
         "bugün"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Şimdi saat kaç?",
-       "translation": "What time is it now?",
-       "answers": [
-        "Şimdi saat kaç?"
-       ],
-       "words": [
-        "şimdi"
        ]
       },
       {
@@ -4403,15 +5424,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Turkish",
-       "prompt": "House",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Şimdi saat kaç?",
+       "translation": "What time is it now?",
        "answers": [
-        "ev"
+        "Şimdi saat kaç?"
        ],
        "words": [
-        "ev"
+        "şimdi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Gece uyurum.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Gece uyurum."
+       ],
+       "words": [
+        "gece"
        ]
       },
       {
@@ -4428,15 +5461,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Gece uyurum.",
-       "translation": "I sleep at night.",
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Now",
+       "promptLang": "en",
        "answers": [
-        "Gece uyurum."
+        "şimdi"
        ],
        "words": [
-        "gece"
+        "şimdi"
        ]
       }
      ]

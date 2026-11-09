@@ -19,6 +19,7 @@
   "ź",
   "ż"
  ],
+ "particles": [],
  "order": 70,
  "description": "Everyday Polish: greetings, family, food, numbers, getting around and your day.",
  "units": [
@@ -27,11 +28,137 @@
    "title": "Greetings",
    "description": "Say hello, introduce yourself and be polite.",
    "icon": "wave",
-   "tip": "'Cześć' is informal (hi / bye). 'Dzień dobry' is the polite greeting during the day.",
+   "tips": [
+    "'Cześć' is informal (hi / bye). 'Dzień dobry' is the polite greeting during the day."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "cześć",
+      "e": "Hello"
+     },
+     {
+      "t": "do widzenia",
+      "e": "Goodbye"
+     },
+     {
+      "t": "dziękuję",
+      "e": "Thank you"
+     },
+     {
+      "t": "proszę",
+      "e": "Please"
+     },
+     {
+      "t": "tak",
+      "e": "Yes"
+     },
+     {
+      "t": "nie",
+      "e": "No"
+     },
+     {
+      "t": "dzień dobry",
+      "e": "Good morning"
+     },
+     {
+      "t": "przepraszam",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Jak się masz?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Dobrze, dziękuję.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Mam na imię Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Miło mi.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Dziękuję bardzo.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Do jutra.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Jak masz na imię?",
+      "e": "What is your name?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u1l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "cześć",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "dzień dobry"
+       ]
+      },
+      {
+       "t": "do widzenia",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "cześć"
+       ]
+      },
+      {
+       "t": "dziękuję",
+       "e": "Thank you",
+       "kind": "word",
+       "alts": [
+        "dzięki"
+       ]
+      },
+      {
+       "t": "proszę",
+       "e": "Please",
+       "kind": "word"
+      },
+      {
+       "t": "Jak się masz?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Co słychać?",
+        "Jak się pan ma?",
+        "Jak się pani ma?"
+       ]
+      },
+      {
+       "t": "Mam na imię Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Nazywam się Anna.",
+        "Jestem Anna."
+       ]
+      },
+      {
+       "t": "Dobrze, dziękuję.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Mam się dobrze, dziękuję."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -39,10 +166,10 @@
        "prompt": "cześć",
        "promptLang": "target",
        "options": [
+        "Hello",
         "Goodbye",
-        "Please",
         "No",
-        "Hello"
+        "Good morning"
        ],
        "answer": "Hello",
        "words": [
@@ -55,46 +182,14 @@
        "prompt": "do widzenia",
        "promptLang": "target",
        "options": [
-        "Sorry",
+        "Good morning",
         "No",
         "Goodbye",
-        "Hello"
+        "Thank you"
        ],
        "answer": "Goodbye",
        "words": [
         "do widzenia"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
-       "promptLang": "en",
-       "answer": "dziękuję",
-       "words": [
-        "dziękuję"
-       ],
-       "options": [
-        "nie",
-        "przepraszam",
-        "dziękuję",
-        "dzień dobry"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "proszę",
-       "promptLang": "target",
-       "options": [
-        "Please",
-        "Sorry",
-        "Thank you",
-        "No"
-       ],
-       "answer": "Please",
-       "words": [
-        "proszę"
        ]
       },
       {
@@ -126,17 +221,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "dziękuję",
+       "words": [
+        "dziękuję"
+       ],
+       "options": [
+        "tak",
+        "nie",
+        "dzień dobry",
+        "dziękuję"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "proszę",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Thank you",
+        "Goodbye",
+        "Yes"
+       ],
+       "answer": "Please",
+       "words": [
+        "proszę"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "How are you?",
        "promptLang": "en",
        "tiles": [
-        "Jak",
         "masz",
-        "Miło",
-        "Do",
-        "jutra",
-        "się"
+        "Mam",
+        "się",
+        "na",
+        "Jak",
+        "mi"
        ],
        "answer": [
         "Jak",
@@ -153,30 +280,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Dobrze, dziękuję.",
-       "translation": "I am fine, thank you.",
-       "answers": [
-        "Dobrze, dziękuję."
-       ],
-       "words": [
-        "dziękuję"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Mam na imię Anna.",
        "promptLang": "target",
        "tiles": [
-        "My",
-        "is",
-        "Nice",
+        "meet",
         "name",
+        "is",
+        "How",
         "See",
-        "very",
-        "Anna"
+        "Anna",
+        "My"
        ],
        "answer": [
         "My",
@@ -190,6 +305,18 @@
        ],
        "words": [
         "Mam na imię Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dobrze, dziękuję.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Dobrze, dziękuję."
+       ],
+       "words": [
+        "dziękuję"
        ]
       },
       {
@@ -210,6 +337,46 @@
     {
      "id": "u1l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "tak",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "nie",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "dzień dobry",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "przepraszam",
+       "e": "Sorry",
+       "kind": "word"
+      },
+      {
+       "t": "Miło mi.",
+       "e": "Nice to meet you.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Dziękuję bardzo.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Bardzo dziękuję."
+       ]
+      },
+      {
+       "t": "Do jutra.",
+       "e": "See you tomorrow.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -217,10 +384,10 @@
        "prompt": "tak",
        "promptLang": "target",
        "options": [
-        "Good morning",
+        "Goodbye",
         "Yes",
-        "Sorry",
-        "Please"
+        "Please",
+        "Sorry"
        ],
        "answer": "Yes",
        "words": [
@@ -229,49 +396,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "No",
-       "promptLang": "en",
-       "answer": "nie",
-       "words": [
-        "nie"
-       ],
-       "options": [
-        "dziękuję",
-        "nie",
-        "do widzenia",
-        "cześć"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "dzień dobry",
+       "prompt": "nie",
        "promptLang": "target",
        "options": [
-        "Thank you",
-        "Yes",
+        "No",
+        "Goodbye",
         "Good morning",
-        "Goodbye"
+        "Sorry"
        ],
-       "answer": "Good morning",
+       "answer": "No",
        "words": [
-        "dzień dobry"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
-       "promptLang": "en",
-       "answer": "przepraszam",
-       "words": [
-        "przepraszam"
-       ],
-       "options": [
-        "przepraszam",
-        "do widzenia",
-        "dzień dobry",
         "nie"
        ]
       },
@@ -304,16 +439,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "dzień dobry",
+       "words": [
+        "dzień dobry"
+       ],
+       "options": [
+        "przepraszam",
+        "tak",
+        "dzień dobry",
+        "dziękuję"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "przepraszam",
+       "words": [
+        "przepraszam"
+       ],
+       "options": [
+        "do widzenia",
+        "proszę",
+        "przepraszam",
+        "cześć"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "Nice to meet you.",
        "promptLang": "en",
        "tiles": [
-        "mi",
         "Do",
-        "Miło",
-        "Mam",
-        "na"
+        "Dobrze",
+        "mi",
+        "dziękuję",
+        "Miło"
        ],
        "answer": [
         "Miło",
@@ -331,12 +498,12 @@
        "promptLang": "target",
        "tiles": [
         "very",
-        "your",
+        "Thank",
         "you",
+        "am",
+        "your",
         "much",
-        "fine",
-        "is",
-        "Thank"
+        "How"
        ],
        "answer": [
         "Thank",
@@ -396,23 +563,17 @@
     {
      "id": "u1l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Jak masz na imię?",
-       "promptLang": "target",
-       "options": [
-        "What is your name?",
-        "My name is Anna.",
-        "See you tomorrow.",
-        "I am fine, thank you."
-       ],
-       "answer": "What is your name?",
-       "words": [
-        "Jak masz na imię?"
+       "t": "Jak masz na imię?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Jak się nazywasz?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -420,9 +581,9 @@
        "promptLang": "target",
        "options": [
         "Yes",
-        "Sorry",
-        "Goodbye",
-        "No"
+        "No",
+        "Good morning",
+        "Goodbye"
        ],
        "answer": "Goodbye",
        "words": [
@@ -438,53 +599,42 @@
          "Goodbye"
         ],
         [
+         "proszę",
+         "Please"
+        ],
+        [
          "przepraszam",
          "Sorry"
         ],
         [
-         "tak",
-         "Yes"
-        ],
-        [
-         "nie",
-         "No"
-        ],
-        [
          "dzień dobry",
          "Good morning"
+        ],
+        [
+         "dziękuję",
+         "Thank you"
         ]
        ],
        "words": [
         "do widzenia",
+        "proszę",
         "przepraszam",
-        "tak",
-        "nie",
-        "dzień dobry"
+        "dzień dobry",
+        "dziękuję"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "What is your name?",
-       "promptLang": "en",
-       "tiles": [
-        "Jak",
-        "imię",
-        "dziękuję",
-        "na",
-        "mi",
-        "masz",
-        "Miło"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jak masz na imię?",
+       "promptLang": "target",
+       "options": [
+        "Thank you very much.",
+        "My name is Anna.",
+        "What is your name?",
+        "Nice to meet you."
        ],
-       "answer": [
-        "Jak",
-        "masz",
-        "na",
-        "imię"
-       ],
-       "accepted": [
-        "Jak się nazywasz?"
-       ],
+       "answer": "What is your name?",
        "words": [
         "Jak masz na imię?"
        ]
@@ -495,14 +645,14 @@
        "prompt": "Dobrze, dziękuję.",
        "promptLang": "target",
        "tiles": [
-        "am",
-        "thank",
-        "is",
-        "I",
+        "fine",
+        "meet",
+        "are",
         "you",
-        "much",
-        "My",
-        "fine"
+        "thank",
+        "I",
+        "am",
+        "your"
        ],
        "answer": [
         "I",
@@ -524,6 +674,54 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "Do",
+        "Jak",
+        "Dobrze",
+        "masz",
+        "na",
+        "Mam",
+        "imię"
+       ],
+       "answer": [
+        "Jak",
+        "masz",
+        "na",
+        "imię"
+       ],
+       "accepted": [
+        "Jak się nazywasz?"
+       ],
+       "words": [
+        "Jak masz na imię?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "jutra",
+        "Do",
+        "imię",
+        "się",
+        "masz"
+       ],
+       "answer": [
+        "Do",
+        "jutra"
+       ],
+       "accepted": [],
+       "words": [
+        "Do jutra."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Do jutra.",
@@ -533,19 +731,6 @@
        ],
        "words": [
         "Do jutra."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Thank you very much.",
-       "promptLang": "en",
-       "answers": [
-        "Dziękuję bardzo.",
-        "Bardzo dziękuję."
-       ],
-       "words": [
-        "dziękuję"
        ]
       },
       {
@@ -565,6 +750,19 @@
       {
        "type": "type",
        "instruction": "Type this in Polish",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Dziękuję bardzo.",
+        "Bardzo dziękuję."
+       ],
+       "words": [
+        "dziękuję"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
        "prompt": "Goodbye",
        "promptLang": "en",
        "answers": [
@@ -574,33 +772,13 @@
        "words": [
         "do widzenia"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "See you tomorrow.",
-       "promptLang": "en",
-       "tiles": [
-        "jutra",
-        "Do",
-        "imię",
-        "Jak",
-        "Dobrze"
-       ],
-       "answer": [
-        "Do",
-        "jutra"
-       ],
-       "accepted": [],
-       "words": [
-        "Do jutra."
-       ]
       }
      ]
     },
     {
      "id": "u1l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -608,10 +786,10 @@
        "prompt": "Jak się masz?",
        "promptLang": "target",
        "options": [
-        "Thank you very much.",
-        "What is your name?",
-        "See you tomorrow.",
-        "How are you?"
+        "How are you?",
+        "Nice to meet you.",
+        "I am fine, thank you.",
+        "Thank you very much."
        ],
        "answer": "How are you?",
        "words": [
@@ -623,43 +801,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "dzień dobry",
-         "Good morning"
+         "do widzenia",
+         "Goodbye"
+        ],
+        [
+         "dziękuję",
+         "Thank you"
+        ],
+        [
+         "tak",
+         "Yes"
         ],
         [
          "cześć",
          "Hello"
-        ],
-        [
-         "nie",
-         "No"
-        ],
-        [
-         "proszę",
-         "Please"
         ]
        ],
        "words": [
-        "dzień dobry",
-        "cześć",
-        "nie",
-        "proszę"
+        "do widzenia",
+        "dziękuję",
+        "tak",
+        "cześć"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
+       "prompt": "Sorry",
        "promptLang": "en",
-       "answer": "dziękuję",
+       "answer": "przepraszam",
        "words": [
-        "dziękuję"
+        "przepraszam"
        ],
        "options": [
-        "dziękuję",
-        "nie",
-        "cześć",
-        "do widzenia"
+        "dzień dobry",
+        "przepraszam",
+        "do widzenia",
+        "tak"
        ]
       },
       {
@@ -668,13 +846,13 @@
        "prompt": "My name is Anna.",
        "promptLang": "en",
        "tiles": [
-        "na",
-        "Jak",
-        "dziękuję",
-        "Miło",
+        "się",
         "Mam",
+        "jutra",
+        "Do",
         "imię",
-        "Anna"
+        "Anna",
+        "na"
        ],
        "answer": [
         "Mam",
@@ -691,30 +869,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Jak masz na imię?",
-       "translation": "What is your name?",
-       "answers": [
-        "Jak masz na imię?"
-       ],
-       "words": [
-        "Jak masz na imię?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Miło mi.",
        "promptLang": "target",
        "tiles": [
-        "meet",
         "you",
         "Nice",
+        "My",
+        "meet",
         "to",
-        "am",
-        "are",
-        "much"
+        "I",
+        "tomorrow"
        ],
        "answer": [
         "Nice",
@@ -730,15 +896,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Yes",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jak masz na imię?",
+       "translation": "What is your name?",
        "answers": [
-        "tak"
+        "Jak masz na imię?"
        ],
        "words": [
-        "tak"
+        "Jak masz na imię?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dziękuję bardzo.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Dziękuję bardzo."
+       ],
+       "words": [
+        "dziękuję"
        ]
       },
       {
@@ -760,15 +938,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Dziękuję bardzo.",
-       "translation": "Thank you very much.",
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "No",
+       "promptLang": "en",
        "answers": [
-        "Dziękuję bardzo."
+        "nie"
        ],
        "words": [
-        "dziękuję"
+        "nie"
        ]
       }
      ]
@@ -780,11 +958,129 @@
    "title": "People and family",
    "description": "Talk about the people around you.",
    "icon": "person",
-   "tip": "Polish has no words for 'a' or 'the'. 'To jest...' means 'this is...'.",
+   "tips": [
+    "Polish has no words for 'a' or 'the'. 'To jest...' means 'this is...'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "mężczyzna",
+      "e": "Man"
+     },
+     {
+      "t": "kobieta",
+      "e": "Woman"
+     },
+     {
+      "t": "dziecko",
+      "e": "Child"
+     },
+     {
+      "t": "przyjaciel",
+      "e": "Friend"
+     },
+     {
+      "t": "mama",
+      "e": "Mother"
+     },
+     {
+      "t": "tata",
+      "e": "Father"
+     },
+     {
+      "t": "syn",
+      "e": "Son"
+     },
+     {
+      "t": "córka",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "To jest moja mama.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "To jest mój przyjaciel.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Mam syna.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Gdzie jest mój tata?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Moja mama jest w domu.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "To jest moja córka.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Kim jest ten mężczyzna?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u2l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "mężczyzna",
+       "e": "Man",
+       "kind": "word"
+      },
+      {
+       "t": "kobieta",
+       "e": "Woman",
+       "kind": "word"
+      },
+      {
+       "t": "dziecko",
+       "e": "Child",
+       "kind": "word"
+      },
+      {
+       "t": "przyjaciel",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "przyjaciółka",
+        "kolega",
+        "koleżanka"
+       ]
+      },
+      {
+       "t": "To jest moja mama.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "To moja mama.",
+        "To jest moja matka."
+       ]
+      },
+      {
+       "t": "Mam syna.",
+       "e": "I have a son.",
+       "kind": "phrase"
+      },
+      {
+       "t": "To jest mój przyjaciel.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "alts": [
+        "To mój przyjaciel.",
+        "On jest moim przyjacielem."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -792,10 +1088,10 @@
        "prompt": "mężczyzna",
        "promptLang": "target",
        "options": [
-        "Child",
+        "Friend",
         "Man",
-        "Daughter",
-        "Father"
+        "Mother",
+        "Son"
        ],
        "answer": "Man",
        "words": [
@@ -808,46 +1104,14 @@
        "prompt": "kobieta",
        "promptLang": "target",
        "options": [
+        "Mother",
         "Child",
-        "Daughter",
-        "Friend",
+        "Father",
         "Woman"
        ],
        "answer": "Woman",
        "words": [
         "kobieta"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Child",
-       "promptLang": "en",
-       "answer": "dziecko",
-       "words": [
-        "dziecko"
-       ],
-       "options": [
-        "mama",
-        "dziecko",
-        "przyjaciel",
-        "mężczyzna"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "przyjaciel",
-       "promptLang": "target",
-       "options": [
-        "Child",
-        "Friend",
-        "Mother",
-        "Son"
-       ],
-       "answer": "Friend",
-       "words": [
-        "przyjaciel"
        ]
       },
       {
@@ -879,18 +1143,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "dziecko",
+       "words": [
+        "dziecko"
+       ],
+       "options": [
+        "syn",
+        "kobieta",
+        "dziecko",
+        "mama"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "przyjaciel",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Man",
+        "Friend",
+        "Father"
+       ],
+       "answer": "Friend",
+       "words": [
+        "przyjaciel"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "This is my mother.",
        "promptLang": "en",
        "tiles": [
         "moja",
-        "mama",
-        "mój",
+        "Kim",
+        "To",
         "jest",
-        "Gdzie",
-        "w",
-        "To"
+        "mama",
+        "domu",
+        "córka"
        ],
        "answer": [
         "To",
@@ -907,29 +1203,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "To jest mój przyjaciel.",
-       "translation": "He is my friend.",
-       "answers": [
-        "To jest mój przyjaciel."
-       ],
-       "words": [
-        "przyjaciel"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Mam syna.",
        "promptLang": "target",
        "tiles": [
-        "at",
+        "He",
         "son",
-        "my",
-        "a",
-        "I",
         "have",
+        "I",
+        "This",
+        "a",
         "father"
        ],
        "answer": [
@@ -944,6 +1228,18 @@
        ],
        "words": [
         "Mam syna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "To jest mój przyjaciel.",
+       "translation": "He is my friend.",
+       "answers": [
+        "To jest mój przyjaciel."
+       ],
+       "words": [
+        "przyjaciel"
        ]
       },
       {
@@ -965,6 +1261,60 @@
     {
      "id": "u2l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "mama",
+       "e": "Mother",
+       "kind": "word",
+       "alts": [
+        "matka"
+       ]
+      },
+      {
+       "t": "tata",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "ojciec"
+       ]
+      },
+      {
+       "t": "syn",
+       "e": "Son",
+       "kind": "word"
+      },
+      {
+       "t": "córka",
+       "e": "Daughter",
+       "kind": "word"
+      },
+      {
+       "t": "Gdzie jest mój tata?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Gdzie jest mój ojciec?",
+        "Gdzie jest tata?"
+       ]
+      },
+      {
+       "t": "Moja mama jest w domu.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "alts": [
+        "Mama jest w domu."
+       ]
+      },
+      {
+       "t": "To jest moja córka.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "alts": [
+        "To moja córka.",
+        "Ona jest moją córką."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -972,10 +1322,10 @@
        "prompt": "mama",
        "promptLang": "target",
        "options": [
+        "Mother",
         "Daughter",
-        "Son",
-        "Man",
-        "Mother"
+        "Woman",
+        "Child"
        ],
        "answer": "Mother",
        "words": [
@@ -984,49 +1334,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Father",
-       "promptLang": "en",
-       "answer": "tata",
-       "words": [
-        "tata"
-       ],
-       "options": [
-        "tata",
-        "dziecko",
-        "kobieta",
-        "syn"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "syn",
+       "prompt": "tata",
        "promptLang": "target",
        "options": [
         "Man",
-        "Friend",
-        "Mother",
+        "Daughter",
+        "Father",
         "Son"
        ],
-       "answer": "Son",
+       "answer": "Father",
        "words": [
-        "syn"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Daughter",
-       "promptLang": "en",
-       "answer": "córka",
-       "words": [
-        "córka"
-       ],
-       "options": [
-        "dziecko",
-        "mama",
-        "córka",
         "tata"
        ]
       },
@@ -1059,18 +1377,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "syn",
+       "words": [
+        "syn"
+       ],
+       "options": [
+        "dziecko",
+        "syn",
+        "kobieta",
+        "mama"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "córka",
+       "words": [
+        "córka"
+       ],
+       "options": [
+        "kobieta",
+        "mężczyzna",
+        "córka",
+        "mama"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "Where is my father?",
        "promptLang": "en",
        "tiles": [
-        "przyjaciel",
-        "ten",
-        "jest",
-        "mój",
-        "Gdzie",
+        "Mam",
         "tata",
-        "mężczyzna"
+        "Gdzie",
+        "mój",
+        "jest",
+        "To",
+        "przyjaciel"
        ],
        "answer": [
         "Gdzie",
@@ -1094,13 +1444,13 @@
        "promptLang": "target",
        "tiles": [
         "I",
-        "home",
         "friend",
-        "My",
-        "at",
         "mother",
-        "have",
-        "is"
+        "Where",
+        "home",
+        "is",
+        "My",
+        "at"
        ],
        "answer": [
         "My",
@@ -1162,33 +1512,24 @@
     {
      "id": "u2l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Kim jest ten mężczyzna?",
-       "promptLang": "target",
-       "options": [
-        "My mother is at home.",
-        "This is my mother.",
-        "Who is this man?",
-        "I have a son."
-       ],
-       "answer": "Who is this man?",
-       "words": [
-        "mężczyzna"
-       ]
-      },
+       "t": "Kim jest ten mężczyzna?",
+       "e": "Who is this man?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "kobieta",
        "promptLang": "target",
        "options": [
-        "Woman",
         "Son",
-        "Man",
-        "Child"
+        "Father",
+        "Daughter",
+        "Woman"
        ],
        "answer": "Woman",
        "words": [
@@ -1200,20 +1541,20 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "syn",
-         "Son"
+         "tata",
+         "Father"
+        ],
+        [
+         "córka",
+         "Daughter"
         ],
         [
          "przyjaciel",
          "Friend"
         ],
         [
-         "mama",
-         "Mother"
-        ],
-        [
-         "tata",
-         "Father"
+         "kobieta",
+         "Woman"
         ],
         [
          "mężczyzna",
@@ -1221,34 +1562,25 @@
         ]
        ],
        "words": [
-        "syn",
-        "przyjaciel",
-        "mama",
         "tata",
+        "córka",
+        "przyjaciel",
+        "kobieta",
         "mężczyzna"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "Who is this man?",
-       "promptLang": "en",
-       "tiles": [
-        "mężczyzna",
-        "ten",
-        "mama",
-        "Kim",
-        "jest",
-        "Mam",
-        "Gdzie"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Kim jest ten mężczyzna?",
+       "promptLang": "target",
+       "options": [
+        "Where is my father?",
+        "Who is this man?",
+        "This is my mother.",
+        "He is my friend."
        ],
-       "answer": [
-        "Kim",
-        "jest",
-        "ten",
-        "mężczyzna"
-       ],
-       "accepted": [],
+       "answer": "Who is this man?",
        "words": [
         "mężczyzna"
        ]
@@ -1259,13 +1591,13 @@
        "prompt": "To jest mój przyjaciel.",
        "promptLang": "target",
        "tiles": [
-        "at",
-        "I",
-        "my",
-        "man",
-        "He",
         "is",
-        "friend"
+        "daughter",
+        "my",
+        "friend",
+        "He",
+        "have",
+        "She"
        ],
        "answer": [
         "He",
@@ -1279,6 +1611,59 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "To",
+        "jest",
+        "mężczyzna",
+        "ten",
+        "Kim",
+        "domu",
+        "w"
+       ],
+       "answer": [
+        "Kim",
+        "jest",
+        "ten",
+        "mężczyzna"
+       ],
+       "accepted": [],
+       "words": [
+        "mężczyzna"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "mama",
+        "córka",
+        "mój",
+        "tata",
+        "jest",
+        "To",
+        "moja"
+       ],
+       "answer": [
+        "To",
+        "jest",
+        "moja",
+        "córka"
+       ],
+       "accepted": [
+        "To moja córka.",
+        "Ona jest moją córką."
+       ],
+       "words": [
+        "córka"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "To jest moja córka.",
@@ -1288,19 +1673,6 @@
        ],
        "words": [
         "córka"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "My mother is at home.",
-       "promptLang": "en",
-       "answers": [
-        "Moja mama jest w domu.",
-        "Mama jest w domu."
-       ],
-       "words": [
-        "mama"
        ]
       },
       {
@@ -1320,6 +1692,19 @@
       {
        "type": "type",
        "instruction": "Type this in Polish",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Moja mama jest w domu.",
+        "Mama jest w domu."
+       ],
+       "words": [
+        "mama"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
        "prompt": "Woman",
        "promptLang": "en",
        "answers": [
@@ -1328,40 +1713,13 @@
        "words": [
         "kobieta"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "She is my daughter.",
-       "promptLang": "en",
-       "tiles": [
-        "Mam",
-        "jest",
-        "To",
-        "mój",
-        "córka",
-        "syna",
-        "moja"
-       ],
-       "answer": [
-        "To",
-        "jest",
-        "moja",
-        "córka"
-       ],
-       "accepted": [
-        "To moja córka.",
-        "Ona jest moją córką."
-       ],
-       "words": [
-        "córka"
-       ]
       }
      ]
     },
     {
      "id": "u2l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -1369,10 +1727,10 @@
        "prompt": "To jest moja mama.",
        "promptLang": "target",
        "options": [
-        "She is my daughter.",
-        "He is my friend.",
-        "Where is my father?",
-        "This is my mother."
+        "This is my mother.",
+        "Who is this man?",
+        "I have a son.",
+        "She is my daughter."
        ],
        "answer": "This is my mother.",
        "words": [
@@ -1388,39 +1746,39 @@
          "Father"
         ],
         [
+         "kobieta",
+         "Woman"
+        ],
+        [
+         "mężczyzna",
+         "Man"
+        ],
+        [
          "mama",
          "Mother"
-        ],
-        [
-         "dziecko",
-         "Child"
-        ],
-        [
-         "córka",
-         "Daughter"
         ]
        ],
        "words": [
         "tata",
-        "mama",
-        "dziecko",
-        "córka"
+        "kobieta",
+        "mężczyzna",
+        "mama"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Man",
+       "prompt": "Friend",
        "promptLang": "en",
-       "answer": "mężczyzna",
+       "answer": "przyjaciel",
        "words": [
-        "mężczyzna"
+        "przyjaciel"
        ],
        "options": [
-        "mężczyzna",
-        "dziecko",
+        "przyjaciel",
+        "syn",
         "córka",
-        "tata"
+        "dziecko"
        ]
       },
       {
@@ -1429,11 +1787,11 @@
        "prompt": "I have a son.",
        "promptLang": "en",
        "tiles": [
+        "w",
         "syna",
-        "córka",
-        "tata",
         "Mam",
-        "moja"
+        "Gdzie",
+        "córka"
        ],
        "answer": [
         "Mam",
@@ -1445,30 +1803,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Kim jest ten mężczyzna?",
-       "translation": "Who is this man?",
-       "answers": [
-        "Kim jest ten mężczyzna?"
-       ],
-       "words": [
-        "mężczyzna"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Gdzie jest mój tata?",
        "promptLang": "target",
        "tiles": [
-        "This",
-        "Where",
-        "father",
         "is",
         "my",
-        "a",
-        "daughter"
+        "This",
+        "daughter",
+        "She",
+        "Where",
+        "father"
        ],
        "answer": [
         "Where",
@@ -1485,18 +1831,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Friend",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Kim jest ten mężczyzna?",
+       "translation": "Who is this man?",
        "answers": [
-        "przyjaciel",
-        "przyjaciółka",
-        "kolega",
-        "koleżanka"
+        "Kim jest ten mężczyzna?"
        ],
        "words": [
-        "przyjaciel"
+        "mężczyzna"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Moja mama jest w domu.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Moja mama jest w domu."
+       ],
+       "words": [
+        "mama"
        ]
       },
       {
@@ -1512,15 +1867,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Moja mama jest w domu.",
-       "translation": "My mother is at home.",
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Daughter",
+       "promptLang": "en",
        "answers": [
-        "Moja mama jest w domu."
+        "córka"
        ],
        "words": [
-        "mama"
+        "córka"
        ]
       }
      ]
@@ -1532,11 +1887,119 @@
    "title": "Food and drink",
    "description": "Order, eat and drink.",
    "icon": "cup",
-   "tip": "After 'nie' (not) the object changes form: 'piję mleko' (I drink milk) but 'nie piję mleka'.",
+   "tips": [
+    "After 'nie' (not) the object changes form: 'piję mleko' (I drink milk) but 'nie piję mleka'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "woda",
+      "e": "Water"
+     },
+     {
+      "t": "chleb",
+      "e": "Bread"
+     },
+     {
+      "t": "kawa",
+      "e": "Coffee"
+     },
+     {
+      "t": "herbata",
+      "e": "Tea"
+     },
+     {
+      "t": "mleko",
+      "e": "Milk"
+     },
+     {
+      "t": "jabłko",
+      "e": "Apple"
+     },
+     {
+      "t": "ryż",
+      "e": "Rice"
+     },
+     {
+      "t": "jajko",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Poproszę wodę.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Piję kawę.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Jem chleb.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Herbata jest gorąca.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Nie piję mleka.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Lubię jabłka.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Jestem głodny.",
+      "e": "I am hungry."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u3l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "woda",
+       "e": "Water",
+       "kind": "word"
+      },
+      {
+       "t": "chleb",
+       "e": "Bread",
+       "kind": "word"
+      },
+      {
+       "t": "kawa",
+       "e": "Coffee",
+       "kind": "word"
+      },
+      {
+       "t": "herbata",
+       "e": "Tea",
+       "kind": "word"
+      },
+      {
+       "t": "Poproszę wodę.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Wodę, proszę."
+       ]
+      },
+      {
+       "t": "Jem chleb.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Piję kawę.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1545,9 +2008,9 @@
        "promptLang": "target",
        "options": [
         "Milk",
-        "Egg",
-        "Rice",
-        "Water"
+        "Water",
+        "Tea",
+        "Bread"
        ],
        "answer": "Water",
        "words": [
@@ -1560,46 +2023,14 @@
        "prompt": "chleb",
        "promptLang": "target",
        "options": [
-        "Egg",
         "Water",
-        "Coffee",
-        "Bread"
+        "Egg",
+        "Bread",
+        "Rice"
        ],
        "answer": "Bread",
        "words": [
         "chleb"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
-       "promptLang": "en",
-       "answer": "kawa",
-       "words": [
-        "kawa"
-       ],
-       "options": [
-        "kawa",
-        "herbata",
-        "ryż",
-        "mleko"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "herbata",
-       "promptLang": "target",
-       "options": [
-        "Rice",
-        "Tea",
-        "Apple",
-        "Egg"
-       ],
-       "answer": "Tea",
-       "words": [
-        "herbata"
        ]
       },
       {
@@ -1631,15 +2062,47 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "kawa",
+       "words": [
+        "kawa"
+       ],
+       "options": [
+        "woda",
+        "jajko",
+        "ryż",
+        "kawa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "herbata",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Tea",
+        "Water",
+        "Rice"
+       ],
+       "answer": "Tea",
+       "words": [
+        "herbata"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "Water, please.",
        "promptLang": "en",
        "tiles": [
-        "chleb",
-        "Jestem",
-        "Nie",
         "Poproszę",
+        "chleb",
+        "Nie",
+        "Jestem",
         "wodę"
        ],
        "answer": [
@@ -1654,29 +2117,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Piję kawę.",
-       "translation": "I drink coffee.",
-       "answers": [
-        "Piję kawę."
-       ],
-       "words": [
-        "Piję kawę."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Jem chleb.",
        "promptLang": "target",
        "tiles": [
-        "do",
         "I",
+        "milk",
         "eat",
-        "coffee",
         "bread",
-        "like"
+        "please",
+        "apples"
        ],
        "answer": [
         "I",
@@ -1688,6 +2139,18 @@
        ],
        "words": [
         "chleb"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Piję kawę.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Piję kawę."
+       ],
+       "words": [
+        "Piję kawę."
        ]
       },
       {
@@ -1708,6 +2171,46 @@
     {
      "id": "u3l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "mleko",
+       "e": "Milk",
+       "kind": "word"
+      },
+      {
+       "t": "jabłko",
+       "e": "Apple",
+       "kind": "word"
+      },
+      {
+       "t": "ryż",
+       "e": "Rice",
+       "kind": "word"
+      },
+      {
+       "t": "jajko",
+       "e": "Egg",
+       "kind": "word",
+       "alts": [
+        "jajo"
+       ]
+      },
+      {
+       "t": "Herbata jest gorąca.",
+       "e": "The tea is hot.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Nie piję mleka.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Lubię jabłka.",
+       "e": "I like apples.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1715,10 +2218,10 @@
        "prompt": "mleko",
        "promptLang": "target",
        "options": [
-        "Egg",
-        "Water",
         "Milk",
-        "Coffee"
+        "Coffee",
+        "Apple",
+        "Tea"
        ],
        "answer": "Milk",
        "words": [
@@ -1727,50 +2230,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Apple",
-       "promptLang": "en",
-       "answer": "jabłko",
-       "words": [
-        "jabłko"
-       ],
-       "options": [
-        "jabłko",
-        "mleko",
-        "jajko",
-        "woda"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "ryż",
+       "prompt": "jabłko",
        "promptLang": "target",
        "options": [
-        "Apple",
-        "Rice",
-        "Coffee",
-        "Tea"
+        "Water",
+        "Tea",
+        "Egg",
+        "Apple"
        ],
-       "answer": "Rice",
+       "answer": "Apple",
        "words": [
-        "ryż"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Egg",
-       "promptLang": "en",
-       "answer": "jajko",
-       "words": [
-        "jajko"
-       ],
-       "options": [
-        "herbata",
-        "kawa",
-        "jabłko",
-        "jajko"
+        "jabłko"
        ]
       },
       {
@@ -1802,17 +2273,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "ryż",
+       "words": [
+        "ryż"
+       ],
+       "options": [
+        "mleko",
+        "kawa",
+        "ryż",
+        "jabłko"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "jajko",
+       "words": [
+        "jajko"
+       ],
+       "options": [
+        "herbata",
+        "jabłko",
+        "ryż",
+        "jajko"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "The tea is hot.",
        "promptLang": "en",
        "tiles": [
+        "kawę",
+        "chleb",
         "jest",
-        "Herbata",
         "gorąca",
-        "wodę",
-        "mleka",
-        "Piję"
+        "Herbata",
+        "Jem"
        ],
        "answer": [
         "Herbata",
@@ -1830,14 +2333,14 @@
        "prompt": "Nie piję mleka.",
        "promptLang": "target",
        "tiles": [
-        "milk",
-        "hot",
-        "do",
         "not",
-        "is",
+        "like",
+        "I",
         "please",
+        "do",
         "drink",
-        "I"
+        "milk",
+        "tea"
        ],
        "answer": [
         "I",
@@ -1892,33 +2395,27 @@
     {
      "id": "u3l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Jestem głodny.",
-       "promptLang": "target",
-       "options": [
-        "I am hungry.",
-        "The tea is hot.",
-        "I eat bread.",
-        "I drink coffee."
-       ],
-       "answer": "I am hungry.",
-       "words": [
-        "Jestem głodny."
+       "t": "Jestem głodny.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "alts": [
+        "Jestem głodna."
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "chleb",
        "promptLang": "target",
        "options": [
-        "Bread",
+        "Water",
+        "Tea",
         "Egg",
-        "Coffee",
-        "Water"
+        "Bread"
        ],
        "answer": "Bread",
        "words": [
@@ -1930,53 +2427,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "chleb",
-         "Bread"
+         "jajko",
+         "Egg"
         ],
         [
-         "woda",
-         "Water"
+         "ryż",
+         "Rice"
+        ],
+        [
+         "kawa",
+         "Coffee"
         ],
         [
          "jabłko",
          "Apple"
         ],
         [
-         "herbata",
-         "Tea"
-        ],
-        [
-         "kawa",
-         "Coffee"
+         "mleko",
+         "Milk"
         ]
        ],
        "words": [
-        "chleb",
-        "woda",
+        "jajko",
+        "ryż",
+        "kawa",
         "jabłko",
-        "herbata",
-        "kawa"
+        "mleko"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "I am hungry.",
-       "promptLang": "en",
-       "tiles": [
-        "wodę",
-        "Jestem",
-        "głodny",
-        "Lubię",
-        "mleka"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jestem głodny.",
+       "promptLang": "target",
+       "options": [
+        "I eat bread.",
+        "I am hungry.",
+        "I like apples.",
+        "I do not drink milk."
        ],
-       "answer": [
-        "Jestem",
-        "głodny"
-       ],
-       "accepted": [
-        "Jestem głodna."
-       ],
+       "answer": "I am hungry.",
        "words": [
         "Jestem głodny."
        ]
@@ -1987,12 +2477,12 @@
        "prompt": "Piję kawę.",
        "promptLang": "target",
        "tiles": [
-        "coffee",
-        "milk",
-        "not",
-        "drink",
         "I",
-        "please"
+        "apples",
+        "please",
+        "coffee",
+        "The",
+        "drink"
        ],
        "answer": [
         "I",
@@ -2007,6 +2497,50 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "wodę",
+        "mleka",
+        "Jestem",
+        "Lubię",
+        "głodny"
+       ],
+       "answer": [
+        "Jestem",
+        "głodny"
+       ],
+       "accepted": [
+        "Jestem głodna."
+       ],
+       "words": [
+        "Jestem głodny."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Lubię",
+        "Jem",
+        "Jestem",
+        "gorąca",
+        "jabłka"
+       ],
+       "answer": [
+        "Lubię",
+        "jabłka"
+       ],
+       "accepted": [],
+       "words": [
+        "Lubię jabłka."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Lubię jabłka.",
@@ -2016,18 +2550,6 @@
        ],
        "words": [
         "Lubię jabłka."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "I do not drink milk.",
-       "promptLang": "en",
-       "answers": [
-        "Nie piję mleka."
-       ],
-       "words": [
-        "nie"
        ]
       },
       {
@@ -2046,6 +2568,18 @@
       {
        "type": "type",
        "instruction": "Type this in Polish",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Nie piję mleka."
+       ],
+       "words": [
+        "nie"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
        "prompt": "Bread",
        "promptLang": "en",
        "answers": [
@@ -2054,33 +2588,13 @@
        "words": [
         "chleb"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "I like apples.",
-       "promptLang": "en",
-       "tiles": [
-        "jabłka",
-        "Jem",
-        "Lubię",
-        "kawę",
-        "Nie"
-       ],
-       "answer": [
-        "Lubię",
-        "jabłka"
-       ],
-       "accepted": [],
-       "words": [
-        "Lubię jabłka."
-       ]
       }
      ]
     },
     {
      "id": "u3l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2089,9 +2603,9 @@
        "promptLang": "target",
        "options": [
         "Water, please.",
-        "I do not drink milk.",
-        "I like apples.",
-        "The tea is hot."
+        "I am hungry.",
+        "I eat bread.",
+        "I drink coffee."
        ],
        "answer": "Water, please.",
        "words": [
@@ -2103,12 +2617,8 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "ryż",
-         "Rice"
-        ],
-        [
-         "jabłko",
-         "Apple"
+         "kawa",
+         "Coffee"
         ],
         [
          "woda",
@@ -2117,29 +2627,33 @@
         [
          "chleb",
          "Bread"
+        ],
+        [
+         "jajko",
+         "Egg"
         ]
        ],
        "words": [
-        "ryż",
-        "jabłko",
+        "kawa",
         "woda",
-        "chleb"
+        "chleb",
+        "jajko"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
+       "prompt": "Milk",
        "promptLang": "en",
-       "answer": "kawa",
+       "answer": "mleko",
        "words": [
-        "kawa"
+        "mleko"
        ],
        "options": [
-        "ryż",
-        "chleb",
         "mleko",
-        "kawa"
+        "jabłko",
+        "jajko",
+        "herbata"
        ]
       },
       {
@@ -2148,11 +2662,11 @@
        "prompt": "I eat bread.",
        "promptLang": "en",
        "tiles": [
-        "chleb",
-        "wodę",
-        "mleka",
         "Jem",
-        "jest"
+        "chleb",
+        "głodny",
+        "Herbata",
+        "Piję"
        ],
        "answer": [
         "Jem",
@@ -2161,6 +2675,31 @@
        "accepted": [],
        "words": [
         "chleb"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Herbata jest gorąca.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "hot",
+        "tea",
+        "coffee",
+        "eat",
+        "do",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "herbata"
        ]
       },
       {
@@ -2176,40 +2715,15 @@
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Herbata jest gorąca.",
-       "promptLang": "target",
-       "tiles": [
-        "hot",
-        "tea",
-        "hungry",
-        "The",
-        "please",
-        "eat",
-        "is"
-       ],
-       "answer": [
-        "The",
-        "tea",
-        "is",
-        "hot"
-       ],
-       "accepted": [],
-       "words": [
-        "herbata"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Tea",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Nie piję mleka.",
+       "translation": "I do not drink milk.",
        "answers": [
-        "herbata"
+        "Nie piję mleka."
        ],
        "words": [
-        "herbata"
+        "nie"
        ]
       },
       {
@@ -2226,15 +2740,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Nie piję mleka.",
-       "translation": "I do not drink milk.",
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Apple",
+       "promptLang": "en",
        "answers": [
-        "Nie piję mleka."
+        "jabłko"
        ],
        "words": [
-        "nie"
+        "jabłko"
        ]
       }
      ]
@@ -2246,11 +2760,134 @@
    "title": "Numbers",
    "description": "Count from one to ten, ask prices and tell the time.",
    "icon": "hash",
-   "tip": "'Dwoje dzieci' (two children) uses a special form of 'two' for children and mixed groups.",
+   "tips": [
+    "'Dwoje dzieci' (two children) uses a special form of 'two' for children and mixed groups."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "jeden",
+      "e": "One"
+     },
+     {
+      "t": "dwa",
+      "e": "Two"
+     },
+     {
+      "t": "trzy",
+      "e": "Three"
+     },
+     {
+      "t": "cztery",
+      "e": "Four"
+     },
+     {
+      "t": "pięć",
+      "e": "Five"
+     },
+     {
+      "t": "sześć",
+      "e": "Six"
+     },
+     {
+      "t": "siedem",
+      "e": "Seven"
+     },
+     {
+      "t": "osiem",
+      "e": "Eight"
+     },
+     {
+      "t": "dziewięć",
+      "e": "Nine"
+     },
+     {
+      "t": "dziesięć",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Mam dwoje dzieci.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Ile to kosztuje?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Mam cztery jabłka.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Jedną kawę, proszę.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Dwie herbaty, proszę.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Jest trzecia.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Jedną chwilę, proszę.",
+      "e": "One moment, please."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u4l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "jeden",
+       "e": "One",
+       "kind": "word",
+       "alts": [
+        "jedna",
+        "jedno"
+       ]
+      },
+      {
+       "t": "dwa",
+       "e": "Two",
+       "kind": "word",
+       "alts": [
+        "dwie"
+       ]
+      },
+      {
+       "t": "trzy",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "cztery",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Mam dwoje dzieci.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Mam cztery jabłka.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Ile to kosztuje?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Ile kosztuje?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2258,10 +2895,10 @@
        "prompt": "jeden",
        "promptLang": "target",
        "options": [
+        "Four",
+        "One",
         "Two",
-        "Nine",
-        "Eight",
-        "One"
+        "Nine"
        ],
        "answer": "One",
        "words": [
@@ -2274,46 +2911,14 @@
        "prompt": "dwa",
        "promptLang": "target",
        "options": [
-        "Four",
         "Two",
-        "One",
-        "Nine"
+        "Ten",
+        "Five",
+        "Eight"
        ],
        "answer": "Two",
        "words": [
         "dwa"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Three",
-       "promptLang": "en",
-       "answer": "trzy",
-       "words": [
-        "trzy"
-       ],
-       "options": [
-        "trzy",
-        "dziesięć",
-        "pięć",
-        "osiem"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "cztery",
-       "promptLang": "target",
-       "options": [
-        "Four",
-        "Two",
-        "Ten",
-        "Nine"
-       ],
-       "answer": "Four",
-       "words": [
-        "cztery"
        ]
       },
       {
@@ -2345,17 +2950,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "trzy",
+       "words": [
+        "trzy"
+       ],
+       "options": [
+        "trzy",
+        "dwa",
+        "dziesięć",
+        "dziewięć"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cztery",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Five",
+        "Eight",
+        "Three"
+       ],
+       "answer": "Four",
+       "words": [
+        "cztery"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "I have two children.",
        "promptLang": "en",
        "tiles": [
-        "Ile",
-        "dzieci",
         "Mam",
-        "to",
-        "dwoje",
-        "herbaty"
+        "dzieci",
+        "cztery",
+        "kosztuje",
+        "jabłka",
+        "dwoje"
        ],
        "answer": [
         "Mam",
@@ -2368,30 +3005,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ile to kosztuje?",
-       "translation": "How much is it?",
-       "answers": [
-        "Ile to kosztuje?"
-       ],
-       "words": [
-        "Ile to kosztuje?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Mam cztery jabłka.",
        "promptLang": "target",
        "tiles": [
-        "I",
-        "is",
         "four",
+        "I",
         "have",
         "two",
-        "children",
-        "apples"
+        "apples",
+        "One",
+        "How"
        ],
        "answer": [
         "I",
@@ -2404,6 +3029,18 @@
        ],
        "words": [
         "cztery"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ile to kosztuje?",
+       "translation": "How much is it?",
+       "answers": [
+        "Ile to kosztuje?"
+       ],
+       "words": [
+        "Ile to kosztuje?"
        ]
       },
       {
@@ -2426,6 +3063,53 @@
     {
      "id": "u4l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "pięć",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "sześć",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "siedem",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "osiem",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Jedną kawę, proszę.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "alts": [
+        "Poproszę jedną kawę.",
+        "Poproszę kawę."
+       ]
+      },
+      {
+       "t": "Dwie herbaty, proszę.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "alts": [
+        "Poproszę dwie herbaty."
+       ]
+      },
+      {
+       "t": "Jest trzecia.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "alts": [
+        "Jest godzina trzecia."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2434,9 +3118,9 @@
        "promptLang": "target",
        "options": [
         "Five",
-        "Nine",
-        "Three",
-        "Eight"
+        "Eight",
+        "Two",
+        "Seven"
        ],
        "answer": "Five",
        "words": [
@@ -2445,50 +3129,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Six",
-       "promptLang": "en",
-       "answer": "sześć",
-       "words": [
-        "sześć"
-       ],
-       "options": [
-        "siedem",
-        "cztery",
-        "sześć",
-        "dziewięć"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "siedem",
+       "prompt": "sześć",
        "promptLang": "target",
        "options": [
+        "Four",
         "One",
-        "Five",
-        "Two",
+        "Six",
         "Seven"
        ],
-       "answer": "Seven",
+       "answer": "Six",
        "words": [
-        "siedem"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Eight",
-       "promptLang": "en",
-       "answer": "osiem",
-       "words": [
-        "osiem"
-       ],
-       "options": [
-        "dziesięć",
-        "osiem",
-        "dwa",
-        "jeden"
+        "sześć"
        ]
       },
       {
@@ -2520,17 +3172,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "siedem",
+       "words": [
+        "siedem"
+       ],
+       "options": [
+        "trzy",
+        "cztery",
+        "pięć",
+        "siedem"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "osiem",
+       "words": [
+        "osiem"
+       ],
+       "options": [
+        "sześć",
+        "jeden",
+        "osiem",
+        "dziewięć"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "One coffee, please.",
        "promptLang": "en",
        "tiles": [
-        "kawę",
-        "Ile",
         "Jedną",
-        "chwilę",
-        "cztery",
-        "proszę"
+        "proszę",
+        "kawę",
+        "trzecia",
+        "Dwie",
+        "chwilę"
        ],
        "answer": [
         "Jedną",
@@ -2551,12 +3235,12 @@
        "prompt": "Dwie herbaty, proszę.",
        "promptLang": "target",
        "tiles": [
-        "have",
-        "Two",
-        "One",
-        "please",
         "teas",
-        "o'clock"
+        "four",
+        "Two",
+        "children",
+        "One",
+        "please"
        ],
        "answer": [
         "Two",
@@ -2620,23 +3304,28 @@
     {
      "id": "u4l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Jedną chwilę, proszę.",
-       "promptLang": "target",
-       "options": [
-        "Two teas, please.",
-        "I have two children.",
-        "It is three o'clock.",
-        "One moment, please."
-       ],
-       "answer": "One moment, please.",
-       "words": [
-        "proszę"
-       ]
+       "t": "dziewięć",
+       "e": "Nine",
+       "kind": "word"
       },
+      {
+       "t": "dziesięć",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Jedną chwilę, proszę.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Chwileczkę.",
+        "Chwileczkę, proszę."
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -2644,9 +3333,9 @@
        "promptLang": "target",
        "options": [
         "Six",
-        "Five",
+        "Four",
         "Nine",
-        "Ten"
+        "Two"
        ],
        "answer": "Nine",
        "words": [
@@ -2658,56 +3347,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "dziesięć",
-         "Ten"
+         "jeden",
+         "One"
         ],
         [
-         "sześć",
-         "Six"
-        ],
-        [
-         "cztery",
-         "Four"
+         "osiem",
+         "Eight"
         ],
         [
          "dwa",
          "Two"
         ],
         [
-         "osiem",
-         "Eight"
+         "dziewięć",
+         "Nine"
+        ],
+        [
+         "siedem",
+         "Seven"
         ]
        ],
        "words": [
-        "dziesięć",
-        "sześć",
-        "cztery",
+        "jeden",
+        "osiem",
         "dwa",
-        "osiem"
+        "dziewięć",
+        "siedem"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "One moment, please.",
-       "promptLang": "en",
-       "tiles": [
-        "herbaty",
-        "Jedną",
-        "proszę",
-        "dwoje",
-        "chwilę",
-        "jabłka"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jedną chwilę, proszę.",
+       "promptLang": "target",
+       "options": [
+        "How much is it?",
+        "I have four apples.",
+        "Two teas, please.",
+        "One moment, please."
        ],
-       "answer": [
-        "Jedną",
-        "chwilę",
-        "proszę"
-       ],
-       "accepted": [
-        "Chwileczkę.",
-        "Chwileczkę, proszę."
-       ],
+       "answer": "One moment, please.",
        "words": [
         "proszę"
        ]
@@ -2718,13 +3397,13 @@
        "prompt": "Ile to kosztuje?",
        "promptLang": "target",
        "tiles": [
-        "o'clock",
-        "children",
-        "much",
+        "coffee",
         "is",
-        "apples",
+        "much",
+        "it",
+        "moment",
         "How",
-        "it"
+        "apples"
        ],
        "answer": [
         "How",
@@ -2742,6 +3421,55 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "kawę",
+        "Jedną",
+        "dwoje",
+        "jabłka",
+        "chwilę",
+        "proszę"
+       ],
+       "answer": [
+        "Jedną",
+        "chwilę",
+        "proszę"
+       ],
+       "accepted": [
+        "Chwileczkę.",
+        "Chwileczkę, proszę."
+       ],
+       "words": [
+        "proszę"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "Jest",
+        "trzecia",
+        "proszę",
+        "Ile",
+        "jabłka"
+       ],
+       "answer": [
+        "Jest",
+        "trzecia"
+       ],
+       "accepted": [
+        "Jest godzina trzecia."
+       ],
+       "words": [
+        "Jest trzecia."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Jest trzecia.",
@@ -2751,20 +3479,6 @@
        ],
        "words": [
         "Jest trzecia."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Two teas, please.",
-       "promptLang": "en",
-       "answers": [
-        "Dwie herbaty, proszę.",
-        "Poproszę dwie herbaty."
-       ],
-       "words": [
-        "proszę",
-        "dwa"
        ]
       },
       {
@@ -2783,6 +3497,20 @@
       {
        "type": "type",
        "instruction": "Type this in Polish",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Dwie herbaty, proszę.",
+        "Poproszę dwie herbaty."
+       ],
+       "words": [
+        "proszę",
+        "dwa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
        "prompt": "Ten",
        "promptLang": "en",
        "answers": [
@@ -2791,35 +3519,13 @@
        "words": [
         "dziesięć"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "It is three o'clock.",
-       "promptLang": "en",
-       "tiles": [
-        "jabłka",
-        "Mam",
-        "trzecia",
-        "dwoje",
-        "Jest"
-       ],
-       "answer": [
-        "Jest",
-        "trzecia"
-       ],
-       "accepted": [
-        "Jest godzina trzecia."
-       ],
-       "words": [
-        "Jest trzecia."
-       ]
       }
      ]
     },
     {
      "id": "u4l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2827,10 +3533,10 @@
        "prompt": "Mam dwoje dzieci.",
        "promptLang": "target",
        "options": [
-        "How much is it?",
-        "I have two children.",
+        "Two teas, please.",
         "One moment, please.",
-        "One coffee, please."
+        "One coffee, please.",
+        "I have two children."
        ],
        "answer": "I have two children.",
        "words": [
@@ -2842,43 +3548,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "dziewięć",
-         "Nine"
+         "sześć",
+         "Six"
         ],
         [
          "pięć",
          "Five"
         ],
         [
-         "sześć",
-         "Six"
+         "jeden",
+         "One"
         ],
         [
-         "osiem",
-         "Eight"
+         "siedem",
+         "Seven"
         ]
        ],
        "words": [
-        "dziewięć",
-        "pięć",
         "sześć",
-        "osiem"
+        "pięć",
+        "jeden",
+        "siedem"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Four",
+       "prompt": "Nine",
        "promptLang": "en",
-       "answer": "cztery",
+       "answer": "dziewięć",
        "words": [
-        "cztery"
+        "dziewięć"
        ],
        "options": [
-        "osiem",
-        "cztery",
-        "jeden",
-        "trzy"
+        "siedem",
+        "dwa",
+        "dziewięć",
+        "osiem"
        ]
       },
       {
@@ -2887,12 +3593,12 @@
        "prompt": "I have four apples.",
        "promptLang": "en",
        "tiles": [
-        "jabłka",
-        "Jest",
         "cztery",
-        "Dwie",
+        "jabłka",
         "Mam",
-        "dwoje"
+        "Ile",
+        "dwoje",
+        "proszę"
        ],
        "answer": [
         "Mam",
@@ -2905,18 +3611,6 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Jedną chwilę, proszę.",
-       "translation": "One moment, please.",
-       "answers": [
-        "Jedną chwilę, proszę."
-       ],
-       "words": [
-        "proszę"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Jedną kawę, proszę.",
@@ -2924,10 +3618,10 @@
        "tiles": [
         "coffee",
         "much",
-        "apples",
+        "four",
         "please",
         "One",
-        "moment"
+        "three"
        ],
        "answer": [
         "One",
@@ -2943,15 +3637,28 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Three",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jedną chwilę, proszę.",
+       "translation": "One moment, please.",
        "answers": [
-        "trzy"
+        "Jedną chwilę, proszę."
        ],
        "words": [
-        "trzy"
+        "proszę"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dwie herbaty, proszę.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Dwie herbaty, proszę."
+       ],
+       "words": [
+        "proszę",
+        "dwa"
        ]
       },
       {
@@ -2970,16 +3677,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Dwie herbaty, proszę.",
-       "translation": "Two teas, please.",
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Three",
+       "promptLang": "en",
        "answers": [
-        "Dwie herbaty, proszę."
+        "trzy"
        ],
        "words": [
-        "proszę",
-        "dwa"
+        "trzy"
        ]
       }
      ]
@@ -2991,11 +3697,122 @@
    "title": "Travel and directions",
    "description": "Find your way around a new city.",
    "icon": "train",
-   "tip": "'W lewo' / 'w prawo' (to the left / right) show direction; 'po lewej' / 'po prawej' (on the left / right) show position.",
+   "tips": [
+    "'W lewo' / 'w prawo' (to the left / right) show direction; 'po lewej' / 'po prawej' (on the left / right) show position."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hotel",
+      "e": "Hotel"
+     },
+     {
+      "t": "dworzec",
+      "e": "Station"
+     },
+     {
+      "t": "lotnisko",
+      "e": "Airport"
+     },
+     {
+      "t": "bilet",
+      "e": "Ticket"
+     },
+     {
+      "t": "w lewo",
+      "e": "Left"
+     },
+     {
+      "t": "w prawo",
+      "e": "Right"
+     },
+     {
+      "t": "gdzie",
+      "e": "Where"
+     },
+     {
+      "t": "toaleta",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Gdzie jest hotel?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Gdzie jest toaleta?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Skręć w lewo.",
+      "e": "Turn left."
+     },
+     {
+      "t": "Dworzec jest po prawej.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Poproszę bilet.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Jadę na lotnisko.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Czy to daleko?",
+      "e": "Is it far?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u5l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "hotel",
+       "e": "Hotel",
+       "kind": "word"
+      },
+      {
+       "t": "dworzec",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "stacja"
+       ]
+      },
+      {
+       "t": "lotnisko",
+       "e": "Airport",
+       "kind": "word"
+      },
+      {
+       "t": "bilet",
+       "e": "Ticket",
+       "kind": "word"
+      },
+      {
+       "t": "Gdzie jest hotel?",
+       "e": "Where is the hotel?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Skręć w lewo.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Proszę skręcić w lewo."
+       ]
+      },
+      {
+       "t": "Gdzie jest toaleta?",
+       "e": "Where is the toilet?",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3003,10 +3820,10 @@
        "prompt": "hotel",
        "promptLang": "target",
        "options": [
-        "Toilet",
-        "Airport",
         "Hotel",
-        "Station"
+        "Left",
+        "Toilet",
+        "Airport"
        ],
        "answer": "Hotel",
        "words": [
@@ -3019,46 +3836,14 @@
        "prompt": "dworzec",
        "promptLang": "target",
        "options": [
-        "Toilet",
-        "Hotel",
         "Station",
-        "Left"
+        "Where",
+        "Ticket",
+        "Airport"
        ],
        "answer": "Station",
        "words": [
         "dworzec"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Airport",
-       "promptLang": "en",
-       "answer": "lotnisko",
-       "words": [
-        "lotnisko"
-       ],
-       "options": [
-        "dworzec",
-        "lotnisko",
-        "gdzie",
-        "toaleta"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "bilet",
-       "promptLang": "target",
-       "options": [
-        "Ticket",
-        "Toilet",
-        "Where",
-        "Airport"
-       ],
-       "answer": "Ticket",
-       "words": [
-        "bilet"
        ]
       },
       {
@@ -3090,17 +3875,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "lotnisko",
+       "words": [
+        "lotnisko"
+       ],
+       "options": [
+        "w lewo",
+        "hotel",
+        "lotnisko",
+        "dworzec"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bilet",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Toilet",
+        "Left",
+        "Hotel"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "bilet"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "Where is the hotel?",
        "promptLang": "en",
        "tiles": [
-        "hotel",
-        "po",
         "Gdzie",
-        "Dworzec",
-        "Skręć",
-        "jest"
+        "hotel",
+        "bilet",
+        "prawej",
+        "jest",
+        "toaleta"
        ],
        "answer": [
         "Gdzie",
@@ -3114,29 +3931,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Gdzie jest toaleta?",
-       "translation": "Where is the toilet?",
-       "answers": [
-        "Gdzie jest toaleta?"
-       ],
-       "words": [
-        "gdzie",
-        "toaleta"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Skręć w lewo.",
        "promptLang": "target",
        "tiles": [
-        "toilet",
-        "Turn",
-        "I",
+        "to",
         "left",
-        "going"
+        "is",
+        "Turn",
+        "A"
        ],
        "answer": [
         "Turn",
@@ -3147,6 +3951,19 @@
        ],
        "words": [
         "w lewo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Gdzie jest toaleta?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Gdzie jest toaleta?"
+       ],
+       "words": [
+        "gdzie",
+        "toaleta"
        ]
       },
       {
@@ -3167,6 +3984,58 @@
     {
      "id": "u5l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "w lewo",
+       "e": "Left",
+       "kind": "word",
+       "alts": [
+        "na lewo",
+        "po lewej"
+       ]
+      },
+      {
+       "t": "w prawo",
+       "e": "Right",
+       "kind": "word",
+       "alts": [
+        "na prawo",
+        "po prawej"
+       ]
+      },
+      {
+       "t": "gdzie",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "toaleta",
+       "e": "Toilet",
+       "kind": "word"
+      },
+      {
+       "t": "Dworzec jest po prawej.",
+       "e": "The station is on the right.",
+       "kind": "phrase",
+       "alts": [
+        "Dworzec jest po prawej stronie."
+       ]
+      },
+      {
+       "t": "Poproszę bilet.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "alts": [
+        "Bilet, proszę.",
+        "Jeden bilet, proszę."
+       ]
+      },
+      {
+       "t": "Jadę na lotnisko.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3174,10 +4043,10 @@
        "prompt": "w lewo",
        "promptLang": "target",
        "options": [
-        "Where",
+        "Toilet",
         "Left",
-        "Airport",
-        "Station"
+        "Hotel",
+        "Ticket"
        ],
        "answer": "Left",
        "words": [
@@ -3186,49 +4055,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Right",
-       "promptLang": "en",
-       "answer": "w prawo",
-       "words": [
-        "w prawo"
-       ],
-       "options": [
-        "hotel",
-        "bilet",
-        "dworzec",
-        "w prawo"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "gdzie",
+       "prompt": "w prawo",
        "promptLang": "target",
        "options": [
-        "Toilet",
-        "Where",
-        "Hotel",
-        "Ticket"
+        "Left",
+        "Right",
+        "Ticket",
+        "Where"
        ],
-       "answer": "Where",
+       "answer": "Right",
        "words": [
-        "gdzie"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Toilet",
-       "promptLang": "en",
-       "answer": "toaleta",
-       "words": [
-        "toaleta"
-       ],
-       "options": [
-        "w lewo",
-        "toaleta",
-        "bilet",
         "w prawo"
        ]
       },
@@ -3261,18 +4098,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "gdzie",
+       "words": [
+        "gdzie"
+       ],
+       "options": [
+        "dworzec",
+        "bilet",
+        "hotel",
+        "gdzie"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "toaleta",
+       "words": [
+        "toaleta"
+       ],
+       "options": [
+        "hotel",
+        "w lewo",
+        "w prawo",
+        "toaleta"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "The station is on the right.",
        "promptLang": "en",
        "tiles": [
-        "Dworzec",
-        "Czy",
-        "jest",
-        "po",
         "toaleta",
+        "Dworzec",
+        "po",
+        "hotel",
+        "jest",
         "prawej",
-        "hotel"
+        "w"
        ],
        "answer": [
         "Dworzec",
@@ -3294,12 +4163,12 @@
        "prompt": "Poproszę bilet.",
        "promptLang": "target",
        "tiles": [
-        "toilet",
-        "A",
-        "please",
-        "ticket",
+        "right",
         "to",
-        "airport"
+        "please",
+        "A",
+        "Turn",
+        "ticket"
        ],
        "answer": [
         "A",
@@ -3356,33 +4225,27 @@
     {
      "id": "u5l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Czy to daleko?",
-       "promptLang": "target",
-       "options": [
-        "Is it far?",
-        "I am going to the airport.",
-        "Where is the hotel?",
-        "The station is on the right."
-       ],
-       "answer": "Is it far?",
-       "words": [
-        "Czy to daleko?"
+       "t": "Czy to daleko?",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "alts": [
+        "To daleko?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "dworzec",
        "promptLang": "target",
        "options": [
-        "Station",
+        "Where",
         "Toilet",
-        "Hotel",
-        "Airport"
+        "Station",
+        "Left"
        ],
        "answer": "Station",
        "words": [
@@ -3394,55 +4257,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "bilet",
-         "Ticket"
+         "w prawo",
+         "Right"
         ],
         [
          "hotel",
          "Hotel"
         ],
         [
-         "w lewo",
-         "Left"
+         "bilet",
+         "Ticket"
+        ],
+        [
+         "gdzie",
+         "Where"
         ],
         [
          "lotnisko",
          "Airport"
-        ],
-        [
-         "w prawo",
-         "Right"
         ]
        ],
        "words": [
-        "bilet",
+        "w prawo",
         "hotel",
-        "w lewo",
-        "lotnisko",
-        "w prawo"
+        "bilet",
+        "gdzie",
+        "lotnisko"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "Is it far?",
-       "promptLang": "en",
-       "tiles": [
-        "to",
-        "toaleta",
-        "daleko",
-        "po",
-        "jest",
-        "Czy"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Czy to daleko?",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "A ticket, please.",
+        "Turn left.",
+        "Is it far?"
        ],
-       "answer": [
-        "Czy",
-        "to",
-        "daleko"
-       ],
-       "accepted": [
-        "To daleko?"
-       ],
+       "answer": "Is it far?",
        "words": [
         "Czy to daleko?"
        ]
@@ -3453,13 +4307,13 @@
        "prompt": "Gdzie jest toaleta?",
        "promptLang": "target",
        "tiles": [
-        "it",
-        "on",
-        "hotel",
         "the",
+        "is",
+        "please",
+        "left",
         "toilet",
-        "Where",
-        "is"
+        "station",
+        "Where"
        ],
        "answer": [
         "Where",
@@ -3478,6 +4332,54 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "to",
+        "na",
+        "Skręć",
+        "Czy",
+        "lotnisko",
+        "daleko"
+       ],
+       "answer": [
+        "Czy",
+        "to",
+        "daleko"
+       ],
+       "accepted": [
+        "To daleko?"
+       ],
+       "words": [
+        "Czy to daleko?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "lotnisko",
+        "Skręć",
+        "lewo",
+        "Jadę",
+        "po",
+        "na"
+       ],
+       "answer": [
+        "Jadę",
+        "na",
+        "lotnisko"
+       ],
+       "accepted": [],
+       "words": [
+        "lotnisko"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Jadę na lotnisko.",
@@ -3487,20 +4389,6 @@
        ],
        "words": [
         "lotnisko"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "A ticket, please.",
-       "promptLang": "en",
-       "answers": [
-        "Poproszę bilet.",
-        "Bilet, proszę.",
-        "Jeden bilet, proszę."
-       ],
-       "words": [
-        "bilet"
        ]
       },
       {
@@ -3519,6 +4407,20 @@
       {
        "type": "type",
        "instruction": "Type this in Polish",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Poproszę bilet.",
+        "Bilet, proszę.",
+        "Jeden bilet, proszę."
+       ],
+       "words": [
+        "bilet"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
        "prompt": "Station",
        "promptLang": "en",
        "answers": [
@@ -3528,35 +4430,13 @@
        "words": [
         "dworzec"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "I am going to the airport.",
-       "promptLang": "en",
-       "tiles": [
-        "Jadę",
-        "Dworzec",
-        "lotnisko",
-        "Czy",
-        "na",
-        "Skręć"
-       ],
-       "answer": [
-        "Jadę",
-        "na",
-        "lotnisko"
-       ],
-       "accepted": [],
-       "words": [
-        "lotnisko"
-       ]
       }
      ]
     },
     {
      "id": "u5l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -3566,8 +4446,8 @@
        "options": [
         "Where is the hotel?",
         "I am going to the airport.",
-        "A ticket, please.",
-        "Where is the toilet?"
+        "Turn left.",
+        "A ticket, please."
        ],
        "answer": "Where is the hotel?",
        "words": [
@@ -3580,16 +4460,16 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "gdzie",
-         "Where"
-        ],
-        [
-         "dworzec",
-         "Station"
+         "hotel",
+         "Hotel"
         ],
         [
          "toaleta",
          "Toilet"
+        ],
+        [
+         "dworzec",
+         "Station"
         ],
         [
          "w lewo",
@@ -3597,26 +4477,26 @@
         ]
        ],
        "words": [
-        "gdzie",
-        "dworzec",
+        "hotel",
         "toaleta",
+        "dworzec",
         "w lewo"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Hotel",
+       "prompt": "Right",
        "promptLang": "en",
-       "answer": "hotel",
+       "answer": "w prawo",
        "words": [
-        "hotel"
+        "w prawo"
        ],
        "options": [
-        "bilet",
-        "toaleta",
         "lotnisko",
-        "hotel"
+        "toaleta",
+        "dworzec",
+        "w prawo"
        ]
       },
       {
@@ -3642,18 +4522,6 @@
        ],
        "words": [
         "w lewo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Czy to daleko?",
-       "translation": "Is it far?",
-       "answers": [
-        "Czy to daleko?"
-       ],
-       "words": [
-        "Czy to daleko?"
        ]
       },
       {
@@ -3690,17 +4558,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Right",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Czy to daleko?",
+       "translation": "Is it far?",
        "answers": [
-        "w prawo",
-        "na prawo",
-        "po prawej"
+        "Czy to daleko?"
        ],
        "words": [
-        "w prawo"
+        "Czy to daleko?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Poproszę bilet.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Poproszę bilet."
+       ],
+       "words": [
+        "bilet"
        ]
       },
       {
@@ -3720,15 +4598,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Poproszę bilet.",
-       "translation": "A ticket, please.",
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Where",
+       "promptLang": "en",
        "answers": [
-        "Poproszę bilet."
+        "gdzie"
        ],
        "words": [
-        "bilet"
+        "gdzie"
        ]
       }
      ]
@@ -3740,11 +4618,128 @@
    "title": "Daily routine",
    "description": "Home, work, school and the time of day.",
    "icon": "calendar",
-   "tip": "'Idę' means I go on foot; 'jadę' means I go by car, bus or train.",
+   "tips": [
+    "'Idę' means I go on foot; 'jadę' means I go by car, bus or train."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "dzisiaj",
+      "e": "Today"
+     },
+     {
+      "t": "jutro",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "teraz",
+      "e": "Now"
+     },
+     {
+      "t": "rano",
+      "e": "Morning"
+     },
+     {
+      "t": "noc",
+      "e": "Night"
+     },
+     {
+      "t": "dom",
+      "e": "House"
+     },
+     {
+      "t": "praca",
+      "e": "Work"
+     },
+     {
+      "t": "szkoła",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Idę do pracy.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Jestem w domu.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Dzisiaj jest poniedziałek.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Rano piję kawę.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Śpię w nocy.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Dzieci idą do szkoły.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Która jest teraz godzina?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u6l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "dzisiaj",
+       "e": "Today",
+       "kind": "word",
+       "alts": [
+        "dziś"
+       ]
+      },
+      {
+       "t": "jutro",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "teraz",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "rano",
+       "e": "Morning",
+       "kind": "word",
+       "alts": [
+        "poranek"
+       ]
+      },
+      {
+       "t": "Idę do pracy.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "alts": [
+        "Jadę do pracy."
+       ]
+      },
+      {
+       "t": "Dzisiaj jest poniedziałek.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "alts": [
+        "Dziś jest poniedziałek."
+       ]
+      },
+      {
+       "t": "Jestem w domu.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3752,10 +4747,10 @@
        "prompt": "dzisiaj",
        "promptLang": "target",
        "options": [
-        "Tomorrow",
-        "House",
         "Today",
-        "Morning"
+        "Work",
+        "Morning",
+        "School"
        ],
        "answer": "Today",
        "words": [
@@ -3768,46 +4763,14 @@
        "prompt": "jutro",
        "promptLang": "target",
        "options": [
+        "School",
+        "House",
         "Tomorrow",
-        "Morning",
-        "Now",
-        "School"
+        "Work"
        ],
        "answer": "Tomorrow",
        "words": [
         "jutro"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Now",
-       "promptLang": "en",
-       "answer": "teraz",
-       "words": [
-        "teraz"
-       ],
-       "options": [
-        "noc",
-        "jutro",
-        "teraz",
-        "praca"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "rano",
-       "promptLang": "target",
-       "options": [
-        "House",
-        "School",
-        "Morning",
-        "Night"
-       ],
-       "answer": "Morning",
-       "words": [
-        "rano"
        ]
       },
       {
@@ -3839,17 +4802,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "teraz",
+       "words": [
+        "teraz"
+       ],
+       "options": [
+        "dom",
+        "szkoła",
+        "teraz",
+        "noc"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "rano",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "House",
+        "Tomorrow",
+        "Morning"
+       ],
+       "answer": "Morning",
+       "words": [
+        "rano"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "I go to work.",
        "promptLang": "en",
        "tiles": [
-        "Rano",
-        "pracy",
+        "Która",
+        "Dzisiaj",
         "Idę",
         "do",
-        "Dzieci",
-        "poniedziałek"
+        "poniedziałek",
+        "pracy"
        ],
        "answer": [
         "Idę",
@@ -3864,29 +4859,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Jestem w domu.",
-       "translation": "I am at home.",
-       "answers": [
-        "Jestem w domu."
-       ],
-       "words": [
-        "Jestem w domu."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Dzisiaj jest poniedziałek.",
        "promptLang": "target",
        "tiles": [
-        "to",
         "is",
+        "Today",
+        "time",
+        "morning",
         "Monday",
-        "am",
-        "in",
-        "Today"
+        "at"
        ],
        "answer": [
         "Today",
@@ -3898,6 +4881,18 @@
        ],
        "words": [
         "dzisiaj"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jestem w domu.",
+       "translation": "I am at home.",
+       "answers": [
+        "Jestem w domu."
+       ],
+       "words": [
+        "Jestem w domu."
        ]
       },
       {
@@ -3918,6 +4913,52 @@
     {
      "id": "u6l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "noc",
+       "e": "Night",
+       "kind": "word"
+      },
+      {
+       "t": "dom",
+       "e": "House",
+       "kind": "word"
+      },
+      {
+       "t": "praca",
+       "e": "Work",
+       "kind": "word"
+      },
+      {
+       "t": "szkoła",
+       "e": "School",
+       "kind": "word"
+      },
+      {
+       "t": "Rano piję kawę.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Piję kawę rano."
+       ]
+      },
+      {
+       "t": "Śpię w nocy.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "alts": [
+        "W nocy śpię."
+       ]
+      },
+      {
+       "t": "Dzieci idą do szkoły.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "alts": [
+        "Dzieci chodzą do szkoły."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3925,10 +4966,10 @@
        "prompt": "noc",
        "promptLang": "target",
        "options": [
+        "Tomorrow",
         "Today",
-        "School",
-        "Work",
-        "Night"
+        "Night",
+        "Morning"
        ],
        "answer": "Night",
        "words": [
@@ -3937,50 +4978,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "House",
-       "promptLang": "en",
-       "answer": "dom",
-       "words": [
-        "dom"
-       ],
-       "options": [
-        "teraz",
-        "szkoła",
-        "dom",
-        "rano"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "praca",
+       "prompt": "dom",
        "promptLang": "target",
        "options": [
-        "Tomorrow",
+        "House",
         "Work",
-        "Now",
-        "Today"
+        "School",
+        "Tomorrow"
        ],
-       "answer": "Work",
+       "answer": "House",
        "words": [
-        "praca"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "School",
-       "promptLang": "en",
-       "answer": "szkoła",
-       "words": [
-        "szkoła"
-       ],
-       "options": [
-        "szkoła",
-        "teraz",
-        "praca",
-        "rano"
+        "dom"
        ]
       },
       {
@@ -4012,17 +5021,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "praca",
+       "words": [
+        "praca"
+       ],
+       "options": [
+        "szkoła",
+        "teraz",
+        "rano",
+        "praca"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "szkoła",
+       "words": [
+        "szkoła"
+       ],
+       "options": [
+        "szkoła",
+        "noc",
+        "dzisiaj",
+        "jutro"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Polish",
        "prompt": "I drink coffee in the morning.",
        "promptLang": "en",
        "tiles": [
         "piję",
+        "Która",
+        "Dzisiaj",
         "Rano",
-        "poniedziałek",
-        "kawę",
-        "jest",
-        "Idę"
+        "godzina",
+        "kawę"
        ],
        "answer": [
         "Rano",
@@ -4042,13 +5083,13 @@
        "prompt": "Śpię w nocy.",
        "promptLang": "target",
        "tiles": [
-        "at",
-        "in",
-        "sleep",
+        "coffee",
         "I",
-        "morning",
         "night",
-        "it"
+        "Monday",
+        "sleep",
+        "it",
+        "at"
        ],
        "answer": [
         "I",
@@ -4108,23 +5149,17 @@
     {
      "id": "u6l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Która jest teraz godzina?",
-       "promptLang": "target",
-       "options": [
-        "Today is Monday.",
-        "I go to work.",
-        "What time is it now?",
-        "The children go to school."
-       ],
-       "answer": "What time is it now?",
-       "words": [
-        "teraz"
+       "t": "Która jest teraz godzina?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "alts": [
+        "Która godzina?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -4133,7 +5168,7 @@
        "options": [
         "Morning",
         "Tomorrow",
-        "Now",
+        "Night",
         "School"
        ],
        "answer": "Tomorrow",
@@ -4146,57 +5181,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "noc",
-         "Night"
-        ],
-        [
          "rano",
          "Morning"
+        ],
+        [
+         "praca",
+         "Work"
+        ],
+        [
+         "jutro",
+         "Tomorrow"
         ],
         [
          "teraz",
          "Now"
         ],
         [
-         "szkoła",
-         "School"
-        ],
-        [
-         "praca",
-         "Work"
+         "dom",
+         "House"
         ]
        ],
        "words": [
-        "noc",
         "rano",
+        "praca",
+        "jutro",
         "teraz",
-        "szkoła",
-        "praca"
+        "dom"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "What time is it now?",
-       "promptLang": "en",
-       "tiles": [
-        "Która",
-        "jest",
-        "szkoły",
-        "teraz",
-        "kawę",
-        "godzina",
-        "Dzieci"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Która jest teraz godzina?",
+       "promptLang": "target",
+       "options": [
+        "I sleep at night.",
+        "Today is Monday.",
+        "The children go to school.",
+        "What time is it now?"
        ],
-       "answer": [
-        "Która",
-        "jest",
-        "teraz",
-        "godzina"
-       ],
-       "accepted": [
-        "Która godzina?"
-       ],
+       "answer": "What time is it now?",
        "words": [
         "teraz"
        ]
@@ -4207,11 +5231,11 @@
        "prompt": "Jestem w domu.",
        "promptLang": "target",
        "tiles": [
-        "drink",
-        "in",
-        "am",
-        "time",
         "at",
+        "go",
+        "time",
+        "Monday",
+        "am",
         "home",
         "I"
        ],
@@ -4229,6 +5253,60 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "jest",
+        "Rano",
+        "do",
+        "Która",
+        "godzina",
+        "nocy",
+        "teraz"
+       ],
+       "answer": [
+        "Która",
+        "jest",
+        "teraz",
+        "godzina"
+       ],
+       "accepted": [
+        "Która godzina?"
+       ],
+       "words": [
+        "teraz"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "szkoły",
+        "Dzieci",
+        "kawę",
+        "Która",
+        "do",
+        "Śpię",
+        "idą"
+       ],
+       "answer": [
+        "Dzieci",
+        "idą",
+        "do",
+        "szkoły"
+       ],
+       "accepted": [
+        "Dzieci chodzą do szkoły."
+       ],
+       "words": [
+        "Dzieci idą do szkoły."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Dzieci idą do szkoły.",
@@ -4238,19 +5316,6 @@
        ],
        "words": [
         "Dzieci idą do szkoły."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "I sleep at night.",
-       "promptLang": "en",
-       "answers": [
-        "Śpię w nocy.",
-        "W nocy śpię."
-       ],
-       "words": [
-        "Śpię w nocy."
        ]
       },
       {
@@ -4269,6 +5334,19 @@
       {
        "type": "type",
        "instruction": "Type this in Polish",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Śpię w nocy.",
+        "W nocy śpię."
+       ],
+       "words": [
+        "Śpię w nocy."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
        "prompt": "Tomorrow",
        "promptLang": "en",
        "answers": [
@@ -4277,39 +5355,13 @@
        "words": [
         "jutro"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Polish",
-       "prompt": "The children go to school.",
-       "promptLang": "en",
-       "tiles": [
-        "do",
-        "Dzisiaj",
-        "poniedziałek",
-        "Jestem",
-        "idą",
-        "szkoły",
-        "Dzieci"
-       ],
-       "answer": [
-        "Dzieci",
-        "idą",
-        "do",
-        "szkoły"
-       ],
-       "accepted": [
-        "Dzieci chodzą do szkoły."
-       ],
-       "words": [
-        "Dzieci idą do szkoły."
-       ]
       }
      ]
     },
     {
      "id": "u6l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -4318,7 +5370,7 @@
        "promptLang": "target",
        "options": [
         "Today is Monday.",
-        "What time is it now?",
+        "I sleep at night.",
         "I go to work.",
         "I am at home."
        ],
@@ -4332,43 +5384,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "rano",
-         "Morning"
+         "dzisiaj",
+         "Today"
         ],
         [
          "noc",
          "Night"
         ],
         [
-         "teraz",
-         "Now"
+         "dom",
+         "House"
         ],
         [
-         "jutro",
-         "Tomorrow"
+         "teraz",
+         "Now"
         ]
        ],
        "words": [
-        "rano",
+        "dzisiaj",
         "noc",
-        "teraz",
-        "jutro"
+        "dom",
+        "teraz"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Today",
+       "prompt": "Morning",
        "promptLang": "en",
-       "answer": "dzisiaj",
+       "answer": "rano",
        "words": [
-        "dzisiaj"
+        "rano"
        ],
        "options": [
-        "rano",
         "teraz",
+        "jutro",
         "szkoła",
-        "dzisiaj"
+        "rano"
        ]
       },
       {
@@ -4394,18 +5446,6 @@
        ],
        "words": [
         "dzisiaj"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Która jest teraz godzina?",
-       "translation": "What time is it now?",
-       "answers": [
-        "Która jest teraz godzina?"
-       ],
-       "words": [
-        "teraz"
        ]
       },
       {
@@ -4441,15 +5481,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Polish",
-       "prompt": "Work",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Która jest teraz godzina?",
+       "translation": "What time is it now?",
        "answers": [
-        "praca"
+        "Która jest teraz godzina?"
        ],
        "words": [
-        "praca"
+        "teraz"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Śpię w nocy.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Śpię w nocy."
+       ],
+       "words": [
+        "Śpię w nocy."
        ]
       },
       {
@@ -4466,15 +5518,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Śpię w nocy.",
-       "translation": "I sleep at night.",
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "School",
+       "promptLang": "en",
        "answers": [
-        "Śpię w nocy."
+        "szkoła"
        ],
        "words": [
-        "Śpię w nocy."
+        "szkoła"
        ]
       }
      ]

@@ -9,6 +9,20 @@
  "romanization": "romanization",
  "noSpaces": false,
  "keyboard": [],
+ "particles": [
+  "을",
+  "를",
+  "이",
+  "가",
+  "은",
+  "는",
+  "에",
+  "에서",
+  "으로",
+  "로",
+  "도",
+  "의"
+ ],
  "order": 140,
  "description": "Polite everyday Korean in Hangul with romanization: greetings, family, food, numbers, travel and your day.",
  "units": [
@@ -17,11 +31,162 @@
    "title": "Greetings",
    "description": "Say hello, introduce yourself and be polite.",
    "icon": "wave",
-   "tip": "'안녕하세요' (annyeonghaseyo) is the everyday polite hello. For goodbye, say '안녕히 가세요' to someone who is leaving and '안녕히 계세요' to someone who is staying.",
+   "tips": [
+    "'안녕하세요' (annyeonghaseyo) is the everyday polite hello. For goodbye, say '안녕히 가세요' to someone who is leaving and '안녕히 계세요' to someone who is staying."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "안녕하세요",
+      "e": "Hello",
+      "r": "annyeonghaseyo"
+     },
+     {
+      "t": "안녕히 가세요",
+      "e": "Goodbye",
+      "r": "annyeonghi gaseyo"
+     },
+     {
+      "t": "감사합니다",
+      "e": "Thank you",
+      "r": "gamsahamnida"
+     },
+     {
+      "t": "부탁합니다",
+      "e": "Please",
+      "r": "butakamnida"
+     },
+     {
+      "t": "네",
+      "e": "Yes",
+      "r": "ne"
+     },
+     {
+      "t": "아니요",
+      "e": "No",
+      "r": "aniyo"
+     },
+     {
+      "t": "좋은 아침이에요",
+      "e": "Good morning",
+      "r": "joeun achimieyo"
+     },
+     {
+      "t": "죄송합니다",
+      "e": "Sorry",
+      "r": "joesonghamnida"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "잘 지내세요?",
+      "e": "How are you?",
+      "r": "jal jinaeseyo?"
+     },
+     {
+      "t": "잘 지내요, 감사합니다.",
+      "e": "I am fine, thank you.",
+      "r": "jal jinaeyo, gamsahamnida."
+     },
+     {
+      "t": "제 이름은 안나예요.",
+      "e": "My name is Anna.",
+      "r": "je ireumeun Annayeyo."
+     },
+     {
+      "t": "만나서 반갑습니다.",
+      "e": "Nice to meet you.",
+      "r": "mannaseo bangapseumnida."
+     },
+     {
+      "t": "정말 감사합니다.",
+      "e": "Thank you very much.",
+      "r": "jeongmal gamsahamnida."
+     },
+     {
+      "t": "내일 봐요.",
+      "e": "See you tomorrow.",
+      "r": "naeil bwayo."
+     },
+     {
+      "t": "이름이 뭐예요?",
+      "e": "What is your name?",
+      "r": "ireumi mwoyeyo?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u1l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "안녕하세요",
+       "e": "Hello",
+       "kind": "word",
+       "r": "annyeonghaseyo",
+       "alts": [
+        "안녕"
+       ]
+      },
+      {
+       "t": "안녕히 가세요",
+       "e": "Goodbye",
+       "kind": "word",
+       "r": "annyeonghi gaseyo",
+       "alts": [
+        "안녕히 계세요",
+        "안녕"
+       ]
+      },
+      {
+       "t": "감사합니다",
+       "e": "Thank you",
+       "kind": "word",
+       "r": "gamsahamnida",
+       "alts": [
+        "고맙습니다",
+        "고마워요"
+       ]
+      },
+      {
+       "t": "부탁합니다",
+       "e": "Please",
+       "kind": "word",
+       "r": "butakamnida",
+       "alts": [
+        "주세요"
+       ]
+      },
+      {
+       "t": "잘 지내세요?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "r": "jal jinaeseyo?",
+       "alts": [
+        "잘 지냈어요?"
+       ]
+      },
+      {
+       "t": "제 이름은 안나예요.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "r": "je ireumeun Annayeyo.",
+       "alts": [
+        "제 이름은 안나입니다.",
+        "저는 안나예요."
+       ]
+      },
+      {
+       "t": "잘 지내요, 감사합니다.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "r": "jal jinaeyo, gamsahamnida.",
+       "alts": [
+        "잘 지내요, 고마워요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -30,9 +195,9 @@
        "promptLang": "target",
        "options": [
         "No",
-        "Hello",
-        "Goodbye",
-        "Thank you"
+        "Good morning",
+        "Thank you",
+        "Hello"
        ],
        "answer": "Hello",
        "words": [
@@ -46,55 +211,16 @@
        "prompt": "안녕히 가세요",
        "promptLang": "target",
        "options": [
-        "Please",
+        "Good morning",
+        "No",
         "Goodbye",
-        "Yes",
-        "Good morning"
+        "Please"
        ],
        "answer": "Goodbye",
        "words": [
         "안녕히 가세요"
        ],
        "promptRoman": "annyeonghi gaseyo"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
-       "promptLang": "en",
-       "answer": "감사합니다",
-       "words": [
-        "감사합니다"
-       ],
-       "options": [
-        "아니요",
-        "안녕하세요",
-        "감사합니다",
-        "좋은 아침이에요"
-       ],
-       "optionsRoman": [
-        "aniyo",
-        "annyeonghaseyo",
-        "gamsahamnida",
-        "joeun achimieyo"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "부탁합니다",
-       "promptLang": "target",
-       "options": [
-        "Please",
-        "Good morning",
-        "Thank you",
-        "No"
-       ],
-       "answer": "Please",
-       "words": [
-        "부탁합니다"
-       ],
-       "promptRoman": "butakamnida"
       },
       {
        "type": "match",
@@ -131,16 +257,55 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "감사합니다",
+       "words": [
+        "감사합니다"
+       ],
+       "options": [
+        "아니요",
+        "감사합니다",
+        "좋은 아침이에요",
+        "부탁합니다"
+       ],
+       "optionsRoman": [
+        "aniyo",
+        "gamsahamnida",
+        "joeun achimieyo",
+        "butakamnida"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "부탁합니다",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Sorry",
+        "Good morning",
+        "Goodbye"
+       ],
+       "answer": "Please",
+       "words": [
+        "부탁합니다"
+       ],
+       "promptRoman": "butakamnida"
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "How are you?",
        "promptLang": "en",
        "tiles": [
-        "봐요",
-        "내일",
+        "안나예요",
+        "정말",
+        "지내세요",
         "잘",
-        "반갑습니다",
-        "지내세요"
+        "뭐예요"
        ],
        "answer": [
         "잘",
@@ -153,33 +318,11 @@
         "잘 지내세요?"
        ],
        "tilesRoman": [
-        "bwayo",
-        "naeil",
+        "Annayeyo",
+        "jeongmal",
+        "jinaeseyo",
         "jal",
-        "bangapseumnida",
-        "jinaeseyo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "잘 지내요, 감사합니다.",
-       "roman": "jal jinaeyo, gamsahamnida.",
-       "translation": "I am fine, thank you.",
-       "words": [
-        "감사합니다"
-       ],
-       "options": [
-        "정말 감사합니다.",
-        "잘 지내세요?",
-        "이름이 뭐예요?",
-        "잘 지내요, 감사합니다."
-       ],
-       "optionsRoman": [
-        "jeongmal gamsahamnida.",
-        "jal jinaeseyo?",
-        "ireumi mwoyeyo?",
-        "jal jinaeyo, gamsahamnida."
+        "mwoyeyo"
        ]
       },
       {
@@ -188,12 +331,12 @@
        "prompt": "제 이름은 안나예요.",
        "promptLang": "target",
        "tiles": [
-        "My",
-        "to",
-        "What",
-        "meet",
-        "Anna",
+        "your",
         "is",
+        "How",
+        "Anna",
+        "My",
+        "See",
         "name"
        ],
        "answer": [
@@ -210,6 +353,28 @@
         "제 이름은 안나예요."
        ],
        "promptRoman": "je ireumeun Annayeyo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "잘 지내요, 감사합니다.",
+       "roman": "jal jinaeyo, gamsahamnida.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "감사합니다"
+       ],
+       "options": [
+        "이름이 뭐예요?",
+        "잘 지내요, 감사합니다.",
+        "제 이름은 안나예요.",
+        "정말 감사합니다."
+       ],
+       "optionsRoman": [
+        "ireumi mwoyeyo?",
+        "jal jinaeyo, gamsahamnida.",
+        "je ireumeun Annayeyo.",
+        "jeongmal gamsahamnida."
+       ]
       },
       {
        "type": "type",
@@ -230,6 +395,75 @@
     {
      "id": "u1l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "네",
+       "e": "Yes",
+       "kind": "word",
+       "r": "ne",
+       "alts": [
+        "예"
+       ]
+      },
+      {
+       "t": "아니요",
+       "e": "No",
+       "kind": "word",
+       "r": "aniyo",
+       "alts": [
+        "아니오"
+       ]
+      },
+      {
+       "t": "좋은 아침이에요",
+       "e": "Good morning",
+       "kind": "word",
+       "r": "joeun achimieyo",
+       "alts": [
+        "좋은 아침입니다",
+        "좋은 아침"
+       ]
+      },
+      {
+       "t": "죄송합니다",
+       "e": "Sorry",
+       "kind": "word",
+       "r": "joesonghamnida",
+       "alts": [
+        "미안합니다",
+        "미안해요"
+       ]
+      },
+      {
+       "t": "만나서 반갑습니다.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "r": "mannaseo bangapseumnida.",
+       "alts": [
+        "만나서 반가워요.",
+        "반갑습니다."
+       ]
+      },
+      {
+       "t": "정말 감사합니다.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "r": "jeongmal gamsahamnida.",
+       "alts": [
+        "대단히 감사합니다.",
+        "정말 고마워요."
+       ]
+      },
+      {
+       "t": "내일 봐요.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "r": "naeil bwayo.",
+       "alts": [
+        "내일 만나요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -237,10 +471,10 @@
        "prompt": "네",
        "promptLang": "target",
        "options": [
-        "Goodbye",
-        "Sorry",
+        "Please",
+        "Thank you",
         "Yes",
-        "Hello"
+        "No"
        ],
        "answer": "Yes",
        "words": [
@@ -250,64 +484,20 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "No",
-       "promptLang": "en",
-       "answer": "아니요",
+       "instruction": "What does this mean?",
+       "prompt": "아니요",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "No",
+        "Goodbye",
+        "Good morning"
+       ],
+       "answer": "No",
        "words": [
         "아니요"
        ],
-       "options": [
-        "아니요",
-        "좋은 아침이에요",
-        "부탁합니다",
-        "안녕히 가세요"
-       ],
-       "optionsRoman": [
-        "aniyo",
-        "joeun achimieyo",
-        "butakamnida",
-        "annyeonghi gaseyo"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "좋은 아침이에요",
-       "promptLang": "target",
-       "options": [
-        "Good morning",
-        "Hello",
-        "Yes",
-        "Please"
-       ],
-       "answer": "Good morning",
-       "words": [
-        "좋은 아침이에요"
-       ],
-       "promptRoman": "joeun achimieyo"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
-       "promptLang": "en",
-       "answer": "죄송합니다",
-       "words": [
-        "죄송합니다"
-       ],
-       "options": [
-        "아니요",
-        "죄송합니다",
-        "안녕히 가세요",
-        "좋은 아침이에요"
-       ],
-       "optionsRoman": [
-        "aniyo",
-        "joesonghamnida",
-        "annyeonghi gaseyo",
-        "joeun achimieyo"
-       ]
+       "promptRoman": "aniyo"
       },
       {
        "type": "match",
@@ -344,16 +534,60 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "좋은 아침이에요",
+       "words": [
+        "좋은 아침이에요"
+       ],
+       "options": [
+        "감사합니다",
+        "좋은 아침이에요",
+        "네",
+        "안녕하세요"
+       ],
+       "optionsRoman": [
+        "gamsahamnida",
+        "joeun achimieyo",
+        "ne",
+        "annyeonghaseyo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "죄송합니다",
+       "words": [
+        "죄송합니다"
+       ],
+       "options": [
+        "안녕히 가세요",
+        "감사합니다",
+        "네",
+        "죄송합니다"
+       ],
+       "optionsRoman": [
+        "annyeonghi gaseyo",
+        "gamsahamnida",
+        "ne",
+        "joesonghamnida"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "Nice to meet you.",
        "promptLang": "en",
        "tiles": [
-        "반갑습니다",
-        "지내요",
-        "이름은",
+        "정말",
+        "잘",
         "만나서",
-        "뭐예요"
+        "뭐예요",
+        "반갑습니다"
        ],
        "answer": [
         "만나서",
@@ -367,11 +601,11 @@
         "만나서 반갑습니다."
        ],
        "tilesRoman": [
-        "bangapseumnida",
-        "jinaeyo",
-        "ireumeun",
+        "jeongmal",
+        "jal",
         "mannaseo",
-        "mwoyeyo"
+        "mwoyeyo",
+        "bangapseumnida"
        ]
       },
       {
@@ -380,13 +614,13 @@
        "prompt": "정말 감사합니다.",
        "promptLang": "target",
        "tiles": [
-        "Thank",
-        "much",
-        "is",
+        "name",
+        "What",
         "very",
-        "fine",
+        "much",
+        "Thank",
         "you",
-        "your"
+        "are"
        ],
        "answer": [
         "Thank",
@@ -414,16 +648,16 @@
         "만나서 반갑습니다."
        ],
        "options": [
-        "잘 지내요, 감사합니다.",
-        "내일 봐요.",
+        "이름이 뭐예요?",
+        "정말 감사합니다.",
         "만나서 반갑습니다.",
-        "제 이름은 안나예요."
+        "내일 봐요."
        ],
        "optionsRoman": [
-        "jal jinaeyo, gamsahamnida.",
-        "naeil bwayo.",
+        "ireumi mwoyeyo?",
+        "jeongmal gamsahamnida.",
         "mannaseo bangapseumnida.",
-        "je ireumeun Annayeyo."
+        "naeil bwayo."
        ]
       },
       {
@@ -461,34 +695,28 @@
     {
      "id": "u1l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "이름이 뭐예요?",
-       "promptLang": "target",
-       "options": [
-        "See you tomorrow.",
-        "My name is Anna.",
-        "What is your name?",
-        "Thank you very much."
-       ],
-       "answer": "What is your name?",
-       "words": [
-        "이름이 뭐예요?"
-       ],
-       "promptRoman": "ireumi mwoyeyo?"
-      },
+       "t": "이름이 뭐예요?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "r": "ireumi mwoyeyo?",
+       "alts": [
+        "이름이 무엇입니까?"
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "안녕히 가세요",
        "promptLang": "target",
        "options": [
-        "Goodbye",
-        "Good morning",
-        "No",
-        "Yes"
+        "Hello",
+        "Yes",
+        "Thank you",
+        "Goodbye"
        ],
        "answer": "Goodbye",
        "words": [
@@ -501,70 +729,57 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "죄송합니다",
-         "Sorry"
-        ],
-        [
          "아니요",
          "No"
         ],
         [
-         "안녕히 가세요",
-         "Goodbye"
+         "감사합니다",
+         "Thank you"
+        ],
+        [
+         "부탁합니다",
+         "Please"
         ],
         [
          "안녕하세요",
          "Hello"
         ],
         [
-         "좋은 아침이에요",
-         "Good morning"
+         "네",
+         "Yes"
         ]
        ],
        "words": [
-        "죄송합니다",
         "아니요",
-        "안녕히 가세요",
+        "감사합니다",
+        "부탁합니다",
         "안녕하세요",
-        "좋은 아침이에요"
+        "네"
        ],
        "romans": [
-        "joesonghamnida",
         "aniyo",
-        "annyeonghi gaseyo",
+        "gamsahamnida",
+        "butakamnida",
         "annyeonghaseyo",
-        "joeun achimieyo"
+        "ne"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "What is your name?",
-       "promptLang": "en",
-       "tiles": [
-        "반갑습니다",
-        "뭐예요",
-        "이름이",
-        "안나예요",
-        "제"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "이름이 뭐예요?",
+       "promptLang": "target",
+       "options": [
+        "What is your name?",
+        "Nice to meet you.",
+        "I am fine, thank you.",
+        "My name is Anna."
        ],
-       "answer": [
-        "이름이",
-        "뭐예요"
-       ],
-       "accepted": [
-        "이름이 무엇입니까?"
-       ],
+       "answer": "What is your name?",
        "words": [
         "이름이 뭐예요?"
        ],
-       "tilesRoman": [
-        "bangapseumnida",
-        "mwoyeyo",
-        "ireumi",
-        "Annayeyo",
-        "je"
-       ]
+       "promptRoman": "ireumi mwoyeyo?"
       },
       {
        "type": "tap",
@@ -572,14 +787,14 @@
        "prompt": "잘 지내요, 감사합니다.",
        "promptLang": "target",
        "tiles": [
-        "fine",
-        "My",
-        "What",
-        "I",
+        "am",
         "you",
-        "your",
-        "thank",
-        "am"
+        "fine",
+        "What",
+        "See",
+        "I",
+        "tomorrow",
+        "thank"
        ],
        "answer": [
         "I",
@@ -602,6 +817,66 @@
        "promptRoman": "jal jinaeyo, gamsahamnida."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "이름이",
+        "뭐예요",
+        "봐요",
+        "이름은",
+        "내일"
+       ],
+       "answer": [
+        "이름이",
+        "뭐예요"
+       ],
+       "accepted": [
+        "이름이 무엇입니까?"
+       ],
+       "words": [
+        "이름이 뭐예요?"
+       ],
+       "tilesRoman": [
+        "ireumi",
+        "mwoyeyo",
+        "bwayo",
+        "ireumeun",
+        "naeil"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "반갑습니다",
+        "제",
+        "봐요",
+        "내일",
+        "정말"
+       ],
+       "answer": [
+        "내일",
+        "봐요"
+       ],
+       "accepted": [
+        "내일 만나요."
+       ],
+       "words": [
+        "내일"
+       ],
+       "tilesRoman": [
+        "bangapseumnida",
+        "je",
+        "bwayo",
+        "naeil",
+        "jeongmal"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Tap what you hear",
        "text": "내일 봐요.",
@@ -611,47 +886,16 @@
         "내일"
        ],
        "options": [
-        "제 이름은 안나예요.",
+        "정말 감사합니다.",
+        "이름이 뭐예요?",
         "내일 봐요.",
-        "만나서 반갑습니다.",
         "잘 지내세요?"
        ],
        "optionsRoman": [
-        "je ireumeun Annayeyo.",
+        "jeongmal gamsahamnida.",
+        "ireumi mwoyeyo?",
         "naeil bwayo.",
-        "mannaseo bangapseumnida.",
         "jal jinaeseyo?"
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "Thank you very much.",
-       "promptLang": "en",
-       "tiles": [
-        "지내요",
-        "제",
-        "뭐예요",
-        "정말",
-        "감사합니다"
-       ],
-       "answer": [
-        "정말",
-        "감사합니다"
-       ],
-       "accepted": [
-        "대단히 감사합니다.",
-        "정말 고마워요."
-       ],
-       "words": [
-        "감사합니다"
-       ],
-       "tilesRoman": [
-        "jinaeyo",
-        "je",
-        "mwoyeyo",
-        "jeongmal",
-        "gamsahamnida"
        ]
       },
       {
@@ -670,6 +914,37 @@
        "promptRoman": "je ireumeun Annayeyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "잘",
+        "정말",
+        "감사합니다",
+        "이름은",
+        "반갑습니다"
+       ],
+       "answer": [
+        "정말",
+        "감사합니다"
+       ],
+       "accepted": [
+        "대단히 감사합니다.",
+        "정말 고마워요."
+       ],
+       "words": [
+        "감사합니다"
+       ],
+       "tilesRoman": [
+        "jal",
+        "jeongmal",
+        "gamsahamnida",
+        "ireumeun",
+        "bangapseumnida"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in Korean",
        "prompt": "Goodbye",
@@ -685,42 +960,13 @@
        ],
        "looseSpaces": true,
        "romanAllowed": true
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "See you tomorrow.",
-       "promptLang": "en",
-       "tiles": [
-        "지내세요",
-        "내일",
-        "반갑습니다",
-        "지내요",
-        "봐요"
-       ],
-       "answer": [
-        "내일",
-        "봐요"
-       ],
-       "accepted": [
-        "내일 만나요."
-       ],
-       "words": [
-        "내일"
-       ],
-       "tilesRoman": [
-        "jinaeseyo",
-        "naeil",
-        "bangapseumnida",
-        "jinaeyo",
-        "bwayo"
-       ]
       }
      ]
     },
     {
      "id": "u1l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -729,9 +975,9 @@
        "promptLang": "target",
        "options": [
         "Thank you very much.",
-        "Nice to meet you.",
-        "How are you?",
-        "See you tomorrow."
+        "My name is Anna.",
+        "I am fine, thank you.",
+        "How are you?"
        ],
        "answer": "How are you?",
        "words": [
@@ -744,12 +990,8 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "감사합니다",
-         "Thank you"
-        ],
-        [
-         "좋은 아침이에요",
-         "Good morning"
+         "안녕히 가세요",
+         "Goodbye"
         ],
         [
          "죄송합니다",
@@ -758,19 +1000,23 @@
         [
          "부탁합니다",
          "Please"
+        ],
+        [
+         "네",
+         "Yes"
         ]
        ],
        "words": [
-        "감사합니다",
-        "좋은 아침이에요",
+        "안녕히 가세요",
         "죄송합니다",
-        "부탁합니다"
+        "부탁합니다",
+        "네"
        ],
        "romans": [
-        "gamsahamnida",
-        "joeun achimieyo",
+        "annyeonghi gaseyo",
         "joesonghamnida",
-        "butakamnida"
+        "butakamnida",
+        "ne"
        ]
       },
       {
@@ -783,16 +1029,16 @@
         "안녕하세요"
        ],
        "options": [
-        "네",
         "안녕하세요",
+        "아니요",
         "죄송합니다",
-        "안녕히 가세요"
+        "감사합니다"
        ],
        "optionsRoman": [
-        "ne",
         "annyeonghaseyo",
+        "aniyo",
         "joesonghamnida",
-        "annyeonghi gaseyo"
+        "gamsahamnida"
        ]
       },
       {
@@ -801,12 +1047,12 @@
        "prompt": "My name is Anna.",
        "promptLang": "en",
        "tiles": [
+        "뭐예요",
         "안나예요",
-        "이름은",
         "제",
+        "지내요",
         "잘",
-        "감사합니다",
-        "정말"
+        "이름은"
        ],
        "answer": [
         "제",
@@ -821,34 +1067,12 @@
         "제 이름은 안나예요."
        ],
        "tilesRoman": [
+        "mwoyeyo",
         "Annayeyo",
-        "ireumeun",
         "je",
+        "jinaeyo",
         "jal",
-        "gamsahamnida",
-        "jeongmal"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "이름이 뭐예요?",
-       "roman": "ireumi mwoyeyo?",
-       "translation": "What is your name?",
-       "words": [
-        "이름이 뭐예요?"
-       ],
-       "options": [
-        "이름이 뭐예요?",
-        "만나서 반갑습니다.",
-        "정말 감사합니다.",
-        "잘 지내세요?"
-       ],
-       "optionsRoman": [
-        "ireumi mwoyeyo?",
-        "mannaseo bangapseumnida.",
-        "jeongmal gamsahamnida.",
-        "jal jinaeseyo?"
+        "ireumeun"
        ]
       },
       {
@@ -857,13 +1081,13 @@
        "prompt": "만나서 반갑습니다.",
        "promptLang": "target",
        "tiles": [
+        "am",
         "you",
-        "Nice",
-        "My",
         "meet",
+        "very",
         "to",
-        "I",
-        "name"
+        "Nice",
+        "My"
        ],
        "answer": [
         "Nice",
@@ -880,40 +1104,26 @@
        "promptRoman": "mannaseo bangapseumnida."
       },
       {
-       "type": "type",
-       "instruction": "Type this in Korean",
-       "prompt": "Goodbye",
-       "promptLang": "en",
-       "answers": [
-        "안녕히 가세요",
-        "안녕히 계세요",
-        "안녕",
-        "annyeonghi gaseyo"
-       ],
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "이름이 뭐예요?",
+       "roman": "ireumi mwoyeyo?",
+       "translation": "What is your name?",
        "words": [
-        "안녕히 가세요"
+        "이름이 뭐예요?"
        ],
-       "looseSpaces": true,
-       "romanAllowed": true
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in English",
-       "prompt": "잘 지내요, 감사합니다.",
-       "promptLang": "target",
-       "answers": [
-        "I am fine, thank you.",
-        "I am fine, thanks.",
-        "I am well, thank you.",
-        "I am well, thanks.",
-        "I am good, thank you.",
-        "Fine, thank you.",
-        "Fine, thanks."
+       "options": [
+        "내일 봐요.",
+        "이름이 뭐예요?",
+        "제 이름은 안나예요.",
+        "정말 감사합니다."
        ],
-       "words": [
-        "감사합니다"
-       ],
-       "promptRoman": "jal jinaeyo, gamsahamnida."
+       "optionsRoman": [
+        "naeil bwayo.",
+        "ireumi mwoyeyo?",
+        "je ireumeun Annayeyo.",
+        "jeongmal gamsahamnida."
+       ]
       },
       {
        "type": "listen",
@@ -936,6 +1146,42 @@
         "jal jinaeyo, gamsahamnida.",
         "mannaseo bangapseumnida."
        ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "잘 지내요, 감사합니다.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "감사합니다"
+       ],
+       "promptRoman": "jal jinaeyo, gamsahamnida."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answers": [
+        "좋은 아침이에요",
+        "좋은 아침입니다",
+        "좋은 아침",
+        "joeun achimieyo"
+       ],
+       "words": [
+        "좋은 아침이에요"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
       }
      ]
     }
@@ -946,11 +1192,151 @@
    "title": "People and family",
    "description": "Talk about the people around you.",
    "icon": "person",
-   "tip": "은/는 (eun/neun) after a noun marks the topic: 어머니는 (eomeonineun) = as for my mother. Koreans often say 우리 (our) for family: 우리 어머니.",
+   "tips": [
+    "은/는 (eun/neun) after a noun marks the topic: 어머니는 (eomeonineun) = as for my mother. Koreans often say 우리 (our) for family: 우리 어머니."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "남자",
+      "e": "Man",
+      "r": "namja"
+     },
+     {
+      "t": "여자",
+      "e": "Woman",
+      "r": "yeoja"
+     },
+     {
+      "t": "아이",
+      "e": "Child",
+      "r": "ai"
+     },
+     {
+      "t": "친구",
+      "e": "Friend",
+      "r": "chingu"
+     },
+     {
+      "t": "어머니",
+      "e": "Mother",
+      "r": "eomeoni"
+     },
+     {
+      "t": "아버지",
+      "e": "Father",
+      "r": "abeoji"
+     },
+     {
+      "t": "아들",
+      "e": "Son",
+      "r": "adeul"
+     },
+     {
+      "t": "딸",
+      "e": "Daughter",
+      "r": "ttal"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "이분은 제 어머니예요.",
+      "e": "This is my mother.",
+      "r": "ibuneun je eomeoniyeyo."
+     },
+     {
+      "t": "그는 제 친구예요.",
+      "e": "He is my friend.",
+      "r": "geuneun je chinguyeyo."
+     },
+     {
+      "t": "아들이 있어요.",
+      "e": "I have a son.",
+      "r": "adeuri isseoyo."
+     },
+     {
+      "t": "아버지는 어디에 계세요?",
+      "e": "Where is my father?",
+      "r": "abeojineun eodie gyeseyo?"
+     },
+     {
+      "t": "어머니는 집에 계세요.",
+      "e": "My mother is at home.",
+      "r": "eomeonineun jibe gyeseyo."
+     },
+     {
+      "t": "그녀는 제 딸이에요.",
+      "e": "She is my daughter.",
+      "r": "geunyeoneun je ttarieyo."
+     },
+     {
+      "t": "이 남자는 누구예요?",
+      "e": "Who is this man?",
+      "r": "i namjaneun nuguyeyo?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u2l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "남자",
+       "e": "Man",
+       "kind": "word",
+       "r": "namja"
+      },
+      {
+       "t": "여자",
+       "e": "Woman",
+       "kind": "word",
+       "r": "yeoja"
+      },
+      {
+       "t": "아이",
+       "e": "Child",
+       "kind": "word",
+       "r": "ai",
+       "alts": [
+        "어린이"
+       ]
+      },
+      {
+       "t": "친구",
+       "e": "Friend",
+       "kind": "word",
+       "r": "chingu"
+      },
+      {
+       "t": "이분은 제 어머니예요.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "r": "ibuneun je eomeoniyeyo.",
+       "alts": [
+        "이 사람은 제 어머니예요."
+       ]
+      },
+      {
+       "t": "아들이 있어요.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "r": "adeuri isseoyo.",
+       "alts": [
+        "아들이 하나 있어요.",
+        "저는 아들이 있어요."
+       ]
+      },
+      {
+       "t": "그는 제 친구예요.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "r": "geuneun je chinguyeyo.",
+       "alts": [
+        "그 사람은 제 친구예요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -958,10 +1344,10 @@
        "prompt": "남자",
        "promptLang": "target",
        "options": [
-        "Friend",
+        "Mother",
         "Man",
-        "Woman",
-        "Mother"
+        "Son",
+        "Woman"
        ],
        "answer": "Man",
        "words": [
@@ -975,55 +1361,16 @@
        "prompt": "여자",
        "promptLang": "target",
        "options": [
-        "Father",
-        "Woman",
         "Daughter",
-        "Mother"
+        "Child",
+        "Woman",
+        "Man"
        ],
        "answer": "Woman",
        "words": [
         "여자"
        ],
        "promptRoman": "yeoja"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Child",
-       "promptLang": "en",
-       "answer": "아이",
-       "words": [
-        "아이"
-       ],
-       "options": [
-        "아들",
-        "친구",
-        "아이",
-        "어머니"
-       ],
-       "optionsRoman": [
-        "adeul",
-        "chingu",
-        "ai",
-        "eomeoni"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "친구",
-       "promptLang": "target",
-       "options": [
-        "Friend",
-        "Son",
-        "Mother",
-        "Woman"
-       ],
-       "answer": "Friend",
-       "words": [
-        "친구"
-       ],
-       "promptRoman": "chingu"
       },
       {
        "type": "match",
@@ -1060,17 +1407,56 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "아이",
+       "words": [
+        "아이"
+       ],
+       "options": [
+        "딸",
+        "아들",
+        "아이",
+        "친구"
+       ],
+       "optionsRoman": [
+        "ttal",
+        "adeul",
+        "ai",
+        "chingu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "친구",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Friend",
+        "Child",
+        "Son"
+       ],
+       "answer": "Friend",
+       "words": [
+        "친구"
+       ],
+       "promptRoman": "chingu"
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "This is my mother.",
        "promptLang": "en",
        "tiles": [
-        "어머니는",
         "그녀는",
         "이분은",
         "제",
-        "누구예요",
-        "어머니예요"
+        "그는",
+        "어머니예요",
+        "어디에"
        ],
        "answer": [
         "이분은",
@@ -1084,34 +1470,12 @@
         "이분은 제 어머니예요."
        ],
        "tilesRoman": [
-        "eomeonineun",
         "geunyeoneun",
         "ibuneun",
         "je",
-        "nuguyeyo",
-        "eomeoniyeyo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "그는 제 친구예요.",
-       "roman": "geuneun je chinguyeyo.",
-       "translation": "He is my friend.",
-       "words": [
-        "그는 제 친구예요."
-       ],
-       "options": [
-        "이 남자는 누구예요?",
-        "그는 제 친구예요.",
-        "어머니는 집에 계세요.",
-        "아버지는 어디에 계세요?"
-       ],
-       "optionsRoman": [
-        "i namjaneun nuguyeyo?",
-        "geuneun je chinguyeyo.",
-        "eomeonineun jibe gyeseyo.",
-        "abeojineun eodie gyeseyo?"
+        "geuneun",
+        "eomeoniyeyo",
+        "eodie"
        ]
       },
       {
@@ -1144,6 +1508,28 @@
        "promptRoman": "adeuri isseoyo."
       },
       {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "그는 제 친구예요.",
+       "roman": "geuneun je chinguyeyo.",
+       "translation": "He is my friend.",
+       "words": [
+        "그는 제 친구예요."
+       ],
+       "options": [
+        "이분은 제 어머니예요.",
+        "아버지는 어디에 계세요?",
+        "그는 제 친구예요.",
+        "어머니는 집에 계세요."
+       ],
+       "optionsRoman": [
+        "ibuneun je eomeoniyeyo.",
+        "abeojineun eodie gyeseyo?",
+        "geuneun je chinguyeyo.",
+        "eomeonineun jibe gyeseyo."
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in English",
        "prompt": "이분은 제 어머니예요.",
@@ -1163,6 +1549,66 @@
     {
      "id": "u2l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "어머니",
+       "e": "Mother",
+       "kind": "word",
+       "r": "eomeoni",
+       "alts": [
+        "엄마"
+       ]
+      },
+      {
+       "t": "아버지",
+       "e": "Father",
+       "kind": "word",
+       "r": "abeoji",
+       "alts": [
+        "아빠"
+       ]
+      },
+      {
+       "t": "아들",
+       "e": "Son",
+       "kind": "word",
+       "r": "adeul"
+      },
+      {
+       "t": "딸",
+       "e": "Daughter",
+       "kind": "word",
+       "r": "ttal"
+      },
+      {
+       "t": "아버지는 어디에 계세요?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "r": "abeojineun eodie gyeseyo?",
+       "alts": [
+        "아버지는 어디 계세요?",
+        "아빠는 어디 있어요?"
+       ]
+      },
+      {
+       "t": "어머니는 집에 계세요.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "r": "eomeonineun jibe gyeseyo.",
+       "alts": [
+        "엄마는 집에 있어요."
+       ]
+      },
+      {
+       "t": "그녀는 제 딸이에요.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "r": "geunyeoneun je ttarieyo.",
+       "alts": [
+        "이 아이는 제 딸이에요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1170,10 +1616,10 @@
        "prompt": "어머니",
        "promptLang": "target",
        "options": [
-        "Man",
-        "Child",
         "Mother",
-        "Friend"
+        "Child",
+        "Man",
+        "Son"
        ],
        "answer": "Mother",
        "words": [
@@ -1183,64 +1629,20 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Father",
-       "promptLang": "en",
-       "answer": "아버지",
-       "words": [
-        "아버지"
-       ],
-       "options": [
-        "아버지",
-        "아이",
-        "남자",
-        "아들"
-       ],
-       "optionsRoman": [
-        "abeoji",
-        "ai",
-        "namja",
-        "adeul"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "아들",
+       "prompt": "아버지",
        "promptLang": "target",
        "options": [
         "Daughter",
         "Child",
-        "Son",
+        "Father",
         "Mother"
        ],
-       "answer": "Son",
+       "answer": "Father",
        "words": [
-        "아들"
-       ],
-       "promptRoman": "adeul"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Daughter",
-       "promptLang": "en",
-       "answer": "딸",
-       "words": [
-        "딸"
-       ],
-       "options": [
-        "딸",
-        "여자",
-        "어머니",
         "아버지"
        ],
-       "optionsRoman": [
-        "ttal",
-        "yeoja",
-        "eomeoni",
-        "abeoji"
-       ]
+       "promptRoman": "abeoji"
       },
       {
        "type": "match",
@@ -1277,17 +1679,61 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "아들",
+       "words": [
+        "아들"
+       ],
+       "options": [
+        "아들",
+        "여자",
+        "어머니",
+        "아버지"
+       ],
+       "optionsRoman": [
+        "adeul",
+        "yeoja",
+        "eomeoni",
+        "abeoji"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "딸",
+       "words": [
+        "딸"
+       ],
+       "options": [
+        "딸",
+        "여자",
+        "아이",
+        "아들"
+       ],
+       "optionsRoman": [
+        "ttal",
+        "yeoja",
+        "ai",
+        "adeul"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "Where is my father?",
        "promptLang": "en",
        "tiles": [
-        "제",
-        "이분은",
-        "계세요",
+        "어머니예요",
         "아버지는",
+        "계세요",
         "어디에",
-        "집에"
+        "있어요",
+        "친구예요"
        ],
        "answer": [
         "아버지는",
@@ -1302,12 +1748,12 @@
         "아버지는 어디에 계세요?"
        ],
        "tilesRoman": [
-        "je",
-        "ibuneun",
-        "gyeseyo",
+        "eomeoniyeyo",
         "abeojineun",
+        "gyeseyo",
         "eodie",
-        "jibe"
+        "isseoyo",
+        "chinguyeyo"
        ]
       },
       {
@@ -1316,14 +1762,14 @@
        "prompt": "어머니는 집에 계세요.",
        "promptLang": "target",
        "tiles": [
-        "home",
-        "is",
-        "man",
-        "She",
         "My",
-        "mother",
+        "have",
+        "son",
+        "Where",
+        "is",
         "at",
-        "a"
+        "home",
+        "mother"
        ],
        "answer": [
         "My",
@@ -1356,13 +1802,13 @@
        "options": [
         "그녀는 제 딸이에요.",
         "아버지는 어디에 계세요?",
-        "어머니는 집에 계세요.",
+        "이 남자는 누구예요?",
         "아들이 있어요."
        ],
        "optionsRoman": [
         "geunyeoneun je ttarieyo.",
         "abeojineun eodie gyeseyo?",
-        "eomeonineun jibe gyeseyo.",
+        "i namjaneun nuguyeyo?",
         "adeuri isseoyo."
        ]
       },
@@ -1399,24 +1845,19 @@
     {
      "id": "u2l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "이 남자는 누구예요?",
-       "promptLang": "target",
-       "options": [
-        "This is my mother.",
-        "She is my daughter.",
-        "My mother is at home.",
-        "Who is this man?"
-       ],
-       "answer": "Who is this man?",
-       "words": [
-        "이 남자는 누구예요?"
-       ],
-       "promptRoman": "i namjaneun nuguyeyo?"
-      },
+       "t": "이 남자는 누구예요?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "r": "i namjaneun nuguyeyo?",
+       "alts": [
+        "이 남자는 누구입니까?",
+        "이 사람은 누구예요?"
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -1439,74 +1880,57 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "친구",
-         "Friend"
-        ],
-        [
-         "남자",
-         "Man"
-        ],
-        [
-         "아이",
-         "Child"
-        ],
-        [
          "여자",
          "Woman"
         ],
         [
+         "친구",
+         "Friend"
+        ],
+        [
          "아들",
          "Son"
+        ],
+        [
+         "어머니",
+         "Mother"
+        ],
+        [
+         "딸",
+         "Daughter"
         ]
        ],
        "words": [
-        "친구",
-        "남자",
-        "아이",
         "여자",
-        "아들"
+        "친구",
+        "아들",
+        "어머니",
+        "딸"
        ],
        "romans": [
-        "chingu",
-        "namja",
-        "ai",
         "yeoja",
-        "adeul"
+        "chingu",
+        "adeul",
+        "eomeoni",
+        "ttal"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "Who is this man?",
-       "promptLang": "en",
-       "tiles": [
-        "누구예요",
-        "제",
-        "그녀는",
-        "남자는",
-        "이",
-        "어머니예요"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "이 남자는 누구예요?",
+       "promptLang": "target",
+       "options": [
+        "This is my mother.",
+        "Where is my father?",
+        "Who is this man?",
+        "I have a son."
        ],
-       "answer": [
-        "이",
-        "남자는",
-        "누구예요"
-       ],
-       "accepted": [
-        "이 남자는 누구입니까?",
-        "이 사람은 누구예요?"
-       ],
+       "answer": "Who is this man?",
        "words": [
         "이 남자는 누구예요?"
        ],
-       "tilesRoman": [
-        "nuguyeyo",
-        "je",
-        "geunyeoneun",
-        "namjaneun",
-        "i",
-        "eomeoniyeyo"
-       ]
+       "promptRoman": "i namjaneun nuguyeyo?"
       },
       {
        "type": "tap",
@@ -1514,13 +1938,13 @@
        "prompt": "그는 제 친구예요.",
        "promptLang": "target",
        "tiles": [
-        "at",
-        "is",
-        "father",
-        "He",
+        "friend",
+        "man",
         "my",
-        "I",
-        "friend"
+        "mother",
+        "is",
+        "He",
+        "She"
        ],
        "answer": [
         "He",
@@ -1535,6 +1959,73 @@
        "promptRoman": "geuneun je chinguyeyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "어머니예요",
+        "남자는",
+        "아버지는",
+        "이",
+        "누구예요",
+        "어디에"
+       ],
+       "answer": [
+        "이",
+        "남자는",
+        "누구예요"
+       ],
+       "accepted": [
+        "이 남자는 누구입니까?",
+        "이 사람은 누구예요?"
+       ],
+       "words": [
+        "이 남자는 누구예요?"
+       ],
+       "tilesRoman": [
+        "eomeoniyeyo",
+        "namjaneun",
+        "abeojineun",
+        "i",
+        "nuguyeyo",
+        "eodie"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "남자는",
+        "집에",
+        "제",
+        "있어요",
+        "딸이에요",
+        "그녀는"
+       ],
+       "answer": [
+        "그녀는",
+        "제",
+        "딸이에요"
+       ],
+       "accepted": [
+        "이 아이는 제 딸이에요."
+       ],
+       "words": [
+        "그녀는 제 딸이에요."
+       ],
+       "tilesRoman": [
+        "namjaneun",
+        "jibe",
+        "je",
+        "isseoyo",
+        "ttarieyo",
+        "geunyeoneun"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Tap what you hear",
        "text": "그녀는 제 딸이에요.",
@@ -1544,49 +2035,16 @@
         "그녀는 제 딸이에요."
        ],
        "options": [
-        "어머니는 집에 계세요.",
-        "이 남자는 누구예요?",
         "그는 제 친구예요.",
-        "그녀는 제 딸이에요."
+        "이 남자는 누구예요?",
+        "그녀는 제 딸이에요.",
+        "아들이 있어요."
        ],
        "optionsRoman": [
-        "eomeonineun jibe gyeseyo.",
-        "i namjaneun nuguyeyo?",
         "geuneun je chinguyeyo.",
-        "geunyeoneun je ttarieyo."
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "My mother is at home.",
-       "promptLang": "en",
-       "tiles": [
-        "있어요",
-        "어머니는",
-        "아버지는",
-        "집에",
-        "계세요",
-        "남자는"
-       ],
-       "answer": [
-        "어머니는",
-        "집에",
-        "계세요"
-       ],
-       "accepted": [
-        "엄마는 집에 있어요."
-       ],
-       "words": [
-        "어머니는 집에 계세요."
-       ],
-       "tilesRoman": [
-        "isseoyo",
-        "eomeonineun",
-        "abeojineun",
-        "jibe",
-        "gyeseyo",
-        "namjaneun"
+        "i namjaneun nuguyeyo?",
+        "geunyeoneun je ttarieyo.",
+        "adeuri isseoyo."
        ]
       },
       {
@@ -1605,6 +2063,39 @@
        "promptRoman": "adeuri isseoyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "계세요",
+        "집에",
+        "있어요",
+        "아버지는",
+        "어머니는",
+        "제"
+       ],
+       "answer": [
+        "어머니는",
+        "집에",
+        "계세요"
+       ],
+       "accepted": [
+        "엄마는 집에 있어요."
+       ],
+       "words": [
+        "어머니는 집에 계세요."
+       ],
+       "tilesRoman": [
+        "gyeseyo",
+        "jibe",
+        "isseoyo",
+        "abeojineun",
+        "eomeonineun",
+        "je"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in Korean",
        "prompt": "Woman",
@@ -1618,45 +2109,13 @@
        ],
        "looseSpaces": true,
        "romanAllowed": true
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "She is my daughter.",
-       "promptLang": "en",
-       "tiles": [
-        "딸이에요",
-        "제",
-        "아버지는",
-        "이",
-        "그녀는",
-        "어머니예요"
-       ],
-       "answer": [
-        "그녀는",
-        "제",
-        "딸이에요"
-       ],
-       "accepted": [
-        "이 아이는 제 딸이에요."
-       ],
-       "words": [
-        "그녀는 제 딸이에요."
-       ],
-       "tilesRoman": [
-        "ttarieyo",
-        "je",
-        "abeojineun",
-        "i",
-        "geunyeoneun",
-        "eomeoniyeyo"
-       ]
       }
      ]
     },
     {
      "id": "u2l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -1664,10 +2123,10 @@
        "prompt": "이분은 제 어머니예요.",
        "promptLang": "target",
        "options": [
-        "Where is my father?",
-        "This is my mother.",
+        "I have a son.",
         "She is my daughter.",
-        "He is my friend."
+        "Who is this man?",
+        "This is my mother."
        ],
        "answer": "This is my mother.",
        "words": [
@@ -1680,6 +2139,10 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "딸",
+         "Daughter"
+        ],
+        [
          "아이",
          "Child"
         ],
@@ -1688,47 +2151,43 @@
          "Man"
         ],
         [
-         "친구",
-         "Friend"
-        ],
-        [
-         "아버지",
-         "Father"
+         "어머니",
+         "Mother"
         ]
        ],
        "words": [
+        "딸",
         "아이",
         "남자",
-        "친구",
-        "아버지"
+        "어머니"
        ],
        "romans": [
+        "ttal",
         "ai",
         "namja",
-        "chingu",
-        "abeoji"
+        "eomeoni"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Mother",
+       "prompt": "Woman",
        "promptLang": "en",
-       "answer": "어머니",
+       "answer": "여자",
        "words": [
-        "어머니"
-       ],
-       "options": [
-        "아들",
-        "어머니",
-        "친구",
         "여자"
        ],
+       "options": [
+        "아버지",
+        "어머니",
+        "여자",
+        "아이"
+       ],
        "optionsRoman": [
-        "adeul",
+        "abeoji",
         "eomeoni",
-        "chingu",
-        "yeoja"
+        "yeoja",
+        "ai"
        ]
       },
       {
@@ -1737,11 +2196,11 @@
        "prompt": "I have a son.",
        "promptLang": "en",
        "tiles": [
-        "누구예요",
+        "집에",
         "제",
+        "있어요",
         "아들이",
-        "그녀는",
-        "있어요"
+        "어디에"
        ],
        "answer": [
         "아들이",
@@ -1755,33 +2214,11 @@
         "아들이 있어요."
        ],
        "tilesRoman": [
-        "nuguyeyo",
+        "jibe",
         "je",
+        "isseoyo",
         "adeuri",
-        "geunyeoneun",
-        "isseoyo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "이 남자는 누구예요?",
-       "roman": "i namjaneun nuguyeyo?",
-       "translation": "Who is this man?",
-       "words": [
-        "이 남자는 누구예요?"
-       ],
-       "options": [
-        "어머니는 집에 계세요.",
-        "그는 제 친구예요.",
-        "그녀는 제 딸이에요.",
-        "이 남자는 누구예요?"
-       ],
-       "optionsRoman": [
-        "eomeonineun jibe gyeseyo.",
-        "geuneun je chinguyeyo.",
-        "geunyeoneun je ttarieyo.",
-        "i namjaneun nuguyeyo?"
+        "eodie"
        ]
       },
       {
@@ -1790,13 +2227,13 @@
        "prompt": "아버지는 어디에 계세요?",
        "promptLang": "target",
        "tiles": [
-        "I",
-        "mother",
         "my",
-        "is",
+        "at",
         "father",
-        "This",
-        "Where"
+        "is",
+        "Where",
+        "a",
+        "She"
        ],
        "answer": [
         "Where",
@@ -1813,19 +2250,48 @@
        "promptRoman": "abeojineun eodie gyeseyo?"
       },
       {
-       "type": "type",
-       "instruction": "Type this in Korean",
-       "prompt": "Son",
-       "promptLang": "en",
-       "answers": [
-        "아들",
-        "adeul"
-       ],
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "이 남자는 누구예요?",
+       "roman": "i namjaneun nuguyeyo?",
+       "translation": "Who is this man?",
        "words": [
-        "아들"
+        "이 남자는 누구예요?"
        ],
-       "looseSpaces": true,
-       "romanAllowed": true
+       "options": [
+        "이 남자는 누구예요?",
+        "아버지는 어디에 계세요?",
+        "그는 제 친구예요.",
+        "어머니는 집에 계세요."
+       ],
+       "optionsRoman": [
+        "i namjaneun nuguyeyo?",
+        "abeojineun eodie gyeseyo?",
+        "geuneun je chinguyeyo.",
+        "eomeonineun jibe gyeseyo."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "어머니는 집에 계세요.",
+       "roman": "eomeonineun jibe gyeseyo.",
+       "translation": "My mother is at home.",
+       "words": [
+        "어머니는 집에 계세요."
+       ],
+       "options": [
+        "이 남자는 누구예요?",
+        "아들이 있어요.",
+        "아버지는 어디에 계세요?",
+        "어머니는 집에 계세요."
+       ],
+       "optionsRoman": [
+        "i namjaneun nuguyeyo?",
+        "adeuri isseoyo.",
+        "abeojineun eodie gyeseyo?",
+        "eomeonineun jibe gyeseyo."
+       ]
       },
       {
        "type": "type",
@@ -1841,26 +2307,19 @@
        "promptRoman": "geuneun je chinguyeyo."
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "어머니는 집에 계세요.",
-       "roman": "eomeonineun jibe gyeseyo.",
-       "translation": "My mother is at home.",
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Friend",
+       "promptLang": "en",
+       "answers": [
+        "친구",
+        "chingu"
+       ],
        "words": [
-        "어머니는 집에 계세요."
+        "친구"
        ],
-       "options": [
-        "아버지는 어디에 계세요?",
-        "이 남자는 누구예요?",
-        "어머니는 집에 계세요.",
-        "그녀는 제 딸이에요."
-       ],
-       "optionsRoman": [
-        "abeojineun eodie gyeseyo?",
-        "i namjaneun nuguyeyo?",
-        "eomeonineun jibe gyeseyo.",
-        "geunyeoneun je ttarieyo."
-       ]
+       "looseSpaces": true,
+       "romanAllowed": true
       }
      ]
     }
@@ -1871,11 +2330,146 @@
    "title": "Food and drink",
    "description": "Order, eat and drink.",
    "icon": "cup",
-   "tip": "Objects take 을/를 (eul/reul) and the verb comes last: 커피를 마셔요 (keopireul masyeoyo) = (I) drink coffee.",
+   "tips": [
+    "Objects take 을/를 (eul/reul) and the verb comes last: 커피를 마셔요 (keopireul masyeoyo) = (I) drink coffee."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "물",
+      "e": "Water",
+      "r": "mul"
+     },
+     {
+      "t": "빵",
+      "e": "Bread",
+      "r": "ppang"
+     },
+     {
+      "t": "커피",
+      "e": "Coffee",
+      "r": "keopi"
+     },
+     {
+      "t": "차",
+      "e": "Tea",
+      "r": "cha"
+     },
+     {
+      "t": "우유",
+      "e": "Milk",
+      "r": "uyu"
+     },
+     {
+      "t": "사과",
+      "e": "Apple",
+      "r": "sagwa"
+     },
+     {
+      "t": "밥",
+      "e": "Rice",
+      "r": "bap"
+     },
+     {
+      "t": "계란",
+      "e": "Egg",
+      "r": "gyeran"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "물 주세요.",
+      "e": "Water, please.",
+      "r": "mul juseyo."
+     },
+     {
+      "t": "커피를 마셔요.",
+      "e": "I drink coffee.",
+      "r": "keopireul masyeoyo."
+     },
+     {
+      "t": "빵을 먹어요.",
+      "e": "I eat bread.",
+      "r": "ppangeul meogeoyo."
+     },
+     {
+      "t": "차가 뜨거워요.",
+      "e": "The tea is hot.",
+      "r": "chaga tteugeowoyo."
+     },
+     {
+      "t": "우유를 안 마셔요.",
+      "e": "I do not drink milk.",
+      "r": "uyureul an masyeoyo."
+     },
+     {
+      "t": "사과를 좋아해요.",
+      "e": "I like apples.",
+      "r": "sagwareul joahaeyo."
+     },
+     {
+      "t": "배고파요.",
+      "e": "I am hungry.",
+      "r": "baegopayo."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u3l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "물",
+       "e": "Water",
+       "kind": "word",
+       "r": "mul"
+      },
+      {
+       "t": "빵",
+       "e": "Bread",
+       "kind": "word",
+       "r": "ppang"
+      },
+      {
+       "t": "커피",
+       "e": "Coffee",
+       "kind": "word",
+       "r": "keopi"
+      },
+      {
+       "t": "차",
+       "e": "Tea",
+       "kind": "word",
+       "r": "cha"
+      },
+      {
+       "t": "물 주세요.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "r": "mul juseyo."
+      },
+      {
+       "t": "빵을 먹어요.",
+       "e": "I eat bread.",
+       "kind": "phrase",
+       "r": "ppangeul meogeoyo.",
+       "alts": [
+        "저는 빵을 먹어요.",
+        "빵을 먹습니다."
+       ]
+      },
+      {
+       "t": "커피를 마셔요.",
+       "e": "I drink coffee.",
+       "kind": "phrase",
+       "r": "keopireul masyeoyo.",
+       "alts": [
+        "저는 커피를 마셔요.",
+        "커피를 마십니다."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1883,10 +2477,10 @@
        "prompt": "물",
        "promptLang": "target",
        "options": [
-        "Rice",
         "Egg",
+        "Milk",
         "Water",
-        "Apple"
+        "Coffee"
        ],
        "answer": "Water",
        "words": [
@@ -1910,6 +2504,40 @@
         "빵"
        ],
        "promptRoman": "ppang"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "물",
+         "Water"
+        ],
+        [
+         "빵",
+         "Bread"
+        ],
+        [
+         "커피",
+         "Coffee"
+        ],
+        [
+         "차",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "물",
+        "빵",
+        "커피",
+        "차"
+       ],
+       "romans": [
+        "mul",
+        "ppang",
+        "keopi",
+        "cha"
+       ]
       },
       {
        "type": "mc",
@@ -1951,40 +2579,6 @@
        "promptRoman": "cha"
       },
       {
-       "type": "match",
-       "instruction": "Match the pairs",
-       "pairs": [
-        [
-         "물",
-         "Water"
-        ],
-        [
-         "빵",
-         "Bread"
-        ],
-        [
-         "커피",
-         "Coffee"
-        ],
-        [
-         "차",
-         "Tea"
-        ]
-       ],
-       "words": [
-        "물",
-        "빵",
-        "커피",
-        "차"
-       ],
-       "romans": [
-        "mul",
-        "ppang",
-        "keopi",
-        "cha"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "Water, please.",
@@ -2014,39 +2608,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "커피를 마셔요.",
-       "roman": "keopireul masyeoyo.",
-       "translation": "I drink coffee.",
-       "words": [
-        "커피를 마셔요."
-       ],
-       "options": [
-        "사과를 좋아해요.",
-        "커피를 마셔요.",
-        "배고파요.",
-        "우유를 안 마셔요."
-       ],
-       "optionsRoman": [
-        "sagwareul joahaeyo.",
-        "keopireul masyeoyo.",
-        "baegopayo.",
-        "uyureul an masyeoyo."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "빵을 먹어요.",
        "promptLang": "target",
        "tiles": [
-        "Water",
-        "The",
-        "bread",
-        "eat",
         "I",
-        "apples"
+        "eat",
+        "hungry",
+        "bread",
+        "is",
+        "milk"
        ],
        "answer": [
         "I",
@@ -2060,6 +2632,28 @@
         "빵을 먹어요."
        ],
        "promptRoman": "ppangeul meogeoyo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "커피를 마셔요.",
+       "roman": "keopireul masyeoyo.",
+       "translation": "I drink coffee.",
+       "words": [
+        "커피를 마셔요."
+       ],
+       "options": [
+        "빵을 먹어요.",
+        "커피를 마셔요.",
+        "물 주세요.",
+        "배고파요."
+       ],
+       "optionsRoman": [
+        "ppangeul meogeoyo.",
+        "keopireul masyeoyo.",
+        "mul juseyo.",
+        "baegopayo."
+       ]
       },
       {
        "type": "type",
@@ -2081,6 +2675,65 @@
     {
      "id": "u3l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "우유",
+       "e": "Milk",
+       "kind": "word",
+       "r": "uyu"
+      },
+      {
+       "t": "사과",
+       "e": "Apple",
+       "kind": "word",
+       "r": "sagwa"
+      },
+      {
+       "t": "밥",
+       "e": "Rice",
+       "kind": "word",
+       "r": "bap",
+       "alts": [
+        "쌀"
+       ]
+      },
+      {
+       "t": "계란",
+       "e": "Egg",
+       "kind": "word",
+       "r": "gyeran",
+       "alts": [
+        "달걀"
+       ]
+      },
+      {
+       "t": "차가 뜨거워요.",
+       "e": "The tea is hot.",
+       "kind": "phrase",
+       "r": "chaga tteugeowoyo.",
+       "alts": [
+        "차가 뜨겁습니다."
+       ]
+      },
+      {
+       "t": "우유를 안 마셔요.",
+       "e": "I do not drink milk.",
+       "kind": "phrase",
+       "r": "uyureul an masyeoyo.",
+       "alts": [
+        "저는 우유를 안 마셔요."
+       ]
+      },
+      {
+       "t": "사과를 좋아해요.",
+       "e": "I like apples.",
+       "kind": "phrase",
+       "r": "sagwareul joahaeyo.",
+       "alts": [
+        "저는 사과를 좋아해요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2088,10 +2741,10 @@
        "prompt": "우유",
        "promptLang": "target",
        "options": [
-        "Rice",
+        "Water",
         "Milk",
-        "Apple",
-        "Water"
+        "Egg",
+        "Rice"
        ],
        "answer": "Milk",
        "words": [
@@ -2101,64 +2754,20 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Apple",
-       "promptLang": "en",
-       "answer": "사과",
-       "words": [
-        "사과"
-       ],
-       "options": [
-        "빵",
-        "밥",
-        "우유",
-        "사과"
-       ],
-       "optionsRoman": [
-        "ppang",
-        "bap",
-        "uyu",
-        "sagwa"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "밥",
+       "prompt": "사과",
        "promptLang": "target",
        "options": [
-        "Apple",
+        "Bread",
         "Rice",
-        "Egg",
-        "Bread"
+        "Milk",
+        "Apple"
        ],
-       "answer": "Rice",
+       "answer": "Apple",
        "words": [
-        "밥"
+        "사과"
        ],
-       "promptRoman": "bap"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Egg",
-       "promptLang": "en",
-       "answer": "계란",
-       "words": [
-        "계란"
-       ],
-       "options": [
-        "차",
-        "커피",
-        "사과",
-        "계란"
-       ],
-       "optionsRoman": [
-        "cha",
-        "keopi",
-        "sagwa",
-        "gyeran"
-       ]
+       "promptRoman": "sagwa"
       },
       {
        "type": "match",
@@ -2191,6 +2800,50 @@
         "uyu",
         "sagwa",
         "bap",
+        "gyeran"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "밥",
+       "words": [
+        "밥"
+       ],
+       "options": [
+        "사과",
+        "밥",
+        "계란",
+        "빵"
+       ],
+       "optionsRoman": [
+        "sagwa",
+        "bap",
+        "gyeran",
+        "ppang"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "계란",
+       "words": [
+        "계란"
+       ],
+       "options": [
+        "차",
+        "커피",
+        "사과",
+        "계란"
+       ],
+       "optionsRoman": [
+        "cha",
+        "keopi",
+        "sagwa",
         "gyeran"
        ]
       },
@@ -2307,34 +2960,28 @@
     {
      "id": "u3l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "배고파요.",
-       "promptLang": "target",
-       "options": [
-        "I drink coffee.",
-        "The tea is hot.",
-        "I am hungry.",
-        "Water, please."
-       ],
-       "answer": "I am hungry.",
-       "words": [
-        "배고파요."
-       ],
-       "promptRoman": "baegopayo."
-      },
+       "t": "배고파요.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "r": "baegopayo.",
+       "alts": [
+        "배가 고파요."
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "빵",
        "promptLang": "target",
        "options": [
-        "Rice",
-        "Apple",
-        "Water",
-        "Bread"
+        "Coffee",
+        "Bread",
+        "Egg",
+        "Water"
        ],
        "answer": "Bread",
        "words": [
@@ -2347,67 +2994,57 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "밥",
+         "Rice"
+        ],
+        [
          "사과",
          "Apple"
         ],
         [
-         "물",
-         "Water"
+         "차",
+         "Tea"
         ],
         [
-         "커피",
-         "Coffee"
+         "우유",
+         "Milk"
         ],
         [
          "계란",
          "Egg"
-        ],
-        [
-         "빵",
-         "Bread"
         ]
        ],
        "words": [
+        "밥",
         "사과",
-        "물",
-        "커피",
-        "계란",
-        "빵"
+        "차",
+        "우유",
+        "계란"
        ],
        "romans": [
+        "bap",
         "sagwa",
-        "mul",
-        "keopi",
-        "gyeran",
-        "ppang"
+        "cha",
+        "uyu",
+        "gyeran"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "I am hungry.",
-       "promptLang": "en",
-       "tiles": [
-        "커피를",
-        "사과를",
-        "배고파요",
-        "좋아해요"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "배고파요.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "I like apples.",
+        "Water, please.",
+        "I do not drink milk."
        ],
-       "answer": [
-        "배고파요"
-       ],
-       "accepted": [
-        "배가 고파요."
-       ],
+       "answer": "I am hungry.",
        "words": [
         "배고파요."
        ],
-       "tilesRoman": [
-        "keopireul",
-        "sagwareul",
-        "baegopayo",
-        "joahaeyo"
-       ]
+       "promptRoman": "baegopayo."
       },
       {
        "type": "tap",
@@ -2415,12 +3052,12 @@
        "prompt": "커피를 마셔요.",
        "promptLang": "target",
        "tiles": [
-        "hungry",
-        "like",
-        "please",
-        "drink",
+        "milk",
+        "coffee",
+        "not",
+        "do",
         "I",
-        "coffee"
+        "drink"
        ],
        "answer": [
         "I",
@@ -2436,6 +3073,63 @@
        "promptRoman": "keopireul masyeoyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "배고파요",
+        "주세요",
+        "먹어요",
+        "좋아해요"
+       ],
+       "answer": [
+        "배고파요"
+       ],
+       "accepted": [
+        "배가 고파요."
+       ],
+       "words": [
+        "배고파요."
+       ],
+       "tilesRoman": [
+        "baegopayo",
+        "juseyo",
+        "meogeoyo",
+        "joahaeyo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "좋아해요",
+        "주세요",
+        "빵을",
+        "안",
+        "사과를"
+       ],
+       "answer": [
+        "사과를",
+        "좋아해요"
+       ],
+       "accepted": [
+        "저는 사과를 좋아해요."
+       ],
+       "words": [
+        "사과를 좋아해요."
+       ],
+       "tilesRoman": [
+        "joahaeyo",
+        "juseyo",
+        "ppangeul",
+        "an",
+        "sagwareul"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Tap what you hear",
        "text": "사과를 좋아해요.",
@@ -2445,49 +3139,16 @@
         "사과를 좋아해요."
        ],
        "options": [
-        "물 주세요.",
-        "배고파요.",
         "사과를 좋아해요.",
-        "빵을 먹어요."
+        "커피를 마셔요.",
+        "우유를 안 마셔요.",
+        "차가 뜨거워요."
        ],
        "optionsRoman": [
-        "mul juseyo.",
-        "baegopayo.",
         "sagwareul joahaeyo.",
-        "ppangeul meogeoyo."
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "I do not drink milk.",
-       "promptLang": "en",
-       "tiles": [
-        "우유를",
-        "마셔요",
-        "먹어요",
-        "주세요",
-        "커피를",
-        "안"
-       ],
-       "answer": [
-        "우유를",
-        "안",
-        "마셔요"
-       ],
-       "accepted": [
-        "저는 우유를 안 마셔요."
-       ],
-       "words": [
-        "우유를 안 마셔요."
-       ],
-       "tilesRoman": [
-        "uyureul",
-        "masyeoyo",
-        "meogeoyo",
-        "juseyo",
-        "keopireul",
-        "an"
+        "keopireul masyeoyo.",
+        "uyureul an masyeoyo.",
+        "chaga tteugeowoyo."
        ]
       },
       {
@@ -2505,6 +3166,39 @@
        "promptRoman": "ppangeul meogeoyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "우유를",
+        "물",
+        "사과를",
+        "안",
+        "좋아해요",
+        "마셔요"
+       ],
+       "answer": [
+        "우유를",
+        "안",
+        "마셔요"
+       ],
+       "accepted": [
+        "저는 우유를 안 마셔요."
+       ],
+       "words": [
+        "우유를 안 마셔요."
+       ],
+       "tilesRoman": [
+        "uyureul",
+        "mul",
+        "sagwareul",
+        "an",
+        "joahaeyo",
+        "masyeoyo"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in Korean",
        "prompt": "Bread",
@@ -2518,42 +3212,13 @@
        ],
        "looseSpaces": true,
        "romanAllowed": true
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "I like apples.",
-       "promptLang": "en",
-       "tiles": [
-        "사과를",
-        "물",
-        "차가",
-        "좋아해요",
-        "안"
-       ],
-       "answer": [
-        "사과를",
-        "좋아해요"
-       ],
-       "accepted": [
-        "저는 사과를 좋아해요."
-       ],
-       "words": [
-        "사과를 좋아해요."
-       ],
-       "tilesRoman": [
-        "sagwareul",
-        "mul",
-        "chaga",
-        "joahaeyo",
-        "an"
-       ]
       }
      ]
     },
     {
      "id": "u3l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2561,10 +3226,10 @@
        "prompt": "물 주세요.",
        "promptLang": "target",
        "options": [
+        "Water, please.",
+        "I am hungry.",
         "The tea is hot.",
-        "I like apples.",
-        "I do not drink milk.",
-        "Water, please."
+        "I like apples."
        ],
        "answer": "Water, please.",
        "words": [
@@ -2578,55 +3243,55 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "사과",
-         "Apple"
-        ],
-        [
-         "커피",
-         "Coffee"
-        ],
-        [
-         "우유",
-         "Milk"
+         "빵",
+         "Bread"
         ],
         [
          "밥",
          "Rice"
+        ],
+        [
+         "물",
+         "Water"
+        ],
+        [
+         "차",
+         "Tea"
         ]
        ],
        "words": [
-        "사과",
-        "커피",
-        "우유",
-        "밥"
+        "빵",
+        "밥",
+        "물",
+        "차"
        ],
        "romans": [
-        "sagwa",
-        "keopi",
-        "uyu",
-        "bap"
+        "ppang",
+        "bap",
+        "mul",
+        "cha"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Tea",
+       "prompt": "Egg",
        "promptLang": "en",
-       "answer": "차",
+       "answer": "계란",
        "words": [
-        "차"
+        "계란"
        ],
        "options": [
-        "커피",
+        "사과",
+        "우유",
         "차",
-        "물",
-        "우유"
+        "계란"
        ],
        "optionsRoman": [
-        "keopi",
+        "sagwa",
+        "uyu",
         "cha",
-        "mul",
-        "uyu"
+        "gyeran"
        ]
       },
       {
@@ -2635,11 +3300,11 @@
        "prompt": "I eat bread.",
        "promptLang": "en",
        "tiles": [
+        "좋아해요",
+        "커피를",
+        "배고파요",
         "빵을",
-        "먹어요",
-        "뜨거워요",
-        "차가",
-        "안"
+        "먹어요"
        ],
        "answer": [
         "빵을",
@@ -2653,33 +3318,11 @@
         "빵을 먹어요."
        ],
        "tilesRoman": [
+        "joahaeyo",
+        "keopireul",
+        "baegopayo",
         "ppangeul",
-        "meogeoyo",
-        "tteugeowoyo",
-        "chaga",
-        "an"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "배고파요.",
-       "roman": "baegopayo.",
-       "translation": "I am hungry.",
-       "words": [
-        "배고파요."
-       ],
-       "options": [
-        "커피를 마셔요.",
-        "차가 뜨거워요.",
-        "배고파요.",
-        "물 주세요."
-       ],
-       "optionsRoman": [
-        "keopireul masyeoyo.",
-        "chaga tteugeowoyo.",
-        "baegopayo.",
-        "mul juseyo."
+        "meogeoyo"
        ]
       },
       {
@@ -2688,13 +3331,13 @@
        "prompt": "차가 뜨거워요.",
        "promptLang": "target",
        "tiles": [
-        "The",
-        "hungry",
-        "eat",
-        "apples",
+        "I",
         "hot",
+        "hungry",
+        "tea",
         "is",
-        "tea"
+        "do",
+        "The"
        ],
        "answer": [
         "The",
@@ -2709,19 +3352,48 @@
        "promptRoman": "chaga tteugeowoyo."
       },
       {
-       "type": "type",
-       "instruction": "Type this in Korean",
-       "prompt": "Bread",
-       "promptLang": "en",
-       "answers": [
-        "빵",
-        "ppang"
-       ],
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "배고파요.",
+       "roman": "baegopayo.",
+       "translation": "I am hungry.",
        "words": [
-        "빵"
+        "배고파요."
        ],
-       "looseSpaces": true,
-       "romanAllowed": true
+       "options": [
+        "우유를 안 마셔요.",
+        "차가 뜨거워요.",
+        "사과를 좋아해요.",
+        "배고파요."
+       ],
+       "optionsRoman": [
+        "uyureul an masyeoyo.",
+        "chaga tteugeowoyo.",
+        "sagwareul joahaeyo.",
+        "baegopayo."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "우유를 안 마셔요.",
+       "roman": "uyureul an masyeoyo.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "우유를 안 마셔요."
+       ],
+       "options": [
+        "우유를 안 마셔요.",
+        "빵을 먹어요.",
+        "커피를 마셔요.",
+        "차가 뜨거워요."
+       ],
+       "optionsRoman": [
+        "uyureul an masyeoyo.",
+        "ppangeul meogeoyo.",
+        "keopireul masyeoyo.",
+        "chaga tteugeowoyo."
+       ]
       },
       {
        "type": "type",
@@ -2738,26 +3410,19 @@
        "promptRoman": "keopireul masyeoyo."
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "우유를 안 마셔요.",
-       "roman": "uyureul an masyeoyo.",
-       "translation": "I do not drink milk.",
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answers": [
+        "커피",
+        "keopi"
+       ],
        "words": [
-        "우유를 안 마셔요."
+        "커피"
        ],
-       "options": [
-        "물 주세요.",
-        "커피를 마셔요.",
-        "우유를 안 마셔요.",
-        "사과를 좋아해요."
-       ],
-       "optionsRoman": [
-        "mul juseyo.",
-        "keopireul masyeoyo.",
-        "uyureul an masyeoyo.",
-        "sagwareul joahaeyo."
-       ]
+       "looseSpaces": true,
+       "romanAllowed": true
       }
      ]
     }
@@ -2768,11 +3433,154 @@
    "title": "Numbers",
    "description": "Count from one to ten, ask prices and tell the time.",
    "icon": "hash",
-   "tip": "Korean has two sets of numbers. Native numbers (하나, 둘, 셋...) count things and tell the hour. Before a counter, 하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 세 시 = three o'clock.",
+   "tips": [
+    "Korean has two sets of numbers. Native numbers (하나, 둘, 셋...) count things and tell the hour. Before a counter, 하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 세 시 = three o'clock."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "하나",
+      "e": "One",
+      "r": "hana"
+     },
+     {
+      "t": "둘",
+      "e": "Two",
+      "r": "dul"
+     },
+     {
+      "t": "셋",
+      "e": "Three",
+      "r": "set"
+     },
+     {
+      "t": "넷",
+      "e": "Four",
+      "r": "net"
+     },
+     {
+      "t": "다섯",
+      "e": "Five",
+      "r": "daseot"
+     },
+     {
+      "t": "여섯",
+      "e": "Six",
+      "r": "yeoseot"
+     },
+     {
+      "t": "일곱",
+      "e": "Seven",
+      "r": "ilgop"
+     },
+     {
+      "t": "여덟",
+      "e": "Eight",
+      "r": "yeodeol"
+     },
+     {
+      "t": "아홉",
+      "e": "Nine",
+      "r": "ahop"
+     },
+     {
+      "t": "열",
+      "e": "Ten",
+      "r": "yeol"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "아이가 두 명 있어요.",
+      "e": "I have two children.",
+      "r": "aiga du myeong isseoyo."
+     },
+     {
+      "t": "얼마예요?",
+      "e": "How much is it?",
+      "r": "eolmayeyo?"
+     },
+     {
+      "t": "사과가 네 개 있어요.",
+      "e": "I have four apples.",
+      "r": "sagwaga ne gae isseoyo."
+     },
+     {
+      "t": "커피 한 잔 주세요.",
+      "e": "One coffee, please.",
+      "r": "keopi han jan juseyo."
+     },
+     {
+      "t": "차 두 잔 주세요.",
+      "e": "Two teas, please.",
+      "r": "cha du jan juseyo."
+     },
+     {
+      "t": "세 시예요.",
+      "e": "It is three o'clock.",
+      "r": "se siyeyo."
+     },
+     {
+      "t": "잠시만요.",
+      "e": "One moment, please.",
+      "r": "jamsimanyo."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u4l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "하나",
+       "e": "One",
+       "kind": "word",
+       "r": "hana"
+      },
+      {
+       "t": "둘",
+       "e": "Two",
+       "kind": "word",
+       "r": "dul"
+      },
+      {
+       "t": "셋",
+       "e": "Three",
+       "kind": "word",
+       "r": "set"
+      },
+      {
+       "t": "넷",
+       "e": "Four",
+       "kind": "word",
+       "r": "net"
+      },
+      {
+       "t": "아이가 두 명 있어요.",
+       "e": "I have two children.",
+       "kind": "phrase",
+       "r": "aiga du myeong isseoyo.",
+       "alts": [
+        "아이가 둘 있어요."
+       ]
+      },
+      {
+       "t": "사과가 네 개 있어요.",
+       "e": "I have four apples.",
+       "kind": "phrase",
+       "r": "sagwaga ne gae isseoyo."
+      },
+      {
+       "t": "얼마예요?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "r": "eolmayeyo?",
+       "alts": [
+        "이거 얼마예요?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2780,9 +3588,9 @@
        "prompt": "하나",
        "promptLang": "target",
        "options": [
-        "Two",
         "One",
-        "Eight",
+        "Two",
+        "Three",
         "Five"
        ],
        "answer": "One",
@@ -2797,55 +3605,16 @@
        "prompt": "둘",
        "promptLang": "target",
        "options": [
-        "Two",
-        "One",
         "Three",
-        "Five"
+        "Four",
+        "Ten",
+        "Two"
        ],
        "answer": "Two",
        "words": [
         "둘"
        ],
        "promptRoman": "dul"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Three",
-       "promptLang": "en",
-       "answer": "셋",
-       "words": [
-        "셋"
-       ],
-       "options": [
-        "둘",
-        "넷",
-        "열",
-        "셋"
-       ],
-       "optionsRoman": [
-        "dul",
-        "net",
-        "yeol",
-        "set"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "넷",
-       "promptLang": "target",
-       "options": [
-        "Five",
-        "Six",
-        "Three",
-        "Four"
-       ],
-       "answer": "Four",
-       "words": [
-        "넷"
-       ],
-       "promptRoman": "net"
       },
       {
        "type": "match",
@@ -2882,18 +3651,57 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "셋",
+       "words": [
+        "셋"
+       ],
+       "options": [
+        "다섯",
+        "여섯",
+        "넷",
+        "셋"
+       ],
+       "optionsRoman": [
+        "daseot",
+        "yeoseot",
+        "net",
+        "set"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "넷",
+       "promptLang": "target",
+       "options": [
+        "Ten",
+        "Nine",
+        "Eight",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "넷"
+       ],
+       "promptRoman": "net"
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "I have two children.",
        "promptLang": "en",
        "tiles": [
-        "커피",
+        "네",
+        "있어요",
+        "얼마예요",
         "명",
         "아이가",
-        "주세요",
         "두",
-        "네",
-        "있어요"
+        "차"
        ],
        "answer": [
         "아이가",
@@ -2908,35 +3716,13 @@
         "아이가 두 명 있어요."
        ],
        "tilesRoman": [
-        "keopi",
+        "ne",
+        "isseoyo",
+        "eolmayeyo",
         "myeong",
         "aiga",
-        "juseyo",
         "du",
-        "ne",
-        "isseoyo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "얼마예요?",
-       "roman": "eolmayeyo?",
-       "translation": "How much is it?",
-       "words": [
-        "얼마예요?"
-       ],
-       "options": [
-        "세 시예요.",
-        "아이가 두 명 있어요.",
-        "얼마예요?",
-        "사과가 네 개 있어요."
-       ],
-       "optionsRoman": [
-        "se siyeyo.",
-        "aiga du myeong isseoyo.",
-        "eolmayeyo?",
-        "sagwaga ne gae isseoyo."
+        "cha"
        ]
       },
       {
@@ -2968,6 +3754,28 @@
        "promptRoman": "sagwaga ne gae isseoyo."
       },
       {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "얼마예요?",
+       "roman": "eolmayeyo?",
+       "translation": "How much is it?",
+       "words": [
+        "얼마예요?"
+       ],
+       "options": [
+        "얼마예요?",
+        "사과가 네 개 있어요.",
+        "커피 한 잔 주세요.",
+        "세 시예요."
+       ],
+       "optionsRoman": [
+        "eolmayeyo?",
+        "sagwaga ne gae isseoyo.",
+        "keopi han jan juseyo.",
+        "se siyeyo."
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in English",
        "prompt": "아이가 두 명 있어요.",
@@ -2988,6 +3796,53 @@
     {
      "id": "u4l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "다섯",
+       "e": "Five",
+       "kind": "word",
+       "r": "daseot"
+      },
+      {
+       "t": "여섯",
+       "e": "Six",
+       "kind": "word",
+       "r": "yeoseot"
+      },
+      {
+       "t": "일곱",
+       "e": "Seven",
+       "kind": "word",
+       "r": "ilgop"
+      },
+      {
+       "t": "여덟",
+       "e": "Eight",
+       "kind": "word",
+       "r": "yeodeol"
+      },
+      {
+       "t": "커피 한 잔 주세요.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "r": "keopi han jan juseyo."
+      },
+      {
+       "t": "차 두 잔 주세요.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "r": "cha du jan juseyo."
+      },
+      {
+       "t": "세 시예요.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "r": "se siyeyo.",
+       "alts": [
+        "지금 세 시예요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2995,10 +3850,10 @@
        "prompt": "다섯",
        "promptLang": "target",
        "options": [
+        "Eight",
         "Five",
-        "Two",
-        "Six",
-        "Ten"
+        "Ten",
+        "Four"
        ],
        "answer": "Five",
        "words": [
@@ -3008,64 +3863,20 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Six",
-       "promptLang": "en",
-       "answer": "여섯",
-       "words": [
-        "여섯"
-       ],
-       "options": [
-        "여덟",
-        "여섯",
-        "열",
-        "넷"
-       ],
-       "optionsRoman": [
-        "yeodeol",
-        "yeoseot",
-        "yeol",
-        "net"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "일곱",
+       "prompt": "여섯",
        "promptLang": "target",
        "options": [
         "Five",
-        "Seven",
         "Six",
+        "Seven",
         "Four"
        ],
-       "answer": "Seven",
+       "answer": "Six",
        "words": [
-        "일곱"
+        "여섯"
        ],
-       "promptRoman": "ilgop"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Eight",
-       "promptLang": "en",
-       "answer": "여덟",
-       "words": [
-        "여덟"
-       ],
-       "options": [
-        "여덟",
-        "열",
-        "하나",
-        "둘"
-       ],
-       "optionsRoman": [
-        "yeodeol",
-        "yeol",
-        "hana",
-        "dul"
-       ]
+       "promptRoman": "yeoseot"
       },
       {
        "type": "match",
@@ -3102,18 +3913,62 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "일곱",
+       "words": [
+        "일곱"
+       ],
+       "options": [
+        "일곱",
+        "열",
+        "하나",
+        "둘"
+       ],
+       "optionsRoman": [
+        "ilgop",
+        "yeol",
+        "hana",
+        "dul"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "여덟",
+       "words": [
+        "여덟"
+       ],
+       "options": [
+        "아홉",
+        "다섯",
+        "하나",
+        "여덟"
+       ],
+       "optionsRoman": [
+        "ahop",
+        "daseot",
+        "hana",
+        "yeodeol"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "One coffee, please.",
        "promptLang": "en",
        "tiles": [
-        "네",
-        "잠시만요",
+        "한",
         "주세요",
-        "명",
-        "잔",
         "커피",
-        "한"
+        "얼마예요",
+        "잔",
+        "개",
+        "있어요"
        ],
        "answer": [
         "커피",
@@ -3127,13 +3982,13 @@
         "커피"
        ],
        "tilesRoman": [
-        "ne",
-        "jamsimanyo",
+        "han",
         "juseyo",
-        "myeong",
-        "jan",
         "keopi",
-        "han"
+        "eolmayeyo",
+        "jan",
+        "gae",
+        "isseoyo"
        ]
       },
       {
@@ -3142,12 +3997,12 @@
        "prompt": "차 두 잔 주세요.",
        "promptLang": "target",
        "tiles": [
-        "please",
+        "much",
+        "is",
+        "three",
         "teas",
-        "Two",
-        "four",
-        "How",
-        "children"
+        "please",
+        "Two"
        ],
        "answer": [
         "Two",
@@ -3176,16 +4031,16 @@
         "커피"
        ],
        "options": [
-        "차 두 잔 주세요.",
-        "커피 한 잔 주세요.",
+        "세 시예요.",
         "아이가 두 명 있어요.",
-        "사과가 네 개 있어요."
+        "차 두 잔 주세요.",
+        "커피 한 잔 주세요."
        ],
        "optionsRoman": [
-        "cha du jan juseyo.",
-        "keopi han jan juseyo.",
+        "se siyeyo.",
         "aiga du myeong isseoyo.",
-        "sagwaga ne gae isseoyo."
+        "cha du jan juseyo.",
+        "keopi han jan juseyo."
        ]
       },
       {
@@ -3225,34 +4080,40 @@
     {
      "id": "u4l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "잠시만요.",
-       "promptLang": "target",
-       "options": [
-        "I have two children.",
-        "I have four apples.",
-        "One moment, please.",
-        "How much is it?"
-       ],
-       "answer": "One moment, please.",
-       "words": [
-        "잠시만요."
-       ],
-       "promptRoman": "jamsimanyo."
+       "t": "아홉",
+       "e": "Nine",
+       "kind": "word",
+       "r": "ahop"
       },
+      {
+       "t": "열",
+       "e": "Ten",
+       "kind": "word",
+       "r": "yeol"
+      },
+      {
+       "t": "잠시만요.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "r": "jamsimanyo.",
+       "alts": [
+        "잠깐만요."
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "아홉",
        "promptLang": "target",
        "options": [
-        "Five",
+        "Six",
+        "Two",
         "Eight",
-        "Nine",
-        "Two"
+        "Nine"
        ],
        "answer": "Nine",
        "words": [
@@ -3265,16 +4126,8 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "둘",
-         "Two"
-        ],
-        [
-         "다섯",
-         "Five"
-        ],
-        [
-         "넷",
-         "Four"
+         "일곱",
+         "Seven"
         ],
         [
          "열",
@@ -3283,49 +4136,47 @@
         [
          "여덟",
          "Eight"
+        ],
+        [
+         "여섯",
+         "Six"
+        ],
+        [
+         "둘",
+         "Two"
         ]
        ],
        "words": [
-        "둘",
-        "다섯",
-        "넷",
+        "일곱",
         "열",
-        "여덟"
+        "여덟",
+        "여섯",
+        "둘"
        ],
        "romans": [
-        "dul",
-        "daseot",
-        "net",
+        "ilgop",
         "yeol",
-        "yeodeol"
+        "yeodeol",
+        "yeoseot",
+        "dul"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "One moment, please.",
-       "promptLang": "en",
-       "tiles": [
-        "잔",
-        "아이가",
-        "두",
-        "잠시만요"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "잠시만요.",
+       "promptLang": "target",
+       "options": [
+        "One moment, please.",
+        "It is three o'clock.",
+        "How much is it?",
+        "One coffee, please."
        ],
-       "answer": [
-        "잠시만요"
-       ],
-       "accepted": [
-        "잠깐만요."
-       ],
+       "answer": "One moment, please.",
        "words": [
         "잠시만요."
        ],
-       "tilesRoman": [
-        "jan",
-        "aiga",
-        "du",
-        "jamsimanyo"
-       ]
+       "promptRoman": "jamsimanyo."
       },
       {
        "type": "tap",
@@ -3333,13 +4184,13 @@
        "prompt": "얼마예요?",
        "promptLang": "target",
        "tiles": [
-        "much",
-        "apples",
         "it",
         "have",
+        "teas",
+        "is",
         "How",
-        "please",
-        "is"
+        "One",
+        "much"
        ],
        "answer": [
         "How",
@@ -3358,6 +4209,63 @@
        "promptRoman": "eolmayeyo?"
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "잠시만요",
+        "한",
+        "명",
+        "세"
+       ],
+       "answer": [
+        "잠시만요"
+       ],
+       "accepted": [
+        "잠깐만요."
+       ],
+       "words": [
+        "잠시만요."
+       ],
+       "tilesRoman": [
+        "jamsimanyo",
+        "han",
+        "myeong",
+        "se"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "한",
+        "세",
+        "잔",
+        "시예요",
+        "잠시만요"
+       ],
+       "answer": [
+        "세",
+        "시예요"
+       ],
+       "accepted": [
+        "지금 세 시예요."
+       ],
+       "words": [
+        "세 시예요."
+       ],
+       "tilesRoman": [
+        "han",
+        "se",
+        "jan",
+        "siyeyo",
+        "jamsimanyo"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Tap what you hear",
        "text": "세 시예요.",
@@ -3367,51 +4275,16 @@
         "세 시예요."
        ],
        "options": [
-        "얼마예요?",
-        "아이가 두 명 있어요.",
+        "사과가 네 개 있어요.",
         "세 시예요.",
-        "커피 한 잔 주세요."
+        "얼마예요?",
+        "차 두 잔 주세요."
        ],
        "optionsRoman": [
-        "eolmayeyo?",
-        "aiga du myeong isseoyo.",
+        "sagwaga ne gae isseoyo.",
         "se siyeyo.",
-        "keopi han jan juseyo."
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "Two teas, please.",
-       "promptLang": "en",
-       "tiles": [
-        "네",
-        "주세요",
-        "얼마예요",
-        "두",
-        "잔",
-        "차",
-        "아이가"
-       ],
-       "answer": [
-        "차",
-        "두",
-        "잔",
-        "주세요"
-       ],
-       "accepted": [],
-       "words": [
-        "부탁합니다",
-        "차"
-       ],
-       "tilesRoman": [
-        "ne",
-        "juseyo",
-        "eolmayeyo",
-        "du",
-        "jan",
-        "cha",
-        "aiga"
+        "eolmayeyo?",
+        "cha du jan juseyo."
        ]
       },
       {
@@ -3429,6 +4302,41 @@
        "promptRoman": "sagwaga ne gae isseoyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "세",
+        "개",
+        "잔",
+        "두",
+        "명",
+        "차",
+        "주세요"
+       ],
+       "answer": [
+        "차",
+        "두",
+        "잔",
+        "주세요"
+       ],
+       "accepted": [],
+       "words": [
+        "부탁합니다",
+        "차"
+       ],
+       "tilesRoman": [
+        "se",
+        "gae",
+        "jan",
+        "du",
+        "myeong",
+        "cha",
+        "juseyo"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in Korean",
        "prompt": "Ten",
@@ -3442,42 +4350,13 @@
        ],
        "looseSpaces": true,
        "romanAllowed": true
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "It is three o'clock.",
-       "promptLang": "en",
-       "tiles": [
-        "잠시만요",
-        "세",
-        "시예요",
-        "한",
-        "차"
-       ],
-       "answer": [
-        "세",
-        "시예요"
-       ],
-       "accepted": [
-        "지금 세 시예요."
-       ],
-       "words": [
-        "세 시예요."
-       ],
-       "tilesRoman": [
-        "jamsimanyo",
-        "se",
-        "siyeyo",
-        "han",
-        "cha"
-       ]
       }
      ]
     },
     {
      "id": "u4l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -3485,10 +4364,10 @@
        "prompt": "아이가 두 명 있어요.",
        "promptLang": "target",
        "options": [
-        "One coffee, please.",
-        "I have two children.",
         "How much is it?",
-        "I have four apples."
+        "I have two children.",
+        "I have four apples.",
+        "One moment, please."
        ],
        "answer": "I have two children.",
        "words": [
@@ -3509,47 +4388,47 @@
          "Four"
         ],
         [
-         "둘",
-         "Two"
+         "다섯",
+         "Five"
         ],
         [
-         "열",
-         "Ten"
+         "둘",
+         "Two"
         ]
        ],
        "words": [
         "하나",
         "넷",
-        "둘",
-        "열"
+        "다섯",
+        "둘"
        ],
        "romans": [
         "hana",
         "net",
-        "dul",
-        "yeol"
+        "daseot",
+        "dul"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Six",
+       "prompt": "Seven",
        "promptLang": "en",
-       "answer": "여섯",
+       "answer": "일곱",
        "words": [
-        "여섯"
+        "일곱"
        ],
        "options": [
-        "셋",
-        "아홉",
         "일곱",
-        "여섯"
+        "여섯",
+        "여덟",
+        "넷"
        ],
        "optionsRoman": [
-        "set",
-        "ahop",
         "ilgop",
-        "yeoseot"
+        "yeoseot",
+        "yeodeol",
+        "net"
        ]
       },
       {
@@ -3558,12 +4437,12 @@
        "prompt": "I have four apples.",
        "promptLang": "en",
        "tiles": [
-        "차",
-        "개",
-        "명",
-        "사과가",
         "있어요",
-        "아이가",
+        "개",
+        "사과가",
+        "차",
+        "명",
+        "얼마예요",
         "네"
        ],
        "answer": [
@@ -3577,35 +4456,13 @@
         "네"
        ],
        "tilesRoman": [
-        "cha",
-        "gae",
-        "myeong",
-        "sagwaga",
         "isseoyo",
-        "aiga",
+        "gae",
+        "sagwaga",
+        "cha",
+        "myeong",
+        "eolmayeyo",
         "ne"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "잠시만요.",
-       "roman": "jamsimanyo.",
-       "translation": "One moment, please.",
-       "words": [
-        "잠시만요."
-       ],
-       "options": [
-        "잠시만요.",
-        "세 시예요.",
-        "얼마예요?",
-        "커피 한 잔 주세요."
-       ],
-       "optionsRoman": [
-        "jamsimanyo.",
-        "se siyeyo.",
-        "eolmayeyo?",
-        "keopi han jan juseyo."
        ]
       },
       {
@@ -3614,12 +4471,12 @@
        "prompt": "커피 한 잔 주세요.",
        "promptLang": "target",
        "tiles": [
-        "One",
-        "it",
-        "please",
-        "children",
+        "I",
         "coffee",
-        "is"
+        "o'clock",
+        "please",
+        "One",
+        "teas"
        ],
        "answer": [
         "One",
@@ -3637,19 +4494,49 @@
        "promptRoman": "keopi han jan juseyo."
       },
       {
-       "type": "type",
-       "instruction": "Type this in Korean",
-       "prompt": "Seven",
-       "promptLang": "en",
-       "answers": [
-        "일곱",
-        "ilgop"
-       ],
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "잠시만요.",
+       "roman": "jamsimanyo.",
+       "translation": "One moment, please.",
        "words": [
-        "일곱"
+        "잠시만요."
        ],
-       "looseSpaces": true,
-       "romanAllowed": true
+       "options": [
+        "얼마예요?",
+        "사과가 네 개 있어요.",
+        "아이가 두 명 있어요.",
+        "잠시만요."
+       ],
+       "optionsRoman": [
+        "eolmayeyo?",
+        "sagwaga ne gae isseoyo.",
+        "aiga du myeong isseoyo.",
+        "jamsimanyo."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "차 두 잔 주세요.",
+       "roman": "cha du jan juseyo.",
+       "translation": "Two teas, please.",
+       "words": [
+        "부탁합니다",
+        "차"
+       ],
+       "options": [
+        "커피 한 잔 주세요.",
+        "차 두 잔 주세요.",
+        "얼마예요?",
+        "세 시예요."
+       ],
+       "optionsRoman": [
+        "keopi han jan juseyo.",
+        "cha du jan juseyo.",
+        "eolmayeyo?",
+        "se siyeyo."
+       ]
       },
       {
        "type": "type",
@@ -3668,27 +4555,19 @@
        "promptRoman": "eolmayeyo?"
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "차 두 잔 주세요.",
-       "roman": "cha du jan juseyo.",
-       "translation": "Two teas, please.",
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "열",
+        "yeol"
+       ],
        "words": [
-        "부탁합니다",
-        "차"
+        "열"
        ],
-       "options": [
-        "커피 한 잔 주세요.",
-        "얼마예요?",
-        "차 두 잔 주세요.",
-        "세 시예요."
-       ],
-       "optionsRoman": [
-        "keopi han jan juseyo.",
-        "eolmayeyo?",
-        "cha du jan juseyo.",
-        "se siyeyo."
-       ]
+       "looseSpaces": true,
+       "romanAllowed": true
       }
      ]
     }
@@ -3699,11 +4578,152 @@
    "title": "Travel and directions",
    "description": "Find your way around a new city.",
    "icon": "train",
-   "tip": "'어디예요?' (eodiyeyo) means 'where is it?'. Put the place first: 화장실이 어디예요?",
+   "tips": [
+    "'어디예요?' (eodiyeyo) means 'where is it?'. Put the place first: 화장실이 어디예요?"
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "호텔",
+      "e": "Hotel",
+      "r": "hotel"
+     },
+     {
+      "t": "역",
+      "e": "Station",
+      "r": "yeok"
+     },
+     {
+      "t": "공항",
+      "e": "Airport",
+      "r": "gonghang"
+     },
+     {
+      "t": "표",
+      "e": "Ticket",
+      "r": "pyo"
+     },
+     {
+      "t": "왼쪽",
+      "e": "Left",
+      "r": "oenjjok"
+     },
+     {
+      "t": "오른쪽",
+      "e": "Right",
+      "r": "oreunjjok"
+     },
+     {
+      "t": "어디",
+      "e": "Where",
+      "r": "eodi"
+     },
+     {
+      "t": "화장실",
+      "e": "Toilet",
+      "r": "hwajangsil"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "호텔이 어디예요?",
+      "e": "Where is the hotel?",
+      "r": "hoteri eodiyeyo?"
+     },
+     {
+      "t": "화장실이 어디예요?",
+      "e": "Where is the toilet?",
+      "r": "hwajangsiri eodiyeyo?"
+     },
+     {
+      "t": "왼쪽으로 가세요.",
+      "e": "Turn left.",
+      "r": "oenjjogeuro gaseyo."
+     },
+     {
+      "t": "역은 오른쪽에 있어요.",
+      "e": "The station is on the right.",
+      "r": "yeogeun oreunjjoge isseoyo."
+     },
+     {
+      "t": "표 한 장 주세요.",
+      "e": "A ticket, please.",
+      "r": "pyo han jang juseyo."
+     },
+     {
+      "t": "공항에 가요.",
+      "e": "I am going to the airport.",
+      "r": "gonghange gayo."
+     },
+     {
+      "t": "멀어요?",
+      "e": "Is it far?",
+      "r": "meoreoyo?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u5l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "호텔",
+       "e": "Hotel",
+       "kind": "word",
+       "r": "hotel"
+      },
+      {
+       "t": "역",
+       "e": "Station",
+       "kind": "word",
+       "r": "yeok"
+      },
+      {
+       "t": "공항",
+       "e": "Airport",
+       "kind": "word",
+       "r": "gonghang"
+      },
+      {
+       "t": "표",
+       "e": "Ticket",
+       "kind": "word",
+       "r": "pyo",
+       "alts": [
+        "티켓"
+       ]
+      },
+      {
+       "t": "호텔이 어디예요?",
+       "e": "Where is the hotel?",
+       "kind": "phrase",
+       "r": "hoteri eodiyeyo?",
+       "alts": [
+        "호텔은 어디예요?",
+        "호텔이 어디에 있어요?"
+       ]
+      },
+      {
+       "t": "왼쪽으로 가세요.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "r": "oenjjogeuro gaseyo.",
+       "alts": [
+        "왼쪽으로 도세요."
+       ]
+      },
+      {
+       "t": "화장실이 어디예요?",
+       "e": "Where is the toilet?",
+       "kind": "phrase",
+       "r": "hwajangsiri eodiyeyo?",
+       "alts": [
+        "화장실은 어디예요?",
+        "화장실이 어디에 있어요?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3711,10 +4731,10 @@
        "prompt": "호텔",
        "promptLang": "target",
        "options": [
-        "Station",
-        "Hotel",
-        "Toilet",
-        "Right"
+        "Ticket",
+        "Left",
+        "Right",
+        "Hotel"
        ],
        "answer": "Hotel",
        "words": [
@@ -3728,9 +4748,9 @@
        "prompt": "역",
        "promptLang": "target",
        "options": [
+        "Where",
         "Station",
         "Airport",
-        "Toilet",
         "Hotel"
        ],
        "answer": "Station",
@@ -3738,45 +4758,6 @@
         "역"
        ],
        "promptRoman": "yeok"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Airport",
-       "promptLang": "en",
-       "answer": "공항",
-       "words": [
-        "공항"
-       ],
-       "options": [
-        "오른쪽",
-        "호텔",
-        "공항",
-        "화장실"
-       ],
-       "optionsRoman": [
-        "oreunjjok",
-        "hotel",
-        "gonghang",
-        "hwajangsil"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "표",
-       "promptLang": "target",
-       "options": [
-        "Station",
-        "Ticket",
-        "Toilet",
-        "Where"
-       ],
-       "answer": "Ticket",
-       "words": [
-        "표"
-       ],
-       "promptRoman": "pyo"
       },
       {
        "type": "match",
@@ -3813,16 +4794,55 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "공항",
+       "words": [
+        "공항"
+       ],
+       "options": [
+        "공항",
+        "오른쪽",
+        "역",
+        "표"
+       ],
+       "optionsRoman": [
+        "gonghang",
+        "oreunjjok",
+        "yeok",
+        "pyo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "표",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Airport",
+        "Right",
+        "Toilet"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "표"
+       ],
+       "promptRoman": "pyo"
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "Where is the hotel?",
        "promptLang": "en",
        "tiles": [
+        "가요",
         "호텔이",
-        "주세요",
-        "화장실이",
-        "어디예요",
-        "표"
+        "장",
+        "멀어요",
+        "어디예요"
        ],
        "answer": [
         "호텔이",
@@ -3836,33 +4856,11 @@
         "호텔이 어디예요?"
        ],
        "tilesRoman": [
+        "gayo",
         "hoteri",
-        "juseyo",
-        "hwajangsiri",
-        "eodiyeyo",
-        "pyo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "화장실이 어디예요?",
-       "roman": "hwajangsiri eodiyeyo?",
-       "translation": "Where is the toilet?",
-       "words": [
-        "화장실이 어디예요?"
-       ],
-       "options": [
-        "멀어요?",
-        "왼쪽으로 가세요.",
-        "공항에 가요.",
-        "화장실이 어디예요?"
-       ],
-       "optionsRoman": [
-        "meoreoyo?",
-        "oenjjogeuro gaseyo.",
-        "gonghange gayo.",
-        "hwajangsiri eodiyeyo?"
+        "jang",
+        "meoreoyo",
+        "eodiyeyo"
        ]
       },
       {
@@ -3871,10 +4869,10 @@
        "prompt": "왼쪽으로 가세요.",
        "promptLang": "target",
        "tiles": [
-        "going",
-        "right",
+        "please",
+        "to",
         "Turn",
-        "am",
+        "going",
         "left"
        ],
        "answer": [
@@ -3888,6 +4886,28 @@
         "왼쪽으로 가세요."
        ],
        "promptRoman": "oenjjogeuro gaseyo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "화장실이 어디예요?",
+       "roman": "hwajangsiri eodiyeyo?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "화장실이 어디예요?"
+       ],
+       "options": [
+        "표 한 장 주세요.",
+        "멀어요?",
+        "호텔이 어디예요?",
+        "화장실이 어디예요?"
+       ],
+       "optionsRoman": [
+        "pyo han jang juseyo.",
+        "meoreoyo?",
+        "hoteri eodiyeyo?",
+        "hwajangsiri eodiyeyo?"
+       ]
       },
       {
        "type": "type",
@@ -3907,6 +4927,56 @@
     {
      "id": "u5l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "왼쪽",
+       "e": "Left",
+       "kind": "word",
+       "r": "oenjjok"
+      },
+      {
+       "t": "오른쪽",
+       "e": "Right",
+       "kind": "word",
+       "r": "oreunjjok"
+      },
+      {
+       "t": "어디",
+       "e": "Where",
+       "kind": "word",
+       "r": "eodi"
+      },
+      {
+       "t": "화장실",
+       "e": "Toilet",
+       "kind": "word",
+       "r": "hwajangsil"
+      },
+      {
+       "t": "역은 오른쪽에 있어요.",
+       "e": "The station is on the right.",
+       "kind": "phrase",
+       "r": "yeogeun oreunjjoge isseoyo.",
+       "alts": [
+        "역이 오른쪽에 있어요."
+       ]
+      },
+      {
+       "t": "표 한 장 주세요.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "r": "pyo han jang juseyo."
+      },
+      {
+       "t": "공항에 가요.",
+       "e": "I am going to the airport.",
+       "kind": "phrase",
+       "r": "gonghange gayo.",
+       "alts": [
+        "저는 공항에 가요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3914,10 +4984,10 @@
        "prompt": "왼쪽",
        "promptLang": "target",
        "options": [
-        "Toilet",
-        "Left",
         "Ticket",
-        "Hotel"
+        "Where",
+        "Left",
+        "Station"
        ],
        "answer": "Left",
        "words": [
@@ -3927,64 +4997,20 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Right",
-       "promptLang": "en",
-       "answer": "오른쪽",
-       "words": [
-        "오른쪽"
-       ],
-       "options": [
-        "호텔",
-        "오른쪽",
-        "어디",
-        "역"
-       ],
-       "optionsRoman": [
-        "hotel",
-        "oreunjjok",
-        "eodi",
-        "yeok"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "어디",
+       "prompt": "오른쪽",
        "promptLang": "target",
        "options": [
         "Ticket",
-        "Where",
-        "Toilet",
+        "Airport",
+        "Right",
         "Hotel"
        ],
-       "answer": "Where",
+       "answer": "Right",
        "words": [
-        "어디"
+        "오른쪽"
        ],
-       "promptRoman": "eodi"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Toilet",
-       "promptLang": "en",
-       "answer": "화장실",
-       "words": [
-        "화장실"
-       ],
-       "options": [
-        "공항",
-        "호텔",
-        "화장실",
-        "왼쪽"
-       ],
-       "optionsRoman": [
-        "gonghang",
-        "hotel",
-        "hwajangsil",
-        "oenjjok"
-       ]
+       "promptRoman": "oreunjjok"
       },
       {
        "type": "match",
@@ -4021,16 +5047,60 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "어디",
+       "words": [
+        "어디"
+       ],
+       "options": [
+        "어디",
+        "오른쪽",
+        "표",
+        "왼쪽"
+       ],
+       "optionsRoman": [
+        "eodi",
+        "oreunjjok",
+        "pyo",
+        "oenjjok"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "화장실",
+       "words": [
+        "화장실"
+       ],
+       "options": [
+        "화장실",
+        "오른쪽",
+        "공항",
+        "호텔"
+       ],
+       "optionsRoman": [
+        "hwajangsil",
+        "oreunjjok",
+        "gonghang",
+        "hotel"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "The station is on the right.",
        "promptLang": "en",
        "tiles": [
-        "장",
-        "오른쪽에",
+        "왼쪽으로",
         "역은",
+        "가요",
         "있어요",
-        "화장실이",
+        "오른쪽에",
         "공항에"
        ],
        "answer": [
@@ -4045,11 +5115,11 @@
         "역은 오른쪽에 있어요."
        ],
        "tilesRoman": [
-        "jang",
-        "oreunjjoge",
+        "oenjjogeuro",
         "yeogeun",
+        "gayo",
         "isseoyo",
-        "hwajangsiri",
+        "oreunjjoge",
         "gonghange"
        ]
       },
@@ -4062,8 +5132,8 @@
         "please",
         "ticket",
         "A",
-        "I",
-        "am",
+        "going",
+        "hotel",
         "right"
        ],
        "answer": [
@@ -4136,34 +5206,25 @@
     {
      "id": "u5l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "멀어요?",
-       "promptLang": "target",
-       "options": [
-        "A ticket, please.",
-        "I am going to the airport.",
-        "Is it far?",
-        "Where is the hotel?"
-       ],
-       "answer": "Is it far?",
-       "words": [
-        "멀어요?"
-       ],
-       "promptRoman": "meoreoyo?"
-      },
+       "t": "멀어요?",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "r": "meoreoyo?"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "역",
        "promptLang": "target",
        "options": [
+        "Where",
         "Toilet",
         "Station",
-        "Left",
-        "Ticket"
+        "Hotel"
        ],
        "answer": "Station",
        "words": [
@@ -4176,20 +5237,20 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "공항",
-         "Airport"
+         "왼쪽",
+         "Left"
+        ],
+        [
+         "역",
+         "Station"
         ],
         [
          "어디",
          "Where"
         ],
         [
-         "화장실",
-         "Toilet"
-        ],
-        [
-         "역",
-         "Station"
+         "오른쪽",
+         "Right"
         ],
         [
          "호텔",
@@ -4197,44 +5258,36 @@
         ]
        ],
        "words": [
-        "공항",
-        "어디",
-        "화장실",
+        "왼쪽",
         "역",
+        "어디",
+        "오른쪽",
         "호텔"
        ],
        "romans": [
-        "gonghang",
-        "eodi",
-        "hwajangsil",
+        "oenjjok",
         "yeok",
+        "eodi",
+        "oreunjjok",
         "hotel"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "Is it far?",
-       "promptLang": "en",
-       "tiles": [
-        "있어요",
-        "공항에",
-        "역은",
-        "멀어요"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "멀어요?",
+       "promptLang": "target",
+       "options": [
+        "The station is on the right.",
+        "I am going to the airport.",
+        "Turn left.",
+        "Is it far?"
        ],
-       "answer": [
-        "멀어요"
-       ],
-       "accepted": [],
+       "answer": "Is it far?",
        "words": [
         "멀어요?"
        ],
-       "tilesRoman": [
-        "isseoyo",
-        "gonghange",
-        "yeogeun",
-        "meoreoyo"
-       ]
+       "promptRoman": "meoreoyo?"
       },
       {
        "type": "tap",
@@ -4242,13 +5295,13 @@
        "prompt": "화장실이 어디예요?",
        "promptLang": "target",
        "tiles": [
-        "Where",
-        "far",
-        "going",
         "the",
-        "toilet",
+        "to",
+        "Where",
         "is",
-        "ticket"
+        "ticket",
+        "toilet",
+        "please"
        ],
        "answer": [
         "Where",
@@ -4267,6 +5320,61 @@
        "promptRoman": "hwajangsiri eodiyeyo?"
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "가요",
+        "왼쪽으로",
+        "멀어요",
+        "호텔이"
+       ],
+       "answer": [
+        "멀어요"
+       ],
+       "accepted": [],
+       "words": [
+        "멀어요?"
+       ],
+       "tilesRoman": [
+        "gayo",
+        "oenjjogeuro",
+        "meoreoyo",
+        "hoteri"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "표",
+        "호텔이",
+        "가요",
+        "공항에",
+        "멀어요"
+       ],
+       "answer": [
+        "공항에",
+        "가요"
+       ],
+       "accepted": [
+        "저는 공항에 가요."
+       ],
+       "words": [
+        "공항에 가요."
+       ],
+       "tilesRoman": [
+        "pyo",
+        "hoteri",
+        "gayo",
+        "gonghange",
+        "meoreoyo"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Tap what you hear",
        "text": "공항에 가요.",
@@ -4276,51 +5384,16 @@
         "공항에 가요."
        ],
        "options": [
-        "멀어요?",
-        "역은 오른쪽에 있어요.",
+        "왼쪽으로 가세요.",
         "표 한 장 주세요.",
+        "화장실이 어디예요?",
         "공항에 가요."
        ],
        "optionsRoman": [
-        "meoreoyo?",
-        "yeogeun oreunjjoge isseoyo.",
+        "oenjjogeuro gaseyo.",
         "pyo han jang juseyo.",
+        "hwajangsiri eodiyeyo?",
         "gonghange gayo."
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "A ticket, please.",
-       "promptLang": "en",
-       "tiles": [
-        "오른쪽에",
-        "한",
-        "왼쪽으로",
-        "주세요",
-        "장",
-        "표",
-        "멀어요"
-       ],
-       "answer": [
-        "표",
-        "한",
-        "장",
-        "주세요"
-       ],
-       "accepted": [],
-       "words": [
-        "부탁합니다",
-        "표"
-       ],
-       "tilesRoman": [
-        "oreunjjoge",
-        "han",
-        "oenjjogeuro",
-        "juseyo",
-        "jang",
-        "pyo",
-        "meoreoyo"
        ]
       },
       {
@@ -4338,6 +5411,41 @@
        "promptRoman": "oenjjogeuro gaseyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "장",
+        "한",
+        "오른쪽에",
+        "있어요",
+        "표",
+        "어디예요",
+        "주세요"
+       ],
+       "answer": [
+        "표",
+        "한",
+        "장",
+        "주세요"
+       ],
+       "accepted": [],
+       "words": [
+        "부탁합니다",
+        "표"
+       ],
+       "tilesRoman": [
+        "jang",
+        "han",
+        "oreunjjoge",
+        "isseoyo",
+        "pyo",
+        "eodiyeyo",
+        "juseyo"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in Korean",
        "prompt": "Station",
@@ -4351,42 +5459,13 @@
        ],
        "looseSpaces": true,
        "romanAllowed": true
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "I am going to the airport.",
-       "promptLang": "en",
-       "tiles": [
-        "오른쪽에",
-        "공항에",
-        "가요",
-        "표",
-        "화장실이"
-       ],
-       "answer": [
-        "공항에",
-        "가요"
-       ],
-       "accepted": [
-        "저는 공항에 가요."
-       ],
-       "words": [
-        "공항에 가요."
-       ],
-       "tilesRoman": [
-        "oreunjjoge",
-        "gonghange",
-        "gayo",
-        "pyo",
-        "hwajangsiri"
-       ]
       }
      ]
     },
     {
      "id": "u5l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -4395,9 +5474,9 @@
        "promptLang": "target",
        "options": [
         "A ticket, please.",
-        "Turn left.",
-        "Where is the toilet?",
-        "Where is the hotel?"
+        "Where is the hotel?",
+        "I am going to the airport.",
+        "Where is the toilet?"
        ],
        "answer": "Where is the hotel?",
        "words": [
@@ -4410,33 +5489,33 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "표",
-         "Ticket"
-        ],
-        [
-         "왼쪽",
-         "Left"
-        ],
-        [
-         "오른쪽",
-         "Right"
+         "화장실",
+         "Toilet"
         ],
         [
          "역",
          "Station"
+        ],
+        [
+         "어디",
+         "Where"
+        ],
+        [
+         "오른쪽",
+         "Right"
         ]
        ],
        "words": [
-        "표",
-        "왼쪽",
-        "오른쪽",
-        "역"
+        "화장실",
+        "역",
+        "어디",
+        "오른쪽"
        ],
        "romans": [
-        "pyo",
-        "oenjjok",
-        "oreunjjok",
-        "yeok"
+        "hwajangsil",
+        "yeok",
+        "eodi",
+        "oreunjjok"
        ]
       },
       {
@@ -4449,16 +5528,16 @@
         "호텔"
        ],
        "options": [
-        "왼쪽",
-        "역",
-        "어디",
-        "호텔"
+        "표",
+        "오른쪽",
+        "호텔",
+        "화장실"
        ],
        "optionsRoman": [
-        "oenjjok",
-        "yeok",
-        "eodi",
-        "hotel"
+        "pyo",
+        "oreunjjok",
+        "hotel",
+        "hwajangsil"
        ]
       },
       {
@@ -4467,11 +5546,11 @@
        "prompt": "Turn left.",
        "promptLang": "en",
        "tiles": [
-        "있어요",
         "가세요",
-        "화장실이",
+        "있어요",
+        "한",
         "왼쪽으로",
-        "가요"
+        "주세요"
        ],
        "answer": [
         "왼쪽으로",
@@ -4484,33 +5563,11 @@
         "왼쪽으로 가세요."
        ],
        "tilesRoman": [
-        "isseoyo",
         "gaseyo",
-        "hwajangsiri",
+        "isseoyo",
+        "han",
         "oenjjogeuro",
-        "gayo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "멀어요?",
-       "roman": "meoreoyo?",
-       "translation": "Is it far?",
-       "words": [
-        "멀어요?"
-       ],
-       "options": [
-        "공항에 가요.",
-        "멀어요?",
-        "역은 오른쪽에 있어요.",
-        "호텔이 어디예요?"
-       ],
-       "optionsRoman": [
-        "gonghange gayo.",
-        "meoreoyo?",
-        "yeogeun oreunjjoge isseoyo.",
-        "hoteri eodiyeyo?"
+        "juseyo"
        ]
       },
       {
@@ -4519,15 +5576,15 @@
        "prompt": "역은 오른쪽에 있어요.",
        "promptLang": "target",
        "tiles": [
-        "is",
-        "left",
         "the",
-        "The",
+        "station",
+        "is",
+        "toilet",
         "right",
-        "it",
         "on",
-        "going",
-        "station"
+        "to",
+        "The",
+        "A"
        ],
        "answer": [
         "The",
@@ -4547,19 +5604,49 @@
        "promptRoman": "yeogeun oreunjjoge isseoyo."
       },
       {
-       "type": "type",
-       "instruction": "Type this in Korean",
-       "prompt": "Where",
-       "promptLang": "en",
-       "answers": [
-        "어디",
-        "eodi"
-       ],
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "멀어요?",
+       "roman": "meoreoyo?",
+       "translation": "Is it far?",
        "words": [
-        "어디"
+        "멀어요?"
        ],
-       "looseSpaces": true,
-       "romanAllowed": true
+       "options": [
+        "화장실이 어디예요?",
+        "공항에 가요.",
+        "표 한 장 주세요.",
+        "멀어요?"
+       ],
+       "optionsRoman": [
+        "hwajangsiri eodiyeyo?",
+        "gonghange gayo.",
+        "pyo han jang juseyo.",
+        "meoreoyo?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "표 한 장 주세요.",
+       "roman": "pyo han jang juseyo.",
+       "translation": "A ticket, please.",
+       "words": [
+        "부탁합니다",
+        "표"
+       ],
+       "options": [
+        "호텔이 어디예요?",
+        "화장실이 어디예요?",
+        "역은 오른쪽에 있어요.",
+        "표 한 장 주세요."
+       ],
+       "optionsRoman": [
+        "hoteri eodiyeyo?",
+        "hwajangsiri eodiyeyo?",
+        "yeogeun oreunjjoge isseoyo.",
+        "pyo han jang juseyo."
+       ]
       },
       {
        "type": "type",
@@ -4578,27 +5665,19 @@
        "promptRoman": "hwajangsiri eodiyeyo?"
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "표 한 장 주세요.",
-       "roman": "pyo han jang juseyo.",
-       "translation": "A ticket, please.",
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Left",
+       "promptLang": "en",
+       "answers": [
+        "왼쪽",
+        "oenjjok"
+       ],
        "words": [
-        "부탁합니다",
-        "표"
+        "왼쪽"
        ],
-       "options": [
-        "멀어요?",
-        "표 한 장 주세요.",
-        "화장실이 어디예요?",
-        "역은 오른쪽에 있어요."
-       ],
-       "optionsRoman": [
-        "meoreoyo?",
-        "pyo han jang juseyo.",
-        "hwajangsiri eodiyeyo?",
-        "yeogeun oreunjjoge isseoyo."
-       ]
+       "looseSpaces": true,
+       "romanAllowed": true
       }
      ]
     }
@@ -4609,11 +5688,148 @@
    "title": "Daily routine",
    "description": "Home, work, school and the time of day.",
    "icon": "calendar",
-   "tip": "Time and place words take 에 (e): 아침에 (achime) = in the morning, 학교에 (hakgyoe) = to school.",
+   "tips": [
+    "Time and place words take 에 (e): 아침에 (achime) = in the morning, 학교에 (hakgyoe) = to school."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "오늘",
+      "e": "Today",
+      "r": "oneul"
+     },
+     {
+      "t": "내일",
+      "e": "Tomorrow",
+      "r": "naeil"
+     },
+     {
+      "t": "지금",
+      "e": "Now",
+      "r": "jigeum"
+     },
+     {
+      "t": "아침",
+      "e": "Morning",
+      "r": "achim"
+     },
+     {
+      "t": "밤",
+      "e": "Night",
+      "r": "bam"
+     },
+     {
+      "t": "집",
+      "e": "House",
+      "r": "jip"
+     },
+     {
+      "t": "일",
+      "e": "Work",
+      "r": "il"
+     },
+     {
+      "t": "학교",
+      "e": "School",
+      "r": "hakgyo"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "일하러 가요.",
+      "e": "I go to work.",
+      "r": "ilhareo gayo."
+     },
+     {
+      "t": "집에 있어요.",
+      "e": "I am at home.",
+      "r": "jibe isseoyo."
+     },
+     {
+      "t": "오늘은 월요일이에요.",
+      "e": "Today is Monday.",
+      "r": "oneureun woryoirieyo."
+     },
+     {
+      "t": "아침에 커피를 마셔요.",
+      "e": "I drink coffee in the morning.",
+      "r": "achime keopireul masyeoyo."
+     },
+     {
+      "t": "밤에 자요.",
+      "e": "I sleep at night.",
+      "r": "bame jayo."
+     },
+     {
+      "t": "아이들은 학교에 가요.",
+      "e": "The children go to school.",
+      "r": "aideureun hakgyoe gayo."
+     },
+     {
+      "t": "지금 몇 시예요?",
+      "e": "What time is it now?",
+      "r": "jigeum myeot siyeyo?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u6l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "오늘",
+       "e": "Today",
+       "kind": "word",
+       "r": "oneul"
+      },
+      {
+       "t": "내일",
+       "e": "Tomorrow",
+       "kind": "word",
+       "r": "naeil"
+      },
+      {
+       "t": "지금",
+       "e": "Now",
+       "kind": "word",
+       "r": "jigeum"
+      },
+      {
+       "t": "아침",
+       "e": "Morning",
+       "kind": "word",
+       "r": "achim"
+      },
+      {
+       "t": "일하러 가요.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "r": "ilhareo gayo.",
+       "alts": [
+        "회사에 가요.",
+        "직장에 가요."
+       ]
+      },
+      {
+       "t": "오늘은 월요일이에요.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "r": "oneureun woryoirieyo.",
+       "alts": [
+        "오늘은 월요일입니다."
+       ]
+      },
+      {
+       "t": "집에 있어요.",
+       "e": "I am at home.",
+       "kind": "phrase",
+       "r": "jibe isseoyo.",
+       "alts": [
+        "저는 집에 있어요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -4621,10 +5837,10 @@
        "prompt": "오늘",
        "promptLang": "target",
        "options": [
-        "Now",
         "Work",
         "Today",
-        "House"
+        "Now",
+        "Night"
        ],
        "answer": "Today",
        "words": [
@@ -4639,54 +5855,15 @@
        "promptLang": "target",
        "options": [
         "Now",
-        "Today",
-        "Morning",
-        "Tomorrow"
+        "Work",
+        "Tomorrow",
+        "House"
        ],
        "answer": "Tomorrow",
        "words": [
         "내일"
        ],
        "promptRoman": "naeil"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Now",
-       "promptLang": "en",
-       "answer": "지금",
-       "words": [
-        "지금"
-       ],
-       "options": [
-        "내일",
-        "학교",
-        "지금",
-        "오늘"
-       ],
-       "optionsRoman": [
-        "naeil",
-        "hakgyo",
-        "jigeum",
-        "oneul"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "아침",
-       "promptLang": "target",
-       "options": [
-        "Night",
-        "Work",
-        "Morning",
-        "Today"
-       ],
-       "answer": "Morning",
-       "words": [
-        "아침"
-       ],
-       "promptRoman": "achim"
       },
       {
        "type": "match",
@@ -4723,16 +5900,55 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "지금",
+       "words": [
+        "지금"
+       ],
+       "options": [
+        "내일",
+        "오늘",
+        "아침",
+        "지금"
+       ],
+       "optionsRoman": [
+        "naeil",
+        "oneul",
+        "achim",
+        "jigeum"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "아침",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "School",
+        "Morning",
+        "Today"
+       ],
+       "answer": "Morning",
+       "words": [
+        "아침"
+       ],
+       "promptRoman": "achim"
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "I go to work.",
        "promptLang": "en",
        "tiles": [
-        "밤에",
-        "가요",
-        "지금",
         "일하러",
-        "아침에"
+        "있어요",
+        "지금",
+        "아이들은",
+        "가요"
        ],
        "answer": [
         "일하러",
@@ -4746,33 +5962,11 @@
         "일하러 가요."
        ],
        "tilesRoman": [
-        "bame",
-        "gayo",
-        "jigeum",
         "ilhareo",
-        "achime"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "집에 있어요.",
-       "roman": "jibe isseoyo.",
-       "translation": "I am at home.",
-       "words": [
-        "집에 있어요."
-       ],
-       "options": [
-        "아침에 커피를 마셔요.",
-        "밤에 자요.",
-        "일하러 가요.",
-        "집에 있어요."
-       ],
-       "optionsRoman": [
-        "achime keopireul masyeoyo.",
-        "bame jayo.",
-        "ilhareo gayo.",
-        "jibe isseoyo."
+        "isseoyo",
+        "jigeum",
+        "aideureun",
+        "gayo"
        ]
       },
       {
@@ -4781,11 +5975,11 @@
        "prompt": "오늘은 월요일이에요.",
        "promptLang": "target",
        "tiles": [
-        "Today",
-        "home",
-        "at",
-        "children",
         "is",
+        "Today",
+        "it",
+        "now",
+        "in",
         "Monday"
        ],
        "answer": [
@@ -4800,6 +5994,28 @@
         "오늘은 월요일이에요."
        ],
        "promptRoman": "oneureun woryoirieyo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "집에 있어요.",
+       "roman": "jibe isseoyo.",
+       "translation": "I am at home.",
+       "words": [
+        "집에 있어요."
+       ],
+       "options": [
+        "일하러 가요.",
+        "밤에 자요.",
+        "아침에 커피를 마셔요.",
+        "집에 있어요."
+       ],
+       "optionsRoman": [
+        "ilhareo gayo.",
+        "bame jayo.",
+        "achime keopireul masyeoyo.",
+        "jibe isseoyo."
+       ]
       },
       {
        "type": "type",
@@ -4820,6 +6036,62 @@
     {
      "id": "u6l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "밤",
+       "e": "Night",
+       "kind": "word",
+       "r": "bam"
+      },
+      {
+       "t": "집",
+       "e": "House",
+       "kind": "word",
+       "r": "jip"
+      },
+      {
+       "t": "일",
+       "e": "Work",
+       "kind": "word",
+       "r": "il",
+       "alts": [
+        "직장"
+       ]
+      },
+      {
+       "t": "학교",
+       "e": "School",
+       "kind": "word",
+       "r": "hakgyo"
+      },
+      {
+       "t": "아침에 커피를 마셔요.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "r": "achime keopireul masyeoyo.",
+       "alts": [
+        "저는 아침에 커피를 마셔요."
+       ]
+      },
+      {
+       "t": "밤에 자요.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "r": "bame jayo.",
+       "alts": [
+        "저는 밤에 자요."
+       ]
+      },
+      {
+       "t": "아이들은 학교에 가요.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "r": "aideureun hakgyoe gayo.",
+       "alts": [
+        "아이들이 학교에 가요."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -4827,10 +6099,10 @@
        "prompt": "밤",
        "promptLang": "target",
        "options": [
-        "Now",
-        "Morning",
         "Night",
-        "Today"
+        "Morning",
+        "Work",
+        "School"
        ],
        "answer": "Night",
        "words": [
@@ -4840,64 +6112,20 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "House",
-       "promptLang": "en",
-       "answer": "집",
+       "instruction": "What does this mean?",
+       "prompt": "집",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Night",
+        "House",
+        "Morning"
+       ],
+       "answer": "House",
        "words": [
         "집"
        ],
-       "options": [
-        "아침",
-        "집",
-        "오늘",
-        "내일"
-       ],
-       "optionsRoman": [
-        "achim",
-        "jip",
-        "oneul",
-        "naeil"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "일",
-       "promptLang": "target",
-       "options": [
-        "Morning",
-        "Now",
-        "Night",
-        "Work"
-       ],
-       "answer": "Work",
-       "words": [
-        "일"
-       ],
-       "promptRoman": "il"
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "School",
-       "promptLang": "en",
-       "answer": "학교",
-       "words": [
-        "학교"
-       ],
-       "options": [
-        "일",
-        "학교",
-        "밤",
-        "내일"
-       ],
-       "optionsRoman": [
-        "il",
-        "hakgyo",
-        "bam",
-        "naeil"
-       ]
+       "promptRoman": "jip"
       },
       {
        "type": "match",
@@ -4934,17 +6162,61 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "일",
+       "words": [
+        "일"
+       ],
+       "options": [
+        "아침",
+        "일",
+        "오늘",
+        "내일"
+       ],
+       "optionsRoman": [
+        "achim",
+        "il",
+        "oneul",
+        "naeil"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "학교",
+       "words": [
+        "학교"
+       ],
+       "options": [
+        "아침",
+        "지금",
+        "밤",
+        "학교"
+       ],
+       "optionsRoman": [
+        "achim",
+        "jigeum",
+        "bam",
+        "hakgyo"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Korean",
        "prompt": "I drink coffee in the morning.",
        "promptLang": "en",
        "tiles": [
+        "집에",
         "커피를",
-        "아침에",
         "지금",
-        "가요",
         "마셔요",
-        "자요"
+        "몇",
+        "아침에"
        ],
        "answer": [
         "아침에",
@@ -4958,12 +6230,12 @@
         "아침에 커피를 마셔요."
        ],
        "tilesRoman": [
+        "jibe",
         "keopireul",
-        "achime",
         "jigeum",
-        "gayo",
         "masyeoyo",
-        "jayo"
+        "myeot",
+        "achime"
        ]
       },
       {
@@ -4972,13 +6244,13 @@
        "prompt": "밤에 자요.",
        "promptLang": "target",
        "tiles": [
-        "I",
-        "Today",
-        "coffee",
-        "sleep",
-        "at",
         "night",
-        "children"
+        "it",
+        "sleep",
+        "I",
+        "in",
+        "the",
+        "at"
        ],
        "answer": [
         "I",
@@ -5005,16 +6277,16 @@
         "아침에 커피를 마셔요."
        ],
        "options": [
+        "밤에 자요.",
+        "일하러 가요.",
         "아침에 커피를 마셔요.",
-        "아이들은 학교에 가요.",
-        "집에 있어요.",
-        "일하러 가요."
+        "집에 있어요."
        ],
        "optionsRoman": [
+        "bame jayo.",
+        "ilhareo gayo.",
         "achime keopireul masyeoyo.",
-        "aideureun hakgyoe gayo.",
-        "jibe isseoyo.",
-        "ilhareo gayo."
+        "jibe isseoyo."
        ]
       },
       {
@@ -5052,33 +6324,24 @@
     {
      "id": "u6l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "지금 몇 시예요?",
-       "promptLang": "target",
-       "options": [
-        "Today is Monday.",
-        "I drink coffee in the morning.",
-        "I am at home.",
-        "What time is it now?"
-       ],
-       "answer": "What time is it now?",
-       "words": [
-        "지금"
-       ],
-       "promptRoman": "jigeum myeot siyeyo?"
-      },
+       "t": "지금 몇 시예요?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "r": "jigeum myeot siyeyo?"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "내일",
        "promptLang": "target",
        "options": [
+        "School",
         "Morning",
         "Tomorrow",
-        "Today",
         "Night"
        ],
        "answer": "Tomorrow",
@@ -5092,71 +6355,57 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "일",
-         "Work"
+         "지금",
+         "Now"
+        ],
+        [
+         "내일",
+         "Tomorrow"
+        ],
+        [
+         "오늘",
+         "Today"
         ],
         [
          "학교",
          "School"
         ],
         [
-         "아침",
-         "Morning"
-        ],
-        [
          "집",
          "House"
-        ],
-        [
-         "지금",
-         "Now"
         ]
        ],
        "words": [
-        "일",
+        "지금",
+        "내일",
+        "오늘",
         "학교",
-        "아침",
-        "집",
-        "지금"
+        "집"
        ],
        "romans": [
-        "il",
+        "jigeum",
+        "naeil",
+        "oneul",
         "hakgyo",
-        "achim",
-        "jip",
-        "jigeum"
+        "jip"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "What time is it now?",
-       "promptLang": "en",
-       "tiles": [
-        "자요",
-        "학교에",
-        "시예요",
-        "월요일이에요",
-        "몇",
-        "지금"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "지금 몇 시예요?",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I drink coffee in the morning.",
+        "I go to work.",
+        "The children go to school."
        ],
-       "answer": [
-        "지금",
-        "몇",
-        "시예요"
-       ],
-       "accepted": [],
+       "answer": "What time is it now?",
        "words": [
         "지금"
        ],
-       "tilesRoman": [
-        "jayo",
-        "hakgyoe",
-        "siyeyo",
-        "woryoirieyo",
-        "myeot",
-        "jigeum"
-       ]
+       "promptRoman": "jigeum myeot siyeyo?"
       },
       {
        "type": "tap",
@@ -5164,13 +6413,13 @@
        "prompt": "집에 있어요.",
        "promptLang": "target",
        "tiles": [
-        "I",
         "at",
-        "am",
-        "the",
+        "Monday",
+        "sleep",
+        "What",
         "home",
-        "work",
-        "is"
+        "am",
+        "I"
        ],
        "answer": [
         "I",
@@ -5187,6 +6436,70 @@
        "promptRoman": "jibe isseoyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "지금",
+        "아이들은",
+        "몇",
+        "밤에",
+        "학교에",
+        "시예요"
+       ],
+       "answer": [
+        "지금",
+        "몇",
+        "시예요"
+       ],
+       "accepted": [],
+       "words": [
+        "지금"
+       ],
+       "tilesRoman": [
+        "jigeum",
+        "aideureun",
+        "myeot",
+        "bame",
+        "hakgyoe",
+        "siyeyo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "아침에",
+        "집에",
+        "학교에",
+        "아이들은",
+        "가요",
+        "있어요"
+       ],
+       "answer": [
+        "아이들은",
+        "학교에",
+        "가요"
+       ],
+       "accepted": [
+        "아이들이 학교에 가요."
+       ],
+       "words": [
+        "아이들은 학교에 가요."
+       ],
+       "tilesRoman": [
+        "achime",
+        "jibe",
+        "hakgyoe",
+        "aideureun",
+        "gayo",
+        "isseoyo"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Tap what you hear",
        "text": "아이들은 학교에 가요.",
@@ -5196,46 +6509,16 @@
         "아이들은 학교에 가요."
        ],
        "options": [
-        "지금 몇 시예요?",
-        "오늘은 월요일이에요.",
         "밤에 자요.",
+        "지금 몇 시예요?",
+        "일하러 가요.",
         "아이들은 학교에 가요."
        ],
        "optionsRoman": [
-        "jigeum myeot siyeyo?",
-        "oneureun woryoirieyo.",
         "bame jayo.",
+        "jigeum myeot siyeyo?",
+        "ilhareo gayo.",
         "aideureun hakgyoe gayo."
-       ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "I sleep at night.",
-       "promptLang": "en",
-       "tiles": [
-        "집에",
-        "자요",
-        "아침에",
-        "가요",
-        "밤에"
-       ],
-       "answer": [
-        "밤에",
-        "자요"
-       ],
-       "accepted": [
-        "저는 밤에 자요."
-       ],
-       "words": [
-        "밤에 자요."
-       ],
-       "tilesRoman": [
-        "jibe",
-        "jayo",
-        "achime",
-        "gayo",
-        "bame"
        ]
       },
       {
@@ -5253,6 +6536,36 @@
        "promptRoman": "oneureun woryoirieyo."
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "자요",
+        "밤에",
+        "마셔요",
+        "학교에",
+        "몇"
+       ],
+       "answer": [
+        "밤에",
+        "자요"
+       ],
+       "accepted": [
+        "저는 밤에 자요."
+       ],
+       "words": [
+        "밤에 자요."
+       ],
+       "tilesRoman": [
+        "jayo",
+        "bame",
+        "masyeoyo",
+        "hakgyoe",
+        "myeot"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in Korean",
        "prompt": "Tomorrow",
@@ -5266,45 +6579,13 @@
        ],
        "looseSpaces": true,
        "romanAllowed": true
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Korean",
-       "prompt": "The children go to school.",
-       "promptLang": "en",
-       "tiles": [
-        "커피를",
-        "가요",
-        "아이들은",
-        "있어요",
-        "월요일이에요",
-        "학교에"
-       ],
-       "answer": [
-        "아이들은",
-        "학교에",
-        "가요"
-       ],
-       "accepted": [
-        "아이들이 학교에 가요."
-       ],
-       "words": [
-        "아이들은 학교에 가요."
-       ],
-       "tilesRoman": [
-        "keopireul",
-        "gayo",
-        "aideureun",
-        "isseoyo",
-        "woryoirieyo",
-        "hakgyoe"
-       ]
       }
      ]
     },
     {
      "id": "u6l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -5312,10 +6593,10 @@
        "prompt": "일하러 가요.",
        "promptLang": "target",
        "options": [
-        "I drink coffee in the morning.",
+        "What time is it now?",
         "I go to work.",
-        "The children go to school.",
-        "What time is it now?"
+        "I drink coffee in the morning.",
+        "The children go to school."
        ],
        "answer": "I go to work.",
        "words": [
@@ -5328,53 +6609,53 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "집",
-         "House"
-        ],
-        [
          "밤",
          "Night"
+        ],
+        [
+         "집",
+         "House"
         ],
         [
          "지금",
          "Now"
         ],
         [
-         "일",
-         "Work"
+         "오늘",
+         "Today"
         ]
        ],
        "words": [
-        "집",
         "밤",
+        "집",
         "지금",
-        "일"
+        "오늘"
        ],
        "romans": [
-        "jip",
         "bam",
+        "jip",
         "jigeum",
-        "il"
+        "oneul"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Tomorrow",
+       "prompt": "Morning",
        "promptLang": "en",
-       "answer": "내일",
+       "answer": "아침",
        "words": [
-        "내일"
+        "아침"
        ],
        "options": [
+        "지금",
         "아침",
-        "내일",
         "밤",
         "오늘"
        ],
        "optionsRoman": [
+        "jigeum",
         "achim",
-        "naeil",
         "bam",
         "oneul"
        ]
@@ -5410,42 +6691,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "지금 몇 시예요?",
-       "roman": "jigeum myeot siyeyo?",
-       "translation": "What time is it now?",
-       "words": [
-        "지금"
-       ],
-       "options": [
-        "오늘은 월요일이에요.",
-        "밤에 자요.",
-        "지금 몇 시예요?",
-        "아이들은 학교에 가요."
-       ],
-       "optionsRoman": [
-        "oneureun woryoirieyo.",
-        "bame jayo.",
-        "jigeum myeot siyeyo?",
-        "aideureun hakgyoe gayo."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "아침에 커피를 마셔요.",
        "promptLang": "target",
        "tiles": [
-        "go",
-        "the",
-        "is",
-        "morning",
-        "children",
-        "drink",
-        "I",
         "in",
-        "coffee"
+        "I",
+        "the",
+        "morning",
+        "school",
+        "drink",
+        "coffee",
+        "What",
+        "at"
        ],
        "answer": [
         "I",
@@ -5465,19 +6724,48 @@
        "promptRoman": "achime keopireul masyeoyo."
       },
       {
-       "type": "type",
-       "instruction": "Type this in Korean",
-       "prompt": "Morning",
-       "promptLang": "en",
-       "answers": [
-        "아침",
-        "achim"
-       ],
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "지금 몇 시예요?",
+       "roman": "jigeum myeot siyeyo?",
+       "translation": "What time is it now?",
        "words": [
-        "아침"
+        "지금"
        ],
-       "looseSpaces": true,
-       "romanAllowed": true
+       "options": [
+        "집에 있어요.",
+        "아이들은 학교에 가요.",
+        "일하러 가요.",
+        "지금 몇 시예요?"
+       ],
+       "optionsRoman": [
+        "jibe isseoyo.",
+        "aideureun hakgyoe gayo.",
+        "ilhareo gayo.",
+        "jigeum myeot siyeyo?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "밤에 자요.",
+       "roman": "bame jayo.",
+       "translation": "I sleep at night.",
+       "words": [
+        "밤에 자요."
+       ],
+       "options": [
+        "밤에 자요.",
+        "아이들은 학교에 가요.",
+        "집에 있어요.",
+        "지금 몇 시예요?"
+       ],
+       "optionsRoman": [
+        "bame jayo.",
+        "aideureun hakgyoe gayo.",
+        "jibe isseoyo.",
+        "jigeum myeot siyeyo?"
+       ]
       },
       {
        "type": "type",
@@ -5494,26 +6782,19 @@
        "promptRoman": "jibe isseoyo."
       },
       {
-       "type": "listen",
-       "instruction": "Tap what you hear",
-       "text": "밤에 자요.",
-       "roman": "bame jayo.",
-       "translation": "I sleep at night.",
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "내일",
+        "naeil"
+       ],
        "words": [
-        "밤에 자요."
+        "내일"
        ],
-       "options": [
-        "아침에 커피를 마셔요.",
-        "집에 있어요.",
-        "오늘은 월요일이에요.",
-        "밤에 자요."
-       ],
-       "optionsRoman": [
-        "achime keopireul masyeoyo.",
-        "jibe isseoyo.",
-        "oneureun woryoirieyo.",
-        "bame jayo."
-       ]
+       "looseSpaces": true,
+       "romanAllowed": true
       }
      ]
     }

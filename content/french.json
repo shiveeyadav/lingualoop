@@ -23,6 +23,7 @@
   "ï",
   "œ"
  ],
+ "particles": [],
  "order": 30,
  "description": "Everyday French: greetings, family, food, numbers, getting around and your day.",
  "units": [
@@ -31,11 +32,138 @@
    "title": "Greetings",
    "description": "Say hello, introduce yourself and be polite.",
    "icon": "wave",
-   "tip": "Use 'bonjour' during the day and 'bonsoir' in the evening. 'Salut' (hi, bye) is informal: keep it for friends.",
+   "tips": [
+    "Use 'bonjour' during the day and 'bonsoir' in the evening. 'Salut' (hi, bye) is informal: keep it for friends."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "salut",
+      "e": "Hello"
+     },
+     {
+      "t": "au revoir",
+      "e": "Goodbye"
+     },
+     {
+      "t": "merci",
+      "e": "Thank you"
+     },
+     {
+      "t": "s'il vous plaît",
+      "e": "Please"
+     },
+     {
+      "t": "oui",
+      "e": "Yes"
+     },
+     {
+      "t": "non",
+      "e": "No"
+     },
+     {
+      "t": "bonjour",
+      "e": "Good morning"
+     },
+     {
+      "t": "pardon",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Comment ça va ?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Je vais bien, merci.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Je m'appelle Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Enchanté.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Merci beaucoup.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "À demain.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Comment tu t'appelles ?",
+      "e": "What is your name?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u1l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "salut",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "bonjour"
+       ]
+      },
+      {
+       "t": "au revoir",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "salut"
+       ]
+      },
+      {
+       "t": "merci",
+       "e": "Thank you",
+       "kind": "word"
+      },
+      {
+       "t": "s'il vous plaît",
+       "e": "Please",
+       "kind": "word",
+       "alts": [
+        "s'il te plaît"
+       ]
+      },
+      {
+       "t": "Comment ça va ?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Ça va ?",
+        "Comment allez-vous ?",
+        "Comment vas-tu ?"
+       ]
+      },
+      {
+       "t": "Je m'appelle Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Mon nom est Anna.",
+        "Je suis Anna."
+       ]
+      },
+      {
+       "t": "Je vais bien, merci.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Ça va bien, merci.",
+        "Bien, merci."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -43,10 +171,10 @@
        "prompt": "salut",
        "promptLang": "target",
        "options": [
-        "Please",
-        "Hello",
         "No",
-        "Sorry"
+        "Good morning",
+        "Hello",
+        "Thank you"
        ],
        "answer": "Hello",
        "words": [
@@ -59,46 +187,14 @@
        "prompt": "au revoir",
        "promptLang": "target",
        "options": [
-        "Thank you",
         "Goodbye",
-        "Yes",
-        "Please"
+        "No",
+        "Thank you",
+        "Hello"
        ],
        "answer": "Goodbye",
        "words": [
         "au revoir"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
-       "promptLang": "en",
-       "answer": "merci",
-       "words": [
-        "merci"
-       ],
-       "options": [
-        "bonjour",
-        "merci",
-        "salut",
-        "oui"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "s'il vous plaît",
-       "promptLang": "target",
-       "options": [
-        "Yes",
-        "No",
-        "Please",
-        "Sorry"
-       ],
-       "answer": "Please",
-       "words": [
-        "s'il vous plaît"
        ]
       },
       {
@@ -130,17 +226,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "merci",
+       "words": [
+        "merci"
+       ],
+       "options": [
+        "salut",
+        "bonjour",
+        "merci",
+        "au revoir"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "s'il vous plaît",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Goodbye",
+        "Good morning",
+        "Please"
+       ],
+       "answer": "Please",
+       "words": [
+        "s'il vous plaît"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "How are you?",
        "promptLang": "en",
        "tiles": [
-        "tu",
-        "Anna",
+        "t'appelles",
+        "bien",
         "Comment",
         "ça",
-        "beaucoup",
-        "va"
+        "va",
+        "demain"
        ],
        "answer": [
         "Comment",
@@ -157,30 +285,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Je vais bien, merci.",
-       "translation": "I am fine, thank you.",
-       "answers": [
-        "Je vais bien, merci."
-       ],
-       "words": [
-        "merci"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Je m'appelle Anna.",
        "promptLang": "target",
        "tiles": [
-        "tomorrow",
-        "name",
-        "Anna",
-        "are",
-        "See",
+        "you",
+        "My",
         "is",
-        "My"
+        "Anna",
+        "name",
+        "your",
+        "Nice"
        ],
        "answer": [
         "My",
@@ -194,6 +310,18 @@
        ],
        "words": [
         "Je m'appelle Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je vais bien, merci.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Je vais bien, merci."
+       ],
+       "words": [
+        "merci"
        ]
       },
       {
@@ -214,6 +342,51 @@
     {
      "id": "u1l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "oui",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "non",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "bonjour",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "pardon",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "désolé",
+        "désolée",
+        "excusez-moi"
+       ]
+      },
+      {
+       "t": "Enchanté.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "alts": [
+        "Enchantée."
+       ]
+      },
+      {
+       "t": "Merci beaucoup.",
+       "e": "Thank you very much.",
+       "kind": "phrase"
+      },
+      {
+       "t": "À demain.",
+       "e": "See you tomorrow.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -221,10 +394,10 @@
        "prompt": "oui",
        "promptLang": "target",
        "options": [
-        "Good morning",
-        "Hello",
+        "Thank you",
+        "Please",
         "Yes",
-        "No"
+        "Hello"
        ],
        "answer": "Yes",
        "words": [
@@ -233,50 +406,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "No",
-       "promptLang": "en",
-       "answer": "non",
-       "words": [
-        "non"
-       ],
-       "options": [
-        "pardon",
-        "non",
-        "bonjour",
-        "au revoir"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "bonjour",
+       "prompt": "non",
        "promptLang": "target",
        "options": [
-        "Thank you",
+        "No",
+        "Yes",
         "Please",
-        "Good morning",
-        "Hello"
+        "Thank you"
        ],
-       "answer": "Good morning",
+       "answer": "No",
        "words": [
-        "bonjour"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
-       "promptLang": "en",
-       "answer": "pardon",
-       "words": [
-        "pardon"
-       ],
-       "options": [
-        "pardon",
-        "oui",
-        "s'il vous plaît",
-        "merci"
+        "non"
        ]
       },
       {
@@ -308,15 +449,47 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "bonjour",
+       "words": [
+        "bonjour"
+       ],
+       "options": [
+        "oui",
+        "salut",
+        "non",
+        "bonjour"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "pardon",
+       "words": [
+        "pardon"
+       ],
+       "options": [
+        "salut",
+        "pardon",
+        "au revoir",
+        "oui"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "Nice to meet you.",
        "promptLang": "en",
        "tiles": [
-        "t'appelles",
-        "Enchanté",
-        "m'appelle",
-        "beaucoup"
+        "tu",
+        "merci",
+        "demain",
+        "Enchanté"
        ],
        "answer": [
         "Enchanté"
@@ -334,13 +507,13 @@
        "prompt": "Merci beaucoup.",
        "promptLang": "target",
        "tiles": [
-        "to",
-        "very",
+        "name",
         "much",
-        "you",
         "Thank",
-        "your",
-        "tomorrow"
+        "you",
+        "Anna",
+        "meet",
+        "very"
        ],
        "answer": [
         "Thank",
@@ -400,33 +573,28 @@
     {
      "id": "u1l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Comment tu t'appelles ?",
-       "promptLang": "target",
-       "options": [
-        "My name is Anna.",
-        "See you tomorrow.",
-        "Thank you very much.",
-        "What is your name?"
-       ],
-       "answer": "What is your name?",
-       "words": [
-        "Comment tu t'appelles ?"
+       "t": "Comment tu t'appelles ?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Comment vous appelez-vous ?",
+        "Comment t'appelles-tu ?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "au revoir",
        "promptLang": "target",
        "options": [
-        "No",
-        "Goodbye",
         "Good morning",
-        "Please"
+        "Goodbye",
+        "Hello",
+        "Sorry"
        ],
        "answer": "Goodbye",
        "words": [
@@ -438,56 +606,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "salut",
-         "Hello"
-        ],
-        [
-         "merci",
-         "Thank you"
+         "au revoir",
+         "Goodbye"
         ],
         [
          "pardon",
          "Sorry"
         ],
         [
-         "non",
-         "No"
+         "merci",
+         "Thank you"
         ],
         [
          "s'il vous plaît",
          "Please"
+        ],
+        [
+         "non",
+         "No"
         ]
        ],
        "words": [
-        "salut",
-        "merci",
+        "au revoir",
         "pardon",
-        "non",
-        "s'il vous plaît"
+        "merci",
+        "s'il vous plaît",
+        "non"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "What is your name?",
-       "promptLang": "en",
-       "tiles": [
-        "demain",
-        "tu",
-        "vais",
-        "bien",
-        "t'appelles",
-        "Comment"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Comment tu t'appelles ?",
+       "promptLang": "target",
+       "options": [
+        "See you tomorrow.",
+        "Thank you very much.",
+        "How are you?",
+        "What is your name?"
        ],
-       "answer": [
-        "Comment",
-        "tu",
-        "t'appelles"
-       ],
-       "accepted": [
-        "Comment vous appelez-vous ?",
-        "Comment t'appelles-tu ?"
-       ],
+       "answer": "What is your name?",
        "words": [
         "Comment tu t'appelles ?"
        ]
@@ -498,14 +656,14 @@
        "prompt": "Je vais bien, merci.",
        "promptLang": "target",
        "tiles": [
-        "What",
-        "much",
-        "you",
-        "am",
+        "My",
         "fine",
-        "thank",
-        "your",
-        "I"
+        "am",
+        "you",
+        "I",
+        "tomorrow",
+        "to",
+        "thank"
        ],
        "answer": [
         "I",
@@ -527,6 +685,53 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "À",
+        "Je",
+        "t'appelles",
+        "m'appelle",
+        "tu",
+        "Comment"
+       ],
+       "answer": [
+        "Comment",
+        "tu",
+        "t'appelles"
+       ],
+       "accepted": [
+        "Comment vous appelez-vous ?",
+        "Comment t'appelles-tu ?"
+       ],
+       "words": [
+        "Comment tu t'appelles ?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "Comment",
+        "ça",
+        "À",
+        "demain",
+        "m'appelle"
+       ],
+       "answer": [
+        "À",
+        "demain"
+       ],
+       "accepted": [],
+       "words": [
+        "demain"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "À demain.",
@@ -536,18 +741,6 @@
        ],
        "words": [
         "demain"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Thank you very much.",
-       "promptLang": "en",
-       "answers": [
-        "Merci beaucoup."
-       ],
-       "words": [
-        "merci"
        ]
       },
       {
@@ -567,6 +760,18 @@
       {
        "type": "type",
        "instruction": "Type this in French",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Merci beaucoup."
+       ],
+       "words": [
+        "merci"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
        "prompt": "Goodbye",
        "promptLang": "en",
        "answers": [
@@ -576,33 +781,13 @@
        "words": [
         "au revoir"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "See you tomorrow.",
-       "promptLang": "en",
-       "tiles": [
-        "À",
-        "demain",
-        "bien",
-        "merci",
-        "beaucoup"
-       ],
-       "answer": [
-        "À",
-        "demain"
-       ],
-       "accepted": [],
-       "words": [
-        "demain"
-       ]
       }
      ]
     },
     {
      "id": "u1l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -611,8 +796,8 @@
        "promptLang": "target",
        "options": [
         "How are you?",
-        "What is your name?",
         "I am fine, thank you.",
+        "See you tomorrow.",
         "Thank you very much."
        ],
        "answer": "How are you?",
@@ -625,42 +810,42 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "oui",
+         "Yes"
+        ],
+        [
          "pardon",
          "Sorry"
         ],
         [
-         "au revoir",
-         "Goodbye"
-        ],
-        [
-         "non",
-         "No"
-        ],
-        [
          "merci",
          "Thank you"
+        ],
+        [
+         "bonjour",
+         "Good morning"
         ]
        ],
        "words": [
+        "oui",
         "pardon",
-        "au revoir",
-        "non",
-        "merci"
+        "merci",
+        "bonjour"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Good morning",
+       "prompt": "Please",
        "promptLang": "en",
-       "answer": "bonjour",
+       "answer": "s'il vous plaît",
        "words": [
-        "bonjour"
+        "s'il vous plaît"
        ],
        "options": [
-        "bonjour",
-        "salut",
         "s'il vous plaît",
+        "salut",
+        "oui",
         "pardon"
        ]
       },
@@ -691,18 +876,6 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Comment tu t'appelles ?",
-       "translation": "What is your name?",
-       "answers": [
-        "Comment tu t'appelles ?"
-       ],
-       "words": [
-        "Comment tu t'appelles ?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Enchanté.",
@@ -730,16 +903,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Hello",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Comment tu t'appelles ?",
+       "translation": "What is your name?",
        "answers": [
-        "salut",
-        "bonjour"
+        "Comment tu t'appelles ?"
        ],
        "words": [
-        "salut"
+        "Comment tu t'appelles ?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Merci beaucoup.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Merci beaucoup."
+       ],
+       "words": [
+        "merci"
        ]
       },
       {
@@ -761,15 +945,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Merci beaucoup.",
-       "translation": "Thank you very much.",
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "No",
+       "promptLang": "en",
        "answers": [
-        "Merci beaucoup."
+        "non"
        ],
        "words": [
-        "merci"
+        "non"
        ]
       }
      ]
@@ -781,11 +965,140 @@
    "title": "People and family",
    "description": "Talk about the people around you.",
    "icon": "person",
-   "tip": "Every noun is masculine or feminine: 'le père' (the father), 'la mère' (the mother). Before a vowel, 'le' and 'la' become l': l'enfant.",
+   "tips": [
+    "Every noun is masculine or feminine: 'le père' (the father), 'la mère' (the mother). Before a vowel, 'le' and 'la' become l': l'enfant."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "l'homme",
+      "e": "Man"
+     },
+     {
+      "t": "la femme",
+      "e": "Woman"
+     },
+     {
+      "t": "l'enfant",
+      "e": "Child"
+     },
+     {
+      "t": "l'ami",
+      "e": "Friend"
+     },
+     {
+      "t": "la mère",
+      "e": "Mother"
+     },
+     {
+      "t": "le père",
+      "e": "Father"
+     },
+     {
+      "t": "le fils",
+      "e": "Son"
+     },
+     {
+      "t": "la fille",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "C'est ma mère.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "C'est mon ami.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "J'ai un fils.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Où est mon père ?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Ma mère est à la maison.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "C'est ma fille.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Qui est cet homme ?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u2l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "l'homme",
+       "e": "Man",
+       "kind": "word",
+       "alts": [
+        "homme",
+        "un homme"
+       ]
+      },
+      {
+       "t": "la femme",
+       "e": "Woman",
+       "kind": "word",
+       "alts": [
+        "femme",
+        "une femme"
+       ]
+      },
+      {
+       "t": "l'enfant",
+       "e": "Child",
+       "kind": "word",
+       "alts": [
+        "enfant",
+        "un enfant"
+       ]
+      },
+      {
+       "t": "l'ami",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "ami",
+        "l'amie",
+        "amie"
+       ]
+      },
+      {
+       "t": "C'est ma mère.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "Voici ma mère.",
+        "C'est ma maman."
+       ]
+      },
+      {
+       "t": "J'ai un fils.",
+       "e": "I have a son.",
+       "kind": "phrase"
+      },
+      {
+       "t": "C'est mon ami.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "alts": [
+        "Il est mon ami."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -793,10 +1106,10 @@
        "prompt": "l'homme",
        "promptLang": "target",
        "options": [
-        "Son",
-        "Mother",
+        "Friend",
         "Man",
-        "Daughter"
+        "Father",
+        "Woman"
        ],
        "answer": "Man",
        "words": [
@@ -809,46 +1122,14 @@
        "prompt": "la femme",
        "promptLang": "target",
        "options": [
-        "Father",
+        "Man",
         "Woman",
         "Friend",
-        "Man"
+        "Child"
        ],
        "answer": "Woman",
        "words": [
         "la femme"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Child",
-       "promptLang": "en",
-       "answer": "l'enfant",
-       "words": [
-        "l'enfant"
-       ],
-       "options": [
-        "l'ami",
-        "l'enfant",
-        "l'homme",
-        "la fille"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "l'ami",
-       "promptLang": "target",
-       "options": [
-        "Man",
-        "Friend",
-        "Child",
-        "Woman"
-       ],
-       "answer": "Friend",
-       "words": [
-        "l'ami"
        ]
       },
       {
@@ -880,17 +1161,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "l'enfant",
+       "words": [
+        "l'enfant"
+       ],
+       "options": [
+        "la femme",
+        "l'enfant",
+        "la mère",
+        "le fils"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "l'ami",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Father",
+        "Friend",
+        "Son"
+       ],
+       "answer": "Friend",
+       "words": [
+        "l'ami"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "This is my mother.",
        "promptLang": "en",
        "tiles": [
-        "Où",
-        "mère",
         "à",
-        "ma",
-        "maison",
-        "C'est"
+        "un",
+        "C'est",
+        "mère",
+        "cet",
+        "ma"
        ],
        "answer": [
         "C'est",
@@ -906,30 +1219,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "C'est mon ami.",
-       "translation": "He is my friend.",
-       "answers": [
-        "C'est mon ami."
-       ],
-       "words": [
-        "l'ami"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "J'ai un fils.",
        "promptLang": "target",
        "tiles": [
+        "friend",
         "have",
-        "father",
-        "son",
-        "a",
         "I",
-        "He",
-        "at"
+        "son",
+        "at",
+        "daughter",
+        "a"
        ],
        "answer": [
         "I",
@@ -944,6 +1245,18 @@
        "words": [
         "le fils",
         "un"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "C'est mon ami.",
+       "translation": "He is my friend.",
+       "answers": [
+        "C'est mon ami."
+       ],
+       "words": [
+        "l'ami"
        ]
       },
       {
@@ -965,6 +1278,67 @@
     {
      "id": "u2l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "la mère",
+       "e": "Mother",
+       "kind": "word",
+       "alts": [
+        "mère",
+        "maman"
+       ]
+      },
+      {
+       "t": "le père",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "père",
+        "papa"
+       ]
+      },
+      {
+       "t": "le fils",
+       "e": "Son",
+       "kind": "word",
+       "alts": [
+        "fils"
+       ]
+      },
+      {
+       "t": "la fille",
+       "e": "Daughter",
+       "kind": "word",
+       "alts": [
+        "fille"
+       ]
+      },
+      {
+       "t": "Où est mon père ?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Où est mon papa ?"
+       ]
+      },
+      {
+       "t": "Ma mère est à la maison.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "alts": [
+        "Ma mère est chez elle.",
+        "Maman est à la maison."
+       ]
+      },
+      {
+       "t": "C'est ma fille.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "alts": [
+        "Elle est ma fille."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -973,8 +1347,8 @@
        "promptLang": "target",
        "options": [
         "Daughter",
+        "Son",
         "Friend",
-        "Woman",
         "Mother"
        ],
        "answer": "Mother",
@@ -984,49 +1358,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Father",
-       "promptLang": "en",
-       "answer": "le père",
-       "words": [
-        "le père"
-       ],
-       "options": [
-        "le fils",
-        "l'enfant",
-        "le père",
-        "la mère"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "le fils",
+       "prompt": "le père",
        "promptLang": "target",
        "options": [
         "Daughter",
         "Father",
-        "Friend",
+        "Woman",
         "Son"
        ],
-       "answer": "Son",
+       "answer": "Father",
        "words": [
-        "le fils"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Daughter",
-       "promptLang": "en",
-       "answer": "la fille",
-       "words": [
-        "la fille"
-       ],
-       "options": [
-        "le fils",
-        "la fille",
-        "la femme",
         "le père"
        ]
       },
@@ -1059,18 +1401,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "le fils",
+       "words": [
+        "le fils"
+       ],
+       "options": [
+        "le fils",
+        "l'ami",
+        "la fille",
+        "la femme"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "la fille",
+       "words": [
+        "la fille"
+       ],
+       "options": [
+        "la fille",
+        "le père",
+        "l'enfant",
+        "l'ami"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "Where is my father?",
        "promptLang": "en",
        "tiles": [
-        "cet",
+        "fille",
+        "à",
         "mon",
-        "J'ai",
         "père",
+        "un",
         "est",
-        "Où",
-        "C'est"
+        "Où"
        ],
        "answer": [
         "Où",
@@ -1092,14 +1466,14 @@
        "prompt": "Ma mère est à la maison.",
        "promptLang": "target",
        "tiles": [
-        "daughter",
-        "is",
-        "a",
-        "have",
-        "My",
-        "mother",
+        "He",
+        "Who",
+        "at",
         "home",
-        "at"
+        "is",
+        "My",
+        "Where",
+        "mother"
        ],
        "answer": [
         "My",
@@ -1164,33 +1538,24 @@
     {
      "id": "u2l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Qui est cet homme ?",
-       "promptLang": "target",
-       "options": [
-        "She is my daughter.",
-        "My mother is at home.",
-        "I have a son.",
-        "Who is this man?"
-       ],
-       "answer": "Who is this man?",
-       "words": [
-        "l'homme"
-       ]
-      },
+       "t": "Qui est cet homme ?",
+       "e": "Who is this man?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "la femme",
        "promptLang": "target",
        "options": [
+        "Son",
         "Woman",
-        "Friend",
-        "Daughter",
-        "Father"
+        "Father",
+        "Friend"
        ],
        "answer": "Woman",
        "words": [
@@ -1202,32 +1567,73 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "la mère",
-         "Mother"
-        ],
-        [
-         "l'enfant",
-         "Child"
+         "la femme",
+         "Woman"
         ],
         [
          "l'ami",
          "Friend"
         ],
         [
-         "la femme",
-         "Woman"
+         "l'enfant",
+         "Child"
         ],
         [
-         "le fils",
-         "Son"
+         "la fille",
+         "Daughter"
+        ],
+        [
+         "le père",
+         "Father"
         ]
        ],
        "words": [
-        "la mère",
-        "l'enfant",
-        "l'ami",
         "la femme",
-        "le fils"
+        "l'ami",
+        "l'enfant",
+        "la fille",
+        "le père"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Qui est cet homme ?",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "I have a son.",
+        "My mother is at home.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "l'homme"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "C'est mon ami.",
+       "promptLang": "target",
+       "tiles": [
+        "This",
+        "Who",
+        "friend",
+        "He",
+        "my",
+        "have",
+        "is"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "l'ami"
        ]
       },
       {
@@ -1236,13 +1642,13 @@
        "prompt": "Who is this man?",
        "promptLang": "en",
        "tiles": [
-        "la",
-        "homme",
-        "cet",
-        "maison",
+        "est",
+        "fille",
         "Qui",
-        "mon",
-        "est"
+        "cet",
+        "homme",
+        "ami",
+        "maison"
        ],
        "answer": [
         "Qui",
@@ -1257,27 +1663,27 @@
       },
       {
        "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "C'est mon ami.",
-       "promptLang": "target",
+       "instruction": "Build the sentence in French",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
        "tiles": [
-        "is",
-        "son",
-        "my",
-        "He",
-        "home",
-        "friend",
-        "This"
+        "est",
+        "fille",
+        "la",
+        "mère",
+        "ma",
+        "C'est"
        ],
        "answer": [
-        "He",
-        "is",
-        "my",
-        "friend"
+        "C'est",
+        "ma",
+        "fille"
        ],
-       "accepted": [],
+       "accepted": [
+        "Elle est ma fille."
+       ],
        "words": [
-        "l'ami"
+        "la fille"
        ]
       },
       {
@@ -1290,21 +1696,6 @@
        ],
        "words": [
         "la fille"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "My mother is at home.",
-       "promptLang": "en",
-       "answers": [
-        "Ma mère est à la maison.",
-        "Ma mère est chez elle.",
-        "Maman est à la maison."
-       ],
-       "words": [
-        "la mère",
-        "la maison"
        ]
       },
       {
@@ -1325,6 +1716,21 @@
       {
        "type": "type",
        "instruction": "Type this in French",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Ma mère est à la maison.",
+        "Ma mère est chez elle.",
+        "Maman est à la maison."
+       ],
+       "words": [
+        "la mère",
+        "la maison"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
        "prompt": "Woman",
        "promptLang": "en",
        "answers": [
@@ -1335,37 +1741,13 @@
        "words": [
         "la femme"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "She is my daughter.",
-       "promptLang": "en",
-       "tiles": [
-        "fille",
-        "ma",
-        "fils",
-        "la",
-        "C'est",
-        "Qui"
-       ],
-       "answer": [
-        "C'est",
-        "ma",
-        "fille"
-       ],
-       "accepted": [
-        "Elle est ma fille."
-       ],
-       "words": [
-        "la fille"
-       ]
       }
      ]
     },
     {
      "id": "u2l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -1373,10 +1755,10 @@
        "prompt": "C'est ma mère.",
        "promptLang": "target",
        "options": [
-        "Who is this man?",
-        "She is my daughter.",
+        "I have a son.",
         "This is my mother.",
-        "I have a son."
+        "My mother is at home.",
+        "Who is this man?"
        ],
        "answer": "This is my mother.",
        "words": [
@@ -1388,16 +1770,16 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "la fille",
-         "Daughter"
+         "le fils",
+         "Son"
         ],
         [
-         "l'enfant",
-         "Child"
+         "la femme",
+         "Woman"
         ],
         [
-         "le père",
-         "Father"
+         "l'homme",
+         "Man"
         ],
         [
          "la mère",
@@ -1405,26 +1787,26 @@
         ]
        ],
        "words": [
-        "la fille",
-        "l'enfant",
-        "le père",
+        "le fils",
+        "la femme",
+        "l'homme",
         "la mère"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Woman",
+       "prompt": "Child",
        "promptLang": "en",
-       "answer": "la femme",
+       "answer": "l'enfant",
        "words": [
-        "la femme"
+        "l'enfant"
        ],
        "options": [
-        "la mère",
-        "la femme",
         "le père",
-        "le fils"
+        "le fils",
+        "l'enfant",
+        "la femme"
        ]
       },
       {
@@ -1433,12 +1815,12 @@
        "prompt": "I have a son.",
        "promptLang": "en",
        "tiles": [
-        "J'ai",
-        "ami",
         "un",
-        "la",
+        "J'ai",
+        "fils",
+        "à",
         "C'est",
-        "fils"
+        "la"
        ],
        "answer": [
         "J'ai",
@@ -1452,30 +1834,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Qui est cet homme ?",
-       "translation": "Who is this man?",
-       "answers": [
-        "Qui est cet homme ?"
-       ],
-       "words": [
-        "l'homme"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Où est mon père ?",
        "promptLang": "target",
        "tiles": [
-        "Where",
+        "She",
         "This",
-        "home",
         "father",
-        "have",
         "is",
-        "my"
+        "my",
+        "at",
+        "Where"
        ],
        "answer": [
         "Where",
@@ -1492,17 +1862,28 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Man",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Qui est cet homme ?",
+       "translation": "Who is this man?",
        "answers": [
-        "l'homme",
-        "homme",
-        "un homme"
+        "Qui est cet homme ?"
        ],
        "words": [
         "l'homme"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ma mère est à la maison.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Ma mère est à la maison."
+       ],
+       "words": [
+        "la mère",
+        "la maison"
        ]
       },
       {
@@ -1518,16 +1899,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ma mère est à la maison.",
-       "translation": "My mother is at home.",
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Daughter",
+       "promptLang": "en",
        "answers": [
-        "Ma mère est à la maison."
+        "la fille",
+        "fille"
        ],
        "words": [
-        "la mère",
-        "la maison"
+        "la fille"
        ]
       }
      ]
@@ -1539,11 +1920,135 @@
    "title": "Food and drink",
    "description": "Order, eat and drink.",
    "icon": "cup",
-   "tip": "'Du', 'de la' and 'de l'' mean 'some': 'je bois du café'. After 'ne ... pas' they become 'de': 'je ne bois pas de lait'.",
+   "tips": [
+    "'Du', 'de la' and 'de l'' mean 'some': 'je bois du café'. After 'ne ... pas' they become 'de': 'je ne bois pas de lait'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "l'eau",
+      "e": "Water"
+     },
+     {
+      "t": "le pain",
+      "e": "Bread"
+     },
+     {
+      "t": "le café",
+      "e": "Coffee"
+     },
+     {
+      "t": "le thé",
+      "e": "Tea"
+     },
+     {
+      "t": "le lait",
+      "e": "Milk"
+     },
+     {
+      "t": "la pomme",
+      "e": "Apple"
+     },
+     {
+      "t": "le riz",
+      "e": "Rice"
+     },
+     {
+      "t": "l'œuf",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "De l'eau, s'il vous plaît.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Je bois du café.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Je mange du pain.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Le thé est chaud.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Je ne bois pas de lait.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "J'aime les pommes.",
+      "e": "I like apples."
+     },
+     {
+      "t": "J'ai faim.",
+      "e": "I am hungry."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u3l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "l'eau",
+       "e": "Water",
+       "kind": "word",
+       "alts": [
+        "eau",
+        "de l'eau"
+       ]
+      },
+      {
+       "t": "le pain",
+       "e": "Bread",
+       "kind": "word",
+       "alts": [
+        "pain",
+        "du pain"
+       ]
+      },
+      {
+       "t": "le café",
+       "e": "Coffee",
+       "kind": "word",
+       "alts": [
+        "café",
+        "un café"
+       ]
+      },
+      {
+       "t": "le thé",
+       "e": "Tea",
+       "kind": "word",
+       "alts": [
+        "thé",
+        "un thé"
+       ]
+      },
+      {
+       "t": "De l'eau, s'il vous plaît.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "De l'eau, s'il te plaît."
+       ]
+      },
+      {
+       "t": "Je mange du pain.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Je bois du café.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1551,10 +2056,10 @@
        "prompt": "l'eau",
        "promptLang": "target",
        "options": [
-        "Egg",
         "Rice",
-        "Water",
-        "Coffee"
+        "Tea",
+        "Milk",
+        "Water"
        ],
        "answer": "Water",
        "words": [
@@ -1567,46 +2072,14 @@
        "prompt": "le pain",
        "promptLang": "target",
        "options": [
-        "Apple",
+        "Rice",
         "Tea",
-        "Coffee",
+        "Egg",
         "Bread"
        ],
        "answer": "Bread",
        "words": [
         "le pain"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
-       "promptLang": "en",
-       "answer": "le café",
-       "words": [
-        "le café"
-       ],
-       "options": [
-        "le café",
-        "le thé",
-        "l'œuf",
-        "le lait"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "le thé",
-       "promptLang": "target",
-       "options": [
-        "Egg",
-        "Coffee",
-        "Milk",
-        "Tea"
-       ],
-       "answer": "Tea",
-       "words": [
-        "le thé"
        ]
       },
       {
@@ -1638,19 +2111,51 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "le café",
+       "words": [
+        "le café"
+       ],
+       "options": [
+        "le café",
+        "l'eau",
+        "le pain",
+        "l'œuf"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "le thé",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Rice",
+        "Coffee",
+        "Milk"
+       ],
+       "answer": "Tea",
+       "words": [
+        "le thé"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "Water, please.",
        "promptLang": "en",
        "tiles": [
-        "s'il",
-        "pas",
-        "l'eau",
-        "De",
         "plaît",
+        "De",
+        "bois",
+        "faim",
         "vous",
-        "les",
-        "Je"
+        "s'il",
+        "l'eau",
+        "J'ai"
        ],
        "answer": [
         "De",
@@ -1668,29 +2173,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Je bois du café.",
-       "translation": "I drink coffee.",
-       "answers": [
-        "Je bois du café."
-       ],
-       "words": [
-        "le café"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Je mange du pain.",
        "promptLang": "target",
        "tiles": [
-        "eat",
         "I",
-        "not",
-        "is",
+        "hungry",
         "bread",
-        "like"
+        "eat",
+        "is",
+        "tea"
        ],
        "answer": [
         "I",
@@ -1702,6 +2195,18 @@
        ],
        "words": [
         "le pain"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je bois du café.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Je bois du café."
+       ],
+       "words": [
+        "le café"
        ]
       },
       {
@@ -1723,6 +2228,61 @@
     {
      "id": "u3l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "le lait",
+       "e": "Milk",
+       "kind": "word",
+       "alts": [
+        "lait",
+        "du lait"
+       ]
+      },
+      {
+       "t": "la pomme",
+       "e": "Apple",
+       "kind": "word",
+       "alts": [
+        "pomme",
+        "une pomme"
+       ]
+      },
+      {
+       "t": "le riz",
+       "e": "Rice",
+       "kind": "word",
+       "alts": [
+        "riz",
+        "du riz"
+       ]
+      },
+      {
+       "t": "l'œuf",
+       "e": "Egg",
+       "kind": "word",
+       "alts": [
+        "œuf",
+        "un œuf",
+        "l'oeuf",
+        "oeuf"
+       ]
+      },
+      {
+       "t": "Le thé est chaud.",
+       "e": "The tea is hot.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Je ne bois pas de lait.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "J'aime les pommes.",
+       "e": "I like apples.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1730,10 +2290,10 @@
        "prompt": "le lait",
        "promptLang": "target",
        "options": [
-        "Water",
-        "Apple",
-        "Milk",
-        "Rice"
+        "Tea",
+        "Bread",
+        "Coffee",
+        "Milk"
        ],
        "answer": "Milk",
        "words": [
@@ -1742,50 +2302,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Apple",
-       "promptLang": "en",
-       "answer": "la pomme",
-       "words": [
-        "la pomme"
-       ],
-       "options": [
-        "le thé",
-        "la pomme",
-        "le café",
-        "le lait"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "le riz",
+       "prompt": "la pomme",
        "promptLang": "target",
        "options": [
-        "Rice",
-        "Milk",
         "Water",
-        "Tea"
+        "Egg",
+        "Apple",
+        "Rice"
        ],
-       "answer": "Rice",
+       "answer": "Apple",
        "words": [
-        "le riz"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Egg",
-       "promptLang": "en",
-       "answer": "l'œuf",
-       "words": [
-        "l'œuf"
-       ],
-       "options": [
-        "le thé",
-        "le pain",
-        "le café",
-        "l'œuf"
+        "la pomme"
        ]
       },
       {
@@ -1817,18 +2345,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "le riz",
+       "words": [
+        "le riz"
+       ],
+       "options": [
+        "le thé",
+        "l'œuf",
+        "le riz",
+        "le café"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "l'œuf",
+       "words": [
+        "l'œuf"
+       ],
+       "options": [
+        "le lait",
+        "le thé",
+        "le pain",
+        "l'œuf"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "The tea is hot.",
        "promptLang": "en",
        "tiles": [
-        "est",
-        "pas",
-        "faim",
-        "Le",
-        "du",
         "chaud",
-        "thé"
+        "J'ai",
+        "pain",
+        "thé",
+        "Le",
+        "est",
+        "mange"
        ],
        "answer": [
         "Le",
@@ -1847,14 +2407,14 @@
        "prompt": "Je ne bois pas de lait.",
        "promptLang": "target",
        "tiles": [
-        "drink",
-        "apples",
-        "not",
-        "like",
-        "bread",
+        "milk",
+        "eat",
         "do",
-        "I",
-        "milk"
+        "drink",
+        "not",
+        "hot",
+        "hungry",
+        "I"
        ],
        "answer": [
         "I",
@@ -1911,33 +2471,24 @@
     {
      "id": "u3l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "J'ai faim.",
-       "promptLang": "target",
-       "options": [
-        "The tea is hot.",
-        "I like apples.",
-        "I am hungry.",
-        "Water, please."
-       ],
-       "answer": "I am hungry.",
-       "words": [
-        "J'ai faim."
-       ]
-      },
+       "t": "J'ai faim.",
+       "e": "I am hungry.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "le pain",
        "promptLang": "target",
        "options": [
-        "Egg",
+        "Bread",
+        "Tea",
         "Apple",
-        "Milk",
-        "Bread"
+        "Coffee"
        ],
        "answer": "Bread",
        "words": [
@@ -1949,51 +2500,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "le lait",
-         "Milk"
+         "le riz",
+         "Rice"
         ],
         [
-         "la pomme",
-         "Apple"
-        ],
-        [
-         "le thé",
-         "Tea"
+         "le pain",
+         "Bread"
         ],
         [
          "le café",
          "Coffee"
         ],
         [
-         "le pain",
-         "Bread"
+         "le thé",
+         "Tea"
+        ],
+        [
+         "la pomme",
+         "Apple"
         ]
        ],
        "words": [
-        "le lait",
-        "la pomme",
-        "le thé",
+        "le riz",
+        "le pain",
         "le café",
-        "le pain"
+        "le thé",
+        "la pomme"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "I am hungry.",
-       "promptLang": "en",
-       "tiles": [
-        "est",
-        "Le",
-        "J'ai",
-        "Je",
-        "faim"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "J'ai faim.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "Water, please.",
+        "I like apples.",
+        "I drink coffee."
        ],
-       "answer": [
-        "J'ai",
-        "faim"
-       ],
-       "accepted": [],
+       "answer": "I am hungry.",
        "words": [
         "J'ai faim."
        ]
@@ -2004,12 +2550,12 @@
        "prompt": "Je bois du café.",
        "promptLang": "target",
        "tiles": [
-        "tea",
-        "drink",
-        "I",
-        "like",
         "coffee",
-        "please"
+        "bread",
+        "drink",
+        "apples",
+        "I",
+        "milk"
        ],
        "answer": [
         "I",
@@ -2024,6 +2570,50 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "pommes",
+        "J'ai",
+        "les",
+        "pain",
+        "faim"
+       ],
+       "answer": [
+        "J'ai",
+        "faim"
+       ],
+       "accepted": [],
+       "words": [
+        "J'ai faim."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "pommes",
+        "les",
+        "J'aime",
+        "pas",
+        "pain",
+        "plaît"
+       ],
+       "answer": [
+        "J'aime",
+        "les",
+        "pommes"
+       ],
+       "accepted": [],
+       "words": [
+        "J'aime les pommes."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "J'aime les pommes.",
@@ -2033,18 +2623,6 @@
        ],
        "words": [
         "J'aime les pommes."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "I do not drink milk.",
-       "promptLang": "en",
-       "answers": [
-        "Je ne bois pas de lait."
-       ],
-       "words": [
-        "le lait"
        ]
       },
       {
@@ -2063,6 +2641,18 @@
       {
        "type": "type",
        "instruction": "Type this in French",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Je ne bois pas de lait."
+       ],
+       "words": [
+        "le lait"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
        "prompt": "Bread",
        "promptLang": "en",
        "answers": [
@@ -2073,35 +2663,13 @@
        "words": [
         "le pain"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "I like apples.",
-       "promptLang": "en",
-       "tiles": [
-        "pommes",
-        "faim",
-        "chaud",
-        "J'aime",
-        "lait",
-        "les"
-       ],
-       "answer": [
-        "J'aime",
-        "les",
-        "pommes"
-       ],
-       "accepted": [],
-       "words": [
-        "J'aime les pommes."
-       ]
       }
      ]
     },
     {
      "id": "u3l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2109,10 +2677,10 @@
        "prompt": "De l'eau, s'il vous plaît.",
        "promptLang": "target",
        "options": [
-        "I am hungry.",
+        "Water, please.",
+        "I eat bread.",
         "I like apples.",
-        "I do not drink milk.",
-        "Water, please."
+        "The tea is hot."
        ],
        "answer": "Water, please.",
        "words": [
@@ -2125,27 +2693,27 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "le riz",
+         "Rice"
+        ],
+        [
          "l'œuf",
          "Egg"
         ],
         [
+         "le lait",
+         "Milk"
+        ],
+        [
          "le café",
          "Coffee"
-        ],
-        [
-         "le pain",
-         "Bread"
-        ],
-        [
-         "le riz",
-         "Rice"
         ]
        ],
        "words": [
+        "le riz",
         "l'œuf",
-        "le café",
-        "le pain",
-        "le riz"
+        "le lait",
+        "le café"
        ]
       },
       {
@@ -2158,10 +2726,10 @@
         "le thé"
        ],
        "options": [
-        "le thé",
-        "la pomme",
         "le riz",
-        "le café"
+        "le lait",
+        "l'œuf",
+        "le thé"
        ]
       },
       {
@@ -2170,13 +2738,13 @@
        "prompt": "I eat bread.",
        "promptLang": "en",
        "tiles": [
+        "lait",
+        "Je",
+        "Le",
         "du",
         "pain",
-        "Je",
-        "vous",
-        "mange",
-        "pas",
-        "l'eau"
+        "J'ai",
+        "mange"
        ],
        "answer": [
         "Je",
@@ -2187,6 +2755,31 @@
        "accepted": [],
        "words": [
         "le pain"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Le thé est chaud.",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "hot",
+        "drink",
+        "tea",
+        "The",
+        "is",
+        "not"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "le thé"
        ]
       },
       {
@@ -2202,39 +2795,12 @@
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Le thé est chaud.",
-       "promptLang": "target",
-       "tiles": [
-        "tea",
-        "Water",
-        "like",
-        "The",
-        "milk",
-        "hot",
-        "is"
-       ],
-       "answer": [
-        "The",
-        "tea",
-        "is",
-        "hot"
-       ],
-       "accepted": [],
-       "words": [
-        "le thé"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Milk",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je ne bois pas de lait.",
+       "translation": "I do not drink milk.",
        "answers": [
-        "le lait",
-        "lait",
-        "du lait"
+        "Je ne bois pas de lait."
        ],
        "words": [
         "le lait"
@@ -2254,15 +2820,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Je ne bois pas de lait.",
-       "translation": "I do not drink milk.",
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Bread",
+       "promptLang": "en",
        "answers": [
-        "Je ne bois pas de lait."
+        "le pain",
+        "pain",
+        "du pain"
        ],
        "words": [
-        "le lait"
+        "le pain"
        ]
       }
      ]
@@ -2274,11 +2842,131 @@
    "title": "Numbers",
    "description": "Count from one to ten, ask prices and tell the time.",
    "icon": "hash",
-   "tip": "'Combien ?' means 'how much?' or 'how many?'. For the time, use 'Il est ... heures': 'Il est trois heures'.",
+   "tips": [
+    "'Combien ?' means 'how much?' or 'how many?'. For the time, use 'Il est ... heures': 'Il est trois heures'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "un",
+      "e": "One"
+     },
+     {
+      "t": "deux",
+      "e": "Two"
+     },
+     {
+      "t": "trois",
+      "e": "Three"
+     },
+     {
+      "t": "quatre",
+      "e": "Four"
+     },
+     {
+      "t": "cinq",
+      "e": "Five"
+     },
+     {
+      "t": "six",
+      "e": "Six"
+     },
+     {
+      "t": "sept",
+      "e": "Seven"
+     },
+     {
+      "t": "huit",
+      "e": "Eight"
+     },
+     {
+      "t": "neuf",
+      "e": "Nine"
+     },
+     {
+      "t": "dix",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "J'ai deux enfants.",
+      "e": "I have two children."
+     },
+     {
+      "t": "C'est combien ?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "J'ai quatre pommes.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Un café, s'il vous plaît.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Deux thés, s'il vous plaît.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Il est trois heures.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Un instant, s'il vous plaît.",
+      "e": "One moment, please."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u4l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "un",
+       "e": "One",
+       "kind": "word",
+       "alts": [
+        "une"
+       ]
+      },
+      {
+       "t": "deux",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "trois",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "quatre",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "J'ai deux enfants.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "J'ai quatre pommes.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "C'est combien ?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Combien ça coûte ?",
+        "Ça coûte combien ?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2286,10 +2974,10 @@
        "prompt": "un",
        "promptLang": "target",
        "options": [
-        "Two",
         "One",
-        "Eight",
-        "Seven"
+        "Four",
+        "Six",
+        "Three"
        ],
        "answer": "One",
        "words": [
@@ -2302,46 +2990,14 @@
        "prompt": "deux",
        "promptLang": "target",
        "options": [
-        "Seven",
-        "Six",
-        "Two",
-        "Eight"
+        "Nine",
+        "Ten",
+        "Eight",
+        "Two"
        ],
        "answer": "Two",
        "words": [
         "deux"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Three",
-       "promptLang": "en",
-       "answer": "trois",
-       "words": [
-        "trois"
-       ],
-       "options": [
-        "six",
-        "cinq",
-        "trois",
-        "un"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "quatre",
-       "promptLang": "target",
-       "options": [
-        "Ten",
-        "Five",
-        "Four",
-        "One"
-       ],
-       "answer": "Four",
-       "words": [
-        "quatre"
        ]
       },
       {
@@ -2373,17 +3029,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "trois",
+       "words": [
+        "trois"
+       ],
+       "options": [
+        "six",
+        "trois",
+        "neuf",
+        "cinq"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "quatre",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Six",
+        "Eight",
+        "One"
+       ],
+       "answer": "Four",
+       "words": [
+        "quatre"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "I have two children.",
        "promptLang": "en",
        "tiles": [
-        "heures",
-        "deux",
-        "J'ai",
-        "pommes",
         "enfants",
-        "Un"
+        "deux",
+        "thés",
+        "J'ai",
+        "café",
+        "est"
        ],
        "answer": [
         "J'ai",
@@ -2396,30 +3084,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "C'est combien ?",
-       "translation": "How much is it?",
-       "answers": [
-        "C'est combien ?"
-       ],
-       "words": [
-        "C'est combien ?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "J'ai quatre pommes.",
        "promptLang": "target",
        "tiles": [
+        "please",
         "four",
-        "three",
+        "is",
         "apples",
-        "How",
         "I",
-        "have",
-        "two"
+        "One",
+        "have"
        ],
        "answer": [
         "I",
@@ -2432,6 +3108,18 @@
        ],
        "words": [
         "quatre"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "C'est combien ?",
+       "translation": "How much is it?",
+       "answers": [
+        "C'est combien ?"
+       ],
+       "words": [
+        "C'est combien ?"
        ]
       },
       {
@@ -2454,6 +3142,49 @@
     {
      "id": "u4l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "cinq",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "six",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "sept",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "huit",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Un café, s'il vous plaît.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "alts": [
+        "Un café, s'il te plaît."
+       ]
+      },
+      {
+       "t": "Deux thés, s'il vous plaît.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "alts": [
+        "Deux thés, s'il te plaît."
+       ]
+      },
+      {
+       "t": "Il est trois heures.",
+       "e": "It is three o'clock.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2461,8 +3192,8 @@
        "prompt": "cinq",
        "promptLang": "target",
        "options": [
-        "Six",
-        "Two",
+        "Ten",
+        "Eight",
         "Four",
         "Five"
        ],
@@ -2473,50 +3204,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Six",
-       "promptLang": "en",
-       "answer": "six",
-       "words": [
-        "six"
-       ],
-       "options": [
-        "neuf",
-        "six",
-        "quatre",
-        "cinq"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "sept",
+       "prompt": "six",
        "promptLang": "target",
        "options": [
-        "Nine",
+        "Eight",
+        "Ten",
         "Six",
-        "Seven",
-        "Eight"
+        "Seven"
        ],
-       "answer": "Seven",
+       "answer": "Six",
        "words": [
-        "sept"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Eight",
-       "promptLang": "en",
-       "answer": "huit",
-       "words": [
-        "huit"
-       ],
-       "options": [
-        "trois",
-        "deux",
-        "un",
-        "huit"
+        "six"
        ]
       },
       {
@@ -2548,19 +3247,51 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "sept",
+       "words": [
+        "sept"
+       ],
+       "options": [
+        "quatre",
+        "neuf",
+        "sept",
+        "un"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "huit",
+       "words": [
+        "huit"
+       ],
+       "options": [
+        "dix",
+        "deux",
+        "quatre",
+        "huit"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "One coffee, please.",
        "promptLang": "en",
        "tiles": [
-        "s'il",
-        "est",
+        "vous",
+        "pommes",
+        "instant",
         "café",
         "plaît",
         "Un",
-        "instant",
-        "Il",
-        "vous"
+        "quatre",
+        "s'il"
        ],
        "answer": [
         "Un",
@@ -2584,12 +3315,12 @@
        "prompt": "Deux thés, s'il vous plaît.",
        "promptLang": "target",
        "tiles": [
-        "teas",
-        "three",
-        "much",
-        "Two",
         "apples",
-        "please"
+        "please",
+        "teas",
+        "I",
+        "four",
+        "Two"
        ],
        "answer": [
         "Two",
@@ -2654,34 +3385,37 @@
     {
      "id": "u4l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Un instant, s'il vous plaît.",
-       "promptLang": "target",
-       "options": [
-        "It is three o'clock.",
-        "Two teas, please.",
-        "How much is it?",
-        "One moment, please."
-       ],
-       "answer": "One moment, please.",
-       "words": [
-        "s'il vous plaît",
-        "un"
-       ]
+       "t": "neuf",
+       "e": "Nine",
+       "kind": "word"
       },
+      {
+       "t": "dix",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Un instant, s'il vous plaît.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Un moment, s'il vous plaît."
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "neuf",
        "promptLang": "target",
        "options": [
+        "One",
         "Nine",
-        "Two",
-        "Four",
-        "Six"
+        "Five",
+        "Ten"
        ],
        "answer": "Nine",
        "words": [
@@ -2693,59 +3427,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "trois",
-         "Three"
-        ],
-        [
          "neuf",
          "Nine"
-        ],
-        [
-         "dix",
-         "Ten"
         ],
         [
          "quatre",
          "Four"
         ],
         [
+         "un",
+         "One"
+        ],
+        [
          "sept",
          "Seven"
+        ],
+        [
+         "dix",
+         "Ten"
         ]
        ],
        "words": [
-        "trois",
         "neuf",
-        "dix",
         "quatre",
-        "sept"
+        "un",
+        "sept",
+        "dix"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "One moment, please.",
-       "promptLang": "en",
-       "tiles": [
-        "Un",
-        "plaît",
-        "est",
-        "s'il",
-        "vous",
-        "instant",
-        "C'est",
-        "quatre"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Un instant, s'il vous plaît.",
+       "promptLang": "target",
+       "options": [
+        "I have four apples.",
+        "One coffee, please.",
+        "One moment, please.",
+        "Two teas, please."
        ],
-       "answer": [
-        "Un",
-        "instant",
-        "s'il",
-        "vous",
-        "plaît"
-       ],
-       "accepted": [
-        "Un moment, s'il vous plaît."
-       ],
+       "answer": "One moment, please.",
        "words": [
         "s'il vous plaît",
         "un"
@@ -2781,6 +3502,61 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Un",
+        "C'est",
+        "thés",
+        "instant",
+        "s'il",
+        "plaît",
+        "enfants",
+        "vous"
+       ],
+       "answer": [
+        "Un",
+        "instant",
+        "s'il",
+        "vous",
+        "plaît"
+       ],
+       "accepted": [
+        "Un moment, s'il vous plaît."
+       ],
+       "words": [
+        "s'il vous plaît",
+        "un"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "Il",
+        "vous",
+        "trois",
+        "quatre",
+        "s'il",
+        "heures",
+        "est"
+       ],
+       "answer": [
+        "Il",
+        "est",
+        "trois",
+        "heures"
+       ],
+       "accepted": [],
+       "words": [
+        "trois"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Il est trois heures.",
@@ -2790,20 +3566,6 @@
        ],
        "words": [
         "trois"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Two teas, please.",
-       "promptLang": "en",
-       "answers": [
-        "Deux thés, s'il vous plaît.",
-        "Deux thés, s'il te plaît."
-       ],
-       "words": [
-        "s'il vous plaît",
-        "deux"
        ]
       },
       {
@@ -2822,6 +3584,20 @@
       {
        "type": "type",
        "instruction": "Type this in French",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Deux thés, s'il vous plaît.",
+        "Deux thés, s'il te plaît."
+       ],
+       "words": [
+        "s'il vous plaît",
+        "deux"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
        "prompt": "Ten",
        "promptLang": "en",
        "answers": [
@@ -2830,37 +3606,13 @@
        "words": [
         "dix"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "It is three o'clock.",
-       "promptLang": "en",
-       "tiles": [
-        "Il",
-        "trois",
-        "heures",
-        "est",
-        "Un",
-        "plaît",
-        "C'est"
-       ],
-       "answer": [
-        "Il",
-        "est",
-        "trois",
-        "heures"
-       ],
-       "accepted": [],
-       "words": [
-        "trois"
-       ]
       }
      ]
     },
     {
      "id": "u4l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2868,10 +3620,10 @@
        "prompt": "J'ai deux enfants.",
        "promptLang": "target",
        "options": [
+        "One moment, please.",
+        "I have two children.",
         "I have four apples.",
-        "It is three o'clock.",
-        "Two teas, please.",
-        "I have two children."
+        "How much is it?"
        ],
        "answer": "I have two children.",
        "words": [
@@ -2883,43 +3635,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "huit",
+         "Eight"
+        ],
+        [
+         "neuf",
+         "Nine"
+        ],
+        [
          "quatre",
          "Four"
         ],
         [
-         "cinq",
-         "Five"
-        ],
-        [
          "sept",
          "Seven"
-        ],
-        [
-         "huit",
-         "Eight"
         ]
        ],
        "words": [
+        "huit",
+        "neuf",
         "quatre",
-        "cinq",
-        "sept",
-        "huit"
+        "sept"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "One",
+       "prompt": "Two",
        "promptLang": "en",
-       "answer": "un",
+       "answer": "deux",
        "words": [
-        "un"
+        "deux"
        ],
        "options": [
+        "sept",
+        "neuf",
         "huit",
-        "deux",
-        "un",
-        "dix"
+        "deux"
        ]
       },
       {
@@ -2928,12 +3680,12 @@
        "prompt": "I have four apples.",
        "promptLang": "en",
        "tiles": [
-        "quatre",
         "J'ai",
-        "plaît",
         "heures",
         "pommes",
-        "thés"
+        "quatre",
+        "combien",
+        "deux"
        ],
        "answer": [
         "J'ai",
@@ -2946,30 +3698,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Un instant, s'il vous plaît.",
-       "translation": "One moment, please.",
-       "answers": [
-        "Un instant, s'il vous plaît."
-       ],
-       "words": [
-        "s'il vous plaît",
-        "un"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Un café, s'il vous plaît.",
        "promptLang": "target",
        "tiles": [
-        "I",
-        "it",
-        "much",
         "please",
         "coffee",
-        "One"
+        "children",
+        "three",
+        "One",
+        "four"
        ],
        "answer": [
         "One",
@@ -2987,15 +3726,29 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Ten",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un instant, s'il vous plaît.",
+       "translation": "One moment, please.",
        "answers": [
-        "dix"
+        "Un instant, s'il vous plaît."
        ],
        "words": [
-        "dix"
+        "s'il vous plaît",
+        "un"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Deux thés, s'il vous plaît.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Deux thés, s'il vous plaît."
+       ],
+       "words": [
+        "s'il vous plaît",
+        "deux"
        ]
       },
       {
@@ -3014,16 +3767,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Deux thés, s'il vous plaît.",
-       "translation": "Two teas, please.",
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Ten",
+       "promptLang": "en",
        "answers": [
-        "Deux thés, s'il vous plaît."
+        "dix"
        ],
        "words": [
-        "s'il vous plaît",
-        "deux"
+        "dix"
        ]
       }
      ]
@@ -3035,11 +3787,133 @@
    "title": "Travel and directions",
    "description": "Find your way around a new city.",
    "icon": "train",
-   "tip": "'Où est ... ?' means 'Where is ...?'. 'Les toilettes' is always plural in French.",
+   "tips": [
+    "'Où est ... ?' means 'Where is ...?'. 'Les toilettes' is always plural in French."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "l'hôtel",
+      "e": "Hotel"
+     },
+     {
+      "t": "la gare",
+      "e": "Station"
+     },
+     {
+      "t": "l'aéroport",
+      "e": "Airport"
+     },
+     {
+      "t": "le billet",
+      "e": "Ticket"
+     },
+     {
+      "t": "à gauche",
+      "e": "Left"
+     },
+     {
+      "t": "à droite",
+      "e": "Right"
+     },
+     {
+      "t": "où",
+      "e": "Where"
+     },
+     {
+      "t": "les toilettes",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Où est l'hôtel ?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Où sont les toilettes ?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Tournez à gauche.",
+      "e": "Turn left."
+     },
+     {
+      "t": "La gare est à droite.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Un billet, s'il vous plaît.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Je vais à l'aéroport.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "C'est loin ?",
+      "e": "Is it far?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u5l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "l'hôtel",
+       "e": "Hotel",
+       "kind": "word",
+       "alts": [
+        "hôtel"
+       ]
+      },
+      {
+       "t": "la gare",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "gare"
+       ]
+      },
+      {
+       "t": "l'aéroport",
+       "e": "Airport",
+       "kind": "word",
+       "alts": [
+        "aéroport"
+       ]
+      },
+      {
+       "t": "le billet",
+       "e": "Ticket",
+       "kind": "word",
+       "alts": [
+        "billet",
+        "le ticket",
+        "ticket"
+       ]
+      },
+      {
+       "t": "Où est l'hôtel ?",
+       "e": "Where is the hotel?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tournez à gauche.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Tourne à gauche."
+       ]
+      },
+      {
+       "t": "Où sont les toilettes ?",
+       "e": "Where is the toilet?",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3047,10 +3921,10 @@
        "prompt": "l'hôtel",
        "promptLang": "target",
        "options": [
-        "Toilet",
-        "Where",
+        "Ticket",
         "Left",
-        "Hotel"
+        "Hotel",
+        "Right"
        ],
        "answer": "Hotel",
        "words": [
@@ -3064,45 +3938,13 @@
        "promptLang": "target",
        "options": [
         "Where",
-        "Right",
-        "Hotel",
+        "Toilet",
+        "Airport",
         "Station"
        ],
        "answer": "Station",
        "words": [
         "la gare"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Airport",
-       "promptLang": "en",
-       "answer": "l'aéroport",
-       "words": [
-        "l'aéroport"
-       ],
-       "options": [
-        "où",
-        "à droite",
-        "l'aéroport",
-        "les toilettes"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "le billet",
-       "promptLang": "target",
-       "options": [
-        "Hotel",
-        "Toilet",
-        "Airport",
-        "Ticket"
-       ],
-       "answer": "Ticket",
-       "words": [
-        "le billet"
        ]
       },
       {
@@ -3134,16 +3976,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "l'aéroport",
+       "words": [
+        "l'aéroport"
+       ],
+       "options": [
+        "à gauche",
+        "à droite",
+        "l'aéroport",
+        "où"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "le billet",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Toilet",
+        "Hotel",
+        "Where"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "le billet"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "Where is the hotel?",
        "promptLang": "en",
        "tiles": [
-        "à",
+        "loin",
         "Où",
+        "s'il",
+        "La",
         "l'hôtel",
-        "vais",
-        "vous",
         "est"
        ],
        "answer": [
@@ -3158,29 +4032,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Où sont les toilettes ?",
-       "translation": "Where is the toilet?",
-       "answers": [
-        "Où sont les toilettes ?"
-       ],
-       "words": [
-        "où",
-        "les toilettes"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Tournez à gauche.",
        "promptLang": "target",
        "tiles": [
         "left",
-        "going",
-        "airport",
+        "on",
+        "is",
         "Turn",
-        "please"
+        "Where"
        ],
        "answer": [
         "Turn",
@@ -3191,6 +4052,19 @@
        ],
        "words": [
         "à gauche"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Où sont les toilettes ?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Où sont les toilettes ?"
+       ],
+       "words": [
+        "où",
+        "les toilettes"
        ]
       },
       {
@@ -3211,6 +4085,55 @@
     {
      "id": "u5l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "à gauche",
+       "e": "Left",
+       "kind": "word",
+       "alts": [
+        "gauche"
+       ]
+      },
+      {
+       "t": "à droite",
+       "e": "Right",
+       "kind": "word",
+       "alts": [
+        "droite"
+       ]
+      },
+      {
+       "t": "où",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "les toilettes",
+       "e": "Toilet",
+       "kind": "word",
+       "alts": [
+        "toilettes"
+       ]
+      },
+      {
+       "t": "La gare est à droite.",
+       "e": "The station is on the right.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Un billet, s'il vous plaît.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "alts": [
+        "Un billet, s'il te plaît."
+       ]
+      },
+      {
+       "t": "Je vais à l'aéroport.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3218,10 +4141,10 @@
        "prompt": "à gauche",
        "promptLang": "target",
        "options": [
-        "Station",
-        "Left",
         "Right",
-        "Airport"
+        "Left",
+        "Hotel",
+        "Where"
        ],
        "answer": "Left",
        "words": [
@@ -3230,50 +4153,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Right",
-       "promptLang": "en",
-       "answer": "à droite",
-       "words": [
-        "à droite"
-       ],
-       "options": [
-        "où",
-        "la gare",
-        "à droite",
-        "l'aéroport"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "où",
+       "prompt": "à droite",
        "promptLang": "target",
        "options": [
-        "Where",
-        "Toilet",
+        "Station",
         "Airport",
+        "Right",
         "Left"
        ],
-       "answer": "Where",
+       "answer": "Right",
        "words": [
-        "où"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Toilet",
-       "promptLang": "en",
-       "answer": "les toilettes",
-       "words": [
-        "les toilettes"
-       ],
-       "options": [
-        "l'aéroport",
-        "à droite",
-        "à gauche",
-        "les toilettes"
+        "à droite"
        ]
       },
       {
@@ -3305,19 +4196,51 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "où",
+       "words": [
+        "où"
+       ],
+       "options": [
+        "la gare",
+        "où",
+        "le billet",
+        "l'hôtel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "les toilettes",
+       "words": [
+        "les toilettes"
+       ],
+       "options": [
+        "à droite",
+        "les toilettes",
+        "l'hôtel",
+        "la gare"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "The station is on the right.",
        "promptLang": "en",
        "tiles": [
-        "plaît",
-        "est",
         "à",
-        "La",
-        "l'aéroport",
         "gare",
-        "sont",
-        "droite"
+        "C'est",
+        "est",
+        "droite",
+        "l'aéroport",
+        "La",
+        "Tournez"
        ],
        "answer": [
         "La",
@@ -3338,11 +4261,11 @@
        "prompt": "Un billet, s'il vous plaît.",
        "promptLang": "target",
        "tiles": [
+        "the",
         "please",
-        "to",
-        "far",
-        "on",
         "ticket",
+        "airport",
+        "hotel",
         "A"
        ],
        "answer": [
@@ -3403,33 +4326,27 @@
     {
      "id": "u5l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "C'est loin ?",
-       "promptLang": "target",
-       "options": [
-        "Is it far?",
-        "Where is the toilet?",
-        "The station is on the right.",
-        "Where is the hotel?"
-       ],
-       "answer": "Is it far?",
-       "words": [
-        "C'est loin ?"
+       "t": "C'est loin ?",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "alts": [
+        "Est-ce que c'est loin ?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "la gare",
        "promptLang": "target",
        "options": [
-        "Ticket",
         "Station",
-        "Hotel",
-        "Right"
+        "Where",
+        "Toilet",
+        "Left"
        ],
        "answer": "Station",
        "words": [
@@ -3445,49 +4362,42 @@
          "Ticket"
         ],
         [
-         "à droite",
-         "Right"
+         "où",
+         "Where"
         ],
         [
          "la gare",
          "Station"
         ],
         [
-         "l'hôtel",
-         "Hotel"
+         "à gauche",
+         "Left"
         ],
         [
-         "les toilettes",
-         "Toilet"
+         "l'aéroport",
+         "Airport"
         ]
        ],
        "words": [
         "le billet",
-        "à droite",
+        "où",
         "la gare",
-        "l'hôtel",
-        "les toilettes"
+        "à gauche",
+        "l'aéroport"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "Is it far?",
-       "promptLang": "en",
-       "tiles": [
-        "C'est",
-        "loin",
-        "l'hôtel",
-        "Je",
-        "les"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "C'est loin ?",
+       "promptLang": "target",
+       "options": [
+        "Where is the hotel?",
+        "I am going to the airport.",
+        "Is it far?",
+        "A ticket, please."
        ],
-       "answer": [
-        "C'est",
-        "loin"
-       ],
-       "accepted": [
-        "Est-ce que c'est loin ?"
-       ],
+       "answer": "Is it far?",
        "words": [
         "C'est loin ?"
        ]
@@ -3501,10 +4411,10 @@
         "the",
         "left",
         "am",
+        "toilet",
         "Where",
-        "airport",
         "is",
-        "toilet"
+        "right"
        ],
        "answer": [
         "Where",
@@ -3523,6 +4433,54 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "toilettes",
+        "Un",
+        "loin",
+        "C'est",
+        "à"
+       ],
+       "answer": [
+        "C'est",
+        "loin"
+       ],
+       "accepted": [
+        "Est-ce que c'est loin ?"
+       ],
+       "words": [
+        "C'est loin ?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "La",
+        "vais",
+        "Je",
+        "est",
+        "l'aéroport",
+        "gauche",
+        "à"
+       ],
+       "answer": [
+        "Je",
+        "vais",
+        "à",
+        "l'aéroport"
+       ],
+       "accepted": [],
+       "words": [
+        "l'aéroport"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Je vais à l'aéroport.",
@@ -3532,6 +4490,19 @@
        ],
        "words": [
         "l'aéroport"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tournez à gauche.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "à gauche"
        ]
       },
       {
@@ -3551,19 +4522,6 @@
       },
       {
        "type": "type",
-       "instruction": "Type this in English",
-       "prompt": "Tournez à gauche.",
-       "promptLang": "target",
-       "answers": [
-        "Turn left.",
-        "Go left."
-       ],
-       "words": [
-        "à gauche"
-       ]
-      },
-      {
-       "type": "type",
        "instruction": "Type this in French",
        "prompt": "Station",
        "promptLang": "en",
@@ -3574,37 +4532,13 @@
        "words": [
         "la gare"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "I am going to the airport.",
-       "promptLang": "en",
-       "tiles": [
-        "s'il",
-        "Je",
-        "loin",
-        "vais",
-        "à",
-        "La",
-        "l'aéroport"
-       ],
-       "answer": [
-        "Je",
-        "vais",
-        "à",
-        "l'aéroport"
-       ],
-       "accepted": [],
-       "words": [
-        "l'aéroport"
-       ]
       }
      ]
     },
     {
      "id": "u5l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -3612,8 +4546,8 @@
        "prompt": "Où est l'hôtel ?",
        "promptLang": "target",
        "options": [
-        "Where is the hotel?",
         "I am going to the airport.",
+        "Where is the hotel?",
         "Where is the toilet?",
         "A ticket, please."
        ],
@@ -3628,43 +4562,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "le billet",
-         "Ticket"
-        ],
-        [
-         "à droite",
-         "Right"
+         "la gare",
+         "Station"
         ],
         [
          "l'aéroport",
          "Airport"
         ],
         [
-         "la gare",
-         "Station"
+         "l'hôtel",
+         "Hotel"
+        ],
+        [
+         "les toilettes",
+         "Toilet"
         ]
        ],
        "words": [
-        "le billet",
-        "à droite",
+        "la gare",
         "l'aéroport",
-        "la gare"
+        "l'hôtel",
+        "les toilettes"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Where",
+       "prompt": "Ticket",
        "promptLang": "en",
-       "answer": "où",
+       "answer": "le billet",
        "words": [
-        "où"
+        "le billet"
        ],
        "options": [
-        "où",
-        "à gauche",
+        "le billet",
         "à droite",
-        "l'aéroport"
+        "à gauche",
+        "où"
        ]
       },
       {
@@ -3674,11 +4608,11 @@
        "promptLang": "en",
        "tiles": [
         "Tournez",
-        "vais",
         "gauche",
-        "l'hôtel",
+        "C'est",
+        "s'il",
         "à",
-        "vous"
+        "l'hôtel"
        ],
        "answer": [
         "Tournez",
@@ -3693,32 +4627,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "C'est loin ?",
-       "translation": "Is it far?",
-       "answers": [
-        "C'est loin ?"
-       ],
-       "words": [
-        "C'est loin ?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "La gare est à droite.",
        "promptLang": "target",
        "tiles": [
-        "the",
-        "station",
-        "The",
-        "it",
-        "toilet",
         "is",
-        "Turn",
+        "the",
+        "The",
         "on",
-        "right"
+        "station",
+        "right",
+        "Where",
+        "toilet",
+        "am"
        ],
        "answer": [
         "The",
@@ -3738,16 +4660,29 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Left",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "C'est loin ?",
+       "translation": "Is it far?",
        "answers": [
-        "à gauche",
-        "gauche"
+        "C'est loin ?"
        ],
        "words": [
-        "à gauche"
+        "C'est loin ?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un billet, s'il vous plaît.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Un billet, s'il vous plaît."
+       ],
+       "words": [
+        "s'il vous plaît",
+        "un",
+        "le billet"
        ]
       },
       {
@@ -3767,17 +4702,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Un billet, s'il vous plaît.",
-       "translation": "A ticket, please.",
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Right",
+       "promptLang": "en",
        "answers": [
-        "Un billet, s'il vous plaît."
+        "à droite",
+        "droite"
        ],
        "words": [
-        "s'il vous plaît",
-        "un",
-        "le billet"
+        "à droite"
        ]
       }
      ]
@@ -3789,11 +4723,126 @@
    "title": "Daily routine",
    "description": "Home, work, school and the time of day.",
    "icon": "calendar",
-   "tip": "Days of the week are not capitalised in French: lundi, mardi, mercredi...",
+   "tips": [
+    "Days of the week are not capitalised in French: lundi, mardi, mercredi..."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "aujourd'hui",
+      "e": "Today"
+     },
+     {
+      "t": "demain",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "maintenant",
+      "e": "Now"
+     },
+     {
+      "t": "le matin",
+      "e": "Morning"
+     },
+     {
+      "t": "la nuit",
+      "e": "Night"
+     },
+     {
+      "t": "la maison",
+      "e": "House"
+     },
+     {
+      "t": "le travail",
+      "e": "Work"
+     },
+     {
+      "t": "l'école",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Je vais au travail.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Je suis à la maison.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Aujourd'hui, c'est lundi.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Le matin, je bois du café.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Je dors la nuit.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Les enfants vont à l'école.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Quelle heure est-il maintenant ?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u6l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "aujourd'hui",
+       "e": "Today",
+       "kind": "word"
+      },
+      {
+       "t": "demain",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "maintenant",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "le matin",
+       "e": "Morning",
+       "kind": "word",
+       "alts": [
+        "matin"
+       ]
+      },
+      {
+       "t": "Je vais au travail.",
+       "e": "I go to work.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Aujourd'hui, c'est lundi.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "alts": [
+        "Nous sommes lundi.",
+        "On est lundi."
+       ]
+      },
+      {
+       "t": "Je suis à la maison.",
+       "e": "I am at home.",
+       "kind": "phrase",
+       "alts": [
+        "Je suis chez moi."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3801,10 +4850,10 @@
        "prompt": "aujourd'hui",
        "promptLang": "target",
        "options": [
-        "Work",
+        "House",
         "Today",
-        "Night",
-        "Now"
+        "Now",
+        "Morning"
        ],
        "answer": "Today",
        "words": [
@@ -3817,46 +4866,14 @@
        "prompt": "demain",
        "promptLang": "target",
        "options": [
-        "Tomorrow",
+        "School",
+        "Morning",
         "Night",
-        "House",
-        "Work"
+        "Tomorrow"
        ],
        "answer": "Tomorrow",
        "words": [
         "demain"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Now",
-       "promptLang": "en",
-       "answer": "maintenant",
-       "words": [
-        "maintenant"
-       ],
-       "options": [
-        "le travail",
-        "la nuit",
-        "aujourd'hui",
-        "maintenant"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "le matin",
-       "promptLang": "target",
-       "options": [
-        "Now",
-        "Morning",
-        "Night",
-        "Today"
-       ],
-       "answer": "Morning",
-       "words": [
-        "le matin"
        ]
       },
       {
@@ -3888,18 +4905,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "maintenant",
+       "words": [
+        "maintenant"
+       ],
+       "options": [
+        "maintenant",
+        "le travail",
+        "le matin",
+        "la maison"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "le matin",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Now",
+        "Tomorrow",
+        "Morning"
+       ],
+       "answer": "Morning",
+       "words": [
+        "le matin"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "I go to work.",
        "promptLang": "en",
        "tiles": [
-        "l'école",
-        "maintenant",
-        "bois",
         "Je",
-        "au",
         "travail",
-        "vais"
+        "enfants",
+        "vais",
+        "au",
+        "Le",
+        "heure"
        ],
        "answer": [
         "Je",
@@ -3913,29 +4962,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Je suis à la maison.",
-       "translation": "I am at home.",
-       "answers": [
-        "Je suis à la maison."
-       ],
-       "words": [
-        "la maison"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Aujourd'hui, c'est lundi.",
        "promptLang": "target",
        "tiles": [
         "children",
-        "is",
+        "am",
+        "now",
         "Monday",
         "Today",
-        "the",
-        "home"
+        "is"
        ],
        "answer": [
         "Today",
@@ -3947,6 +4984,18 @@
        ],
        "words": [
         "aujourd'hui"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je suis à la maison.",
+       "translation": "I am at home.",
+       "answers": [
+        "Je suis à la maison."
+       ],
+       "words": [
+        "la maison"
        ]
       },
       {
@@ -3967,6 +5016,58 @@
     {
      "id": "u6l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "la nuit",
+       "e": "Night",
+       "kind": "word",
+       "alts": [
+        "nuit"
+       ]
+      },
+      {
+       "t": "la maison",
+       "e": "House",
+       "kind": "word",
+       "alts": [
+        "maison"
+       ]
+      },
+      {
+       "t": "le travail",
+       "e": "Work",
+       "kind": "word",
+       "alts": [
+        "travail"
+       ]
+      },
+      {
+       "t": "l'école",
+       "e": "School",
+       "kind": "word",
+       "alts": [
+        "école"
+       ]
+      },
+      {
+       "t": "Le matin, je bois du café.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Je bois du café le matin."
+       ]
+      },
+      {
+       "t": "Je dors la nuit.",
+       "e": "I sleep at night.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Les enfants vont à l'école.",
+       "e": "The children go to school.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3975,9 +5076,9 @@
        "promptLang": "target",
        "options": [
         "Night",
+        "Today",
         "Tomorrow",
-        "House",
-        "Work"
+        "Now"
        ],
        "answer": "Night",
        "words": [
@@ -3986,49 +5087,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "House",
-       "promptLang": "en",
-       "answer": "la maison",
-       "words": [
-        "la maison"
-       ],
-       "options": [
-        "l'école",
-        "le travail",
-        "la maison",
-        "la nuit"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "le travail",
+       "prompt": "la maison",
        "promptLang": "target",
        "options": [
-        "Night",
         "Morning",
-        "Work",
-        "School"
+        "Today",
+        "Night",
+        "House"
        ],
-       "answer": "Work",
+       "answer": "House",
        "words": [
-        "le travail"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "School",
-       "promptLang": "en",
-       "answer": "l'école",
-       "words": [
-        "l'école"
-       ],
-       "options": [
-        "maintenant",
-        "demain",
-        "l'école",
         "la maison"
        ]
       },
@@ -4061,20 +5130,52 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "le travail",
+       "words": [
+        "le travail"
+       ],
+       "options": [
+        "la maison",
+        "le travail",
+        "aujourd'hui",
+        "demain"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "l'école",
+       "words": [
+        "l'école"
+       ],
+       "options": [
+        "l'école",
+        "aujourd'hui",
+        "la maison",
+        "le travail"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in French",
        "prompt": "I drink coffee in the morning.",
        "promptLang": "en",
        "tiles": [
-        "est-il",
+        "Aujourd'hui",
         "je",
-        "nuit",
-        "matin",
-        "café",
-        "heure",
+        "vais",
         "Le",
+        "bois",
+        "matin",
         "du",
-        "bois"
+        "café",
+        "est-il"
        ],
        "answer": [
         "Le",
@@ -4098,13 +5199,13 @@
        "prompt": "Je dors la nuit.",
        "promptLang": "target",
        "tiles": [
-        "go",
-        "I",
-        "night",
         "sleep",
+        "I",
+        "is",
+        "now",
+        "home",
         "at",
-        "Monday",
-        "it"
+        "night"
        ],
        "answer": [
         "I",
@@ -4164,23 +5265,17 @@
     {
      "id": "u6l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Quelle heure est-il maintenant ?",
-       "promptLang": "target",
-       "options": [
-        "Today is Monday.",
-        "I drink coffee in the morning.",
-        "What time is it now?",
-        "The children go to school."
-       ],
-       "answer": "What time is it now?",
-       "words": [
-        "maintenant"
+       "t": "Quelle heure est-il maintenant ?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "alts": [
+        "Il est quelle heure maintenant ?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -4188,9 +5283,9 @@
        "promptLang": "target",
        "options": [
         "Today",
-        "School",
-        "Tomorrow",
-        "Work"
+        "Work",
+        "Now",
+        "Tomorrow"
        ],
        "answer": "Tomorrow",
        "words": [
@@ -4202,31 +5297,74 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "l'école",
-         "School"
+         "la maison",
+         "House"
         ],
         [
          "maintenant",
          "Now"
         ],
         [
-         "demain",
-         "Tomorrow"
-        ],
-        [
          "aujourd'hui",
          "Today"
         ],
         [
-         "la maison",
-         "House"
+         "l'école",
+         "School"
+        ],
+        [
+         "le travail",
+         "Work"
         ]
        ],
        "words": [
-        "l'école",
+        "la maison",
         "maintenant",
-        "demain",
         "aujourd'hui",
+        "l'école",
+        "le travail"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Quelle heure est-il maintenant ?",
+       "promptLang": "target",
+       "options": [
+        "I sleep at night.",
+        "I drink coffee in the morning.",
+        "What time is it now?",
+        "Today is Monday."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "maintenant"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Je suis à la maison.",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "home",
+        "night",
+        "now",
+        "is",
+        "am",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
         "la maison"
        ]
       },
@@ -4236,13 +5374,13 @@
        "prompt": "What time is it now?",
        "promptLang": "en",
        "tiles": [
+        "bois",
         "est-il",
-        "Quelle",
-        "à",
+        "heure",
         "maintenant",
+        "à",
         "du",
-        "suis",
-        "heure"
+        "Quelle"
        ],
        "answer": [
         "Quelle",
@@ -4259,29 +5397,29 @@
       },
       {
        "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Je suis à la maison.",
-       "promptLang": "target",
+       "instruction": "Build the sentence in French",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
        "tiles": [
-        "is",
-        "drink",
-        "home",
-        "at",
-        "I",
-        "am",
-        "now"
+        "café",
+        "travail",
+        "à",
+        "vont",
+        "Les",
+        "du",
+        "l'école",
+        "enfants"
        ],
        "answer": [
-        "I",
-        "am",
-        "at",
-        "home"
+        "Les",
+        "enfants",
+        "vont",
+        "à",
+        "l'école"
        ],
-       "accepted": [
-        "I am home."
-       ],
+       "accepted": [],
        "words": [
-        "la maison"
+        "l'école"
        ]
       },
       {
@@ -4294,18 +5432,6 @@
        ],
        "words": [
         "l'école"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "I sleep at night.",
-       "promptLang": "en",
-       "answers": [
-        "Je dors la nuit."
-       ],
-       "words": [
-        "la nuit"
        ]
       },
       {
@@ -4324,6 +5450,18 @@
       {
        "type": "type",
        "instruction": "Type this in French",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Je dors la nuit."
+       ],
+       "words": [
+        "la nuit"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
        "prompt": "Tomorrow",
        "promptLang": "en",
        "answers": [
@@ -4332,39 +5470,13 @@
        "words": [
         "demain"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in French",
-       "prompt": "The children go to school.",
-       "promptLang": "en",
-       "tiles": [
-        "Je",
-        "Quelle",
-        "vont",
-        "l'école",
-        "à",
-        "travail",
-        "Les",
-        "enfants"
-       ],
-       "answer": [
-        "Les",
-        "enfants",
-        "vont",
-        "à",
-        "l'école"
-       ],
-       "accepted": [],
-       "words": [
-        "l'école"
-       ]
       }
      ]
     },
     {
      "id": "u6l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -4373,9 +5485,9 @@
        "promptLang": "target",
        "options": [
         "I sleep at night.",
+        "Today is Monday.",
         "I go to work.",
-        "I am at home.",
-        "I drink coffee in the morning."
+        "I am at home."
        ],
        "answer": "I go to work.",
        "words": [
@@ -4387,43 +5499,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "maintenant",
-         "Now"
+         "aujourd'hui",
+         "Today"
         ],
         [
-         "la maison",
-         "House"
+         "maintenant",
+         "Now"
         ],
         [
          "l'école",
          "School"
         ],
         [
-         "aujourd'hui",
-         "Today"
+         "le matin",
+         "Morning"
         ]
        ],
        "words": [
+        "aujourd'hui",
         "maintenant",
-        "la maison",
         "l'école",
-        "aujourd'hui"
+        "le matin"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Night",
+       "prompt": "House",
        "promptLang": "en",
-       "answer": "la nuit",
+       "answer": "la maison",
        "words": [
-        "la nuit"
+        "la maison"
        ],
        "options": [
-        "la nuit",
-        "l'école",
         "la maison",
-        "maintenant"
+        "maintenant",
+        "aujourd'hui",
+        "l'école"
        ]
       },
       {
@@ -4432,12 +5544,12 @@
        "prompt": "Today is Monday.",
        "promptLang": "en",
        "tiles": [
-        "maison",
-        "nuit",
-        "Aujourd'hui",
-        "dors",
+        "lundi",
+        "Le",
+        "du",
         "c'est",
-        "lundi"
+        "maintenant",
+        "Aujourd'hui"
        ],
        "answer": [
         "Aujourd'hui",
@@ -4453,32 +5565,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Quelle heure est-il maintenant ?",
-       "translation": "What time is it now?",
-       "answers": [
-        "Quelle heure est-il maintenant ?"
-       ],
-       "words": [
-        "maintenant"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Le matin, je bois du café.",
        "promptLang": "target",
        "tiles": [
         "morning",
-        "I",
-        "the",
+        "to",
         "coffee",
-        "am",
-        "go",
         "drink",
-        "sleep",
-        "in"
+        "What",
+        "the",
+        "in",
+        "I",
+        "is"
        ],
        "answer": [
         "I",
@@ -4498,16 +5598,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in French",
-       "prompt": "Morning",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quelle heure est-il maintenant ?",
+       "translation": "What time is it now?",
        "answers": [
-        "le matin",
-        "matin"
+        "Quelle heure est-il maintenant ?"
        ],
        "words": [
-        "le matin"
+        "maintenant"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je dors la nuit.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Je dors la nuit."
+       ],
+       "words": [
+        "la nuit"
        ]
       },
       {
@@ -4524,15 +5635,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Je dors la nuit.",
-       "translation": "I sleep at night.",
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
        "answers": [
-        "Je dors la nuit."
+        "demain"
        ],
        "words": [
-        "la nuit"
+        "demain"
        ]
       }
      ]

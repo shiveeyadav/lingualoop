@@ -14,6 +14,7 @@
   "ï",
   "ó"
  ],
+ "particles": [],
  "order": 60,
  "description": "Everyday Dutch: greetings, family, food, numbers, getting around and your day.",
  "units": [
@@ -22,11 +23,144 @@
    "title": "Greetings",
    "description": "Say hello, introduce yourself and be polite.",
    "icon": "wave",
-   "tip": "'Dank je' and 'alsjeblieft' are informal; 'dank u' and 'alstublieft' are polite. 'Dag' can mean hello or goodbye.",
+   "tips": [
+    "'Dank je' and 'alsjeblieft' are informal; 'dank u' and 'alstublieft' are polite. 'Dag' can mean hello or goodbye."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hallo",
+      "e": "Hello"
+     },
+     {
+      "t": "tot ziens",
+      "e": "Goodbye"
+     },
+     {
+      "t": "dank je",
+      "e": "Thank you"
+     },
+     {
+      "t": "alsjeblieft",
+      "e": "Please"
+     },
+     {
+      "t": "ja",
+      "e": "Yes"
+     },
+     {
+      "t": "nee",
+      "e": "No"
+     },
+     {
+      "t": "goedemorgen",
+      "e": "Good morning"
+     },
+     {
+      "t": "sorry",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Hoe gaat het?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Het gaat goed, dank je.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Ik heet Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Leuk je te ontmoeten.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Dank je wel.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Tot morgen.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Hoe heet je?",
+      "e": "What is your name?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u1l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "hallo",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "hoi"
+       ]
+      },
+      {
+       "t": "tot ziens",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "dag",
+        "doei"
+       ]
+      },
+      {
+       "t": "dank je",
+       "e": "Thank you",
+       "kind": "word",
+       "alts": [
+        "dank u",
+        "bedankt"
+       ]
+      },
+      {
+       "t": "alsjeblieft",
+       "e": "Please",
+       "kind": "word",
+       "alts": [
+        "alstublieft"
+       ]
+      },
+      {
+       "t": "Hoe gaat het?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Hoe gaat het met je?",
+        "Hoe gaat het met u?"
+       ]
+      },
+      {
+       "t": "Ik heet Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Mijn naam is Anna.",
+        "Ik ben Anna."
+       ]
+      },
+      {
+       "t": "Het gaat goed, dank je.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Goed, dank je.",
+        "Het gaat goed, dank u.",
+        "Goed, dank u.",
+        "Goed, bedankt."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -34,10 +168,10 @@
        "prompt": "hallo",
        "promptLang": "target",
        "options": [
+        "Goodbye",
         "Thank you",
-        "Please",
         "Hello",
-        "Goodbye"
+        "Sorry"
        ],
        "answer": "Hello",
        "words": [
@@ -50,46 +184,14 @@
        "prompt": "tot ziens",
        "promptLang": "target",
        "options": [
-        "Hello",
-        "No",
         "Goodbye",
-        "Please"
+        "Thank you",
+        "Sorry",
+        "No"
        ],
        "answer": "Goodbye",
        "words": [
         "tot ziens"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
-       "promptLang": "en",
-       "answer": "dank je",
-       "words": [
-        "dank je"
-       ],
-       "options": [
-        "hallo",
-        "dank je",
-        "tot ziens",
-        "alsjeblieft"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "alsjeblieft",
-       "promptLang": "target",
-       "options": [
-        "Goodbye",
-        "Please",
-        "Sorry",
-        "No"
-       ],
-       "answer": "Please",
-       "words": [
-        "alsjeblieft"
        ]
       },
       {
@@ -121,17 +223,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "dank je",
+       "words": [
+        "dank je"
+       ],
+       "options": [
+        "goedemorgen",
+        "hallo",
+        "tot ziens",
+        "dank je"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "alsjeblieft",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Sorry",
+        "Thank you",
+        "No"
+       ],
+       "answer": "Please",
+       "words": [
+        "alsjeblieft"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "How are you?",
        "promptLang": "en",
        "tiles": [
-        "Hoe",
-        "ontmoeten",
+        "Tot",
+        "het",
+        "dank",
         "goed",
-        "gaat",
-        "wel",
-        "het"
+        "Hoe",
+        "gaat"
        ],
        "answer": [
         "Hoe",
@@ -147,30 +281,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Het gaat goed, dank je.",
-       "translation": "I am fine, thank you.",
-       "answers": [
-        "Het gaat goed, dank je."
-       ],
-       "words": [
-        "dank je"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ik heet Anna.",
        "promptLang": "target",
        "tiles": [
-        "tomorrow",
-        "meet",
+        "thank",
+        "What",
+        "See",
+        "Anna",
         "My",
         "is",
-        "fine",
-        "name",
-        "Anna"
+        "name"
        ],
        "answer": [
         "My",
@@ -184,6 +306,18 @@
        ],
        "words": [
         "Ik heet Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Het gaat goed, dank je.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Het gaat goed, dank je."
+       ],
+       "words": [
+        "dank je"
        ]
       },
       {
@@ -204,6 +338,54 @@
     {
      "id": "u1l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "ja",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "nee",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "goedemorgen",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "sorry",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "pardon"
+       ]
+      },
+      {
+       "t": "Leuk je te ontmoeten.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "alts": [
+        "Leuk u te ontmoeten.",
+        "Aangenaam."
+       ]
+      },
+      {
+       "t": "Dank je wel.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Dank u wel.",
+        "Heel erg bedankt."
+       ]
+      },
+      {
+       "t": "Tot morgen.",
+       "e": "See you tomorrow.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -211,10 +393,10 @@
        "prompt": "ja",
        "promptLang": "target",
        "options": [
-        "Please",
-        "Yes",
-        "Thank you",
-        "Goodbye"
+        "Good morning",
+        "No",
+        "Hello",
+        "Yes"
        ],
        "answer": "Yes",
        "words": [
@@ -223,50 +405,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "No",
-       "promptLang": "en",
-       "answer": "nee",
-       "words": [
-        "nee"
-       ],
-       "options": [
-        "sorry",
-        "alsjeblieft",
-        "nee",
-        "dank je"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "goedemorgen",
+       "prompt": "nee",
        "promptLang": "target",
        "options": [
         "No",
-        "Thank you",
-        "Please",
-        "Good morning"
+        "Yes",
+        "Hello",
+        "Goodbye"
        ],
-       "answer": "Good morning",
+       "answer": "No",
        "words": [
-        "goedemorgen"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
-       "promptLang": "en",
-       "answer": "sorry",
-       "words": [
-        "sorry"
-       ],
-       "options": [
-        "tot ziens",
-        "sorry",
-        "alsjeblieft",
-        "dank je"
+        "nee"
        ]
       },
       {
@@ -298,18 +448,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "goedemorgen",
+       "words": [
+        "goedemorgen"
+       ],
+       "options": [
+        "nee",
+        "goedemorgen",
+        "ja",
+        "tot ziens"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "sorry",
+       "words": [
+        "sorry"
+       ],
+       "options": [
+        "tot ziens",
+        "sorry",
+        "nee",
+        "dank je"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "Nice to meet you.",
        "promptLang": "en",
        "tiles": [
-        "wel",
         "te",
-        "Tot",
-        "goed",
+        "heet",
+        "Anna",
+        "ontmoeten",
+        "wel",
         "Leuk",
-        "je",
-        "ontmoeten"
+        "je"
        ],
        "answer": [
         "Leuk",
@@ -331,13 +513,13 @@
        "prompt": "Dank je wel.",
        "promptLang": "target",
        "tiles": [
-        "I",
-        "much",
-        "very",
-        "See",
-        "you",
         "Thank",
-        "How"
+        "is",
+        "tomorrow",
+        "I",
+        "very",
+        "you",
+        "much"
        ],
        "answer": [
         "Thank",
@@ -397,23 +579,18 @@
     {
      "id": "u1l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Hoe heet je?",
-       "promptLang": "target",
-       "options": [
-        "What is your name?",
-        "Nice to meet you.",
-        "I am fine, thank you.",
-        "My name is Anna."
-       ],
-       "answer": "What is your name?",
-       "words": [
-        "Hoe heet je?"
+       "t": "Hoe heet je?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Hoe heet u?",
+        "Wat is je naam?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -435,56 +612,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "nee",
-         "No"
-        ],
-        [
-         "ja",
-         "Yes"
-        ],
-        [
-         "goedemorgen",
-         "Good morning"
+         "hallo",
+         "Hello"
         ],
         [
          "sorry",
          "Sorry"
         ],
         [
-         "hallo",
-         "Hello"
+         "dank je",
+         "Thank you"
+        ],
+        [
+         "ja",
+         "Yes"
+        ],
+        [
+         "nee",
+         "No"
         ]
        ],
        "words": [
-        "nee",
-        "ja",
-        "goedemorgen",
+        "hallo",
         "sorry",
-        "hallo"
+        "dank je",
+        "ja",
+        "nee"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "What is your name?",
-       "promptLang": "en",
-       "tiles": [
-        "Hoe",
-        "heet",
-        "morgen",
-        "Ik",
-        "je",
-        "dank"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Hoe heet je?",
+       "promptLang": "target",
+       "options": [
+        "My name is Anna.",
+        "Thank you very much.",
+        "See you tomorrow.",
+        "What is your name?"
        ],
-       "answer": [
-        "Hoe",
-        "heet",
-        "je"
-       ],
-       "accepted": [
-        "Hoe heet u?",
-        "Wat is je naam?"
-       ],
+       "answer": "What is your name?",
        "words": [
         "Hoe heet je?"
        ]
@@ -495,14 +662,14 @@
        "prompt": "Het gaat goed, dank je.",
        "promptLang": "target",
        "tiles": [
+        "are",
+        "am",
+        "fine",
         "you",
         "thank",
-        "tomorrow",
-        "am",
+        "Nice",
         "I",
-        "fine",
-        "My",
-        "is"
+        "What"
        ],
        "answer": [
         "I",
@@ -524,6 +691,53 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "het",
+        "Ik",
+        "ontmoeten",
+        "je",
+        "heet",
+        "Hoe"
+       ],
+       "answer": [
+        "Hoe",
+        "heet",
+        "je"
+       ],
+       "accepted": [
+        "Hoe heet u?",
+        "Wat is je naam?"
+       ],
+       "words": [
+        "Hoe heet je?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "wel",
+        "Tot",
+        "Hoe",
+        "morgen",
+        "goed"
+       ],
+       "answer": [
+        "Tot",
+        "morgen"
+       ],
+       "accepted": [],
+       "words": [
+        "morgen"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Tot morgen.",
@@ -533,20 +747,6 @@
        ],
        "words": [
         "morgen"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "Thank you very much.",
-       "promptLang": "en",
-       "answers": [
-        "Dank je wel.",
-        "Dank u wel.",
-        "Heel erg bedankt."
-       ],
-       "words": [
-        "dank je"
        ]
       },
       {
@@ -566,6 +766,20 @@
       {
        "type": "type",
        "instruction": "Type this in Dutch",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Dank je wel.",
+        "Dank u wel.",
+        "Heel erg bedankt."
+       ],
+       "words": [
+        "dank je"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
        "prompt": "Goodbye",
        "promptLang": "en",
        "answers": [
@@ -576,33 +790,13 @@
        "words": [
         "tot ziens"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "See you tomorrow.",
-       "promptLang": "en",
-       "tiles": [
-        "te",
-        "wel",
-        "Leuk",
-        "Tot",
-        "morgen"
-       ],
-       "answer": [
-        "Tot",
-        "morgen"
-       ],
-       "accepted": [],
-       "words": [
-        "morgen"
-       ]
       }
      ]
     },
     {
      "id": "u1l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -610,10 +804,10 @@
        "prompt": "Hoe gaat het?",
        "promptLang": "target",
        "options": [
-        "See you tomorrow.",
         "How are you?",
-        "My name is Anna.",
-        "Thank you very much."
+        "I am fine, thank you.",
+        "Thank you very much.",
+        "My name is Anna."
        ],
        "answer": "How are you?",
        "words": [
@@ -625,43 +819,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "alsjeblieft",
-         "Please"
+         "dank je",
+         "Thank you"
         ],
         [
          "goedemorgen",
          "Good morning"
         ],
         [
-         "dank je",
-         "Thank you"
-        ],
-        [
          "hallo",
          "Hello"
+        ],
+        [
+         "sorry",
+         "Sorry"
         ]
        ],
        "words": [
-        "alsjeblieft",
-        "goedemorgen",
         "dank je",
-        "hallo"
+        "goedemorgen",
+        "hallo",
+        "sorry"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
+       "prompt": "Yes",
        "promptLang": "en",
-       "answer": "sorry",
+       "answer": "ja",
        "words": [
-        "sorry"
+        "ja"
        ],
        "options": [
+        "hallo",
         "nee",
-        "sorry",
         "ja",
-        "tot ziens"
+        "alsjeblieft"
        ]
       },
       {
@@ -670,12 +864,12 @@
        "prompt": "My name is Anna.",
        "promptLang": "en",
        "tiles": [
-        "heet",
-        "Anna",
         "Hoe",
+        "goed",
+        "heet",
         "Ik",
-        "Tot",
-        "ontmoeten"
+        "Leuk",
+        "Anna"
        ],
        "answer": [
         "Ik",
@@ -691,30 +885,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Hoe heet je?",
-       "translation": "What is your name?",
-       "answers": [
-        "Hoe heet je?"
-       ],
-       "words": [
-        "Hoe heet je?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Leuk je te ontmoeten.",
        "promptLang": "target",
        "tiles": [
-        "meet",
         "to",
-        "you",
-        "Nice",
-        "tomorrow",
+        "See",
         "thank",
-        "fine"
+        "Nice",
+        "meet",
+        "you",
+        "is"
        ],
        "answer": [
         "Nice",
@@ -730,15 +912,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "Yes",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hoe heet je?",
+       "translation": "What is your name?",
        "answers": [
-        "ja"
+        "Hoe heet je?"
        ],
        "words": [
-        "ja"
+        "Hoe heet je?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dank je wel.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Dank je wel."
+       ],
+       "words": [
+        "dank je"
        ]
       },
       {
@@ -760,15 +954,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Dank je wel.",
-       "translation": "Thank you very much.",
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "No",
+       "promptLang": "en",
        "answers": [
-        "Dank je wel."
+        "nee"
        ],
        "words": [
-        "dank je"
+        "nee"
        ]
       }
      ]
@@ -780,11 +974,133 @@
    "title": "People and family",
    "description": "Talk about the people around you.",
    "icon": "person",
-   "tip": "Dutch has two words for 'the': 'de' for most nouns and 'het' for others, such as 'het kind' (the child).",
+   "tips": [
+    "Dutch has two words for 'the': 'de' for most nouns and 'het' for others, such as 'het kind' (the child)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "de man",
+      "e": "Man"
+     },
+     {
+      "t": "de vrouw",
+      "e": "Woman"
+     },
+     {
+      "t": "het kind",
+      "e": "Child"
+     },
+     {
+      "t": "de vriend",
+      "e": "Friend"
+     },
+     {
+      "t": "de moeder",
+      "e": "Mother"
+     },
+     {
+      "t": "de vader",
+      "e": "Father"
+     },
+     {
+      "t": "de zoon",
+      "e": "Son"
+     },
+     {
+      "t": "de dochter",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Dit is mijn moeder.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "Hij is mijn vriend.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Ik heb een zoon.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Waar is mijn vader?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Mijn moeder is thuis.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "Zij is mijn dochter.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Wie is deze man?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u2l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "de man",
+       "e": "Man",
+       "kind": "word",
+       "alts": [
+        "man"
+       ]
+      },
+      {
+       "t": "de vrouw",
+       "e": "Woman",
+       "kind": "word",
+       "alts": [
+        "vrouw"
+       ]
+      },
+      {
+       "t": "het kind",
+       "e": "Child",
+       "kind": "word",
+       "alts": [
+        "kind"
+       ]
+      },
+      {
+       "t": "de vriend",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "vriend",
+        "de vriendin",
+        "vriendin"
+       ]
+      },
+      {
+       "t": "Dit is mijn moeder.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "Dit is mijn mama."
+       ]
+      },
+      {
+       "t": "Ik heb een zoon.",
+       "e": "I have a son.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Hij is mijn vriend.",
+       "e": "He is my friend.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -792,10 +1108,10 @@
        "prompt": "de man",
        "promptLang": "target",
        "options": [
-        "Man",
         "Son",
         "Father",
-        "Child"
+        "Daughter",
+        "Man"
        ],
        "answer": "Man",
        "words": [
@@ -809,45 +1125,13 @@
        "promptLang": "target",
        "options": [
         "Mother",
-        "Father",
-        "Son",
+        "Child",
+        "Friend",
         "Woman"
        ],
        "answer": "Woman",
        "words": [
         "de vrouw"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Child",
-       "promptLang": "en",
-       "answer": "het kind",
-       "words": [
-        "het kind"
-       ],
-       "options": [
-        "de moeder",
-        "de vrouw",
-        "de vriend",
-        "het kind"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "de vriend",
-       "promptLang": "target",
-       "options": [
-        "Child",
-        "Friend",
-        "Father",
-        "Mother"
-       ],
-       "answer": "Friend",
-       "words": [
-        "de vriend"
        ]
       },
       {
@@ -879,18 +1163,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "het kind",
+       "words": [
+        "het kind"
+       ],
+       "options": [
+        "de vriend",
+        "het kind",
+        "de vader",
+        "de moeder"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "de vriend",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Child",
+        "Friend",
+        "Woman"
+       ],
+       "answer": "Friend",
+       "words": [
+        "de vriend"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "This is my mother.",
        "promptLang": "en",
        "tiles": [
-        "mijn",
-        "dochter",
-        "vader",
         "is",
-        "Dit",
         "moeder",
-        "Wie"
+        "Waar",
+        "mijn",
+        "Dit",
+        "een",
+        "deze"
        ],
        "answer": [
         "Dit",
@@ -906,30 +1222,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Hij is mijn vriend.",
-       "translation": "He is my friend.",
-       "answers": [
-        "Hij is mijn vriend."
-       ],
-       "words": [
-        "de vriend"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ik heb een zoon.",
        "promptLang": "target",
        "tiles": [
+        "friend",
         "a",
-        "my",
         "have",
-        "Who",
-        "son",
+        "father",
+        "at",
         "I",
-        "father"
+        "son"
        ],
        "answer": [
         "I",
@@ -944,6 +1248,18 @@
        "words": [
         "de zoon",
         "één"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hij is mijn vriend.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Hij is mijn vriend."
+       ],
+       "words": [
+        "de vriend"
        ]
       },
       {
@@ -965,6 +1281,63 @@
     {
      "id": "u2l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "de moeder",
+       "e": "Mother",
+       "kind": "word",
+       "alts": [
+        "moeder",
+        "mama"
+       ]
+      },
+      {
+       "t": "de vader",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "vader",
+        "papa"
+       ]
+      },
+      {
+       "t": "de zoon",
+       "e": "Son",
+       "kind": "word",
+       "alts": [
+        "zoon"
+       ]
+      },
+      {
+       "t": "de dochter",
+       "e": "Daughter",
+       "kind": "word",
+       "alts": [
+        "dochter"
+       ]
+      },
+      {
+       "t": "Waar is mijn vader?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Waar is mijn papa?"
+       ]
+      },
+      {
+       "t": "Mijn moeder is thuis.",
+       "e": "My mother is at home.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Zij is mijn dochter.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "alts": [
+        "Ze is mijn dochter."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -972,10 +1345,10 @@
        "prompt": "de moeder",
        "promptLang": "target",
        "options": [
-        "Mother",
-        "Man",
         "Friend",
-        "Daughter"
+        "Son",
+        "Mother",
+        "Child"
        ],
        "answer": "Mother",
        "words": [
@@ -984,50 +1357,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Father",
-       "promptLang": "en",
-       "answer": "de vader",
-       "words": [
-        "de vader"
-       ],
-       "options": [
-        "de vriend",
-        "de zoon",
-        "de vader",
-        "het kind"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "de zoon",
+       "prompt": "de vader",
        "promptLang": "target",
        "options": [
         "Mother",
         "Friend",
         "Daughter",
-        "Son"
+        "Father"
        ],
-       "answer": "Son",
+       "answer": "Father",
        "words": [
-        "de zoon"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Daughter",
-       "promptLang": "en",
-       "answer": "de dochter",
-       "words": [
-        "de dochter"
-       ],
-       "options": [
-        "de vriend",
-        "de zoon",
-        "de vrouw",
-        "de dochter"
+        "de vader"
        ]
       },
       {
@@ -1059,18 +1400,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "de zoon",
+       "words": [
+        "de zoon"
+       ],
+       "options": [
+        "de vriend",
+        "de dochter",
+        "de vrouw",
+        "de zoon"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "de dochter",
+       "words": [
+        "de dochter"
+       ],
+       "options": [
+        "de dochter",
+        "de moeder",
+        "de zoon",
+        "de vrouw"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "Where is my father?",
        "promptLang": "en",
        "tiles": [
-        "dochter",
-        "Waar",
-        "is",
-        "vader",
         "mijn",
+        "dochter",
+        "heb",
+        "is",
         "Dit",
-        "moeder"
+        "Waar",
+        "vader"
        ],
        "answer": [
         "Waar",
@@ -1092,14 +1465,14 @@
        "prompt": "Mijn moeder is thuis.",
        "promptLang": "target",
        "tiles": [
+        "Who",
         "man",
-        "son",
-        "home",
         "is",
-        "My",
-        "at",
         "mother",
-        "This"
+        "home",
+        "at",
+        "Where",
+        "My"
        ],
        "answer": [
         "My",
@@ -1162,23 +1535,17 @@
     {
      "id": "u2l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Wie is deze man?",
-       "promptLang": "target",
-       "options": [
-        "She is my daughter.",
-        "Who is this man?",
-        "My mother is at home.",
-        "This is my mother."
-       ],
-       "answer": "Who is this man?",
-       "words": [
-        "de man"
+       "t": "Wie is deze man?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "alts": [
+        "Wie is die man?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -1186,9 +1553,9 @@
        "promptLang": "target",
        "options": [
         "Father",
-        "Woman",
-        "Daughter",
-        "Son"
+        "Child",
+        "Son",
+        "Woman"
        ],
        "answer": "Woman",
        "words": [
@@ -1200,20 +1567,20 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "het kind",
-         "Child"
-        ],
-        [
-         "de man",
-         "Man"
-        ],
-        [
-         "de vrouw",
-         "Woman"
+         "de vader",
+         "Father"
         ],
         [
          "de zoon",
          "Son"
+        ],
+        [
+         "de vriend",
+         "Friend"
+        ],
+        [
+         "de dochter",
+         "Daughter"
         ],
         [
          "de moeder",
@@ -1221,11 +1588,52 @@
         ]
        ],
        "words": [
-        "het kind",
-        "de man",
-        "de vrouw",
+        "de vader",
         "de zoon",
+        "de vriend",
+        "de dochter",
         "de moeder"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wie is deze man?",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "Who is this man?",
+        "This is my mother.",
+        "He is my friend."
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "de man"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Hij is mijn vriend.",
+       "promptLang": "target",
+       "tiles": [
+        "This",
+        "He",
+        "friend",
+        "my",
+        "is",
+        "man",
+        "son"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "de vriend"
        ]
       },
       {
@@ -1234,13 +1642,13 @@
        "prompt": "Who is this man?",
        "promptLang": "en",
        "tiles": [
-        "Wie",
+        "dochter",
+        "vriend",
         "deze",
-        "man",
-        "is",
-        "Dit",
         "een",
-        "moeder"
+        "Wie",
+        "is",
+        "man"
        ],
        "answer": [
         "Wie",
@@ -1257,27 +1665,29 @@
       },
       {
        "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Hij is mijn vriend.",
-       "promptLang": "target",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
        "tiles": [
-        "son",
-        "Where",
-        "friend",
-        "He",
+        "Ik",
+        "dochter",
+        "heb",
         "is",
-        "my",
-        "man"
+        "Zij",
+        "vader",
+        "mijn"
        ],
        "answer": [
-        "He",
+        "Zij",
         "is",
-        "my",
-        "friend"
+        "mijn",
+        "dochter"
        ],
-       "accepted": [],
+       "accepted": [
+        "Ze is mijn dochter."
+       ],
        "words": [
-        "de vriend"
+        "de dochter"
        ]
       },
       {
@@ -1290,18 +1700,6 @@
        ],
        "words": [
         "de dochter"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "My mother is at home.",
-       "promptLang": "en",
-       "answers": [
-        "Mijn moeder is thuis."
-       ],
-       "words": [
-        "de moeder"
        ]
       },
       {
@@ -1322,6 +1720,18 @@
       {
        "type": "type",
        "instruction": "Type this in Dutch",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Mijn moeder is thuis."
+       ],
+       "words": [
+        "de moeder"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
        "prompt": "Woman",
        "promptLang": "en",
        "answers": [
@@ -1331,39 +1741,13 @@
        "words": [
         "de vrouw"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "She is my daughter.",
-       "promptLang": "en",
-       "tiles": [
-        "mijn",
-        "Ik",
-        "dochter",
-        "Hij",
-        "Waar",
-        "Zij",
-        "is"
-       ],
-       "answer": [
-        "Zij",
-        "is",
-        "mijn",
-        "dochter"
-       ],
-       "accepted": [
-        "Ze is mijn dochter."
-       ],
-       "words": [
-        "de dochter"
-       ]
       }
      ]
     },
     {
      "id": "u2l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -1371,10 +1755,10 @@
        "prompt": "Dit is mijn moeder.",
        "promptLang": "target",
        "options": [
-        "I have a son.",
-        "He is my friend.",
+        "She is my daughter.",
         "Where is my father?",
-        "This is my mother."
+        "This is my mother.",
+        "My mother is at home."
        ],
        "answer": "This is my mother.",
        "words": [
@@ -1386,27 +1770,27 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "de zoon",
-         "Son"
-        ],
-        [
          "de vrouw",
          "Woman"
         ],
         [
-         "de man",
-         "Man"
+         "het kind",
+         "Child"
         ],
         [
-         "de vriend",
-         "Friend"
+         "de moeder",
+         "Mother"
+        ],
+        [
+         "de dochter",
+         "Daughter"
         ]
        ],
        "words": [
-        "de zoon",
         "de vrouw",
-        "de man",
-        "de vriend"
+        "het kind",
+        "de moeder",
+        "de dochter"
        ]
       },
       {
@@ -1419,10 +1803,10 @@
         "de vader"
        ],
        "options": [
-        "de dochter",
+        "de vriend",
         "de vader",
-        "de man",
-        "het kind"
+        "de vrouw",
+        "de man"
        ]
       },
       {
@@ -1431,13 +1815,13 @@
        "prompt": "I have a son.",
        "promptLang": "en",
        "tiles": [
-        "vader",
-        "zoon",
+        "man",
         "een",
-        "Ik",
-        "deze",
+        "mijn",
         "heb",
-        "is"
+        "Ik",
+        "thuis",
+        "zoon"
        ],
        "answer": [
         "Ik",
@@ -1452,30 +1836,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Wie is deze man?",
-       "translation": "Who is this man?",
-       "answers": [
-        "Wie is deze man?"
-       ],
-       "words": [
-        "de man"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Waar is mijn vader?",
        "promptLang": "target",
        "tiles": [
-        "He",
-        "This",
         "Where",
-        "father",
+        "daughter",
         "my",
-        "a",
-        "is"
+        "have",
+        "is",
+        "home",
+        "father"
        ],
        "answer": [
         "Where",
@@ -1492,14 +1864,24 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "Mother",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wie is deze man?",
+       "translation": "Who is this man?",
        "answers": [
-        "de moeder",
-        "moeder",
-        "mama"
+        "Wie is deze man?"
+       ],
+       "words": [
+        "de man"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mijn moeder is thuis.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Mijn moeder is thuis."
        ],
        "words": [
         "de moeder"
@@ -1518,15 +1900,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Mijn moeder is thuis.",
-       "translation": "My mother is at home.",
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Son",
+       "promptLang": "en",
        "answers": [
-        "Mijn moeder is thuis."
+        "de zoon",
+        "zoon"
        ],
        "words": [
-        "de moeder"
+        "de zoon"
        ]
       }
      ]
@@ -1538,11 +1921,131 @@
    "title": "Food and drink",
    "description": "Order, eat and drink.",
    "icon": "cup",
-   "tip": "'Geen' means 'no / not any': 'Ik drink geen melk' = I do not drink milk.",
+   "tips": [
+    "'Geen' means 'no / not any': 'Ik drink geen melk' = I do not drink milk."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "het water",
+      "e": "Water"
+     },
+     {
+      "t": "het brood",
+      "e": "Bread"
+     },
+     {
+      "t": "de koffie",
+      "e": "Coffee"
+     },
+     {
+      "t": "de thee",
+      "e": "Tea"
+     },
+     {
+      "t": "de melk",
+      "e": "Milk"
+     },
+     {
+      "t": "de appel",
+      "e": "Apple"
+     },
+     {
+      "t": "de rijst",
+      "e": "Rice"
+     },
+     {
+      "t": "het ei",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Water, alstublieft.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Ik drink koffie.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Ik eet brood.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "De thee is heet.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Ik drink geen melk.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Ik houd van appels.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Ik heb honger.",
+      "e": "I am hungry."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u3l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "het water",
+       "e": "Water",
+       "kind": "word",
+       "alts": [
+        "water"
+       ]
+      },
+      {
+       "t": "het brood",
+       "e": "Bread",
+       "kind": "word",
+       "alts": [
+        "brood"
+       ]
+      },
+      {
+       "t": "de koffie",
+       "e": "Coffee",
+       "kind": "word",
+       "alts": [
+        "koffie"
+       ]
+      },
+      {
+       "t": "de thee",
+       "e": "Tea",
+       "kind": "word",
+       "alts": [
+        "thee"
+       ]
+      },
+      {
+       "t": "Water, alstublieft.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Water, alsjeblieft."
+       ]
+      },
+      {
+       "t": "Ik eet brood.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Ik drink koffie.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1550,10 +2053,10 @@
        "prompt": "het water",
        "promptLang": "target",
        "options": [
-        "Egg",
-        "Apple",
+        "Bread",
+        "Tea",
         "Water",
-        "Milk"
+        "Coffee"
        ],
        "answer": "Water",
        "words": [
@@ -1566,46 +2069,14 @@
        "prompt": "het brood",
        "promptLang": "target",
        "options": [
-        "Coffee",
         "Bread",
-        "Apple",
-        "Tea"
+        "Egg",
+        "Coffee",
+        "Apple"
        ],
        "answer": "Bread",
        "words": [
         "het brood"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
-       "promptLang": "en",
-       "answer": "de koffie",
-       "words": [
-        "de koffie"
-       ],
-       "options": [
-        "de thee",
-        "het ei",
-        "de koffie",
-        "het brood"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "de thee",
-       "promptLang": "target",
-       "options": [
-        "Egg",
-        "Tea",
-        "Bread",
-        "Water"
-       ],
-       "answer": "Tea",
-       "words": [
-        "de thee"
        ]
       },
       {
@@ -1637,16 +2108,48 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "de koffie",
+       "words": [
+        "de koffie"
+       ],
+       "options": [
+        "de koffie",
+        "het brood",
+        "de rijst",
+        "de appel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "de thee",
+       "promptLang": "target",
+       "options": [
+        "Egg",
+        "Tea",
+        "Rice",
+        "Water"
+       ],
+       "answer": "Tea",
+       "words": [
+        "de thee"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "Water, please.",
        "promptLang": "en",
        "tiles": [
-        "drink",
-        "brood",
+        "alstublieft",
+        "Ik",
+        "heb",
         "Water",
-        "melk",
-        "alstublieft"
+        "is"
        ],
        "answer": [
         "Water",
@@ -1661,29 +2164,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ik drink koffie.",
-       "translation": "I drink coffee.",
-       "answers": [
-        "Ik drink koffie."
-       ],
-       "words": [
-        "de koffie"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ik eet brood.",
        "promptLang": "target",
        "tiles": [
-        "Water",
-        "bread",
-        "eat",
-        "tea",
         "I",
-        "am"
+        "bread",
+        "please",
+        "eat",
+        "do",
+        "Water"
        ],
        "answer": [
         "I",
@@ -1695,6 +2186,18 @@
        ],
        "words": [
         "het brood"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ik drink koffie.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Ik drink koffie."
+       ],
+       "words": [
+        "de koffie"
        ]
       },
       {
@@ -1716,6 +2219,64 @@
     {
      "id": "u3l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "de melk",
+       "e": "Milk",
+       "kind": "word",
+       "alts": [
+        "melk"
+       ]
+      },
+      {
+       "t": "de appel",
+       "e": "Apple",
+       "kind": "word",
+       "alts": [
+        "appel",
+        "een appel"
+       ]
+      },
+      {
+       "t": "de rijst",
+       "e": "Rice",
+       "kind": "word",
+       "alts": [
+        "rijst"
+       ]
+      },
+      {
+       "t": "het ei",
+       "e": "Egg",
+       "kind": "word",
+       "alts": [
+        "ei",
+        "een ei"
+       ]
+      },
+      {
+       "t": "De thee is heet.",
+       "e": "The tea is hot.",
+       "kind": "phrase",
+       "alts": [
+        "De thee is warm."
+       ]
+      },
+      {
+       "t": "Ik drink geen melk.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Ik houd van appels.",
+       "e": "I like apples.",
+       "kind": "phrase",
+       "alts": [
+        "Ik hou van appels.",
+        "Ik vind appels lekker."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1723,10 +2284,10 @@
        "prompt": "de melk",
        "promptLang": "target",
        "options": [
-        "Milk",
+        "Coffee",
         "Apple",
-        "Egg",
-        "Coffee"
+        "Water",
+        "Milk"
        ],
        "answer": "Milk",
        "words": [
@@ -1735,49 +2296,17 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Apple",
-       "promptLang": "en",
-       "answer": "de appel",
-       "words": [
-        "de appel"
-       ],
-       "options": [
-        "de melk",
-        "de appel",
-        "de thee",
-        "de koffie"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "de rijst",
+       "prompt": "de appel",
        "promptLang": "target",
        "options": [
+        "Apple",
+        "Bread",
         "Milk",
-        "Coffee",
-        "Rice",
-        "Apple"
+        "Coffee"
        ],
-       "answer": "Rice",
+       "answer": "Apple",
        "words": [
-        "de rijst"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Egg",
-       "promptLang": "en",
-       "answer": "het ei",
-       "words": [
-        "het ei"
-       ],
-       "options": [
-        "het water",
-        "de melk",
-        "het ei",
         "de appel"
        ]
       },
@@ -1810,18 +2339,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "de rijst",
+       "words": [
+        "de rijst"
+       ],
+       "options": [
+        "het ei",
+        "de rijst",
+        "het brood",
+        "het water"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "het ei",
+       "words": [
+        "het ei"
+       ],
+       "options": [
+        "het water",
+        "de melk",
+        "het ei",
+        "de koffie"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "The tea is hot.",
        "promptLang": "en",
        "tiles": [
-        "Water",
-        "koffie",
+        "heet",
+        "appels",
+        "drink",
         "De",
         "thee",
         "is",
-        "heet",
-        "eet"
+        "melk"
        ],
        "answer": [
         "De",
@@ -1842,14 +2403,14 @@
        "prompt": "Ik drink geen melk.",
        "promptLang": "target",
        "tiles": [
-        "do",
-        "tea",
-        "is",
         "not",
-        "drink",
+        "Water",
         "milk",
+        "is",
+        "do",
+        "drink",
         "I",
-        "hungry"
+        "coffee"
        ],
        "answer": [
         "I",
@@ -1905,33 +2466,24 @@
     {
      "id": "u3l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Ik heb honger.",
-       "promptLang": "target",
-       "options": [
-        "I like apples.",
-        "I am hungry.",
-        "I eat bread.",
-        "The tea is hot."
-       ],
-       "answer": "I am hungry.",
-       "words": [
-        "Ik heb honger."
-       ]
-      },
+       "t": "Ik heb honger.",
+       "e": "I am hungry.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "het brood",
        "promptLang": "target",
        "options": [
-        "Bread",
-        "Rice",
         "Milk",
-        "Apple"
+        "Coffee",
+        "Bread",
+        "Water"
        ],
        "answer": "Bread",
        "words": [
@@ -1943,53 +2495,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "de rijst",
-         "Rice"
-        ],
-        [
-         "het water",
-         "Water"
-        ],
-        [
-         "de thee",
-         "Tea"
-        ],
-        [
          "het brood",
          "Bread"
         ],
         [
+         "de rijst",
+         "Rice"
+        ],
+        [
+         "de koffie",
+         "Coffee"
+        ],
+        [
          "het ei",
          "Egg"
+        ],
+        [
+         "de thee",
+         "Tea"
         ]
        ],
        "words": [
-        "de rijst",
-        "het water",
-        "de thee",
         "het brood",
-        "het ei"
+        "de rijst",
+        "de koffie",
+        "het ei",
+        "de thee"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "I am hungry.",
-       "promptLang": "en",
-       "tiles": [
-        "honger",
-        "houd",
-        "melk",
-        "heb",
-        "heet",
-        "Ik"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ik heb honger.",
+       "promptLang": "target",
+       "options": [
+        "I like apples.",
+        "I do not drink milk.",
+        "The tea is hot.",
+        "I am hungry."
        ],
-       "answer": [
-        "Ik",
-        "heb",
-        "honger"
-       ],
-       "accepted": [],
+       "answer": "I am hungry.",
        "words": [
         "Ik heb honger."
        ]
@@ -2000,12 +2545,12 @@
        "prompt": "Ik drink koffie.",
        "promptLang": "target",
        "tiles": [
-        "apples",
-        "drink",
-        "I",
         "coffee",
-        "like",
-        "Water"
+        "not",
+        "drink",
+        "do",
+        "Water",
+        "I"
        ],
        "answer": [
         "I",
@@ -2020,6 +2565,57 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "drink",
+        "honger",
+        "thee",
+        "geen",
+        "heb",
+        "Ik"
+       ],
+       "answer": [
+        "Ik",
+        "heb",
+        "honger"
+       ],
+       "accepted": [],
+       "words": [
+        "Ik heb honger."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "heb",
+        "van",
+        "appels",
+        "houd",
+        "is",
+        "Ik",
+        "De"
+       ],
+       "answer": [
+        "Ik",
+        "houd",
+        "van",
+        "appels"
+       ],
+       "accepted": [
+        "Ik hou van appels.",
+        "Ik vind appels lekker."
+       ],
+       "words": [
+        "Ik houd van appels."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Ik houd van appels.",
@@ -2029,18 +2625,6 @@
        ],
        "words": [
         "Ik houd van appels."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "I do not drink milk.",
-       "promptLang": "en",
-       "answers": [
-        "Ik drink geen melk."
-       ],
-       "words": [
-        "de melk"
        ]
       },
       {
@@ -2059,6 +2643,18 @@
       {
        "type": "type",
        "instruction": "Type this in Dutch",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Ik drink geen melk."
+       ],
+       "words": [
+        "de melk"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
        "prompt": "Bread",
        "promptLang": "en",
        "answers": [
@@ -2068,40 +2664,13 @@
        "words": [
         "het brood"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "I like apples.",
-       "promptLang": "en",
-       "tiles": [
-        "drink",
-        "van",
-        "appels",
-        "melk",
-        "is",
-        "houd",
-        "Ik"
-       ],
-       "answer": [
-        "Ik",
-        "houd",
-        "van",
-        "appels"
-       ],
-       "accepted": [
-        "Ik hou van appels.",
-        "Ik vind appels lekker."
-       ],
-       "words": [
-        "Ik houd van appels."
-       ]
       }
      ]
     },
     {
      "id": "u3l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2109,10 +2678,10 @@
        "prompt": "Water, alstublieft.",
        "promptLang": "target",
        "options": [
-        "I do not drink milk.",
-        "I drink coffee.",
-        "I like apples.",
-        "Water, please."
+        "Water, please.",
+        "I am hungry.",
+        "I eat bread.",
+        "I like apples."
        ],
        "answer": "Water, please.",
        "words": [
@@ -2129,39 +2698,39 @@
          "Coffee"
         ],
         [
+         "de rijst",
+         "Rice"
+        ],
+        [
+         "de melk",
+         "Milk"
+        ],
+        [
          "het ei",
          "Egg"
-        ],
-        [
-         "het water",
-         "Water"
-        ],
-        [
-         "de appel",
-         "Apple"
         ]
        ],
        "words": [
         "de koffie",
-        "het ei",
-        "het water",
-        "de appel"
+        "de rijst",
+        "de melk",
+        "het ei"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Milk",
+       "prompt": "Tea",
        "promptLang": "en",
-       "answer": "de melk",
+       "answer": "de thee",
        "words": [
-        "de melk"
+        "de thee"
        ],
        "options": [
-        "de melk",
-        "het water",
-        "de appel",
-        "het ei"
+        "de thee",
+        "de koffie",
+        "de rijst",
+        "de appel"
        ]
       },
       {
@@ -2170,12 +2739,12 @@
        "prompt": "I eat bread.",
        "promptLang": "en",
        "tiles": [
-        "heet",
-        "brood",
-        "geen",
+        "drink",
+        "melk",
         "eet",
-        "is",
-        "Ik"
+        "brood",
+        "Ik",
+        "koffie"
        ],
        "answer": [
         "Ik",
@@ -2185,6 +2754,31 @@
        "accepted": [],
        "words": [
         "het brood"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "De thee is heet.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "apples",
+        "is",
+        "tea",
+        "eat",
+        "bread",
+        "hot"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "de thee"
        ]
       },
       {
@@ -2200,41 +2794,15 @@
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "De thee is heet.",
-       "promptLang": "target",
-       "tiles": [
-        "coffee",
-        "tea",
-        "hot",
-        "milk",
-        "is",
-        "I",
-        "The"
-       ],
-       "answer": [
-        "The",
-        "tea",
-        "is",
-        "hot"
-       ],
-       "accepted": [],
-       "words": [
-        "de thee"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "Bread",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ik drink geen melk.",
+       "translation": "I do not drink milk.",
        "answers": [
-        "het brood",
-        "brood"
+        "Ik drink geen melk."
        ],
        "words": [
-        "het brood"
+        "de melk"
        ]
       },
       {
@@ -2251,15 +2819,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ik drink geen melk.",
-       "translation": "I do not drink milk.",
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Apple",
+       "promptLang": "en",
        "answers": [
-        "Ik drink geen melk."
+        "de appel",
+        "appel",
+        "een appel"
        ],
        "words": [
-        "de melk"
+        "de appel"
        ]
       }
      ]
@@ -2271,11 +2841,131 @@
    "title": "Numbers",
    "description": "Count from one to ten, ask prices and tell the time.",
    "icon": "hash",
-   "tip": "Write 'één' with accents when you mean the number one, to tell it apart from 'een' (a / an).",
+   "tips": [
+    "Write 'één' with accents when you mean the number one, to tell it apart from 'een' (a / an)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "één",
+      "e": "One"
+     },
+     {
+      "t": "twee",
+      "e": "Two"
+     },
+     {
+      "t": "drie",
+      "e": "Three"
+     },
+     {
+      "t": "vier",
+      "e": "Four"
+     },
+     {
+      "t": "vijf",
+      "e": "Five"
+     },
+     {
+      "t": "zes",
+      "e": "Six"
+     },
+     {
+      "t": "zeven",
+      "e": "Seven"
+     },
+     {
+      "t": "acht",
+      "e": "Eight"
+     },
+     {
+      "t": "negen",
+      "e": "Nine"
+     },
+     {
+      "t": "tien",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ik heb twee kinderen.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Hoeveel kost het?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Ik heb vier appels.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Eén koffie, alstublieft.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Twee kopjes thee, alstublieft.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Het is drie uur.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Een moment, alstublieft.",
+      "e": "One moment, please."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u4l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "één",
+       "e": "One",
+       "kind": "word",
+       "alts": [
+        "een"
+       ]
+      },
+      {
+       "t": "twee",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "drie",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "vier",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Ik heb twee kinderen.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Ik heb vier appels.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Hoeveel kost het?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Hoeveel kost dit?",
+        "Wat kost het?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2283,10 +2973,10 @@
        "prompt": "één",
        "promptLang": "target",
        "options": [
-        "Eight",
-        "Four",
         "One",
-        "Ten"
+        "Eight",
+        "Ten",
+        "Two"
        ],
        "answer": "One",
        "words": [
@@ -2300,45 +2990,13 @@
        "promptLang": "target",
        "options": [
         "Two",
-        "Five",
-        "Eight",
-        "Seven"
+        "Three",
+        "Six",
+        "One"
        ],
        "answer": "Two",
        "words": [
         "twee"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Three",
-       "promptLang": "en",
-       "answer": "drie",
-       "words": [
-        "drie"
-       ],
-       "options": [
-        "acht",
-        "negen",
-        "drie",
-        "zes"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "vier",
-       "promptLang": "target",
-       "options": [
-        "One",
-        "Six",
-        "Ten",
-        "Four"
-       ],
-       "answer": "Four",
-       "words": [
-        "vier"
        ]
       },
       {
@@ -2370,18 +3028,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "drie",
+       "words": [
+        "drie"
+       ],
+       "options": [
+        "zes",
+        "drie",
+        "één",
+        "tien"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vier",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Seven",
+        "Eight",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "vier"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "I have two children.",
        "promptLang": "en",
        "tiles": [
-        "Een",
-        "kinderen",
         "Ik",
-        "vier",
         "twee",
+        "kinderen",
+        "heb",
         "moment",
-        "heb"
+        "alstublieft",
+        "uur"
        ],
        "answer": [
         "Ik",
@@ -2395,30 +3085,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Hoeveel kost het?",
-       "translation": "How much is it?",
-       "answers": [
-        "Hoeveel kost het?"
-       ],
-       "words": [
-        "Hoeveel kost het?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ik heb vier appels.",
        "promptLang": "target",
        "tiles": [
-        "four",
-        "One",
-        "apples",
-        "children",
-        "is",
         "have",
-        "I"
+        "apples",
+        "four",
+        "How",
+        "I",
+        "is",
+        "moment"
        ],
        "answer": [
         "I",
@@ -2431,6 +3109,18 @@
        ],
        "words": [
         "vier"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hoeveel kost het?",
+       "translation": "How much is it?",
+       "answers": [
+        "Hoeveel kost het?"
+       ],
+       "words": [
+        "Hoeveel kost het?"
        ]
       },
       {
@@ -2453,6 +3143,52 @@
     {
      "id": "u4l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "vijf",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "zes",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "zeven",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "acht",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Eén koffie, alstublieft.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "alts": [
+        "Een koffie, alstublieft.",
+        "Eén koffie, alsjeblieft.",
+        "Een koffie, alsjeblieft."
+       ]
+      },
+      {
+       "t": "Twee kopjes thee, alstublieft.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "alts": [
+        "Twee thee, alstublieft.",
+        "Twee kopjes thee, alsjeblieft."
+       ]
+      },
+      {
+       "t": "Het is drie uur.",
+       "e": "It is three o'clock.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2460,10 +3196,10 @@
        "prompt": "vijf",
        "promptLang": "target",
        "options": [
-        "Ten",
-        "One",
-        "Seven",
-        "Five"
+        "Two",
+        "Five",
+        "Eight",
+        "Four"
        ],
        "answer": "Five",
        "words": [
@@ -2472,50 +3208,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Six",
-       "promptLang": "en",
-       "answer": "zes",
-       "words": [
-        "zes"
-       ],
-       "options": [
-        "tien",
-        "negen",
-        "acht",
-        "zes"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "zeven",
+       "prompt": "zes",
        "promptLang": "target",
        "options": [
         "Ten",
-        "Seven",
-        "Eight",
-        "Nine"
+        "Six",
+        "Nine",
+        "Five"
        ],
-       "answer": "Seven",
+       "answer": "Six",
        "words": [
-        "zeven"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Eight",
-       "promptLang": "en",
-       "answer": "acht",
-       "words": [
-        "acht"
-       ],
-       "options": [
-        "drie",
-        "acht",
-        "negen",
-        "één"
+        "zes"
        ]
       },
       {
@@ -2547,17 +3251,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "zeven",
+       "words": [
+        "zeven"
+       ],
+       "options": [
+        "drie",
+        "zeven",
+        "negen",
+        "één"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "acht",
+       "words": [
+        "acht"
+       ],
+       "options": [
+        "negen",
+        "acht",
+        "één",
+        "vier"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "One coffee, please.",
        "promptLang": "en",
        "tiles": [
-        "appels",
-        "uur",
         "alstublieft",
+        "Een",
         "Eén",
         "koffie",
-        "kinderen"
+        "uur",
+        "is"
        ],
        "answer": [
         "Eén",
@@ -2581,10 +3317,10 @@
        "promptLang": "target",
        "tiles": [
         "o'clock",
-        "How",
-        "coffee",
-        "please",
         "Two",
+        "coffee",
+        "four",
+        "please",
         "teas"
        ],
        "answer": [
@@ -2650,34 +3386,38 @@
     {
      "id": "u4l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Een moment, alstublieft.",
-       "promptLang": "target",
-       "options": [
-        "I have four apples.",
-        "Two teas, please.",
-        "One moment, please.",
-        "It is three o'clock."
-       ],
-       "answer": "One moment, please.",
-       "words": [
-        "alsjeblieft",
-        "één"
-       ]
+       "t": "negen",
+       "e": "Nine",
+       "kind": "word"
       },
+      {
+       "t": "tien",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Een moment, alstublieft.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Eén moment, alstublieft.",
+        "Een moment, alsjeblieft."
+       ]
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "negen",
        "promptLang": "target",
        "options": [
+        "Six",
         "Nine",
         "Seven",
-        "Six",
-        "Five"
+        "Eight"
        ],
        "answer": "Nine",
        "words": [
@@ -2689,56 +3429,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "drie",
-         "Three"
+         "vier",
+         "Four"
         ],
         [
-         "één",
-         "One"
+         "acht",
+         "Eight"
         ],
         [
          "zes",
          "Six"
         ],
         [
-         "vier",
-         "Four"
+         "negen",
+         "Nine"
         ],
         [
-         "vijf",
-         "Five"
+         "tien",
+         "Ten"
         ]
        ],
        "words": [
-        "drie",
-        "één",
-        "zes",
         "vier",
-        "vijf"
+        "acht",
+        "zes",
+        "negen",
+        "tien"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "One moment, please.",
-       "promptLang": "en",
-       "tiles": [
-        "Eén",
-        "moment",
-        "Een",
-        "Ik",
-        "thee",
-        "alstublieft"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Een moment, alstublieft.",
+       "promptLang": "target",
+       "options": [
+        "I have four apples.",
+        "Two teas, please.",
+        "One moment, please.",
+        "One coffee, please."
        ],
-       "answer": [
-        "Een",
-        "moment",
-        "alstublieft"
-       ],
-       "accepted": [
-        "Eén moment, alstublieft.",
-        "Een moment, alsjeblieft."
-       ],
+       "answer": "One moment, please.",
        "words": [
         "alsjeblieft",
         "één"
@@ -2750,13 +3480,13 @@
        "prompt": "Hoeveel kost het?",
        "promptLang": "target",
        "tiles": [
-        "How",
-        "is",
-        "please",
+        "One",
         "much",
-        "I",
+        "How",
         "it",
-        "children"
+        "I",
+        "is",
+        "moment"
        ],
        "answer": [
         "How",
@@ -2774,6 +3504,58 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Een",
+        "moment",
+        "heb",
+        "Ik",
+        "alstublieft",
+        "kopjes"
+       ],
+       "answer": [
+        "Een",
+        "moment",
+        "alstublieft"
+       ],
+       "accepted": [
+        "Eén moment, alstublieft.",
+        "Een moment, alsjeblieft."
+       ],
+       "words": [
+        "alsjeblieft",
+        "één"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "thee",
+        "is",
+        "uur",
+        "drie",
+        "Het",
+        "alstublieft",
+        "Eén"
+       ],
+       "answer": [
+        "Het",
+        "is",
+        "drie",
+        "uur"
+       ],
+       "accepted": [],
+       "words": [
+        "drie"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Het is drie uur.",
@@ -2783,6 +3565,19 @@
        ],
        "words": [
         "drie"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ik heb vier appels.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "vier"
        ]
       },
       {
@@ -2803,19 +3598,6 @@
       },
       {
        "type": "type",
-       "instruction": "Type this in English",
-       "prompt": "Ik heb vier appels.",
-       "promptLang": "target",
-       "answers": [
-        "I have four apples.",
-        "I have 4 apples."
-       ],
-       "words": [
-        "vier"
-       ]
-      },
-      {
-       "type": "type",
        "instruction": "Type this in Dutch",
        "prompt": "Ten",
        "promptLang": "en",
@@ -2825,37 +3607,13 @@
        "words": [
         "tien"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "It is three o'clock.",
-       "promptLang": "en",
-       "tiles": [
-        "is",
-        "appels",
-        "drie",
-        "Het",
-        "moment",
-        "uur",
-        "thee"
-       ],
-       "answer": [
-        "Het",
-        "is",
-        "drie",
-        "uur"
-       ],
-       "accepted": [],
-       "words": [
-        "drie"
-       ]
       }
      ]
     },
     {
      "id": "u4l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2863,10 +3621,10 @@
        "prompt": "Ik heb twee kinderen.",
        "promptLang": "target",
        "options": [
-        "I have four apples.",
-        "Two teas, please.",
-        "It is three o'clock.",
-        "I have two children."
+        "One coffee, please.",
+        "I have two children.",
+        "How much is it?",
+        "It is three o'clock."
        ],
        "answer": "I have two children.",
        "words": [
@@ -2878,43 +3636,43 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "tien",
-         "Ten"
+         "één",
+         "One"
+        ],
+        [
+         "vier",
+         "Four"
+        ],
+        [
+         "zes",
+         "Six"
         ],
         [
          "vijf",
          "Five"
-        ],
-        [
-         "negen",
-         "Nine"
-        ],
-        [
-         "drie",
-         "Three"
         ]
        ],
        "words": [
-        "tien",
-        "vijf",
-        "negen",
-        "drie"
+        "één",
+        "vier",
+        "zes",
+        "vijf"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "One",
+       "prompt": "Two",
        "promptLang": "en",
-       "answer": "één",
+       "answer": "twee",
        "words": [
-        "één"
+        "twee"
        ],
        "options": [
-        "tien",
+        "negen",
+        "acht",
         "één",
-        "twee",
-        "vier"
+        "twee"
        ]
       },
       {
@@ -2923,13 +3681,13 @@
        "prompt": "I have four apples.",
        "promptLang": "en",
        "tiles": [
-        "Hoeveel",
-        "heb",
         "Ik",
+        "heb",
+        "Hoeveel",
+        "appels",
         "vier",
         "twee",
-        "appels",
-        "alstublieft"
+        "Eén"
        ],
        "answer": [
         "Ik",
@@ -2943,30 +3701,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Een moment, alstublieft.",
-       "translation": "One moment, please.",
-       "answers": [
-        "Een moment, alstublieft."
-       ],
-       "words": [
-        "alsjeblieft",
-        "één"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Eén koffie, alstublieft.",
        "promptLang": "target",
        "tiles": [
-        "apples",
-        "it",
-        "please",
         "coffee",
-        "One",
-        "two"
+        "How",
+        "apples",
+        "children",
+        "please",
+        "One"
        ],
        "answer": [
         "One",
@@ -2983,15 +3728,30 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "Six",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Een moment, alstublieft.",
+       "translation": "One moment, please.",
        "answers": [
-        "zes"
+        "Een moment, alstublieft."
        ],
        "words": [
-        "zes"
+        "alsjeblieft",
+        "één"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Twee kopjes thee, alstublieft.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Twee kopjes thee, alstublieft."
+       ],
+       "words": [
+        "alsjeblieft",
+        "de thee",
+        "twee"
        ]
       },
       {
@@ -3010,17 +3770,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Twee kopjes thee, alstublieft.",
-       "translation": "Two teas, please.",
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Seven",
+       "promptLang": "en",
        "answers": [
-        "Twee kopjes thee, alstublieft."
+        "zeven"
        ],
        "words": [
-        "alsjeblieft",
-        "de thee",
-        "twee"
+        "zeven"
        ]
       }
      ]
@@ -3032,11 +3790,139 @@
    "title": "Travel and directions",
    "description": "Find your way around a new city.",
    "icon": "train",
-   "tip": "'Linksaf' and 'rechtsaf' are for turning left and right; 'links' and 'rechts' mean on the left and on the right.",
+   "tips": [
+    "'Linksaf' and 'rechtsaf' are for turning left and right; 'links' and 'rechts' mean on the left and on the right."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "het hotel",
+      "e": "Hotel"
+     },
+     {
+      "t": "het station",
+      "e": "Station"
+     },
+     {
+      "t": "het vliegveld",
+      "e": "Airport"
+     },
+     {
+      "t": "het kaartje",
+      "e": "Ticket"
+     },
+     {
+      "t": "links",
+      "e": "Left"
+     },
+     {
+      "t": "rechts",
+      "e": "Right"
+     },
+     {
+      "t": "waar",
+      "e": "Where"
+     },
+     {
+      "t": "het toilet",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Waar is het hotel?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Waar is het toilet?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Sla linksaf.",
+      "e": "Turn left."
+     },
+     {
+      "t": "Het station is rechts.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Een kaartje, alstublieft.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Ik ga naar het vliegveld.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Is het ver?",
+      "e": "Is it far?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u5l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "het hotel",
+       "e": "Hotel",
+       "kind": "word",
+       "alts": [
+        "hotel"
+       ]
+      },
+      {
+       "t": "het station",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "station"
+       ]
+      },
+      {
+       "t": "het vliegveld",
+       "e": "Airport",
+       "kind": "word",
+       "alts": [
+        "vliegveld",
+        "de luchthaven",
+        "luchthaven"
+       ]
+      },
+      {
+       "t": "het kaartje",
+       "e": "Ticket",
+       "kind": "word",
+       "alts": [
+        "kaartje",
+        "het ticket",
+        "ticket"
+       ]
+      },
+      {
+       "t": "Waar is het hotel?",
+       "e": "Where is the hotel?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sla linksaf.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Ga linksaf.",
+        "Ga naar links."
+       ]
+      },
+      {
+       "t": "Waar is het toilet?",
+       "e": "Where is the toilet?",
+       "kind": "phrase",
+       "alts": [
+        "Waar is de wc?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3044,10 +3930,10 @@
        "prompt": "het hotel",
        "promptLang": "target",
        "options": [
-        "Left",
-        "Station",
-        "Hotel",
-        "Where"
+        "Where",
+        "Airport",
+        "Ticket",
+        "Hotel"
        ],
        "answer": "Hotel",
        "words": [
@@ -3060,46 +3946,14 @@
        "prompt": "het station",
        "promptLang": "target",
        "options": [
-        "Left",
+        "Airport",
         "Where",
-        "Ticket",
-        "Station"
+        "Station",
+        "Toilet"
        ],
        "answer": "Station",
        "words": [
         "het station"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Airport",
-       "promptLang": "en",
-       "answer": "het vliegveld",
-       "words": [
-        "het vliegveld"
-       ],
-       "options": [
-        "het kaartje",
-        "het station",
-        "het vliegveld",
-        "het hotel"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "het kaartje",
-       "promptLang": "target",
-       "options": [
-        "Ticket",
-        "Left",
-        "Hotel",
-        "Station"
-       ],
-       "answer": "Ticket",
-       "words": [
-        "het kaartje"
        ]
       },
       {
@@ -3131,18 +3985,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "het vliegveld",
+       "words": [
+        "het vliegveld"
+       ],
+       "options": [
+        "het vliegveld",
+        "links",
+        "het station",
+        "het kaartje"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "het kaartje",
+       "promptLang": "target",
+       "options": [
+        "Right",
+        "Ticket",
+        "Left",
+        "Where"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "het kaartje"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "Where is the hotel?",
        "promptLang": "en",
        "tiles": [
-        "het",
-        "toilet",
-        "hotel",
         "Waar",
         "linksaf",
+        "het",
         "is",
-        "Ik"
+        "kaartje",
+        "alstublieft",
+        "hotel"
        ],
        "answer": [
         "Waar",
@@ -3157,29 +4043,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Waar is het toilet?",
-       "translation": "Where is the toilet?",
-       "answers": [
-        "Waar is het toilet?"
-       ],
-       "words": [
-        "waar",
-        "het toilet"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Sla linksaf.",
        "promptLang": "target",
        "tiles": [
-        "airport",
+        "toilet",
         "Turn",
+        "far",
         "left",
-        "please",
-        "Where"
+        "the"
        ],
        "answer": [
         "Turn",
@@ -3190,6 +4063,19 @@
        ],
        "words": [
         "Sla linksaf."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Waar is het toilet?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Waar is het toilet?"
+       ],
+       "words": [
+        "waar",
+        "het toilet"
        ]
       },
       {
@@ -3210,6 +4096,51 @@
     {
      "id": "u5l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "links",
+       "e": "Left",
+       "kind": "word"
+      },
+      {
+       "t": "rechts",
+       "e": "Right",
+       "kind": "word"
+      },
+      {
+       "t": "waar",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "het toilet",
+       "e": "Toilet",
+       "kind": "word",
+       "alts": [
+        "toilet",
+        "de wc",
+        "wc"
+       ]
+      },
+      {
+       "t": "Het station is rechts.",
+       "e": "The station is on the right.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Een kaartje, alstublieft.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "alts": [
+        "Een kaartje, alsjeblieft."
+       ]
+      },
+      {
+       "t": "Ik ga naar het vliegveld.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3217,10 +4148,10 @@
        "prompt": "links",
        "promptLang": "target",
        "options": [
-        "Right",
+        "Airport",
         "Left",
-        "Where",
-        "Hotel"
+        "Ticket",
+        "Right"
        ],
        "answer": "Left",
        "words": [
@@ -3229,50 +4160,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Right",
-       "promptLang": "en",
-       "answer": "rechts",
-       "words": [
-        "rechts"
-       ],
-       "options": [
-        "rechts",
-        "het kaartje",
-        "het hotel",
-        "het vliegveld"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "waar",
+       "prompt": "rechts",
        "promptLang": "target",
        "options": [
         "Right",
-        "Where",
-        "Hotel",
+        "Toilet",
+        "Ticket",
         "Left"
        ],
-       "answer": "Where",
+       "answer": "Right",
        "words": [
-        "waar"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Toilet",
-       "promptLang": "en",
-       "answer": "het toilet",
-       "words": [
-        "het toilet"
-       ],
-       "options": [
-        "waar",
-        "rechts",
-        "het kaartje",
-        "het toilet"
+        "rechts"
        ]
       },
       {
@@ -3304,18 +4203,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "waar",
+       "words": [
+        "waar"
+       ],
+       "options": [
+        "waar",
+        "het hotel",
+        "het station",
+        "het toilet"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "het toilet",
+       "words": [
+        "het toilet"
+       ],
+       "options": [
+        "waar",
+        "het hotel",
+        "het toilet",
+        "links"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "The station is on the right.",
        "promptLang": "en",
        "tiles": [
-        "is",
+        "Het",
+        "alstublieft",
         "rechts",
-        "Sla",
+        "is",
+        "linksaf",
         "station",
-        "kaartje",
-        "vliegveld",
-        "Het"
+        "naar"
        ],
        "answer": [
         "Het",
@@ -3335,12 +4266,12 @@
        "prompt": "Een kaartje, alstublieft.",
        "promptLang": "target",
        "tiles": [
-        "station",
-        "the",
-        "going",
+        "please",
+        "to",
         "A",
+        "Turn",
         "ticket",
-        "please"
+        "on"
        ],
        "answer": [
         "A",
@@ -3400,33 +4331,24 @@
     {
      "id": "u5l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Is het ver?",
-       "promptLang": "target",
-       "options": [
-        "A ticket, please.",
-        "Is it far?",
-        "I am going to the airport.",
-        "Where is the hotel?"
-       ],
-       "answer": "Is it far?",
-       "words": [
-        "Is het ver?"
-       ]
-      },
+       "t": "Is het ver?",
+       "e": "Is it far?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "het station",
        "promptLang": "target",
        "options": [
+        "Right",
         "Station",
-        "Toilet",
-        "Airport",
-        "Left"
+        "Where",
+        "Airport"
        ],
        "answer": "Station",
        "words": [
@@ -3438,53 +4360,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "waar",
-         "Where"
-        ],
-        [
-         "het hotel",
-         "Hotel"
-        ],
-        [
          "het vliegveld",
          "Airport"
         ],
         [
-         "links",
-         "Left"
+         "rechts",
+         "Right"
+        ],
+        [
+         "het kaartje",
+         "Ticket"
         ],
         [
          "het toilet",
          "Toilet"
+        ],
+        [
+         "het hotel",
+         "Hotel"
         ]
        ],
        "words": [
-        "waar",
-        "het hotel",
         "het vliegveld",
-        "links",
-        "het toilet"
+        "rechts",
+        "het kaartje",
+        "het toilet",
+        "het hotel"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "Is it far?",
-       "promptLang": "en",
-       "tiles": [
-        "vliegveld",
-        "ver",
-        "het",
-        "alstublieft",
-        "naar",
-        "Is"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Is het ver?",
+       "promptLang": "target",
+       "options": [
+        "Turn left.",
+        "A ticket, please.",
+        "Where is the hotel?",
+        "Is it far?"
        ],
-       "answer": [
-        "Is",
-        "het",
-        "ver"
-       ],
-       "accepted": [],
+       "answer": "Is it far?",
        "words": [
         "Is het ver?"
        ]
@@ -3495,13 +4410,13 @@
        "prompt": "Waar is het toilet?",
        "promptLang": "target",
        "tiles": [
-        "far",
-        "Where",
-        "station",
         "the",
+        "right",
+        "is",
+        "Where",
+        "Turn",
         "toilet",
-        "left",
-        "is"
+        "far"
        ],
        "answer": [
         "Where",
@@ -3520,6 +4435,56 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "kaartje",
+        "station",
+        "Is",
+        "het",
+        "ga",
+        "ver"
+       ],
+       "answer": [
+        "Is",
+        "het",
+        "ver"
+       ],
+       "accepted": [],
+       "words": [
+        "Is het ver?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "Ik",
+        "Een",
+        "het",
+        "Sla",
+        "vliegveld",
+        "ga",
+        "naar",
+        "Waar"
+       ],
+       "answer": [
+        "Ik",
+        "ga",
+        "naar",
+        "het",
+        "vliegveld"
+       ],
+       "accepted": [],
+       "words": [
+        "het vliegveld"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Ik ga naar het vliegveld.",
@@ -3529,6 +4494,19 @@
        ],
        "words": [
         "het vliegveld"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sla linksaf.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "Sla linksaf."
        ]
       },
       {
@@ -3548,19 +4526,6 @@
       },
       {
        "type": "type",
-       "instruction": "Type this in English",
-       "prompt": "Sla linksaf.",
-       "promptLang": "target",
-       "answers": [
-        "Turn left.",
-        "Go left."
-       ],
-       "words": [
-        "Sla linksaf."
-       ]
-      },
-      {
-       "type": "type",
        "instruction": "Type this in Dutch",
        "prompt": "Station",
        "promptLang": "en",
@@ -3571,39 +4536,13 @@
        "words": [
         "het station"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "I am going to the airport.",
-       "promptLang": "en",
-       "tiles": [
-        "naar",
-        "vliegveld",
-        "kaartje",
-        "het",
-        "Ik",
-        "Waar",
-        "ga",
-        "ver"
-       ],
-       "answer": [
-        "Ik",
-        "ga",
-        "naar",
-        "het",
-        "vliegveld"
-       ],
-       "accepted": [],
-       "words": [
-        "het vliegveld"
-       ]
       }
      ]
     },
     {
      "id": "u5l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -3611,8 +4550,8 @@
        "prompt": "Waar is het hotel?",
        "promptLang": "target",
        "options": [
-        "Is it far?",
         "A ticket, please.",
+        "Turn left.",
         "Where is the toilet?",
         "Where is the hotel?"
        ],
@@ -3631,12 +4570,12 @@
          "Left"
         ],
         [
-         "het toilet",
-         "Toilet"
-        ],
-        [
          "het kaartje",
          "Ticket"
+        ],
+        [
+         "het hotel",
+         "Hotel"
         ],
         [
          "rechts",
@@ -3645,25 +4584,25 @@
        ],
        "words": [
         "links",
-        "het toilet",
         "het kaartje",
+        "het hotel",
         "rechts"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Hotel",
+       "prompt": "Where",
        "promptLang": "en",
-       "answer": "het hotel",
+       "answer": "waar",
        "words": [
-        "het hotel"
+        "waar"
        ],
        "options": [
-        "links",
-        "het hotel",
         "waar",
-        "het toilet"
+        "het hotel",
+        "het vliegveld",
+        "het kaartje"
        ]
       },
       {
@@ -3672,11 +4611,11 @@
        "prompt": "Turn left.",
        "promptLang": "en",
        "tiles": [
+        "is",
         "Sla",
         "linksaf",
-        "ver",
-        "Ik",
-        "naar"
+        "ga",
+        "kaartje"
        ],
        "answer": [
         "Sla",
@@ -3691,32 +4630,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Is het ver?",
-       "translation": "Is it far?",
-       "answers": [
-        "Is het ver?"
-       ],
-       "words": [
-        "Is het ver?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Het station is rechts.",
        "promptLang": "target",
        "tiles": [
-        "it",
-        "right",
         "the",
-        "Where",
-        "on",
-        "to",
+        "right",
+        "please",
         "The",
+        "Turn",
+        "is",
         "station",
-        "is"
+        "on",
+        "airport"
        ],
        "answer": [
         "The",
@@ -3736,15 +4663,29 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "Where",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Is het ver?",
+       "translation": "Is it far?",
        "answers": [
-        "waar"
+        "Is het ver?"
        ],
        "words": [
-        "waar"
+        "Is het ver?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Een kaartje, alstublieft.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Een kaartje, alstublieft."
+       ],
+       "words": [
+        "alsjeblieft",
+        "één",
+        "het kaartje"
        ]
       },
       {
@@ -3764,17 +4705,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Een kaartje, alstublieft.",
-       "translation": "A ticket, please.",
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Toilet",
+       "promptLang": "en",
        "answers": [
-        "Een kaartje, alstublieft."
+        "het toilet",
+        "toilet",
+        "de wc",
+        "wc"
        ],
        "words": [
-        "alsjeblieft",
-        "één",
-        "het kaartje"
+        "het toilet"
        ]
       }
      ]
@@ -3786,11 +4728,125 @@
    "title": "Daily routine",
    "description": "Home, work, school and the time of day.",
    "icon": "calendar",
-   "tip": "''s Ochtends' (in the morning) and ''s nachts' (at night) start with an apostrophe and a small s.",
+   "tips": [
+    "''s Ochtends' (in the morning) and ''s nachts' (at night) start with an apostrophe and a small s."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "vandaag",
+      "e": "Today"
+     },
+     {
+      "t": "morgen",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "nu",
+      "e": "Now"
+     },
+     {
+      "t": "de ochtend",
+      "e": "Morning"
+     },
+     {
+      "t": "de nacht",
+      "e": "Night"
+     },
+     {
+      "t": "het huis",
+      "e": "House"
+     },
+     {
+      "t": "het werk",
+      "e": "Work"
+     },
+     {
+      "t": "de school",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ik ga naar mijn werk.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Ik ben thuis.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Vandaag is het maandag.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "'s Ochtends drink ik koffie.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Ik slaap 's nachts.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "De kinderen gaan naar school.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Hoe laat is het nu?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u6l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "vandaag",
+       "e": "Today",
+       "kind": "word"
+      },
+      {
+       "t": "morgen",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "nu",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "de ochtend",
+       "e": "Morning",
+       "kind": "word",
+       "alts": [
+        "ochtend"
+       ]
+      },
+      {
+       "t": "Ik ga naar mijn werk.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "alts": [
+        "Ik ga naar het werk."
+       ]
+      },
+      {
+       "t": "Vandaag is het maandag.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "alts": [
+        "Het is vandaag maandag."
+       ]
+      },
+      {
+       "t": "Ik ben thuis.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3798,10 +4854,10 @@
        "prompt": "vandaag",
        "promptLang": "target",
        "options": [
+        "House",
         "Today",
-        "Morning",
-        "Work",
-        "House"
+        "School",
+        "Morning"
        ],
        "answer": "Today",
        "words": [
@@ -3814,46 +4870,14 @@
        "prompt": "morgen",
        "promptLang": "target",
        "options": [
-        "School",
+        "House",
         "Tomorrow",
-        "Morning",
-        "House"
+        "Night",
+        "Work"
        ],
        "answer": "Tomorrow",
        "words": [
         "morgen"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Now",
-       "promptLang": "en",
-       "answer": "nu",
-       "words": [
-        "nu"
-       ],
-       "options": [
-        "het huis",
-        "nu",
-        "de nacht",
-        "het werk"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "de ochtend",
-       "promptLang": "target",
-       "options": [
-        "House",
-        "Night",
-        "Today",
-        "Morning"
-       ],
-       "answer": "Morning",
-       "words": [
-        "de ochtend"
        ]
       },
       {
@@ -3885,17 +4909,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "nu",
+       "words": [
+        "nu"
+       ],
+       "options": [
+        "het huis",
+        "de nacht",
+        "vandaag",
+        "nu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "de ochtend",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Today",
+        "School",
+        "Morning"
+       ],
+       "answer": "Morning",
+       "words": [
+        "de ochtend"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "I go to work.",
        "promptLang": "en",
        "tiles": [
-        "het",
-        "Ochtends",
-        "ga",
-        "Ik",
         "werk",
-        "is",
+        "Vandaag",
+        "Ik",
+        "'s",
+        "slaap",
+        "ga",
         "mijn",
         "naar"
        ],
@@ -3914,29 +4970,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ik ben thuis.",
-       "translation": "I am at home.",
-       "answers": [
-        "Ik ben thuis."
-       ],
-       "words": [
-        "Ik ben thuis."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Vandaag is het maandag.",
        "promptLang": "target",
        "tiles": [
-        "drink",
+        "is",
+        "in",
         "Monday",
-        "am",
         "Today",
-        "go",
-        "is"
+        "night",
+        "the"
        ],
        "answer": [
         "Today",
@@ -3948,6 +4992,18 @@
        ],
        "words": [
         "vandaag"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ik ben thuis.",
+       "translation": "I am at home.",
+       "answers": [
+        "Ik ben thuis."
+       ],
+       "words": [
+        "Ik ben thuis."
        ]
       },
       {
@@ -3968,6 +5024,58 @@
     {
      "id": "u6l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "de nacht",
+       "e": "Night",
+       "kind": "word",
+       "alts": [
+        "nacht"
+       ]
+      },
+      {
+       "t": "het huis",
+       "e": "House",
+       "kind": "word",
+       "alts": [
+        "huis"
+       ]
+      },
+      {
+       "t": "het werk",
+       "e": "Work",
+       "kind": "word",
+       "alts": [
+        "werk"
+       ]
+      },
+      {
+       "t": "de school",
+       "e": "School",
+       "kind": "word",
+       "alts": [
+        "school"
+       ]
+      },
+      {
+       "t": "'s Ochtends drink ik koffie.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Ik drink 's ochtends koffie."
+       ]
+      },
+      {
+       "t": "Ik slaap 's nachts.",
+       "e": "I sleep at night.",
+       "kind": "phrase"
+      },
+      {
+       "t": "De kinderen gaan naar school.",
+       "e": "The children go to school.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3975,10 +5083,10 @@
        "prompt": "de nacht",
        "promptLang": "target",
        "options": [
-        "Today",
-        "House",
-        "Tomorrow",
-        "Night"
+        "Morning",
+        "School",
+        "Night",
+        "Now"
        ],
        "answer": "Night",
        "words": [
@@ -3987,50 +5095,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "House",
-       "promptLang": "en",
-       "answer": "het huis",
-       "words": [
-        "het huis"
-       ],
-       "options": [
-        "de ochtend",
-        "de school",
-        "het huis",
-        "nu"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "het werk",
+       "prompt": "het huis",
        "promptLang": "target",
        "options": [
-        "Work",
+        "House",
         "School",
         "Night",
         "Now"
        ],
-       "answer": "Work",
+       "answer": "House",
        "words": [
-        "het werk"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "School",
-       "promptLang": "en",
-       "answer": "de school",
-       "words": [
-        "de school"
-       ],
-       "options": [
-        "de school",
-        "morgen",
-        "nu",
-        "vandaag"
+        "het huis"
        ]
       },
       {
@@ -4062,19 +5138,51 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "het werk",
+       "words": [
+        "het werk"
+       ],
+       "options": [
+        "het werk",
+        "morgen",
+        "nu",
+        "vandaag"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "de school",
+       "words": [
+        "de school"
+       ],
+       "options": [
+        "de school",
+        "het huis",
+        "de ochtend",
+        "de nacht"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Dutch",
        "prompt": "I drink coffee in the morning.",
        "promptLang": "en",
        "tiles": [
-        "drink",
-        "ik",
         "'s",
-        "De",
-        "Vandaag",
-        "Ochtends",
+        "school",
+        "mijn",
         "koffie",
-        "naar"
+        "ik",
+        "gaan",
+        "Ochtends",
+        "drink"
        ],
        "answer": [
         "'s",
@@ -4096,13 +5204,13 @@
        "prompt": "Ik slaap 's nachts.",
        "promptLang": "target",
        "tiles": [
-        "coffee",
-        "night",
-        "I",
         "sleep",
+        "night",
+        "children",
+        "am",
         "at",
         "Today",
-        "drink"
+        "I"
        ],
        "answer": [
         "I",
@@ -4161,33 +5269,24 @@
     {
      "id": "u6l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Hoe laat is het nu?",
-       "promptLang": "target",
-       "options": [
-        "I am at home.",
-        "What time is it now?",
-        "I sleep at night.",
-        "I go to work."
-       ],
-       "answer": "What time is it now?",
-       "words": [
-        "nu"
-       ]
-      },
+       "t": "Hoe laat is het nu?",
+       "e": "What time is it now?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "morgen",
        "promptLang": "target",
        "options": [
-        "Today",
+        "House",
         "Tomorrow",
         "Work",
-        "House"
+        "Now"
        ],
        "answer": "Tomorrow",
        "words": [
@@ -4199,57 +5298,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "morgen",
-         "Tomorrow"
+         "de nacht",
+         "Night"
         ],
         [
-         "het werk",
-         "Work"
+         "het huis",
+         "House"
         ],
         [
          "nu",
          "Now"
         ],
         [
-         "de ochtend",
-         "Morning"
+         "morgen",
+         "Tomorrow"
         ],
         [
-         "vandaag",
-         "Today"
+         "het werk",
+         "Work"
         ]
        ],
        "words": [
-        "morgen",
-        "het werk",
+        "de nacht",
+        "het huis",
         "nu",
-        "de ochtend",
-        "vandaag"
+        "morgen",
+        "het werk"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "What time is it now?",
-       "promptLang": "en",
-       "tiles": [
-        "werk",
-        "nu",
-        "'s",
-        "het",
-        "is",
-        "ben",
-        "laat",
-        "Hoe"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Hoe laat is het nu?",
+       "promptLang": "target",
+       "options": [
+        "I am at home.",
+        "I drink coffee in the morning.",
+        "What time is it now?",
+        "I go to work."
        ],
-       "answer": [
-        "Hoe",
-        "laat",
-        "is",
-        "het",
-        "nu"
-       ],
-       "accepted": [],
+       "answer": "What time is it now?",
        "words": [
         "nu"
        ]
@@ -4260,13 +5348,13 @@
        "prompt": "Ik ben thuis.",
        "promptLang": "target",
        "tiles": [
-        "drink",
-        "I",
-        "home",
-        "am",
-        "in",
+        "What",
         "at",
-        "What"
+        "in",
+        "I",
+        "am",
+        "sleep",
+        "home"
        ],
        "answer": [
         "I",
@@ -4282,6 +5370,60 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "koffie",
+        "De",
+        "het",
+        "laat",
+        "Hoe",
+        "is",
+        "nu",
+        "mijn"
+       ],
+       "answer": [
+        "Hoe",
+        "laat",
+        "is",
+        "het",
+        "nu"
+       ],
+       "accepted": [],
+       "words": [
+        "nu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "nu",
+        "De",
+        "kinderen",
+        "naar",
+        "laat",
+        "ben",
+        "school",
+        "gaan"
+       ],
+       "answer": [
+        "De",
+        "kinderen",
+        "gaan",
+        "naar",
+        "school"
+       ],
+       "accepted": [],
+       "words": [
+        "de school"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "De kinderen gaan naar school.",
@@ -4291,18 +5433,6 @@
        ],
        "words": [
         "de school"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "I sleep at night.",
-       "promptLang": "en",
-       "answers": [
-        "Ik slaap 's nachts."
-       ],
-       "words": [
-        "Ik slaap 's nachts."
        ]
       },
       {
@@ -4321,6 +5451,18 @@
       {
        "type": "type",
        "instruction": "Type this in Dutch",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Ik slaap 's nachts."
+       ],
+       "words": [
+        "Ik slaap 's nachts."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
        "prompt": "Tomorrow",
        "promptLang": "en",
        "answers": [
@@ -4329,39 +5471,13 @@
        "words": [
         "morgen"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Dutch",
-       "prompt": "The children go to school.",
-       "promptLang": "en",
-       "tiles": [
-        "Ochtends",
-        "naar",
-        "school",
-        "kinderen",
-        "gaan",
-        "drink",
-        "De",
-        "Hoe"
-       ],
-       "answer": [
-        "De",
-        "kinderen",
-        "gaan",
-        "naar",
-        "school"
-       ],
-       "accepted": [],
-       "words": [
-        "de school"
-       ]
       }
      ]
     },
     {
      "id": "u6l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -4369,10 +5485,10 @@
        "prompt": "Ik ga naar mijn werk.",
        "promptLang": "target",
        "options": [
-        "The children go to school.",
-        "Today is Monday.",
         "I go to work.",
-        "What time is it now?"
+        "I am at home.",
+        "I drink coffee in the morning.",
+        "Today is Monday."
        ],
        "answer": "I go to work.",
        "words": [
@@ -4388,39 +5504,39 @@
          "School"
         ],
         [
-         "de nacht",
-         "Night"
-        ],
-        [
          "het werk",
          "Work"
         ],
         [
-         "de ochtend",
-         "Morning"
+         "nu",
+         "Now"
+        ],
+        [
+         "de nacht",
+         "Night"
         ]
        ],
        "words": [
         "de school",
-        "de nacht",
         "het werk",
-        "de ochtend"
+        "nu",
+        "de nacht"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Now",
+       "prompt": "Today",
        "promptLang": "en",
-       "answer": "nu",
+       "answer": "vandaag",
        "words": [
-        "nu"
+        "vandaag"
        ],
        "options": [
-        "het werk",
-        "vandaag",
         "het huis",
-        "nu"
+        "vandaag",
+        "de nacht",
+        "de school"
        ]
       },
       {
@@ -4429,13 +5545,13 @@
        "prompt": "Today is Monday.",
        "promptLang": "en",
        "tiles": [
-        "maandag",
-        "is",
         "het",
-        "werk",
-        "laat",
         "nu",
-        "Vandaag"
+        "is",
+        "drink",
+        "maandag",
+        "Vandaag",
+        "naar"
        ],
        "answer": [
         "Vandaag",
@@ -4451,32 +5567,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Hoe laat is het nu?",
-       "translation": "What time is it now?",
-       "answers": [
-        "Hoe laat is het nu?"
-       ],
-       "words": [
-        "nu"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "'s Ochtends drink ik koffie.",
        "promptLang": "target",
        "tiles": [
-        "in",
-        "drink",
-        "the",
+        "work",
         "coffee",
-        "What",
-        "to",
+        "Monday",
         "I",
         "morning",
-        "is"
+        "Today",
+        "drink",
+        "the",
+        "in"
        ],
        "answer": [
         "I",
@@ -4495,16 +5599,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Dutch",
-       "prompt": "House",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hoe laat is het nu?",
+       "translation": "What time is it now?",
        "answers": [
-        "het huis",
-        "huis"
+        "Hoe laat is het nu?"
        ],
        "words": [
-        "het huis"
+        "nu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ik slaap 's nachts.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Ik slaap 's nachts."
+       ],
+       "words": [
+        "Ik slaap 's nachts."
        ]
       },
       {
@@ -4521,15 +5636,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ik slaap 's nachts.",
-       "translation": "I sleep at night.",
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "House",
+       "promptLang": "en",
        "answers": [
-        "Ik slaap 's nachts."
+        "het huis",
+        "huis"
        ],
        "words": [
-        "Ik slaap 's nachts."
+        "het huis"
        ]
       }
      ]

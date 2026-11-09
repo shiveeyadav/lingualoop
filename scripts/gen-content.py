@@ -94,6 +94,10 @@ def words_in(text, vocab):
 
 # ---------------------------------------------------------------- sources
 
+def as_list(x):
+    return [x] if isinstance(x, str) else list(x)
+
+
 def item(t, e, ealt, talt, r, ralt=()):
     return {"t": t, "e": e, "ealt": list(ealt), "talt": list(talt), "r": r, "ralt": list(ralt)}
 
@@ -117,7 +121,7 @@ def from_concepts(mod):
             "title": u["title"],
             "description": u["description"],
             "icon": u["icon"],
-            "tip": tips.get(u["key"], ""),
+            "tips": as_list(tips.get(u["key"], [])),
             "vocab": conv(u["vocab"]),
             "sentences": conv(u["sentences"]),
         })
@@ -135,7 +139,7 @@ def from_skills(mod):
                 "title": sk["title"],
                 "description": u["description"],
                 "icon": sk["icon"],
-                "tip": sk["tip"],
+                "tips": as_list(sk.get("tips") or sk["tip"]),
                 "vocab": [item(v["t"], v["e"], v["ealt"], v["talt"], v.get("r")) for v in sk["vocab"]],
                 "sentences": [item(s["t"], s["e"], s["ealt"], s["talt"], s.get("r")) for s in sk["sentences"]],
             })
@@ -183,6 +187,33 @@ class Builder:
         self.nospace = bool(course["noSpaces"])
         self.allvocab = [v for u in course["units"] for v in u["vocab"]]
         self.lang = course["shortName"]
+        self.lesson_items = []
+        self.taught = set()
+        for u in course["units"]:
+            for v in u["vocab"]:
+                v["vocab"] = True
+
+    # Items (vocab or sentences) a lesson uses, in order of first use. The first time an
+    # item appears anywhere on the learning path it goes on that lesson's "teach" list.
+    def use(self, *items):
+        for it in items:
+            if all(it is not x for x in self.lesson_items):
+                self.lesson_items.append(it)
+
+    def teach_list(self):
+        out = []
+        for it in self.lesson_items:
+            if id(it) in self.taught:
+                continue
+            self.taught.add(id(it))
+            card = {"t": self.d(it["t"]), "e": cap(it["e"]), "kind": "word" if it.get("vocab") else "phrase"}
+            if self.roman:
+                card["r"] = it["r"]
+            if it["talt"]:
+                card["alts"] = [self.d(a) for a in it["talt"]]
+            out.append(card)
+        # Words before phrases: learn the pieces, then see them in use.
+        return [c for c in out if c["kind"] == "word"] + [c for c in out if c["kind"] == "phrase"]
 
     # display form (Chinese/Japanese sources keep spaces between words for tiles)
     def d(self, text):
@@ -212,6 +243,7 @@ class Builder:
         return ex
 
     def mc_vocab(self, v, vocab, direction):
+        self.use(v)
         # Skip distractors that collapse to the same text without accents (avó / avô).
         others = [x for x in vocab if x is not v and norm(x["t"]) != norm(v["t"]) and norm(x["e"]) != norm(v["e"])]
         picks = self.rng.sample(others, 3)
@@ -238,6 +270,7 @@ class Builder:
         return self.options_with_roman(ex, [v] + picks)
 
     def mc_sentence(self, s, sentences):
+        self.use(s)
         others = [x for x in sentences if x is not s]
         picks = self.rng.sample(others, 3)
         ex = {
@@ -252,6 +285,7 @@ class Builder:
         return self.with_roman(ex, "promptRoman", s)
 
     def match(self, items):
+        self.use(*items)
         ex = {
             "type": "match",
             "instruction": "Match the pairs",
@@ -268,6 +302,7 @@ class Builder:
         return list(zip(toks, romans))
 
     def tap_target(self, s, sentences):
+        self.use(s)
         ans = self._target_tokens(s)
         have = {t.lower() for t, _ in ans}
         pool = []
@@ -297,6 +332,7 @@ class Builder:
         return ex
 
     def tap_english(self, s, sentences):
+        self.use(s)
         ans = tokens(s["e"])
         have = {t.lower() for t in ans}
         pool = []
@@ -320,6 +356,7 @@ class Builder:
         return self.with_roman(ex, "promptRoman", s)
 
     def type_t2e(self, it, is_vocab=False):
+        self.use(it)
         ex = {
             "type": "type",
             "instruction": "Type this in English",
@@ -331,6 +368,7 @@ class Builder:
         return self.with_roman(ex, "promptRoman", it)
 
     def type_e2t(self, it, sentences, is_vocab=False):
+        self.use(it)
         if self.roman and not is_vocab:
             # Typing whole sentences in a new script is not realistic for beginners;
             # build them from tiles instead.
@@ -351,6 +389,7 @@ class Builder:
         return ex
 
     def listen(self, s, sentences):
+        self.use(s)
         if self.roman:
             others = self.rng.sample([x for x in sentences if x is not s], 3)
             ex = {
@@ -372,56 +411,77 @@ class Builder:
         }
 
     def lessons_for_unit(self, unit):
+        """Four lessons. Each starts with the easiest exercise types (multiple choice,
+        match pairs) on its new words, then word tiles and listening, and typing last.
+        Returns [(exercises, teach), ...]."""
         v, s = unit["vocab"], unit["sentences"]
         extra = v[8:] if len(v) > 8 else [v[1]]
-        L1 = [
-            self.mc_vocab(v[0], v, "t2e"),
-            self.mc_vocab(v[1], v, "t2e"),
-            self.mc_vocab(v[2], v, "e2t"),
-            self.mc_vocab(v[3], v, "t2e"),
-            self.match(v[0:4]),
-            self.tap_target(s[0], s),
-            self.listen(s[1], s),
-            self.tap_english(s[2], s),
-            self.type_t2e(s[0]),
-        ]
-        L2 = [
-            self.mc_vocab(v[4], v, "t2e"),
-            self.mc_vocab(v[5], v, "e2t"),
-            self.mc_vocab(v[6], v, "t2e"),
-            self.mc_vocab(v[7], v, "e2t"),
-            self.match(v[4:8]),
-            self.tap_target(s[3], s),
-            self.tap_english(s[4], s),
-            self.listen(s[3], s),
-            self.type_t2e(s[5]),
-            self.type_e2t(v[0], s, is_vocab=True),
-        ]
-        L3 = [
-            self.mc_sentence(s[6], s),
-            self.mc_vocab(extra[0], v, "t2e"),
-            self.match(self.rng.sample(v, 5)),
-            self.tap_target(s[6], s),
-            self.tap_english(s[1], s),
-            self.listen(s[5], s),
-            self.type_e2t(s[4], s),
-            self.type_t2e(s[2]),
-            self.type_e2t(extra[-1], s, is_vocab=True),
-            self.tap_target(s[5], s),
-        ]
         rv = self.rng.sample(v, 6)
-        L4 = [
-            self.mc_sentence(s[0], s),
-            self.match(rv[0:4]),
-            self.mc_vocab(rv[4], v, "e2t"),
-            self.tap_target(s[2], s),
-            self.listen(s[6], s),
-            self.tap_english(s[3], s),
-            self.type_e2t(rv[5], s, is_vocab=True),
-            self.type_t2e(s[1]),
-            self.listen(s[4], s),
+        review5 = self.rng.sample(v, 5)
+        plans = [
+            lambda: [
+                self.mc_vocab(v[0], v, "t2e"),
+                self.mc_vocab(v[1], v, "t2e"),
+                self.match(v[0:4]),
+                self.mc_vocab(v[2], v, "e2t"),
+                self.mc_vocab(v[3], v, "t2e"),
+                self.tap_target(s[0], s),
+                self.tap_english(s[2], s),
+                self.listen(s[1], s),
+                self.type_t2e(s[0]),
+            ],
+            lambda: [
+                self.mc_vocab(v[4], v, "t2e"),
+                self.mc_vocab(v[5], v, "t2e"),
+                self.match(v[4:8]),
+                self.mc_vocab(v[6], v, "e2t"),
+                self.mc_vocab(v[7], v, "e2t"),
+                self.tap_target(s[3], s),
+                self.tap_english(s[4], s),
+                self.listen(s[3], s),
+                self.type_t2e(s[5]),
+                self.type_e2t(v[0], s, is_vocab=True),
+            ],
+            lambda: [
+                self.mc_vocab(extra[0], v, "t2e"),
+                self.match(review5),
+                self.mc_sentence(s[6], s),
+                self.tap_english(s[1], s),
+                self.tap_target(s[6], s),
+                self.tap_target(s[5], s),
+                self.listen(s[5], s),
+                self.type_t2e(s[2]),
+                self.type_e2t(s[4], s),
+                self.type_e2t(extra[-1], s, is_vocab=True),
+            ],
+            lambda: [
+                self.mc_sentence(s[0], s),
+                self.match(rv[0:4]),
+                self.mc_vocab(rv[4], v, "e2t"),
+                self.tap_target(s[2], s),
+                self.tap_english(s[3], s),
+                self.listen(s[6], s),
+                self.listen(s[4], s),
+                self.type_t2e(s[1]),
+                self.type_e2t(rv[5], s, is_vocab=True),
+            ],
         ]
-        return [L1, L2, L3, L4]
+        out = []
+        for plan in plans:
+            self.lesson_items = []
+            exercises = plan()
+            out.append((exercises, self.teach_list()))
+        return out
+
+
+def unit_glossary(unit, b):
+    """Key words and phrases of a unit for its guidebook page."""
+    def entry(it):
+        e = {"t": b.d(it["t"]), "e": cap(it["e"])}
+        if b.roman:
+            e["r"] = it["r"]
+        return e
+    return {"words": [entry(v) for v in unit["vocab"]], "phrases": [entry(x) for x in unit["sentences"]]}
 
 
 def build(spec):
@@ -435,10 +495,11 @@ def build(spec):
             "title": unit["title"],
             "description": unit["description"],
             "icon": unit["icon"],
-            "tip": unit["tip"],
+            "tips": unit["tips"],
+            "guide": unit_glossary(unit, b),
             "lessons": [
-                {"id": "%sl%d" % (uid, li), "title": LESSON_TITLES[li - 1], "exercises": ex}
-                for li, ex in enumerate(b.lessons_for_unit(unit), start=1)
+                {"id": "%sl%d" % (uid, li), "title": LESSON_TITLES[li - 1], "teach": teach, "exercises": ex}
+                for li, (ex, teach) in enumerate(b.lessons_for_unit(unit), start=1)
             ],
         })
     out = {
@@ -452,6 +513,7 @@ def build(spec):
         "romanization": spec["romanization"],
         "noSpaces": spec["noSpaces"],
         "keyboard": spec["keyboard"],
+        "particles": spec.get("particles", []),
         "order": spec.get("order", 1000),
         "description": spec["description"],
         "units": units,

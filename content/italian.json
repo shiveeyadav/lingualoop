@@ -16,6 +16,7 @@
   "ò",
   "ù"
  ],
+ "particles": [],
  "order": 50,
  "description": "Everyday Italian: greetings, family, food, numbers, getting around and your day.",
  "units": [
@@ -24,11 +25,136 @@
    "title": "Greetings",
    "description": "Say hello, introduce yourself and be polite.",
    "icon": "wave",
-   "tip": "'Ciao' means both hello and goodbye, but only with friends. 'Buongiorno' and 'arrivederci' are the polite forms.",
+   "tips": [
+    "'Ciao' means both hello and goodbye, but only with friends. 'Buongiorno' and 'arrivederci' are the polite forms."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "ciao",
+      "e": "Hello"
+     },
+     {
+      "t": "arrivederci",
+      "e": "Goodbye"
+     },
+     {
+      "t": "grazie",
+      "e": "Thank you"
+     },
+     {
+      "t": "per favore",
+      "e": "Please"
+     },
+     {
+      "t": "sì",
+      "e": "Yes"
+     },
+     {
+      "t": "no",
+      "e": "No"
+     },
+     {
+      "t": "buongiorno",
+      "e": "Good morning"
+     },
+     {
+      "t": "scusa",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Come stai?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Sto bene, grazie.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Mi chiamo Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Piacere.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Grazie mille.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "A domani.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Come ti chiami?",
+      "e": "What is your name?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u1l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "ciao",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "salve"
+       ]
+      },
+      {
+       "t": "arrivederci",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "ciao"
+       ]
+      },
+      {
+       "t": "grazie",
+       "e": "Thank you",
+       "kind": "word"
+      },
+      {
+       "t": "per favore",
+       "e": "Please",
+       "kind": "word",
+       "alts": [
+        "per piacere"
+       ]
+      },
+      {
+       "t": "Come stai?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Come sta?",
+        "Come va?"
+       ]
+      },
+      {
+       "t": "Mi chiamo Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Il mio nome è Anna.",
+        "Sono Anna."
+       ]
+      },
+      {
+       "t": "Sto bene, grazie.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Bene, grazie."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -36,9 +162,9 @@
        "prompt": "ciao",
        "promptLang": "target",
        "options": [
-        "Good morning",
-        "Goodbye",
         "Thank you",
+        "Please",
+        "Yes",
         "Hello"
        ],
        "answer": "Hello",
@@ -52,46 +178,14 @@
        "prompt": "arrivederci",
        "promptLang": "target",
        "options": [
+        "Good morning",
+        "Thank you",
         "Goodbye",
-        "No",
-        "Hello",
-        "Yes"
+        "Hello"
        ],
        "answer": "Goodbye",
        "words": [
         "arrivederci"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Thank you",
-       "promptLang": "en",
-       "answer": "grazie",
-       "words": [
-        "grazie"
-       ],
-       "options": [
-        "arrivederci",
-        "no",
-        "grazie",
-        "ciao"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "per favore",
-       "promptLang": "target",
-       "options": [
-        "Sorry",
-        "Please",
-        "Good morning",
-        "Goodbye"
-       ],
-       "answer": "Please",
-       "words": [
-        "per favore"
        ]
       },
       {
@@ -123,15 +217,47 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "grazie",
+       "words": [
+        "grazie"
+       ],
+       "options": [
+        "sì",
+        "arrivederci",
+        "grazie",
+        "buongiorno"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "per favore",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Please",
+        "No",
+        "Hello"
+       ],
+       "answer": "Please",
+       "words": [
+        "per favore"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "How are you?",
        "promptLang": "en",
        "tiles": [
         "Come",
-        "grazie",
         "stai",
         "chiamo",
+        "domani",
         "Sto"
        ],
        "answer": [
@@ -147,30 +273,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Sto bene, grazie.",
-       "translation": "I am fine, thank you.",
-       "answers": [
-        "Sto bene, grazie."
-       ],
-       "words": [
-        "grazie"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Mi chiamo Anna.",
        "promptLang": "target",
        "tiles": [
-        "meet",
         "is",
-        "your",
+        "name",
+        "Nice",
         "My",
-        "are",
         "Anna",
-        "name"
+        "am",
+        "your"
        ],
        "answer": [
         "My",
@@ -184,6 +298,18 @@
        ],
        "words": [
         "Mi chiamo Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sto bene, grazie.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Sto bene, grazie."
+       ],
+       "words": [
+        "grazie"
        ]
       },
       {
@@ -204,6 +330,54 @@
     {
      "id": "u1l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "sì",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "no",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "buongiorno",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "scusa",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "scusi",
+        "mi dispiace"
+       ]
+      },
+      {
+       "t": "Piacere.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "alts": [
+        "Piacere di conoscerti.",
+        "Piacere di conoscerla."
+       ]
+      },
+      {
+       "t": "Grazie mille.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Grazie tante."
+       ]
+      },
+      {
+       "t": "A domani.",
+       "e": "See you tomorrow.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -211,10 +385,10 @@
        "prompt": "sì",
        "promptLang": "target",
        "options": [
+        "Good morning",
         "Sorry",
-        "No",
-        "Please",
-        "Yes"
+        "Yes",
+        "Hello"
        ],
        "answer": "Yes",
        "words": [
@@ -223,50 +397,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "No",
-       "promptLang": "en",
-       "answer": "no",
-       "words": [
-        "no"
-       ],
-       "options": [
-        "buongiorno",
-        "scusa",
-        "no",
-        "ciao"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "buongiorno",
+       "prompt": "no",
        "promptLang": "target",
        "options": [
-        "Good morning",
+        "No",
         "Yes",
         "Please",
         "Hello"
        ],
-       "answer": "Good morning",
+       "answer": "No",
        "words": [
-        "buongiorno"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
-       "promptLang": "en",
-       "answer": "scusa",
-       "words": [
-        "scusa"
-       ],
-       "options": [
-        "no",
-        "arrivederci",
-        "scusa",
-        "grazie"
+        "no"
        ]
       },
       {
@@ -298,15 +440,47 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "buongiorno",
+       "words": [
+        "buongiorno"
+       ],
+       "options": [
+        "no",
+        "arrivederci",
+        "buongiorno",
+        "grazie"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "scusa",
+       "words": [
+        "scusa"
+       ],
+       "options": [
+        "scusa",
+        "sì",
+        "grazie",
+        "no"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "Nice to meet you.",
        "promptLang": "en",
        "tiles": [
-        "Anna",
-        "chiami",
-        "domani",
-        "Piacere"
+        "bene",
+        "grazie",
+        "Piacere",
+        "ti"
        ],
        "answer": [
         "Piacere"
@@ -325,12 +499,12 @@
        "prompt": "Grazie mille.",
        "promptLang": "target",
        "tiles": [
-        "See",
+        "What",
+        "How",
+        "you",
         "very",
         "Thank",
-        "are",
-        "you",
-        "name",
+        "tomorrow",
         "much"
        ],
        "answer": [
@@ -391,23 +565,17 @@
     {
      "id": "u1l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Come ti chiami?",
-       "promptLang": "target",
-       "options": [
-        "What is your name?",
-        "How are you?",
-        "Nice to meet you.",
-        "See you tomorrow."
-       ],
-       "answer": "What is your name?",
-       "words": [
-        "Come ti chiami?"
+       "t": "Come ti chiami?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Come si chiama?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
@@ -429,55 +597,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "sì",
+         "Yes"
+        ],
+        [
+         "ciao",
+         "Hello"
+        ],
+        [
+         "per favore",
+         "Please"
+        ],
+        [
          "scusa",
          "Sorry"
         ],
         [
          "grazie",
          "Thank you"
-        ],
-        [
-         "arrivederci",
-         "Goodbye"
-        ],
-        [
-         "buongiorno",
-         "Good morning"
-        ],
-        [
-         "no",
-         "No"
         ]
        ],
        "words": [
+        "sì",
+        "ciao",
+        "per favore",
         "scusa",
-        "grazie",
-        "arrivederci",
-        "buongiorno",
-        "no"
+        "grazie"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "What is your name?",
-       "promptLang": "en",
-       "tiles": [
-        "ti",
-        "chiamo",
-        "bene",
-        "Come",
-        "A",
-        "chiami"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Come ti chiami?",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "I am fine, thank you.",
+        "What is your name?",
+        "My name is Anna."
        ],
-       "answer": [
-        "Come",
-        "ti",
-        "chiami"
-       ],
-       "accepted": [
-        "Come si chiama?"
-       ],
+       "answer": "What is your name?",
        "words": [
         "Come ti chiami?"
        ]
@@ -488,14 +647,14 @@
        "prompt": "Sto bene, grazie.",
        "promptLang": "target",
        "tiles": [
-        "to",
-        "I",
-        "fine",
-        "My",
-        "am",
-        "tomorrow",
+        "you",
         "thank",
-        "you"
+        "My",
+        "fine",
+        "What",
+        "Anna",
+        "am",
+        "I"
        ],
        "answer": [
         "I",
@@ -517,55 +676,28 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "A domani.",
-       "translation": "See you tomorrow.",
-       "answers": [
-        "A domani."
-       ],
-       "words": [
-        "domani"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Thank you very much.",
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "What is your name?",
        "promptLang": "en",
-       "answers": [
-        "Grazie mille.",
-        "Grazie tante."
+       "tiles": [
+        "Piacere",
+        "bene",
+        "Come",
+        "ti",
+        "Anna",
+        "chiami"
+       ],
+       "answer": [
+        "Come",
+        "ti",
+        "chiami"
+       ],
+       "accepted": [
+        "Come si chiama?"
        ],
        "words": [
-        "grazie"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in English",
-       "prompt": "Mi chiamo Anna.",
-       "promptLang": "target",
-       "answers": [
-        "My name is Anna.",
-        "I am Anna.",
-        "I am called Anna."
-       ],
-       "words": [
-        "Mi chiamo Anna."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Goodbye",
-       "promptLang": "en",
-       "answers": [
-        "arrivederci",
-        "ciao"
-       ],
-       "words": [
-        "arrivederci"
+        "Come ti chiami?"
        ]
       },
       {
@@ -588,12 +720,65 @@
        "words": [
         "domani"
        ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "A domani.",
+       "translation": "See you tomorrow.",
+       "answers": [
+        "A domani."
+       ],
+       "words": [
+        "domani"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mi chiamo Anna.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Mi chiamo Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Grazie mille.",
+        "Grazie tante."
+       ],
+       "words": [
+        "grazie"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "arrivederci",
+        "ciao"
+       ],
+       "words": [
+        "arrivederci"
+       ]
       }
      ]
     },
     {
      "id": "u1l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -601,10 +786,10 @@
        "prompt": "Come stai?",
        "promptLang": "target",
        "options": [
-        "How are you?",
-        "Thank you very much.",
         "Nice to meet you.",
-        "I am fine, thank you."
+        "How are you?",
+        "What is your name?",
+        "See you tomorrow."
        ],
        "answer": "How are you?",
        "words": [
@@ -616,42 +801,42 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "sì",
-         "Yes"
-        ],
-        [
          "grazie",
          "Thank you"
+        ],
+        [
+         "ciao",
+         "Hello"
         ],
         [
          "buongiorno",
          "Good morning"
         ],
         [
-         "ciao",
-         "Hello"
+         "no",
+         "No"
         ]
        ],
        "words": [
-        "sì",
         "grazie",
+        "ciao",
         "buongiorno",
-        "ciao"
+        "no"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Sorry",
+       "prompt": "Please",
        "promptLang": "en",
-       "answer": "scusa",
+       "answer": "per favore",
        "words": [
-        "scusa"
+        "per favore"
        ],
        "options": [
-        "sì",
+        "ciao",
+        "per favore",
         "scusa",
-        "arrivederci",
         "buongiorno"
        ]
       },
@@ -661,12 +846,12 @@
        "prompt": "My name is Anna.",
        "promptLang": "en",
        "tiles": [
-        "domani",
         "chiamo",
-        "Anna",
-        "grazie",
+        "A",
+        "bene",
         "Mi",
-        "A"
+        "Anna",
+        "Come"
        ],
        "answer": [
         "Mi",
@@ -682,30 +867,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Come ti chiami?",
-       "translation": "What is your name?",
-       "answers": [
-        "Come ti chiami?"
-       ],
-       "words": [
-        "Come ti chiami?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Piacere.",
        "promptLang": "target",
        "tiles": [
-        "See",
-        "is",
-        "you",
-        "What",
+        "your",
+        "Nice",
+        "tomorrow",
         "to",
+        "you",
         "meet",
-        "Nice"
+        "very"
        ],
        "answer": [
         "Nice",
@@ -721,16 +894,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Please",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Come ti chiami?",
+       "translation": "What is your name?",
        "answers": [
-        "per favore",
-        "per piacere"
+        "Come ti chiami?"
        ],
        "words": [
-        "per favore"
+        "Come ti chiami?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Grazie mille.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Grazie mille."
+       ],
+       "words": [
+        "grazie"
        ]
       },
       {
@@ -752,15 +936,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Grazie mille.",
-       "translation": "Thank you very much.",
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Sorry",
+       "promptLang": "en",
        "answers": [
-        "Grazie mille."
+        "scusa",
+        "scusi",
+        "mi dispiace"
        ],
        "words": [
-        "grazie"
+        "scusa"
        ]
       }
      ]
@@ -772,11 +958,139 @@
    "title": "People and family",
    "description": "Talk about the people around you.",
    "icon": "person",
-   "tip": "'Mio' / 'mia' (my) match the noun: 'mio padre', 'mia madre'. With a single family member Italian leaves out 'il' / 'la'.",
+   "tips": [
+    "'Mio' / 'mia' (my) match the noun: 'mio padre', 'mia madre'. With a single family member Italian leaves out 'il' / 'la'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "l'uomo",
+      "e": "Man"
+     },
+     {
+      "t": "la donna",
+      "e": "Woman"
+     },
+     {
+      "t": "il bambino",
+      "e": "Child"
+     },
+     {
+      "t": "l'amico",
+      "e": "Friend"
+     },
+     {
+      "t": "la madre",
+      "e": "Mother"
+     },
+     {
+      "t": "il padre",
+      "e": "Father"
+     },
+     {
+      "t": "il figlio",
+      "e": "Son"
+     },
+     {
+      "t": "la figlia",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Questa è mia madre.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "Lui è mio amico.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Ho un figlio.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Dov'è mio padre?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Mia madre è a casa.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "Lei è mia figlia.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Chi è quest'uomo?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u2l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "l'uomo",
+       "e": "Man",
+       "kind": "word",
+       "alts": [
+        "uomo"
+       ]
+      },
+      {
+       "t": "la donna",
+       "e": "Woman",
+       "kind": "word",
+       "alts": [
+        "donna"
+       ]
+      },
+      {
+       "t": "il bambino",
+       "e": "Child",
+       "kind": "word",
+       "alts": [
+        "bambino",
+        "la bambina",
+        "bambina"
+       ]
+      },
+      {
+       "t": "l'amico",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "amico",
+        "l'amica",
+        "amica"
+       ]
+      },
+      {
+       "t": "Questa è mia madre.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "Questa è mia mamma."
+       ]
+      },
+      {
+       "t": "Ho un figlio.",
+       "e": "I have a son.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Lui è mio amico.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "alts": [
+        "È mio amico.",
+        "Lui è il mio amico."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -786,8 +1100,8 @@
        "options": [
         "Man",
         "Mother",
-        "Woman",
-        "Child"
+        "Child",
+        "Friend"
        ],
        "answer": "Man",
        "words": [
@@ -800,46 +1114,14 @@
        "prompt": "la donna",
        "promptLang": "target",
        "options": [
-        "Woman",
+        "Daughter",
         "Mother",
-        "Son",
+        "Woman",
         "Father"
        ],
        "answer": "Woman",
        "words": [
         "la donna"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Child",
-       "promptLang": "en",
-       "answer": "il bambino",
-       "words": [
-        "il bambino"
-       ],
-       "options": [
-        "l'amico",
-        "la donna",
-        "il bambino",
-        "l'uomo"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "l'amico",
-       "promptLang": "target",
-       "options": [
-        "Son",
-        "Friend",
-        "Mother",
-        "Woman"
-       ],
-       "answer": "Friend",
-       "words": [
-        "l'amico"
        ]
       },
       {
@@ -871,18 +1153,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "il bambino",
+       "words": [
+        "il bambino"
+       ],
+       "options": [
+        "l'amico",
+        "il bambino",
+        "l'uomo",
+        "il figlio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "l'amico",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Mother",
+        "Friend",
+        "Father"
+       ],
+       "answer": "Friend",
+       "words": [
+        "l'amico"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "This is my mother.",
        "promptLang": "en",
        "tiles": [
+        "Ho",
         "Questa",
+        "Lei",
         "madre",
         "è",
-        "quest'uomo",
-        "Dov'è",
-        "mia",
-        "mio"
+        "casa",
+        "mia"
        ],
        "answer": [
         "Questa",
@@ -898,30 +1212,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Lui è mio amico.",
-       "translation": "He is my friend.",
-       "answers": [
-        "Lui è mio amico."
-       ],
-       "words": [
-        "l'amico"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ho un figlio.",
        "promptLang": "target",
        "tiles": [
-        "man",
-        "friend",
-        "I",
-        "have",
-        "a",
         "son",
-        "She"
+        "at",
+        "Where",
+        "a",
+        "have",
+        "I",
+        "is"
        ],
        "answer": [
         "I",
@@ -936,6 +1238,18 @@
        "words": [
         "il figlio",
         "uno"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Lui è mio amico.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Lui è mio amico."
+       ],
+       "words": [
+        "l'amico"
        ]
       },
       {
@@ -957,6 +1271,66 @@
     {
      "id": "u2l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "la madre",
+       "e": "Mother",
+       "kind": "word",
+       "alts": [
+        "madre",
+        "mamma"
+       ]
+      },
+      {
+       "t": "il padre",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "padre",
+        "papà"
+       ]
+      },
+      {
+       "t": "il figlio",
+       "e": "Son",
+       "kind": "word",
+       "alts": [
+        "figlio"
+       ]
+      },
+      {
+       "t": "la figlia",
+       "e": "Daughter",
+       "kind": "word",
+       "alts": [
+        "figlia"
+       ]
+      },
+      {
+       "t": "Dov'è mio padre?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Dov'è mio papà?"
+       ]
+      },
+      {
+       "t": "Mia madre è a casa.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "alts": [
+        "Mia mamma è a casa."
+       ]
+      },
+      {
+       "t": "Lei è mia figlia.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "alts": [
+        "È mia figlia."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -964,10 +1338,10 @@
        "prompt": "la madre",
        "promptLang": "target",
        "options": [
-        "Woman",
-        "Mother",
+        "Man",
         "Son",
-        "Child"
+        "Mother",
+        "Woman"
        ],
        "answer": "Mother",
        "words": [
@@ -976,50 +1350,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Father",
-       "promptLang": "en",
-       "answer": "il padre",
-       "words": [
-        "il padre"
-       ],
-       "options": [
-        "l'uomo",
-        "il figlio",
-        "il padre",
-        "la donna"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "il figlio",
+       "prompt": "il padre",
        "promptLang": "target",
        "options": [
         "Man",
         "Woman",
-        "Son",
+        "Father",
         "Mother"
        ],
-       "answer": "Son",
+       "answer": "Father",
        "words": [
-        "il figlio"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Daughter",
-       "promptLang": "en",
-       "answer": "la figlia",
-       "words": [
-        "la figlia"
-       ],
-       "options": [
-        "la madre",
-        "l'amico",
-        "l'uomo",
-        "la figlia"
+        "il padre"
        ]
       },
       {
@@ -1051,17 +1393,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "il figlio",
+       "words": [
+        "il figlio"
+       ],
+       "options": [
+        "la madre",
+        "l'amico",
+        "l'uomo",
+        "il figlio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "la figlia",
+       "words": [
+        "la figlia"
+       ],
+       "options": [
+        "la donna",
+        "la madre",
+        "la figlia",
+        "il padre"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "Where is my father?",
        "promptLang": "en",
        "tiles": [
-        "Ho",
-        "Lui",
-        "mio",
         "Dov'è",
+        "Lei",
+        "è",
+        "Lui",
         "padre",
-        "Lei"
+        "mio"
        ],
        "answer": [
         "Dov'è",
@@ -1081,14 +1455,14 @@
        "prompt": "Mia madre è a casa.",
        "promptLang": "target",
        "tiles": [
-        "He",
-        "My",
-        "Where",
-        "is",
-        "at",
-        "home",
+        "This",
+        "daughter",
         "mother",
-        "man"
+        "is",
+        "friend",
+        "My",
+        "at",
+        "home"
        ],
        "answer": [
         "My",
@@ -1151,33 +1525,27 @@
     {
      "id": "u2l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Chi è quest'uomo?",
-       "promptLang": "target",
-       "options": [
-        "Who is this man?",
-        "Where is my father?",
-        "My mother is at home.",
-        "I have a son."
-       ],
-       "answer": "Who is this man?",
-       "words": [
-        "Chi è quest'uomo?"
+       "t": "Chi è quest'uomo?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "alts": [
+        "Chi è questo uomo?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "la donna",
        "promptLang": "target",
        "options": [
-        "Woman",
-        "Daughter",
-        "Man",
-        "Father"
+        "Friend",
+        "Mother",
+        "Father",
+        "Woman"
        ],
        "answer": "Woman",
        "words": [
@@ -1189,32 +1557,73 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "il bambino",
+         "Child"
+        ],
+        [
          "la figlia",
          "Daughter"
         ],
         [
-         "il figlio",
-         "Son"
+         "l'uomo",
+         "Man"
         ],
         [
-         "la madre",
-         "Mother"
+         "la donna",
+         "Woman"
         ],
         [
          "il padre",
          "Father"
-        ],
-        [
-         "l'uomo",
-         "Man"
         ]
        ],
        "words": [
+        "il bambino",
         "la figlia",
-        "il figlio",
-        "la madre",
-        "il padre",
-        "l'uomo"
+        "l'uomo",
+        "la donna",
+        "il padre"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Chi è quest'uomo?",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "Where is my father?",
+        "I have a son.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "Chi è quest'uomo?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Lui è mio amico.",
+       "promptLang": "target",
+       "tiles": [
+        "my",
+        "a",
+        "father",
+        "is",
+        "She",
+        "He",
+        "friend"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "l'amico"
        ]
       },
       {
@@ -1223,12 +1632,12 @@
        "prompt": "Who is this man?",
        "promptLang": "en",
        "tiles": [
+        "Ho",
         "è",
-        "quest'uomo",
-        "un",
-        "Lei",
         "Chi",
-        "mio"
+        "figlio",
+        "quest'uomo",
+        "Questa"
        ],
        "answer": [
         "Chi",
@@ -1244,27 +1653,29 @@
       },
       {
        "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Lui è mio amico.",
-       "promptLang": "target",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
        "tiles": [
-        "friend",
-        "He",
-        "Where",
-        "daughter",
-        "This",
-        "is",
-        "my"
+        "Dov'è",
+        "Lui",
+        "figlia",
+        "a",
+        "è",
+        "mia",
+        "Lei"
        ],
        "answer": [
-        "He",
-        "is",
-        "my",
-        "friend"
+        "Lei",
+        "è",
+        "mia",
+        "figlia"
        ],
-       "accepted": [],
+       "accepted": [
+        "È mia figlia."
+       ],
        "words": [
-        "l'amico"
+        "la figlia"
        ]
       },
       {
@@ -1277,20 +1688,6 @@
        ],
        "words": [
         "la figlia"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "My mother is at home.",
-       "promptLang": "en",
-       "answers": [
-        "Mia madre è a casa.",
-        "Mia mamma è a casa."
-       ],
-       "words": [
-        "la madre",
-        "la casa"
        ]
       },
       {
@@ -1311,6 +1708,20 @@
       {
        "type": "type",
        "instruction": "Type this in Italian",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Mia madre è a casa.",
+        "Mia mamma è a casa."
+       ],
+       "words": [
+        "la madre",
+        "la casa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
        "prompt": "Woman",
        "promptLang": "en",
        "answers": [
@@ -1320,39 +1731,13 @@
        "words": [
         "la donna"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "She is my daughter.",
-       "promptLang": "en",
-       "tiles": [
-        "figlio",
-        "figlia",
-        "Lui",
-        "Lei",
-        "mia",
-        "a",
-        "è"
-       ],
-       "answer": [
-        "Lei",
-        "è",
-        "mia",
-        "figlia"
-       ],
-       "accepted": [
-        "È mia figlia."
-       ],
-       "words": [
-        "la figlia"
-       ]
       }
      ]
     },
     {
      "id": "u2l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -1361,9 +1746,9 @@
        "promptLang": "target",
        "options": [
         "I have a son.",
+        "He is my friend.",
         "This is my mother.",
-        "Where is my father?",
-        "He is my friend."
+        "Who is this man?"
        ],
        "answer": "This is my mother.",
        "words": [
@@ -1379,39 +1764,39 @@
          "Friend"
         ],
         [
-         "la figlia",
-         "Daughter"
+         "la donna",
+         "Woman"
+        ],
+        [
+         "il bambino",
+         "Child"
         ],
         [
          "l'uomo",
          "Man"
-        ],
-        [
-         "la donna",
-         "Woman"
         ]
        ],
        "words": [
         "l'amico",
-        "la figlia",
-        "l'uomo",
-        "la donna"
+        "la donna",
+        "il bambino",
+        "l'uomo"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Mother",
+       "prompt": "Father",
        "promptLang": "en",
-       "answer": "la madre",
+       "answer": "il padre",
        "words": [
-        "la madre"
+        "il padre"
        ],
        "options": [
         "il figlio",
-        "la madre",
         "il padre",
-        "il bambino"
+        "il bambino",
+        "l'uomo"
        ]
       },
       {
@@ -1436,18 +1821,6 @@
        "words": [
         "il figlio",
         "uno"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Chi è quest'uomo?",
-       "translation": "Who is this man?",
-       "answers": [
-        "Chi è quest'uomo?"
-       ],
-       "words": [
-        "Chi è quest'uomo?"
        ]
       },
       {
@@ -1478,18 +1851,28 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Child",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Chi è quest'uomo?",
+       "translation": "Who is this man?",
        "answers": [
-        "il bambino",
-        "bambino",
-        "la bambina",
-        "bambina"
+        "Chi è quest'uomo?"
        ],
        "words": [
-        "il bambino"
+        "Chi è quest'uomo?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mia madre è a casa.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Mia madre è a casa."
+       ],
+       "words": [
+        "la madre",
+        "la casa"
        ]
       },
       {
@@ -1505,16 +1888,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Mia madre è a casa.",
-       "translation": "My mother is at home.",
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Mother",
+       "promptLang": "en",
        "answers": [
-        "Mia madre è a casa."
+        "la madre",
+        "madre",
+        "mamma"
        ],
        "words": [
-        "la madre",
-        "la casa"
+        "la madre"
        ]
       }
      ]
@@ -1526,11 +1910,139 @@
    "title": "Food and drink",
    "description": "Order, eat and drink.",
    "icon": "cup",
-   "tip": "'Mi piace' (I like) becomes 'mi piacciono' for plural things: 'mi piacciono le mele'.",
+   "tips": [
+    "'Mi piace' (I like) becomes 'mi piacciono' for plural things: 'mi piacciono le mele'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "l'acqua",
+      "e": "Water"
+     },
+     {
+      "t": "il pane",
+      "e": "Bread"
+     },
+     {
+      "t": "il caffè",
+      "e": "Coffee"
+     },
+     {
+      "t": "il tè",
+      "e": "Tea"
+     },
+     {
+      "t": "il latte",
+      "e": "Milk"
+     },
+     {
+      "t": "la mela",
+      "e": "Apple"
+     },
+     {
+      "t": "il riso",
+      "e": "Rice"
+     },
+     {
+      "t": "l'uovo",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Acqua, per favore.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Bevo il caffè.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Mangio il pane.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Il tè è caldo.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Non bevo latte.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Mi piacciono le mele.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Ho fame.",
+      "e": "I am hungry."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u3l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "l'acqua",
+       "e": "Water",
+       "kind": "word",
+       "alts": [
+        "acqua"
+       ]
+      },
+      {
+       "t": "il pane",
+       "e": "Bread",
+       "kind": "word",
+       "alts": [
+        "pane"
+       ]
+      },
+      {
+       "t": "il caffè",
+       "e": "Coffee",
+       "kind": "word",
+       "alts": [
+        "caffè"
+       ]
+      },
+      {
+       "t": "il tè",
+       "e": "Tea",
+       "kind": "word",
+       "alts": [
+        "tè"
+       ]
+      },
+      {
+       "t": "Acqua, per favore.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Dell'acqua, per favore."
+       ]
+      },
+      {
+       "t": "Mangio il pane.",
+       "e": "I eat bread.",
+       "kind": "phrase",
+       "alts": [
+        "Mangio pane.",
+        "Io mangio il pane."
+       ]
+      },
+      {
+       "t": "Bevo il caffè.",
+       "e": "I drink coffee.",
+       "kind": "phrase",
+       "alts": [
+        "Bevo caffè.",
+        "Io bevo il caffè."
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1538,10 +2050,10 @@
        "prompt": "l'acqua",
        "promptLang": "target",
        "options": [
-        "Egg",
+        "Water",
         "Apple",
-        "Tea",
-        "Water"
+        "Rice",
+        "Tea"
        ],
        "answer": "Water",
        "words": [
@@ -1554,46 +2066,14 @@
        "prompt": "il pane",
        "promptLang": "target",
        "options": [
-        "Rice",
-        "Coffee",
-        "Milk",
-        "Bread"
-       ],
-       "answer": "Bread",
-       "words": [
-        "il pane"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Coffee",
-       "promptLang": "en",
-       "answer": "il caffè",
-       "words": [
-        "il caffè"
-       ],
-       "options": [
-        "il caffè",
-        "il riso",
-        "il tè",
-        "la mela"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "il tè",
-       "promptLang": "target",
-       "options": [
-        "Tea",
+        "Bread",
         "Water",
         "Apple",
         "Milk"
        ],
-       "answer": "Tea",
+       "answer": "Bread",
        "words": [
-        "il tè"
+        "il pane"
        ]
       },
       {
@@ -1625,17 +2105,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "il caffè",
+       "words": [
+        "il caffè"
+       ],
+       "options": [
+        "il latte",
+        "il caffè",
+        "l'acqua",
+        "il pane"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "il tè",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Bread",
+        "Tea",
+        "Milk"
+       ],
+       "answer": "Tea",
+       "words": [
+        "il tè"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "Water, please.",
        "promptLang": "en",
        "tiles": [
-        "favore",
-        "Mi",
         "Acqua",
-        "caffè",
+        "Ho",
+        "è",
+        "favore",
         "per",
-        "tè"
+        "Mi"
        ],
        "answer": [
         "Acqua",
@@ -1651,29 +2163,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Bevo il caffè.",
-       "translation": "I drink coffee.",
-       "answers": [
-        "Bevo il caffè."
-       ],
-       "words": [
-        "il caffè"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Mangio il pane.",
        "promptLang": "target",
        "tiles": [
+        "am",
         "eat",
         "I",
-        "bread",
         "hungry",
-        "am",
-        "hot"
+        "apples",
+        "bread"
        ],
        "answer": [
         "I",
@@ -1685,6 +2185,18 @@
        ],
        "words": [
         "il pane"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bevo il caffè.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Bevo il caffè."
+       ],
+       "words": [
+        "il caffè"
        ]
       },
       {
@@ -1706,6 +2218,60 @@
     {
      "id": "u3l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "il latte",
+       "e": "Milk",
+       "kind": "word",
+       "alts": [
+        "latte"
+       ]
+      },
+      {
+       "t": "la mela",
+       "e": "Apple",
+       "kind": "word",
+       "alts": [
+        "mela",
+        "una mela"
+       ]
+      },
+      {
+       "t": "il riso",
+       "e": "Rice",
+       "kind": "word",
+       "alts": [
+        "riso"
+       ]
+      },
+      {
+       "t": "l'uovo",
+       "e": "Egg",
+       "kind": "word",
+       "alts": [
+        "uovo",
+        "un uovo"
+       ]
+      },
+      {
+       "t": "Il tè è caldo.",
+       "e": "The tea is hot.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Non bevo latte.",
+       "e": "I do not drink milk.",
+       "kind": "phrase",
+       "alts": [
+        "Non bevo il latte."
+       ]
+      },
+      {
+       "t": "Mi piacciono le mele.",
+       "e": "I like apples.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -1713,10 +2279,10 @@
        "prompt": "il latte",
        "promptLang": "target",
        "options": [
-        "Milk",
-        "Apple",
-        "Egg",
-        "Rice"
+        "Bread",
+        "Tea",
+        "Rice",
+        "Milk"
        ],
        "answer": "Milk",
        "words": [
@@ -1725,50 +2291,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Apple",
-       "promptLang": "en",
-       "answer": "la mela",
-       "words": [
-        "la mela"
-       ],
-       "options": [
-        "la mela",
-        "il latte",
-        "il tè",
-        "il caffè"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "il riso",
+       "prompt": "la mela",
        "promptLang": "target",
        "options": [
+        "Milk",
         "Rice",
         "Apple",
-        "Water",
-        "Bread"
+        "Egg"
        ],
-       "answer": "Rice",
+       "answer": "Apple",
        "words": [
-        "il riso"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Egg",
-       "promptLang": "en",
-       "answer": "l'uovo",
-       "words": [
-        "l'uovo"
-       ],
-       "options": [
-        "il riso",
-        "il caffè",
-        "l'acqua",
-        "l'uovo"
+        "la mela"
        ]
       },
       {
@@ -1800,18 +2334,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "il riso",
+       "words": [
+        "il riso"
+       ],
+       "options": [
+        "la mela",
+        "il riso",
+        "l'acqua",
+        "l'uovo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "l'uovo",
+       "words": [
+        "l'uovo"
+       ],
+       "options": [
+        "la mela",
+        "il latte",
+        "il caffè",
+        "l'uovo"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "The tea is hot.",
        "promptLang": "en",
        "tiles": [
+        "caldo",
         "Il",
         "piacciono",
-        "tè",
-        "caldo",
+        "per",
         "è",
-        "Ho",
-        "pane"
+        "tè",
+        "mele"
        ],
        "answer": [
         "Il",
@@ -1830,14 +2396,14 @@
        "prompt": "Non bevo latte.",
        "promptLang": "target",
        "tiles": [
-        "milk",
-        "hungry",
-        "is",
         "not",
+        "bread",
         "drink",
-        "The",
-        "do",
-        "I"
+        "apples",
+        "tea",
+        "I",
+        "milk",
+        "do"
        ],
        "answer": [
         "I",
@@ -1893,33 +2459,24 @@
     {
      "id": "u3l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Ho fame.",
-       "promptLang": "target",
-       "options": [
-        "Water, please.",
-        "I like apples.",
-        "I am hungry.",
-        "I do not drink milk."
-       ],
-       "answer": "I am hungry.",
-       "words": [
-        "Ho fame."
-       ]
-      },
+       "t": "Ho fame.",
+       "e": "I am hungry.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "il pane",
        "promptLang": "target",
        "options": [
+        "Apple",
         "Tea",
         "Bread",
-        "Egg",
-        "Water"
+        "Egg"
        ],
        "answer": "Bread",
        "words": [
@@ -1931,51 +2488,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "la mela",
-         "Apple"
-        ],
-        [
-         "l'uovo",
-         "Egg"
+         "il tè",
+         "Tea"
         ],
         [
          "il pane",
          "Bread"
         ],
         [
-         "il tè",
-         "Tea"
+         "l'uovo",
+         "Egg"
         ],
         [
-         "il latte",
-         "Milk"
+         "la mela",
+         "Apple"
+        ],
+        [
+         "l'acqua",
+         "Water"
         ]
        ],
        "words": [
-        "la mela",
-        "l'uovo",
-        "il pane",
         "il tè",
-        "il latte"
+        "il pane",
+        "l'uovo",
+        "la mela",
+        "l'acqua"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "I am hungry.",
-       "promptLang": "en",
-       "tiles": [
-        "Acqua",
-        "piacciono",
-        "fame",
-        "Ho",
-        "il"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ho fame.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "I like apples.",
+        "I drink coffee.",
+        "The tea is hot."
        ],
-       "answer": [
-        "Ho",
-        "fame"
-       ],
-       "accepted": [],
+       "answer": "I am hungry.",
        "words": [
         "Ho fame."
        ]
@@ -1987,11 +2539,11 @@
        "promptLang": "target",
        "tiles": [
         "coffee",
+        "Water",
         "drink",
         "I",
-        "please",
-        "hungry",
-        "Water"
+        "not",
+        "hungry"
        ],
        "answer": [
         "I",
@@ -2006,6 +2558,52 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "per",
+        "fame",
+        "il",
+        "Acqua",
+        "Ho"
+       ],
+       "answer": [
+        "Ho",
+        "fame"
+       ],
+       "accepted": [],
+       "words": [
+        "Ho fame."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Mi",
+        "le",
+        "piacciono",
+        "caldo",
+        "Mangio",
+        "latte",
+        "mele"
+       ],
+       "answer": [
+        "Mi",
+        "piacciono",
+        "le",
+        "mele"
+       ],
+       "accepted": [],
+       "words": [
+        "Mi piacciono le mele."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Mi piacciono le mele.",
@@ -2015,19 +2613,6 @@
        ],
        "words": [
         "Mi piacciono le mele."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "I do not drink milk.",
-       "promptLang": "en",
-       "answers": [
-        "Non bevo latte.",
-        "Non bevo il latte."
-       ],
-       "words": [
-        "il latte"
        ]
       },
       {
@@ -2046,6 +2631,19 @@
       {
        "type": "type",
        "instruction": "Type this in Italian",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Non bevo latte.",
+        "Non bevo il latte."
+       ],
+       "words": [
+        "il latte"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
        "prompt": "Bread",
        "promptLang": "en",
        "answers": [
@@ -2055,37 +2653,13 @@
        "words": [
         "il pane"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "I like apples.",
-       "promptLang": "en",
-       "tiles": [
-        "Mi",
-        "le",
-        "piacciono",
-        "caldo",
-        "Ho",
-        "fame",
-        "mele"
-       ],
-       "answer": [
-        "Mi",
-        "piacciono",
-        "le",
-        "mele"
-       ],
-       "accepted": [],
-       "words": [
-        "Mi piacciono le mele."
-       ]
       }
      ]
     },
     {
      "id": "u3l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2093,10 +2667,10 @@
        "prompt": "Acqua, per favore.",
        "promptLang": "target",
        "options": [
-        "I do not drink milk.",
+        "Water, please.",
+        "I like apples.",
         "The tea is hot.",
-        "I am hungry.",
-        "Water, please."
+        "I eat bread."
        ],
        "answer": "Water, please.",
        "words": [
@@ -2113,39 +2687,39 @@
          "Milk"
         ],
         [
-         "il pane",
-         "Bread"
-        ],
-        [
-         "l'uovo",
-         "Egg"
+         "il caffè",
+         "Coffee"
         ],
         [
          "la mela",
          "Apple"
+        ],
+        [
+         "l'uovo",
+         "Egg"
         ]
        ],
        "words": [
         "il latte",
-        "il pane",
-        "l'uovo",
-        "la mela"
+        "il caffè",
+        "la mela",
+        "l'uovo"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Tea",
+       "prompt": "Water",
        "promptLang": "en",
-       "answer": "il tè",
+       "answer": "l'acqua",
        "words": [
-        "il tè"
+        "l'acqua"
        ],
        "options": [
+        "il riso",
         "la mela",
-        "il pane",
-        "il tè",
-        "il latte"
+        "l'acqua",
+        "l'uovo"
        ]
       },
       {
@@ -2154,12 +2728,12 @@
        "prompt": "I eat bread.",
        "promptLang": "en",
        "tiles": [
+        "piacciono",
         "pane",
         "il",
+        "è",
         "Mangio",
-        "per",
-        "piacciono",
-        "latte"
+        "caffè"
        ],
        "answer": [
         "Mangio",
@@ -2175,30 +2749,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Ho fame.",
-       "translation": "I am hungry.",
-       "answers": [
-        "Ho fame."
-       ],
-       "words": [
-        "Ho fame."
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Il tè è caldo.",
        "promptLang": "target",
        "tiles": [
-        "tea",
-        "I",
-        "eat",
         "is",
         "The",
-        "hot",
-        "milk"
+        "please",
+        "tea",
+        "coffee",
+        "apples",
+        "hot"
        ],
        "answer": [
         "The",
@@ -2212,16 +2774,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Coffee",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ho fame.",
+       "translation": "I am hungry.",
        "answers": [
-        "il caffè",
-        "caffè"
+        "Ho fame."
        ],
        "words": [
-        "il caffè"
+        "Ho fame."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Non bevo latte.",
+       "translation": "I do not drink milk.",
+       "answers": [
+        "Non bevo latte."
+       ],
+       "words": [
+        "il latte"
        ]
       },
       {
@@ -2238,15 +2811,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Non bevo latte.",
-       "translation": "I do not drink milk.",
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Bread",
+       "promptLang": "en",
        "answers": [
-        "Non bevo latte."
+        "il pane",
+        "pane"
        ],
        "words": [
-        "il latte"
+        "il pane"
        ]
       }
      ]
@@ -2258,11 +2832,134 @@
    "title": "Numbers",
    "description": "Count from one to ten, ask prices and tell the time.",
    "icon": "hash",
-   "tip": "'Sono le tre' (it is three o'clock) uses the plural; only one o'clock is 'è l'una'.",
+   "tips": [
+    "'Sono le tre' (it is three o'clock) uses the plural; only one o'clock is 'è l'una'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "uno",
+      "e": "One"
+     },
+     {
+      "t": "due",
+      "e": "Two"
+     },
+     {
+      "t": "tre",
+      "e": "Three"
+     },
+     {
+      "t": "quattro",
+      "e": "Four"
+     },
+     {
+      "t": "cinque",
+      "e": "Five"
+     },
+     {
+      "t": "sei",
+      "e": "Six"
+     },
+     {
+      "t": "sette",
+      "e": "Seven"
+     },
+     {
+      "t": "otto",
+      "e": "Eight"
+     },
+     {
+      "t": "nove",
+      "e": "Nine"
+     },
+     {
+      "t": "dieci",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ho due figli.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Quanto costa?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Ho quattro mele.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Un caffè, per favore.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Due tè, per favore.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Sono le tre.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Un momento, per favore.",
+      "e": "One moment, please."
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u4l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "uno",
+       "e": "One",
+       "kind": "word",
+       "alts": [
+        "una",
+        "un"
+       ]
+      },
+      {
+       "t": "due",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "tre",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "quattro",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Ho due figli.",
+       "e": "I have two children.",
+       "kind": "phrase",
+       "alts": [
+        "Ho due bambini."
+       ]
+      },
+      {
+       "t": "Ho quattro mele.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Quanto costa?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Quanto costa questo?"
+       ]
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2270,10 +2967,10 @@
        "prompt": "uno",
        "promptLang": "target",
        "options": [
-        "Four",
-        "Three",
+        "Eight",
+        "Seven",
         "One",
-        "Two"
+        "Ten"
        ],
        "answer": "One",
        "words": [
@@ -2286,46 +2983,14 @@
        "prompt": "due",
        "promptLang": "target",
        "options": [
+        "Ten",
+        "Five",
         "Four",
-        "Two",
-        "One",
-        "Six"
+        "Two"
        ],
        "answer": "Two",
        "words": [
         "due"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Three",
-       "promptLang": "en",
-       "answer": "tre",
-       "words": [
-        "tre"
-       ],
-       "options": [
-        "tre",
-        "due",
-        "sei",
-        "nove"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "quattro",
-       "promptLang": "target",
-       "options": [
-        "Four",
-        "One",
-        "Six",
-        "Three"
-       ],
-       "answer": "Four",
-       "words": [
-        "quattro"
        ]
       },
       {
@@ -2357,17 +3022,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "tre",
+       "words": [
+        "tre"
+       ],
+       "options": [
+        "sette",
+        "quattro",
+        "tre",
+        "otto"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "quattro",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Two",
+        "Six",
+        "Seven"
+       ],
+       "answer": "Four",
+       "words": [
+        "quattro"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "I have two children.",
        "promptLang": "en",
        "tiles": [
-        "Sono",
-        "tre",
-        "quattro",
         "due",
+        "Un",
+        "Ho",
         "figli",
-        "Ho"
+        "favore",
+        "mele"
        ],
        "answer": [
         "Ho",
@@ -2382,30 +3079,18 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Quanto costa?",
-       "translation": "How much is it?",
-       "answers": [
-        "Quanto costa?"
-       ],
-       "words": [
-        "Quanto costa?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Ho quattro mele.",
        "promptLang": "target",
        "tiles": [
-        "have",
-        "apples",
-        "o'clock",
         "I",
+        "much",
+        "have",
         "four",
-        "two",
-        "please"
+        "coffee",
+        "apples",
+        "three"
        ],
        "answer": [
         "I",
@@ -2418,6 +3103,18 @@
        ],
        "words": [
         "quattro"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Quanto costa?",
+       "translation": "How much is it?",
+       "answers": [
+        "Quanto costa?"
+       ],
+       "words": [
+        "Quanto costa?"
        ]
       },
       {
@@ -2440,6 +3137,43 @@
     {
      "id": "u4l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "cinque",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "sei",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "sette",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "otto",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Un caffè, per favore.",
+       "e": "One coffee, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Due tè, per favore.",
+       "e": "Two teas, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sono le tre.",
+       "e": "It is three o'clock.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -2447,10 +3181,10 @@
        "prompt": "cinque",
        "promptLang": "target",
        "options": [
+        "Nine",
         "Five",
-        "Eight",
         "Ten",
-        "Six"
+        "Two"
        ],
        "answer": "Five",
        "words": [
@@ -2459,50 +3193,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Six",
-       "promptLang": "en",
-       "answer": "sei",
-       "words": [
-        "sei"
-       ],
-       "options": [
-        "nove",
-        "sei",
-        "dieci",
-        "due"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "sette",
+       "prompt": "sei",
        "promptLang": "target",
        "options": [
         "Five",
-        "Six",
+        "Seven",
         "One",
-        "Seven"
+        "Six"
        ],
-       "answer": "Seven",
+       "answer": "Six",
        "words": [
-        "sette"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Eight",
-       "promptLang": "en",
-       "answer": "otto",
-       "words": [
-        "otto"
-       ],
-       "options": [
-        "tre",
-        "quattro",
-        "sette",
-        "otto"
+        "sei"
        ]
       },
       {
@@ -2534,18 +3236,50 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "sette",
+       "words": [
+        "sette"
+       ],
+       "options": [
+        "tre",
+        "quattro",
+        "otto",
+        "sette"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "otto",
+       "words": [
+        "otto"
+       ],
+       "options": [
+        "cinque",
+        "otto",
+        "uno",
+        "sette"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "One coffee, please.",
        "promptLang": "en",
        "tiles": [
-        "costa",
-        "favore",
-        "due",
-        "Un",
+        "Ho",
         "caffè",
+        "Quanto",
+        "momento",
         "per",
-        "Quanto"
+        "Un",
+        "favore"
        ],
        "answer": [
         "Un",
@@ -2566,12 +3300,12 @@
        "prompt": "Due tè, per favore.",
        "promptLang": "target",
        "tiles": [
-        "Two",
-        "children",
-        "I",
+        "How",
+        "is",
         "please",
         "teas",
-        "have"
+        "apples",
+        "Two"
        ],
        "answer": [
         "Two",
@@ -2638,34 +3372,34 @@
     {
      "id": "u4l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Un momento, per favore.",
-       "promptLang": "target",
-       "options": [
-        "I have two children.",
-        "One coffee, please.",
-        "How much is it?",
-        "One moment, please."
-       ],
-       "answer": "One moment, please.",
-       "words": [
-        "per favore",
-        "uno"
-       ]
+       "t": "nove",
+       "e": "Nine",
+       "kind": "word"
       },
+      {
+       "t": "dieci",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Un momento, per favore.",
+       "e": "One moment, please.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "nove",
        "promptLang": "target",
        "options": [
-        "Nine",
+        "One",
         "Ten",
-        "Eight",
-        "Two"
+        "Nine",
+        "Six"
        ],
        "answer": "Nine",
        "words": [
@@ -2677,55 +3411,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "otto",
-         "Eight"
-        ],
-        [
-         "sei",
-         "Six"
-        ],
-        [
-         "due",
-         "Two"
+         "tre",
+         "Three"
         ],
         [
          "quattro",
          "Four"
         ],
         [
+         "dieci",
+         "Ten"
+        ],
+        [
          "uno",
          "One"
+        ],
+        [
+         "cinque",
+         "Five"
         ]
        ],
        "words": [
-        "otto",
-        "sei",
-        "due",
+        "tre",
         "quattro",
-        "uno"
+        "dieci",
+        "uno",
+        "cinque"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "One moment, please.",
-       "promptLang": "en",
-       "tiles": [
-        "favore",
-        "Un",
-        "momento",
-        "Quanto",
-        "quattro",
-        "tre",
-        "per"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Un momento, per favore.",
+       "promptLang": "target",
+       "options": [
+        "One moment, please.",
+        "I have four apples.",
+        "It is three o'clock.",
+        "Two teas, please."
        ],
-       "answer": [
-        "Un",
-        "momento",
-        "per",
-        "favore"
-       ],
-       "accepted": [],
+       "answer": "One moment, please.",
        "words": [
         "per favore",
         "uno"
@@ -2737,13 +3462,13 @@
        "prompt": "Quanto costa?",
        "promptLang": "target",
        "tiles": [
-        "apples",
         "How",
-        "much",
-        "it",
         "is",
+        "it",
+        "much",
         "One",
-        "three"
+        "teas",
+        "please"
        ],
        "answer": [
         "How",
@@ -2761,6 +3486,55 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Un",
+        "per",
+        "Quanto",
+        "favore",
+        "momento",
+        "Ho",
+        "tre"
+       ],
+       "answer": [
+        "Un",
+        "momento",
+        "per",
+        "favore"
+       ],
+       "accepted": [],
+       "words": [
+        "per favore",
+        "uno"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "tè",
+        "caffè",
+        "quattro",
+        "tre",
+        "le",
+        "Sono"
+       ],
+       "answer": [
+        "Sono",
+        "le",
+        "tre"
+       ],
+       "accepted": [],
+       "words": [
+        "tre"
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Sono le tre.",
@@ -2770,20 +3544,6 @@
        ],
        "words": [
         "tre"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Two teas, please.",
-       "promptLang": "en",
-       "answers": [
-        "Due tè, per favore."
-       ],
-       "words": [
-        "per favore",
-        "il tè",
-        "due"
        ]
       },
       {
@@ -2802,6 +3562,20 @@
       {
        "type": "type",
        "instruction": "Type this in Italian",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Due tè, per favore."
+       ],
+       "words": [
+        "per favore",
+        "il tè",
+        "due"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
        "prompt": "Ten",
        "promptLang": "en",
        "answers": [
@@ -2810,35 +3584,13 @@
        "words": [
         "dieci"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "It is three o'clock.",
-       "promptLang": "en",
-       "tiles": [
-        "mele",
-        "tè",
-        "le",
-        "caffè",
-        "Sono",
-        "tre"
-       ],
-       "answer": [
-        "Sono",
-        "le",
-        "tre"
-       ],
-       "accepted": [],
-       "words": [
-        "tre"
-       ]
       }
      ]
     },
     {
      "id": "u4l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -2846,10 +3598,10 @@
        "prompt": "Ho due figli.",
        "promptLang": "target",
        "options": [
-        "Two teas, please.",
-        "One moment, please.",
+        "I have two children.",
         "How much is it?",
-        "I have two children."
+        "One coffee, please.",
+        "I have four apples."
        ],
        "answer": "I have two children.",
        "words": [
@@ -2865,39 +3617,39 @@
          "Seven"
         ],
         [
-         "nove",
-         "Nine"
+         "uno",
+         "One"
+        ],
+        [
+         "cinque",
+         "Five"
         ],
         [
          "otto",
          "Eight"
-        ],
-        [
-         "due",
-         "Two"
         ]
        ],
        "words": [
         "sette",
-        "nove",
-        "otto",
-        "due"
+        "uno",
+        "cinque",
+        "otto"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Four",
+       "prompt": "Nine",
        "promptLang": "en",
-       "answer": "quattro",
+       "answer": "nove",
        "words": [
-        "quattro"
+        "nove"
        ],
        "options": [
         "sette",
-        "quattro",
-        "sei",
-        "cinque"
+        "uno",
+        "tre",
+        "nove"
        ]
       },
       {
@@ -2906,12 +3658,12 @@
        "prompt": "I have four apples.",
        "promptLang": "en",
        "tiles": [
-        "Quanto",
+        "due",
         "Ho",
         "quattro",
-        "costa",
-        "due",
-        "mele"
+        "mele",
+        "Quanto",
+        "tre"
        ],
        "answer": [
         "Ho",
@@ -2924,30 +3676,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Un momento, per favore.",
-       "translation": "One moment, please.",
-       "answers": [
-        "Un momento, per favore."
-       ],
-       "words": [
-        "per favore",
-        "uno"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Un caffè, per favore.",
        "promptLang": "target",
        "tiles": [
-        "please",
+        "is",
         "coffee",
         "One",
-        "children",
-        "have",
-        "is"
+        "apples",
+        "teas",
+        "please"
        ],
        "answer": [
         "One",
@@ -2965,17 +3704,30 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "One",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un momento, per favore.",
+       "translation": "One moment, please.",
        "answers": [
-        "uno",
-        "una",
-        "un"
+        "Un momento, per favore."
        ],
        "words": [
+        "per favore",
         "uno"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Due tè, per favore.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Due tè, per favore."
+       ],
+       "words": [
+        "per favore",
+        "il tè",
+        "due"
        ]
       },
       {
@@ -2994,17 +3746,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Due tè, per favore.",
-       "translation": "Two teas, please.",
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Six",
+       "promptLang": "en",
        "answers": [
-        "Due tè, per favore."
+        "sei"
        ],
        "words": [
-        "per favore",
-        "il tè",
-        "due"
+        "sei"
        ]
       }
      ]
@@ -3016,11 +3766,136 @@
    "title": "Travel and directions",
    "description": "Find your way around a new city.",
    "icon": "train",
-   "tip": "'Dov'è' is short for 'dove è' (where is).",
+   "tips": [
+    "'Dov'è' is short for 'dove è' (where is)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "l'albergo",
+      "e": "Hotel"
+     },
+     {
+      "t": "la stazione",
+      "e": "Station"
+     },
+     {
+      "t": "l'aeroporto",
+      "e": "Airport"
+     },
+     {
+      "t": "il biglietto",
+      "e": "Ticket"
+     },
+     {
+      "t": "a sinistra",
+      "e": "Left"
+     },
+     {
+      "t": "a destra",
+      "e": "Right"
+     },
+     {
+      "t": "dove",
+      "e": "Where"
+     },
+     {
+      "t": "il bagno",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Dov'è l'albergo?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Dov'è il bagno?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Gira a sinistra.",
+      "e": "Turn left."
+     },
+     {
+      "t": "La stazione è a destra.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Un biglietto, per favore.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Vado all'aeroporto.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "È lontano?",
+      "e": "Is it far?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u5l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "l'albergo",
+       "e": "Hotel",
+       "kind": "word",
+       "alts": [
+        "albergo",
+        "l'hotel",
+        "hotel"
+       ]
+      },
+      {
+       "t": "la stazione",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "stazione"
+       ]
+      },
+      {
+       "t": "l'aeroporto",
+       "e": "Airport",
+       "kind": "word",
+       "alts": [
+        "aeroporto"
+       ]
+      },
+      {
+       "t": "il biglietto",
+       "e": "Ticket",
+       "kind": "word",
+       "alts": [
+        "biglietto"
+       ]
+      },
+      {
+       "t": "Dov'è l'albergo?",
+       "e": "Where is the hotel?",
+       "kind": "phrase",
+       "alts": [
+        "Dov'è l'hotel?"
+       ]
+      },
+      {
+       "t": "Gira a sinistra.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Giri a sinistra."
+       ]
+      },
+      {
+       "t": "Dov'è il bagno?",
+       "e": "Where is the toilet?",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3028,9 +3903,9 @@
        "prompt": "l'albergo",
        "promptLang": "target",
        "options": [
-        "Right",
         "Where",
-        "Station",
+        "Toilet",
+        "Right",
         "Hotel"
        ],
        "answer": "Hotel",
@@ -3052,6 +3927,34 @@
        "answer": "Station",
        "words": [
         "la stazione"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "l'albergo",
+         "Hotel"
+        ],
+        [
+         "la stazione",
+         "Station"
+        ],
+        [
+         "l'aeroporto",
+         "Airport"
+        ],
+        [
+         "il biglietto",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "l'albergo",
+        "la stazione",
+        "l'aeroporto",
+        "il biglietto"
        ]
       },
       {
@@ -3087,34 +3990,6 @@
        ]
       },
       {
-       "type": "match",
-       "instruction": "Match the pairs",
-       "pairs": [
-        [
-         "l'albergo",
-         "Hotel"
-        ],
-        [
-         "la stazione",
-         "Station"
-        ],
-        [
-         "l'aeroporto",
-         "Airport"
-        ],
-        [
-         "il biglietto",
-         "Ticket"
-        ]
-       ],
-       "words": [
-        "l'albergo",
-        "la stazione",
-        "l'aeroporto",
-        "il biglietto"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "Where is the hotel?",
@@ -3135,18 +4010,6 @@
        ],
        "words": [
         "l'albergo"
-       ]
-      },
-      {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Dov'è il bagno?",
-       "translation": "Where is the toilet?",
-       "answers": [
-        "Dov'è il bagno?"
-       ],
-       "words": [
-        "il bagno"
        ]
       },
       {
@@ -3173,6 +4036,18 @@
        ]
       },
       {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dov'è il bagno?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Dov'è il bagno?"
+       ],
+       "words": [
+        "il bagno"
+       ]
+      },
+      {
        "type": "type",
        "instruction": "Type this in English",
        "prompt": "Dov'è l'albergo?",
@@ -3189,6 +4064,53 @@
     {
      "id": "u5l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "a sinistra",
+       "e": "Left",
+       "kind": "word",
+       "alts": [
+        "sinistra"
+       ]
+      },
+      {
+       "t": "a destra",
+       "e": "Right",
+       "kind": "word",
+       "alts": [
+        "destra"
+       ]
+      },
+      {
+       "t": "dove",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "il bagno",
+       "e": "Toilet",
+       "kind": "word",
+       "alts": [
+        "bagno",
+        "la toilette"
+       ]
+      },
+      {
+       "t": "La stazione è a destra.",
+       "e": "The station is on the right.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Un biglietto, per favore.",
+       "e": "A ticket, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Vado all'aeroporto.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3208,50 +4130,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Right",
-       "promptLang": "en",
-       "answer": "a destra",
-       "words": [
-        "a destra"
-       ],
-       "options": [
-        "il biglietto",
-        "dove",
-        "a sinistra",
-        "a destra"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "dove",
+       "prompt": "a destra",
        "promptLang": "target",
        "options": [
-        "Toilet",
+        "Ticket",
         "Where",
-        "Station",
+        "Left",
         "Right"
        ],
-       "answer": "Where",
+       "answer": "Right",
        "words": [
-        "dove"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Toilet",
-       "promptLang": "en",
-       "answer": "il bagno",
-       "words": [
-        "il bagno"
-       ],
-       "options": [
-        "dove",
-        "il biglietto",
-        "a sinistra",
-        "il bagno"
+        "a destra"
        ]
       },
       {
@@ -3279,6 +4169,38 @@
         "a sinistra",
         "a destra",
         "dove",
+        "il bagno"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "dove",
+       "words": [
+        "dove"
+       ],
+       "options": [
+        "il bagno",
+        "dove",
+        "la stazione",
+        "a destra"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "il bagno",
+       "words": [
+        "il bagno"
+       ],
+       "options": [
+        "dove",
+        "il biglietto",
+        "a sinistra",
         "il bagno"
        ]
       },
@@ -3383,33 +4305,24 @@
     {
      "id": "u5l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "È lontano?",
-       "promptLang": "target",
-       "options": [
-        "Is it far?",
-        "Where is the hotel?",
-        "The station is on the right.",
-        "Where is the toilet?"
-       ],
-       "answer": "Is it far?",
-       "words": [
-        "È lontano?"
-       ]
-      },
+       "t": "È lontano?",
+       "e": "Is it far?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "la stazione",
        "promptLang": "target",
        "options": [
-        "Toilet",
-        "Right",
         "Station",
-        "Hotel"
+        "Hotel",
+        "Left",
+        "Airport"
        ],
        "answer": "Station",
        "words": [
@@ -3421,51 +4334,46 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "l'aeroporto",
-         "Airport"
+         "dove",
+         "Where"
         ],
         [
          "l'albergo",
          "Hotel"
         ],
         [
-         "la stazione",
-         "Station"
+         "a destra",
+         "Right"
         ],
         [
-         "dove",
-         "Where"
+         "l'aeroporto",
+         "Airport"
         ],
         [
-         "a sinistra",
-         "Left"
+         "il bagno",
+         "Toilet"
         ]
        ],
        "words": [
-        "l'aeroporto",
-        "l'albergo",
-        "la stazione",
         "dove",
-        "a sinistra"
+        "l'albergo",
+        "a destra",
+        "l'aeroporto",
+        "il bagno"
        ]
       },
       {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "Is it far?",
-       "promptLang": "en",
-       "tiles": [
-        "stazione",
-        "lontano",
-        "bagno",
-        "È",
-        "il"
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "È lontano?",
+       "promptLang": "target",
+       "options": [
+        "I am going to the airport.",
+        "A ticket, please.",
+        "Is it far?",
+        "Where is the hotel?"
        ],
-       "answer": [
-        "È",
-        "lontano"
-       ],
-       "accepted": [],
+       "answer": "Is it far?",
        "words": [
         "È lontano?"
        ]
@@ -3476,13 +4384,13 @@
        "prompt": "Dov'è il bagno?",
        "promptLang": "target",
        "tiles": [
-        "right",
         "is",
-        "am",
-        "left",
+        "I",
         "the",
         "toilet",
-        "Where"
+        "Where",
+        "please",
+        "Turn"
        ],
        "answer": [
         "Where",
@@ -3500,6 +4408,48 @@
        ]
       },
       {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "lontano",
+        "È",
+        "il",
+        "biglietto",
+        "favore"
+       ],
+       "answer": [
+        "È",
+        "lontano"
+       ],
+       "accepted": [],
+       "words": [
+        "È lontano?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "per",
+        "Vado",
+        "favore",
+        "biglietto",
+        "all'aeroporto"
+       ],
+       "answer": [
+        "Vado",
+        "all'aeroporto"
+       ],
+       "accepted": [],
+       "words": [
+        "Vado all'aeroporto."
+       ]
+      },
+      {
        "type": "listen",
        "instruction": "Type what you hear",
        "text": "Vado all'aeroporto.",
@@ -3509,20 +4459,6 @@
        ],
        "words": [
         "Vado all'aeroporto."
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "A ticket, please.",
-       "promptLang": "en",
-       "answers": [
-        "Un biglietto, per favore."
-       ],
-       "words": [
-        "per favore",
-        "uno",
-        "il biglietto"
        ]
       },
       {
@@ -3541,6 +4477,20 @@
       {
        "type": "type",
        "instruction": "Type this in Italian",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Un biglietto, per favore."
+       ],
+       "words": [
+        "per favore",
+        "uno",
+        "il biglietto"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
        "prompt": "Station",
        "promptLang": "en",
        "answers": [
@@ -3550,33 +4500,13 @@
        "words": [
         "la stazione"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "I am going to the airport.",
-       "promptLang": "en",
-       "tiles": [
-        "Vado",
-        "all'aeroporto",
-        "La",
-        "lontano",
-        "stazione"
-       ],
-       "answer": [
-        "Vado",
-        "all'aeroporto"
-       ],
-       "accepted": [],
-       "words": [
-        "Vado all'aeroporto."
-       ]
       }
      ]
     },
     {
      "id": "u5l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -3584,10 +4514,10 @@
        "prompt": "Dov'è l'albergo?",
        "promptLang": "target",
        "options": [
-        "Where is the hotel?",
         "I am going to the airport.",
-        "The station is on the right.",
-        "A ticket, please."
+        "A ticket, please.",
+        "Where is the hotel?",
+        "The station is on the right."
        ],
        "answer": "Where is the hotel?",
        "words": [
@@ -3603,39 +4533,39 @@
          "Right"
         ],
         [
-         "l'albergo",
-         "Hotel"
+         "dove",
+         "Where"
         ],
         [
-         "a sinistra",
-         "Left"
+         "l'aeroporto",
+         "Airport"
         ],
         [
-         "il biglietto",
-         "Ticket"
+         "il bagno",
+         "Toilet"
         ]
        ],
        "words": [
         "a destra",
-        "l'albergo",
-        "a sinistra",
-        "il biglietto"
+        "dove",
+        "l'aeroporto",
+        "il bagno"
        ]
       },
       {
        "type": "mc",
        "instruction": "Pick the correct translation",
-       "prompt": "Where",
+       "prompt": "Hotel",
        "promptLang": "en",
-       "answer": "dove",
+       "answer": "l'albergo",
        "words": [
-        "dove"
+        "l'albergo"
        ],
        "options": [
-        "a destra",
+        "l'albergo",
         "la stazione",
-        "a sinistra",
-        "dove"
+        "a destra",
+        "l'aeroporto"
        ]
       },
       {
@@ -3644,10 +4574,10 @@
        "prompt": "Turn left.",
        "promptLang": "en",
        "tiles": [
-        "è",
         "a",
+        "stazione",
+        "all'aeroporto",
         "Gira",
-        "favore",
         "bagno",
         "sinistra"
        ],
@@ -3664,32 +4594,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "È lontano?",
-       "translation": "Is it far?",
-       "answers": [
-        "È lontano?"
-       ],
-       "words": [
-        "È lontano?"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "La stazione è a destra.",
        "promptLang": "target",
        "tiles": [
-        "is",
-        "ticket",
-        "station",
         "on",
+        "hotel",
+        "is",
+        "am",
         "going",
-        "The",
+        "station",
         "the",
         "right",
-        "toilet"
+        "The"
        ],
        "answer": [
         "The",
@@ -3709,17 +4627,29 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "Toilet",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "È lontano?",
+       "translation": "Is it far?",
        "answers": [
-        "il bagno",
-        "bagno",
-        "la toilette"
+        "È lontano?"
        ],
        "words": [
-        "il bagno"
+        "È lontano?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un biglietto, per favore.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Un biglietto, per favore."
+       ],
+       "words": [
+        "per favore",
+        "uno",
+        "il biglietto"
        ]
       },
       {
@@ -3738,17 +4668,16 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Un biglietto, per favore.",
-       "translation": "A ticket, please.",
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Left",
+       "promptLang": "en",
        "answers": [
-        "Un biglietto, per favore."
+        "a sinistra",
+        "sinistra"
        ],
        "words": [
-        "per favore",
-        "uno",
-        "il biglietto"
+        "a sinistra"
        ]
       }
      ]
@@ -3760,11 +4689,125 @@
    "title": "Daily routine",
    "description": "Home, work, school and the time of day.",
    "icon": "calendar",
-   "tip": "Days of the week are written in lower case: lunedì, martedì, mercoledì...",
+   "tips": [
+    "Days of the week are written in lower case: lunedì, martedì, mercoledì..."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "oggi",
+      "e": "Today"
+     },
+     {
+      "t": "domani",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "adesso",
+      "e": "Now"
+     },
+     {
+      "t": "la mattina",
+      "e": "Morning"
+     },
+     {
+      "t": "la notte",
+      "e": "Night"
+     },
+     {
+      "t": "la casa",
+      "e": "House"
+     },
+     {
+      "t": "il lavoro",
+      "e": "Work"
+     },
+     {
+      "t": "la scuola",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Vado al lavoro.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Sono a casa.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Oggi è lunedì.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "La mattina bevo il caffè.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Dormo di notte.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "I bambini vanno a scuola.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Che ore sono adesso?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
    "lessons": [
     {
      "id": "u6l1",
      "title": "New words",
+     "teach": [
+      {
+       "t": "oggi",
+       "e": "Today",
+       "kind": "word"
+      },
+      {
+       "t": "domani",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "adesso",
+       "e": "Now",
+       "kind": "word",
+       "alts": [
+        "ora"
+       ]
+      },
+      {
+       "t": "la mattina",
+       "e": "Morning",
+       "kind": "word",
+       "alts": [
+        "mattina"
+       ]
+      },
+      {
+       "t": "Vado al lavoro.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "alts": [
+        "Vado a lavorare."
+       ]
+      },
+      {
+       "t": "Oggi è lunedì.",
+       "e": "Today is Monday.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sono a casa.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3772,10 +4815,10 @@
        "prompt": "oggi",
        "promptLang": "target",
        "options": [
+        "House",
+        "Morning",
         "Today",
-        "Work",
-        "School",
-        "Morning"
+        "Work"
        ],
        "answer": "Today",
        "words": [
@@ -3790,44 +4833,12 @@
        "options": [
         "Today",
         "Tomorrow",
-        "House",
+        "School",
         "Work"
        ],
        "answer": "Tomorrow",
        "words": [
         "domani"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "Now",
-       "promptLang": "en",
-       "answer": "adesso",
-       "words": [
-        "adesso"
-       ],
-       "options": [
-        "il lavoro",
-        "la scuola",
-        "adesso",
-        "la mattina"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "What does this mean?",
-       "prompt": "la mattina",
-       "promptLang": "target",
-       "options": [
-        "Morning",
-        "Now",
-        "School",
-        "House"
-       ],
-       "answer": "Morning",
-       "words": [
-        "la mattina"
        ]
       },
       {
@@ -3859,17 +4870,49 @@
        ]
       },
       {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "adesso",
+       "words": [
+        "adesso"
+       ],
+       "options": [
+        "il lavoro",
+        "la notte",
+        "adesso",
+        "la casa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "la mattina",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "School",
+        "Now",
+        "Night"
+       ],
+       "answer": "Morning",
+       "words": [
+        "la mattina"
+       ]
+      },
+      {
        "type": "tap",
        "instruction": "Build the sentence in Italian",
        "prompt": "I go to work.",
        "promptLang": "en",
        "tiles": [
-        "al",
-        "Vado",
         "Sono",
+        "vanno",
         "lavoro",
-        "il",
-        "scuola"
+        "a",
+        "al",
+        "Vado"
        ],
        "answer": [
         "Vado",
@@ -3884,29 +4927,17 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Sono a casa.",
-       "translation": "I am at home.",
-       "answers": [
-        "Sono a casa."
-       ],
-       "words": [
-        "la casa"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "Oggi è lunedì.",
        "promptLang": "target",
        "tiles": [
-        "children",
         "Monday",
-        "Today",
-        "go",
+        "now",
         "is",
-        "coffee"
+        "Today",
+        "sleep",
+        "work"
        ],
        "answer": [
         "Today",
@@ -3918,6 +4949,18 @@
        ],
        "words": [
         "oggi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sono a casa.",
+       "translation": "I am at home.",
+       "answers": [
+        "Sono a casa."
+       ],
+       "words": [
+        "la casa"
        ]
       },
       {
@@ -3938,6 +4981,61 @@
     {
      "id": "u6l2",
      "title": "More words",
+     "teach": [
+      {
+       "t": "la notte",
+       "e": "Night",
+       "kind": "word",
+       "alts": [
+        "notte"
+       ]
+      },
+      {
+       "t": "la casa",
+       "e": "House",
+       "kind": "word",
+       "alts": [
+        "casa"
+       ]
+      },
+      {
+       "t": "il lavoro",
+       "e": "Work",
+       "kind": "word",
+       "alts": [
+        "lavoro"
+       ]
+      },
+      {
+       "t": "la scuola",
+       "e": "School",
+       "kind": "word",
+       "alts": [
+        "scuola"
+       ]
+      },
+      {
+       "t": "La mattina bevo il caffè.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Bevo il caffè la mattina."
+       ]
+      },
+      {
+       "t": "Dormo di notte.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "alts": [
+        "Di notte dormo."
+       ]
+      },
+      {
+       "t": "I bambini vanno a scuola.",
+       "e": "The children go to school.",
+       "kind": "phrase"
+      }
+     ],
      "exercises": [
       {
        "type": "mc",
@@ -3945,10 +5043,10 @@
        "prompt": "la notte",
        "promptLang": "target",
        "options": [
-        "Work",
-        "House",
         "Night",
-        "Now"
+        "House",
+        "Today",
+        "Work"
        ],
        "answer": "Night",
        "words": [
@@ -3957,50 +5055,18 @@
       },
       {
        "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "House",
-       "promptLang": "en",
-       "answer": "la casa",
-       "words": [
-        "la casa"
-       ],
-       "options": [
-        "la casa",
-        "adesso",
-        "la scuola",
-        "la mattina"
-       ]
-      },
-      {
-       "type": "mc",
        "instruction": "What does this mean?",
-       "prompt": "il lavoro",
+       "prompt": "la casa",
        "promptLang": "target",
        "options": [
+        "House",
         "Work",
-        "Now",
-        "Night",
-        "Today"
+        "School",
+        "Morning"
        ],
-       "answer": "Work",
+       "answer": "House",
        "words": [
-        "il lavoro"
-       ]
-      },
-      {
-       "type": "mc",
-       "instruction": "Pick the correct translation",
-       "prompt": "School",
-       "promptLang": "en",
-       "answer": "la scuola",
-       "words": [
-        "la scuola"
-       ],
-       "options": [
-        "la scuola",
-        "la notte",
-        "domani",
-        "la mattina"
+        "la casa"
        ]
       },
       {
@@ -4029,6 +5095,38 @@
         "la casa",
         "il lavoro",
         "la scuola"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "il lavoro",
+       "words": [
+        "il lavoro"
+       ],
+       "options": [
+        "il lavoro",
+        "adesso",
+        "la notte",
+        "oggi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "la scuola",
+       "words": [
+        "la scuola"
+       ],
+       "options": [
+        "la scuola",
+        "la notte",
+        "domani",
+        "la mattina"
        ]
       },
       {
@@ -4133,33 +5231,27 @@
     {
      "id": "u6l3",
      "title": "Sentences",
-     "exercises": [
+     "teach": [
       {
-       "type": "mc",
-       "instruction": "What does this sentence mean?",
-       "prompt": "Che ore sono adesso?",
-       "promptLang": "target",
-       "options": [
-        "I drink coffee in the morning.",
-        "What time is it now?",
-        "Today is Monday.",
-        "I sleep at night."
-       ],
-       "answer": "What time is it now?",
-       "words": [
-        "adesso"
+       "t": "Che ore sono adesso?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "alts": [
+        "Che ora è adesso?"
        ]
-      },
+      }
+     ],
+     "exercises": [
       {
        "type": "mc",
        "instruction": "What does this mean?",
        "prompt": "domani",
        "promptLang": "target",
        "options": [
-        "Night",
         "Tomorrow",
+        "House",
         "Morning",
-        "Today"
+        "Work"
        ],
        "answer": "Tomorrow",
        "words": [
@@ -4171,6 +5263,10 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
+         "la mattina",
+         "Morning"
+        ],
+        [
          "il lavoro",
          "Work"
         ],
@@ -4179,24 +5275,63 @@
          "House"
         ],
         [
-         "la mattina",
-         "Morning"
-        ],
-        [
          "adesso",
          "Now"
         ],
         [
-         "la notte",
-         "Night"
+         "la scuola",
+         "School"
         ]
        ],
        "words": [
+        "la mattina",
         "il lavoro",
         "la casa",
-        "la mattina",
         "adesso",
-        "la notte"
+        "la scuola"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Che ore sono adesso?",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee in the morning.",
+        "Today is Monday.",
+        "I go to work.",
+        "What time is it now?"
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "adesso"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Sono a casa.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "time",
+        "it",
+        "am",
+        "night",
+        "at",
+        "home"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "la casa"
        ]
       },
       {
@@ -4205,13 +5340,13 @@
        "prompt": "What time is it now?",
        "promptLang": "en",
        "tiles": [
-        "Che",
-        "vanno",
-        "ore",
         "adesso",
-        "Dormo",
-        "bambini",
-        "sono"
+        "Vado",
+        "lunedì",
+        "sono",
+        "ore",
+        "Che",
+        "Dormo"
        ],
        "answer": [
         "Che",
@@ -4228,29 +5363,29 @@
       },
       {
        "type": "tap",
-       "instruction": "Build the sentence in English",
-       "prompt": "Sono a casa.",
-       "promptLang": "target",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
        "tiles": [
-        "home",
-        "to",
-        "coffee",
+        "il",
         "I",
-        "at",
-        "am",
-        "morning"
+        "La",
+        "a",
+        "ore",
+        "vanno",
+        "scuola",
+        "bambini"
        ],
        "answer": [
         "I",
-        "am",
-        "at",
-        "home"
+        "bambini",
+        "vanno",
+        "a",
+        "scuola"
        ],
-       "accepted": [
-        "I am home."
-       ],
+       "accepted": [],
        "words": [
-        "la casa"
+        "la scuola"
        ]
       },
       {
@@ -4263,19 +5398,6 @@
        ],
        "words": [
         "la scuola"
-       ]
-      },
-      {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "I sleep at night.",
-       "promptLang": "en",
-       "answers": [
-        "Dormo di notte.",
-        "Di notte dormo."
-       ],
-       "words": [
-        "la notte"
        ]
       },
       {
@@ -4294,6 +5416,19 @@
       {
        "type": "type",
        "instruction": "Type this in Italian",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Dormo di notte.",
+        "Di notte dormo."
+       ],
+       "words": [
+        "la notte"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
        "prompt": "Tomorrow",
        "promptLang": "en",
        "answers": [
@@ -4302,39 +5437,13 @@
        "words": [
         "domani"
        ]
-      },
-      {
-       "type": "tap",
-       "instruction": "Build the sentence in Italian",
-       "prompt": "The children go to school.",
-       "promptLang": "en",
-       "tiles": [
-        "bambini",
-        "al",
-        "Oggi",
-        "I",
-        "il",
-        "a",
-        "vanno",
-        "scuola"
-       ],
-       "answer": [
-        "I",
-        "bambini",
-        "vanno",
-        "a",
-        "scuola"
-       ],
-       "accepted": [],
-       "words": [
-        "la scuola"
-       ]
       }
      ]
     },
     {
      "id": "u6l4",
      "title": "Unit review",
+     "teach": [],
      "exercises": [
       {
        "type": "mc",
@@ -4342,9 +5451,9 @@
        "prompt": "Vado al lavoro.",
        "promptLang": "target",
        "options": [
-        "What time is it now?",
+        "Today is Monday.",
         "I am at home.",
-        "The children go to school.",
+        "What time is it now?",
         "I go to work."
        ],
        "answer": "I go to work.",
@@ -4357,27 +5466,27 @@
        "instruction": "Match the pairs",
        "pairs": [
         [
-         "adesso",
-         "Now"
-        ],
-        [
-         "oggi",
-         "Today"
+         "la casa",
+         "House"
         ],
         [
          "la notte",
          "Night"
         ],
         [
-         "la scuola",
-         "School"
+         "oggi",
+         "Today"
+        ],
+        [
+         "il lavoro",
+         "Work"
         ]
        ],
        "words": [
-        "adesso",
-        "oggi",
+        "la casa",
         "la notte",
-        "la scuola"
+        "oggi",
+        "il lavoro"
        ]
       },
       {
@@ -4390,10 +5499,10 @@
         "la mattina"
        ],
        "options": [
+        "la scuola",
+        "la casa",
         "la notte",
-        "la mattina",
-        "oggi",
-        "adesso"
+        "la mattina"
        ]
       },
       {
@@ -4403,11 +5512,11 @@
        "promptLang": "en",
        "tiles": [
         "bambini",
+        "Oggi",
         "è",
-        "Sono",
         "lunedì",
-        "La",
-        "Oggi"
+        "casa",
+        "Che"
        ],
        "answer": [
         "Oggi",
@@ -4420,32 +5529,20 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Che ore sono adesso?",
-       "translation": "What time is it now?",
-       "answers": [
-        "Che ore sono adesso?"
-       ],
-       "words": [
-        "adesso"
-       ]
-      },
-      {
        "type": "tap",
        "instruction": "Build the sentence in English",
        "prompt": "La mattina bevo il caffè.",
        "promptLang": "target",
        "tiles": [
-        "go",
-        "Monday",
-        "is",
-        "coffee",
-        "in",
+        "I",
+        "children",
+        "am",
         "the",
+        "in",
+        "coffee",
         "morning",
-        "drink",
-        "I"
+        "it",
+        "drink"
        ],
        "answer": [
         "I",
@@ -4465,16 +5562,27 @@
        ]
       },
       {
-       "type": "type",
-       "instruction": "Type this in Italian",
-       "prompt": "House",
-       "promptLang": "en",
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Che ore sono adesso?",
+       "translation": "What time is it now?",
        "answers": [
-        "la casa",
-        "casa"
+        "Che ore sono adesso?"
        ],
        "words": [
-        "la casa"
+        "adesso"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dormo di notte.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Dormo di notte."
+       ],
+       "words": [
+        "la notte"
        ]
       },
       {
@@ -4491,15 +5599,15 @@
        ]
       },
       {
-       "type": "listen",
-       "instruction": "Type what you hear",
-       "text": "Dormo di notte.",
-       "translation": "I sleep at night.",
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
        "answers": [
-        "Dormo di notte."
+        "domani"
        ],
        "words": [
-        "la notte"
+        "domani"
        ]
       }
      ]

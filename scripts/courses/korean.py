@@ -8,6 +8,8 @@ COURSE = {
     "speechLang": "ko-KR",
     "description": "Polite everyday Korean in Hangul with romanization: greetings, family, food, numbers, travel and your day.",
     "order": 140,
+    # Grammar endings that attach to nouns; tap-to-see hints look through them.
+    "particles": ["을", "를", "이", "가", "은", "는", "에", "에서", "으로", "로", "도", "의"],
     "romanization": "romanization",
     "keyboard": [],
 }
