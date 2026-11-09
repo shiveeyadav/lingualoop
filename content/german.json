@@ -1,0 +1,4540 @@
+{
+ "id": "german",
+ "title": "German",
+ "shortName": "German",
+ "nativeName": "Deutsch",
+ "fromLanguage": "en",
+ "speechLang": "de-DE",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [
+  "ä",
+  "ö",
+  "ü",
+  "ß",
+  "Ä",
+  "Ö",
+  "Ü"
+ ],
+ "order": 40,
+ "description": "Everyday German: greetings, family, food, numbers, getting around and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "'Du' is the informal 'you'. Use 'Sie' (always with a capital S) with strangers: 'Wie heißen Sie?'",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hallo",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Sorry",
+        "Hello",
+        "Goodbye"
+       ],
+       "answer": "Hello",
+       "words": [
+        "hallo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "auf Wiedersehen",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Goodbye",
+        "Please",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "auf Wiedersehen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "danke",
+       "words": [
+        "danke"
+       ],
+       "options": [
+        "nein",
+        "auf Wiedersehen",
+        "danke",
+        "Entschuldigung"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bitte",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Sorry",
+        "Good morning",
+        "Please"
+       ],
+       "answer": "Please",
+       "words": [
+        "bitte"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hallo",
+         "Hello"
+        ],
+        [
+         "auf Wiedersehen",
+         "Goodbye"
+        ],
+        [
+         "danke",
+         "Thank you"
+        ],
+        [
+         "bitte",
+         "Please"
+        ]
+       ],
+       "words": [
+        "hallo",
+        "auf Wiedersehen",
+        "danke",
+        "bitte"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "geht",
+        "Dank",
+        "Wie",
+        "mich",
+        "es",
+        "gut",
+        "dir"
+       ],
+       "answer": [
+        "Wie",
+        "geht",
+        "es",
+        "dir"
+       ],
+       "accepted": [
+        "Wie geht's?",
+        "Wie geht es Ihnen?"
+       ],
+       "words": [
+        "Wie geht es dir?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mir geht es gut, danke.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Mir geht es gut, danke."
+       ],
+       "words": [
+        "danke"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich heiße Anna.",
+       "promptLang": "target",
+       "tiles": [
+        "very",
+        "My",
+        "Anna",
+        "is",
+        "name",
+        "fine",
+        "your"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Ich heiße Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Wie geht es dir?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "Wie geht es dir?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ja",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "No",
+        "Yes",
+        "Goodbye"
+       ],
+       "answer": "Yes",
+       "words": [
+        "ja"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "nein",
+       "words": [
+        "nein"
+       ],
+       "options": [
+        "guten Morgen",
+        "nein",
+        "hallo",
+        "bitte"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "guten Morgen",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Goodbye",
+        "Good morning",
+        "Thank you"
+       ],
+       "answer": "Good morning",
+       "words": [
+        "guten Morgen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "Entschuldigung",
+       "words": [
+        "Entschuldigung"
+       ],
+       "options": [
+        "ja",
+        "guten Morgen",
+        "Entschuldigung",
+        "nein"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ja",
+         "Yes"
+        ],
+        [
+         "nein",
+         "No"
+        ],
+        [
+         "guten Morgen",
+         "Good morning"
+        ],
+        [
+         "Entschuldigung",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "ja",
+        "nein",
+        "guten Morgen",
+        "Entschuldigung"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "geht",
+        "danke",
+        "Wie",
+        "Freut",
+        "mich"
+       ],
+       "answer": [
+        "Freut",
+        "mich"
+       ],
+       "accepted": [
+        "Schön, dich kennenzulernen.",
+        "Schön, Sie kennenzulernen."
+       ],
+       "words": [
+        "Freut mich."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Vielen Dank.",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "very",
+        "Thank",
+        "much",
+        "Nice",
+        "name",
+        "to"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "Vielen Dank."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Freut mich.",
+       "translation": "Nice to meet you.",
+       "answers": [
+        "Freut mich."
+       ],
+       "words": [
+        "Freut mich."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bis morgen.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "morgen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "hallo"
+       ],
+       "words": [
+        "hallo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wie heißt du?",
+       "promptLang": "target",
+       "options": [
+        "I am fine, thank you.",
+        "Thank you very much.",
+        "What is your name?",
+        "Nice to meet you."
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "Wie heißt du?"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "auf Wiedersehen",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "No",
+        "Please",
+        "Goodbye"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "auf Wiedersehen"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "danke",
+         "Thank you"
+        ],
+        [
+         "guten Morgen",
+         "Good morning"
+        ],
+        [
+         "hallo",
+         "Hello"
+        ],
+        [
+         "Entschuldigung",
+         "Sorry"
+        ],
+        [
+         "nein",
+         "No"
+        ]
+       ],
+       "words": [
+        "danke",
+        "guten Morgen",
+        "hallo",
+        "Entschuldigung",
+        "nein"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "Dank",
+        "du",
+        "gut",
+        "heißt",
+        "danke",
+        "Wie"
+       ],
+       "answer": [
+        "Wie",
+        "heißt",
+        "du"
+       ],
+       "accepted": [
+        "Wie heißen Sie?",
+        "Wie ist dein Name?"
+       ],
+       "words": [
+        "Wie heißt du?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mir geht es gut, danke.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "fine",
+        "you",
+        "am",
+        "meet",
+        "What",
+        "I",
+        "thank"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "danke"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bis morgen.",
+       "translation": "See you tomorrow.",
+       "answers": [
+        "Bis morgen."
+       ],
+       "words": [
+        "morgen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Vielen Dank.",
+        "Danke schön.",
+        "Danke sehr."
+       ],
+       "words": [
+        "Vielen Dank."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich heiße Anna.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Ich heiße Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "auf Wiedersehen",
+        "tschüss"
+       ],
+       "words": [
+        "auf Wiedersehen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "Bis",
+        "Wie",
+        "Anna",
+        "Vielen",
+        "morgen"
+       ],
+       "answer": [
+        "Bis",
+        "morgen"
+       ],
+       "accepted": [],
+       "words": [
+        "morgen"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wie geht es dir?",
+       "promptLang": "target",
+       "options": [
+        "I am fine, thank you.",
+        "How are you?",
+        "My name is Anna.",
+        "See you tomorrow."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "Wie geht es dir?"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "auf Wiedersehen",
+         "Goodbye"
+        ],
+        [
+         "danke",
+         "Thank you"
+        ],
+        [
+         "Entschuldigung",
+         "Sorry"
+        ],
+        [
+         "guten Morgen",
+         "Good morning"
+        ]
+       ],
+       "words": [
+        "auf Wiedersehen",
+        "danke",
+        "Entschuldigung",
+        "guten Morgen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Please",
+       "promptLang": "en",
+       "answer": "bitte",
+       "words": [
+        "bitte"
+       ],
+       "options": [
+        "danke",
+        "ja",
+        "nein",
+        "bitte"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "Ich",
+        "Mir",
+        "heiße",
+        "mich",
+        "Anna",
+        "du"
+       ],
+       "answer": [
+        "Ich",
+        "heiße",
+        "Anna"
+       ],
+       "accepted": [
+        "Mein Name ist Anna.",
+        "Ich bin Anna."
+       ],
+       "words": [
+        "Ich heiße Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wie heißt du?",
+       "translation": "What is your name?",
+       "answers": [
+        "Wie heißt du?"
+       ],
+       "words": [
+        "Wie heißt du?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Freut mich.",
+       "promptLang": "target",
+       "tiles": [
+        "Anna",
+        "you",
+        "meet",
+        "are",
+        "Nice",
+        "very",
+        "to"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "Freut mich."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Yes",
+       "promptLang": "en",
+       "answers": [
+        "ja"
+       ],
+       "words": [
+        "ja"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mir geht es gut, danke.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "danke"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Vielen Dank.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Vielen Dank."
+       ],
+       "words": [
+        "Vielen Dank."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tip": "All German nouns start with a capital letter, and each has a gender: der (masculine), die (feminine), das (neuter).",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Mann",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Man",
+        "Woman",
+        "Son"
+       ],
+       "answer": "Man",
+       "words": [
+        "der Mann"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Frau",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Woman",
+        "Son",
+        "Friend"
+       ],
+       "answer": "Woman",
+       "words": [
+        "die Frau"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "das Kind",
+       "words": [
+        "das Kind"
+       ],
+       "options": [
+        "der Freund",
+        "der Sohn",
+        "die Tochter",
+        "das Kind"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Freund",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Child",
+        "Woman",
+        "Mother"
+       ],
+       "answer": "Friend",
+       "words": [
+        "der Freund"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "der Mann",
+         "Man"
+        ],
+        [
+         "die Frau",
+         "Woman"
+        ],
+        [
+         "das Kind",
+         "Child"
+        ],
+        [
+         "der Freund",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "der Mann",
+        "die Frau",
+        "das Kind",
+        "der Freund"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "Das",
+        "zu",
+        "meine",
+        "Ich",
+        "Wo",
+        "ist",
+        "Mutter"
+       ],
+       "answer": [
+        "Das",
+        "ist",
+        "meine",
+        "Mutter"
+       ],
+       "accepted": [
+        "Das ist meine Mama."
+       ],
+       "words": [
+        "die Mutter"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Er ist mein Freund.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Er ist mein Freund."
+       ],
+       "words": [
+        "der Freund"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich habe einen Sohn.",
+       "promptLang": "target",
+       "tiles": [
+        "a",
+        "I",
+        "Where",
+        "son",
+        "have",
+        "at",
+        "mother"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "der Sohn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Das ist meine Mutter.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "die Mutter"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Mutter",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Mother",
+        "Woman",
+        "Man"
+       ],
+       "answer": "Mother",
+       "words": [
+        "die Mutter"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answer": "der Vater",
+       "words": [
+        "der Vater"
+       ],
+       "options": [
+        "die Mutter",
+        "der Vater",
+        "das Kind",
+        "der Mann"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Sohn",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Man",
+        "Mother",
+        "Woman"
+       ],
+       "answer": "Son",
+       "words": [
+        "der Sohn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "die Tochter",
+       "words": [
+        "die Tochter"
+       ],
+       "options": [
+        "der Vater",
+        "der Sohn",
+        "der Freund",
+        "die Tochter"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "die Mutter",
+         "Mother"
+        ],
+        [
+         "der Vater",
+         "Father"
+        ],
+        [
+         "der Sohn",
+         "Son"
+        ],
+        [
+         "die Tochter",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "die Mutter",
+        "der Vater",
+        "der Sohn",
+        "die Tochter"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "Vater",
+        "Er",
+        "ist",
+        "Sohn",
+        "Wer",
+        "Wo",
+        "mein"
+       ],
+       "answer": [
+        "Wo",
+        "ist",
+        "mein",
+        "Vater"
+       ],
+       "accepted": [
+        "Wo ist mein Papa?"
+       ],
+       "words": [
+        "der Vater",
+        "wo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Meine Mutter ist zu Hause.",
+       "promptLang": "target",
+       "tiles": [
+        "mother",
+        "Who",
+        "He",
+        "is",
+        "home",
+        "Where",
+        "My",
+        "at"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "die Mutter"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wo ist mein Vater?",
+       "translation": "Where is my father?",
+       "answers": [
+        "Wo ist mein Vater?"
+       ],
+       "words": [
+        "der Vater",
+        "wo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sie ist meine Tochter.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "die Tochter"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "der Mann",
+        "Mann"
+       ],
+       "words": [
+        "der Mann"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wer ist dieser Mann?",
+       "promptLang": "target",
+       "options": [
+        "This is my mother.",
+        "My mother is at home.",
+        "She is my daughter.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "der Mann"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Frau",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Woman",
+        "Man",
+        "Daughter"
+       ],
+       "answer": "Woman",
+       "words": [
+        "die Frau"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "der Vater",
+         "Father"
+        ],
+        [
+         "der Mann",
+         "Man"
+        ],
+        [
+         "das Kind",
+         "Child"
+        ],
+        [
+         "die Tochter",
+         "Daughter"
+        ],
+        [
+         "die Frau",
+         "Woman"
+        ]
+       ],
+       "words": [
+        "der Vater",
+        "der Mann",
+        "das Kind",
+        "die Tochter",
+        "die Frau"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "einen",
+        "Wo",
+        "dieser",
+        "Wer",
+        "Sohn",
+        "ist",
+        "Mann"
+       ],
+       "answer": [
+        "Wer",
+        "ist",
+        "dieser",
+        "Mann"
+       ],
+       "accepted": [
+        "Wer ist der Mann?"
+       ],
+       "words": [
+        "der Mann"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Er ist mein Freund.",
+       "promptLang": "target",
+       "tiles": [
+        "friend",
+        "daughter",
+        "is",
+        "son",
+        "man",
+        "He",
+        "my"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "der Freund"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sie ist meine Tochter.",
+       "translation": "She is my daughter.",
+       "answers": [
+        "Sie ist meine Tochter."
+       ],
+       "words": [
+        "die Tochter"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Meine Mutter ist zu Hause.",
+        "Meine Mutter ist zuhause."
+       ],
+       "words": [
+        "die Mutter"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich habe einen Sohn.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "der Sohn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "die Frau",
+        "Frau"
+       ],
+       "words": [
+        "die Frau"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "Mann",
+        "meine",
+        "Ich",
+        "mein",
+        "Sie",
+        "Tochter",
+        "ist"
+       ],
+       "answer": [
+        "Sie",
+        "ist",
+        "meine",
+        "Tochter"
+       ],
+       "accepted": [
+        "Das ist meine Tochter."
+       ],
+       "words": [
+        "die Tochter"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Das ist meine Mutter.",
+       "promptLang": "target",
+       "options": [
+        "I have a son.",
+        "My mother is at home.",
+        "She is my daughter.",
+        "This is my mother."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "die Mutter"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "der Freund",
+         "Friend"
+        ],
+        [
+         "der Sohn",
+         "Son"
+        ],
+        [
+         "die Mutter",
+         "Mother"
+        ],
+        [
+         "die Frau",
+         "Woman"
+        ]
+       ],
+       "words": [
+        "der Freund",
+        "der Sohn",
+        "die Mutter",
+        "die Frau"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "das Kind",
+       "words": [
+        "das Kind"
+       ],
+       "options": [
+        "der Mann",
+        "die Tochter",
+        "die Mutter",
+        "das Kind"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "mein",
+        "einen",
+        "Sohn",
+        "Mutter",
+        "Ich",
+        "habe",
+        "Hause"
+       ],
+       "answer": [
+        "Ich",
+        "habe",
+        "einen",
+        "Sohn"
+       ],
+       "accepted": [],
+       "words": [
+        "der Sohn"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wer ist dieser Mann?",
+       "translation": "Who is this man?",
+       "answers": [
+        "Wer ist dieser Mann?"
+       ],
+       "words": [
+        "der Mann"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Wo ist mein Vater?",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "my",
+        "I",
+        "daughter",
+        "is",
+        "man",
+        "father"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "der Vater",
+        "wo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answers": [
+        "der Vater",
+        "Vater",
+        "Papa"
+       ],
+       "words": [
+        "der Vater"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Er ist mein Freund.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "der Freund"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Meine Mutter ist zu Hause.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Meine Mutter ist zu Hause."
+       ],
+       "words": [
+        "die Mutter"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tip": "'Kein' means 'no / not any': 'Ich trinke keine Milch' = I do not drink milk.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "das Wasser",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Bread",
+        "Tea",
+        "Egg"
+       ],
+       "answer": "Water",
+       "words": [
+        "das Wasser"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "das Brot",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Coffee",
+        "Apple",
+        "Tea"
+       ],
+       "answer": "Bread",
+       "words": [
+        "das Brot"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "der Kaffee",
+       "words": [
+        "der Kaffee"
+       ],
+       "options": [
+        "die Milch",
+        "der Kaffee",
+        "das Brot",
+        "der Reis"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Tee",
+       "promptLang": "target",
+       "options": [
+        "Coffee",
+        "Bread",
+        "Rice",
+        "Tea"
+       ],
+       "answer": "Tea",
+       "words": [
+        "der Tee"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "das Wasser",
+         "Water"
+        ],
+        [
+         "das Brot",
+         "Bread"
+        ],
+        [
+         "der Kaffee",
+         "Coffee"
+        ],
+        [
+         "der Tee",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "das Wasser",
+        "das Brot",
+        "der Kaffee",
+        "der Tee"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Äpfel",
+        "bitte",
+        "Ich",
+        "keine",
+        "Wasser"
+       ],
+       "answer": [
+        "Wasser",
+        "bitte"
+       ],
+       "accepted": [
+        "Ein Wasser, bitte."
+       ],
+       "words": [
+        "bitte",
+        "das Wasser"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich trinke Kaffee.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Ich trinke Kaffee."
+       ],
+       "words": [
+        "der Kaffee"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich esse Brot.",
+       "promptLang": "target",
+       "tiles": [
+        "eat",
+        "The",
+        "I",
+        "tea",
+        "bread",
+        "do"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "das Brot"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Wasser, bitte.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "bitte",
+        "das Wasser"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Milch",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Milk",
+        "Apple",
+        "Rice"
+       ],
+       "answer": "Milk",
+       "words": [
+        "die Milch"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "der Apfel",
+       "words": [
+        "der Apfel"
+       ],
+       "options": [
+        "die Milch",
+        "der Apfel",
+        "das Brot",
+        "das Ei"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Reis",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Water",
+        "Rice",
+        "Milk"
+       ],
+       "answer": "Rice",
+       "words": [
+        "der Reis"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "das Ei",
+       "words": [
+        "das Ei"
+       ],
+       "options": [
+        "das Brot",
+        "das Wasser",
+        "das Ei",
+        "der Apfel"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "die Milch",
+         "Milk"
+        ],
+        [
+         "der Apfel",
+         "Apple"
+        ],
+        [
+         "der Reis",
+         "Rice"
+        ],
+        [
+         "das Ei",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "die Milch",
+        "der Apfel",
+        "der Reis",
+        "das Ei"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "ist",
+        "Der",
+        "Tee",
+        "heiß",
+        "keine",
+        "Wasser",
+        "mag"
+       ],
+       "answer": [
+        "Der",
+        "Tee",
+        "ist",
+        "heiß"
+       ],
+       "accepted": [],
+       "words": [
+        "der Tee"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich trinke keine Milch.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "do",
+        "tea",
+        "is",
+        "not",
+        "milk",
+        "drink",
+        "like"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "die Milch"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Der Tee ist heiß.",
+       "translation": "The tea is hot.",
+       "answers": [
+        "Der Tee ist heiß."
+       ],
+       "words": [
+        "der Tee"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich mag Äpfel.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "Ich mag Äpfel."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "das Wasser",
+        "Wasser"
+       ],
+       "words": [
+        "das Wasser"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ich habe Hunger.",
+       "promptLang": "target",
+       "options": [
+        "I like apples.",
+        "I am hungry.",
+        "I do not drink milk.",
+        "The tea is hot."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Ich habe Hunger."
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "das Brot",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Bread",
+        "Egg",
+        "Coffee"
+       ],
+       "answer": "Bread",
+       "words": [
+        "das Brot"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "das Wasser",
+         "Water"
+        ],
+        [
+         "das Ei",
+         "Egg"
+        ],
+        [
+         "der Apfel",
+         "Apple"
+        ],
+        [
+         "der Tee",
+         "Tea"
+        ],
+        [
+         "das Brot",
+         "Bread"
+        ]
+       ],
+       "words": [
+        "das Wasser",
+        "das Ei",
+        "der Apfel",
+        "der Tee",
+        "das Brot"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "bitte",
+        "mag",
+        "habe",
+        "Hunger",
+        "ist",
+        "Ich"
+       ],
+       "answer": [
+        "Ich",
+        "habe",
+        "Hunger"
+       ],
+       "accepted": [
+        "Ich bin hungrig."
+       ],
+       "words": [
+        "Ich habe Hunger."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich trinke Kaffee.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "do",
+        "eat",
+        "apples",
+        "drink",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "der Kaffee"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich mag Äpfel.",
+       "translation": "I like apples.",
+       "answers": [
+        "Ich mag Äpfel."
+       ],
+       "words": [
+        "Ich mag Äpfel."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Ich trinke keine Milch."
+       ],
+       "words": [
+        "die Milch"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich esse Brot.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "das Brot"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "das Brot",
+        "Brot"
+       ],
+       "words": [
+        "das Brot"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Ich",
+        "keine",
+        "habe",
+        "mag",
+        "trinke",
+        "Äpfel"
+       ],
+       "answer": [
+        "Ich",
+        "mag",
+        "Äpfel"
+       ],
+       "accepted": [],
+       "words": [
+        "Ich mag Äpfel."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wasser, bitte.",
+       "promptLang": "target",
+       "options": [
+        "Water, please.",
+        "I like apples.",
+        "I eat bread.",
+        "I drink coffee."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "bitte",
+        "das Wasser"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "das Wasser",
+         "Water"
+        ],
+        [
+         "der Tee",
+         "Tea"
+        ],
+        [
+         "das Ei",
+         "Egg"
+        ],
+        [
+         "der Apfel",
+         "Apple"
+        ]
+       ],
+       "words": [
+        "das Wasser",
+        "der Tee",
+        "das Ei",
+        "der Apfel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "der Reis",
+       "words": [
+        "der Reis"
+       ],
+       "options": [
+        "das Ei",
+        "das Wasser",
+        "der Reis",
+        "der Apfel"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "Tee",
+        "Ich",
+        "Äpfel",
+        "Brot",
+        "Kaffee",
+        "esse"
+       ],
+       "answer": [
+        "Ich",
+        "esse",
+        "Brot"
+       ],
+       "accepted": [],
+       "words": [
+        "das Brot"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich habe Hunger.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Ich habe Hunger."
+       ],
+       "words": [
+        "Ich habe Hunger."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Der Tee ist heiß.",
+       "promptLang": "target",
+       "tiles": [
+        "tea",
+        "do",
+        "drink",
+        "I",
+        "The",
+        "is",
+        "hot"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "der Tee"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answers": [
+        "die Milch",
+        "Milch"
+       ],
+       "words": [
+        "die Milch"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich trinke Kaffee.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "der Kaffee"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich trinke keine Milch.",
+       "translation": "I do not drink milk.",
+       "answers": [
+        "Ich trinke keine Milch."
+       ],
+       "words": [
+        "die Milch"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tip": "Say 'eins' when counting, but 'ein' or 'eine' before a noun: 'ein Apfel', 'eine Tasse'.",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "eins",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "One",
+        "Nine",
+        "Ten"
+       ],
+       "answer": "One",
+       "words": [
+        "eins"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "zwei",
+       "promptLang": "target",
+       "options": [
+        "Seven",
+        "Three",
+        "Two",
+        "Six"
+       ],
+       "answer": "Two",
+       "words": [
+        "zwei"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "drei",
+       "words": [
+        "drei"
+       ],
+       "options": [
+        "drei",
+        "fünf",
+        "vier",
+        "acht"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vier",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Three",
+        "Nine",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "vier"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "eins",
+         "One"
+        ],
+        [
+         "zwei",
+         "Two"
+        ],
+        [
+         "drei",
+         "Three"
+        ],
+        [
+         "vier",
+         "Four"
+        ]
+       ],
+       "words": [
+        "eins",
+        "zwei",
+        "drei",
+        "vier"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "zwei",
+        "drei",
+        "ist",
+        "Kinder",
+        "Ich",
+        "Es",
+        "habe"
+       ],
+       "answer": [
+        "Ich",
+        "habe",
+        "zwei",
+        "Kinder"
+       ],
+       "accepted": [],
+       "words": [
+        "zwei"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wie viel kostet das?",
+       "translation": "How much is it?",
+       "answers": [
+        "Wie viel kostet das?"
+       ],
+       "words": [
+        "Wie viel kostet das?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich habe vier Äpfel.",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "two",
+        "it",
+        "o'clock",
+        "four",
+        "have",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "vier"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich habe zwei Kinder.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "zwei"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "fünf",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "Seven",
+        "Five",
+        "Six"
+       ],
+       "answer": "Five",
+       "words": [
+        "fünf"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "sechs",
+       "words": [
+        "sechs"
+       ],
+       "options": [
+        "sieben",
+        "vier",
+        "neun",
+        "sechs"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sieben",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Five",
+        "Ten",
+        "Seven"
+       ],
+       "answer": "Seven",
+       "words": [
+        "sieben"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "acht",
+       "words": [
+        "acht"
+       ],
+       "options": [
+        "vier",
+        "acht",
+        "zehn",
+        "sieben"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "fünf",
+         "Five"
+        ],
+        [
+         "sechs",
+         "Six"
+        ],
+        [
+         "sieben",
+         "Seven"
+        ],
+        [
+         "acht",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "fünf",
+        "sechs",
+        "sieben",
+        "acht"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Einen",
+        "zwei",
+        "Es",
+        "Kaffee",
+        "bitte",
+        "vier"
+       ],
+       "answer": [
+        "Einen",
+        "Kaffee",
+        "bitte"
+       ],
+       "accepted": [
+        "Ein Kaffee, bitte."
+       ],
+       "words": [
+        "bitte",
+        "der Kaffee"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Zwei Tee, bitte.",
+       "promptLang": "target",
+       "tiles": [
+        "o'clock",
+        "Two",
+        "please",
+        "teas",
+        "children",
+        "three"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "bitte",
+        "der Tee",
+        "zwei"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Einen Kaffee, bitte.",
+       "translation": "One coffee, please.",
+       "answers": [
+        "Einen Kaffee, bitte."
+       ],
+       "words": [
+        "bitte",
+        "der Kaffee"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Es ist drei Uhr.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "drei"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "eins",
+        "ein",
+        "eine"
+       ],
+       "words": [
+        "eins"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Einen Moment, bitte.",
+       "promptLang": "target",
+       "options": [
+        "One moment, please.",
+        "One coffee, please.",
+        "I have two children.",
+        "How much is it?"
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "bitte"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "neun",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Six",
+        "Ten",
+        "Nine"
+       ],
+       "answer": "Nine",
+       "words": [
+        "neun"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "eins",
+         "One"
+        ],
+        [
+         "acht",
+         "Eight"
+        ],
+        [
+         "fünf",
+         "Five"
+        ],
+        [
+         "sechs",
+         "Six"
+        ],
+        [
+         "zwei",
+         "Two"
+        ]
+       ],
+       "words": [
+        "eins",
+        "acht",
+        "fünf",
+        "sechs",
+        "zwei"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "das",
+        "bitte",
+        "vier",
+        "Einen",
+        "Moment",
+        "Wie"
+       ],
+       "answer": [
+        "Einen",
+        "Moment",
+        "bitte"
+       ],
+       "accepted": [
+        "Moment, bitte."
+       ],
+       "words": [
+        "bitte"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Wie viel kostet das?",
+       "promptLang": "target",
+       "tiles": [
+        "How",
+        "it",
+        "four",
+        "One",
+        "two",
+        "much",
+        "is"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Wie viel kostet das?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Es ist drei Uhr.",
+       "translation": "It is three o'clock.",
+       "answers": [
+        "Es ist drei Uhr."
+       ],
+       "words": [
+        "drei"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Zwei Tee, bitte.",
+        "Zwei Tees, bitte."
+       ],
+       "words": [
+        "bitte",
+        "der Tee",
+        "zwei"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich habe vier Äpfel.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "vier"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "zehn"
+       ],
+       "words": [
+        "zehn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "bitte",
+        "drei",
+        "viel",
+        "Es",
+        "ist",
+        "habe",
+        "Uhr"
+       ],
+       "answer": [
+        "Es",
+        "ist",
+        "drei",
+        "Uhr"
+       ],
+       "accepted": [],
+       "words": [
+        "drei"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ich habe zwei Kinder.",
+       "promptLang": "target",
+       "options": [
+        "How much is it?",
+        "I have four apples.",
+        "I have two children.",
+        "Two teas, please."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "zwei"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "sechs",
+         "Six"
+        ],
+        [
+         "fünf",
+         "Five"
+        ],
+        [
+         "drei",
+         "Three"
+        ],
+        [
+         "zehn",
+         "Ten"
+        ]
+       ],
+       "words": [
+        "sechs",
+        "fünf",
+        "drei",
+        "zehn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Four",
+       "promptLang": "en",
+       "answer": "vier",
+       "words": [
+        "vier"
+       ],
+       "options": [
+        "vier",
+        "zehn",
+        "neun",
+        "sechs"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Uhr",
+        "Ich",
+        "vier",
+        "habe",
+        "zwei",
+        "Äpfel",
+        "das"
+       ],
+       "answer": [
+        "Ich",
+        "habe",
+        "vier",
+        "Äpfel"
+       ],
+       "accepted": [],
+       "words": [
+        "vier"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Einen Moment, bitte.",
+       "translation": "One moment, please.",
+       "answers": [
+        "Einen Moment, bitte."
+       ],
+       "words": [
+        "bitte"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Einen Kaffee, bitte.",
+       "promptLang": "target",
+       "tiles": [
+        "One",
+        "please",
+        "it",
+        "coffee",
+        "moment",
+        "four"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "bitte",
+        "der Kaffee"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Nine",
+       "promptLang": "en",
+       "answers": [
+        "neun"
+       ],
+       "words": [
+        "neun"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Wie viel kostet das?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Wie viel kostet das?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Zwei Tee, bitte.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Zwei Tee, bitte."
+       ],
+       "words": [
+        "bitte",
+        "der Tee",
+        "zwei"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tip": "'Links' is left and 'rechts' is right. Use 'fahren' when you travel by car, train or bus, and 'gehen' when you walk.",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "das Hotel",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Airport",
+        "Toilet",
+        "Where"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "das Hotel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Bahnhof",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Airport",
+        "Ticket",
+        "Toilet"
+       ],
+       "answer": "Station",
+       "words": [
+        "der Bahnhof"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "der Flughafen",
+       "words": [
+        "der Flughafen"
+       ],
+       "options": [
+        "der Flughafen",
+        "der Bahnhof",
+        "die Fahrkarte",
+        "links"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Fahrkarte",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Ticket",
+        "Airport",
+        "Toilet"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "die Fahrkarte"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "das Hotel",
+         "Hotel"
+        ],
+        [
+         "der Bahnhof",
+         "Station"
+        ],
+        [
+         "der Flughafen",
+         "Airport"
+        ],
+        [
+         "die Fahrkarte",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "das Hotel",
+        "der Bahnhof",
+        "der Flughafen",
+        "die Fahrkarte"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "Biegen",
+        "Wo",
+        "Hotel",
+        "ist",
+        "Der",
+        "links",
+        "das"
+       ],
+       "answer": [
+        "Wo",
+        "ist",
+        "das",
+        "Hotel"
+       ],
+       "accepted": [],
+       "words": [
+        "das Hotel",
+        "wo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wo ist die Toilette?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Wo ist die Toilette?"
+       ],
+       "words": [
+        "wo",
+        "die Toilette"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Biegen Sie links ab.",
+       "promptLang": "target",
+       "tiles": [
+        "going",
+        "toilet",
+        "left",
+        "I",
+        "Turn"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "links"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Wo ist das Hotel?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "das Hotel",
+        "wo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "links",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Left",
+        "Right",
+        "Where"
+       ],
+       "answer": "Left",
+       "words": [
+        "links"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "rechts",
+       "words": [
+        "rechts"
+       ],
+       "options": [
+        "rechts",
+        "wo",
+        "links",
+        "die Toilette"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "wo",
+       "promptLang": "target",
+       "options": [
+        "Where",
+        "Station",
+        "Hotel",
+        "Right"
+       ],
+       "answer": "Where",
+       "words": [
+        "wo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "die Toilette",
+       "words": [
+        "die Toilette"
+       ],
+       "options": [
+        "links",
+        "die Toilette",
+        "der Bahnhof",
+        "der Flughafen"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "links",
+         "Left"
+        ],
+        [
+         "rechts",
+         "Right"
+        ],
+        [
+         "wo",
+         "Where"
+        ],
+        [
+         "die Toilette",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "links",
+        "rechts",
+        "wo",
+        "die Toilette"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "Der",
+        "bitte",
+        "ist",
+        "Bahnhof",
+        "rechts",
+        "fahre",
+        "Fahrkarte"
+       ],
+       "answer": [
+        "Der",
+        "Bahnhof",
+        "ist",
+        "rechts"
+       ],
+       "accepted": [],
+       "words": [
+        "der Bahnhof",
+        "rechts"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Eine Fahrkarte, bitte.",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "please",
+        "ticket",
+        "I",
+        "toilet",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "bitte",
+        "eins",
+        "die Fahrkarte"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Der Bahnhof ist rechts.",
+       "translation": "The station is on the right.",
+       "answers": [
+        "Der Bahnhof ist rechts."
+       ],
+       "words": [
+        "der Bahnhof",
+        "rechts"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich fahre zum Flughafen.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "der Flughafen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "das Hotel",
+        "Hotel"
+       ],
+       "words": [
+        "das Hotel"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ist es weit?",
+       "promptLang": "target",
+       "options": [
+        "A ticket, please.",
+        "Is it far?",
+        "Where is the toilet?",
+        "I am going to the airport."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "Ist es weit?"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Bahnhof",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Left",
+        "Ticket",
+        "Right"
+       ],
+       "answer": "Station",
+       "words": [
+        "der Bahnhof"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "die Toilette",
+         "Toilet"
+        ],
+        [
+         "die Fahrkarte",
+         "Ticket"
+        ],
+        [
+         "wo",
+         "Where"
+        ],
+        [
+         "links",
+         "Left"
+        ],
+        [
+         "das Hotel",
+         "Hotel"
+        ]
+       ],
+       "words": [
+        "die Toilette",
+        "die Fahrkarte",
+        "wo",
+        "links",
+        "das Hotel"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "es",
+        "Bahnhof",
+        "weit",
+        "Toilette",
+        "Ist",
+        "Flughafen"
+       ],
+       "answer": [
+        "Ist",
+        "es",
+        "weit"
+       ],
+       "accepted": [
+        "Ist das weit?"
+       ],
+       "words": [
+        "Ist es weit?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Wo ist die Toilette?",
+       "promptLang": "target",
+       "tiles": [
+        "right",
+        "is",
+        "on",
+        "toilet",
+        "the",
+        "Where",
+        "am"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "wo",
+        "die Toilette"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich fahre zum Flughafen.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Ich fahre zum Flughafen."
+       ],
+       "words": [
+        "der Flughafen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Eine Fahrkarte, bitte.",
+        "Ein Ticket, bitte."
+       ],
+       "words": [
+        "bitte",
+        "eins",
+        "die Fahrkarte"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Biegen Sie links ab.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "links"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "der Bahnhof",
+        "Bahnhof"
+       ],
+       "words": [
+        "der Bahnhof"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "links",
+        "fahre",
+        "zum",
+        "Flughafen",
+        "es",
+        "Biegen",
+        "Ich"
+       ],
+       "answer": [
+        "Ich",
+        "fahre",
+        "zum",
+        "Flughafen"
+       ],
+       "accepted": [
+        "Ich gehe zum Flughafen."
+       ],
+       "words": [
+        "der Flughafen"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wo ist das Hotel?",
+       "promptLang": "target",
+       "options": [
+        "Where is the hotel?",
+        "Is it far?",
+        "A ticket, please.",
+        "I am going to the airport."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "das Hotel",
+        "wo"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "links",
+         "Left"
+        ],
+        [
+         "der Flughafen",
+         "Airport"
+        ],
+        [
+         "wo",
+         "Where"
+        ],
+        [
+         "die Fahrkarte",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "links",
+        "der Flughafen",
+        "wo",
+        "die Fahrkarte"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answer": "der Bahnhof",
+       "words": [
+        "der Bahnhof"
+       ],
+       "options": [
+        "links",
+        "der Bahnhof",
+        "die Fahrkarte",
+        "der Flughafen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "Biegen",
+        "Bahnhof",
+        "weit",
+        "Ich",
+        "ab",
+        "links",
+        "Sie"
+       ],
+       "answer": [
+        "Biegen",
+        "Sie",
+        "links",
+        "ab"
+       ],
+       "accepted": [
+        "Bieg links ab.",
+        "Links abbiegen."
+       ],
+       "words": [
+        "links"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ist es weit?",
+       "translation": "Is it far?",
+       "answers": [
+        "Ist es weit?"
+       ],
+       "words": [
+        "Ist es weit?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Der Bahnhof ist rechts.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "on",
+        "ticket",
+        "station",
+        "it",
+        "The",
+        "right",
+        "to",
+        "the"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "der Bahnhof",
+        "rechts"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answers": [
+        "die Toilette",
+        "Toilette",
+        "das WC",
+        "WC"
+       ],
+       "words": [
+        "die Toilette"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Wo ist die Toilette?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "wo",
+        "die Toilette"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Eine Fahrkarte, bitte.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Eine Fahrkarte, bitte."
+       ],
+       "words": [
+        "bitte",
+        "eins",
+        "die Fahrkarte"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tip": "Careful: 'morgen' means tomorrow, but 'der Morgen' is the morning.",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "heute",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Tomorrow",
+        "Night",
+        "School"
+       ],
+       "answer": "Today",
+       "words": [
+        "heute"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "morgen",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Now",
+        "Night",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "morgen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "jetzt",
+       "words": [
+        "jetzt"
+       ],
+       "options": [
+        "die Arbeit",
+        "jetzt",
+        "das Haus",
+        "morgen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "der Morgen",
+       "promptLang": "target",
+       "options": [
+        "House",
+        "Morning",
+        "School",
+        "Night"
+       ],
+       "answer": "Morning",
+       "words": [
+        "der Morgen"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "heute",
+         "Today"
+        ],
+        [
+         "morgen",
+         "Tomorrow"
+        ],
+        [
+         "jetzt",
+         "Now"
+        ],
+        [
+         "der Morgen",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "heute",
+        "morgen",
+        "jetzt",
+        "der Morgen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "es",
+        "Arbeit",
+        "in",
+        "Kinder",
+        "Ich",
+        "gehe",
+        "zur"
+       ],
+       "answer": [
+        "Ich",
+        "gehe",
+        "zur",
+        "Arbeit"
+       ],
+       "accepted": [
+        "Ich fahre zur Arbeit."
+       ],
+       "words": [
+        "die Arbeit"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich bin zu Hause.",
+       "translation": "I am at home.",
+       "answers": [
+        "Ich bin zu Hause."
+       ],
+       "words": [
+        "Ich bin zu Hause."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Heute ist Montag.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "I",
+        "Monday",
+        "is",
+        "morning",
+        "Today"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "heute"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich gehe zur Arbeit.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "die Arbeit"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Nacht",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Now",
+        "House",
+        "Tomorrow"
+       ],
+       "answer": "Night",
+       "words": [
+        "die Nacht"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "das Haus",
+       "words": [
+        "das Haus"
+       ],
+       "options": [
+        "die Schule",
+        "jetzt",
+        "der Morgen",
+        "das Haus"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "die Arbeit",
+       "promptLang": "target",
+       "options": [
+        "House",
+        "Today",
+        "Morning",
+        "Work"
+       ],
+       "answer": "Work",
+       "words": [
+        "die Arbeit"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "die Schule",
+       "words": [
+        "die Schule"
+       ],
+       "options": [
+        "heute",
+        "jetzt",
+        "das Haus",
+        "die Schule"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "die Nacht",
+         "Night"
+        ],
+        [
+         "das Haus",
+         "House"
+        ],
+        [
+         "die Arbeit",
+         "Work"
+        ],
+        [
+         "die Schule",
+         "School"
+        ]
+       ],
+       "words": [
+        "die Nacht",
+        "das Haus",
+        "die Arbeit",
+        "die Schule"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "gehen",
+        "Morgen",
+        "ich",
+        "Am",
+        "gehe",
+        "Hause",
+        "Kaffee",
+        "trinke"
+       ],
+       "answer": [
+        "Am",
+        "Morgen",
+        "trinke",
+        "ich",
+        "Kaffee"
+       ],
+       "accepted": [
+        "Morgens trinke ich Kaffee.",
+        "Ich trinke morgens Kaffee.",
+        "Ich trinke am Morgen Kaffee."
+       ],
+       "words": [
+        "der Kaffee",
+        "morgen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich schlafe in der Nacht.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "Monday",
+        "at",
+        "sleep",
+        "now",
+        "children",
+        "night"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "die Nacht"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Am Morgen trinke ich Kaffee.",
+       "translation": "I drink coffee in the morning.",
+       "answers": [
+        "Am Morgen trinke ich Kaffee."
+       ],
+       "words": [
+        "der Kaffee",
+        "morgen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Die Kinder gehen zur Schule.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "die Schule"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "heute"
+       ],
+       "words": [
+        "heute"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Wie spät ist es jetzt?",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee in the morning.",
+        "Today is Monday.",
+        "What time is it now?",
+        "I go to work."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "jetzt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "morgen",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Work",
+        "Tomorrow",
+        "Night"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "morgen"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "die Nacht",
+         "Night"
+        ],
+        [
+         "die Schule",
+         "School"
+        ],
+        [
+         "jetzt",
+         "Now"
+        ],
+        [
+         "das Haus",
+         "House"
+        ],
+        [
+         "die Arbeit",
+         "Work"
+        ]
+       ],
+       "words": [
+        "die Nacht",
+        "die Schule",
+        "jetzt",
+        "das Haus",
+        "die Arbeit"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "in",
+        "Kinder",
+        "Wie",
+        "spät",
+        "jetzt",
+        "es",
+        "Kaffee",
+        "ist"
+       ],
+       "answer": [
+        "Wie",
+        "spät",
+        "ist",
+        "es",
+        "jetzt"
+       ],
+       "accepted": [
+        "Wie viel Uhr ist es jetzt?"
+       ],
+       "words": [
+        "jetzt"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich bin zu Hause.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "I",
+        "am",
+        "What",
+        "school",
+        "Monday",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "Ich bin zu Hause."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Die Kinder gehen zur Schule.",
+       "translation": "The children go to school.",
+       "answers": [
+        "Die Kinder gehen zur Schule."
+       ],
+       "words": [
+        "die Schule"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Ich schlafe in der Nacht.",
+        "Ich schlafe nachts.",
+        "Nachts schlafe ich."
+       ],
+       "words": [
+        "die Nacht"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Heute ist Montag.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "heute"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "morgen"
+       ],
+       "words": [
+        "morgen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "Schule",
+        "Kinder",
+        "zur",
+        "Die",
+        "gehen",
+        "ist",
+        "Arbeit",
+        "Am"
+       ],
+       "answer": [
+        "Die",
+        "Kinder",
+        "gehen",
+        "zur",
+        "Schule"
+       ],
+       "accepted": [
+        "Die Kinder gehen in die Schule."
+       ],
+       "words": [
+        "die Schule"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ich gehe zur Arbeit.",
+       "promptLang": "target",
+       "options": [
+        "I am at home.",
+        "The children go to school.",
+        "I go to work.",
+        "I sleep at night."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "die Arbeit"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "das Haus",
+         "House"
+        ],
+        [
+         "die Nacht",
+         "Night"
+        ],
+        [
+         "der Morgen",
+         "Morning"
+        ],
+        [
+         "heute",
+         "Today"
+        ]
+       ],
+       "words": [
+        "das Haus",
+        "die Nacht",
+        "der Morgen",
+        "heute"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "die Schule",
+       "words": [
+        "die Schule"
+       ],
+       "options": [
+        "morgen",
+        "das Haus",
+        "heute",
+        "die Schule"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "trinke",
+        "in",
+        "Heute",
+        "Montag",
+        "ist",
+        "der"
+       ],
+       "answer": [
+        "Heute",
+        "ist",
+        "Montag"
+       ],
+       "accepted": [],
+       "words": [
+        "heute"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Wie spät ist es jetzt?",
+       "translation": "What time is it now?",
+       "answers": [
+        "Wie spät ist es jetzt?"
+       ],
+       "words": [
+        "jetzt"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Am Morgen trinke ich Kaffee.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "Today",
+        "morning",
+        "school",
+        "in",
+        "I",
+        "the",
+        "drink",
+        "now"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "der Kaffee",
+        "morgen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answers": [
+        "die Arbeit",
+        "Arbeit"
+       ],
+       "words": [
+        "die Arbeit"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich bin zu Hause.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "Ich bin zu Hause."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich schlafe in der Nacht.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Ich schlafe in der Nacht."
+       ],
+       "words": [
+        "die Nacht"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
