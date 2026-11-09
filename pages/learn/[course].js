@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 import { Icon } from '../../components/Icons';
@@ -68,11 +67,9 @@ function PathNode({ lesson, number, state, current, courseId, unitTitle, offset 
 }
 
 function Unit({ unit, index, map, courseId, currentId }) {
-  const [guideOpen, setGuideOpen] = useState(false);
   const st = map.units[unit.id];
   const complete = st.done === st.total;
   const firstLocked = !map.lessons[unit.lessons[0].id].unlocked;
-  const guideId = 'guide-' + unit.id;
   return (
     <section className={'unit unit-c' + (index % 6) + (firstLocked ? ' unit-locked' : '')} aria-labelledby={'unit-' + unit.id}>
       <div className="unit-banner">
@@ -83,23 +80,12 @@ function Unit({ unit, index, map, courseId, currentId }) {
           <h2 id={'unit-' + unit.id}>{unit.title}</h2>
           {unit.description ? <p className="unit-desc">{unit.description}</p> : null}
         </div>
-        {unit.tip ? (
-          <button
-            type="button"
-            className="btn btn-ghost guide-btn"
-            aria-expanded={guideOpen}
-            aria-controls={guideId}
-            onClick={() => setGuideOpen(!guideOpen)}
-          >
-            <Icon name="star" /> {guideOpen ? 'Hide tips' : 'Tips'}
-          </button>
+        {unit.hasGuide ? (
+          <Link href={'/guide/' + courseId + '/' + unit.id} className="btn btn-ghost guide-btn">
+            <Icon name="star" /> Guidebook<span className="sr-only"> for unit {index + 1}</span>
+          </Link>
         ) : null}
       </div>
-      {unit.tip && guideOpen ? (
-        <p className="tip" id={guideId}>
-          {unit.tip}
-        </p>
-      ) : null}
       <ol className="path" aria-label={'Lessons in unit ' + (index + 1)}>
         {unit.lessons.map((l, i) => (
           <PathNode

@@ -1417,3 +1417,127 @@ tr.me td {
   height: 1em;
   vertical-align: -0.12em;
 }
+
+/* ---------- new-word cards, hints, guidebook ---------- */
+
+.teach-card {
+  text-align: center;
+  padding: 26px 16px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.teach-card .speak-btn {
+  margin: 0 auto 12px;
+}
+
+.teach-target {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 6px;
+}
+
+.teach-target .target {
+  align-items: center;
+}
+
+.teach-meaning {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+}
+
+.hint {
+  position: relative;
+  display: inline-block;
+}
+
+.hint-word {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: help;
+  text-decoration: underline dotted var(--muted);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.hint-pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  white-space: nowrap;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 4px 10px;
+  box-shadow: var(--shadow);
+}
+
+.hint-pop .roman {
+  color: #cfd3ea;
+}
+
+.guide-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.guide-list li {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 4px 12px;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+
+.guide-list li:first-child {
+  border-top: 0;
+}
+
+.guide-list .guide-speak {
+  grid-row: span 2;
+}
+
+.guide-target {
+  align-items: flex-start;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.guide-meaning {
+  grid-column: 2;
+  color: var(--ink-soft);
+}
+
+.tips-card {
+  background: var(--accent-soft);
+  border-color: transparent;
+}
+
+.tips-card h2 svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.12em;
+}
+
+.tips-card ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.tips-card li + li {
+  margin-top: 6px;
+}
