@@ -7,7 +7,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Icon, LoopArt } from './Icons';
-import { EXERCISE_COMPONENTS, isReady } from './Exercises';
+import { EXERCISE_COMPONENTS, isReady, answerRoman, promptText, responseText, TargetText } from './Exercises';
 import { checkAnswer } from '../lib/grading';
 import { postJson } from '../lib/client';
 import { playCorrect, playWrong, playComplete } from '../lib/sfx';
@@ -17,9 +17,78 @@ function minutesUntil(ms) {
   return Math.max(1, Math.ceil((ms - Date.now()) / 60000));
 }
 
+// Text in the course language when the answer is in that language, else English.
+function AnswerText({ ex, text, course }) {
+  const target =
+    (ex.type === 'mc' && ex.promptLang !== 'target') ||
+    (ex.type === 'tap' && ex.promptLang !== 'target') ||
+    (ex.type === 'type' && ex.promptLang === 'en') ||
+    ex.type === 'listen';
+  if (!target) return <span lang="en">{text}</span>;
+  return <TargetText text={text} roman={answerRoman(ex)} course={course} />;
+}
+
+function Feedback({ ex, feedback, course, usesHearts }) {
+  if (!feedback.correct) {
+    return (
+      <>
+        <h2>Not quite</h2>
+        <p>
+          Correct answer: <strong><AnswerText ex={ex} text={feedback.answer} course={course} /></strong>
+        </p>
+        {ex.type === 'listen' && ex.translation ? <p className="small">Meaning: {ex.translation}</p> : null}
+        {usesHearts ? <p className="small">You lost a heart. This one will come back later.</p> : null}
+      </>
+    );
+  }
+  let title = 'Correct!';
+  if (feedback.skipped) title = 'Skipped';
+  else if (feedback.accent) title = 'Correct - watch the accents';
+  else if (feedback.typo) title = 'Correct - watch the spelling';
+  const showAnswer = feedback.typo || feedback.accent || feedback.skipped || ex.type === 'listen' || ex.type === 'type';
+  return (
+    <>
+      <h2>{title}</h2>
+      {showAnswer ? (
+        <p>
+          {feedback.skipped ? 'It said: ' : 'Answer: '}
+          <AnswerText ex={ex} text={feedback.answer} course={course} />
+          {ex.type === 'listen' && ex.translation ? <> - &ldquo;{ex.translation}&rdquo;</> : null}
+        </p>
+      ) : null}
+    </>
+  );
+}
+
+function MistakesReview({ review, course }) {
+  if (!review.length) return null;
+  return (
+    <section className="card review" aria-labelledby="review-h">
+      <h2 id="review-h">Review your mistakes</h2>
+      <ul className="review-list">
+        {review.map((r) => (
+          <li key={r.pos}>
+            <p className="review-prompt">{promptText(r.ex)}</p>
+            {responseText(r.ex, r.response) ? (
+              <p className="review-yours">
+                <span className="sr-only">Your answer: </span>
+                <Icon name="close" /> <span dir="auto">{responseText(r.ex, r.response)}</span>
+              </p>
+            ) : null}
+            <p className="review-right">
+              <span className="sr-only">Correct answer: </span>
+              <Icon name="check" /> <AnswerText ex={r.ex} text={r.answer} course={course} />
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 export default function LessonPlayer({
   mode, // 'lesson' | 'practice'
-  course, // { id, shortName, speechLang }
+  course, // courseClientInfo(): { id, title, shortName, speechLang, dir, romanization, keyboard }
   lessonId,
   title,
   items, // [{ lessonId, index, exercise }]
@@ -41,6 +110,7 @@ export default function LessonPlayer({
   const [nextHeartAt, setNextHeartAt] = useState(heartsNextAt);
   const [done, setDone] = useState({}); // itemPos -> response
   const [mistakes, setMistakes] = useState({}); // itemPos -> count
+  const [review, setReview] = useState([]); // [{ pos, ex, response, answer }] first wrong answer per exercise
   const [summary, setSummary] = useState(null);
   const [error, setError] = useState('');
   const continueRef = useRef(null);
@@ -87,6 +157,9 @@ export default function LessonPlayer({
       sfx('ok');
     } else {
       addMistake(current);
+      if (!review.some((r) => r.pos === current)) {
+        setReview((r) => r.concat({ pos: current, ex, response: resp, answer: result.answer }));
+      }
       setQueue((q) => q.concat(current)); // ask again later
       sfx('wrong');
       loseHeart();
@@ -200,6 +273,7 @@ export default function LessonPlayer({
             </p>
           ) : null}
           {mode === 'practice' ? <p className="muted small">Practice earns a heart back. Hearts: {hearts}</p> : null}
+          <MistakesReview review={review} course={course} />
           {isGuest ? (
             <div className="card">
               <p>
@@ -210,9 +284,16 @@ export default function LessonPlayer({
               </Link>
             </div>
           ) : null}
-          <Link href={backHref} className="btn btn-block">
-            Continue
-          </Link>
+          <div className="complete-actions">
+            {mode === 'lesson' && summary.nextLessonId ? (
+              <Link href={'/lesson/' + course.id + '/' + summary.nextLessonId} className="btn btn-ok btn-block">
+                Next lesson
+              </Link>
+            ) : null}
+            <Link href={backHref} className={'btn btn-block' + (mode === 'lesson' && summary.nextLessonId ? ' btn-secondary' : '')}>
+              Back to the path
+            </Link>
+          </div>
         </main>
       </div>
     );
@@ -295,7 +376,7 @@ export default function LessonPlayer({
                   addMistake(current);
                 }}
                 sfx={sfx}
-                speechLang={course.speechLang}
+                course={course}
                 soundOn={soundOn}
               />
             </>
@@ -305,28 +386,7 @@ export default function LessonPlayer({
         <div className={footClass}>
           <div className="foot-inner">
             <div className="feedback" aria-live="assertive">
-              {phase === 'feedback' && feedback ? (
-                feedback.correct ? (
-                  <>
-                    <h2>{feedback.skipped ? 'Skipped' : feedback.typo ? 'Correct - watch the spelling' : 'Correct!'}</h2>
-                    {feedback.typo || feedback.skipped || (ex && (ex.type === 'listen' || ex.type === 'type')) ? (
-                      <p>
-                        {feedback.skipped ? 'It said: ' : 'Answer: '}
-                        <span lang={ex && ex.type === 'listen' ? course.speechLang : undefined}>{feedback.answer}</span>
-                        {ex && ex.type === 'listen' && ex.translation ? <> ({ex.translation})</> : null}
-                      </p>
-                    ) : null}
-                  </>
-                ) : (
-                  <>
-                    <h2>Not quite</h2>
-                    <p>
-                      Correct answer: <strong>{feedback.answer}</strong>
-                    </p>
-                    {usesHearts ? <p className="small">You lost a heart. This one will come back later.</p> : null}
-                  </>
-                )
-              ) : null}
+              {phase === 'feedback' && feedback ? <Feedback ex={ex} feedback={feedback} course={course} usesHearts={usesHearts} /> : null}
               {phase === 'error' ? (
                 <div className="alert alert-error" role="alert">
                   {error}

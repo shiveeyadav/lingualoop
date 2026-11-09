@@ -942,6 +942,12 @@ a.path-node:active {
 
 .tile {
   min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.25;
   padding: 8px 14px;
   border: 2px solid var(--line);
   border-bottom-width: 3px;
@@ -1235,4 +1241,109 @@ tr.me td {
 
 .prose li {
   margin-bottom: 0.4em;
+}
+
+/* ---------- target-language text, romanization, RTL ---------- */
+
+.target {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.target [dir='rtl'] {
+  font-size: 1.15em;
+}
+
+.roman,
+.tile-roman {
+  font-size: 0.78em;
+  font-weight: 500;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.tile-roman {
+  font-size: 0.72rem;
+}
+
+.option .target,
+.match-btn .target {
+  align-items: inherit;
+}
+
+.match-btn .target {
+  align-items: center;
+}
+
+.keyboard {
+  margin-top: 8px;
+  gap: 6px;
+}
+
+.tile-key {
+  min-width: 40px;
+  padding: 6px 10px;
+}
+
+[dir='rtl'].answer-area,
+[dir='rtl'].bank {
+  font-size: 1.1em;
+}
+
+/* ---------- lesson complete ---------- */
+
+.complete-actions {
+  display: grid;
+  gap: 10px;
+  max-width: 420px;
+  margin: 16px auto 0;
+}
+
+.review {
+  text-align: left;
+  margin: 18px auto 0;
+  max-width: 560px;
+}
+
+.review h2 {
+  font-size: 1.1rem;
+}
+
+.review-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.review-list li {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.review-list p {
+  margin: 0 0 4px;
+}
+
+.review-prompt {
+  font-weight: 700;
+}
+
+.review-yours {
+  color: var(--bad);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+.review-right {
+  color: var(--ok);
+  font-weight: 600;
+}
+
+.review-list svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.12em;
 }
