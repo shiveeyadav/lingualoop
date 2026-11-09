@@ -59,6 +59,7 @@ export default function LessonPage({ user, todayXp, course, lessonId, title, out
   }
   return (
     <LessonPlayer
+      key={lessonId}
       mode="lesson"
       course={course}
       lessonId={lessonId}
