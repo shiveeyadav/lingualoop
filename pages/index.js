@@ -17,8 +17,8 @@ export default function Home({ user, todayXp, courses }) {
         <LoopArt className="hero-art" />
         <h1>Learn a language, one short loop at a time</h1>
         <p className="lead">
-          Five-minute lessons in Spanish and European Portuguese. Build a daily streak, earn XP and review the words you
-          find hardest.
+          Five-minute lessons in {courses.length} languages, from Spanish and French to Arabic, Hindi, Chinese, Japanese and
+          Korean. Build a daily streak, earn XP and review the words you find hardest.
         </p>
         <div className="row">
           {user ? (
@@ -60,21 +60,19 @@ export default function Home({ user, todayXp, courses }) {
       </section>
 
       <section aria-labelledby="courses-h">
-        <h2 id="courses-h">Courses</h2>
-        <div className="course-grid">
+        <h2 id="courses-h">{courses.length} languages</h2>
+        <ul className="course-chips">
           {courses.map((c) => (
-            <div className="card course-card" key={c.id}>
-              <h3>{c.title}</h3>
-              <p className="native" lang={c.speechLang}>
-                {c.nativeName}
-              </p>
-              <p>{c.description}</p>
-              <p className="muted small">
-                {c.units} units · {c.lessons} lessons
-              </p>
-            </div>
+            <li key={c.id}>
+              <Link href="/courses">
+                {c.title}
+                <span className="muted small" lang={c.speechLang} dir={c.dir}>
+                  {c.nativeName}
+                </span>
+              </Link>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
     </Layout>
   );
