@@ -1,0 +1,5730 @@
+{
+ "id": "japanese",
+ "title": "Japanese",
+ "shortName": "Japanese",
+ "nativeName": "日本語",
+ "fromLanguage": "en",
+ "speechLang": "ja-JP",
+ "dir": "ltr",
+ "romanization": "romaji",
+ "noSpaces": true,
+ "keyboard": [],
+ "order": 130,
+ "description": "Polite everyday Japanese with romaji: greetings, family, food, numbers, travel and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "Japanese uses three scripts: hiragana (ありがとう), katakana for foreign words (コーヒー) and kanji (元気). 'です' (desu) and 'ます' (masu) make sentences polite.",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "こんにちは",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "Thank you",
+        "Hello",
+        "Goodbye"
+       ],
+       "answer": "Hello",
+       "words": [
+        "こんにちは"
+       ],
+       "promptRoman": "konnichiwa"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "さようなら",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Good morning",
+        "No",
+        "Sorry"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "さようなら"
+       ],
+       "promptRoman": "sayōnara"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "ありがとう",
+       "words": [
+        "ありがとう"
+       ],
+       "options": [
+        "いいえ",
+        "すみません",
+        "お願いします",
+        "ありがとう"
+       ],
+       "optionsRoman": [
+        "iie",
+        "sumimasen",
+        "onegaishimasu",
+        "arigatō"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "お願いします",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Yes",
+        "Hello",
+        "Sorry"
+       ],
+       "answer": "Please",
+       "words": [
+        "お願いします"
+       ],
+       "promptRoman": "onegaishimasu"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "こんにちは",
+         "Hello"
+        ],
+        [
+         "さようなら",
+         "Goodbye"
+        ],
+        [
+         "ありがとう",
+         "Thank you"
+        ],
+        [
+         "お願いします",
+         "Please"
+        ]
+       ],
+       "words": [
+        "こんにちは",
+        "さようなら",
+        "ありがとう",
+        "お願いします"
+       ],
+       "romans": [
+        "konnichiwa",
+        "sayōnara",
+        "arigatō",
+        "onegaishimasu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "お元気",
+        "か",
+        "の",
+        "です",
+        "どうも",
+        "私"
+       ],
+       "answer": [
+        "お元気",
+        "です",
+        "か"
+       ],
+       "accepted": [],
+       "words": [
+        "お元気ですか？"
+       ],
+       "tilesRoman": [
+        "o-genki",
+        "ka",
+        "no",
+        "desu",
+        "dōmo",
+        "watashi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "元気です、ありがとう。",
+       "roman": "genki desu, arigatō.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "ありがとう"
+       ],
+       "options": [
+        "元気です、ありがとう。",
+        "どうもありがとうございます。",
+        "お元気ですか？",
+        "また明日。"
+       ],
+       "optionsRoman": [
+        "genki desu, arigatō.",
+        "dōmo arigatō gozaimasu.",
+        "o-genki desu ka?",
+        "mata ashita."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "私の名前はアンナです。",
+       "promptLang": "target",
+       "tiles": [
+        "Nice",
+        "Anna",
+        "is",
+        "I",
+        "My",
+        "fine",
+        "name"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "私の名前はアンナです。"
+       ],
+       "promptRoman": "watashi no namae wa Anna desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "お元気ですか？",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "お元気ですか？"
+       ],
+       "promptRoman": "o-genki desu ka?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "はい",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Hello",
+        "No",
+        "Yes"
+       ],
+       "answer": "Yes",
+       "words": [
+        "はい"
+       ],
+       "promptRoman": "hai"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "いいえ",
+       "words": [
+        "いいえ"
+       ],
+       "options": [
+        "こんにちは",
+        "おはようございます",
+        "ありがとう",
+        "いいえ"
+       ],
+       "optionsRoman": [
+        "konnichiwa",
+        "ohayō gozaimasu",
+        "arigatō",
+        "iie"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "おはようございます",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "Good morning",
+        "Goodbye",
+        "Yes"
+       ],
+       "answer": "Good morning",
+       "words": [
+        "おはようございます"
+       ],
+       "promptRoman": "ohayō gozaimasu"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "すみません",
+       "words": [
+        "すみません"
+       ],
+       "options": [
+        "すみません",
+        "ありがとう",
+        "おはようございます",
+        "はい"
+       ],
+       "optionsRoman": [
+        "sumimasen",
+        "arigatō",
+        "ohayō gozaimasu",
+        "hai"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "はい",
+         "Yes"
+        ],
+        [
+         "いいえ",
+         "No"
+        ],
+        [
+         "おはようございます",
+         "Good morning"
+        ],
+        [
+         "すみません",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "はい",
+        "いいえ",
+        "おはようございます",
+        "すみません"
+       ],
+       "romans": [
+        "hai",
+        "iie",
+        "ohayō gozaimasu",
+        "sumimasen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "はじめまして",
+        "ありがとう",
+        "お元気",
+        "私"
+       ],
+       "answer": [
+        "はじめまして"
+       ],
+       "accepted": [],
+       "words": [
+        "はじめまして。"
+       ],
+       "tilesRoman": [
+        "hajimemashite",
+        "arigatō",
+        "o-genki",
+        "watashi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "どうもありがとうございます。",
+       "promptLang": "target",
+       "tiles": [
+        "are",
+        "very",
+        "you",
+        "your",
+        "much",
+        "Thank",
+        "am"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "ありがとう"
+       ],
+       "promptRoman": "dōmo arigatō gozaimasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "はじめまして。",
+       "roman": "hajimemashite.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "はじめまして。"
+       ],
+       "options": [
+        "お名前は何ですか？",
+        "はじめまして。",
+        "私の名前はアンナです。",
+        "また明日。"
+       ],
+       "optionsRoman": [
+        "o-namae wa nan desu ka?",
+        "hajimemashite.",
+        "watashi no namae wa Anna desu.",
+        "mata ashita."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "また明日。",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "明日"
+       ],
+       "promptRoman": "mata ashita."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "こんにちは",
+        "konnichiwa"
+       ],
+       "words": [
+        "こんにちは"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "お名前は何ですか？",
+       "promptLang": "target",
+       "options": [
+        "See you tomorrow.",
+        "Thank you very much.",
+        "How are you?",
+        "What is your name?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "お名前は何ですか？"
+       ],
+       "promptRoman": "o-namae wa nan desu ka?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "さようなら",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Please",
+        "Goodbye",
+        "Thank you"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "さようなら"
+       ],
+       "promptRoman": "sayōnara"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "お願いします",
+         "Please"
+        ],
+        [
+         "はい",
+         "Yes"
+        ],
+        [
+         "ありがとう",
+         "Thank you"
+        ],
+        [
+         "おはようございます",
+         "Good morning"
+        ],
+        [
+         "こんにちは",
+         "Hello"
+        ]
+       ],
+       "words": [
+        "お願いします",
+        "はい",
+        "ありがとう",
+        "おはようございます",
+        "こんにちは"
+       ],
+       "romans": [
+        "onegaishimasu",
+        "hai",
+        "arigatō",
+        "ohayō gozaimasu",
+        "konnichiwa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "お元気",
+        "何",
+        "名前",
+        "は",
+        "です",
+        "か",
+        "お名前",
+        "ございます"
+       ],
+       "answer": [
+        "お名前",
+        "は",
+        "何",
+        "です",
+        "か"
+       ],
+       "accepted": [
+        "名前は何ですか？"
+       ],
+       "words": [
+        "お名前は何ですか？"
+       ],
+       "tilesRoman": [
+        "o-genki",
+        "nan",
+        "namae",
+        "wa",
+        "desu",
+        "ka",
+        "o-namae",
+        "gozaimasu"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "元気です、ありがとう。",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "fine",
+        "am",
+        "you",
+        "thank",
+        "your",
+        "What",
+        "to"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "ありがとう"
+       ],
+       "promptRoman": "genki desu, arigatō."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "また明日。",
+       "roman": "mata ashita.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "明日"
+       ],
+       "options": [
+        "元気です、ありがとう。",
+        "また明日。",
+        "お名前は何ですか？",
+        "私の名前はアンナです。"
+       ],
+       "optionsRoman": [
+        "genki desu, arigatō.",
+        "mata ashita.",
+        "o-namae wa nan desu ka?",
+        "watashi no namae wa Anna desu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "名前",
+        "元気",
+        "ありがとう",
+        "どうも",
+        "ございます",
+        "何"
+       ],
+       "answer": [
+        "どうも",
+        "ありがとう",
+        "ございます"
+       ],
+       "accepted": [
+        "ありがとうございます。"
+       ],
+       "words": [
+        "ありがとう"
+       ],
+       "tilesRoman": [
+        "namae",
+        "genki",
+        "arigatō",
+        "dōmo",
+        "gozaimasu",
+        "nan"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "私の名前はアンナです。",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "私の名前はアンナです。"
+       ],
+       "promptRoman": "watashi no namae wa Anna desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "さようなら",
+        "sayōnara",
+        "sayounara",
+        "sayonara"
+       ],
+       "words": [
+        "さようなら"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "また",
+        "明日",
+        "はじめまして",
+        "何",
+        "元気"
+       ],
+       "answer": [
+        "また",
+        "明日"
+       ],
+       "accepted": [],
+       "words": [
+        "明日"
+       ],
+       "tilesRoman": [
+        "mata",
+        "ashita",
+        "hajimemashite",
+        "nan",
+        "genki"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "お元気ですか？",
+       "promptLang": "target",
+       "options": [
+        "How are you?",
+        "See you tomorrow.",
+        "What is your name?",
+        "My name is Anna."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "お元気ですか？"
+       ],
+       "promptRoman": "o-genki desu ka?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "さようなら",
+         "Goodbye"
+        ],
+        [
+         "はい",
+         "Yes"
+        ],
+        [
+         "すみません",
+         "Sorry"
+        ],
+        [
+         "こんにちは",
+         "Hello"
+        ]
+       ],
+       "words": [
+        "さようなら",
+        "はい",
+        "すみません",
+        "こんにちは"
+       ],
+       "romans": [
+        "sayōnara",
+        "hai",
+        "sumimasen",
+        "konnichiwa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Please",
+       "promptLang": "en",
+       "answer": "お願いします",
+       "words": [
+        "お願いします"
+       ],
+       "options": [
+        "おはようございます",
+        "お願いします",
+        "はい",
+        "こんにちは"
+       ],
+       "optionsRoman": [
+        "ohayō gozaimasu",
+        "onegaishimasu",
+        "hai",
+        "konnichiwa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "は",
+        "アンナ",
+        "元気",
+        "私",
+        "の",
+        "です",
+        "ございます",
+        "お元気",
+        "名前"
+       ],
+       "answer": [
+        "私",
+        "の",
+        "名前",
+        "は",
+        "アンナ",
+        "です"
+       ],
+       "accepted": [
+        "私はアンナです。",
+        "アンナです。"
+       ],
+       "words": [
+        "私の名前はアンナです。"
+       ],
+       "tilesRoman": [
+        "wa",
+        "Anna",
+        "genki",
+        "watashi",
+        "no",
+        "desu",
+        "gozaimasu",
+        "o-genki",
+        "namae"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "お名前は何ですか？",
+       "roman": "o-namae wa nan desu ka?",
+       "translation": "What is your name?",
+       "words": [
+        "お名前は何ですか？"
+       ],
+       "options": [
+        "元気です、ありがとう。",
+        "お名前は何ですか？",
+        "また明日。",
+        "どうもありがとうございます。"
+       ],
+       "optionsRoman": [
+        "genki desu, arigatō.",
+        "o-namae wa nan desu ka?",
+        "mata ashita.",
+        "dōmo arigatō gozaimasu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "はじめまして。",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "is",
+        "Nice",
+        "are",
+        "you",
+        "meet",
+        "tomorrow"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "はじめまして。"
+       ],
+       "promptRoman": "hajimemashite."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "No",
+       "promptLang": "en",
+       "answers": [
+        "いいえ",
+        "iie"
+       ],
+       "words": [
+        "いいえ"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "元気です、ありがとう。",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "ありがとう"
+       ],
+       "promptRoman": "genki desu, arigatō."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "どうもありがとうございます。",
+       "roman": "dōmo arigatō gozaimasu.",
+       "translation": "Thank you very much.",
+       "words": [
+        "ありがとう"
+       ],
+       "options": [
+        "また明日。",
+        "どうもありがとうございます。",
+        "はじめまして。",
+        "お名前は何ですか？"
+       ],
+       "optionsRoman": [
+        "mata ashita.",
+        "dōmo arigatō gozaimasu.",
+        "hajimemashite.",
+        "o-namae wa nan desu ka?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tip": "When talking about your own family use 母 (haha, mother) and 父 (chichi, father); お母さん and お父さん are used for someone else's.",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "男の人",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Woman",
+        "Mother",
+        "Man"
+       ],
+       "answer": "Man",
+       "words": [
+        "男の人"
+       ],
+       "promptRoman": "otoko no hito"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "女の人",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Child",
+        "Daughter",
+        "Woman"
+       ],
+       "answer": "Woman",
+       "words": [
+        "女の人"
+       ],
+       "promptRoman": "onna no hito"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "子供",
+       "words": [
+        "子供"
+       ],
+       "options": [
+        "娘",
+        "男の人",
+        "子供",
+        "母"
+       ],
+       "optionsRoman": [
+        "musume",
+        "otoko no hito",
+        "kodomo",
+        "haha"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "友達",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Son",
+        "Daughter",
+        "Man"
+       ],
+       "answer": "Friend",
+       "words": [
+        "友達"
+       ],
+       "promptRoman": "tomodachi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "男の人",
+         "Man"
+        ],
+        [
+         "女の人",
+         "Woman"
+        ],
+        [
+         "子供",
+         "Child"
+        ],
+        [
+         "友達",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "男の人",
+        "女の人",
+        "子供",
+        "友達"
+       ],
+       "romans": [
+        "otoko no hito",
+        "onna no hito",
+        "kodomo",
+        "tomodachi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "か",
+        "います",
+        "こちら",
+        "母",
+        "です",
+        "は",
+        "家"
+       ],
+       "answer": [
+        "こちら",
+        "は",
+        "母",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "母"
+       ],
+       "tilesRoman": [
+        "ka",
+        "imasu",
+        "kochira",
+        "haha",
+        "desu",
+        "wa",
+        "ie"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "彼は私の友達です。",
+       "roman": "kare wa watashi no tomodachi desu.",
+       "translation": "He is my friend.",
+       "words": [
+        "友達"
+       ],
+       "options": [
+        "息子がいます。",
+        "母は家にいます。",
+        "父はどこですか？",
+        "彼は私の友達です。"
+       ],
+       "optionsRoman": [
+        "musuko ga imasu.",
+        "haha wa ie ni imasu.",
+        "chichi wa doko desu ka?",
+        "kare wa watashi no tomodachi desu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "息子がいます。",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "have",
+        "son",
+        "a",
+        "home",
+        "She",
+        "Where"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "息子"
+       ],
+       "promptRoman": "musuko ga imasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "こちらは母です。",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "母"
+       ],
+       "promptRoman": "kochira wa haha desu."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "母",
+       "promptLang": "target",
+       "options": [
+        "Father",
+        "Mother",
+        "Daughter",
+        "Woman"
+       ],
+       "answer": "Mother",
+       "words": [
+        "母"
+       ],
+       "promptRoman": "haha"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answer": "父",
+       "words": [
+        "父"
+       ],
+       "options": [
+        "父",
+        "男の人",
+        "母",
+        "息子"
+       ],
+       "optionsRoman": [
+        "chichi",
+        "otoko no hito",
+        "haha",
+        "musuko"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "息子",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Father",
+        "Woman",
+        "Son"
+       ],
+       "answer": "Son",
+       "words": [
+        "息子"
+       ],
+       "promptRoman": "musuko"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "娘",
+       "words": [
+        "娘"
+       ],
+       "options": [
+        "友達",
+        "娘",
+        "父",
+        "女の人"
+       ],
+       "optionsRoman": [
+        "tomodachi",
+        "musume",
+        "chichi",
+        "onna no hito"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "母",
+         "Mother"
+        ],
+        [
+         "父",
+         "Father"
+        ],
+        [
+         "息子",
+         "Son"
+        ],
+        [
+         "娘",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "母",
+        "父",
+        "息子",
+        "娘"
+       ],
+       "romans": [
+        "haha",
+        "chichi",
+        "musuko",
+        "musume"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "は",
+        "父",
+        "どこ",
+        "です",
+        "この",
+        "か",
+        "友達",
+        "私"
+       ],
+       "answer": [
+        "父",
+        "は",
+        "どこ",
+        "です",
+        "か"
+       ],
+       "accepted": [
+        "父はどこにいますか？"
+       ],
+       "words": [
+        "父",
+        "どこ"
+       ],
+       "tilesRoman": [
+        "wa",
+        "chichi",
+        "doko",
+        "desu",
+        "kono",
+        "ka",
+        "tomodachi",
+        "watashi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "母は家にいます。",
+       "promptLang": "target",
+       "tiles": [
+        "mother",
+        "My",
+        "father",
+        "is",
+        "daughter",
+        "son",
+        "at",
+        "home"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "母",
+        "家"
+       ],
+       "promptRoman": "haha wa ie ni imasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "父はどこですか？",
+       "roman": "chichi wa doko desu ka?",
+       "translation": "Where is my father?",
+       "words": [
+        "父",
+        "どこ"
+       ],
+       "options": [
+        "父はどこですか？",
+        "息子がいます。",
+        "彼は私の友達です。",
+        "母は家にいます。"
+       ],
+       "optionsRoman": [
+        "chichi wa doko desu ka?",
+        "musuko ga imasu.",
+        "kare wa watashi no tomodachi desu.",
+        "haha wa ie ni imasu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "彼女は私の娘です。",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "娘"
+       ],
+       "promptRoman": "kanojo wa watashi no musume desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "男の人",
+        "男性",
+        "otoko no hito"
+       ],
+       "words": [
+        "男の人"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "この男の人は誰ですか？",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "This is my mother.",
+        "Where is my father?",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "男の人"
+       ],
+       "promptRoman": "kono otoko-no-hito wa dare desu ka?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "女の人",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Woman",
+        "Child",
+        "Man"
+       ],
+       "answer": "Woman",
+       "words": [
+        "女の人"
+       ],
+       "promptRoman": "onna no hito"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "息子",
+         "Son"
+        ],
+        [
+         "娘",
+         "Daughter"
+        ],
+        [
+         "女の人",
+         "Woman"
+        ],
+        [
+         "母",
+         "Mother"
+        ],
+        [
+         "父",
+         "Father"
+        ]
+       ],
+       "words": [
+        "息子",
+        "娘",
+        "女の人",
+        "母",
+        "父"
+       ],
+       "romans": [
+        "musuko",
+        "musume",
+        "onna no hito",
+        "haha",
+        "chichi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "この",
+        "家",
+        "友達",
+        "誰",
+        "こちら",
+        "男の人",
+        "です",
+        "か",
+        "は"
+       ],
+       "answer": [
+        "この",
+        "男の人",
+        "は",
+        "誰",
+        "です",
+        "か"
+       ],
+       "accepted": [
+        "この人は誰ですか？"
+       ],
+       "words": [
+        "男の人"
+       ],
+       "tilesRoman": [
+        "kono",
+        "ie",
+        "tomodachi",
+        "dare",
+        "kochira",
+        "otoko-no-hito",
+        "desu",
+        "ka",
+        "wa"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "彼は私の友達です。",
+       "promptLang": "target",
+       "tiles": [
+        "He",
+        "She",
+        "friend",
+        "son",
+        "have",
+        "is",
+        "my"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "友達"
+       ],
+       "promptRoman": "kare wa watashi no tomodachi desu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "彼女は私の娘です。",
+       "roman": "kanojo wa watashi no musume desu.",
+       "translation": "She is my daughter.",
+       "words": [
+        "娘"
+       ],
+       "options": [
+        "こちらは母です。",
+        "彼は私の友達です。",
+        "母は家にいます。",
+        "彼女は私の娘です。"
+       ],
+       "optionsRoman": [
+        "kochira wa haha desu.",
+        "kare wa watashi no tomodachi desu.",
+        "haha wa ie ni imasu.",
+        "kanojo wa watashi no musume desu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "に",
+        "は",
+        "どこ",
+        "家",
+        "彼",
+        "が",
+        "います",
+        "母"
+       ],
+       "answer": [
+        "母",
+        "は",
+        "家",
+        "に",
+        "います"
+       ],
+       "accepted": [],
+       "words": [
+        "母",
+        "家"
+       ],
+       "tilesRoman": [
+        "ni",
+        "wa",
+        "doko",
+        "ie",
+        "kare",
+        "ga",
+        "imasu",
+        "haha"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "息子がいます。",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "息子"
+       ],
+       "promptRoman": "musuko ga imasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "女の人",
+        "女性",
+        "onna no hito"
+       ],
+       "words": [
+        "女の人"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "彼女",
+        "娘",
+        "です",
+        "が",
+        "友達",
+        "の",
+        "私",
+        "に",
+        "は"
+       ],
+       "answer": [
+        "彼女",
+        "は",
+        "私",
+        "の",
+        "娘",
+        "です"
+       ],
+       "accepted": [
+        "彼女は娘です。"
+       ],
+       "words": [
+        "娘"
+       ],
+       "tilesRoman": [
+        "kanojo",
+        "musume",
+        "desu",
+        "ga",
+        "tomodachi",
+        "no",
+        "watashi",
+        "ni",
+        "wa"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "こちらは母です。",
+       "promptLang": "target",
+       "options": [
+        "This is my mother.",
+        "She is my daughter.",
+        "He is my friend.",
+        "I have a son."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "母"
+       ],
+       "promptRoman": "kochira wa haha desu."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "息子",
+         "Son"
+        ],
+        [
+         "男の人",
+         "Man"
+        ],
+        [
+         "友達",
+         "Friend"
+        ],
+        [
+         "女の人",
+         "Woman"
+        ]
+       ],
+       "words": [
+        "息子",
+        "男の人",
+        "友達",
+        "女の人"
+       ],
+       "romans": [
+        "musuko",
+        "otoko no hito",
+        "tomodachi",
+        "onna no hito"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "娘",
+       "words": [
+        "娘"
+       ],
+       "options": [
+        "母",
+        "父",
+        "娘",
+        "女の人"
+       ],
+       "optionsRoman": [
+        "haha",
+        "chichi",
+        "musume",
+        "onna no hito"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "います",
+        "の",
+        "が",
+        "息子",
+        "です",
+        "彼女"
+       ],
+       "answer": [
+        "息子",
+        "が",
+        "います"
+       ],
+       "accepted": [
+        "息子が一人います。"
+       ],
+       "words": [
+        "息子"
+       ],
+       "tilesRoman": [
+        "imasu",
+        "no",
+        "ga",
+        "musuko",
+        "desu",
+        "kanojo"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "この男の人は誰ですか？",
+       "roman": "kono otoko-no-hito wa dare desu ka?",
+       "translation": "Who is this man?",
+       "words": [
+        "男の人"
+       ],
+       "options": [
+        "父はどこですか？",
+        "息子がいます。",
+        "この男の人は誰ですか？",
+        "こちらは母です。"
+       ],
+       "optionsRoman": [
+        "chichi wa doko desu ka?",
+        "musuko ga imasu.",
+        "kono otoko-no-hito wa dare desu ka?",
+        "kochira wa haha desu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "父はどこですか？",
+       "promptLang": "target",
+       "tiles": [
+        "my",
+        "This",
+        "is",
+        "Where",
+        "friend",
+        "man",
+        "father"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "父",
+        "どこ"
+       ],
+       "promptRoman": "chichi wa doko desu ka?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answers": [
+        "父",
+        "お父さん",
+        "chichi"
+       ],
+       "words": [
+        "父"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "彼は私の友達です。",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "友達"
+       ],
+       "promptRoman": "kare wa watashi no tomodachi desu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "母は家にいます。",
+       "roman": "haha wa ie ni imasu.",
+       "translation": "My mother is at home.",
+       "words": [
+        "母",
+        "家"
+       ],
+       "options": [
+        "母は家にいます。",
+        "この男の人は誰ですか？",
+        "彼は私の友達です。",
+        "息子がいます。"
+       ],
+       "optionsRoman": [
+        "haha wa ie ni imasu.",
+        "kono otoko-no-hito wa dare desu ka?",
+        "kare wa watashi no tomodachi desu.",
+        "musuko ga imasu."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tip": "Particles follow the word they mark: を (o) marks the object, が (ga) the subject: コーヒーを飲みます = (I) drink coffee.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "水",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Rice",
+        "Milk",
+        "Egg"
+       ],
+       "answer": "Water",
+       "words": [
+        "水"
+       ],
+       "promptRoman": "mizu"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "パン",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Water",
+        "Bread",
+        "Rice"
+       ],
+       "answer": "Bread",
+       "words": [
+        "パン"
+       ],
+       "promptRoman": "pan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "コーヒー",
+       "words": [
+        "コーヒー"
+       ],
+       "options": [
+        "水",
+        "コーヒー",
+        "お茶",
+        "牛乳"
+       ],
+       "optionsRoman": [
+        "mizu",
+        "kōhī",
+        "ocha",
+        "gyūnyū"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "お茶",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Rice",
+        "Bread",
+        "Water"
+       ],
+       "answer": "Tea",
+       "words": [
+        "お茶"
+       ],
+       "promptRoman": "ocha"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "水",
+         "Water"
+        ],
+        [
+         "パン",
+         "Bread"
+        ],
+        [
+         "コーヒー",
+         "Coffee"
+        ],
+        [
+         "お茶",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "水",
+        "パン",
+        "コーヒー",
+        "お茶"
+       ],
+       "romans": [
+        "mizu",
+        "pan",
+        "kōhī",
+        "ocha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "コーヒー",
+        "すきました",
+        "水",
+        "ください",
+        "を",
+        "好き"
+       ],
+       "answer": [
+        "水",
+        "を",
+        "ください"
+       ],
+       "accepted": [
+        "お水をください。"
+       ],
+       "words": [
+        "お願いします",
+        "水"
+       ],
+       "tilesRoman": [
+        "kōhī",
+        "sukimashita",
+        "mizu",
+        "kudasai",
+        "o",
+        "suki"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "コーヒーを飲みます。",
+       "roman": "kōhī o nomimasu.",
+       "translation": "I drink coffee.",
+       "words": [
+        "コーヒー"
+       ],
+       "options": [
+        "お茶は熱いです。",
+        "お腹がすきました。",
+        "パンを食べます。",
+        "コーヒーを飲みます。"
+       ],
+       "optionsRoman": [
+        "ocha wa atsui desu.",
+        "onaka ga sukimashita.",
+        "pan o tabemasu.",
+        "kōhī o nomimasu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "パンを食べます。",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "eat",
+        "is",
+        "am",
+        "I",
+        "The"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "パン"
+       ],
+       "promptRoman": "pan o tabemasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "水をください。",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "お願いします",
+        "水"
+       ],
+       "promptRoman": "mizu o kudasai."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "牛乳",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Apple",
+        "Water",
+        "Rice"
+       ],
+       "answer": "Milk",
+       "words": [
+        "牛乳"
+       ],
+       "promptRoman": "gyūnyū"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "りんご",
+       "words": [
+        "りんご"
+       ],
+       "options": [
+        "コーヒー",
+        "りんご",
+        "水",
+        "牛乳"
+       ],
+       "optionsRoman": [
+        "kōhī",
+        "ringo",
+        "mizu",
+        "gyūnyū"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ご飯",
+       "promptLang": "target",
+       "options": [
+        "Egg",
+        "Rice",
+        "Water",
+        "Bread"
+       ],
+       "answer": "Rice",
+       "words": [
+        "ご飯"
+       ],
+       "promptRoman": "gohan"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "卵",
+       "words": [
+        "卵"
+       ],
+       "options": [
+        "ご飯",
+        "牛乳",
+        "パン",
+        "卵"
+       ],
+       "optionsRoman": [
+        "gohan",
+        "gyūnyū",
+        "pan",
+        "tamago"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "牛乳",
+         "Milk"
+        ],
+        [
+         "りんご",
+         "Apple"
+        ],
+        [
+         "ご飯",
+         "Rice"
+        ],
+        [
+         "卵",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "牛乳",
+        "りんご",
+        "ご飯",
+        "卵"
+       ],
+       "romans": [
+        "gyūnyū",
+        "ringo",
+        "gohan",
+        "tamago"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "お茶",
+        "熱い",
+        "水",
+        "は",
+        "コーヒー",
+        "です",
+        "お腹"
+       ],
+       "answer": [
+        "お茶",
+        "は",
+        "熱い",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "お茶"
+       ],
+       "tilesRoman": [
+        "ocha",
+        "atsui",
+        "mizu",
+        "wa",
+        "kōhī",
+        "desu",
+        "onaka"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "牛乳は飲みません。",
+       "promptLang": "target",
+       "tiles": [
+        "not",
+        "please",
+        "milk",
+        "tea",
+        "I",
+        "hungry",
+        "drink",
+        "do"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "牛乳"
+       ],
+       "promptRoman": "gyūnyū wa nomimasen."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "お茶は熱いです。",
+       "roman": "ocha wa atsui desu.",
+       "translation": "The tea is hot.",
+       "words": [
+        "お茶"
+       ],
+       "options": [
+        "コーヒーを飲みます。",
+        "お茶は熱いです。",
+        "お腹がすきました。",
+        "水をください。"
+       ],
+       "optionsRoman": [
+        "kōhī o nomimasu.",
+        "ocha wa atsui desu.",
+        "onaka ga sukimashita.",
+        "mizu o kudasai."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "りんごが好きです。",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "りんご"
+       ],
+       "promptRoman": "ringo ga suki desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "水",
+        "お水",
+        "mizu"
+       ],
+       "words": [
+        "水"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "お腹がすきました。",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "Water, please.",
+        "I like apples.",
+        "The tea is hot."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "お腹がすきました。"
+       ],
+       "promptRoman": "onaka ga sukimashita."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "パン",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Coffee",
+        "Apple",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "パン"
+       ],
+       "promptRoman": "pan"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "パン",
+         "Bread"
+        ],
+        [
+         "お茶",
+         "Tea"
+        ],
+        [
+         "牛乳",
+         "Milk"
+        ],
+        [
+         "卵",
+         "Egg"
+        ],
+        [
+         "りんご",
+         "Apple"
+        ]
+       ],
+       "words": [
+        "パン",
+        "お茶",
+        "牛乳",
+        "卵",
+        "りんご"
+       ],
+       "romans": [
+        "pan",
+        "ocha",
+        "gyūnyū",
+        "tamago",
+        "ringo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "ください",
+        "飲みます",
+        "水",
+        "が",
+        "すきました",
+        "お腹"
+       ],
+       "answer": [
+        "お腹",
+        "が",
+        "すきました"
+       ],
+       "accepted": [
+        "お腹が空きました。"
+       ],
+       "words": [
+        "お腹がすきました。"
+       ],
+       "tilesRoman": [
+        "kudasai",
+        "nomimasu",
+        "mizu",
+        "ga",
+        "sukimashita",
+        "onaka"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "コーヒーを飲みます。",
+       "promptLang": "target",
+       "tiles": [
+        "milk",
+        "like",
+        "I",
+        "drink",
+        "not",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "コーヒー"
+       ],
+       "promptRoman": "kōhī o nomimasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "りんごが好きです。",
+       "roman": "ringo ga suki desu.",
+       "translation": "I like apples.",
+       "words": [
+        "りんご"
+       ],
+       "options": [
+        "牛乳は飲みません。",
+        "りんごが好きです。",
+        "水をください。",
+        "お茶は熱いです。"
+       ],
+       "optionsRoman": [
+        "gyūnyū wa nomimasen.",
+        "ringo ga suki desu.",
+        "mizu o kudasai.",
+        "ocha wa atsui desu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "お腹",
+        "を",
+        "牛乳",
+        "飲みません",
+        "は",
+        "お茶"
+       ],
+       "answer": [
+        "牛乳",
+        "は",
+        "飲みません"
+       ],
+       "accepted": [
+        "牛乳を飲みません。"
+       ],
+       "words": [
+        "牛乳"
+       ],
+       "tilesRoman": [
+        "onaka",
+        "o",
+        "gyūnyū",
+        "nomimasen",
+        "wa",
+        "ocha"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "パンを食べます。",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "パン"
+       ],
+       "promptRoman": "pan o tabemasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "パン",
+        "pan"
+       ],
+       "words": [
+        "パン"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "ください",
+        "好き",
+        "です",
+        "は",
+        "りんご",
+        "熱い",
+        "が"
+       ],
+       "answer": [
+        "りんご",
+        "が",
+        "好き",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "りんご"
+       ],
+       "tilesRoman": [
+        "kudasai",
+        "suki",
+        "desu",
+        "wa",
+        "ringo",
+        "atsui",
+        "ga"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "水をください。",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee.",
+        "Water, please.",
+        "I do not drink milk.",
+        "I like apples."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "お願いします",
+        "水"
+       ],
+       "promptRoman": "mizu o kudasai."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "コーヒー",
+         "Coffee"
+        ],
+        [
+         "水",
+         "Water"
+        ],
+        [
+         "卵",
+         "Egg"
+        ],
+        [
+         "パン",
+         "Bread"
+        ]
+       ],
+       "words": [
+        "コーヒー",
+        "水",
+        "卵",
+        "パン"
+       ],
+       "romans": [
+        "kōhī",
+        "mizu",
+        "tamago",
+        "pan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "りんご",
+       "words": [
+        "りんご"
+       ],
+       "options": [
+        "ご飯",
+        "りんご",
+        "コーヒー",
+        "パン"
+       ],
+       "optionsRoman": [
+        "gohan",
+        "ringo",
+        "kōhī",
+        "pan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "を",
+        "食べます",
+        "りんご",
+        "は",
+        "牛乳",
+        "パン"
+       ],
+       "answer": [
+        "パン",
+        "を",
+        "食べます"
+       ],
+       "accepted": [],
+       "words": [
+        "パン"
+       ],
+       "tilesRoman": [
+        "o",
+        "tabemasu",
+        "ringo",
+        "wa",
+        "gyūnyū",
+        "pan"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "お腹がすきました。",
+       "roman": "onaka ga sukimashita.",
+       "translation": "I am hungry.",
+       "words": [
+        "お腹がすきました。"
+       ],
+       "options": [
+        "コーヒーを飲みます。",
+        "牛乳は飲みません。",
+        "お腹がすきました。",
+        "お茶は熱いです。"
+       ],
+       "optionsRoman": [
+        "kōhī o nomimasu.",
+        "gyūnyū wa nomimasen.",
+        "onaka ga sukimashita.",
+        "ocha wa atsui desu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "お茶は熱いです。",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "hot",
+        "like",
+        "is",
+        "I",
+        "tea",
+        "milk"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "お茶"
+       ],
+       "promptRoman": "ocha wa atsui desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answers": [
+        "牛乳",
+        "ミルク",
+        "gyūnyū",
+        "gyuunyuu",
+        "gyunyu"
+       ],
+       "words": [
+        "牛乳"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "コーヒーを飲みます。",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "コーヒー"
+       ],
+       "promptRoman": "kōhī o nomimasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "牛乳は飲みません。",
+       "roman": "gyūnyū wa nomimasen.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "牛乳"
+       ],
+       "options": [
+        "お茶は熱いです。",
+        "お腹がすきました。",
+        "牛乳は飲みません。",
+        "コーヒーを飲みます。"
+       ],
+       "optionsRoman": [
+        "ocha wa atsui desu.",
+        "onaka ga sukimashita.",
+        "gyūnyū wa nomimasen.",
+        "kōhī o nomimasu."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tip": "Japanese counts things with counters: 二人 (futari) for two people, 四つ (yottsu) for four things, 三時 (sanji) for three o'clock.",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "一",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Two",
+        "One",
+        "Nine"
+       ],
+       "answer": "One",
+       "words": [
+        "一"
+       ],
+       "promptRoman": "ichi"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "二",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Nine",
+        "Three",
+        "Ten"
+       ],
+       "answer": "Two",
+       "words": [
+        "二"
+       ],
+       "promptRoman": "ni"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "三",
+       "words": [
+        "三"
+       ],
+       "options": [
+        "一",
+        "三",
+        "五",
+        "四"
+       ],
+       "optionsRoman": [
+        "ichi",
+        "san",
+        "go",
+        "yon"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "四",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Nine",
+        "Eight",
+        "Four"
+       ],
+       "answer": "Four",
+       "words": [
+        "四"
+       ],
+       "promptRoman": "yon"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "一",
+         "One"
+        ],
+        [
+         "二",
+         "Two"
+        ],
+        [
+         "三",
+         "Three"
+        ],
+        [
+         "四",
+         "Four"
+        ]
+       ],
+       "words": [
+        "一",
+        "二",
+        "三",
+        "四"
+       ],
+       "romans": [
+        "ichi",
+        "ni",
+        "san",
+        "yon"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "が",
+        "二人",
+        "います",
+        "コーヒー",
+        "子供",
+        "三時",
+        "を"
+       ],
+       "answer": [
+        "子供",
+        "が",
+        "二人",
+        "います"
+       ],
+       "accepted": [],
+       "words": [
+        "子供"
+       ],
+       "tilesRoman": [
+        "ga",
+        "futari",
+        "imasu",
+        "kōhī",
+        "kodomo",
+        "sanji",
+        "o"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "いくらですか？",
+       "roman": "ikura desu ka?",
+       "translation": "How much is it?",
+       "words": [
+        "いくらですか？"
+       ],
+       "options": [
+        "いくらですか？",
+        "三時です。",
+        "コーヒーを一つください。",
+        "お茶を二つください。"
+       ],
+       "optionsRoman": [
+        "ikura desu ka?",
+        "sanji desu.",
+        "kōhī o hitotsu kudasai.",
+        "ocha o futatsu kudasai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "りんごが四つあります。",
+       "promptLang": "target",
+       "tiles": [
+        "teas",
+        "apples",
+        "it",
+        "have",
+        "I",
+        "How",
+        "four"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "りんご"
+       ],
+       "promptRoman": "ringo ga yottsu arimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "子供が二人います。",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "子供"
+       ],
+       "promptRoman": "kodomo ga futari imasu."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "五",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "Nine",
+        "Six",
+        "Five"
+       ],
+       "answer": "Five",
+       "words": [
+        "五"
+       ],
+       "promptRoman": "go"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "六",
+       "words": [
+        "六"
+       ],
+       "options": [
+        "二",
+        "四",
+        "六",
+        "九"
+       ],
+       "optionsRoman": [
+        "ni",
+        "yon",
+        "roku",
+        "kyū"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "七",
+       "promptLang": "target",
+       "options": [
+        "Seven",
+        "Six",
+        "Five",
+        "Three"
+       ],
+       "answer": "Seven",
+       "words": [
+        "七"
+       ],
+       "promptRoman": "nana"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "八",
+       "words": [
+        "八"
+       ],
+       "options": [
+        "一",
+        "五",
+        "八",
+        "三"
+       ],
+       "optionsRoman": [
+        "ichi",
+        "go",
+        "hachi",
+        "san"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "五",
+         "Five"
+        ],
+        [
+         "六",
+         "Six"
+        ],
+        [
+         "七",
+         "Seven"
+        ],
+        [
+         "八",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "五",
+        "六",
+        "七",
+        "八"
+       ],
+       "romans": [
+        "go",
+        "roku",
+        "nana",
+        "hachi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "一つ",
+        "が",
+        "ください",
+        "を",
+        "コーヒー",
+        "四つ",
+        "二つ"
+       ],
+       "answer": [
+        "コーヒー",
+        "を",
+        "一つ",
+        "ください"
+       ],
+       "accepted": [],
+       "words": [
+        "お願いします",
+        "コーヒー"
+       ],
+       "tilesRoman": [
+        "hitotsu",
+        "ga",
+        "kudasai",
+        "o",
+        "kōhī",
+        "yottsu",
+        "futatsu"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "お茶を二つください。",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "is",
+        "have",
+        "Two",
+        "three",
+        "teas"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "お願いします",
+        "お茶"
+       ],
+       "promptRoman": "ocha o futatsu kudasai."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "コーヒーを一つください。",
+       "roman": "kōhī o hitotsu kudasai.",
+       "translation": "One coffee, please.",
+       "words": [
+        "お願いします",
+        "コーヒー"
+       ],
+       "options": [
+        "コーヒーを一つください。",
+        "お茶を二つください。",
+        "子供が二人います。",
+        "三時です。"
+       ],
+       "optionsRoman": [
+        "kōhī o hitotsu kudasai.",
+        "ocha o futatsu kudasai.",
+        "kodomo ga futari imasu.",
+        "sanji desu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "三時です。",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "三時です。"
+       ],
+       "promptRoman": "sanji desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "一",
+        "ichi"
+       ],
+       "words": [
+        "一"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "ちょっと待ってください。",
+       "promptLang": "target",
+       "options": [
+        "I have four apples.",
+        "It is three o'clock.",
+        "One moment, please.",
+        "I have two children."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "お願いします"
+       ],
+       "promptRoman": "chotto matte kudasai."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "九",
+       "promptLang": "target",
+       "options": [
+        "Seven",
+        "Nine",
+        "Ten",
+        "Five"
+       ],
+       "answer": "Nine",
+       "words": [
+        "九"
+       ],
+       "promptRoman": "kyū"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "四",
+         "Four"
+        ],
+        [
+         "二",
+         "Two"
+        ],
+        [
+         "一",
+         "One"
+        ],
+        [
+         "六",
+         "Six"
+        ],
+        [
+         "八",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "四",
+        "二",
+        "一",
+        "六",
+        "八"
+       ],
+       "romans": [
+        "yon",
+        "ni",
+        "ichi",
+        "roku",
+        "hachi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "お茶",
+        "ください",
+        "ちょっと",
+        "待って",
+        "います",
+        "を"
+       ],
+       "answer": [
+        "ちょっと",
+        "待って",
+        "ください"
+       ],
+       "accepted": [
+        "少々お待ちください。"
+       ],
+       "words": [
+        "お願いします"
+       ],
+       "tilesRoman": [
+        "ocha",
+        "kudasai",
+        "chotto",
+        "matte",
+        "imasu",
+        "o"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "いくらですか？",
+       "promptLang": "target",
+       "tiles": [
+        "teas",
+        "How",
+        "it",
+        "is",
+        "o'clock",
+        "I",
+        "much"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "いくらですか？"
+       ],
+       "promptRoman": "ikura desu ka?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "三時です。",
+       "roman": "sanji desu.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "三時です。"
+       ],
+       "options": [
+        "子供が二人います。",
+        "三時です。",
+        "いくらですか？",
+        "お茶を二つください。"
+       ],
+       "optionsRoman": [
+        "kodomo ga futari imasu.",
+        "sanji desu.",
+        "ikura desu ka?",
+        "ocha o futatsu kudasai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "二つ",
+        "お茶",
+        "を",
+        "ください",
+        "二人",
+        "あります",
+        "コーヒー"
+       ],
+       "answer": [
+        "お茶",
+        "を",
+        "二つ",
+        "ください"
+       ],
+       "accepted": [],
+       "words": [
+        "お願いします",
+        "お茶"
+       ],
+       "tilesRoman": [
+        "futatsu",
+        "ocha",
+        "o",
+        "kudasai",
+        "futari",
+        "arimasu",
+        "kōhī"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "りんごが四つあります。",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "りんご"
+       ],
+       "promptRoman": "ringo ga yottsu arimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "十",
+        "jū",
+        "juu",
+        "ju"
+       ],
+       "words": [
+        "十"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "三時",
+        "です",
+        "子供",
+        "四つ",
+        "あります"
+       ],
+       "answer": [
+        "三時",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "三時です。"
+       ],
+       "tilesRoman": [
+        "sanji",
+        "desu",
+        "kodomo",
+        "yottsu",
+        "arimasu"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "子供が二人います。",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "One moment, please.",
+        "One coffee, please.",
+        "How much is it?"
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "子供"
+       ],
+       "promptRoman": "kodomo ga futari imasu."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "四",
+         "Four"
+        ],
+        [
+         "二",
+         "Two"
+        ],
+        [
+         "九",
+         "Nine"
+        ],
+        [
+         "五",
+         "Five"
+        ]
+       ],
+       "words": [
+        "四",
+        "二",
+        "九",
+        "五"
+       ],
+       "romans": [
+        "yon",
+        "ni",
+        "kyū",
+        "go"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "三",
+       "words": [
+        "三"
+       ],
+       "options": [
+        "四",
+        "三",
+        "六",
+        "一"
+       ],
+       "optionsRoman": [
+        "yon",
+        "san",
+        "roku",
+        "ichi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "います",
+        "あります",
+        "を",
+        "りんご",
+        "四つ",
+        "子供",
+        "が"
+       ],
+       "answer": [
+        "りんご",
+        "が",
+        "四つ",
+        "あります"
+       ],
+       "accepted": [],
+       "words": [
+        "りんご"
+       ],
+       "tilesRoman": [
+        "imasu",
+        "arimasu",
+        "o",
+        "ringo",
+        "yottsu",
+        "kodomo",
+        "ga"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "ちょっと待ってください。",
+       "roman": "chotto matte kudasai.",
+       "translation": "One moment, please.",
+       "words": [
+        "お願いします"
+       ],
+       "options": [
+        "いくらですか？",
+        "ちょっと待ってください。",
+        "りんごが四つあります。",
+        "お茶を二つください。"
+       ],
+       "optionsRoman": [
+        "ikura desu ka?",
+        "chotto matte kudasai.",
+        "ringo ga yottsu arimasu.",
+        "ocha o futatsu kudasai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "コーヒーを一つください。",
+       "promptLang": "target",
+       "tiles": [
+        "have",
+        "One",
+        "please",
+        "four",
+        "moment",
+        "coffee"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "お願いします",
+        "コーヒー"
+       ],
+       "promptRoman": "kōhī o hitotsu kudasai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "十",
+        "jū",
+        "juu",
+        "ju"
+       ],
+       "words": [
+        "十"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "いくらですか？",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "いくらですか？"
+       ],
+       "promptRoman": "ikura desu ka?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "お茶を二つください。",
+       "roman": "ocha o futatsu kudasai.",
+       "translation": "Two teas, please.",
+       "words": [
+        "お願いします",
+        "お茶"
+       ],
+       "options": [
+        "子供が二人います。",
+        "コーヒーを一つください。",
+        "りんごが四つあります。",
+        "お茶を二つください。"
+       ],
+       "optionsRoman": [
+        "kodomo ga futari imasu.",
+        "kōhī o hitotsu kudasai.",
+        "ringo ga yottsu arimasu.",
+        "ocha o futatsu kudasai."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tip": "Add か (ka) to a sentence to make it a question: どこですか (doko desu ka) = where is it?",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ホテル",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Ticket",
+        "Airport",
+        "Hotel"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "ホテル"
+       ],
+       "promptRoman": "hoteru"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "駅",
+       "promptLang": "target",
+       "options": [
+        "Left",
+        "Hotel",
+        "Station",
+        "Ticket"
+       ],
+       "answer": "Station",
+       "words": [
+        "駅"
+       ],
+       "promptRoman": "eki"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "空港",
+       "words": [
+        "空港"
+       ],
+       "options": [
+        "左",
+        "空港",
+        "右",
+        "トイレ"
+       ],
+       "optionsRoman": [
+        "hidari",
+        "kūkō",
+        "migi",
+        "toire"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "切符",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Right",
+        "Station",
+        "Airport"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "切符"
+       ],
+       "promptRoman": "kippu"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ホテル",
+         "Hotel"
+        ],
+        [
+         "駅",
+         "Station"
+        ],
+        [
+         "空港",
+         "Airport"
+        ],
+        [
+         "切符",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "ホテル",
+        "駅",
+        "空港",
+        "切符"
+       ],
+       "romans": [
+        "hoteru",
+        "eki",
+        "kūkō",
+        "kippu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "は",
+        "どこ",
+        "です",
+        "か",
+        "左",
+        "トイレ",
+        "切符",
+        "ホテル"
+       ],
+       "answer": [
+        "ホテル",
+        "は",
+        "どこ",
+        "です",
+        "か"
+       ],
+       "accepted": [],
+       "words": [
+        "ホテル",
+        "どこ"
+       ],
+       "tilesRoman": [
+        "wa",
+        "doko",
+        "desu",
+        "ka",
+        "hidari",
+        "toire",
+        "kippu",
+        "hoteru"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "トイレはどこですか？",
+       "roman": "toire wa doko desu ka?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "どこ",
+        "トイレ"
+       ],
+       "options": [
+        "空港に行きます。",
+        "ホテルはどこですか？",
+        "トイレはどこですか？",
+        "左に曲がってください。"
+       ],
+       "optionsRoman": [
+        "kūkō ni ikimasu.",
+        "hoteru wa doko desu ka?",
+        "toire wa doko desu ka?",
+        "hidari ni magatte kudasai."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "左に曲がってください。",
+       "promptLang": "target",
+       "tiles": [
+        "left",
+        "Turn",
+        "is",
+        "going",
+        "ticket"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "お願いします",
+        "左"
+       ],
+       "promptRoman": "hidari ni magatte kudasai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "ホテルはどこですか？",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "ホテル",
+        "どこ"
+       ],
+       "promptRoman": "hoteru wa doko desu ka?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "左",
+       "promptLang": "target",
+       "options": [
+        "Right",
+        "Toilet",
+        "Airport",
+        "Left"
+       ],
+       "answer": "Left",
+       "words": [
+        "左"
+       ],
+       "promptRoman": "hidari"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "右",
+       "words": [
+        "右"
+       ],
+       "options": [
+        "駅",
+        "どこ",
+        "右",
+        "空港"
+       ],
+       "optionsRoman": [
+        "eki",
+        "doko",
+        "migi",
+        "kūkō"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "どこ",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Left",
+        "Toilet",
+        "Where"
+       ],
+       "answer": "Where",
+       "words": [
+        "どこ"
+       ],
+       "promptRoman": "doko"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "トイレ",
+       "words": [
+        "トイレ"
+       ],
+       "options": [
+        "左",
+        "右",
+        "どこ",
+        "トイレ"
+       ],
+       "optionsRoman": [
+        "hidari",
+        "migi",
+        "doko",
+        "toire"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "左",
+         "Left"
+        ],
+        [
+         "右",
+         "Right"
+        ],
+        [
+         "どこ",
+         "Where"
+        ],
+        [
+         "トイレ",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "左",
+        "右",
+        "どこ",
+        "トイレ"
+       ],
+       "romans": [
+        "hidari",
+        "migi",
+        "doko",
+        "toire"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "駅",
+        "あります",
+        "左",
+        "に",
+        "空港",
+        "です",
+        "は",
+        "右"
+       ],
+       "answer": [
+        "駅",
+        "は",
+        "右",
+        "に",
+        "あります"
+       ],
+       "accepted": [],
+       "words": [
+        "駅",
+        "右"
+       ],
+       "tilesRoman": [
+        "eki",
+        "arimasu",
+        "hidari",
+        "ni",
+        "kūkō",
+        "desu",
+        "wa",
+        "migi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "切符を一枚ください。",
+       "promptLang": "target",
+       "tiles": [
+        "A",
+        "please",
+        "station",
+        "am",
+        "Where",
+        "ticket"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "お願いします",
+        "切符"
+       ],
+       "promptRoman": "kippu o ichimai kudasai."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "駅は右にあります。",
+       "roman": "eki wa migi ni arimasu.",
+       "translation": "The station is on the right.",
+       "words": [
+        "駅",
+        "右"
+       ],
+       "options": [
+        "トイレはどこですか？",
+        "切符を一枚ください。",
+        "左に曲がってください。",
+        "駅は右にあります。"
+       ],
+       "optionsRoman": [
+        "toire wa doko desu ka?",
+        "kippu o ichimai kudasai.",
+        "hidari ni magatte kudasai.",
+        "eki wa migi ni arimasu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "空港に行きます。",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "空港"
+       ],
+       "promptRoman": "kūkō ni ikimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "ホテル",
+        "hoteru"
+       ],
+       "words": [
+        "ホテル"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "遠いですか？",
+       "promptLang": "target",
+       "options": [
+        "Is it far?",
+        "Where is the toilet?",
+        "Where is the hotel?",
+        "Turn left."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "遠いですか？"
+       ],
+       "promptRoman": "tōi desu ka?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "駅",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Hotel",
+        "Airport",
+        "Ticket"
+       ],
+       "answer": "Station",
+       "words": [
+        "駅"
+       ],
+       "promptRoman": "eki"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "駅",
+         "Station"
+        ],
+        [
+         "切符",
+         "Ticket"
+        ],
+        [
+         "どこ",
+         "Where"
+        ],
+        [
+         "トイレ",
+         "Toilet"
+        ],
+        [
+         "ホテル",
+         "Hotel"
+        ]
+       ],
+       "words": [
+        "駅",
+        "切符",
+        "どこ",
+        "トイレ",
+        "ホテル"
+       ],
+       "romans": [
+        "eki",
+        "kippu",
+        "doko",
+        "toire",
+        "hoteru"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "行きます",
+        "切符",
+        "です",
+        "か",
+        "一枚",
+        "遠い"
+       ],
+       "answer": [
+        "遠い",
+        "です",
+        "か"
+       ],
+       "accepted": [],
+       "words": [
+        "遠いですか？"
+       ],
+       "tilesRoman": [
+        "ikimasu",
+        "kippu",
+        "desu",
+        "ka",
+        "ichimai",
+        "tōi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "トイレはどこですか？",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "toilet",
+        "Where",
+        "is",
+        "am",
+        "please",
+        "Turn"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "どこ",
+        "トイレ"
+       ],
+       "promptRoman": "toire wa doko desu ka?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "空港に行きます。",
+       "roman": "kūkō ni ikimasu.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "空港"
+       ],
+       "options": [
+        "トイレはどこですか？",
+        "遠いですか？",
+        "左に曲がってください。",
+        "空港に行きます。"
+       ],
+       "optionsRoman": [
+        "toire wa doko desu ka?",
+        "tōi desu ka?",
+        "hidari ni magatte kudasai.",
+        "kūkō ni ikimasu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "ください",
+        "遠い",
+        "切符",
+        "は",
+        "右",
+        "一枚",
+        "を"
+       ],
+       "answer": [
+        "切符",
+        "を",
+        "一枚",
+        "ください"
+       ],
+       "accepted": [
+        "チケットを一枚ください。"
+       ],
+       "words": [
+        "お願いします",
+        "切符"
+       ],
+       "tilesRoman": [
+        "kudasai",
+        "tōi",
+        "kippu",
+        "wa",
+        "migi",
+        "ichimai",
+        "o"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "左に曲がってください。",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "お願いします",
+        "左"
+       ],
+       "promptRoman": "hidari ni magatte kudasai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "駅",
+        "eki"
+       ],
+       "words": [
+        "駅"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "行きます",
+        "曲がって",
+        "空港",
+        "に",
+        "切符",
+        "を"
+       ],
+       "answer": [
+        "空港",
+        "に",
+        "行きます"
+       ],
+       "accepted": [
+        "空港へ行きます。"
+       ],
+       "words": [
+        "空港"
+       ],
+       "tilesRoman": [
+        "ikimasu",
+        "magatte",
+        "kūkō",
+        "ni",
+        "kippu",
+        "o"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "ホテルはどこですか？",
+       "promptLang": "target",
+       "options": [
+        "The station is on the right.",
+        "I am going to the airport.",
+        "Where is the hotel?",
+        "A ticket, please."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "ホテル",
+        "どこ"
+       ],
+       "promptRoman": "hoteru wa doko desu ka?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "右",
+         "Right"
+        ],
+        [
+         "切符",
+         "Ticket"
+        ],
+        [
+         "どこ",
+         "Where"
+        ],
+        [
+         "トイレ",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "右",
+        "切符",
+        "どこ",
+        "トイレ"
+       ],
+       "romans": [
+        "migi",
+        "kippu",
+        "doko",
+        "toire"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answer": "ホテル",
+       "words": [
+        "ホテル"
+       ],
+       "options": [
+        "空港",
+        "ホテル",
+        "どこ",
+        "左"
+       ],
+       "optionsRoman": [
+        "kūkō",
+        "hoteru",
+        "doko",
+        "hidari"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "に",
+        "曲がって",
+        "一枚",
+        "ください",
+        "ホテル",
+        "左",
+        "か"
+       ],
+       "answer": [
+        "左",
+        "に",
+        "曲がって",
+        "ください"
+       ],
+       "accepted": [],
+       "words": [
+        "お願いします",
+        "左"
+       ],
+       "tilesRoman": [
+        "ni",
+        "magatte",
+        "ichimai",
+        "kudasai",
+        "hoteru",
+        "hidari",
+        "ka"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "遠いですか？",
+       "roman": "tōi desu ka?",
+       "translation": "Is it far?",
+       "words": [
+        "遠いですか？"
+       ],
+       "options": [
+        "左に曲がってください。",
+        "空港に行きます。",
+        "遠いですか？",
+        "トイレはどこですか？"
+       ],
+       "optionsRoman": [
+        "hidari ni magatte kudasai.",
+        "kūkō ni ikimasu.",
+        "tōi desu ka?",
+        "toire wa doko desu ka?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "駅は右にあります。",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "ticket",
+        "The",
+        "the",
+        "A",
+        "right",
+        "on",
+        "is",
+        "to"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "駅",
+        "右"
+       ],
+       "promptRoman": "eki wa migi ni arimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answers": [
+        "空港",
+        "kūkō",
+        "kuukou",
+        "kuko"
+       ],
+       "words": [
+        "空港"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "トイレはどこですか？",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "どこ",
+        "トイレ"
+       ],
+       "promptRoman": "toire wa doko desu ka?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "切符を一枚ください。",
+       "roman": "kippu o ichimai kudasai.",
+       "translation": "A ticket, please.",
+       "words": [
+        "お願いします",
+        "切符"
+       ],
+       "options": [
+        "ホテルはどこですか？",
+        "駅は右にあります。",
+        "トイレはどこですか？",
+        "切符を一枚ください。"
+       ],
+       "optionsRoman": [
+        "hoteru wa doko desu ka?",
+        "eki wa migi ni arimasu.",
+        "toire wa doko desu ka?",
+        "kippu o ichimai kudasai."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tip": "は (wa) marks the topic. It is written with the hiragana は but pronounced 'wa'.",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "今日",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Now",
+        "Today",
+        "Morning"
+       ],
+       "answer": "Today",
+       "words": [
+        "今日"
+       ],
+       "promptRoman": "kyō"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "明日",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "Night",
+        "School",
+        "Today"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "明日"
+       ],
+       "promptRoman": "ashita"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "今",
+       "words": [
+        "今"
+       ],
+       "options": [
+        "今",
+        "朝",
+        "仕事",
+        "明日"
+       ],
+       "optionsRoman": [
+        "ima",
+        "asa",
+        "shigoto",
+        "ashita"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "朝",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "Morning",
+        "School",
+        "Night"
+       ],
+       "answer": "Morning",
+       "words": [
+        "朝"
+       ],
+       "promptRoman": "asa"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "今日",
+         "Today"
+        ],
+        [
+         "明日",
+         "Tomorrow"
+        ],
+        [
+         "今",
+         "Now"
+        ],
+        [
+         "朝",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "今日",
+        "明日",
+        "今",
+        "朝"
+       ],
+       "romans": [
+        "kyō",
+        "ashita",
+        "ima",
+        "asa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "に",
+        "学校",
+        "行きます",
+        "仕事",
+        "何時",
+        "家"
+       ],
+       "answer": [
+        "仕事",
+        "に",
+        "行きます"
+       ],
+       "accepted": [],
+       "words": [
+        "仕事"
+       ],
+       "tilesRoman": [
+        "ni",
+        "gakkō",
+        "ikimasu",
+        "shigoto",
+        "nanji",
+        "ie"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "家にいます。",
+       "roman": "ie ni imasu.",
+       "translation": "I am at home.",
+       "words": [
+        "家"
+       ],
+       "options": [
+        "子供たちは学校に行きます。",
+        "夜寝ます。",
+        "朝コーヒーを飲みます。",
+        "家にいます。"
+       ],
+       "optionsRoman": [
+        "kodomo-tachi wa gakkō ni ikimasu.",
+        "yoru nemasu.",
+        "asa kōhī o nomimasu.",
+        "ie ni imasu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "今日は月曜日です。",
+       "promptLang": "target",
+       "tiles": [
+        "morning",
+        "to",
+        "Monday",
+        "Today",
+        "children",
+        "is"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "今日"
+       ],
+       "promptRoman": "kyō wa getsuyōbi desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "仕事に行きます。",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "仕事"
+       ],
+       "promptRoman": "shigoto ni ikimasu."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "夜",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "School",
+        "Now",
+        "Morning"
+       ],
+       "answer": "Night",
+       "words": [
+        "夜"
+       ],
+       "promptRoman": "yoru"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "家",
+       "words": [
+        "家"
+       ],
+       "options": [
+        "今",
+        "家",
+        "夜",
+        "学校"
+       ],
+       "optionsRoman": [
+        "ima",
+        "ie",
+        "yoru",
+        "gakkō"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "仕事",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Work",
+        "School",
+        "Night"
+       ],
+       "answer": "Work",
+       "words": [
+        "仕事"
+       ],
+       "promptRoman": "shigoto"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "学校",
+       "words": [
+        "学校"
+       ],
+       "options": [
+        "学校",
+        "今日",
+        "仕事",
+        "夜"
+       ],
+       "optionsRoman": [
+        "gakkō",
+        "kyō",
+        "shigoto",
+        "yoru"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "夜",
+         "Night"
+        ],
+        [
+         "家",
+         "House"
+        ],
+        [
+         "仕事",
+         "Work"
+        ],
+        [
+         "学校",
+         "School"
+        ]
+       ],
+       "words": [
+        "夜",
+        "家",
+        "仕事",
+        "学校"
+       ],
+       "romans": [
+        "yoru",
+        "ie",
+        "shigoto",
+        "gakkō"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "を",
+        "今日",
+        "何時",
+        "学校",
+        "飲みます",
+        "朝",
+        "コーヒー"
+       ],
+       "answer": [
+        "朝",
+        "コーヒー",
+        "を",
+        "飲みます"
+       ],
+       "accepted": [
+        "朝はコーヒーを飲みます。"
+       ],
+       "words": [
+        "コーヒー",
+        "朝"
+       ],
+       "tilesRoman": [
+        "o",
+        "kyō",
+        "nanji",
+        "gakkō",
+        "nomimasu",
+        "asa",
+        "kōhī"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "夜寝ます。",
+       "promptLang": "target",
+       "tiles": [
+        "children",
+        "Today",
+        "I",
+        "night",
+        "the",
+        "sleep",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "夜"
+       ],
+       "promptRoman": "yoru nemasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "朝コーヒーを飲みます。",
+       "roman": "asa kōhī o nomimasu.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "コーヒー",
+        "朝"
+       ],
+       "options": [
+        "子供たちは学校に行きます。",
+        "朝コーヒーを飲みます。",
+        "夜寝ます。",
+        "今日は月曜日です。"
+       ],
+       "optionsRoman": [
+        "kodomo-tachi wa gakkō ni ikimasu.",
+        "asa kōhī o nomimasu.",
+        "yoru nemasu.",
+        "kyō wa getsuyōbi desu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "子供たちは学校に行きます。",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "学校"
+       ],
+       "promptRoman": "kodomo-tachi wa gakkō ni ikimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "今日",
+        "kyō",
+        "kyou",
+        "kyo"
+       ],
+       "words": [
+        "今日"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "今何時ですか？",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I go to work.",
+        "I drink coffee in the morning.",
+        "Today is Monday."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "今"
+       ],
+       "promptRoman": "ima nanji desu ka?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "明日",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "Work",
+        "Night",
+        "School"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "明日"
+       ],
+       "promptRoman": "ashita"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "仕事",
+         "Work"
+        ],
+        [
+         "今",
+         "Now"
+        ],
+        [
+         "明日",
+         "Tomorrow"
+        ],
+        [
+         "学校",
+         "School"
+        ],
+        [
+         "夜",
+         "Night"
+        ]
+       ],
+       "words": [
+        "仕事",
+        "今",
+        "明日",
+        "学校",
+        "夜"
+       ],
+       "romans": [
+        "shigoto",
+        "ima",
+        "ashita",
+        "gakkō",
+        "yoru"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "行きます",
+        "か",
+        "です",
+        "今",
+        "を",
+        "家",
+        "何時"
+       ],
+       "answer": [
+        "今",
+        "何時",
+        "です",
+        "か"
+       ],
+       "accepted": [],
+       "words": [
+        "今"
+       ],
+       "tilesRoman": [
+        "ikimasu",
+        "ka",
+        "desu",
+        "ima",
+        "o",
+        "ie",
+        "nanji"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "家にいます。",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "coffee",
+        "I",
+        "in",
+        "am",
+        "Monday",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "家"
+       ],
+       "promptRoman": "ie ni imasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "子供たちは学校に行きます。",
+       "roman": "kodomo-tachi wa gakkō ni ikimasu.",
+       "translation": "The children go to school.",
+       "words": [
+        "学校"
+       ],
+       "options": [
+        "今何時ですか？",
+        "夜寝ます。",
+        "子供たちは学校に行きます。",
+        "仕事に行きます。"
+       ],
+       "optionsRoman": [
+        "ima nanji desu ka?",
+        "yoru nemasu.",
+        "kodomo-tachi wa gakkō ni ikimasu.",
+        "shigoto ni ikimasu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "います",
+        "寝ます",
+        "か",
+        "月曜日",
+        "夜"
+       ],
+       "answer": [
+        "夜",
+        "寝ます"
+       ],
+       "accepted": [
+        "夜は寝ます。"
+       ],
+       "words": [
+        "夜"
+       ],
+       "tilesRoman": [
+        "imasu",
+        "nemasu",
+        "ka",
+        "getsuyōbi",
+        "yoru"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "今日は月曜日です。",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "今日"
+       ],
+       "promptRoman": "kyō wa getsuyōbi desu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "明日",
+        "ashita"
+       ],
+       "words": [
+        "明日"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "寝ます",
+        "月曜日",
+        "は",
+        "行きます",
+        "学校",
+        "います",
+        "子供たち",
+        "に"
+       ],
+       "answer": [
+        "子供たち",
+        "は",
+        "学校",
+        "に",
+        "行きます"
+       ],
+       "accepted": [],
+       "words": [
+        "学校"
+       ],
+       "tilesRoman": [
+        "nemasu",
+        "getsuyōbi",
+        "wa",
+        "ikimasu",
+        "gakkō",
+        "imasu",
+        "kodomo-tachi",
+        "ni"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "仕事に行きます。",
+       "promptLang": "target",
+       "options": [
+        "Today is Monday.",
+        "I sleep at night.",
+        "I am at home.",
+        "I go to work."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "仕事"
+       ],
+       "promptRoman": "shigoto ni ikimasu."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "朝",
+         "Morning"
+        ],
+        [
+         "今",
+         "Now"
+        ],
+        [
+         "仕事",
+         "Work"
+        ],
+        [
+         "夜",
+         "Night"
+        ]
+       ],
+       "words": [
+        "朝",
+        "今",
+        "仕事",
+        "夜"
+       ],
+       "romans": [
+        "asa",
+        "ima",
+        "shigoto",
+        "yoru"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answer": "今日",
+       "words": [
+        "今日"
+       ],
+       "options": [
+        "仕事",
+        "夜",
+        "学校",
+        "今日"
+       ],
+       "optionsRoman": [
+        "shigoto",
+        "yoru",
+        "gakkō",
+        "kyō"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "月曜日",
+        "は",
+        "です",
+        "今日",
+        "に",
+        "家",
+        "仕事"
+       ],
+       "answer": [
+        "今日",
+        "は",
+        "月曜日",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "今日"
+       ],
+       "tilesRoman": [
+        "getsuyōbi",
+        "wa",
+        "desu",
+        "kyō",
+        "ni",
+        "ie",
+        "shigoto"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "今何時ですか？",
+       "roman": "ima nanji desu ka?",
+       "translation": "What time is it now?",
+       "words": [
+        "今"
+       ],
+       "options": [
+        "仕事に行きます。",
+        "子供たちは学校に行きます。",
+        "朝コーヒーを飲みます。",
+        "今何時ですか？"
+       ],
+       "optionsRoman": [
+        "shigoto ni ikimasu.",
+        "kodomo-tachi wa gakkō ni ikimasu.",
+        "asa kōhī o nomimasu.",
+        "ima nanji desu ka?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "朝コーヒーを飲みます。",
+       "promptLang": "target",
+       "tiles": [
+        "sleep",
+        "drink",
+        "am",
+        "in",
+        "it",
+        "I",
+        "coffee",
+        "the",
+        "morning"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "コーヒー",
+        "朝"
+       ],
+       "promptRoman": "asa kōhī o nomimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "明日",
+        "ashita"
+       ],
+       "words": [
+        "明日"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "家にいます。",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "家"
+       ],
+       "promptRoman": "ie ni imasu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "夜寝ます。",
+       "roman": "yoru nemasu.",
+       "translation": "I sleep at night.",
+       "words": [
+        "夜"
+       ],
+       "options": [
+        "夜寝ます。",
+        "子供たちは学校に行きます。",
+        "朝コーヒーを飲みます。",
+        "今何時ですか？"
+       ],
+       "optionsRoman": [
+        "yoru nemasu.",
+        "kodomo-tachi wa gakkō ni ikimasu.",
+        "asa kōhī o nomimasu.",
+        "ima nanji desu ka?"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

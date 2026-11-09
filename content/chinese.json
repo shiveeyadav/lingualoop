@@ -1,0 +1,5734 @@
+{
+ "id": "chinese",
+ "title": "Chinese (Mandarin)",
+ "shortName": "Chinese",
+ "nativeName": "中文",
+ "fromLanguage": "en",
+ "speechLang": "zh-CN",
+ "dir": "ltr",
+ "romanization": "pinyin",
+ "noSpaces": true,
+ "keyboard": [],
+ "order": 120,
+ "description": "Mandarin Chinese in simplified characters with pinyin: greetings, family, food, numbers, travel and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tip": "Mandarin has four tones, shown by marks in pinyin: mā, má, mǎ, mà. You may type pinyin without the tone marks.",
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "你好",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Yes",
+        "Thank you",
+        "Good morning"
+       ],
+       "answer": "Hello",
+       "words": [
+        "你好"
+       ],
+       "promptRoman": "nǐ hǎo"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "再见",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Goodbye",
+        "No",
+        "Sorry"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "再见"
+       ],
+       "promptRoman": "zàijiàn"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "谢谢",
+       "words": [
+        "谢谢"
+       ],
+       "options": [
+        "不",
+        "是",
+        "对不起",
+        "谢谢"
+       ],
+       "optionsRoman": [
+        "bù",
+        "shì",
+        "duìbuqǐ",
+        "xièxie"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "请",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Goodbye",
+        "Thank you",
+        "Yes"
+       ],
+       "answer": "Please",
+       "words": [
+        "请"
+       ],
+       "promptRoman": "qǐng"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "你好",
+         "Hello"
+        ],
+        [
+         "再见",
+         "Goodbye"
+        ],
+        [
+         "谢谢",
+         "Thank you"
+        ],
+        [
+         "请",
+         "Please"
+        ]
+       ],
+       "words": [
+        "你好",
+        "再见",
+        "谢谢",
+        "请"
+       ],
+       "romans": [
+        "nǐ hǎo",
+        "zàijiàn",
+        "xièxie",
+        "qǐng"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "好",
+        "什么",
+        "吗",
+        "你",
+        "明天",
+        "很"
+       ],
+       "answer": [
+        "你",
+        "好",
+        "吗"
+       ],
+       "accepted": [],
+       "words": [
+        "你好吗？"
+       ],
+       "tilesRoman": [
+        "hǎo",
+        "shénme",
+        "ma",
+        "nǐ",
+        "míngtiān",
+        "hěn"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我很好，谢谢。",
+       "roman": "wǒ hěn hǎo, xièxie.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "谢谢"
+       ],
+       "options": [
+        "我叫安娜。",
+        "我很好，谢谢。",
+        "很高兴认识你。",
+        "你好吗？"
+       ],
+       "optionsRoman": [
+        "wǒ jiào Ānnà.",
+        "wǒ hěn hǎo, xièxie.",
+        "hěn gāoxìng rènshi nǐ.",
+        "nǐ hǎo ma?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我叫安娜。",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "My",
+        "meet",
+        "very",
+        "name",
+        "am",
+        "Anna"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "我叫安娜。"
+       ],
+       "promptRoman": "wǒ jiào Ānnà."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "你好吗？",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "你好吗？"
+       ],
+       "promptRoman": "nǐ hǎo ma?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "是",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Sorry",
+        "Yes",
+        "Hello"
+       ],
+       "answer": "Yes",
+       "words": [
+        "是"
+       ],
+       "promptRoman": "shì"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "不",
+       "words": [
+        "不"
+       ],
+       "options": [
+        "早上好",
+        "对不起",
+        "不",
+        "再见"
+       ],
+       "optionsRoman": [
+        "zǎoshang hǎo",
+        "duìbuqǐ",
+        "bù",
+        "zàijiàn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "早上好",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Good morning",
+        "Sorry",
+        "Yes"
+       ],
+       "answer": "Good morning",
+       "words": [
+        "早上好"
+       ],
+       "promptRoman": "zǎoshang hǎo"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "对不起",
+       "words": [
+        "对不起"
+       ],
+       "options": [
+        "早上好",
+        "是",
+        "你好",
+        "对不起"
+       ],
+       "optionsRoman": [
+        "zǎoshang hǎo",
+        "shì",
+        "nǐ hǎo",
+        "duìbuqǐ"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "是",
+         "Yes"
+        ],
+        [
+         "不",
+         "No"
+        ],
+        [
+         "早上好",
+         "Good morning"
+        ],
+        [
+         "对不起",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "是",
+        "不",
+        "早上好",
+        "对不起"
+       ],
+       "romans": [
+        "shì",
+        "bù",
+        "zǎoshang hǎo",
+        "duìbuqǐ"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "叫",
+        "你",
+        "很",
+        "见",
+        "认识",
+        "安娜",
+        "高兴"
+       ],
+       "answer": [
+        "很",
+        "高兴",
+        "认识",
+        "你"
+       ],
+       "accepted": [],
+       "words": [
+        "很高兴认识你。"
+       ],
+       "tilesRoman": [
+        "jiào",
+        "nǐ",
+        "hěn",
+        "jiàn",
+        "rènshi",
+        "Ānnà",
+        "gāoxìng"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "非常感谢。",
+       "promptLang": "target",
+       "tiles": [
+        "Thank",
+        "much",
+        "name",
+        "you",
+        "are",
+        "very",
+        "your"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "非常感谢。"
+       ],
+       "promptRoman": "fēicháng gǎnxiè."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "很高兴认识你。",
+       "roman": "hěn gāoxìng rènshi nǐ.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "很高兴认识你。"
+       ],
+       "options": [
+        "很高兴认识你。",
+        "非常感谢。",
+        "我很好，谢谢。",
+        "你叫什么名字？"
+       ],
+       "optionsRoman": [
+        "hěn gāoxìng rènshi nǐ.",
+        "fēicháng gǎnxiè.",
+        "wǒ hěn hǎo, xièxie.",
+        "nǐ jiào shénme míngzi?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "明天见。",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "明天"
+       ],
+       "promptRoman": "míngtiān jiàn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "你好",
+        "nǐ hǎo"
+       ],
+       "words": [
+        "你好"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "你叫什么名字？",
+       "promptLang": "target",
+       "options": [
+        "See you tomorrow.",
+        "I am fine, thank you.",
+        "My name is Anna.",
+        "What is your name?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "你叫什么名字？"
+       ],
+       "promptRoman": "nǐ jiào shénme míngzi?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "再见",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "No",
+        "Good morning",
+        "Goodbye"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "再见"
+       ],
+       "promptRoman": "zàijiàn"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "请",
+         "Please"
+        ],
+        [
+         "早上好",
+         "Good morning"
+        ],
+        [
+         "再见",
+         "Goodbye"
+        ],
+        [
+         "是",
+         "Yes"
+        ],
+        [
+         "谢谢",
+         "Thank you"
+        ]
+       ],
+       "words": [
+        "请",
+        "早上好",
+        "再见",
+        "是",
+        "谢谢"
+       ],
+       "romans": [
+        "qǐng",
+        "zǎoshang hǎo",
+        "zàijiàn",
+        "shì",
+        "xièxie"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "什么",
+        "名字",
+        "高兴",
+        "吗",
+        "叫",
+        "你",
+        "谢谢"
+       ],
+       "answer": [
+        "你",
+        "叫",
+        "什么",
+        "名字"
+       ],
+       "accepted": [],
+       "words": [
+        "你叫什么名字？"
+       ],
+       "tilesRoman": [
+        "shénme",
+        "míngzi",
+        "gāoxìng",
+        "ma",
+        "jiào",
+        "nǐ",
+        "xièxie"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我很好，谢谢。",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "What",
+        "thank",
+        "am",
+        "you",
+        "much",
+        "fine",
+        "very"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "谢谢"
+       ],
+       "promptRoman": "wǒ hěn hǎo, xièxie."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "明天见。",
+       "roman": "míngtiān jiàn.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "明天"
+       ],
+       "options": [
+        "我很好，谢谢。",
+        "非常感谢。",
+        "你叫什么名字？",
+        "明天见。"
+       ],
+       "optionsRoman": [
+        "wǒ hěn hǎo, xièxie.",
+        "fēicháng gǎnxiè.",
+        "nǐ jiào shénme míngzi?",
+        "míngtiān jiàn."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "很",
+        "我",
+        "吗",
+        "非常",
+        "感谢"
+       ],
+       "answer": [
+        "非常",
+        "感谢"
+       ],
+       "accepted": [
+        "多谢。",
+        "太谢谢你了。"
+       ],
+       "words": [
+        "非常感谢。"
+       ],
+       "tilesRoman": [
+        "hěn",
+        "wǒ",
+        "ma",
+        "fēicháng",
+        "gǎnxiè"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我叫安娜。",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "我叫安娜。"
+       ],
+       "promptRoman": "wǒ jiào Ānnà."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "再见",
+        "zàijiàn"
+       ],
+       "words": [
+        "再见"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "我",
+        "明天",
+        "高兴",
+        "见",
+        "你"
+       ],
+       "answer": [
+        "明天",
+        "见"
+       ],
+       "accepted": [],
+       "words": [
+        "明天"
+       ],
+       "tilesRoman": [
+        "wǒ",
+        "míngtiān",
+        "gāoxìng",
+        "jiàn",
+        "nǐ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "你好吗？",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "How are you?",
+        "I am fine, thank you.",
+        "What is your name?"
+       ],
+       "answer": "How are you?",
+       "words": [
+        "你好吗？"
+       ],
+       "promptRoman": "nǐ hǎo ma?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "你好",
+         "Hello"
+        ],
+        [
+         "不",
+         "No"
+        ],
+        [
+         "早上好",
+         "Good morning"
+        ],
+        [
+         "谢谢",
+         "Thank you"
+        ]
+       ],
+       "words": [
+        "你好",
+        "不",
+        "早上好",
+        "谢谢"
+       ],
+       "romans": [
+        "nǐ hǎo",
+        "bù",
+        "zǎoshang hǎo",
+        "xièxie"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Yes",
+       "promptLang": "en",
+       "answer": "是",
+       "words": [
+        "是"
+       ],
+       "options": [
+        "是",
+        "谢谢",
+        "不",
+        "你好"
+       ],
+       "optionsRoman": [
+        "shì",
+        "xièxie",
+        "bù",
+        "nǐ hǎo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "很",
+        "叫",
+        "什么",
+        "安娜",
+        "我",
+        "感谢"
+       ],
+       "answer": [
+        "我",
+        "叫",
+        "安娜"
+       ],
+       "accepted": [
+        "我的名字是安娜。"
+       ],
+       "words": [
+        "我叫安娜。"
+       ],
+       "tilesRoman": [
+        "hěn",
+        "jiào",
+        "shénme",
+        "Ānnà",
+        "wǒ",
+        "gǎnxiè"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "你叫什么名字？",
+       "roman": "nǐ jiào shénme míngzi?",
+       "translation": "What is your name?",
+       "words": [
+        "你叫什么名字？"
+       ],
+       "options": [
+        "我很好，谢谢。",
+        "你叫什么名字？",
+        "非常感谢。",
+        "我叫安娜。"
+       ],
+       "optionsRoman": [
+        "wǒ hěn hǎo, xièxie.",
+        "nǐ jiào shénme míngzi?",
+        "fēicháng gǎnxiè.",
+        "wǒ jiào Ānnà."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "很高兴认识你。",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "Nice",
+        "See",
+        "meet",
+        "am",
+        "How",
+        "you"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "很高兴认识你。"
+       ],
+       "promptRoman": "hěn gāoxìng rènshi nǐ."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Please",
+       "promptLang": "en",
+       "answers": [
+        "请",
+        "qǐng"
+       ],
+       "words": [
+        "请"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我很好，谢谢。",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "谢谢"
+       ],
+       "promptRoman": "wǒ hěn hǎo, xièxie."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "非常感谢。",
+       "roman": "fēicháng gǎnxiè.",
+       "translation": "Thank you very much.",
+       "words": [
+        "非常感谢。"
+       ],
+       "options": [
+        "你好吗？",
+        "我叫安娜。",
+        "我很好，谢谢。",
+        "非常感谢。"
+       ],
+       "optionsRoman": [
+        "nǐ hǎo ma?",
+        "wǒ jiào Ānnà.",
+        "wǒ hěn hǎo, xièxie.",
+        "fēicháng gǎnxiè."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tip": "'的' (de) shows possession: 我的朋友 (wǒ de péngyou) = my friend. With close family it is often left out: 我妈妈 = my mum.",
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "男人",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Son",
+        "Mother",
+        "Man"
+       ],
+       "answer": "Man",
+       "words": [
+        "男人"
+       ],
+       "promptRoman": "nánrén"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "女人",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Mother",
+        "Child",
+        "Man"
+       ],
+       "answer": "Woman",
+       "words": [
+        "女人"
+       ],
+       "promptRoman": "nǚrén"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "孩子",
+       "words": [
+        "孩子"
+       ],
+       "options": [
+        "儿子",
+        "女儿",
+        "孩子",
+        "女人"
+       ],
+       "optionsRoman": [
+        "érzi",
+        "nǚ'ér",
+        "háizi",
+        "nǚrén"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "朋友",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Friend",
+        "Son",
+        "Child"
+       ],
+       "answer": "Friend",
+       "words": [
+        "朋友"
+       ],
+       "promptRoman": "péngyou"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "男人",
+         "Man"
+        ],
+        [
+         "女人",
+         "Woman"
+        ],
+        [
+         "孩子",
+         "Child"
+        ],
+        [
+         "朋友",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "男人",
+        "女人",
+        "孩子",
+        "朋友"
+       ],
+       "romans": [
+        "nánrén",
+        "nǚrén",
+        "háizi",
+        "péngyou"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "妈妈",
+        "我",
+        "哪里",
+        "这",
+        "她",
+        "在",
+        "是"
+       ],
+       "answer": [
+        "这",
+        "是",
+        "我",
+        "妈妈"
+       ],
+       "accepted": [],
+       "words": [
+        "是",
+        "妈妈"
+       ],
+       "tilesRoman": [
+        "māma",
+        "wǒ",
+        "nǎlǐ",
+        "zhè",
+        "tā",
+        "zài",
+        "shì"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "他是我的朋友。",
+       "roman": "tā shì wǒ de péngyou.",
+       "translation": "He is my friend.",
+       "words": [
+        "是",
+        "朋友"
+       ],
+       "options": [
+        "我爸爸在哪里？",
+        "她是我的女儿。",
+        "他是我的朋友。",
+        "这个男人是谁？"
+       ],
+       "optionsRoman": [
+        "wǒ bàba zài nǎlǐ?",
+        "tā shì wǒ de nǚ'ér.",
+        "tā shì wǒ de péngyou.",
+        "zhège nánrén shì shéi?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我有一个儿子。",
+       "promptLang": "target",
+       "tiles": [
+        "She",
+        "Where",
+        "He",
+        "a",
+        "have",
+        "I",
+        "son"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "儿子",
+        "一"
+       ],
+       "promptRoman": "wǒ yǒu yí ge érzi."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "这是我妈妈。",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "是",
+        "妈妈"
+       ],
+       "promptRoman": "zhè shì wǒ māma."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "妈妈",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Mother",
+        "Child",
+        "Woman"
+       ],
+       "answer": "Mother",
+       "words": [
+        "妈妈"
+       ],
+       "promptRoman": "māma"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answer": "爸爸",
+       "words": [
+        "爸爸"
+       ],
+       "options": [
+        "朋友",
+        "男人",
+        "孩子",
+        "爸爸"
+       ],
+       "optionsRoman": [
+        "péngyou",
+        "nánrén",
+        "háizi",
+        "bàba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "儿子",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Mother",
+        "Daughter",
+        "Son"
+       ],
+       "answer": "Son",
+       "words": [
+        "儿子"
+       ],
+       "promptRoman": "érzi"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "女儿",
+       "words": [
+        "女儿"
+       ],
+       "options": [
+        "儿子",
+        "女儿",
+        "男人",
+        "朋友"
+       ],
+       "optionsRoman": [
+        "érzi",
+        "nǚ'ér",
+        "nánrén",
+        "péngyou"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "妈妈",
+         "Mother"
+        ],
+        [
+         "爸爸",
+         "Father"
+        ],
+        [
+         "儿子",
+         "Son"
+        ],
+        [
+         "女儿",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "妈妈",
+        "爸爸",
+        "儿子",
+        "女儿"
+       ],
+       "romans": [
+        "māma",
+        "bàba",
+        "érzi",
+        "nǚ'ér"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "有",
+        "我",
+        "在",
+        "这个",
+        "爸爸",
+        "哪里",
+        "儿子"
+       ],
+       "answer": [
+        "我",
+        "爸爸",
+        "在",
+        "哪里"
+       ],
+       "accepted": [
+        "我爸爸在哪儿？"
+       ],
+       "words": [
+        "爸爸",
+        "哪里"
+       ],
+       "tilesRoman": [
+        "yǒu",
+        "wǒ",
+        "zài",
+        "zhège",
+        "bàba",
+        "nǎlǐ",
+        "érzi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我妈妈在家。",
+       "promptLang": "target",
+       "tiles": [
+        "a",
+        "Who",
+        "at",
+        "My",
+        "He",
+        "home",
+        "is",
+        "mother"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "妈妈",
+        "家"
+       ],
+       "promptRoman": "wǒ māma zài jiā."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我爸爸在哪里？",
+       "roman": "wǒ bàba zài nǎlǐ?",
+       "translation": "Where is my father?",
+       "words": [
+        "爸爸",
+        "哪里"
+       ],
+       "options": [
+        "我爸爸在哪里？",
+        "这是我妈妈。",
+        "他是我的朋友。",
+        "我有一个儿子。"
+       ],
+       "optionsRoman": [
+        "wǒ bàba zài nǎlǐ?",
+        "zhè shì wǒ māma.",
+        "tā shì wǒ de péngyou.",
+        "wǒ yǒu yí ge érzi."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "她是我的女儿。",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "是",
+        "女儿"
+       ],
+       "promptRoman": "tā shì wǒ de nǚ'ér."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "男人",
+        "nánrén"
+       ],
+       "words": [
+        "男人"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "这个男人是谁？",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "My mother is at home.",
+        "I have a son.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "是",
+        "男人"
+       ],
+       "promptRoman": "zhège nánrén shì shéi?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "女人",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Woman",
+        "Man",
+        "Father"
+       ],
+       "answer": "Woman",
+       "words": [
+        "女人"
+       ],
+       "promptRoman": "nǚrén"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "儿子",
+         "Son"
+        ],
+        [
+         "孩子",
+         "Child"
+        ],
+        [
+         "朋友",
+         "Friend"
+        ],
+        [
+         "爸爸",
+         "Father"
+        ],
+        [
+         "妈妈",
+         "Mother"
+        ]
+       ],
+       "words": [
+        "儿子",
+        "孩子",
+        "朋友",
+        "爸爸",
+        "妈妈"
+       ],
+       "romans": [
+        "érzi",
+        "háizi",
+        "péngyou",
+        "bàba",
+        "māma"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "这个",
+        "在",
+        "谁",
+        "一",
+        "是",
+        "爸爸",
+        "男人"
+       ],
+       "answer": [
+        "这个",
+        "男人",
+        "是",
+        "谁"
+       ],
+       "accepted": [],
+       "words": [
+        "是",
+        "男人"
+       ],
+       "tilesRoman": [
+        "zhège",
+        "zài",
+        "shéi",
+        "yí",
+        "shì",
+        "bàba",
+        "nánrén"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "他是我的朋友。",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "my",
+        "mother",
+        "This",
+        "friend",
+        "He",
+        "is"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "是",
+        "朋友"
+       ],
+       "promptRoman": "tā shì wǒ de péngyou."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "她是我的女儿。",
+       "roman": "tā shì wǒ de nǚ'ér.",
+       "translation": "She is my daughter.",
+       "words": [
+        "是",
+        "女儿"
+       ],
+       "options": [
+        "她是我的女儿。",
+        "我妈妈在家。",
+        "这是我妈妈。",
+        "我爸爸在哪里？"
+       ],
+       "optionsRoman": [
+        "tā shì wǒ de nǚ'ér.",
+        "wǒ māma zài jiā.",
+        "zhè shì wǒ māma.",
+        "wǒ bàba zài nǎlǐ?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "这个",
+        "谁",
+        "我",
+        "家",
+        "她",
+        "妈妈",
+        "在"
+       ],
+       "answer": [
+        "我",
+        "妈妈",
+        "在",
+        "家"
+       ],
+       "accepted": [],
+       "words": [
+        "妈妈",
+        "家"
+       ],
+       "tilesRoman": [
+        "zhège",
+        "shéi",
+        "wǒ",
+        "jiā",
+        "tā",
+        "māma",
+        "zài"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我有一个儿子。",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "儿子",
+        "一"
+       ],
+       "promptRoman": "wǒ yǒu yí ge érzi."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "女人",
+        "nǚrén"
+       ],
+       "words": [
+        "女人"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "一",
+        "女儿",
+        "我",
+        "是",
+        "她",
+        "哪里",
+        "这个",
+        "的"
+       ],
+       "answer": [
+        "她",
+        "是",
+        "我",
+        "的",
+        "女儿"
+       ],
+       "accepted": [
+        "她是我女儿。"
+       ],
+       "words": [
+        "是",
+        "女儿"
+       ],
+       "tilesRoman": [
+        "yí",
+        "nǚ'ér",
+        "wǒ",
+        "shì",
+        "tā",
+        "nǎlǐ",
+        "zhège",
+        "de"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "这是我妈妈。",
+       "promptLang": "target",
+       "options": [
+        "Where is my father?",
+        "Who is this man?",
+        "She is my daughter.",
+        "This is my mother."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "是",
+        "妈妈"
+       ],
+       "promptRoman": "zhè shì wǒ māma."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "儿子",
+         "Son"
+        ],
+        [
+         "妈妈",
+         "Mother"
+        ],
+        [
+         "女儿",
+         "Daughter"
+        ],
+        [
+         "男人",
+         "Man"
+        ]
+       ],
+       "words": [
+        "儿子",
+        "妈妈",
+        "女儿",
+        "男人"
+       ],
+       "romans": [
+        "érzi",
+        "māma",
+        "nǚ'ér",
+        "nánrén"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answer": "女人",
+       "words": [
+        "女人"
+       ],
+       "options": [
+        "爸爸",
+        "女人",
+        "孩子",
+        "儿子"
+       ],
+       "optionsRoman": [
+        "bàba",
+        "nǚrén",
+        "háizi",
+        "érzi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "是",
+        "个",
+        "一",
+        "有",
+        "儿子",
+        "我",
+        "男人",
+        "女儿"
+       ],
+       "answer": [
+        "我",
+        "有",
+        "一",
+        "个",
+        "儿子"
+       ],
+       "accepted": [],
+       "words": [
+        "儿子",
+        "一"
+       ],
+       "tilesRoman": [
+        "shì",
+        "ge",
+        "yí",
+        "yǒu",
+        "érzi",
+        "wǒ",
+        "nánrén",
+        "nǚ'ér"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "这个男人是谁？",
+       "roman": "zhège nánrén shì shéi?",
+       "translation": "Who is this man?",
+       "words": [
+        "是",
+        "男人"
+       ],
+       "options": [
+        "我妈妈在家。",
+        "这个男人是谁？",
+        "我有一个儿子。",
+        "我爸爸在哪里？"
+       ],
+       "optionsRoman": [
+        "wǒ māma zài jiā.",
+        "zhège nánrén shì shéi?",
+        "wǒ yǒu yí ge érzi.",
+        "wǒ bàba zài nǎlǐ?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我爸爸在哪里？",
+       "promptLang": "target",
+       "tiles": [
+        "He",
+        "father",
+        "is",
+        "Where",
+        "my",
+        "friend",
+        "This"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "爸爸",
+        "哪里"
+       ],
+       "promptRoman": "wǒ bàba zài nǎlǐ?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answers": [
+        "孩子",
+        "háizi"
+       ],
+       "words": [
+        "孩子"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "他是我的朋友。",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "是",
+        "朋友"
+       ],
+       "promptRoman": "tā shì wǒ de péngyou."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我妈妈在家。",
+       "roman": "wǒ māma zài jiā.",
+       "translation": "My mother is at home.",
+       "words": [
+        "妈妈",
+        "家"
+       ],
+       "options": [
+        "我爸爸在哪里？",
+        "这个男人是谁？",
+        "我妈妈在家。",
+        "这是我妈妈。"
+       ],
+       "optionsRoman": [
+        "wǒ bàba zài nǎlǐ?",
+        "zhège nánrén shì shéi?",
+        "wǒ māma zài jiā.",
+        "zhè shì wǒ māma."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tip": "Adjectives usually come with '很' (hěn, very): 茶很烫 (chá hěn tàng) = the tea is hot.",
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "水",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Coffee",
+        "Water",
+        "Egg"
+       ],
+       "answer": "Water",
+       "words": [
+        "水"
+       ],
+       "promptRoman": "shuǐ"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "面包",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Coffee",
+        "Water",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "面包"
+       ],
+       "promptRoman": "miànbāo"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "咖啡",
+       "words": [
+        "咖啡"
+       ],
+       "options": [
+        "咖啡",
+        "茶",
+        "鸡蛋",
+        "苹果"
+       ],
+       "optionsRoman": [
+        "kāfēi",
+        "chá",
+        "jīdàn",
+        "píngguǒ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "茶",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Egg",
+        "Rice",
+        "Bread"
+       ],
+       "answer": "Tea",
+       "words": [
+        "茶"
+       ],
+       "promptRoman": "chá"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "水",
+         "Water"
+        ],
+        [
+         "面包",
+         "Bread"
+        ],
+        [
+         "咖啡",
+         "Coffee"
+        ],
+        [
+         "茶",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "水",
+        "面包",
+        "咖啡",
+        "茶"
+       ],
+       "romans": [
+        "shuǐ",
+        "miànbāo",
+        "kāfēi",
+        "chá"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "给",
+        "我",
+        "水",
+        "咖啡",
+        "茶",
+        "请",
+        "很"
+       ],
+       "answer": [
+        "请",
+        "给",
+        "我",
+        "水"
+       ],
+       "accepted": [
+        "请给我一杯水。"
+       ],
+       "words": [
+        "请",
+        "水"
+       ],
+       "tilesRoman": [
+        "gěi",
+        "wǒ",
+        "shuǐ",
+        "kāfēi",
+        "chá",
+        "qǐng",
+        "hěn"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我喝咖啡。",
+       "roman": "wǒ hē kāfēi.",
+       "translation": "I drink coffee.",
+       "words": [
+        "咖啡"
+       ],
+       "options": [
+        "我喝咖啡。",
+        "我不喝牛奶。",
+        "我吃面包。",
+        "我喜欢苹果。"
+       ],
+       "optionsRoman": [
+        "wǒ hē kāfēi.",
+        "wǒ bù hē niúnǎi.",
+        "wǒ chī miànbāo.",
+        "wǒ xǐhuan píngguǒ."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我吃面包。",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "like",
+        "I",
+        "do",
+        "eat",
+        "is"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "面包"
+       ],
+       "promptRoman": "wǒ chī miànbāo."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "请给我水。",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "请",
+        "水"
+       ],
+       "promptRoman": "qǐng gěi wǒ shuǐ."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "牛奶",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Rice",
+        "Milk",
+        "Coffee"
+       ],
+       "answer": "Milk",
+       "words": [
+        "牛奶"
+       ],
+       "promptRoman": "niúnǎi"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "苹果",
+       "words": [
+        "苹果"
+       ],
+       "options": [
+        "鸡蛋",
+        "茶",
+        "咖啡",
+        "苹果"
+       ],
+       "optionsRoman": [
+        "jīdàn",
+        "chá",
+        "kāfēi",
+        "píngguǒ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "米饭",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Bread",
+        "Egg",
+        "Coffee"
+       ],
+       "answer": "Rice",
+       "words": [
+        "米饭"
+       ],
+       "promptRoman": "mǐfàn"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "鸡蛋",
+       "words": [
+        "鸡蛋"
+       ],
+       "options": [
+        "米饭",
+        "苹果",
+        "鸡蛋",
+        "咖啡"
+       ],
+       "optionsRoman": [
+        "mǐfàn",
+        "píngguǒ",
+        "jīdàn",
+        "kāfēi"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "牛奶",
+         "Milk"
+        ],
+        [
+         "苹果",
+         "Apple"
+        ],
+        [
+         "米饭",
+         "Rice"
+        ],
+        [
+         "鸡蛋",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "牛奶",
+        "苹果",
+        "米饭",
+        "鸡蛋"
+       ],
+       "romans": [
+        "niúnǎi",
+        "píngguǒ",
+        "mǐfàn",
+        "jīdàn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "给",
+        "牛奶",
+        "茶",
+        "喜欢",
+        "很",
+        "烫"
+       ],
+       "answer": [
+        "茶",
+        "很",
+        "烫"
+       ],
+       "accepted": [
+        "茶很热。"
+       ],
+       "words": [
+        "茶"
+       ],
+       "tilesRoman": [
+        "gěi",
+        "niúnǎi",
+        "chá",
+        "xǐhuan",
+        "hěn",
+        "tàng"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我不喝牛奶。",
+       "promptLang": "target",
+       "tiles": [
+        "drink",
+        "am",
+        "not",
+        "like",
+        "do",
+        "is",
+        "I",
+        "milk"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "不",
+        "牛奶"
+       ],
+       "promptRoman": "wǒ bù hē niúnǎi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "茶很烫。",
+       "roman": "chá hěn tàng.",
+       "translation": "The tea is hot.",
+       "words": [
+        "茶"
+       ],
+       "options": [
+        "茶很烫。",
+        "我不喝牛奶。",
+        "我喝咖啡。",
+        "请给我水。"
+       ],
+       "optionsRoman": [
+        "chá hěn tàng.",
+        "wǒ bù hē niúnǎi.",
+        "wǒ hē kāfēi.",
+        "qǐng gěi wǒ shuǐ."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我喜欢苹果。",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "苹果"
+       ],
+       "promptRoman": "wǒ xǐhuan píngguǒ."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "水",
+        "shuǐ"
+       ],
+       "words": [
+        "水"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "我饿了。",
+       "promptLang": "target",
+       "options": [
+        "The tea is hot.",
+        "I do not drink milk.",
+        "I eat bread.",
+        "I am hungry."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "我饿了。"
+       ],
+       "promptRoman": "wǒ è le."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "面包",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Bread",
+        "Milk",
+        "Tea"
+       ],
+       "answer": "Bread",
+       "words": [
+        "面包"
+       ],
+       "promptRoman": "miànbāo"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "鸡蛋",
+         "Egg"
+        ],
+        [
+         "米饭",
+         "Rice"
+        ],
+        [
+         "苹果",
+         "Apple"
+        ],
+        [
+         "面包",
+         "Bread"
+        ],
+        [
+         "茶",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "鸡蛋",
+        "米饭",
+        "苹果",
+        "面包",
+        "茶"
+       ],
+       "romans": [
+        "jīdàn",
+        "mǐfàn",
+        "píngguǒ",
+        "miànbāo",
+        "chá"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "吃",
+        "请",
+        "我",
+        "了",
+        "茶",
+        "饿"
+       ],
+       "answer": [
+        "我",
+        "饿",
+        "了"
+       ],
+       "accepted": [],
+       "words": [
+        "我饿了。"
+       ],
+       "tilesRoman": [
+        "chī",
+        "qǐng",
+        "wǒ",
+        "le",
+        "chá",
+        "è"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我喝咖啡。",
+       "promptLang": "target",
+       "tiles": [
+        "Water",
+        "I",
+        "bread",
+        "coffee",
+        "drink",
+        "like"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "咖啡"
+       ],
+       "promptRoman": "wǒ hē kāfēi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我喜欢苹果。",
+       "roman": "wǒ xǐhuan píngguǒ.",
+       "translation": "I like apples.",
+       "words": [
+        "苹果"
+       ],
+       "options": [
+        "茶很烫。",
+        "我喜欢苹果。",
+        "我不喝牛奶。",
+        "我喝咖啡。"
+       ],
+       "optionsRoman": [
+        "chá hěn tàng.",
+        "wǒ xǐhuan píngguǒ.",
+        "wǒ bù hē niúnǎi.",
+        "wǒ hē kāfēi."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "喝",
+        "不",
+        "给",
+        "咖啡",
+        "牛奶",
+        "烫",
+        "我"
+       ],
+       "answer": [
+        "我",
+        "不",
+        "喝",
+        "牛奶"
+       ],
+       "accepted": [],
+       "words": [
+        "不",
+        "牛奶"
+       ],
+       "tilesRoman": [
+        "hē",
+        "bù",
+        "gěi",
+        "kāfēi",
+        "niúnǎi",
+        "tàng",
+        "wǒ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我吃面包。",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "面包"
+       ],
+       "promptRoman": "wǒ chī miànbāo."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "面包",
+        "miànbāo"
+       ],
+       "words": [
+        "面包"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "咖啡",
+        "不",
+        "烫",
+        "苹果",
+        "喜欢",
+        "我"
+       ],
+       "answer": [
+        "我",
+        "喜欢",
+        "苹果"
+       ],
+       "accepted": [
+        "我喜欢吃苹果。"
+       ],
+       "words": [
+        "苹果"
+       ],
+       "tilesRoman": [
+        "kāfēi",
+        "bù",
+        "tàng",
+        "píngguǒ",
+        "xǐhuan",
+        "wǒ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "请给我水。",
+       "promptLang": "target",
+       "options": [
+        "I do not drink milk.",
+        "I am hungry.",
+        "Water, please.",
+        "I drink coffee."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "请",
+        "水"
+       ],
+       "promptRoman": "qǐng gěi wǒ shuǐ."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "牛奶",
+         "Milk"
+        ],
+        [
+         "水",
+         "Water"
+        ],
+        [
+         "茶",
+         "Tea"
+        ],
+        [
+         "鸡蛋",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "牛奶",
+        "水",
+        "茶",
+        "鸡蛋"
+       ],
+       "romans": [
+        "niúnǎi",
+        "shuǐ",
+        "chá",
+        "jīdàn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Apple",
+       "promptLang": "en",
+       "answer": "苹果",
+       "words": [
+        "苹果"
+       ],
+       "options": [
+        "鸡蛋",
+        "牛奶",
+        "苹果",
+        "水"
+       ],
+       "optionsRoman": [
+        "jīdàn",
+        "niúnǎi",
+        "píngguǒ",
+        "shuǐ"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "面包",
+        "我",
+        "吃",
+        "牛奶",
+        "给",
+        "茶"
+       ],
+       "answer": [
+        "我",
+        "吃",
+        "面包"
+       ],
+       "accepted": [],
+       "words": [
+        "面包"
+       ],
+       "tilesRoman": [
+        "miànbāo",
+        "wǒ",
+        "chī",
+        "niúnǎi",
+        "gěi",
+        "chá"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我饿了。",
+       "roman": "wǒ è le.",
+       "translation": "I am hungry.",
+       "words": [
+        "我饿了。"
+       ],
+       "options": [
+        "我喝咖啡。",
+        "请给我水。",
+        "我饿了。",
+        "我喜欢苹果。"
+       ],
+       "optionsRoman": [
+        "wǒ hē kāfēi.",
+        "qǐng gěi wǒ shuǐ.",
+        "wǒ è le.",
+        "wǒ xǐhuan píngguǒ."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "茶很烫。",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "hot",
+        "tea",
+        "am",
+        "The",
+        "please",
+        "bread"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "茶"
+       ],
+       "promptRoman": "chá hěn tàng."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answers": [
+        "咖啡",
+        "kāfēi"
+       ],
+       "words": [
+        "咖啡"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我喝咖啡。",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "咖啡"
+       ],
+       "promptRoman": "wǒ hē kāfēi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我不喝牛奶。",
+       "roman": "wǒ bù hē niúnǎi.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "不",
+        "牛奶"
+       ],
+       "options": [
+        "我吃面包。",
+        "请给我水。",
+        "我饿了。",
+        "我不喝牛奶。"
+       ],
+       "optionsRoman": [
+        "wǒ chī miànbāo.",
+        "qǐng gěi wǒ shuǐ.",
+        "wǒ è le.",
+        "wǒ bù hē niúnǎi."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tip": "Put a measure word between a number and a noun: 两个孩子 (two children), 一杯咖啡 (one cup of coffee). 'Two' before a measure word is 两 (liǎng), not 二 (èr).",
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "一",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "One",
+        "Ten",
+        "Seven"
+       ],
+       "answer": "One",
+       "words": [
+        "一"
+       ],
+       "promptRoman": "yī"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "二",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Four",
+        "Two",
+        "Seven"
+       ],
+       "answer": "Two",
+       "words": [
+        "二"
+       ],
+       "promptRoman": "èr"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "三",
+       "words": [
+        "三"
+       ],
+       "options": [
+        "三",
+        "六",
+        "七",
+        "一"
+       ],
+       "optionsRoman": [
+        "sān",
+        "liù",
+        "qī",
+        "yī"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "四",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Eight",
+        "Two",
+        "Nine"
+       ],
+       "answer": "Four",
+       "words": [
+        "四"
+       ],
+       "promptRoman": "sì"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "一",
+         "One"
+        ],
+        [
+         "二",
+         "Two"
+        ],
+        [
+         "三",
+         "Three"
+        ],
+        [
+         "四",
+         "Four"
+        ]
+       ],
+       "words": [
+        "一",
+        "二",
+        "三",
+        "四"
+       ],
+       "romans": [
+        "yī",
+        "èr",
+        "sān",
+        "sì"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "两",
+        "一",
+        "点",
+        "个",
+        "孩子",
+        "杯",
+        "我",
+        "有"
+       ],
+       "answer": [
+        "我",
+        "有",
+        "两",
+        "个",
+        "孩子"
+       ],
+       "accepted": [],
+       "words": [
+        "孩子",
+        "二"
+       ],
+       "tilesRoman": [
+        "liǎng",
+        "yì",
+        "diǎn",
+        "ge",
+        "háizi",
+        "bēi",
+        "wǒ",
+        "yǒu"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "多少钱？",
+       "roman": "duōshao qián?",
+       "translation": "How much is it?",
+       "words": [
+        "多少钱？"
+       ],
+       "options": [
+        "我有两个孩子。",
+        "多少钱？",
+        "请给我两杯茶。",
+        "现在三点。"
+       ],
+       "optionsRoman": [
+        "wǒ yǒu liǎng ge háizi.",
+        "duōshao qián?",
+        "qǐng gěi wǒ liǎng bēi chá.",
+        "xiànzài sān diǎn."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我有四个苹果。",
+       "promptLang": "target",
+       "tiles": [
+        "much",
+        "I",
+        "four",
+        "teas",
+        "have",
+        "please",
+        "apples"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "苹果",
+        "四"
+       ],
+       "promptRoman": "wǒ yǒu sì ge píngguǒ."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我有两个孩子。",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "孩子",
+        "二"
+       ],
+       "promptRoman": "wǒ yǒu liǎng ge háizi."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "五",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "One",
+        "Five",
+        "Four"
+       ],
+       "answer": "Five",
+       "words": [
+        "五"
+       ],
+       "promptRoman": "wǔ"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "六",
+       "words": [
+        "六"
+       ],
+       "options": [
+        "七",
+        "十",
+        "六",
+        "五"
+       ],
+       "optionsRoman": [
+        "qī",
+        "shí",
+        "liù",
+        "wǔ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "七",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Seven",
+        "One",
+        "Ten"
+       ],
+       "answer": "Seven",
+       "words": [
+        "七"
+       ],
+       "promptRoman": "qī"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "八",
+       "words": [
+        "八"
+       ],
+       "options": [
+        "八",
+        "二",
+        "六",
+        "九"
+       ],
+       "optionsRoman": [
+        "bā",
+        "èr",
+        "liù",
+        "jiǔ"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "五",
+         "Five"
+        ],
+        [
+         "六",
+         "Six"
+        ],
+        [
+         "七",
+         "Seven"
+        ],
+        [
+         "八",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "五",
+        "六",
+        "七",
+        "八"
+       ],
+       "romans": [
+        "wǔ",
+        "liù",
+        "qī",
+        "bā"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "我",
+        "孩子",
+        "四",
+        "一",
+        "请",
+        "苹果",
+        "杯",
+        "给",
+        "咖啡"
+       ],
+       "answer": [
+        "请",
+        "给",
+        "我",
+        "一",
+        "杯",
+        "咖啡"
+       ],
+       "accepted": [],
+       "words": [
+        "请",
+        "咖啡",
+        "一"
+       ],
+       "tilesRoman": [
+        "wǒ",
+        "háizi",
+        "sì",
+        "yì",
+        "qǐng",
+        "píngguǒ",
+        "bēi",
+        "gěi",
+        "kāfēi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "请给我两杯茶。",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "four",
+        "I",
+        "please",
+        "Two",
+        "teas"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "请",
+        "茶",
+        "二"
+       ],
+       "promptRoman": "qǐng gěi wǒ liǎng bēi chá."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "请给我一杯咖啡。",
+       "roman": "qǐng gěi wǒ yì bēi kāfēi.",
+       "translation": "One coffee, please.",
+       "words": [
+        "请",
+        "咖啡",
+        "一"
+       ],
+       "options": [
+        "请等一下。",
+        "请给我一杯咖啡。",
+        "我有四个苹果。",
+        "我有两个孩子。"
+       ],
+       "optionsRoman": [
+        "qǐng děng yíxià.",
+        "qǐng gěi wǒ yì bēi kāfēi.",
+        "wǒ yǒu sì ge píngguǒ.",
+        "wǒ yǒu liǎng ge háizi."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "现在三点。",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "三",
+        "现在"
+       ],
+       "promptRoman": "xiànzài sān diǎn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "一",
+        "yī"
+       ],
+       "words": [
+        "一"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "请等一下。",
+       "promptLang": "target",
+       "options": [
+        "Two teas, please.",
+        "One moment, please.",
+        "It is three o'clock.",
+        "I have two children."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "请"
+       ],
+       "promptRoman": "qǐng děng yíxià."
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "九",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Five",
+        "Four",
+        "Eight"
+       ],
+       "answer": "Nine",
+       "words": [
+        "九"
+       ],
+       "promptRoman": "jiǔ"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "七",
+         "Seven"
+        ],
+        [
+         "九",
+         "Nine"
+        ],
+        [
+         "三",
+         "Three"
+        ],
+        [
+         "四",
+         "Four"
+        ],
+        [
+         "十",
+         "Ten"
+        ]
+       ],
+       "words": [
+        "七",
+        "九",
+        "三",
+        "四",
+        "十"
+       ],
+       "romans": [
+        "qī",
+        "jiǔ",
+        "sān",
+        "sì",
+        "shí"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "有",
+        "一下",
+        "四",
+        "请",
+        "等",
+        "一"
+       ],
+       "answer": [
+        "请",
+        "等",
+        "一下"
+       ],
+       "accepted": [],
+       "words": [
+        "请"
+       ],
+       "tilesRoman": [
+        "yǒu",
+        "yíxià",
+        "sì",
+        "qǐng",
+        "děng",
+        "yì"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "多少钱？",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "have",
+        "I",
+        "much",
+        "How",
+        "please",
+        "is"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "多少钱？"
+       ],
+       "promptRoman": "duōshao qián?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "现在三点。",
+       "roman": "xiànzài sān diǎn.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "三",
+        "现在"
+       ],
+       "options": [
+        "请给我两杯茶。",
+        "请等一下。",
+        "我有四个苹果。",
+        "现在三点。"
+       ],
+       "optionsRoman": [
+        "qǐng gěi wǒ liǎng bēi chá.",
+        "qǐng děng yíxià.",
+        "wǒ yǒu sì ge píngguǒ.",
+        "xiànzài sān diǎn."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "杯",
+        "给",
+        "咖啡",
+        "请",
+        "我",
+        "两",
+        "茶",
+        "有",
+        "孩子"
+       ],
+       "answer": [
+        "请",
+        "给",
+        "我",
+        "两",
+        "杯",
+        "茶"
+       ],
+       "accepted": [],
+       "words": [
+        "请",
+        "茶",
+        "二"
+       ],
+       "tilesRoman": [
+        "bēi",
+        "gěi",
+        "kāfēi",
+        "qǐng",
+        "wǒ",
+        "liǎng",
+        "chá",
+        "yǒu",
+        "háizi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我有四个苹果。",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "苹果",
+        "四"
+       ],
+       "promptRoman": "wǒ yǒu sì ge píngguǒ."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "十",
+        "shí"
+       ],
+       "words": [
+        "十"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "等",
+        "苹果",
+        "四",
+        "现在",
+        "三",
+        "点"
+       ],
+       "answer": [
+        "现在",
+        "三",
+        "点"
+       ],
+       "accepted": [
+        "三点了。"
+       ],
+       "words": [
+        "三",
+        "现在"
+       ],
+       "tilesRoman": [
+        "děng",
+        "píngguǒ",
+        "sì",
+        "xiànzài",
+        "sān",
+        "diǎn"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "我有两个孩子。",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "One moment, please.",
+        "How much is it?",
+        "Two teas, please."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "孩子",
+        "二"
+       ],
+       "promptRoman": "wǒ yǒu liǎng ge háizi."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "四",
+         "Four"
+        ],
+        [
+         "七",
+         "Seven"
+        ],
+        [
+         "一",
+         "One"
+        ],
+        [
+         "九",
+         "Nine"
+        ]
+       ],
+       "words": [
+        "四",
+        "七",
+        "一",
+        "九"
+       ],
+       "romans": [
+        "sì",
+        "qī",
+        "yī",
+        "jiǔ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "三",
+       "words": [
+        "三"
+       ],
+       "options": [
+        "三",
+        "四",
+        "九",
+        "八"
+       ],
+       "optionsRoman": [
+        "sān",
+        "sì",
+        "jiǔ",
+        "bā"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "孩子",
+        "四",
+        "茶",
+        "我",
+        "一下",
+        "个",
+        "有",
+        "苹果"
+       ],
+       "answer": [
+        "我",
+        "有",
+        "四",
+        "个",
+        "苹果"
+       ],
+       "accepted": [],
+       "words": [
+        "苹果",
+        "四"
+       ],
+       "tilesRoman": [
+        "háizi",
+        "sì",
+        "chá",
+        "wǒ",
+        "yíxià",
+        "ge",
+        "yǒu",
+        "píngguǒ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "请等一下。",
+       "roman": "qǐng děng yíxià.",
+       "translation": "One moment, please.",
+       "words": [
+        "请"
+       ],
+       "options": [
+        "请给我一杯咖啡。",
+        "现在三点。",
+        "请等一下。",
+        "我有两个孩子。"
+       ],
+       "optionsRoman": [
+        "qǐng gěi wǒ yì bēi kāfēi.",
+        "xiànzài sān diǎn.",
+        "qǐng děng yíxià.",
+        "wǒ yǒu liǎng ge háizi."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "请给我一杯咖啡。",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "moment",
+        "apples",
+        "coffee",
+        "two",
+        "One"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "请",
+        "咖啡",
+        "一"
+       ],
+       "promptRoman": "qǐng gěi wǒ yì bēi kāfēi."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answers": [
+        "六",
+        "liù"
+       ],
+       "words": [
+        "六"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "多少钱？",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "多少钱？"
+       ],
+       "promptRoman": "duōshao qián?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "请给我两杯茶。",
+       "roman": "qǐng gěi wǒ liǎng bēi chá.",
+       "translation": "Two teas, please.",
+       "words": [
+        "请",
+        "茶",
+        "二"
+       ],
+       "options": [
+        "我有四个苹果。",
+        "请等一下。",
+        "多少钱？",
+        "请给我两杯茶。"
+       ],
+       "optionsRoman": [
+        "wǒ yǒu sì ge píngguǒ.",
+        "qǐng děng yíxià.",
+        "duōshao qián?",
+        "qǐng gěi wǒ liǎng bēi chá."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tip": "'在' (zài) means 'to be at': 车站在右边 (chēzhàn zài yòubian) = the station is on the right.",
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "酒店",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Hotel",
+        "Station",
+        "Ticket"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "酒店"
+       ],
+       "promptRoman": "jiǔdiàn"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "车站",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Ticket",
+        "Left",
+        "Hotel"
+       ],
+       "answer": "Station",
+       "words": [
+        "车站"
+       ],
+       "promptRoman": "chēzhàn"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "机场",
+       "words": [
+        "机场"
+       ],
+       "options": [
+        "洗手间",
+        "机场",
+        "酒店",
+        "左边"
+       ],
+       "optionsRoman": [
+        "xǐshǒujiān",
+        "jīchǎng",
+        "jiǔdiàn",
+        "zuǒbian"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "票",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Where",
+        "Station",
+        "Ticket"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "票"
+       ],
+       "promptRoman": "piào"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "酒店",
+         "Hotel"
+        ],
+        [
+         "车站",
+         "Station"
+        ],
+        [
+         "机场",
+         "Airport"
+        ],
+        [
+         "票",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "酒店",
+        "车站",
+        "机场",
+        "票"
+       ],
+       "romans": [
+        "jiǔdiàn",
+        "chēzhàn",
+        "jīchǎng",
+        "piào"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "酒店",
+        "张",
+        "哪里",
+        "左",
+        "在",
+        "给"
+       ],
+       "answer": [
+        "酒店",
+        "在",
+        "哪里"
+       ],
+       "accepted": [
+        "酒店在哪儿？"
+       ],
+       "words": [
+        "酒店",
+        "哪里"
+       ],
+       "tilesRoman": [
+        "jiǔdiàn",
+        "zhāng",
+        "nǎlǐ",
+        "zuǒ",
+        "zài",
+        "gěi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "洗手间在哪里？",
+       "roman": "xǐshǒujiān zài nǎlǐ?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "哪里",
+        "洗手间"
+       ],
+       "options": [
+        "向左转。",
+        "我去机场。",
+        "请给我一张票。",
+        "洗手间在哪里？"
+       ],
+       "optionsRoman": [
+        "xiàng zuǒ zhuǎn.",
+        "wǒ qù jīchǎng.",
+        "qǐng gěi wǒ yì zhāng piào.",
+        "xǐshǒujiān zài nǎlǐ?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "向左转。",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "Turn",
+        "left",
+        "far",
+        "the"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "左边"
+       ],
+       "promptRoman": "xiàng zuǒ zhuǎn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "酒店在哪里？",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "酒店",
+        "哪里"
+       ],
+       "promptRoman": "jiǔdiàn zài nǎlǐ?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "左边",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Where",
+        "Left",
+        "Airport"
+       ],
+       "answer": "Left",
+       "words": [
+        "左边"
+       ],
+       "promptRoman": "zuǒbian"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "右边",
+       "words": [
+        "右边"
+       ],
+       "options": [
+        "票",
+        "洗手间",
+        "哪里",
+        "右边"
+       ],
+       "optionsRoman": [
+        "piào",
+        "xǐshǒujiān",
+        "nǎlǐ",
+        "yòubian"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "哪里",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Left",
+        "Airport",
+        "Where"
+       ],
+       "answer": "Where",
+       "words": [
+        "哪里"
+       ],
+       "promptRoman": "nǎlǐ"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "洗手间",
+       "words": [
+        "洗手间"
+       ],
+       "options": [
+        "车站",
+        "酒店",
+        "洗手间",
+        "票"
+       ],
+       "optionsRoman": [
+        "chēzhàn",
+        "jiǔdiàn",
+        "xǐshǒujiān",
+        "piào"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "左边",
+         "Left"
+        ],
+        [
+         "右边",
+         "Right"
+        ],
+        [
+         "哪里",
+         "Where"
+        ],
+        [
+         "洗手间",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "左边",
+        "右边",
+        "哪里",
+        "洗手间"
+       ],
+       "romans": [
+        "zuǒbian",
+        "yòubian",
+        "nǎlǐ",
+        "xǐshǒujiān"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "在",
+        "给",
+        "吗",
+        "车站",
+        "右边",
+        "向"
+       ],
+       "answer": [
+        "车站",
+        "在",
+        "右边"
+       ],
+       "accepted": [],
+       "words": [
+        "车站",
+        "右边"
+       ],
+       "tilesRoman": [
+        "zài",
+        "gěi",
+        "ma",
+        "chēzhàn",
+        "yòubian",
+        "xiàng"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "请给我一张票。",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "to",
+        "ticket",
+        "A",
+        "the",
+        "on"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "请",
+        "一",
+        "票"
+       ],
+       "promptRoman": "qǐng gěi wǒ yì zhāng piào."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "车站在右边。",
+       "roman": "chēzhàn zài yòubian.",
+       "translation": "The station is on the right.",
+       "words": [
+        "车站",
+        "右边"
+       ],
+       "options": [
+        "我去机场。",
+        "洗手间在哪里？",
+        "远吗？",
+        "车站在右边。"
+       ],
+       "optionsRoman": [
+        "wǒ qù jīchǎng.",
+        "xǐshǒujiān zài nǎlǐ?",
+        "yuǎn ma?",
+        "chēzhàn zài yòubian."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我去机场。",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "机场"
+       ],
+       "promptRoman": "wǒ qù jīchǎng."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "酒店",
+        "宾馆",
+        "饭店",
+        "jiǔdiàn"
+       ],
+       "words": [
+        "酒店"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "远吗？",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "A ticket, please.",
+        "Is it far?",
+        "Turn left."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "远吗？"
+       ],
+       "promptRoman": "yuǎn ma?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "车站",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Station",
+        "Hotel",
+        "Toilet"
+       ],
+       "answer": "Station",
+       "words": [
+        "车站"
+       ],
+       "promptRoman": "chēzhàn"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "哪里",
+         "Where"
+        ],
+        [
+         "车站",
+         "Station"
+        ],
+        [
+         "左边",
+         "Left"
+        ],
+        [
+         "右边",
+         "Right"
+        ],
+        [
+         "酒店",
+         "Hotel"
+        ]
+       ],
+       "words": [
+        "哪里",
+        "车站",
+        "左边",
+        "右边",
+        "酒店"
+       ],
+       "romans": [
+        "nǎlǐ",
+        "chēzhàn",
+        "zuǒbian",
+        "yòubian",
+        "jiǔdiàn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "吗",
+        "远",
+        "我",
+        "左",
+        "一"
+       ],
+       "answer": [
+        "远",
+        "吗"
+       ],
+       "accepted": [
+        "很远吗？"
+       ],
+       "words": [
+        "远吗？"
+       ],
+       "tilesRoman": [
+        "ma",
+        "yuǎn",
+        "wǒ",
+        "zuǒ",
+        "yì"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "洗手间在哪里？",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "going",
+        "ticket",
+        "toilet",
+        "is",
+        "the",
+        "left"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "哪里",
+        "洗手间"
+       ],
+       "promptRoman": "xǐshǒujiān zài nǎlǐ?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我去机场。",
+       "roman": "wǒ qù jīchǎng.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "机场"
+       ],
+       "options": [
+        "洗手间在哪里？",
+        "请给我一张票。",
+        "车站在右边。",
+        "我去机场。"
+       ],
+       "optionsRoman": [
+        "xǐshǒujiān zài nǎlǐ?",
+        "qǐng gěi wǒ yì zhāng piào.",
+        "chēzhàn zài yòubian.",
+        "wǒ qù jīchǎng."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "票",
+        "给",
+        "一",
+        "张",
+        "去",
+        "我",
+        "在",
+        "请",
+        "左"
+       ],
+       "answer": [
+        "请",
+        "给",
+        "我",
+        "一",
+        "张",
+        "票"
+       ],
+       "accepted": [],
+       "words": [
+        "请",
+        "一",
+        "票"
+       ],
+       "tilesRoman": [
+        "piào",
+        "gěi",
+        "yì",
+        "zhāng",
+        "qù",
+        "wǒ",
+        "zài",
+        "qǐng",
+        "zuǒ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "向左转。",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "左边"
+       ],
+       "promptRoman": "xiàng zuǒ zhuǎn."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "车站",
+        "火车站",
+        "chēzhàn"
+       ],
+       "words": [
+        "车站"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "给",
+        "去",
+        "我",
+        "机场",
+        "一",
+        "左"
+       ],
+       "answer": [
+        "我",
+        "去",
+        "机场"
+       ],
+       "accepted": [],
+       "words": [
+        "机场"
+       ],
+       "tilesRoman": [
+        "gěi",
+        "qù",
+        "wǒ",
+        "jīchǎng",
+        "yì",
+        "zuǒ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "酒店在哪里？",
+       "promptLang": "target",
+       "options": [
+        "Where is the hotel?",
+        "Turn left.",
+        "Is it far?",
+        "I am going to the airport."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "酒店",
+        "哪里"
+       ],
+       "promptRoman": "jiǔdiàn zài nǎlǐ?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "哪里",
+         "Where"
+        ],
+        [
+         "酒店",
+         "Hotel"
+        ],
+        [
+         "右边",
+         "Right"
+        ],
+        [
+         "票",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "哪里",
+        "酒店",
+        "右边",
+        "票"
+       ],
+       "romans": [
+        "nǎlǐ",
+        "jiǔdiàn",
+        "yòubian",
+        "piào"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Left",
+       "promptLang": "en",
+       "answer": "左边",
+       "words": [
+        "左边"
+       ],
+       "options": [
+        "右边",
+        "票",
+        "左边",
+        "酒店"
+       ],
+       "optionsRoman": [
+        "yòubian",
+        "piào",
+        "zuǒbian",
+        "jiǔdiàn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "左",
+        "转",
+        "右边",
+        "向",
+        "去",
+        "张"
+       ],
+       "answer": [
+        "向",
+        "左",
+        "转"
+       ],
+       "accepted": [
+        "往左拐。",
+        "往左转。"
+       ],
+       "words": [
+        "左边"
+       ],
+       "tilesRoman": [
+        "zuǒ",
+        "zhuǎn",
+        "yòubian",
+        "xiàng",
+        "qù",
+        "zhāng"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "远吗？",
+       "roman": "yuǎn ma?",
+       "translation": "Is it far?",
+       "words": [
+        "远吗？"
+       ],
+       "options": [
+        "洗手间在哪里？",
+        "远吗？",
+        "我去机场。",
+        "请给我一张票。"
+       ],
+       "optionsRoman": [
+        "xǐshǒujiān zài nǎlǐ?",
+        "yuǎn ma?",
+        "wǒ qù jīchǎng.",
+        "qǐng gěi wǒ yì zhāng piào."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "车站在右边。",
+       "promptLang": "target",
+       "tiles": [
+        "right",
+        "hotel",
+        "the",
+        "airport",
+        "is",
+        "on",
+        "station",
+        "toilet",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "车站",
+        "右边"
+       ],
+       "promptRoman": "chēzhàn zài yòubian."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answers": [
+        "洗手间",
+        "厕所",
+        "xǐshǒujiān"
+       ],
+       "words": [
+        "洗手间"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "洗手间在哪里？",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "哪里",
+        "洗手间"
+       ],
+       "promptRoman": "xǐshǒujiān zài nǎlǐ?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "请给我一张票。",
+       "roman": "qǐng gěi wǒ yì zhāng piào.",
+       "translation": "A ticket, please.",
+       "words": [
+        "请",
+        "一",
+        "票"
+       ],
+       "options": [
+        "请给我一张票。",
+        "车站在右边。",
+        "远吗？",
+        "我去机场。"
+       ],
+       "optionsRoman": [
+        "qǐng gěi wǒ yì zhāng piào.",
+        "chēzhàn zài yòubian.",
+        "yuǎn ma?",
+        "wǒ qù jīchǎng."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tip": "Time words come before the verb: 我早上喝咖啡 = I (in the) morning drink coffee.",
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "今天",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "Night",
+        "Today",
+        "Tomorrow"
+       ],
+       "answer": "Today",
+       "words": [
+        "今天"
+       ],
+       "promptRoman": "jīntiān"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "明天",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Night",
+        "Morning",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "明天"
+       ],
+       "promptRoman": "míngtiān"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "现在",
+       "words": [
+        "现在"
+       ],
+       "options": [
+        "现在",
+        "晚上",
+        "明天",
+        "早上"
+       ],
+       "optionsRoman": [
+        "xiànzài",
+        "wǎnshang",
+        "míngtiān",
+        "zǎoshang"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "早上",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "School",
+        "Night",
+        "House"
+       ],
+       "answer": "Morning",
+       "words": [
+        "早上"
+       ],
+       "promptRoman": "zǎoshang"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "今天",
+         "Today"
+        ],
+        [
+         "明天",
+         "Tomorrow"
+        ],
+        [
+         "现在",
+         "Now"
+        ],
+        [
+         "早上",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "今天",
+        "明天",
+        "现在",
+        "早上"
+       ],
+       "romans": [
+        "jīntiān",
+        "míngtiān",
+        "xiànzài",
+        "zǎoshang"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "上班",
+        "我",
+        "孩子们",
+        "喝",
+        "咖啡",
+        "去"
+       ],
+       "answer": [
+        "我",
+        "去",
+        "上班"
+       ],
+       "accepted": [],
+       "words": [
+        "我去上班。"
+       ],
+       "tilesRoman": [
+        "shàngbān",
+        "wǒ",
+        "háizimen",
+        "hē",
+        "kāfēi",
+        "qù"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我在家。",
+       "roman": "wǒ zài jiā.",
+       "translation": "I am at home.",
+       "words": [
+        "家"
+       ],
+       "options": [
+        "现在几点？",
+        "我在家。",
+        "今天是星期一。",
+        "我早上喝咖啡。"
+       ],
+       "optionsRoman": [
+        "xiànzài jǐ diǎn?",
+        "wǒ zài jiā.",
+        "jīntiān shì xīngqīyī.",
+        "wǒ zǎoshang hē kāfēi."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "今天是星期一。",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "coffee",
+        "now",
+        "Today",
+        "drink",
+        "Monday"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "是",
+        "今天"
+       ],
+       "promptRoman": "jīntiān shì xīngqīyī."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我去上班。",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "我去上班。"
+       ],
+       "promptRoman": "wǒ qù shàngbān."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "晚上",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Today",
+        "Night",
+        "Work"
+       ],
+       "answer": "Night",
+       "words": [
+        "晚上"
+       ],
+       "promptRoman": "wǎnshang"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "家",
+       "words": [
+        "家"
+       ],
+       "options": [
+        "家",
+        "学校",
+        "早上",
+        "工作"
+       ],
+       "optionsRoman": [
+        "jiā",
+        "xuéxiào",
+        "zǎoshang",
+        "gōngzuò"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "工作",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "Night",
+        "Morning",
+        "House"
+       ],
+       "answer": "Work",
+       "words": [
+        "工作"
+       ],
+       "promptRoman": "gōngzuò"
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "学校",
+       "words": [
+        "学校"
+       ],
+       "options": [
+        "学校",
+        "工作",
+        "今天",
+        "家"
+       ],
+       "optionsRoman": [
+        "xuéxiào",
+        "gōngzuò",
+        "jīntiān",
+        "jiā"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "晚上",
+         "Night"
+        ],
+        [
+         "家",
+         "House"
+        ],
+        [
+         "工作",
+         "Work"
+        ],
+        [
+         "学校",
+         "School"
+        ]
+       ],
+       "words": [
+        "晚上",
+        "家",
+        "工作",
+        "学校"
+       ],
+       "romans": [
+        "wǎnshang",
+        "jiā",
+        "gōngzuò",
+        "xuéxiào"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "咖啡",
+        "我",
+        "星期一",
+        "喝",
+        "孩子们",
+        "早上",
+        "在"
+       ],
+       "answer": [
+        "我",
+        "早上",
+        "喝",
+        "咖啡"
+       ],
+       "accepted": [],
+       "words": [
+        "咖啡",
+        "早上"
+       ],
+       "tilesRoman": [
+        "kāfēi",
+        "wǒ",
+        "xīngqīyī",
+        "hē",
+        "háizimen",
+        "zǎoshang",
+        "zài"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我晚上睡觉。",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "night",
+        "I",
+        "sleep",
+        "home",
+        "to",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "晚上"
+       ],
+       "promptRoman": "wǒ wǎnshang shuìjiào."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我早上喝咖啡。",
+       "roman": "wǒ zǎoshang hē kāfēi.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "咖啡",
+        "早上"
+       ],
+       "options": [
+        "我早上喝咖啡。",
+        "我在家。",
+        "我去上班。",
+        "现在几点？"
+       ],
+       "optionsRoman": [
+        "wǒ zǎoshang hē kāfēi.",
+        "wǒ zài jiā.",
+        "wǒ qù shàngbān.",
+        "xiànzài jǐ diǎn?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "孩子们去上学。",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "孩子们去上学。"
+       ],
+       "promptRoman": "háizimen qù shàngxué."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "今天",
+        "jīntiān"
+       ],
+       "words": [
+        "今天"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "现在几点？",
+       "promptLang": "target",
+       "options": [
+        "The children go to school.",
+        "Today is Monday.",
+        "I go to work.",
+        "What time is it now?"
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "现在"
+       ],
+       "promptRoman": "xiànzài jǐ diǎn?"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "明天",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "School",
+        "Now",
+        "Work"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "明天"
+       ],
+       "promptRoman": "míngtiān"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "晚上",
+         "Night"
+        ],
+        [
+         "工作",
+         "Work"
+        ],
+        [
+         "明天",
+         "Tomorrow"
+        ],
+        [
+         "学校",
+         "School"
+        ],
+        [
+         "今天",
+         "Today"
+        ]
+       ],
+       "words": [
+        "晚上",
+        "工作",
+        "明天",
+        "学校",
+        "今天"
+       ],
+       "romans": [
+        "wǎnshang",
+        "gōngzuò",
+        "míngtiān",
+        "xuéxiào",
+        "jīntiān"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "上班",
+        "孩子们",
+        "点",
+        "几",
+        "星期一",
+        "现在"
+       ],
+       "answer": [
+        "现在",
+        "几",
+        "点"
+       ],
+       "accepted": [],
+       "words": [
+        "现在"
+       ],
+       "tilesRoman": [
+        "shàngbān",
+        "háizimen",
+        "diǎn",
+        "jǐ",
+        "xīngqīyī",
+        "xiànzài"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我在家。",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "am",
+        "the",
+        "morning",
+        "sleep",
+        "home",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "家"
+       ],
+       "promptRoman": "wǒ zài jiā."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "孩子们去上学。",
+       "roman": "háizimen qù shàngxué.",
+       "translation": "The children go to school.",
+       "words": [
+        "孩子们去上学。"
+       ],
+       "options": [
+        "我去上班。",
+        "我早上喝咖啡。",
+        "今天是星期一。",
+        "孩子们去上学。"
+       ],
+       "optionsRoman": [
+        "wǒ qù shàngbān.",
+        "wǒ zǎoshang hē kāfēi.",
+        "jīntiān shì xīngqīyī.",
+        "háizimen qù shàngxué."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "我",
+        "晚上",
+        "睡觉",
+        "去",
+        "现在",
+        "咖啡"
+       ],
+       "answer": [
+        "我",
+        "晚上",
+        "睡觉"
+       ],
+       "accepted": [],
+       "words": [
+        "晚上"
+       ],
+       "tilesRoman": [
+        "wǒ",
+        "wǎnshang",
+        "shuìjiào",
+        "qù",
+        "xiànzài",
+        "kāfēi"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "今天是星期一。",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "是",
+        "今天"
+       ],
+       "promptRoman": "jīntiān shì xīngqīyī."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "明天",
+        "míngtiān"
+       ],
+       "words": [
+        "明天"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "晚上",
+        "咖啡",
+        "是",
+        "去",
+        "上学",
+        "孩子们"
+       ],
+       "answer": [
+        "孩子们",
+        "去",
+        "上学"
+       ],
+       "accepted": [],
+       "words": [
+        "孩子们去上学。"
+       ],
+       "tilesRoman": [
+        "wǎnshang",
+        "kāfēi",
+        "shì",
+        "qù",
+        "shàngxué",
+        "háizimen"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "我去上班。",
+       "promptLang": "target",
+       "options": [
+        "The children go to school.",
+        "Today is Monday.",
+        "I go to work.",
+        "I drink coffee in the morning."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "我去上班。"
+       ],
+       "promptRoman": "wǒ qù shàngbān."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "学校",
+         "School"
+        ],
+        [
+         "今天",
+         "Today"
+        ],
+        [
+         "早上",
+         "Morning"
+        ],
+        [
+         "家",
+         "House"
+        ]
+       ],
+       "words": [
+        "学校",
+        "今天",
+        "早上",
+        "家"
+       ],
+       "romans": [
+        "xuéxiào",
+        "jīntiān",
+        "zǎoshang",
+        "jiā"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answer": "明天",
+       "words": [
+        "明天"
+       ],
+       "options": [
+        "晚上",
+        "明天",
+        "家",
+        "现在"
+       ],
+       "optionsRoman": [
+        "wǎnshang",
+        "míngtiān",
+        "jiā",
+        "xiànzài"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "上班",
+        "星期一",
+        "咖啡",
+        "是",
+        "我",
+        "今天"
+       ],
+       "answer": [
+        "今天",
+        "是",
+        "星期一"
+       ],
+       "accepted": [
+        "今天星期一。"
+       ],
+       "words": [
+        "是",
+        "今天"
+       ],
+       "tilesRoman": [
+        "shàngbān",
+        "xīngqīyī",
+        "kāfēi",
+        "shì",
+        "wǒ",
+        "jīntiān"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "现在几点？",
+       "roman": "xiànzài jǐ diǎn?",
+       "translation": "What time is it now?",
+       "words": [
+        "现在"
+       ],
+       "options": [
+        "今天是星期一。",
+        "我晚上睡觉。",
+        "我在家。",
+        "现在几点？"
+       ],
+       "optionsRoman": [
+        "jīntiān shì xīngqīyī.",
+        "wǒ wǎnshang shuìjiào.",
+        "wǒ zài jiā.",
+        "xiànzài jǐ diǎn?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我早上喝咖啡。",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "coffee",
+        "Monday",
+        "sleep",
+        "morning",
+        "drink",
+        "What",
+        "in",
+        "the"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "咖啡",
+        "早上"
+       ],
+       "promptRoman": "wǒ zǎoshang hē kāfēi."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Night",
+       "promptLang": "en",
+       "answers": [
+        "晚上",
+        "夜里",
+        "wǎnshang"
+       ],
+       "words": [
+        "晚上"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我在家。",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "家"
+       ],
+       "promptRoman": "wǒ zài jiā."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我晚上睡觉。",
+       "roman": "wǒ wǎnshang shuìjiào.",
+       "translation": "I sleep at night.",
+       "words": [
+        "晚上"
+       ],
+       "options": [
+        "孩子们去上学。",
+        "我晚上睡觉。",
+        "我在家。",
+        "今天是星期一。"
+       ],
+       "optionsRoman": [
+        "háizimen qù shàngxué.",
+        "wǒ wǎnshang shuìjiào.",
+        "wǒ zài jiā.",
+        "jīntiān shì xīngqīyī."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
