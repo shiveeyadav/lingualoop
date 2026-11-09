@@ -94,8 +94,8 @@ def words_in(text, vocab):
 
 # ---------------------------------------------------------------- sources
 
-def item(t, e, ealt, talt, r):
-    return {"t": t, "e": e, "ealt": list(ealt), "talt": list(talt), "r": r}
+def item(t, e, ealt, talt, r, ralt=()):
+    return {"t": t, "e": e, "ealt": list(ealt), "talt": list(talt), "r": r, "ralt": list(ralt)}
 
 
 def from_concepts(mod):
@@ -110,8 +110,8 @@ def from_concepts(mod):
         def conv(rows):
             out = []
             for key, e, ealt in rows:
-                t, talt, r = parse_entry(T[key])
-                out.append(item(t, e, ealt, talt, r))
+                t, talt, r, ralt = parse_entry(T[key])
+                out.append(item(t, e, ealt, talt, r, ralt))
             return out
         units.append({
             "title": u["title"],
@@ -345,7 +345,7 @@ class Builder:
             "words": [it["t"]] if is_vocab else self.tag(it["t"]),
         }
         if self.roman:
-            ex["answers"].append(it["r"])
+            ex["answers"] += [it["r"]] + it["ralt"]
             ex["looseSpaces"] = True
             ex["romanAllowed"] = True
         return ex

@@ -72,3 +72,9 @@ test('match needs every pair', () => {
   assert.equal(checkAnswer(ex, [['b', '2'], ['a', '1']]).correct, true);
   assert.equal(checkAnswer(ex, [['a', '2'], ['b', '1']]).correct, false);
 });
+
+test('Hindi nukta is optional (accent hint)', () => {
+  const r = checkAnswer(type(['माफ़ कीजिए']), 'माफ कीजिए');
+  assert.equal(r.correct, true);
+  assert.equal(r.accent, true);
+});

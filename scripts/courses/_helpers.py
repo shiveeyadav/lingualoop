@@ -13,14 +13,17 @@ S = V  # same shape for sentences
 def parse_entry(spec):
     """Parses the compact form used by concept-based courses:
 
-        "main | alternative | alternative @ romanization"
+        "main | alternative | alternative @ romanization | other spelling"
 
-    Alternatives and romanization are optional. Returns (main, [alts], roman or None).
+    Alternatives and romanization are optional. Extra romanizations after the
+    first are accepted when typing (e.g. Japanese "arigatō | arigatou").
+    Returns (main, [alts], roman or None, [roman alts]).
     """
-    roman = None
+    roman, ralts = None, []
     if "@" in spec:
-        spec, roman = spec.split("@", 1)
-        roman = roman.strip()
+        spec, rpart = spec.split("@", 1)
+        rs = [r.strip() for r in rpart.split("|") if r.strip()]
+        roman, ralts = rs[0], rs[1:]
     parts = [p.strip() for p in spec.split("|")]
     parts = [p for p in parts if p]
-    return parts[0], parts[1:], roman
+    return parts[0], parts[1:], roman, ralts
