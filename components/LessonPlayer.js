@@ -7,7 +7,18 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Icon, LoopArt } from './Icons';
-import { EXERCISE_COMPONENTS, isReady, answerRoman, promptText, responseText, TargetText } from './Exercises';
+import {
+  EXERCISE_COMPONENTS,
+  isReady,
+  answerRoman,
+  promptText,
+  responseText,
+  TargetText,
+  SpeakButton,
+  HintContext,
+} from './Exercises';
+import { buildHintIndex } from '../lib/hints';
+import { speak } from '../lib/speech';
 import { checkAnswer } from '../lib/grading';
 import { postJson } from '../lib/client';
 import { playCorrect, playWrong, playComplete } from '../lib/sfx';
@@ -86,6 +97,78 @@ function MistakesReview({ review, course }) {
   );
 }
 
+// "New words" cards shown before the first exercise of a lesson.
+function TeachCards({ teach, course, soundOn, onDone, onQuit }) {
+  const [i, setI] = useState(0);
+  const nextRef = useRef(null);
+  const card = teach[i];
+  useEffect(() => {
+    if (soundOn) speak(card.t, course.speechLang);
+    if (nextRef.current) nextRef.current.focus();
+  }, [i, card.t, course.speechLang, soundOn]);
+  const last = i === teach.length - 1;
+  function next(e) {
+    e.preventDefault();
+    if (last) onDone();
+    else setI(i + 1);
+  }
+  const pct = Math.round(((i + 1) / teach.length) * 100);
+  return (
+    <form onSubmit={next} style={{ display: 'contents' }}>
+      <div className="player-top">
+        <button type="button" className="close-btn" onClick={onQuit} aria-label="Quit and go back">
+          <Icon name="close" />
+        </button>
+        <div className="progress" role="progressbar" aria-label="New words" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
+          <span style={{ width: pct + '%' }} />
+        </div>
+        <span className="stat stat-xp">
+          {i + 1}/{teach.length}
+        </span>
+      </div>
+      <main className="player-body" id="main">
+        <h1 className="ex-instruction">{card.kind === 'phrase' ? 'New phrase' : 'New word'}</h1>
+        <div className="teach-card" aria-live="polite">
+          <SpeakButton text={card.t} lang={course.speechLang} big label={'Listen: ' + card.t} />
+          <p className="teach-target">
+            <TargetText text={card.t} roman={card.r} course={course} />
+          </p>
+          <p className="teach-meaning" lang="en">
+            {card.e}
+          </p>
+          {card.alts && card.alts.length ? (
+            <p className="muted small" dir="ltr">
+              Also:{' '}
+              <bdi lang={course.speechLang} dir={course.dir}>
+                {card.alts.join(' · ')}
+              </bdi>
+            </p>
+          ) : null}
+        </div>
+      </main>
+      <div className="player-foot">
+        <div className="foot-inner">
+          <div className="feedback">
+            <p className="small muted" style={{ margin: 0 }}>
+              Learn these first - the exercises use them next.
+            </p>
+          </div>
+          <div className="foot-actions">
+            {i > 0 ? (
+              <button type="button" className="btn btn-secondary" onClick={() => setI(i - 1)}>
+                Back
+              </button>
+            ) : null}
+            <button type="submit" ref={nextRef} className="btn">
+              {last ? 'Start exercises' : 'Next'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  );
+}
+
 export default function LessonPlayer({
   mode, // 'lesson' | 'practice'
   course, // courseClientInfo(): { id, title, shortName, speechLang, dir, romanization, keyboard }
@@ -97,8 +180,12 @@ export default function LessonPlayer({
   soundOn,
   isGuest,
   backHref,
+  teach = [], // [{ t, e, r?, kind, alts? }] new words for this lesson
+  hints = [], // [{ forms, e, r }] words the learner can tap for a meaning
 }) {
   const router = useRouter();
+  const [intro, setIntro] = useState(mode === 'lesson' && teach.length > 0);
+  const hintIndex = useMemo(() => (hints.length ? buildHintIndex(hints) : null), [hints]);
   const total = items.length;
   const [queue, setQueue] = useState(() => items.map((_, i) => i));
   const [qpos, setQpos] = useState(0);
@@ -326,6 +413,17 @@ export default function LessonPlayer({
     );
   }
 
+  if (intro) {
+    return (
+      <div className="player">
+        <Head>
+          <title>{'New words · ' + title + ' · LinguaLoop'}</title>
+        </Head>
+        <TeachCards teach={teach} course={course} soundOn={soundOn} onDone={() => setIntro(false)} onQuit={() => router.push(backHref)} />
+      </div>
+    );
+  }
+
   // ---------- main player ----------
 
   const footClass =
@@ -364,6 +462,7 @@ export default function LessonPlayer({
         </div>
 
         <main className="player-body" id="main">
+          <HintContext.Provider value={hintIndex}>
           {ex && Exercise ? (
             <>
               <h1 className="ex-instruction">{ex.instruction}</h1>
@@ -381,6 +480,7 @@ export default function LessonPlayer({
               />
             </>
           ) : null}
+          </HintContext.Provider>
         </main>
 
         <div className={footClass}>

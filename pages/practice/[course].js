@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import LessonPlayer from '../../components/LessonPlayer';
 import { loadUser } from '../../lib/ssr';
-import { getCourse, courseClientInfo } from '../../lib/content';
+import { getCourse, courseClientInfo, hintWords } from '../../lib/content';
 import { buildPractice } from '../../lib/progress';
 import { prepareExercise } from '../../lib/prepare';
 
@@ -19,12 +19,13 @@ export async function getServerSideProps(ctx) {
       todayXp: r.todayXp,
       course: courseClientInfo(course),
       weakWords: practice.weakWords,
+      hints: hintWords(courseId),
       items: practice.items.map((it) => ({ lessonId: it.lessonId, index: it.index, exercise: prepareExercise(it.exercise) })),
     },
   };
 }
 
-export default function PracticePage({ user, todayXp, course, weakWords, items }) {
+export default function PracticePage({ user, todayXp, course, weakWords, items, hints }) {
   const backHref = '/learn/' + course.id;
   if (!items.length) {
     return (
@@ -48,6 +49,7 @@ export default function PracticePage({ user, todayXp, course, weakWords, items }
       soundOn={user.soundOn}
       isGuest={user.isGuest}
       backHref={backHref}
+      hints={hints}
     />
   );
 }

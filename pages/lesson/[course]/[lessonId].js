@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import LessonPlayer from '../../../components/LessonPlayer';
 import { loadUser } from '../../../lib/ssr';
-import { getCourse, getLesson, courseClientInfo } from '../../../lib/content';
+import { getCourse, getLesson, courseClientInfo, hintWords } from '../../../lib/content';
 import { canStartLesson } from '../../../lib/progress';
 import { prepareExercise } from '../../../lib/prepare';
 
@@ -27,6 +27,8 @@ export async function getServerSideProps(ctx) {
       lessonId,
       title: 'Unit ' + (ref.unitIndex + 1) + ': ' + unit.title + ' · ' + ref.lesson.title,
       outOfHearts,
+      teach: ref.lesson.teach || [],
+      hints: hintWords(courseId, lessonId),
       items: outOfHearts
         ? []
         : ref.lesson.exercises.map((ex, index) => ({ lessonId, index, exercise: prepareExercise(ex) })),
@@ -34,7 +36,7 @@ export async function getServerSideProps(ctx) {
   };
 }
 
-export default function LessonPage({ user, todayXp, course, lessonId, title, outOfHearts, items }) {
+export default function LessonPage({ user, todayXp, course, lessonId, title, outOfHearts, items, teach, hints }) {
   const backHref = '/learn/' + course.id;
   if (outOfHearts) {
     const mins = user.heartsNextAt ? Math.max(1, Math.ceil((user.heartsNextAt - Date.now()) / 60000)) : null;
@@ -70,6 +72,8 @@ export default function LessonPage({ user, todayXp, course, lessonId, title, out
       soundOn={user.soundOn}
       isGuest={user.isGuest}
       backHref={backHref}
+      teach={teach}
+      hints={hints}
     />
   );
 }

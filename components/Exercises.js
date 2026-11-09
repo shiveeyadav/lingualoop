@@ -5,17 +5,69 @@
 // `course` carries display settings: speechLang (BCP-47 for lang= and speech), dir
 // ('rtl' for Arabic), romanization (e.g. 'pinyin'; empty for Latin scripts) and
 // keyboard (extra letters to insert when typing).
-import { useEffect, useRef, useState } from 'react';
+import { createContext, useContext, useEffect, useRef, useState } from 'react';
 import { Icon } from './Icons';
 import { speak, canSpeak } from '../lib/speech';
+import { segmentHints } from '../lib/hints';
+
+// Index of words the learner has been taught (lib/hints buildHintIndex), or null.
+export const HintContext = createContext(null);
+
+// Target text where every known word can be tapped (or focused + Enter) to show
+// its English meaning, like Duolingo's hints.
+export function HintedText({ text, course }) {
+  const index = useContext(HintContext);
+  const [open, setOpen] = useState(-1);
+  useEffect(() => {
+    if (open === -1) return undefined;
+    const onKey = (e) => {
+      if (e.key === 'Escape') setOpen(-1);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
+  const segs = index ? segmentHints(text, index, { noSpaces: course.noSpaces, particles: course.particles || [] }) : [{ text }];
+  return (
+    <span lang={course.speechLang} dir={course.dir}>
+      {segs.map((sg, i) =>
+        sg.hint ? (
+          <span className="hint" key={i}>
+            <button
+              type="button"
+              className="hint-word"
+              aria-expanded={open === i}
+              aria-label={sg.text + ', show meaning'}
+              onClick={() => setOpen(open === i ? -1 : i)}
+            >
+              {sg.text}
+            </button>
+            {open === i ? (
+              <span className="hint-pop" role="status" dir="ltr" lang="en">
+                {sg.hint.e}
+                {sg.hint.r ? <span className="roman"> {sg.hint.r}</span> : null}
+              </span>
+            ) : null}
+          </span>
+        ) : (
+          <span key={i}>{sg.text}</span>
+        )
+      )}
+    </span>
+  );
+}
 
 // Text in the language being learned, with its romanization underneath (if any).
-export function TargetText({ text, roman, course, className = '' }) {
+// With hints, known words can be tapped to see their meaning.
+export function TargetText({ text, roman, course, className = '', hints = false }) {
   return (
     <span className={'target ' + className}>
-      <span lang={course.speechLang} dir={course.dir}>
-        {text}
-      </span>
+      {hints ? (
+        <HintedText text={text} course={course} />
+      ) : (
+        <span lang={course.speechLang} dir={course.dir}>
+          {text}
+        </span>
+      )}
       {roman ? (
         <span className="roman" lang={course.speechLang + '-Latn'}>
           {roman}
@@ -58,7 +110,7 @@ function Prompt({ ex, course, soundOn }) {
     <div className="ex-prompt">
       {isTarget ? <SpeakButton text={ex.prompt} lang={course.speechLang} /> : null}
       {isTarget ? (
-        <TargetText text={ex.prompt} roman={ex.promptRoman} course={course} />
+        <TargetText text={ex.prompt} roman={ex.promptRoman} course={course} hints />
       ) : (
         <span lang="en">{ex.prompt}</span>
       )}
