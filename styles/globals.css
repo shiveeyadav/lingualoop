@@ -1338,9 +1338,8 @@ tr.me td {
   font-size: 0.72rem;
 }
 
-.option .target,
-.match-btn .target {
-  align-items: inherit;
+.option .target {
+  align-items: flex-start;
 }
 
 .match-btn .target {
