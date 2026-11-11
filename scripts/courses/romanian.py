@@ -114,3 +114,24 @@ T = {
     "children_school": "Copiii merg la școală.",
     "what_time_now": "Cât este ceasul acum? | Cât e ceasul? | Ce oră este acum?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Aș vrea' (I would like) is the polite way to ask; 'cât costă?' asks the price."
+
+T.update({
+    "shop": "magazin",
+    "money": "bani",
+    "bag": "geantă",
+    "shirt": "cămașă",
+    "shoes": "pantofi",
+    "cheap": "ieftin",
+    "expensive": "scump",
+    "big": "mare",
+    "i_want_this": "Aș vrea asta. | Vreau asta.",
+    "too_expensive": "Este prea scump. | E prea scump.",
+    "shop_open": "Magazinul este deschis? | E deschis magazinul?",
+    "i_need_shoes": "Am nevoie de pantofi.",
+    "bag_is_big": "Geanta este mare. | Geanta e mare.",
+    "pay_card": "Pot să plătesc cu cardul?",
+    "just_looking": "Doar mă uit.",
+})

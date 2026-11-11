@@ -113,3 +113,24 @@ T = {
     "children_school": "De kinderen gaan naar school.",
     "what_time_now": "Hoe laat is het nu?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "In the Netherlands \"pinnen\" means paying by bank card: \"Kan ik pinnen?\""
+
+T.update({
+    "shop": "winkel",
+    "money": "geld",
+    "bag": "tas",
+    "shirt": "overhemd | shirt",
+    "shoes": "schoenen",
+    "cheap": "goedkoop",
+    "expensive": "duur",
+    "big": "groot",
+    "i_want_this": "Ik wil dit graag. | Ik wil graag dit. | Ik wil dit.",
+    "too_expensive": "Het is te duur. | Dat is te duur.",
+    "shop_open": "Is de winkel open?",
+    "i_need_shoes": "Ik heb schoenen nodig.",
+    "bag_is_big": "De tas is groot.",
+    "pay_card": "Kan ik met de kaart betalen? | Kan ik met kaart betalen? | Kan ik pinnen?",
+    "just_looking": "Ik kijk alleen even. | Ik kijk alleen.",
+})

@@ -3930,7 +3930,8 @@
         "हाँ",
         "माँ",
         "सेब",
-        "चार"
+        "चार",
+        "पैसा"
        ],
        "promptRoman": "mere paas chaar seb hain."
       },
@@ -4511,7 +4512,8 @@
         "हाँ",
         "माँ",
         "सेब",
-        "चार"
+        "चार",
+        "पैसा"
        ],
        "promptRoman": "mere paas chaar seb hain."
       },
@@ -4672,7 +4674,8 @@
         "हाँ",
         "माँ",
         "सेब",
-        "चार"
+        "चार",
+        "पैसा"
        ],
        "tilesRoman": [
         "rukiye",
@@ -6268,7 +6271,8 @@
        "words": [
         "हाँ",
         "माँ",
-        "काम"
+        "काम",
+        "जूते"
        ],
        "tilesRoman": [
         "kofi",
@@ -6344,7 +6348,8 @@
        "words": [
         "हाँ",
         "माँ",
-        "काम"
+        "काम",
+        "जूते"
        ],
        "promptRoman": "main kaam par jaata hoon."
       }
@@ -6637,7 +6642,8 @@
        "words": [
         "हाँ",
         "बच्चा",
-        "स्कूल"
+        "स्कूल",
+        "जूते"
        ],
        "promptRoman": "bachche skool jaate hain."
       },
@@ -6840,7 +6846,8 @@
        "words": [
         "हाँ",
         "बच्चा",
-        "स्कूल"
+        "स्कूल",
+        "जूते"
        ],
        "tilesRoman": [
         "bachche",
@@ -6861,7 +6868,8 @@
        "words": [
         "हाँ",
         "बच्चा",
-        "स्कूल"
+        "स्कूल",
+        "जूते"
        ],
        "options": [
         "मैं रात को सोता हूँ।",
@@ -6970,7 +6978,8 @@
        "words": [
         "हाँ",
         "माँ",
-        "काम"
+        "काम",
+        "जूते"
        ],
        "promptRoman": "main kaam par jaata hoon."
       },
@@ -7175,6 +7184,1206 @@
        ],
        "words": [
         "रात"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'मुझे ... चाहिए' (mujhe ... chahiye) means 'I need / I want ...'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "दुकान",
+      "e": "Shop",
+      "r": "dukaan"
+     },
+     {
+      "t": "पैसा",
+      "e": "Money",
+      "r": "paisa"
+     },
+     {
+      "t": "बैग",
+      "e": "Bag",
+      "r": "baig"
+     },
+     {
+      "t": "कमीज़",
+      "e": "Shirt",
+      "r": "kameez"
+     },
+     {
+      "t": "जूते",
+      "e": "Shoes",
+      "r": "joote"
+     },
+     {
+      "t": "सस्ता",
+      "e": "Cheap",
+      "r": "sasta"
+     },
+     {
+      "t": "महँगा",
+      "e": "Expensive",
+      "r": "mahanga"
+     },
+     {
+      "t": "बड़ा",
+      "e": "Big",
+      "r": "bada"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "मुझे यह चाहिए।",
+      "e": "I would like this.",
+      "r": "mujhe yah chahiye."
+     },
+     {
+      "t": "यह बहुत महँगा है।",
+      "e": "It is too expensive.",
+      "r": "yah bahut mahanga hai."
+     },
+     {
+      "t": "क्या दुकान खुली है?",
+      "e": "Is the shop open?",
+      "r": "kya dukaan khuli hai?"
+     },
+     {
+      "t": "मुझे जूते चाहिए।",
+      "e": "I need shoes.",
+      "r": "mujhe joote chahiye."
+     },
+     {
+      "t": "बैग बड़ा है।",
+      "e": "The bag is big.",
+      "r": "baig bada hai."
+     },
+     {
+      "t": "क्या मैं कार्ड से भुगतान कर सकता हूँ?",
+      "e": "Can I pay by card?",
+      "r": "kya main kaard se bhugtaan kar sakta hoon?"
+     },
+     {
+      "t": "मैं बस देख रहा हूँ।",
+      "e": "I am just looking.",
+      "r": "main bas dekh raha hoon."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "दुकान",
+       "e": "Shop",
+       "kind": "word",
+       "r": "dukaan"
+      },
+      {
+       "t": "पैसा",
+       "e": "Money",
+       "kind": "word",
+       "r": "paisa",
+       "alts": [
+        "पैसे"
+       ]
+      },
+      {
+       "t": "बैग",
+       "e": "Bag",
+       "kind": "word",
+       "r": "baig",
+       "alts": [
+        "थैला"
+       ]
+      },
+      {
+       "t": "कमीज़",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "kameez",
+       "alts": [
+        "कमीज",
+        "शर्ट"
+       ]
+      },
+      {
+       "t": "मुझे यह चाहिए।",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "mujhe yah chahiye.",
+       "alts": [
+        "मुझे ये चाहिए।"
+       ]
+      },
+      {
+       "t": "क्या दुकान खुली है?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "kya dukaan khuli hai?"
+      },
+      {
+       "t": "यह बहुत महँगा है।",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "yah bahut mahanga hai.",
+       "alts": [
+        "यह बहुत महंगा है।"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "दुकान",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Big",
+        "Money",
+        "Shop"
+       ],
+       "answer": "Shop",
+       "words": [
+        "दुकान"
+       ],
+       "promptRoman": "dukaan"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "पैसा",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Money",
+        "Cheap",
+        "Shop"
+       ],
+       "answer": "Money",
+       "words": [
+        "पैसा"
+       ],
+       "promptRoman": "paisa"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "दुकान",
+         "Shop"
+        ],
+        [
+         "पैसा",
+         "Money"
+        ],
+        [
+         "बैग",
+         "Bag"
+        ],
+        [
+         "कमीज़",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "दुकान",
+        "पैसा",
+        "बैग",
+        "कमीज़"
+       ],
+       "romans": [
+        "dukaan",
+        "paisa",
+        "baig",
+        "kameez"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "बैग",
+       "words": [
+        "बैग"
+       ],
+       "options": [
+        "कमीज़",
+        "दुकान",
+        "पैसा",
+        "बैग"
+       ],
+       "optionsRoman": [
+        "kameez",
+        "dukaan",
+        "paisa",
+        "baig"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "कमीज़",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Shirt",
+        "Expensive",
+        "Shop"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "कमीज़"
+       ],
+       "promptRoman": "kameez"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "रहा",
+        "सकता",
+        "चाहिए",
+        "यह",
+        "हूँ",
+        "मुझे"
+       ],
+       "answer": [
+        "मुझे",
+        "यह",
+        "चाहिए"
+       ],
+       "accepted": [
+        "मुझे ये चाहिए।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "tilesRoman": [
+        "raha",
+        "sakta",
+        "chahiye",
+        "yah",
+        "hoon",
+        "mujhe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "क्या दुकान खुली है?",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "shop",
+        "Is",
+        "the",
+        "shoes",
+        "just",
+        "I"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "हाँ",
+        "दो",
+        "नौ",
+        "दुकान"
+       ],
+       "promptRoman": "kya dukaan khuli hai?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "यह बहुत महँगा है।",
+       "roman": "yah bahut mahanga hai.",
+       "translation": "It is too expensive.",
+       "words": [
+        "हाँ",
+        "महँगा"
+       ],
+       "options": [
+        "मुझे जूते चाहिए।",
+        "यह बहुत महँगा है।",
+        "मुझे यह चाहिए।",
+        "क्या मैं कार्ड से भुगतान कर सकता हूँ?"
+       ],
+       "optionsRoman": [
+        "mujhe joote chahiye.",
+        "yah bahut mahanga hai.",
+        "mujhe yah chahiye.",
+        "kya main kaard se bhugtaan kar sakta hoon?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "मुझे यह चाहिए।",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "promptRoman": "mujhe yah chahiye."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "जूते",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "joote"
+      },
+      {
+       "t": "सस्ता",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "sasta"
+      },
+      {
+       "t": "महँगा",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "mahanga",
+       "alts": [
+        "महंगा"
+       ]
+      },
+      {
+       "t": "बड़ा",
+       "e": "Big",
+       "kind": "word",
+       "r": "bada"
+      },
+      {
+       "t": "मुझे जूते चाहिए।",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "mujhe joote chahiye."
+      },
+      {
+       "t": "बैग बड़ा है।",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "baig bada hai.",
+       "alts": [
+        "थैला बड़ा है।"
+       ]
+      },
+      {
+       "t": "क्या मैं कार्ड से भुगतान कर सकता हूँ?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "kya main kaard se bhugtaan kar sakta hoon?",
+       "alts": [
+        "क्या मैं कार्ड से भुगतान कर सकती हूँ?",
+        "क्या मैं कार्ड से पैसे दे सकता हूँ?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "जूते",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Shop",
+        "Shoes",
+        "Shirt"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "जूते"
+       ],
+       "promptRoman": "joote"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "सस्ता",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Bag",
+        "Cheap",
+        "Money"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "सस्ता"
+       ],
+       "promptRoman": "sasta"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "जूते",
+         "Shoes"
+        ],
+        [
+         "सस्ता",
+         "Cheap"
+        ],
+        [
+         "महँगा",
+         "Expensive"
+        ],
+        [
+         "बड़ा",
+         "Big"
+        ]
+       ],
+       "words": [
+        "जूते",
+        "सस्ता",
+        "महँगा",
+        "बड़ा"
+       ],
+       "romans": [
+        "joote",
+        "sasta",
+        "mahanga",
+        "bada"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "महँगा",
+       "words": [
+        "महँगा"
+       ],
+       "options": [
+        "दुकान",
+        "महँगा",
+        "जूते",
+        "बड़ा"
+       ],
+       "optionsRoman": [
+        "dukaan",
+        "mahanga",
+        "joote",
+        "bada"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "बड़ा",
+       "words": [
+        "बड़ा"
+       ],
+       "options": [
+        "पैसा",
+        "बड़ा",
+        "बैग",
+        "जूते"
+       ],
+       "optionsRoman": [
+        "paisa",
+        "bada",
+        "baig",
+        "joote"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "बड़ा",
+        "मुझे",
+        "चाहिए",
+        "दुकान",
+        "बस",
+        "जूते"
+       ],
+       "answer": [
+        "मुझे",
+        "जूते",
+        "चाहिए"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "माँ",
+        "जूते"
+       ],
+       "tilesRoman": [
+        "bada",
+        "mujhe",
+        "chahiye",
+        "dukaan",
+        "bas",
+        "joote"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "बैग बड़ा है।",
+       "promptLang": "target",
+       "tiles": [
+        "big",
+        "Can",
+        "is",
+        "bag",
+        "shoes",
+        "just",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "हाँ",
+        "बैग",
+        "बड़ा"
+       ],
+       "promptRoman": "baig bada hai."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मुझे जूते चाहिए।",
+       "roman": "mujhe joote chahiye.",
+       "translation": "I need shoes.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "जूते"
+       ],
+       "options": [
+        "मुझे जूते चाहिए।",
+        "यह बहुत महँगा है।",
+        "क्या दुकान खुली है?",
+        "क्या मैं कार्ड से भुगतान कर सकता हूँ?"
+       ],
+       "optionsRoman": [
+        "mujhe joote chahiye.",
+        "yah bahut mahanga hai.",
+        "kya dukaan khuli hai?",
+        "kya main kaard se bhugtaan kar sakta hoon?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "क्या मैं कार्ड से भुगतान कर सकता हूँ?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "promptRoman": "kya main kaard se bhugtaan kar sakta hoon?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "दुकान",
+        "dukaan",
+        "dukan"
+       ],
+       "words": [
+        "दुकान"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "मैं बस देख रहा हूँ।",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "main bas dekh raha hoon.",
+       "alts": [
+        "मैं बस देख रही हूँ।"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "पैसा",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Expensive",
+        "Cheap",
+        "Big"
+       ],
+       "answer": "Money",
+       "words": [
+        "पैसा"
+       ],
+       "promptRoman": "paisa"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "सस्ता",
+         "Cheap"
+        ],
+        [
+         "महँगा",
+         "Expensive"
+        ],
+        [
+         "बड़ा",
+         "Big"
+        ],
+        [
+         "कमीज़",
+         "Shirt"
+        ],
+        [
+         "जूते",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "सस्ता",
+        "महँगा",
+        "बड़ा",
+        "कमीज़",
+        "जूते"
+       ],
+       "romans": [
+        "sasta",
+        "mahanga",
+        "bada",
+        "kameez",
+        "joote"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "मैं बस देख रहा हूँ।",
+       "promptLang": "target",
+       "options": [
+        "The bag is big.",
+        "It is too expensive.",
+        "I am just looking.",
+        "Is the shop open?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "दो"
+       ],
+       "promptRoman": "main bas dekh raha hoon."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "यह बहुत महँगा है।",
+       "promptLang": "target",
+       "tiles": [
+        "shoes",
+        "big",
+        "It",
+        "too",
+        "is",
+        "expensive",
+        "am"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "हाँ",
+        "महँगा"
+       ],
+       "promptRoman": "yah bahut mahanga hai."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "रहा",
+        "हूँ",
+        "यह",
+        "बस",
+        "मैं",
+        "महँगा",
+        "दुकान",
+        "देख"
+       ],
+       "answer": [
+        "मैं",
+        "बस",
+        "देख",
+        "रहा",
+        "हूँ"
+       ],
+       "accepted": [
+        "मैं बस देख रही हूँ।"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "दो"
+       ],
+       "tilesRoman": [
+        "raha",
+        "hoon",
+        "yah",
+        "bas",
+        "main",
+        "mahanga",
+        "dukaan",
+        "dekh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "क्या",
+        "से",
+        "जूते",
+        "सकता",
+        "कर",
+        "हूँ",
+        "बस",
+        "मैं",
+        "कार्ड",
+        "भुगतान",
+        "यह"
+       ],
+       "answer": [
+        "क्या",
+        "मैं",
+        "कार्ड",
+        "से",
+        "भुगतान",
+        "कर",
+        "सकता",
+        "हूँ"
+       ],
+       "accepted": [
+        "क्या मैं कार्ड से भुगतान कर सकती हूँ?",
+        "क्या मैं कार्ड से पैसे दे सकता हूँ?"
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "tilesRoman": [
+        "kya",
+        "se",
+        "joote",
+        "sakta",
+        "kar",
+        "hoon",
+        "bas",
+        "main",
+        "kaard",
+        "bhugtaan",
+        "yah"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "क्या मैं कार्ड से भुगतान कर सकता हूँ?",
+       "roman": "kya main kaard se bhugtaan kar sakta hoon?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "हाँ",
+        "माँ",
+        "नौ"
+       ],
+       "options": [
+        "मुझे यह चाहिए।",
+        "क्या मैं कार्ड से भुगतान कर सकता हूँ?",
+        "बैग बड़ा है।",
+        "मुझे जूते चाहिए।"
+       ],
+       "optionsRoman": [
+        "mujhe yah chahiye.",
+        "kya main kaard se bhugtaan kar sakta hoon?",
+        "baig bada hai.",
+        "mujhe joote chahiye."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "क्या दुकान खुली है?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "हाँ",
+        "दो",
+        "नौ",
+        "दुकान"
+       ],
+       "promptRoman": "kya dukaan khuli hai?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "बहुत",
+        "खुली",
+        "बड़ा",
+        "से",
+        "है",
+        "बैग"
+       ],
+       "answer": [
+        "बैग",
+        "बड़ा",
+        "है"
+       ],
+       "accepted": [
+        "थैला बड़ा है।"
+       ],
+       "words": [
+        "हाँ",
+        "बैग",
+        "बड़ा"
+       ],
+       "tilesRoman": [
+        "bahut",
+        "khuli",
+        "bada",
+        "se",
+        "hai",
+        "baig"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "पैसा",
+        "पैसे",
+        "paisa"
+       ],
+       "words": [
+        "पैसा"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "मुझे यह चाहिए।",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "It is too expensive.",
+        "I am just looking.",
+        "Can I pay by card?"
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "हाँ",
+        "माँ"
+       ],
+       "promptRoman": "mujhe yah chahiye."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "सस्ता",
+         "Cheap"
+        ],
+        [
+         "जूते",
+         "Shoes"
+        ],
+        [
+         "कमीज़",
+         "Shirt"
+        ],
+        [
+         "पैसा",
+         "Money"
+        ]
+       ],
+       "words": [
+        "सस्ता",
+        "जूते",
+        "कमीज़",
+        "पैसा"
+       ],
+       "romans": [
+        "sasta",
+        "joote",
+        "kameez",
+        "paisa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "बैग",
+       "words": [
+        "बैग"
+       ],
+       "options": [
+        "महँगा",
+        "बैग",
+        "बड़ा",
+        "दुकान"
+       ],
+       "optionsRoman": [
+        "mahanga",
+        "baig",
+        "bada",
+        "dukaan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hindi",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "है",
+        "महँगा",
+        "क्या",
+        "दुकान",
+        "देख",
+        "मुझे",
+        "खुली"
+       ],
+       "answer": [
+        "क्या",
+        "दुकान",
+        "खुली",
+        "है"
+       ],
+       "accepted": [],
+       "words": [
+        "हाँ",
+        "दो",
+        "नौ",
+        "दुकान"
+       ],
+       "tilesRoman": [
+        "hai",
+        "mahanga",
+        "kya",
+        "dukaan",
+        "dekh",
+        "mujhe",
+        "khuli"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "मुझे जूते चाहिए।",
+       "promptLang": "target",
+       "tiles": [
+        "by",
+        "this",
+        "need",
+        "shoes",
+        "I",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "हाँ",
+        "माँ",
+        "जूते"
+       ],
+       "promptRoman": "mujhe joote chahiye."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "मैं बस देख रहा हूँ।",
+       "roman": "main bas dekh raha hoon.",
+       "translation": "I am just looking.",
+       "words": [
+        "हाँ",
+        "माँ",
+        "दो"
+       ],
+       "options": [
+        "मैं बस देख रहा हूँ।",
+        "मुझे यह चाहिए।",
+        "क्या दुकान खुली है?",
+        "बैग बड़ा है।"
+       ],
+       "optionsRoman": [
+        "main bas dekh raha hoon.",
+        "mujhe yah chahiye.",
+        "kya dukaan khuli hai?",
+        "baig bada hai."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "बैग बड़ा है।",
+       "roman": "baig bada hai.",
+       "translation": "The bag is big.",
+       "words": [
+        "हाँ",
+        "बैग",
+        "बड़ा"
+       ],
+       "options": [
+        "मुझे जूते चाहिए।",
+        "क्या मैं कार्ड से भुगतान कर सकता हूँ?",
+        "मुझे यह चाहिए।",
+        "बैग बड़ा है।"
+       ],
+       "optionsRoman": [
+        "mujhe joote chahiye.",
+        "kya main kaard se bhugtaan kar sakta hoon?",
+        "mujhe yah chahiye.",
+        "baig bada hai."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "यह बहुत महँगा है।",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "हाँ",
+        "महँगा"
+       ],
+       "promptRoman": "yah bahut mahanga hai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hindi",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answers": [
+        "महँगा",
+        "महंगा",
+        "mahanga",
+        "mehenga"
+       ],
+       "words": [
+        "महँगा"
        ],
        "looseSpaces": true,
        "romanAllowed": true

@@ -6925,6 +6925,1160 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'これ を ください' (kore o kudasai, this one please) works in any shop."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "店",
+      "e": "Shop",
+      "r": "mise"
+     },
+     {
+      "t": "お金",
+      "e": "Money",
+      "r": "okane"
+     },
+     {
+      "t": "かばん",
+      "e": "Bag",
+      "r": "kaban"
+     },
+     {
+      "t": "シャツ",
+      "e": "Shirt",
+      "r": "shatsu"
+     },
+     {
+      "t": "靴",
+      "e": "Shoes",
+      "r": "kutsu"
+     },
+     {
+      "t": "安い",
+      "e": "Cheap",
+      "r": "yasui"
+     },
+     {
+      "t": "高い",
+      "e": "Expensive",
+      "r": "takai"
+     },
+     {
+      "t": "大きい",
+      "e": "Big",
+      "r": "ōkii"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "これをください。",
+      "e": "I would like this.",
+      "r": "kore o kudasai."
+     },
+     {
+      "t": "高すぎます。",
+      "e": "It is too expensive.",
+      "r": "takasugimasu."
+     },
+     {
+      "t": "お店は開いていますか？",
+      "e": "Is the shop open?",
+      "r": "omise wa aite imasu ka?"
+     },
+     {
+      "t": "靴が必要です。",
+      "e": "I need shoes.",
+      "r": "kutsu ga hitsuyō desu."
+     },
+     {
+      "t": "かばんは大きいです。",
+      "e": "The bag is big.",
+      "r": "kaban wa ōkii desu."
+     },
+     {
+      "t": "カードで払えますか？",
+      "e": "Can I pay by card?",
+      "r": "kādo de haraemasu ka?"
+     },
+     {
+      "t": "見ているだけです。",
+      "e": "I am just looking.",
+      "r": "mite iru dake desu."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "店",
+       "e": "Shop",
+       "kind": "word",
+       "r": "mise",
+       "alts": [
+        "お店"
+       ]
+      },
+      {
+       "t": "お金",
+       "e": "Money",
+       "kind": "word",
+       "r": "okane"
+      },
+      {
+       "t": "かばん",
+       "e": "Bag",
+       "kind": "word",
+       "r": "kaban",
+       "alts": [
+        "バッグ"
+       ]
+      },
+      {
+       "t": "シャツ",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "shatsu"
+      },
+      {
+       "t": "これをください。",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "kore o kudasai.",
+       "alts": [
+        "これがほしいです。"
+       ]
+      },
+      {
+       "t": "お店は開いていますか？",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "omise wa aite imasu ka?",
+       "alts": [
+        "店は開いていますか？"
+       ]
+      },
+      {
+       "t": "高すぎます。",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "takasugimasu.",
+       "alts": [
+        "高すぎです。"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "店",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Bag",
+        "Expensive",
+        "Shirt"
+       ],
+       "answer": "Shop",
+       "words": [
+        "店"
+       ],
+       "promptRoman": "mise"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "お金",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Shop",
+        "Cheap",
+        "Bag"
+       ],
+       "answer": "Money",
+       "words": [
+        "お金"
+       ],
+       "promptRoman": "okane"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "店",
+         "Shop"
+        ],
+        [
+         "お金",
+         "Money"
+        ],
+        [
+         "かばん",
+         "Bag"
+        ],
+        [
+         "シャツ",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "店",
+        "お金",
+        "かばん",
+        "シャツ"
+       ],
+       "romans": [
+        "mise",
+        "okane",
+        "kaban",
+        "shatsu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "かばん",
+       "words": [
+        "かばん"
+       ],
+       "options": [
+        "靴",
+        "シャツ",
+        "かばん",
+        "安い"
+       ],
+       "optionsRoman": [
+        "kutsu",
+        "shatsu",
+        "kaban",
+        "yasui"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "シャツ",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shoes",
+        "Shirt",
+        "Big"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "シャツ"
+       ],
+       "promptRoman": "shatsu"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "を",
+        "大きい",
+        "ください",
+        "カード",
+        "これ",
+        "だけ"
+       ],
+       "answer": [
+        "これ",
+        "を",
+        "ください"
+       ],
+       "accepted": [
+        "これがほしいです。"
+       ],
+       "words": [
+        "お願いします"
+       ],
+       "tilesRoman": [
+        "o",
+        "ōkii",
+        "kudasai",
+        "kādo",
+        "kore",
+        "dake"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "お店は開いていますか？",
+       "promptLang": "target",
+       "tiles": [
+        "need",
+        "Is",
+        "shop",
+        "shoes",
+        "would",
+        "the",
+        "open"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "店"
+       ],
+       "promptRoman": "omise wa aite imasu ka?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "高すぎます。",
+       "roman": "takasugimasu.",
+       "translation": "It is too expensive.",
+       "words": [
+        "高すぎます。"
+       ],
+       "options": [
+        "見ているだけです。",
+        "これをください。",
+        "靴が必要です。",
+        "高すぎます。"
+       ],
+       "optionsRoman": [
+        "mite iru dake desu.",
+        "kore o kudasai.",
+        "kutsu ga hitsuyō desu.",
+        "takasugimasu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "これをください。",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "お願いします"
+       ],
+       "promptRoman": "kore o kudasai."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "靴",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "kutsu"
+      },
+      {
+       "t": "安い",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "yasui"
+      },
+      {
+       "t": "高い",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "takai"
+      },
+      {
+       "t": "大きい",
+       "e": "Big",
+       "kind": "word",
+       "r": "ōkii"
+      },
+      {
+       "t": "靴が必要です。",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "kutsu ga hitsuyō desu."
+      },
+      {
+       "t": "かばんは大きいです。",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "kaban wa ōkii desu."
+      },
+      {
+       "t": "カードで払えますか？",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "kādo de haraemasu ka?",
+       "alts": [
+        "カードは使えますか？"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "靴",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Money",
+        "Expensive",
+        "Shop"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "靴"
+       ],
+       "promptRoman": "kutsu"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "安い",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Expensive",
+        "Shoes",
+        "Cheap"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "安い"
+       ],
+       "promptRoman": "yasui"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "靴",
+         "Shoes"
+        ],
+        [
+         "安い",
+         "Cheap"
+        ],
+        [
+         "高い",
+         "Expensive"
+        ],
+        [
+         "大きい",
+         "Big"
+        ]
+       ],
+       "words": [
+        "靴",
+        "安い",
+        "高い",
+        "大きい"
+       ],
+       "romans": [
+        "kutsu",
+        "yasui",
+        "takai",
+        "ōkii"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "高い",
+       "words": [
+        "高い"
+       ],
+       "options": [
+        "お金",
+        "高い",
+        "店",
+        "シャツ"
+       ],
+       "optionsRoman": [
+        "okane",
+        "takai",
+        "mise",
+        "shatsu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "大きい",
+       "words": [
+        "大きい"
+       ],
+       "options": [
+        "大きい",
+        "かばん",
+        "高い",
+        "シャツ"
+       ],
+       "optionsRoman": [
+        "ōkii",
+        "kaban",
+        "takai",
+        "shatsu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "払えます",
+        "大きい",
+        "必要",
+        "です",
+        "靴",
+        "開いて",
+        "が"
+       ],
+       "answer": [
+        "靴",
+        "が",
+        "必要",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "靴"
+       ],
+       "tilesRoman": [
+        "haraemasu",
+        "ōkii",
+        "hitsuyō",
+        "desu",
+        "kutsu",
+        "aite",
+        "ga"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "かばんは大きいです。",
+       "promptLang": "target",
+       "tiles": [
+        "pay",
+        "The",
+        "Can",
+        "expensive",
+        "big",
+        "bag",
+        "is"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "かばん",
+        "大きい"
+       ],
+       "promptRoman": "kaban wa ōkii desu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "靴が必要です。",
+       "roman": "kutsu ga hitsuyō desu.",
+       "translation": "I need shoes.",
+       "words": [
+        "靴"
+       ],
+       "options": [
+        "カードで払えますか？",
+        "見ているだけです。",
+        "お店は開いていますか？",
+        "靴が必要です。"
+       ],
+       "optionsRoman": [
+        "kādo de haraemasu ka?",
+        "mite iru dake desu.",
+        "omise wa aite imasu ka?",
+        "kutsu ga hitsuyō desu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "カードで払えますか？",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "カードで払えますか？"
+       ],
+       "promptRoman": "kādo de haraemasu ka?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "店",
+        "お店",
+        "mise"
+       ],
+       "words": [
+        "店"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "見ているだけです。",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "mite iru dake desu."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "お金",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Money",
+        "Shop",
+        "Expensive"
+       ],
+       "answer": "Money",
+       "words": [
+        "お金"
+       ],
+       "promptRoman": "okane"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "靴",
+         "Shoes"
+        ],
+        [
+         "シャツ",
+         "Shirt"
+        ],
+        [
+         "安い",
+         "Cheap"
+        ],
+        [
+         "お金",
+         "Money"
+        ],
+        [
+         "店",
+         "Shop"
+        ]
+       ],
+       "words": [
+        "靴",
+        "シャツ",
+        "安い",
+        "お金",
+        "店"
+       ],
+       "romans": [
+        "kutsu",
+        "shatsu",
+        "yasui",
+        "okane",
+        "mise"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "見ているだけです。",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "I need shoes.",
+        "I would like this.",
+        "The bag is big."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "見ているだけです。"
+       ],
+       "promptRoman": "mite iru dake desu."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "高すぎます。",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "It",
+        "too",
+        "expensive",
+        "is",
+        "shoes",
+        "like"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "高すぎます。"
+       ],
+       "promptRoman": "takasugimasu."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "大きい",
+        "見て",
+        "です",
+        "いる",
+        "ください",
+        "カード",
+        "だけ"
+       ],
+       "answer": [
+        "見て",
+        "いる",
+        "だけ",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "見ているだけです。"
+       ],
+       "tilesRoman": [
+        "ōkii",
+        "mite",
+        "desu",
+        "iru",
+        "kudasai",
+        "kādo",
+        "dake"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "か",
+        "カード",
+        "お店",
+        "ください",
+        "これ",
+        "払えます",
+        "で"
+       ],
+       "answer": [
+        "カード",
+        "で",
+        "払えます",
+        "か"
+       ],
+       "accepted": [
+        "カードは使えますか？"
+       ],
+       "words": [
+        "カードで払えますか？"
+       ],
+       "tilesRoman": [
+        "ka",
+        "kādo",
+        "omise",
+        "kudasai",
+        "kore",
+        "haraemasu",
+        "de"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "カードで払えますか？",
+       "roman": "kādo de haraemasu ka?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "カードで払えますか？"
+       ],
+       "options": [
+        "お店は開いていますか？",
+        "見ているだけです。",
+        "高すぎます。",
+        "カードで払えますか？"
+       ],
+       "optionsRoman": [
+        "omise wa aite imasu ka?",
+        "mite iru dake desu.",
+        "takasugimasu.",
+        "kādo de haraemasu ka?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "お店は開いていますか？",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "店"
+       ],
+       "promptRoman": "omise wa aite imasu ka?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "開いて",
+        "は",
+        "見て",
+        "です",
+        "かばん",
+        "大きい",
+        "を"
+       ],
+       "answer": [
+        "かばん",
+        "は",
+        "大きい",
+        "です"
+       ],
+       "accepted": [],
+       "words": [
+        "かばん",
+        "大きい"
+       ],
+       "tilesRoman": [
+        "aite",
+        "wa",
+        "mite",
+        "desu",
+        "kaban",
+        "ōkii",
+        "o"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "お金",
+        "okane"
+       ],
+       "words": [
+        "お金"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "これをください。",
+       "promptLang": "target",
+       "options": [
+        "Can I pay by card?",
+        "I would like this.",
+        "I need shoes.",
+        "I am just looking."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "お願いします"
+       ],
+       "promptRoman": "kore o kudasai."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "高い",
+         "Expensive"
+        ],
+        [
+         "かばん",
+         "Bag"
+        ],
+        [
+         "大きい",
+         "Big"
+        ],
+        [
+         "安い",
+         "Cheap"
+        ]
+       ],
+       "words": [
+        "高い",
+        "かばん",
+        "大きい",
+        "安い"
+       ],
+       "romans": [
+        "takai",
+        "kaban",
+        "ōkii",
+        "yasui"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answer": "お金",
+       "words": [
+        "お金"
+       ],
+       "options": [
+        "高い",
+        "シャツ",
+        "安い",
+        "お金"
+       ],
+       "optionsRoman": [
+        "takai",
+        "shatsu",
+        "yasui",
+        "okane"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Japanese",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "は",
+        "お店",
+        "見て",
+        "払えます",
+        "だけ",
+        "か",
+        "います",
+        "開いて"
+       ],
+       "answer": [
+        "お店",
+        "は",
+        "開いて",
+        "います",
+        "か"
+       ],
+       "accepted": [
+        "店は開いていますか？"
+       ],
+       "words": [
+        "店"
+       ],
+       "tilesRoman": [
+        "wa",
+        "omise",
+        "mite",
+        "haraemasu",
+        "dake",
+        "ka",
+        "imasu",
+        "aite"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "靴が必要です。",
+       "promptLang": "target",
+       "tiles": [
+        "pay",
+        "expensive",
+        "would",
+        "I",
+        "need",
+        "shoes"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "靴"
+       ],
+       "promptRoman": "kutsu ga hitsuyō desu."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "見ているだけです。",
+       "roman": "mite iru dake desu.",
+       "translation": "I am just looking.",
+       "words": [
+        "見ているだけです。"
+       ],
+       "options": [
+        "これをください。",
+        "靴が必要です。",
+        "お店は開いていますか？",
+        "見ているだけです。"
+       ],
+       "optionsRoman": [
+        "kore o kudasai.",
+        "kutsu ga hitsuyō desu.",
+        "omise wa aite imasu ka?",
+        "mite iru dake desu."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "かばんは大きいです。",
+       "roman": "kaban wa ōkii desu.",
+       "translation": "The bag is big.",
+       "words": [
+        "かばん",
+        "大きい"
+       ],
+       "options": [
+        "靴が必要です。",
+        "これをください。",
+        "見ているだけです。",
+        "かばんは大きいです。"
+       ],
+       "optionsRoman": [
+        "kutsu ga hitsuyō desu.",
+        "kore o kudasai.",
+        "mite iru dake desu.",
+        "kaban wa ōkii desu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "高すぎます。",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "高すぎます。"
+       ],
+       "promptRoman": "takasugimasu."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Japanese",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "店",
+        "お店",
+        "mise"
+       ],
+       "words": [
+        "店"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

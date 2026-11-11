@@ -113,3 +113,24 @@ T = {
     "children_school": "Çocuklar okula gidiyor. | Çocuklar okula gider.",
     "what_time_now": "Şimdi saat kaç? | Saat kaç?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Ne kadar?' asks how much; 'pahalı' is expensive and 'ucuz' is cheap."
+
+T.update({
+    "shop": "dükkan | mağaza",
+    "money": "para",
+    "bag": "çanta",
+    "shirt": "gömlek",
+    "shoes": "ayakkabı",
+    "cheap": "ucuz",
+    "expensive": "pahalı",
+    "big": "büyük",
+    "i_want_this": "Bunu istiyorum. | Bunu alabilir miyim?",
+    "too_expensive": "Çok pahalı. | Bu çok pahalı.",
+    "shop_open": "Dükkan açık mı? | Mağaza açık mı?",
+    "i_need_shoes": "Ayakkabıya ihtiyacım var. | Ayakkabı lazım.",
+    "bag_is_big": "Çanta büyük.",
+    "pay_card": "Kartla ödeyebilir miyim? | Kredi kartıyla ödeyebilir miyim?",
+    "just_looking": "Sadece bakıyorum.",
+})

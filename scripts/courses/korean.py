@@ -117,3 +117,24 @@ T = {
     "children_school": "아이들은 학교에 가요. | 아이들이 학교에 가요. @ aideureun hakgyoe gayo.",
     "what_time_now": "지금 몇 시예요? @ jigeum myeot siyeyo?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'이거 주세요' (igeo juseyo, this one please) is all you need to buy something."
+
+T.update({
+    "shop": "가게 | 상점 @ gage",
+    "money": "돈 @ don",
+    "bag": "가방 @ gabang",
+    "shirt": "셔츠 @ syeocheu",
+    "shoes": "신발 @ sinbal",
+    "cheap": "싸다 | 싼 @ ssada",
+    "expensive": "비싸다 | 비싼 @ bissada",
+    "big": "크다 | 큰 @ keuda",
+    "i_want_this": "이거 주세요. | 이것을 주세요. @ igeo juseyo.",
+    "too_expensive": "너무 비싸요. @ neomu bissayo.",
+    "shop_open": "가게 문 열었어요? | 가게가 열려 있어요? @ gage mun yeoreosseoyo?",
+    "i_need_shoes": "신발이 필요해요. @ sinbari piryohaeyo.",
+    "bag_is_big": "가방이 커요. @ gabangi keoyo.",
+    "pay_card": "카드로 계산할 수 있어요? | 카드 돼요? @ kadeuro gyesanhal su isseoyo?",
+    "just_looking": "그냥 구경하고 있어요. | 그냥 보는 거예요. @ geunyang gugyeonghago isseoyo.",
+})

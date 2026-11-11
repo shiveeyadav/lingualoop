@@ -118,3 +118,24 @@ T = {
     "children_school": "子供たち は 学校 に 行きます。 @ kodomo-tachi wa gakkō ni ikimasu.",
     "what_time_now": "今 何時 です か？ @ ima nanji desu ka?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'これ を ください' (kore o kudasai, this one please) works in any shop."
+
+T.update({
+    "shop": "店 | お店 @ mise",
+    "money": "お金 @ okane",
+    "bag": "かばん | バッグ @ kaban",
+    "shirt": "シャツ @ shatsu",
+    "shoes": "靴 @ kutsu",
+    "cheap": "安い @ yasui",
+    "expensive": "高い @ takai",
+    "big": "大きい @ ōkii | ookii",
+    "i_want_this": "これ を ください。 | これ が ほしい です。 @ kore o kudasai.",
+    "too_expensive": "高すぎます。 | 高すぎ です。 @ takasugimasu.",
+    "shop_open": "お店 は 開いて います か？ | 店 は 開いて います か？ @ omise wa aite imasu ka?",
+    "i_need_shoes": "靴 が 必要 です。 @ kutsu ga hitsuyō desu. | kutsu ga hitsuyou desu.",
+    "bag_is_big": "かばん は 大きい です。 @ kaban wa ōkii desu. | kaban wa ookii desu.",
+    "pay_card": "カード で 払えます か？ | カード は 使えます か？ @ kādo de haraemasu ka? | kaado de haraemasu ka?",
+    "just_looking": "見て いる だけ です。 @ mite iru dake desu.",
+})

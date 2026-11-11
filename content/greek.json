@@ -6777,6 +6777,1141 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Πόσο κάνει;' (poso kanei?) asks the price; 'θα ήθελα' (tha ithela) means I would like."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "μαγαζί",
+      "e": "Shop",
+      "r": "magazi"
+     },
+     {
+      "t": "χρήματα",
+      "e": "Money",
+      "r": "chrimata"
+     },
+     {
+      "t": "τσάντα",
+      "e": "Bag",
+      "r": "tsanta"
+     },
+     {
+      "t": "πουκάμισο",
+      "e": "Shirt",
+      "r": "poukamiso"
+     },
+     {
+      "t": "παπούτσια",
+      "e": "Shoes",
+      "r": "papoutsia"
+     },
+     {
+      "t": "φτηνός",
+      "e": "Cheap",
+      "r": "ftinos"
+     },
+     {
+      "t": "ακριβός",
+      "e": "Expensive",
+      "r": "akrivos"
+     },
+     {
+      "t": "μεγάλος",
+      "e": "Big",
+      "r": "megalos"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Θα ήθελα αυτό.",
+      "e": "I would like this.",
+      "r": "Tha ithela afto."
+     },
+     {
+      "t": "Είναι πολύ ακριβό.",
+      "e": "It is too expensive.",
+      "r": "Einai poli akrivo."
+     },
+     {
+      "t": "Είναι ανοιχτό το μαγαζί;",
+      "e": "Is the shop open?",
+      "r": "Einai anoichto to magazi?"
+     },
+     {
+      "t": "Χρειάζομαι παπούτσια.",
+      "e": "I need shoes.",
+      "r": "Chreiazomai papoutsia."
+     },
+     {
+      "t": "Η τσάντα είναι μεγάλη.",
+      "e": "The bag is big.",
+      "r": "I tsanta einai megali."
+     },
+     {
+      "t": "Μπορώ να πληρώσω με κάρτα;",
+      "e": "Can I pay by card?",
+      "r": "Boro na pliroso me karta?"
+     },
+     {
+      "t": "Απλώς κοιτάζω.",
+      "e": "I am just looking.",
+      "r": "Aplos koitazo."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "μαγαζί",
+       "e": "Shop",
+       "kind": "word",
+       "r": "magazi",
+       "alts": [
+        "κατάστημα"
+       ]
+      },
+      {
+       "t": "χρήματα",
+       "e": "Money",
+       "kind": "word",
+       "r": "chrimata",
+       "alts": [
+        "λεφτά"
+       ]
+      },
+      {
+       "t": "τσάντα",
+       "e": "Bag",
+       "kind": "word",
+       "r": "tsanta"
+      },
+      {
+       "t": "πουκάμισο",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "poukamiso"
+      },
+      {
+       "t": "Θα ήθελα αυτό.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "Tha ithela afto.",
+       "alts": [
+        "Θέλω αυτό."
+       ]
+      },
+      {
+       "t": "Είναι ανοιχτό το μαγαζί;",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "Einai anoichto to magazi?",
+       "alts": [
+        "Είναι ανοιχτό το κατάστημα;"
+       ]
+      },
+      {
+       "t": "Είναι πολύ ακριβό.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "Einai poli akrivo."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "μαγαζί",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Cheap",
+        "Expensive",
+        "Shirt"
+       ],
+       "answer": "Shop",
+       "words": [
+        "μαγαζί"
+       ],
+       "promptRoman": "magazi"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "χρήματα",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Cheap",
+        "Money",
+        "Expensive"
+       ],
+       "answer": "Money",
+       "words": [
+        "χρήματα"
+       ],
+       "promptRoman": "chrimata"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "μαγαζί",
+         "Shop"
+        ],
+        [
+         "χρήματα",
+         "Money"
+        ],
+        [
+         "τσάντα",
+         "Bag"
+        ],
+        [
+         "πουκάμισο",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "μαγαζί",
+        "χρήματα",
+        "τσάντα",
+        "πουκάμισο"
+       ],
+       "romans": [
+        "magazi",
+        "chrimata",
+        "tsanta",
+        "poukamiso"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "τσάντα",
+       "words": [
+        "τσάντα"
+       ],
+       "options": [
+        "μαγαζί",
+        "πουκάμισο",
+        "τσάντα",
+        "ακριβός"
+       ],
+       "optionsRoman": [
+        "magazi",
+        "poukamiso",
+        "tsanta",
+        "akrivos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "πουκάμισο",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Bag",
+        "Expensive",
+        "Shop"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "πουκάμισο"
+       ],
+       "promptRoman": "poukamiso"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "Η",
+        "αυτό",
+        "Είναι",
+        "ακριβό",
+        "ήθελα",
+        "Θα"
+       ],
+       "answer": [
+        "Θα",
+        "ήθελα",
+        "αυτό"
+       ],
+       "accepted": [
+        "Θέλω αυτό."
+       ],
+       "words": [
+        "Θα ήθελα αυτό."
+       ],
+       "tilesRoman": [
+        "I",
+        "afto",
+        "Einai",
+        "akrivo",
+        "ithela",
+        "Tha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Είναι ανοιχτό το μαγαζί;",
+       "promptLang": "target",
+       "tiles": [
+        "shop",
+        "Is",
+        "just",
+        "the",
+        "looking",
+        "need",
+        "open"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "μαγαζί"
+       ],
+       "promptRoman": "Einai anoichto to magazi?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Είναι πολύ ακριβό.",
+       "roman": "Einai poli akrivo.",
+       "translation": "It is too expensive.",
+       "words": [
+        "ακριβός"
+       ],
+       "options": [
+        "Χρειάζομαι παπούτσια.",
+        "Η τσάντα είναι μεγάλη.",
+        "Θα ήθελα αυτό.",
+        "Είναι πολύ ακριβό."
+       ],
+       "optionsRoman": [
+        "Chreiazomai papoutsia.",
+        "I tsanta einai megali.",
+        "Tha ithela afto.",
+        "Einai poli akrivo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Θα ήθελα αυτό.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Θα ήθελα αυτό."
+       ],
+       "promptRoman": "Tha ithela afto."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "παπούτσια",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "papoutsia"
+      },
+      {
+       "t": "φτηνός",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "ftinos",
+       "alts": [
+        "φτηνό"
+       ]
+      },
+      {
+       "t": "ακριβός",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "akrivos",
+       "alts": [
+        "ακριβό"
+       ]
+      },
+      {
+       "t": "μεγάλος",
+       "e": "Big",
+       "kind": "word",
+       "r": "megalos",
+       "alts": [
+        "μεγάλο"
+       ]
+      },
+      {
+       "t": "Χρειάζομαι παπούτσια.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "Chreiazomai papoutsia."
+      },
+      {
+       "t": "Η τσάντα είναι μεγάλη.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "I tsanta einai megali."
+      },
+      {
+       "t": "Μπορώ να πληρώσω με κάρτα;",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "Boro na pliroso me karta?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "παπούτσια",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Expensive",
+        "Shirt",
+        "Shop"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "παπούτσια"
+       ],
+       "promptRoman": "papoutsia"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "φτηνός",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shirt",
+        "Shop",
+        "Expensive"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "φτηνός"
+       ],
+       "promptRoman": "ftinos"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "παπούτσια",
+         "Shoes"
+        ],
+        [
+         "φτηνός",
+         "Cheap"
+        ],
+        [
+         "ακριβός",
+         "Expensive"
+        ],
+        [
+         "μεγάλος",
+         "Big"
+        ]
+       ],
+       "words": [
+        "παπούτσια",
+        "φτηνός",
+        "ακριβός",
+        "μεγάλος"
+       ],
+       "romans": [
+        "papoutsia",
+        "ftinos",
+        "akrivos",
+        "megalos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "ακριβός",
+       "words": [
+        "ακριβός"
+       ],
+       "options": [
+        "φτηνός",
+        "παπούτσια",
+        "πουκάμισο",
+        "ακριβός"
+       ],
+       "optionsRoman": [
+        "ftinos",
+        "papoutsia",
+        "poukamiso",
+        "akrivos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "μεγάλος",
+       "words": [
+        "μεγάλος"
+       ],
+       "options": [
+        "μεγάλος",
+        "ακριβός",
+        "πουκάμισο",
+        "παπούτσια"
+       ],
+       "optionsRoman": [
+        "megalos",
+        "akrivos",
+        "poukamiso",
+        "papoutsia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "Μπορώ",
+        "πολύ",
+        "παπούτσια",
+        "Χρειάζομαι",
+        "αυτό"
+       ],
+       "answer": [
+        "Χρειάζομαι",
+        "παπούτσια"
+       ],
+       "accepted": [],
+       "words": [
+        "παπούτσια"
+       ],
+       "tilesRoman": [
+        "Boro",
+        "poli",
+        "papoutsia",
+        "Chreiazomai",
+        "afto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Η τσάντα είναι μεγάλη.",
+       "promptLang": "target",
+       "tiles": [
+        "just",
+        "The",
+        "bag",
+        "need",
+        "Can",
+        "big",
+        "is"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "τσάντα"
+       ],
+       "promptRoman": "I tsanta einai megali."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Χρειάζομαι παπούτσια.",
+       "roman": "Chreiazomai papoutsia.",
+       "translation": "I need shoes.",
+       "words": [
+        "παπούτσια"
+       ],
+       "options": [
+        "Είναι ανοιχτό το μαγαζί;",
+        "Η τσάντα είναι μεγάλη.",
+        "Χρειάζομαι παπούτσια.",
+        "Μπορώ να πληρώσω με κάρτα;"
+       ],
+       "optionsRoman": [
+        "Einai anoichto to magazi?",
+        "I tsanta einai megali.",
+        "Chreiazomai papoutsia.",
+        "Boro na pliroso me karta?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Μπορώ να πληρώσω με κάρτα;",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Μπορώ να πληρώσω με κάρτα;"
+       ],
+       "promptRoman": "Boro na pliroso me karta?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "μαγαζί",
+        "κατάστημα",
+        "magazi"
+       ],
+       "words": [
+        "μαγαζί"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Απλώς κοιτάζω.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "Aplos koitazo.",
+       "alts": [
+        "Απλά κοιτάζω."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "χρήματα",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Big",
+        "Money",
+        "Shoes"
+       ],
+       "answer": "Money",
+       "words": [
+        "χρήματα"
+       ],
+       "promptRoman": "chrimata"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "μεγάλος",
+         "Big"
+        ],
+        [
+         "μαγαζί",
+         "Shop"
+        ],
+        [
+         "πουκάμισο",
+         "Shirt"
+        ],
+        [
+         "ακριβός",
+         "Expensive"
+        ],
+        [
+         "φτηνός",
+         "Cheap"
+        ]
+       ],
+       "words": [
+        "μεγάλος",
+        "μαγαζί",
+        "πουκάμισο",
+        "ακριβός",
+        "φτηνός"
+       ],
+       "romans": [
+        "megalos",
+        "magazi",
+        "poukamiso",
+        "akrivos",
+        "ftinos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Απλώς κοιτάζω.",
+       "promptLang": "target",
+       "options": [
+        "I need shoes.",
+        "I am just looking.",
+        "Is the shop open?",
+        "The bag is big."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Απλώς κοιτάζω."
+       ],
+       "promptRoman": "Aplos koitazo."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Είναι πολύ ακριβό.",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "bag",
+        "is",
+        "too",
+        "It",
+        "expensive",
+        "open"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "ακριβός"
+       ],
+       "promptRoman": "Einai poli akrivo."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "κοιτάζω",
+        "Είναι",
+        "Απλώς",
+        "να",
+        "αυτό"
+       ],
+       "answer": [
+        "Απλώς",
+        "κοιτάζω"
+       ],
+       "accepted": [
+        "Απλά κοιτάζω."
+       ],
+       "words": [
+        "Απλώς κοιτάζω."
+       ],
+       "tilesRoman": [
+        "koitazo",
+        "Einai",
+        "Aplos",
+        "na",
+        "afto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "μαγαζί",
+        "να",
+        "κάρτα",
+        "με",
+        "πληρώσω",
+        "Απλώς",
+        "ακριβό",
+        "Μπορώ"
+       ],
+       "answer": [
+        "Μπορώ",
+        "να",
+        "πληρώσω",
+        "με",
+        "κάρτα"
+       ],
+       "accepted": [],
+       "words": [
+        "Μπορώ να πληρώσω με κάρτα;"
+       ],
+       "tilesRoman": [
+        "magazi",
+        "na",
+        "karta",
+        "me",
+        "pliroso",
+        "Aplos",
+        "akrivo",
+        "Boro"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Μπορώ να πληρώσω με κάρτα;",
+       "roman": "Boro na pliroso me karta?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "Μπορώ να πληρώσω με κάρτα;"
+       ],
+       "options": [
+        "Είναι πολύ ακριβό.",
+        "Μπορώ να πληρώσω με κάρτα;",
+        "Είναι ανοιχτό το μαγαζί;",
+        "Απλώς κοιτάζω."
+       ],
+       "optionsRoman": [
+        "Einai poli akrivo.",
+        "Boro na pliroso me karta?",
+        "Einai anoichto to magazi?",
+        "Aplos koitazo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Είναι ανοιχτό το μαγαζί;",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "μαγαζί"
+       ],
+       "promptRoman": "Einai anoichto to magazi?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "κοιτάζω",
+        "είναι",
+        "Χρειάζομαι",
+        "τσάντα",
+        "το",
+        "Η",
+        "μεγάλη"
+       ],
+       "answer": [
+        "Η",
+        "τσάντα",
+        "είναι",
+        "μεγάλη"
+       ],
+       "accepted": [],
+       "words": [
+        "τσάντα"
+       ],
+       "tilesRoman": [
+        "koitazo",
+        "einai",
+        "Chreiazomai",
+        "tsanta",
+        "to",
+        "I",
+        "megali"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "χρήματα",
+        "λεφτά",
+        "chrimata",
+        "lefta"
+       ],
+       "words": [
+        "χρήματα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Θα ήθελα αυτό.",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "The bag is big.",
+        "Is the shop open?",
+        "It is too expensive."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Θα ήθελα αυτό."
+       ],
+       "promptRoman": "Tha ithela afto."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "πουκάμισο",
+         "Shirt"
+        ],
+        [
+         "μεγάλος",
+         "Big"
+        ],
+        [
+         "τσάντα",
+         "Bag"
+        ],
+        [
+         "παπούτσια",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "πουκάμισο",
+        "μεγάλος",
+        "τσάντα",
+        "παπούτσια"
+       ],
+       "romans": [
+        "poukamiso",
+        "megalos",
+        "tsanta",
+        "papoutsia"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answer": "μαγαζί",
+       "words": [
+        "μαγαζί"
+       ],
+       "options": [
+        "φτηνός",
+        "χρήματα",
+        "μαγαζί",
+        "παπούτσια"
+       ],
+       "optionsRoman": [
+        "ftinos",
+        "chrimata",
+        "magazi",
+        "papoutsia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "κάρτα",
+        "ήθελα",
+        "μαγαζί",
+        "ανοιχτό",
+        "το",
+        "Είναι",
+        "παπούτσια"
+       ],
+       "answer": [
+        "Είναι",
+        "ανοιχτό",
+        "το",
+        "μαγαζί"
+       ],
+       "accepted": [
+        "Είναι ανοιχτό το κατάστημα;"
+       ],
+       "words": [
+        "μαγαζί"
+       ],
+       "tilesRoman": [
+        "karta",
+        "ithela",
+        "magazi",
+        "anoichto",
+        "to",
+        "Einai",
+        "papoutsia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Χρειάζομαι παπούτσια.",
+       "promptLang": "target",
+       "tiles": [
+        "shoes",
+        "I",
+        "need",
+        "too",
+        "It",
+        "card"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "παπούτσια"
+       ],
+       "promptRoman": "Chreiazomai papoutsia."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Απλώς κοιτάζω.",
+       "roman": "Aplos koitazo.",
+       "translation": "I am just looking.",
+       "words": [
+        "Απλώς κοιτάζω."
+       ],
+       "options": [
+        "Είναι πολύ ακριβό.",
+        "Χρειάζομαι παπούτσια.",
+        "Απλώς κοιτάζω.",
+        "Είναι ανοιχτό το μαγαζί;"
+       ],
+       "optionsRoman": [
+        "Einai poli akrivo.",
+        "Chreiazomai papoutsia.",
+        "Aplos koitazo.",
+        "Einai anoichto to magazi?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Η τσάντα είναι μεγάλη.",
+       "roman": "I tsanta einai megali.",
+       "translation": "The bag is big.",
+       "words": [
+        "τσάντα"
+       ],
+       "options": [
+        "Είναι ανοιχτό το μαγαζί;",
+        "Θα ήθελα αυτό.",
+        "Η τσάντα είναι μεγάλη.",
+        "Είναι πολύ ακριβό."
+       ],
+       "optionsRoman": [
+        "Einai anoichto to magazi?",
+        "Tha ithela afto.",
+        "I tsanta einai megali.",
+        "Einai poli akrivo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Είναι πολύ ακριβό.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "ακριβός"
+       ],
+       "promptRoman": "Einai poli akrivo."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answers": [
+        "ακριβός",
+        "ακριβό",
+        "akrivos"
+       ],
+       "words": [
+        "ακριβός"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -6799,6 +6799,1128 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'이거 주세요' (igeo juseyo, this one please) is all you need to buy something."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "가게",
+      "e": "Shop",
+      "r": "gage"
+     },
+     {
+      "t": "돈",
+      "e": "Money",
+      "r": "don"
+     },
+     {
+      "t": "가방",
+      "e": "Bag",
+      "r": "gabang"
+     },
+     {
+      "t": "셔츠",
+      "e": "Shirt",
+      "r": "syeocheu"
+     },
+     {
+      "t": "신발",
+      "e": "Shoes",
+      "r": "sinbal"
+     },
+     {
+      "t": "싸다",
+      "e": "Cheap",
+      "r": "ssada"
+     },
+     {
+      "t": "비싸다",
+      "e": "Expensive",
+      "r": "bissada"
+     },
+     {
+      "t": "크다",
+      "e": "Big",
+      "r": "keuda"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "이거 주세요.",
+      "e": "I would like this.",
+      "r": "igeo juseyo."
+     },
+     {
+      "t": "너무 비싸요.",
+      "e": "It is too expensive.",
+      "r": "neomu bissayo."
+     },
+     {
+      "t": "가게 문 열었어요?",
+      "e": "Is the shop open?",
+      "r": "gage mun yeoreosseoyo?"
+     },
+     {
+      "t": "신발이 필요해요.",
+      "e": "I need shoes.",
+      "r": "sinbari piryohaeyo."
+     },
+     {
+      "t": "가방이 커요.",
+      "e": "The bag is big.",
+      "r": "gabangi keoyo."
+     },
+     {
+      "t": "카드로 계산할 수 있어요?",
+      "e": "Can I pay by card?",
+      "r": "kadeuro gyesanhal su isseoyo?"
+     },
+     {
+      "t": "그냥 구경하고 있어요.",
+      "e": "I am just looking.",
+      "r": "geunyang gugyeonghago isseoyo."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "가게",
+       "e": "Shop",
+       "kind": "word",
+       "r": "gage",
+       "alts": [
+        "상점"
+       ]
+      },
+      {
+       "t": "돈",
+       "e": "Money",
+       "kind": "word",
+       "r": "don"
+      },
+      {
+       "t": "가방",
+       "e": "Bag",
+       "kind": "word",
+       "r": "gabang"
+      },
+      {
+       "t": "셔츠",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "syeocheu"
+      },
+      {
+       "t": "이거 주세요.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "igeo juseyo.",
+       "alts": [
+        "이것을 주세요."
+       ]
+      },
+      {
+       "t": "가게 문 열었어요?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "gage mun yeoreosseoyo?",
+       "alts": [
+        "가게가 열려 있어요?"
+       ]
+      },
+      {
+       "t": "너무 비싸요.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "neomu bissayo."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "가게",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Shop",
+        "Shoes",
+        "Money"
+       ],
+       "answer": "Shop",
+       "words": [
+        "가게"
+       ],
+       "promptRoman": "gage"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "돈",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Shop",
+        "Shoes",
+        "Big"
+       ],
+       "answer": "Money",
+       "words": [
+        "돈"
+       ],
+       "promptRoman": "don"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "가게",
+         "Shop"
+        ],
+        [
+         "돈",
+         "Money"
+        ],
+        [
+         "가방",
+         "Bag"
+        ],
+        [
+         "셔츠",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "가게",
+        "돈",
+        "가방",
+        "셔츠"
+       ],
+       "romans": [
+        "gage",
+        "don",
+        "gabang",
+        "syeocheu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "가방",
+       "words": [
+        "가방"
+       ],
+       "options": [
+        "가방",
+        "셔츠",
+        "싸다",
+        "크다"
+       ],
+       "optionsRoman": [
+        "gabang",
+        "syeocheu",
+        "ssada",
+        "keuda"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "셔츠",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Shop",
+        "Cheap",
+        "Big"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "셔츠"
+       ],
+       "promptRoman": "syeocheu"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "필요해요",
+        "주세요",
+        "커요",
+        "이거",
+        "신발이"
+       ],
+       "answer": [
+        "이거",
+        "주세요"
+       ],
+       "accepted": [
+        "이것을 주세요."
+       ],
+       "words": [
+        "부탁합니다"
+       ],
+       "tilesRoman": [
+        "piryohaeyo",
+        "juseyo",
+        "keoyo",
+        "igeo",
+        "sinbari"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "가게 문 열었어요?",
+       "promptLang": "target",
+       "tiles": [
+        "shop",
+        "card",
+        "expensive",
+        "open",
+        "Is",
+        "the",
+        "pay"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "가게"
+       ],
+       "promptRoman": "gage mun yeoreosseoyo?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "너무 비싸요.",
+       "roman": "neomu bissayo.",
+       "translation": "It is too expensive.",
+       "words": [
+        "너무 비싸요."
+       ],
+       "options": [
+        "너무 비싸요.",
+        "이거 주세요.",
+        "가방이 커요.",
+        "가게 문 열었어요?"
+       ],
+       "optionsRoman": [
+        "neomu bissayo.",
+        "igeo juseyo.",
+        "gabangi keoyo.",
+        "gage mun yeoreosseoyo?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "이거 주세요.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "부탁합니다"
+       ],
+       "promptRoman": "igeo juseyo."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "신발",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "sinbal"
+      },
+      {
+       "t": "싸다",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "ssada",
+       "alts": [
+        "싼"
+       ]
+      },
+      {
+       "t": "비싸다",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "bissada",
+       "alts": [
+        "비싼"
+       ]
+      },
+      {
+       "t": "크다",
+       "e": "Big",
+       "kind": "word",
+       "r": "keuda",
+       "alts": [
+        "큰"
+       ]
+      },
+      {
+       "t": "신발이 필요해요.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "sinbari piryohaeyo."
+      },
+      {
+       "t": "가방이 커요.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "gabangi keoyo."
+      },
+      {
+       "t": "카드로 계산할 수 있어요?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "kadeuro gyesanhal su isseoyo?",
+       "alts": [
+        "카드 돼요?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "신발",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shirt",
+        "Bag",
+        "Shoes"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "신발"
+       ],
+       "promptRoman": "sinbal"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "싸다",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Money",
+        "Shop",
+        "Cheap"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "싸다"
+       ],
+       "promptRoman": "ssada"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "신발",
+         "Shoes"
+        ],
+        [
+         "싸다",
+         "Cheap"
+        ],
+        [
+         "비싸다",
+         "Expensive"
+        ],
+        [
+         "크다",
+         "Big"
+        ]
+       ],
+       "words": [
+        "신발",
+        "싸다",
+        "비싸다",
+        "크다"
+       ],
+       "romans": [
+        "sinbal",
+        "ssada",
+        "bissada",
+        "keuda"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "비싸다",
+       "words": [
+        "비싸다"
+       ],
+       "options": [
+        "가방",
+        "크다",
+        "셔츠",
+        "비싸다"
+       ],
+       "optionsRoman": [
+        "gabang",
+        "keuda",
+        "syeocheu",
+        "bissada"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "크다",
+       "words": [
+        "크다"
+       ],
+       "options": [
+        "돈",
+        "셔츠",
+        "신발",
+        "크다"
+       ],
+       "optionsRoman": [
+        "don",
+        "syeocheu",
+        "sinbal",
+        "keuda"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "열었어요",
+        "신발이",
+        "커요",
+        "수",
+        "필요해요"
+       ],
+       "answer": [
+        "신발이",
+        "필요해요"
+       ],
+       "accepted": [],
+       "words": [
+        "신발이 필요해요."
+       ],
+       "tilesRoman": [
+        "yeoreosseoyo",
+        "sinbari",
+        "keoyo",
+        "su",
+        "piryohaeyo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "가방이 커요.",
+       "promptLang": "target",
+       "tiles": [
+        "like",
+        "I",
+        "big",
+        "bag",
+        "It",
+        "The",
+        "is"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "가방이 커요."
+       ],
+       "promptRoman": "gabangi keoyo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "신발이 필요해요.",
+       "roman": "sinbari piryohaeyo.",
+       "translation": "I need shoes.",
+       "words": [
+        "신발이 필요해요."
+       ],
+       "options": [
+        "카드로 계산할 수 있어요?",
+        "가방이 커요.",
+        "가게 문 열었어요?",
+        "신발이 필요해요."
+       ],
+       "optionsRoman": [
+        "kadeuro gyesanhal su isseoyo?",
+        "gabangi keoyo.",
+        "gage mun yeoreosseoyo?",
+        "sinbari piryohaeyo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "카드로 계산할 수 있어요?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "카드로 계산할 수 있어요?"
+       ],
+       "promptRoman": "kadeuro gyesanhal su isseoyo?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "가게",
+        "상점",
+        "gage"
+       ],
+       "words": [
+        "가게"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "그냥 구경하고 있어요.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "geunyang gugyeonghago isseoyo.",
+       "alts": [
+        "그냥 보는 거예요."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "돈",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Money",
+        "Shirt",
+        "Big"
+       ],
+       "answer": "Money",
+       "words": [
+        "돈"
+       ],
+       "promptRoman": "don"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "크다",
+         "Big"
+        ],
+        [
+         "싸다",
+         "Cheap"
+        ],
+        [
+         "돈",
+         "Money"
+        ],
+        [
+         "가게",
+         "Shop"
+        ],
+        [
+         "비싸다",
+         "Expensive"
+        ]
+       ],
+       "words": [
+        "크다",
+        "싸다",
+        "돈",
+        "가게",
+        "비싸다"
+       ],
+       "romans": [
+        "keuda",
+        "ssada",
+        "don",
+        "gage",
+        "bissada"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "그냥 구경하고 있어요.",
+       "promptLang": "target",
+       "options": [
+        "Is the shop open?",
+        "I need shoes.",
+        "I am just looking.",
+        "Can I pay by card?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "그냥 구경하고 있어요."
+       ],
+       "promptRoman": "geunyang gugyeonghago isseoyo."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "너무 비싸요.",
+       "promptLang": "target",
+       "tiles": [
+        "by",
+        "too",
+        "like",
+        "expensive",
+        "is",
+        "open",
+        "It"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "너무 비싸요."
+       ],
+       "promptRoman": "neomu bissayo."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "구경하고",
+        "그냥",
+        "문",
+        "수",
+        "있어요",
+        "커요"
+       ],
+       "answer": [
+        "그냥",
+        "구경하고",
+        "있어요"
+       ],
+       "accepted": [
+        "그냥 보는 거예요."
+       ],
+       "words": [
+        "그냥 구경하고 있어요."
+       ],
+       "tilesRoman": [
+        "gugyeonghago",
+        "geunyang",
+        "mun",
+        "su",
+        "isseoyo",
+        "keoyo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "신발이",
+        "계산할",
+        "카드로",
+        "수",
+        "구경하고",
+        "그냥",
+        "있어요"
+       ],
+       "answer": [
+        "카드로",
+        "계산할",
+        "수",
+        "있어요"
+       ],
+       "accepted": [
+        "카드 돼요?"
+       ],
+       "words": [
+        "카드로 계산할 수 있어요?"
+       ],
+       "tilesRoman": [
+        "sinbari",
+        "gyesanhal",
+        "kadeuro",
+        "su",
+        "gugyeonghago",
+        "geunyang",
+        "isseoyo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "카드로 계산할 수 있어요?",
+       "roman": "kadeuro gyesanhal su isseoyo?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "카드로 계산할 수 있어요?"
+       ],
+       "options": [
+        "그냥 구경하고 있어요.",
+        "신발이 필요해요.",
+        "이거 주세요.",
+        "카드로 계산할 수 있어요?"
+       ],
+       "optionsRoman": [
+        "geunyang gugyeonghago isseoyo.",
+        "sinbari piryohaeyo.",
+        "igeo juseyo.",
+        "kadeuro gyesanhal su isseoyo?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "가게 문 열었어요?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "가게"
+       ],
+       "promptRoman": "gage mun yeoreosseoyo?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "열었어요",
+        "문",
+        "커요",
+        "필요해요",
+        "가방이"
+       ],
+       "answer": [
+        "가방이",
+        "커요"
+       ],
+       "accepted": [],
+       "words": [
+        "가방이 커요."
+       ],
+       "tilesRoman": [
+        "yeoreosseoyo",
+        "mun",
+        "keoyo",
+        "piryohaeyo",
+        "gabangi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "돈",
+        "don"
+       ],
+       "words": [
+        "돈"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "이거 주세요.",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "Can I pay by card?",
+        "It is too expensive.",
+        "I am just looking."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "부탁합니다"
+       ],
+       "promptRoman": "igeo juseyo."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "가게",
+         "Shop"
+        ],
+        [
+         "크다",
+         "Big"
+        ],
+        [
+         "신발",
+         "Shoes"
+        ],
+        [
+         "셔츠",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "가게",
+        "크다",
+        "신발",
+        "셔츠"
+       ],
+       "romans": [
+        "gage",
+        "keuda",
+        "sinbal",
+        "syeocheu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Cheap",
+       "promptLang": "en",
+       "answer": "싸다",
+       "words": [
+        "싸다"
+       ],
+       "options": [
+        "크다",
+        "신발",
+        "비싸다",
+        "싸다"
+       ],
+       "optionsRoman": [
+        "keuda",
+        "sinbal",
+        "bissada",
+        "ssada"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Korean",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "가게",
+        "주세요",
+        "문",
+        "카드로",
+        "이거",
+        "열었어요"
+       ],
+       "answer": [
+        "가게",
+        "문",
+        "열었어요"
+       ],
+       "accepted": [
+        "가게가 열려 있어요?"
+       ],
+       "words": [
+        "가게"
+       ],
+       "tilesRoman": [
+        "gage",
+        "juseyo",
+        "mun",
+        "kadeuro",
+        "igeo",
+        "yeoreosseoyo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "신발이 필요해요.",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "shoes",
+        "too",
+        "pay",
+        "need",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "신발이 필요해요."
+       ],
+       "promptRoman": "sinbari piryohaeyo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "그냥 구경하고 있어요.",
+       "roman": "geunyang gugyeonghago isseoyo.",
+       "translation": "I am just looking.",
+       "words": [
+        "그냥 구경하고 있어요."
+       ],
+       "options": [
+        "그냥 구경하고 있어요.",
+        "이거 주세요.",
+        "카드로 계산할 수 있어요?",
+        "가방이 커요."
+       ],
+       "optionsRoman": [
+        "geunyang gugyeonghago isseoyo.",
+        "igeo juseyo.",
+        "kadeuro gyesanhal su isseoyo?",
+        "gabangi keoyo."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "가방이 커요.",
+       "roman": "gabangi keoyo.",
+       "translation": "The bag is big.",
+       "words": [
+        "가방이 커요."
+       ],
+       "options": [
+        "그냥 구경하고 있어요.",
+        "가방이 커요.",
+        "너무 비싸요.",
+        "이거 주세요."
+       ],
+       "optionsRoman": [
+        "geunyang gugyeonghago isseoyo.",
+        "gabangi keoyo.",
+        "neomu bissayo.",
+        "igeo juseyo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "너무 비싸요.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "너무 비싸요."
+       ],
+       "promptRoman": "neomu bissayo."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Korean",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answers": [
+        "가방",
+        "gabang"
+       ],
+       "words": [
+        "가방"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

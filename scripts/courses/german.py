@@ -113,3 +113,24 @@ T = {
     "children_school": "Die Kinder gehen zur Schule. | Die Kinder gehen in die Schule.",
     "what_time_now": "Wie spät ist es jetzt? | Wie viel Uhr ist es jetzt?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "\"Ich möchte\" (I would like) is the polite way to ask for something in a shop."
+
+T.update({
+    "shop": "Geschäft | Laden",
+    "money": "Geld",
+    "bag": "Tasche",
+    "shirt": "Hemd",
+    "shoes": "Schuhe",
+    "cheap": "billig | günstig",
+    "expensive": "teuer",
+    "big": "groß",
+    "i_want_this": "Ich möchte das. | Ich hätte gern das.",
+    "too_expensive": "Das ist zu teuer. | Es ist zu teuer.",
+    "shop_open": "Ist das Geschäft offen? | Hat das Geschäft geöffnet?",
+    "i_need_shoes": "Ich brauche Schuhe.",
+    "bag_is_big": "Die Tasche ist groß.",
+    "pay_card": "Kann ich mit Karte zahlen? | Kann ich mit Karte bezahlen?",
+    "just_looking": "Ich schaue nur. | Ich sehe mich nur um.",
+})

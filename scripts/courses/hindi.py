@@ -115,3 +115,24 @@ T = {
     "children_school": "बच्चे स्कूल जाते हैं। @ bachche skool jaate hain.",
     "what_time_now": "अभी कितने बजे हैं? | अभी क्या समय है? @ abhi kitne baje hain?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'मुझे ... चाहिए' (mujhe ... chahiye) means 'I need / I want ...'."
+
+T.update({
+    "shop": "दुकान @ dukaan | dukan",
+    "money": "पैसा | पैसे @ paisa",
+    "bag": "बैग | थैला @ baig | bag",
+    "shirt": "कमीज़ | कमीज | शर्ट @ kameez | shirt",
+    "shoes": "जूते @ joote | jute",
+    "cheap": "सस्ता @ sasta",
+    "expensive": "महँगा | महंगा @ mahanga | mehenga",
+    "big": "बड़ा @ bada | bara",
+    "i_want_this": "मुझे यह चाहिए। | मुझे ये चाहिए। @ mujhe yah chahiye.",
+    "too_expensive": "यह बहुत महँगा है। | यह बहुत महंगा है। @ yah bahut mahanga hai.",
+    "shop_open": "क्या दुकान खुली है? @ kya dukaan khuli hai?",
+    "i_need_shoes": "मुझे जूते चाहिए। @ mujhe joote chahiye.",
+    "bag_is_big": "बैग बड़ा है। | थैला बड़ा है। @ baig bada hai.",
+    "pay_card": "क्या मैं कार्ड से भुगतान कर सकता हूँ? | क्या मैं कार्ड से भुगतान कर सकती हूँ? | क्या मैं कार्ड से पैसे दे सकता हूँ? @ kya main kaard se bhugtaan kar sakta hoon?",
+    "just_looking": "मैं बस देख रहा हूँ। | मैं बस देख रही हूँ। @ main bas dekh raha hoon.",
+})

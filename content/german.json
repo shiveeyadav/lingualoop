@@ -5647,6 +5647,927 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "\"Ich möchte\" (I would like) is the polite way to ask for something in a shop."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "Geschäft",
+      "e": "Shop"
+     },
+     {
+      "t": "Geld",
+      "e": "Money"
+     },
+     {
+      "t": "Tasche",
+      "e": "Bag"
+     },
+     {
+      "t": "Hemd",
+      "e": "Shirt"
+     },
+     {
+      "t": "Schuhe",
+      "e": "Shoes"
+     },
+     {
+      "t": "billig",
+      "e": "Cheap"
+     },
+     {
+      "t": "teuer",
+      "e": "Expensive"
+     },
+     {
+      "t": "groß",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ich möchte das.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Das ist zu teuer.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Ist das Geschäft offen?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Ich brauche Schuhe.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Die Tasche ist groß.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Kann ich mit Karte zahlen?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Ich schaue nur.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "Geschäft",
+       "e": "Shop",
+       "kind": "word",
+       "alts": [
+        "Laden"
+       ]
+      },
+      {
+       "t": "Geld",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "Tasche",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "Hemd",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Ich möchte das.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Ich hätte gern das."
+       ]
+      },
+      {
+       "t": "Ist das Geschäft offen?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "alts": [
+        "Hat das Geschäft geöffnet?"
+       ]
+      },
+      {
+       "t": "Das ist zu teuer.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "Es ist zu teuer."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "Geschäft",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Bag",
+        "Shop",
+        "Shoes"
+       ],
+       "answer": "Shop",
+       "words": [
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "Geld",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Bag",
+        "Money",
+        "Shoes"
+       ],
+       "answer": "Money",
+       "words": [
+        "Geld"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "Geschäft",
+         "Shop"
+        ],
+        [
+         "Geld",
+         "Money"
+        ],
+        [
+         "Tasche",
+         "Bag"
+        ],
+        [
+         "Hemd",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "Geschäft",
+        "Geld",
+        "Tasche",
+        "Hemd"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "Tasche",
+       "words": [
+        "Tasche"
+       ],
+       "options": [
+        "Tasche",
+        "Schuhe",
+        "groß",
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "Hemd",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Shirt",
+        "Expensive",
+        "Cheap"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "Hemd"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "Karte",
+        "mit",
+        "Ich",
+        "möchte",
+        "das",
+        "Tasche"
+       ],
+       "answer": [
+        "Ich",
+        "möchte",
+        "das"
+       ],
+       "accepted": [
+        "Ich hätte gern das."
+       ],
+       "words": [
+        "Ich möchte das."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ist das Geschäft offen?",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "the",
+        "I",
+        "card",
+        "shoes",
+        "Is",
+        "shop"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Das ist zu teuer.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Das ist zu teuer."
+       ],
+       "words": [
+        "teuer"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ich möchte das.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Ich möchte das."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "Schuhe",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "billig",
+       "e": "Cheap",
+       "kind": "word",
+       "alts": [
+        "günstig"
+       ]
+      },
+      {
+       "t": "teuer",
+       "e": "Expensive",
+       "kind": "word"
+      },
+      {
+       "t": "groß",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Ich brauche Schuhe.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Die Tasche ist groß.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Kann ich mit Karte zahlen?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Kann ich mit Karte bezahlen?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "Schuhe",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Shirt",
+        "Shoes",
+        "Shop"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "Schuhe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "billig",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Cheap",
+        "Big",
+        "Bag"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "billig"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "Schuhe",
+         "Shoes"
+        ],
+        [
+         "billig",
+         "Cheap"
+        ],
+        [
+         "teuer",
+         "Expensive"
+        ],
+        [
+         "groß",
+         "Big"
+        ]
+       ],
+       "words": [
+        "Schuhe",
+        "billig",
+        "teuer",
+        "groß"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "teuer",
+       "words": [
+        "teuer"
+       ],
+       "options": [
+        "Geld",
+        "teuer",
+        "Hemd",
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "groß",
+       "words": [
+        "groß"
+       ],
+       "options": [
+        "teuer",
+        "groß",
+        "billig",
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "groß",
+        "Ich",
+        "nur",
+        "brauche",
+        "Die",
+        "Schuhe"
+       ],
+       "answer": [
+        "Ich",
+        "brauche",
+        "Schuhe"
+       ],
+       "accepted": [],
+       "words": [
+        "Schuhe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Die Tasche ist groß.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "pay",
+        "big",
+        "It",
+        "am",
+        "bag",
+        "is"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "Tasche",
+        "groß"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich brauche Schuhe.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Ich brauche Schuhe."
+       ],
+       "words": [
+        "Schuhe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Kann ich mit Karte zahlen?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Kann ich mit Karte zahlen?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "Geschäft",
+        "Laden"
+       ],
+       "words": [
+        "Geschäft"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Ich schaue nur.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "alts": [
+        "Ich sehe mich nur um."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "Geld",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Expensive",
+        "Shirt",
+        "Money"
+       ],
+       "answer": "Money",
+       "words": [
+        "Geld"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "Tasche",
+         "Bag"
+        ],
+        [
+         "Geschäft",
+         "Shop"
+        ],
+        [
+         "Hemd",
+         "Shirt"
+        ],
+        [
+         "groß",
+         "Big"
+        ],
+        [
+         "Geld",
+         "Money"
+        ]
+       ],
+       "words": [
+        "Tasche",
+        "Geschäft",
+        "Hemd",
+        "groß",
+        "Geld"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ich schaue nur.",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "I would like this.",
+        "Is the shop open?",
+        "The bag is big."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Ich schaue nur."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Das ist zu teuer.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "looking",
+        "too",
+        "It",
+        "this",
+        "expensive",
+        "is"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "teuer"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "nur",
+        "Ich",
+        "möchte",
+        "Tasche",
+        "schaue",
+        "brauche"
+       ],
+       "answer": [
+        "Ich",
+        "schaue",
+        "nur"
+       ],
+       "accepted": [
+        "Ich sehe mich nur um."
+       ],
+       "words": [
+        "Ich schaue nur."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "zahlen",
+        "ich",
+        "Schuhe",
+        "Kann",
+        "mit",
+        "Karte",
+        "teuer",
+        "Tasche"
+       ],
+       "answer": [
+        "Kann",
+        "ich",
+        "mit",
+        "Karte",
+        "zahlen"
+       ],
+       "accepted": [
+        "Kann ich mit Karte bezahlen?"
+       ],
+       "words": [
+        "Kann ich mit Karte zahlen?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Kann ich mit Karte zahlen?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Kann ich mit Karte zahlen?"
+       ],
+       "words": [
+        "Kann ich mit Karte zahlen?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ist das Geschäft offen?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Die Tasche ist groß."
+       ],
+       "words": [
+        "Tasche",
+        "groß"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "Geld"
+       ],
+       "words": [
+        "Geld"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ich möchte das.",
+       "promptLang": "target",
+       "options": [
+        "I need shoes.",
+        "I would like this.",
+        "It is too expensive.",
+        "The bag is big."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Ich möchte das."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "Geschäft",
+         "Shop"
+        ],
+        [
+         "billig",
+         "Cheap"
+        ],
+        [
+         "Hemd",
+         "Shirt"
+        ],
+        [
+         "Tasche",
+         "Bag"
+        ]
+       ],
+       "words": [
+        "Geschäft",
+        "billig",
+        "Hemd",
+        "Tasche"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answer": "Geld",
+       "words": [
+        "Geld"
+       ],
+       "options": [
+        "Geschäft",
+        "Tasche",
+        "teuer",
+        "Geld"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in German",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "offen",
+        "das",
+        "Kann",
+        "möchte",
+        "groß",
+        "Geschäft",
+        "Ist"
+       ],
+       "answer": [
+        "Ist",
+        "das",
+        "Geschäft",
+        "offen"
+       ],
+       "accepted": [
+        "Hat das Geschäft geöffnet?"
+       ],
+       "words": [
+        "Geschäft"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ich brauche Schuhe.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "It",
+        "need",
+        "by",
+        "shop",
+        "shoes"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "Schuhe"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ich schaue nur.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Ich schaue nur."
+       ],
+       "words": [
+        "Ich schaue nur."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Die Tasche ist groß.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Die Tasche ist groß."
+       ],
+       "words": [
+        "Tasche",
+        "groß"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Das ist zu teuer.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "teuer"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in German",
+       "prompt": "Shoes",
+       "promptLang": "en",
+       "answers": [
+        "Schuhe"
+       ],
+       "words": [
+        "Schuhe"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

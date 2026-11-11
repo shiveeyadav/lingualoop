@@ -116,3 +116,24 @@ T = {
     "children_school": "الأطفال يذهبون إلى المدرسة. @ al-atfal yadhhabuna ila al-madrasa.",
     "what_time_now": "كم الساعة الآن؟ @ kam as-sa'a al-an?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'أريد' (urid) means 'I want'; add 'من فضلك' (min fadlak) to make it polite."
+
+T.update({
+    "shop": "متجر | دكان @ matjar",
+    "money": "مال | نقود @ mal",
+    "bag": "حقيبة @ haqiba",
+    "shirt": "قميص @ qamis",
+    "shoes": "حذاء @ hidha'",
+    "cheap": "رخيص @ rakhis",
+    "expensive": "غالٍ | غالي @ ghali",
+    "big": "كبير @ kabir",
+    "i_want_this": "أريد هذا. @ urid hadha.",
+    "too_expensive": "هذا غالٍ جدًا. | إنه غالٍ جدًا. @ hadha ghali jiddan.",
+    "shop_open": "هل المتجر مفتوح؟ @ hal al-matjar maftuh?",
+    "i_need_shoes": "أحتاج إلى حذاء. @ ahtaju ila hidha'.",
+    "bag_is_big": "الحقيبة كبيرة. @ al-haqiba kabira.",
+    "pay_card": "هل يمكنني الدفع بالبطاقة؟ @ hal yumkinuni ad-daf' bil-bitaqa?",
+    "just_looking": "أنا أتفرج فقط. | أنا أنظر فقط. @ ana atafarraj faqat.",
+})

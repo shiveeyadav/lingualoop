@@ -114,3 +114,24 @@ T = {
     "children_school": "Barnen går till skolan. | Barnen går i skolan.",
     "what_time_now": "Vad är klockan nu? | Vad är klockan?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Kan jag betala med kort?' – most Swedish shops take cards, and some take no cash at all."
+
+T.update({
+    "shop": "affär | butik",
+    "money": "pengar",
+    "bag": "väska",
+    "shirt": "skjorta",
+    "shoes": "skor",
+    "cheap": "billig",
+    "expensive": "dyr",
+    "big": "stor",
+    "i_want_this": "Jag vill ha den här. | Jag skulle vilja ha den här.",
+    "too_expensive": "Det är för dyrt.",
+    "shop_open": "Är affären öppen?",
+    "i_need_shoes": "Jag behöver skor.",
+    "bag_is_big": "Väskan är stor.",
+    "pay_card": "Kan jag betala med kort?",
+    "just_looking": "Jag tittar bara.",
+})

@@ -115,3 +115,24 @@ T = {
     "children_school": "Дети идут в школу. | Дети ходят в школу. @ Deti idut v shkolu.",
     "what_time_now": "Который сейчас час? | Сколько сейчас времени? @ Kotoryy seychas chas?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Можно картой?' (mozhno kartoy?) is the short way to ask if you can pay by card."
+
+T.update({
+    "shop": "магазин @ magazin",
+    "money": "деньги @ den'gi",
+    "bag": "сумка @ sumka",
+    "shirt": "рубашка @ rubashka",
+    "shoes": "обувь | туфли | ботинки @ obuv'",
+    "cheap": "дешёвый | дешевый | дёшево @ deshyovyy | deshevyy",
+    "expensive": "дорогой | дорого @ dorogoy",
+    "big": "большой @ bol'shoy | bolshoy",
+    "i_want_this": "Я хочу это. | Мне это, пожалуйста. @ Ya khochu eto.",
+    "too_expensive": "Это слишком дорого. @ Eto slishkom dorogo.",
+    "shop_open": "Магазин открыт? @ Magazin otkryt?",
+    "i_need_shoes": "Мне нужна обувь. | Мне нужны туфли. @ Mne nuzhna obuv'.",
+    "bag_is_big": "Сумка большая. @ Sumka bol'shaya.",
+    "pay_card": "Можно оплатить картой? | Можно картой? @ Mozhno oplatit' kartoy?",
+    "just_looking": "Я просто смотрю. @ Ya prosto smotryu.",
+})

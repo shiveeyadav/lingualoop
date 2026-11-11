@@ -115,3 +115,24 @@ T = {
     "children_school": "Bọn trẻ đi học. | Trẻ em đi học.",
     "what_time_now": "Bây giờ là mấy giờ?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Bao nhiêu?' asks how much; 'quá' after a word means too: 'đắt quá' = too expensive."
+
+T.update({
+    "shop": "cửa hàng | tiệm",
+    "money": "tiền",
+    "bag": "túi | cái túi",
+    "shirt": "áo sơ mi",
+    "shoes": "giày",
+    "cheap": "rẻ",
+    "expensive": "đắt | mắc",
+    "big": "to | lớn",
+    "i_want_this": "Tôi muốn cái này. | Cho tôi cái này.",
+    "too_expensive": "Đắt quá. | Cái này đắt quá. | Mắc quá.",
+    "shop_open": "Cửa hàng có mở cửa không?",
+    "i_need_shoes": "Tôi cần giày. | Tôi cần một đôi giày.",
+    "bag_is_big": "Cái túi to. | Cái túi lớn.",
+    "pay_card": "Tôi trả bằng thẻ được không? | Trả bằng thẻ được không?",
+    "just_looking": "Tôi chỉ xem thôi.",
+})

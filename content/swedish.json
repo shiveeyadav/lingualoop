@@ -5500,6 +5500,905 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Kan jag betala med kort?' – most Swedish shops take cards, and some take no cash at all."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "affär",
+      "e": "Shop"
+     },
+     {
+      "t": "pengar",
+      "e": "Money"
+     },
+     {
+      "t": "väska",
+      "e": "Bag"
+     },
+     {
+      "t": "skjorta",
+      "e": "Shirt"
+     },
+     {
+      "t": "skor",
+      "e": "Shoes"
+     },
+     {
+      "t": "billig",
+      "e": "Cheap"
+     },
+     {
+      "t": "dyr",
+      "e": "Expensive"
+     },
+     {
+      "t": "stor",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Jag vill ha den här.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Det är för dyrt.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Är affären öppen?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Jag behöver skor.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Väskan är stor.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Kan jag betala med kort?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Jag tittar bara.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "affär",
+       "e": "Shop",
+       "kind": "word",
+       "alts": [
+        "butik"
+       ]
+      },
+      {
+       "t": "pengar",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "väska",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "skjorta",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Jag vill ha den här.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Jag skulle vilja ha den här."
+       ]
+      },
+      {
+       "t": "Är affären öppen?",
+       "e": "Is the shop open?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Det är för dyrt.",
+       "e": "It is too expensive.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "affär",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Money",
+        "Shop",
+        "Big"
+       ],
+       "answer": "Shop",
+       "words": [
+        "affär"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pengar",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Shirt",
+        "Money",
+        "Expensive"
+       ],
+       "answer": "Money",
+       "words": [
+        "pengar"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "affär",
+         "Shop"
+        ],
+        [
+         "pengar",
+         "Money"
+        ],
+        [
+         "väska",
+         "Bag"
+        ],
+        [
+         "skjorta",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "affär",
+        "pengar",
+        "väska",
+        "skjorta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "väska",
+       "words": [
+        "väska"
+       ],
+       "options": [
+        "väska",
+        "pengar",
+        "affär",
+        "stor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "skjorta",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shop",
+        "Expensive",
+        "Shirt"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "skjorta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "behöver",
+        "Jag",
+        "Det",
+        "den",
+        "Väskan",
+        "vill",
+        "ha",
+        "här"
+       ],
+       "answer": [
+        "Jag",
+        "vill",
+        "ha",
+        "den",
+        "här"
+       ],
+       "accepted": [
+        "Jag skulle vilja ha den här."
+       ],
+       "words": [
+        "Jag vill ha den här."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Är affären öppen?",
+       "promptLang": "target",
+       "tiles": [
+        "would",
+        "Is",
+        "open",
+        "am",
+        "shop",
+        "the",
+        "big"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "Är affären öppen?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Det är för dyrt.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Det är för dyrt."
+       ],
+       "words": [
+        "Det är för dyrt."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag vill ha den här.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Jag vill ha den här."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "skor",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "billig",
+       "e": "Cheap",
+       "kind": "word"
+      },
+      {
+       "t": "dyr",
+       "e": "Expensive",
+       "kind": "word"
+      },
+      {
+       "t": "stor",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Jag behöver skor.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Väskan är stor.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Kan jag betala med kort?",
+       "e": "Can I pay by card?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "skor",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Shoes",
+        "Shop",
+        "Shirt"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "skor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "billig",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Expensive",
+        "Cheap",
+        "Bag"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "billig"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "skor",
+         "Shoes"
+        ],
+        [
+         "billig",
+         "Cheap"
+        ],
+        [
+         "dyr",
+         "Expensive"
+        ],
+        [
+         "stor",
+         "Big"
+        ]
+       ],
+       "words": [
+        "skor",
+        "billig",
+        "dyr",
+        "stor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "dyr",
+       "words": [
+        "dyr"
+       ],
+       "options": [
+        "affär",
+        "väska",
+        "dyr",
+        "billig"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "stor",
+       "words": [
+        "stor"
+       ],
+       "options": [
+        "stor",
+        "väska",
+        "skor",
+        "pengar"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "Kan",
+        "behöver",
+        "vill",
+        "Jag",
+        "skor",
+        "med"
+       ],
+       "answer": [
+        "Jag",
+        "behöver",
+        "skor"
+       ],
+       "accepted": [],
+       "words": [
+        "skor"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Väskan är stor.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "bag",
+        "is",
+        "big",
+        "The",
+        "shoes",
+        "need"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "stor"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag behöver skor.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Jag behöver skor."
+       ],
+       "words": [
+        "skor"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Kan jag betala med kort?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Kan jag betala med kort?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "affär",
+        "butik"
+       ],
+       "words": [
+        "affär"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Jag tittar bara.",
+       "e": "I am just looking.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pengar",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shop",
+        "Money",
+        "Expensive"
+       ],
+       "answer": "Money",
+       "words": [
+        "pengar"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "stor",
+         "Big"
+        ],
+        [
+         "affär",
+         "Shop"
+        ],
+        [
+         "pengar",
+         "Money"
+        ],
+        [
+         "skor",
+         "Shoes"
+        ],
+        [
+         "billig",
+         "Cheap"
+        ]
+       ],
+       "words": [
+        "stor",
+        "affär",
+        "pengar",
+        "skor",
+        "billig"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jag tittar bara.",
+       "promptLang": "target",
+       "options": [
+        "The bag is big.",
+        "Can I pay by card?",
+        "I am just looking.",
+        "I would like this."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Jag tittar bara."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Det är för dyrt.",
+       "promptLang": "target",
+       "tiles": [
+        "too",
+        "the",
+        "am",
+        "just",
+        "It",
+        "is",
+        "expensive"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "Det är för dyrt."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "vill",
+        "kort",
+        "tittar",
+        "Jag",
+        "bara",
+        "för"
+       ],
+       "answer": [
+        "Jag",
+        "tittar",
+        "bara"
+       ],
+       "accepted": [],
+       "words": [
+        "Jag tittar bara."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "stor",
+        "kort",
+        "Kan",
+        "affären",
+        "jag",
+        "betala",
+        "med",
+        "bara"
+       ],
+       "answer": [
+        "Kan",
+        "jag",
+        "betala",
+        "med",
+        "kort"
+       ],
+       "accepted": [],
+       "words": [
+        "Kan jag betala med kort?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Kan jag betala med kort?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Kan jag betala med kort?"
+       ],
+       "words": [
+        "Kan jag betala med kort?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Är affären öppen?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "Är affären öppen?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Väskan är stor."
+       ],
+       "words": [
+        "stor"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "pengar"
+       ],
+       "words": [
+        "pengar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jag vill ha den här.",
+       "promptLang": "target",
+       "options": [
+        "I need shoes.",
+        "The bag is big.",
+        "I would like this.",
+        "Is the shop open?"
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Jag vill ha den här."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "pengar",
+         "Money"
+        ],
+        [
+         "dyr",
+         "Expensive"
+        ],
+        [
+         "väska",
+         "Bag"
+        ],
+        [
+         "stor",
+         "Big"
+        ]
+       ],
+       "words": [
+        "pengar",
+        "dyr",
+        "väska",
+        "stor"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shirt",
+       "promptLang": "en",
+       "answer": "skjorta",
+       "words": [
+        "skjorta"
+       ],
+       "options": [
+        "billig",
+        "skjorta",
+        "väska",
+        "stor"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "affären",
+        "kort",
+        "Jag",
+        "öppen",
+        "Är",
+        "ha"
+       ],
+       "answer": [
+        "Är",
+        "affären",
+        "öppen"
+       ],
+       "accepted": [],
+       "words": [
+        "Är affären öppen?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag behöver skor.",
+       "promptLang": "target",
+       "tiles": [
+        "pay",
+        "need",
+        "like",
+        "I",
+        "shoes",
+        "looking"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "skor"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag tittar bara.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Jag tittar bara."
+       ],
+       "words": [
+        "Jag tittar bara."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Väskan är stor.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Väskan är stor."
+       ],
+       "words": [
+        "stor"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Det är för dyrt.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "Det är för dyrt."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Cheap",
+       "promptLang": "en",
+       "answers": [
+        "billig"
+       ],
+       "words": [
+        "billig"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

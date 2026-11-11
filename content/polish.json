@@ -5532,6 +5532,918 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "\"Poproszę\" (I'll have, please) is the easiest way to ask for something in a Polish shop."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "sklep",
+      "e": "Shop"
+     },
+     {
+      "t": "pieniądze",
+      "e": "Money"
+     },
+     {
+      "t": "torba",
+      "e": "Bag"
+     },
+     {
+      "t": "koszula",
+      "e": "Shirt"
+     },
+     {
+      "t": "buty",
+      "e": "Shoes"
+     },
+     {
+      "t": "tani",
+      "e": "Cheap"
+     },
+     {
+      "t": "drogi",
+      "e": "Expensive"
+     },
+     {
+      "t": "duży",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Poproszę to.",
+      "e": "I would like this."
+     },
+     {
+      "t": "To jest za drogie.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Czy sklep jest otwarty?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Potrzebuję butów.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Torba jest duża.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Czy mogę zapłacić kartą?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Tylko się rozglądam.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "sklep",
+       "e": "Shop",
+       "kind": "word"
+      },
+      {
+       "t": "pieniądze",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "torba",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "koszula",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Poproszę to.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Chciałbym to.",
+        "Chciałabym to."
+       ]
+      },
+      {
+       "t": "Czy sklep jest otwarty?",
+       "e": "Is the shop open?",
+       "kind": "phrase"
+      },
+      {
+       "t": "To jest za drogie.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "To za drogie."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sklep",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shop",
+        "Shirt",
+        "Money"
+       ],
+       "answer": "Shop",
+       "words": [
+        "sklep"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pieniądze",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shirt",
+        "Bag",
+        "Money"
+       ],
+       "answer": "Money",
+       "words": [
+        "pieniądze"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "sklep",
+         "Shop"
+        ],
+        [
+         "pieniądze",
+         "Money"
+        ],
+        [
+         "torba",
+         "Bag"
+        ],
+        [
+         "koszula",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "sklep",
+        "pieniądze",
+        "torba",
+        "koszula"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "torba",
+       "words": [
+        "torba"
+       ],
+       "options": [
+        "drogi",
+        "sklep",
+        "torba",
+        "tani"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "koszula",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Money",
+        "Bag",
+        "Expensive"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "koszula"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "za",
+        "Torba",
+        "to",
+        "Poproszę",
+        "drogie"
+       ],
+       "answer": [
+        "Poproszę",
+        "to"
+       ],
+       "accepted": [
+        "Chciałbym to.",
+        "Chciałabym to."
+       ],
+       "words": [
+        "Poproszę to."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Czy sklep jest otwarty?",
+       "promptLang": "target",
+       "tiles": [
+        "shop",
+        "open",
+        "just",
+        "Is",
+        "the",
+        "would",
+        "like"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "sklep"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "To jest za drogie.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "To jest za drogie."
+       ],
+       "words": [
+        "drogi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Poproszę to.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Poproszę to."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "buty",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "tani",
+       "e": "Cheap",
+       "kind": "word",
+       "alts": [
+        "tania",
+        "tanie"
+       ]
+      },
+      {
+       "t": "drogi",
+       "e": "Expensive",
+       "kind": "word",
+       "alts": [
+        "droga",
+        "drogie"
+       ]
+      },
+      {
+       "t": "duży",
+       "e": "Big",
+       "kind": "word",
+       "alts": [
+        "duża",
+        "duże"
+       ]
+      },
+      {
+       "t": "Potrzebuję butów.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Torba jest duża.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Czy mogę zapłacić kartą?",
+       "e": "Can I pay by card?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "buty",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Money",
+        "Shoes",
+        "Shop"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "buty"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tani",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Money",
+        "Cheap",
+        "Shirt"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "tani"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "buty",
+         "Shoes"
+        ],
+        [
+         "tani",
+         "Cheap"
+        ],
+        [
+         "drogi",
+         "Expensive"
+        ],
+        [
+         "duży",
+         "Big"
+        ]
+       ],
+       "words": [
+        "buty",
+        "tani",
+        "drogi",
+        "duży"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "drogi",
+       "words": [
+        "drogi"
+       ],
+       "options": [
+        "duży",
+        "tani",
+        "drogi",
+        "torba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "duży",
+       "words": [
+        "duży"
+       ],
+       "options": [
+        "duży",
+        "koszula",
+        "sklep",
+        "tani"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "Potrzebuję",
+        "się",
+        "butów",
+        "drogie",
+        "zapłacić"
+       ],
+       "answer": [
+        "Potrzebuję",
+        "butów"
+       ],
+       "accepted": [],
+       "words": [
+        "Potrzebuję butów."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Torba jest duża.",
+       "promptLang": "target",
+       "tiles": [
+        "by",
+        "Can",
+        "bag",
+        "is",
+        "big",
+        "The",
+        "this"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "torba",
+        "duży"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Potrzebuję butów.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Potrzebuję butów."
+       ],
+       "words": [
+        "Potrzebuję butów."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Czy mogę zapłacić kartą?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Czy mogę zapłacić kartą?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "sklep"
+       ],
+       "words": [
+        "sklep"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Tylko się rozglądam.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "alts": [
+        "Tylko oglądam."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pieniądze",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Expensive",
+        "Money",
+        "Shoes"
+       ],
+       "answer": "Money",
+       "words": [
+        "pieniądze"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "tani",
+         "Cheap"
+        ],
+        [
+         "drogi",
+         "Expensive"
+        ],
+        [
+         "torba",
+         "Bag"
+        ],
+        [
+         "pieniądze",
+         "Money"
+        ],
+        [
+         "buty",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "tani",
+        "drogi",
+        "torba",
+        "pieniądze",
+        "buty"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tylko się rozglądam.",
+       "promptLang": "target",
+       "options": [
+        "I need shoes.",
+        "Is the shop open?",
+        "I am just looking.",
+        "Can I pay by card?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Tylko się rozglądam."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "To jest za drogie.",
+       "promptLang": "target",
+       "tiles": [
+        "too",
+        "would",
+        "pay",
+        "It",
+        "expensive",
+        "is",
+        "am"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "drogi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "drogie",
+        "Tylko",
+        "się",
+        "Torba",
+        "jest",
+        "rozglądam"
+       ],
+       "answer": [
+        "Tylko",
+        "się",
+        "rozglądam"
+       ],
+       "accepted": [
+        "Tylko oglądam."
+       ],
+       "words": [
+        "Tylko się rozglądam."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "kartą",
+        "mogę",
+        "zapłacić",
+        "Potrzebuję",
+        "to",
+        "Tylko",
+        "Czy"
+       ],
+       "answer": [
+        "Czy",
+        "mogę",
+        "zapłacić",
+        "kartą"
+       ],
+       "accepted": [],
+       "words": [
+        "Czy mogę zapłacić kartą?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Czy mogę zapłacić kartą?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Czy mogę zapłacić kartą?"
+       ],
+       "words": [
+        "Czy mogę zapłacić kartą?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Czy sklep jest otwarty?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "sklep"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Torba jest duża."
+       ],
+       "words": [
+        "torba",
+        "duży"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "pieniądze"
+       ],
+       "words": [
+        "pieniądze"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Poproszę to.",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "I need shoes.",
+        "Is the shop open?",
+        "It is too expensive."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Poproszę to."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "pieniądze",
+         "Money"
+        ],
+        [
+         "drogi",
+         "Expensive"
+        ],
+        [
+         "koszula",
+         "Shirt"
+        ],
+        [
+         "buty",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "pieniądze",
+        "drogi",
+        "koszula",
+        "buty"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "duży",
+       "words": [
+        "duży"
+       ],
+       "options": [
+        "drogi",
+        "torba",
+        "sklep",
+        "duży"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Polish",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "jest",
+        "Poproszę",
+        "otwarty",
+        "to",
+        "Czy",
+        "rozglądam",
+        "sklep"
+       ],
+       "answer": [
+        "Czy",
+        "sklep",
+        "jest",
+        "otwarty"
+       ],
+       "accepted": [],
+       "words": [
+        "sklep"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Potrzebuję butów.",
+       "promptLang": "target",
+       "tiles": [
+        "shoes",
+        "just",
+        "am",
+        "need",
+        "I",
+        "pay"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "Potrzebuję butów."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tylko się rozglądam.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Tylko się rozglądam."
+       ],
+       "words": [
+        "Tylko się rozglądam."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Torba jest duża.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Torba jest duża."
+       ],
+       "words": [
+        "torba",
+        "duży"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "To jest za drogie.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "drogi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Polish",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "sklep"
+       ],
+       "words": [
+        "sklep"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

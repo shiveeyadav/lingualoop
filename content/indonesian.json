@@ -5527,6 +5527,925 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Berapa?' asks how much; 'terlalu' means too: 'terlalu mahal' = too expensive."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "toko",
+      "e": "Shop"
+     },
+     {
+      "t": "uang",
+      "e": "Money"
+     },
+     {
+      "t": "tas",
+      "e": "Bag"
+     },
+     {
+      "t": "kemeja",
+      "e": "Shirt"
+     },
+     {
+      "t": "sepatu",
+      "e": "Shoes"
+     },
+     {
+      "t": "murah",
+      "e": "Cheap"
+     },
+     {
+      "t": "mahal",
+      "e": "Expensive"
+     },
+     {
+      "t": "besar",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Saya mau ini.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Terlalu mahal.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Apakah tokonya buka?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Saya perlu sepatu.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Tasnya besar.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Bisa bayar pakai kartu?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Saya hanya lihat-lihat.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "toko",
+       "e": "Shop",
+       "kind": "word"
+      },
+      {
+       "t": "uang",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "tas",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "kemeja",
+       "e": "Shirt",
+       "kind": "word",
+       "alts": [
+        "baju"
+       ]
+      },
+      {
+       "t": "Saya mau ini.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Saya mau yang ini."
+       ]
+      },
+      {
+       "t": "Apakah tokonya buka?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "alts": [
+        "Tokonya buka?"
+       ]
+      },
+      {
+       "t": "Terlalu mahal.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "Ini terlalu mahal."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "toko",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Shirt",
+        "Expensive",
+        "Shoes"
+       ],
+       "answer": "Shop",
+       "words": [
+        "toko"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "uang",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Big",
+        "Money",
+        "Cheap"
+       ],
+       "answer": "Money",
+       "words": [
+        "uang"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "toko",
+         "Shop"
+        ],
+        [
+         "uang",
+         "Money"
+        ],
+        [
+         "tas",
+         "Bag"
+        ],
+        [
+         "kemeja",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "toko",
+        "uang",
+        "tas",
+        "kemeja"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "tas",
+       "words": [
+        "tas"
+       ],
+       "options": [
+        "tas",
+        "mahal",
+        "besar",
+        "sepatu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "kemeja",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Money",
+        "Expensive",
+        "Shoes"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "kemeja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "ini",
+        "Saya",
+        "Terlalu",
+        "sepatu",
+        "Bisa",
+        "mau"
+       ],
+       "answer": [
+        "Saya",
+        "mau",
+        "ini"
+       ],
+       "accepted": [
+        "Saya mau yang ini."
+       ],
+       "words": [
+        "Saya mau ini."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Apakah tokonya buka?",
+       "promptLang": "target",
+       "tiles": [
+        "It",
+        "the",
+        "Is",
+        "open",
+        "need",
+        "shop",
+        "big"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "Apakah tokonya buka?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Terlalu mahal.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Terlalu mahal."
+       ],
+       "words": [
+        "mahal"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya mau ini.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Saya mau ini."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "sepatu",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "murah",
+       "e": "Cheap",
+       "kind": "word"
+      },
+      {
+       "t": "mahal",
+       "e": "Expensive",
+       "kind": "word"
+      },
+      {
+       "t": "besar",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Saya perlu sepatu.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "alts": [
+        "Saya butuh sepatu."
+       ]
+      },
+      {
+       "t": "Tasnya besar.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "alts": [
+        "Tas ini besar."
+       ]
+      },
+      {
+       "t": "Bisa bayar pakai kartu?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Bisakah saya membayar dengan kartu?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sepatu",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Money",
+        "Shirt",
+        "Shoes"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "sepatu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "murah",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Shirt",
+        "Cheap",
+        "Shop"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "murah"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "sepatu",
+         "Shoes"
+        ],
+        [
+         "murah",
+         "Cheap"
+        ],
+        [
+         "mahal",
+         "Expensive"
+        ],
+        [
+         "besar",
+         "Big"
+        ]
+       ],
+       "words": [
+        "sepatu",
+        "murah",
+        "mahal",
+        "besar"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "mahal",
+       "words": [
+        "mahal"
+       ],
+       "options": [
+        "tas",
+        "kemeja",
+        "mahal",
+        "besar"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "besar",
+       "words": [
+        "besar"
+       ],
+       "options": [
+        "tas",
+        "uang",
+        "besar",
+        "murah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "sepatu",
+        "mahal",
+        "Terlalu",
+        "Saya",
+        "hanya",
+        "perlu"
+       ],
+       "answer": [
+        "Saya",
+        "perlu",
+        "sepatu"
+       ],
+       "accepted": [
+        "Saya butuh sepatu."
+       ],
+       "words": [
+        "sepatu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tasnya besar.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "too",
+        "like",
+        "is",
+        "bag",
+        "The",
+        "big"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "besar"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya perlu sepatu.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Saya perlu sepatu."
+       ],
+       "words": [
+        "sepatu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bisa bayar pakai kartu?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Bisa bayar pakai kartu?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "toko"
+       ],
+       "words": [
+        "toko"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Saya hanya lihat-lihat.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "alts": [
+        "Cuma lihat-lihat."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "uang",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Cheap",
+        "Money",
+        "Shirt"
+       ],
+       "answer": "Money",
+       "words": [
+        "uang"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "uang",
+         "Money"
+        ],
+        [
+         "kemeja",
+         "Shirt"
+        ],
+        [
+         "murah",
+         "Cheap"
+        ],
+        [
+         "toko",
+         "Shop"
+        ],
+        [
+         "tas",
+         "Bag"
+        ]
+       ],
+       "words": [
+        "uang",
+        "kemeja",
+        "murah",
+        "toko",
+        "tas"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Saya hanya lihat-lihat.",
+       "promptLang": "target",
+       "options": [
+        "The bag is big.",
+        "Is the shop open?",
+        "I am just looking.",
+        "Can I pay by card?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Saya hanya lihat-lihat."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Terlalu mahal.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "too",
+        "It",
+        "by",
+        "the",
+        "expensive",
+        "this"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "mahal"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "Saya",
+        "pakai",
+        "buka",
+        "lihat-lihat",
+        "hanya",
+        "bayar"
+       ],
+       "answer": [
+        "Saya",
+        "hanya",
+        "lihat-lihat"
+       ],
+       "accepted": [
+        "Cuma lihat-lihat."
+       ],
+       "words": [
+        "Saya hanya lihat-lihat."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "kartu",
+        "pakai",
+        "besar",
+        "Bisa",
+        "bayar",
+        "mau",
+        "lihat-lihat"
+       ],
+       "answer": [
+        "Bisa",
+        "bayar",
+        "pakai",
+        "kartu"
+       ],
+       "accepted": [
+        "Bisakah saya membayar dengan kartu?"
+       ],
+       "words": [
+        "Bisa bayar pakai kartu?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bisa bayar pakai kartu?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Bisa bayar pakai kartu?"
+       ],
+       "words": [
+        "Bisa bayar pakai kartu?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Apakah tokonya buka?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "Apakah tokonya buka?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Tasnya besar.",
+        "Tas ini besar."
+       ],
+       "words": [
+        "besar"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "uang"
+       ],
+       "words": [
+        "uang"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Saya mau ini.",
+       "promptLang": "target",
+       "options": [
+        "I need shoes.",
+        "Can I pay by card?",
+        "I am just looking.",
+        "I would like this."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Saya mau ini."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "toko",
+         "Shop"
+        ],
+        [
+         "kemeja",
+         "Shirt"
+        ],
+        [
+         "tas",
+         "Bag"
+        ],
+        [
+         "mahal",
+         "Expensive"
+        ]
+       ],
+       "words": [
+        "toko",
+        "kemeja",
+        "tas",
+        "mahal"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shoes",
+       "promptLang": "en",
+       "answer": "sepatu",
+       "words": [
+        "sepatu"
+       ],
+       "options": [
+        "sepatu",
+        "uang",
+        "tas",
+        "kemeja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "pakai",
+        "ini",
+        "Apakah",
+        "kartu",
+        "tokonya",
+        "buka"
+       ],
+       "answer": [
+        "Apakah",
+        "tokonya",
+        "buka"
+       ],
+       "accepted": [
+        "Tokonya buka?"
+       ],
+       "words": [
+        "Apakah tokonya buka?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya perlu sepatu.",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "too",
+        "pay",
+        "need",
+        "shoes",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "sepatu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya hanya lihat-lihat.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Saya hanya lihat-lihat."
+       ],
+       "words": [
+        "Saya hanya lihat-lihat."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tasnya besar.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Tasnya besar."
+       ],
+       "words": [
+        "besar"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Terlalu mahal.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "mahal"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answers": [
+        "besar"
+       ],
+       "words": [
+        "besar"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

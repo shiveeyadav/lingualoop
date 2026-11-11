@@ -10,26 +10,26 @@ Stack: Next.js 14 (pages router, plain JavaScript), PostgreSQL (`pg`), `bcryptjs
 |---|---|---|---|---|---|---|
 | Spanish | Español | es-ES | - | 9 | 36 | 342 |
 | Portuguese (Portugal) | Português europeu | pt-PT | - | 9 | 36 | 342 |
-| French | Français | fr-FR | - | 6 | 24 | 228 |
-| German | Deutsch | de-DE | - | 6 | 24 | 228 |
-| Italian | Italiano | it-IT | - | 6 | 24 | 228 |
-| Dutch | Nederlands | nl-NL | - | 6 | 24 | 228 |
-| Polish | Polski | pl-PL | - | 6 | 24 | 228 |
-| Russian | Русский | ru-RU | transliteration | 6 | 24 | 228 |
-| Turkish | Türkçe | tr-TR | - | 6 | 24 | 228 |
-| Arabic (MSA, right-to-left) | العربية | ar-SA | transcription | 6 | 24 | 228 |
-| Hindi | हिन्दी | hi-IN | romanization | 6 | 24 | 228 |
-| Chinese (Mandarin, simplified) | 中文 | zh-CN | pinyin | 6 | 24 | 228 |
-| Japanese | 日本語 | ja-JP | romaji | 6 | 24 | 228 |
-| Korean | 한국어 | ko-KR | romanization | 6 | 24 | 228 |
-| Swedish | Svenska | sv-SE | - | 6 | 24 | 228 |
-| Romanian | Română | ro-RO | - | 6 | 24 | 228 |
-| Indonesian | Bahasa Indonesia | id-ID | - | 6 | 24 | 228 |
-| Vietnamese | Tiếng Việt | vi-VN | - | 6 | 24 | 228 |
-| Ukrainian | Українська | uk-UA | transliteration | 6 | 24 | 228 |
-| Greek | Ελληνικά | el-GR | romanization | 6 | 24 | 228 |
+| French | Français | fr-FR | - | 7 | 28 | 266 |
+| German | Deutsch | de-DE | - | 7 | 28 | 266 |
+| Italian | Italiano | it-IT | - | 7 | 28 | 266 |
+| Dutch | Nederlands | nl-NL | - | 7 | 28 | 266 |
+| Polish | Polski | pl-PL | - | 7 | 28 | 266 |
+| Russian | Русский | ru-RU | transliteration | 7 | 28 | 266 |
+| Turkish | Türkçe | tr-TR | - | 7 | 28 | 266 |
+| Arabic (MSA, right-to-left) | العربية | ar-SA | transcription | 7 | 28 | 266 |
+| Hindi | हिन्दी | hi-IN | romanization | 7 | 28 | 266 |
+| Chinese (Mandarin, simplified) | 中文 | zh-CN | pinyin | 7 | 28 | 266 |
+| Japanese | 日本語 | ja-JP | romaji | 7 | 28 | 266 |
+| Korean | 한국어 | ko-KR | romanization | 7 | 28 | 266 |
+| Swedish | Svenska | sv-SE | - | 7 | 28 | 266 |
+| Romanian | Română | ro-RO | - | 7 | 28 | 266 |
+| Indonesian | Bahasa Indonesia | id-ID | - | 7 | 28 | 266 |
+| Vietnamese | Tiếng Việt | vi-VN | - | 7 | 28 | 266 |
+| Ukrainian | Українська | uk-UA | transliteration | 7 | 28 | 266 |
+| Greek | Ελληνικά | el-GR | romanization | 7 | 28 | 266 |
 
-**4,788 exercises in total.** The 18 concept-based courses share one syllabus: Greetings, People and family, Food and drink, Numbers (1-10, prices, the time), Travel and directions, Daily routine. Spanish and Portuguese keep their original nine topics (greetings, introductions, being polite, numbers, food, family, getting around, at the café, days and time). Every unit has 4 lessons (New words, More words, Sentences, Unit review) of 9-10 exercises.
+**5,472 exercises in total.** The 18 concept-based courses share one syllabus: Greetings, People and family, Food and drink, Numbers (1-10, prices, the time), Travel and directions, Daily routine, Shopping. Spanish and Portuguese keep their original nine topics (greetings, introductions, being polite, numbers, food, family, getting around, at the café, days and time). Every unit has 4 lessons (New words, More words, Sentences, Unit review) of 9-10 exercises.
 
 Content uses only common vocabulary and short, simple sentences. Where a sentence depends on the speaker's gender (Arabic, Hindi, Polish, Russian, Ukrainian, Romanian), the masculine form is shown and the feminine form is accepted. **Before launch, have a native speaker skim each course** - see "Content review" below.
 

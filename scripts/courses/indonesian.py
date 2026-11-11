@@ -114,3 +114,24 @@ T = {
     "children_school": "Anak-anak pergi ke sekolah.",
     "what_time_now": "Sekarang jam berapa?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Berapa?' asks how much; 'terlalu' means too: 'terlalu mahal' = too expensive."
+
+T.update({
+    "shop": "toko",
+    "money": "uang",
+    "bag": "tas",
+    "shirt": "kemeja | baju",
+    "shoes": "sepatu",
+    "cheap": "murah",
+    "expensive": "mahal",
+    "big": "besar",
+    "i_want_this": "Saya mau ini. | Saya mau yang ini.",
+    "too_expensive": "Terlalu mahal. | Ini terlalu mahal.",
+    "shop_open": "Apakah tokonya buka? | Tokonya buka?",
+    "i_need_shoes": "Saya perlu sepatu. | Saya butuh sepatu.",
+    "bag_is_big": "Tasnya besar. | Tas ini besar.",
+    "pay_card": "Bisa bayar pakai kartu? | Bisakah saya membayar dengan kartu?",
+    "just_looking": "Saya hanya lihat-lihat. | Cuma lihat-lihat.",
+})

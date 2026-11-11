@@ -115,3 +115,24 @@ T = {
     "children_school": "Τα παιδιά πηγαίνουν στο σχολείο. @ Ta paidia pigainoun sto scholeio.",
     "what_time_now": "Τι ώρα είναι τώρα; | Τι ώρα είναι; @ Ti ora einai tora?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'Πόσο κάνει;' (poso kanei?) asks the price; 'θα ήθελα' (tha ithela) means I would like."
+
+T.update({
+    "shop": "μαγαζί | κατάστημα @ magazi",
+    "money": "χρήματα | λεφτά @ chrimata | lefta",
+    "bag": "τσάντα @ tsanta",
+    "shirt": "πουκάμισο @ poukamiso",
+    "shoes": "παπούτσια @ papoutsia",
+    "cheap": "φτηνός | φτηνό @ ftinos",
+    "expensive": "ακριβός | ακριβό @ akrivos",
+    "big": "μεγάλος | μεγάλο @ megalos",
+    "i_want_this": "Θα ήθελα αυτό. | Θέλω αυτό. @ Tha ithela afto.",
+    "too_expensive": "Είναι πολύ ακριβό. @ Einai poli akrivo.",
+    "shop_open": "Είναι ανοιχτό το μαγαζί; | Είναι ανοιχτό το κατάστημα; @ Einai anoichto to magazi?",
+    "i_need_shoes": "Χρειάζομαι παπούτσια. @ Chreiazomai papoutsia.",
+    "bag_is_big": "Η τσάντα είναι μεγάλη. @ I tsanta einai megali.",
+    "pay_card": "Μπορώ να πληρώσω με κάρτα; @ Boro na pliroso me karta?",
+    "just_looking": "Απλώς κοιτάζω. | Απλά κοιτάζω. @ Aplos koitazo.",
+})

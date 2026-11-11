@@ -5649,6 +5649,936 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "Ask for something with \"je voudrais\" (I would like): it is politer than \"je veux\" (I want)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "magasin",
+      "e": "Shop"
+     },
+     {
+      "t": "argent",
+      "e": "Money"
+     },
+     {
+      "t": "sac",
+      "e": "Bag"
+     },
+     {
+      "t": "chemise",
+      "e": "Shirt"
+     },
+     {
+      "t": "chaussures",
+      "e": "Shoes"
+     },
+     {
+      "t": "bon marché",
+      "e": "Cheap"
+     },
+     {
+      "t": "cher",
+      "e": "Expensive"
+     },
+     {
+      "t": "grand",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Je voudrais ceci.",
+      "e": "I would like this."
+     },
+     {
+      "t": "C'est trop cher.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Le magasin est ouvert ?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "J'ai besoin de chaussures.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Le sac est grand.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Je peux payer par carte ?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Je regarde seulement.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "magasin",
+       "e": "Shop",
+       "kind": "word",
+       "alts": [
+        "boutique"
+       ]
+      },
+      {
+       "t": "argent",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "sac",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "chemise",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Je voudrais ceci.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Je voudrais ça.",
+        "Je veux ça."
+       ]
+      },
+      {
+       "t": "Le magasin est ouvert ?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "alts": [
+        "Est-ce que le magasin est ouvert ?"
+       ]
+      },
+      {
+       "t": "C'est trop cher.",
+       "e": "It is too expensive.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "magasin",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Shop",
+        "Money",
+        "Expensive"
+       ],
+       "answer": "Shop",
+       "words": [
+        "magasin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "argent",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Shop",
+        "Money",
+        "Shirt"
+       ],
+       "answer": "Money",
+       "words": [
+        "argent"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "magasin",
+         "Shop"
+        ],
+        [
+         "argent",
+         "Money"
+        ],
+        [
+         "sac",
+         "Bag"
+        ],
+        [
+         "chemise",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "magasin",
+        "argent",
+        "sac",
+        "chemise"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "sac",
+       "words": [
+        "sac"
+       ],
+       "options": [
+        "chemise",
+        "argent",
+        "cher",
+        "sac"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "chemise",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Expensive",
+        "Shirt",
+        "Bag"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "chemise"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "par",
+        "Je",
+        "chaussures",
+        "voudrais",
+        "ceci",
+        "sac"
+       ],
+       "answer": [
+        "Je",
+        "voudrais",
+        "ceci"
+       ],
+       "accepted": [
+        "Je voudrais ça.",
+        "Je veux ça."
+       ],
+       "words": [
+        "Je voudrais ceci."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Le magasin est ouvert ?",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "open",
+        "just",
+        "I",
+        "shop",
+        "need",
+        "Is"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "magasin"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "C'est trop cher.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "C'est trop cher."
+       ],
+       "words": [
+        "cher"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Je voudrais ceci.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Je voudrais ceci."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "chaussures",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "bon marché",
+       "e": "Cheap",
+       "kind": "word",
+       "alts": [
+        "pas cher"
+       ]
+      },
+      {
+       "t": "cher",
+       "e": "Expensive",
+       "kind": "word",
+       "alts": [
+        "chère"
+       ]
+      },
+      {
+       "t": "grand",
+       "e": "Big",
+       "kind": "word",
+       "alts": [
+        "grande",
+        "gros"
+       ]
+      },
+      {
+       "t": "J'ai besoin de chaussures.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Le sac est grand.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Je peux payer par carte ?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Est-ce que je peux payer par carte ?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "chaussures",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Bag",
+        "Shoes",
+        "Cheap"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "chaussures"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bon marché",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Big",
+        "Cheap",
+        "Expensive"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "bon marché"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "chaussures",
+         "Shoes"
+        ],
+        [
+         "bon marché",
+         "Cheap"
+        ],
+        [
+         "cher",
+         "Expensive"
+        ],
+        [
+         "grand",
+         "Big"
+        ]
+       ],
+       "words": [
+        "chaussures",
+        "bon marché",
+        "cher",
+        "grand"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "cher",
+       "words": [
+        "cher"
+       ],
+       "options": [
+        "argent",
+        "cher",
+        "sac",
+        "grand"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "grand",
+       "words": [
+        "grand"
+       ],
+       "options": [
+        "grand",
+        "chemise",
+        "argent",
+        "chaussures"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "de",
+        "chaussures",
+        "besoin",
+        "cher",
+        "J'ai",
+        "trop",
+        "Le"
+       ],
+       "answer": [
+        "J'ai",
+        "besoin",
+        "de",
+        "chaussures"
+       ],
+       "accepted": [],
+       "words": [
+        "chaussures"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Le sac est grand.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "shoes",
+        "is",
+        "would",
+        "need",
+        "bag",
+        "big"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "sac",
+        "grand"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "J'ai besoin de chaussures.",
+       "translation": "I need shoes.",
+       "answers": [
+        "J'ai besoin de chaussures."
+       ],
+       "words": [
+        "chaussures"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Je peux payer par carte ?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Je peux payer par carte ?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "magasin",
+        "boutique"
+       ],
+       "words": [
+        "magasin"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Je regarde seulement.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "alts": [
+        "Je regarde juste."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "argent",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Shirt",
+        "Money",
+        "Expensive"
+       ],
+       "answer": "Money",
+       "words": [
+        "argent"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "grand",
+         "Big"
+        ],
+        [
+         "chemise",
+         "Shirt"
+        ],
+        [
+         "cher",
+         "Expensive"
+        ],
+        [
+         "chaussures",
+         "Shoes"
+        ],
+        [
+         "bon marché",
+         "Cheap"
+        ]
+       ],
+       "words": [
+        "grand",
+        "chemise",
+        "cher",
+        "chaussures",
+        "bon marché"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Je regarde seulement.",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "The bag is big.",
+        "I need shoes.",
+        "Can I pay by card?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Je regarde seulement."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "C'est trop cher.",
+       "promptLang": "target",
+       "tiles": [
+        "too",
+        "just",
+        "by",
+        "shoes",
+        "It",
+        "expensive",
+        "is"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "cher"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "cher",
+        "Je",
+        "seulement",
+        "trop",
+        "regarde",
+        "ouvert"
+       ],
+       "answer": [
+        "Je",
+        "regarde",
+        "seulement"
+       ],
+       "accepted": [
+        "Je regarde juste."
+       ],
+       "words": [
+        "Je regarde seulement."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "trop",
+        "est",
+        "payer",
+        "carte",
+        "par",
+        "Je",
+        "de",
+        "peux"
+       ],
+       "answer": [
+        "Je",
+        "peux",
+        "payer",
+        "par",
+        "carte"
+       ],
+       "accepted": [
+        "Est-ce que je peux payer par carte ?"
+       ],
+       "words": [
+        "Je peux payer par carte ?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je peux payer par carte ?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Je peux payer par carte ?"
+       ],
+       "words": [
+        "Je peux payer par carte ?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Le magasin est ouvert ?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "magasin"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Le sac est grand."
+       ],
+       "words": [
+        "sac",
+        "grand"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "argent"
+       ],
+       "words": [
+        "argent"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Je voudrais ceci.",
+       "promptLang": "target",
+       "options": [
+        "It is too expensive.",
+        "I need shoes.",
+        "Can I pay by card?",
+        "I would like this."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Je voudrais ceci."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "argent",
+         "Money"
+        ],
+        [
+         "sac",
+         "Bag"
+        ],
+        [
+         "chemise",
+         "Shirt"
+        ],
+        [
+         "magasin",
+         "Shop"
+        ]
+       ],
+       "words": [
+        "argent",
+        "sac",
+        "chemise",
+        "magasin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shoes",
+       "promptLang": "en",
+       "answer": "chaussures",
+       "words": [
+        "chaussures"
+       ],
+       "options": [
+        "cher",
+        "sac",
+        "magasin",
+        "chaussures"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in French",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "Le",
+        "magasin",
+        "Je",
+        "grand",
+        "J'ai",
+        "ouvert",
+        "est"
+       ],
+       "answer": [
+        "Le",
+        "magasin",
+        "est",
+        "ouvert"
+       ],
+       "accepted": [
+        "Est-ce que le magasin est ouvert ?"
+       ],
+       "words": [
+        "magasin"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "J'ai besoin de chaussures.",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "expensive",
+        "shop",
+        "shoes",
+        "need",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "chaussures"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Je regarde seulement.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Je regarde seulement."
+       ],
+       "words": [
+        "Je regarde seulement."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Le sac est grand.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Le sac est grand."
+       ],
+       "words": [
+        "sac",
+        "grand"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "C'est trop cher.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "cher"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in French",
+       "prompt": "Cheap",
+       "promptLang": "en",
+       "answers": [
+        "bon marché",
+        "pas cher"
+       ],
+       "words": [
+        "bon marché"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

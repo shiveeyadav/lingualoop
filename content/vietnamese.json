@@ -3095,7 +3095,7 @@
         "Bao nhiêu tiền?"
        ],
        "words": [
-        "Bao nhiêu tiền?"
+        "tiền"
        ]
       },
       {
@@ -3477,7 +3477,7 @@
         "How much does this cost?"
        ],
        "words": [
-        "Bao nhiêu tiền?"
+        "tiền"
        ]
       },
       {
@@ -3756,7 +3756,7 @@
         "How much does this cost?"
        ],
        "words": [
-        "Bao nhiêu tiền?"
+        "tiền"
        ]
       },
       {
@@ -5615,6 +5615,950 @@
        ],
        "words": [
         "nhà"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Bao nhiêu?' asks how much; 'quá' after a word means too: 'đắt quá' = too expensive."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "cửa hàng",
+      "e": "Shop"
+     },
+     {
+      "t": "tiền",
+      "e": "Money"
+     },
+     {
+      "t": "túi",
+      "e": "Bag"
+     },
+     {
+      "t": "áo sơ mi",
+      "e": "Shirt"
+     },
+     {
+      "t": "giày",
+      "e": "Shoes"
+     },
+     {
+      "t": "rẻ",
+      "e": "Cheap"
+     },
+     {
+      "t": "đắt",
+      "e": "Expensive"
+     },
+     {
+      "t": "to",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Tôi muốn cái này.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Đắt quá.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Cửa hàng có mở cửa không?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Tôi cần giày.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Cái túi to.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Tôi trả bằng thẻ được không?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Tôi chỉ xem thôi.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "cửa hàng",
+       "e": "Shop",
+       "kind": "word",
+       "alts": [
+        "tiệm"
+       ]
+      },
+      {
+       "t": "tiền",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "túi",
+       "e": "Bag",
+       "kind": "word",
+       "alts": [
+        "cái túi"
+       ]
+      },
+      {
+       "t": "áo sơ mi",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Tôi muốn cái này.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Cho tôi cái này."
+       ]
+      },
+      {
+       "t": "Cửa hàng có mở cửa không?",
+       "e": "Is the shop open?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Đắt quá.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "Cái này đắt quá.",
+        "Mắc quá."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cửa hàng",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shoes",
+        "Shop",
+        "Shirt"
+       ],
+       "answer": "Shop",
+       "words": [
+        "cửa hàng"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tiền",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Expensive",
+        "Shirt",
+        "Shop"
+       ],
+       "answer": "Money",
+       "words": [
+        "tiền"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cửa hàng",
+         "Shop"
+        ],
+        [
+         "tiền",
+         "Money"
+        ],
+        [
+         "túi",
+         "Bag"
+        ],
+        [
+         "áo sơ mi",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "cửa hàng",
+        "tiền",
+        "túi",
+        "áo sơ mi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "túi",
+       "words": [
+        "túi"
+       ],
+       "options": [
+        "túi",
+        "to",
+        "áo sơ mi",
+        "giày"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "áo sơ mi",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Cheap",
+        "Shirt",
+        "Money"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "áo sơ mi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "Tôi",
+        "cái",
+        "này",
+        "thôi",
+        "hàng",
+        "muốn",
+        "to"
+       ],
+       "answer": [
+        "Tôi",
+        "muốn",
+        "cái",
+        "này"
+       ],
+       "accepted": [
+        "Cho tôi cái này."
+       ],
+       "words": [
+        "Tôi muốn cái này."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cửa hàng có mở cửa không?",
+       "promptLang": "target",
+       "tiles": [
+        "by",
+        "Is",
+        "this",
+        "the",
+        "shop",
+        "open",
+        "looking"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "vâng",
+        "không",
+        "cửa hàng"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Đắt quá.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Đắt quá."
+       ],
+       "words": [
+        "đắt"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi muốn cái này.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Tôi muốn cái này."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "giày",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "rẻ",
+       "e": "Cheap",
+       "kind": "word"
+      },
+      {
+       "t": "đắt",
+       "e": "Expensive",
+       "kind": "word",
+       "alts": [
+        "mắc"
+       ]
+      },
+      {
+       "t": "to",
+       "e": "Big",
+       "kind": "word",
+       "alts": [
+        "lớn"
+       ]
+      },
+      {
+       "t": "Tôi cần giày.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "alts": [
+        "Tôi cần một đôi giày."
+       ]
+      },
+      {
+       "t": "Cái túi to.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "alts": [
+        "Cái túi lớn."
+       ]
+      },
+      {
+       "t": "Tôi trả bằng thẻ được không?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Trả bằng thẻ được không?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "giày",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Big",
+        "Shoes",
+        "Shop"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "giày"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "rẻ",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Cheap",
+        "Shirt",
+        "Big"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "rẻ"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "giày",
+         "Shoes"
+        ],
+        [
+         "rẻ",
+         "Cheap"
+        ],
+        [
+         "đắt",
+         "Expensive"
+        ],
+        [
+         "to",
+         "Big"
+        ]
+       ],
+       "words": [
+        "giày",
+        "rẻ",
+        "đắt",
+        "to"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "đắt",
+       "words": [
+        "đắt"
+       ],
+       "options": [
+        "giày",
+        "túi",
+        "áo sơ mi",
+        "đắt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "to",
+       "words": [
+        "to"
+       ],
+       "options": [
+        "to",
+        "đắt",
+        "áo sơ mi",
+        "túi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "Cửa",
+        "cần",
+        "Tôi",
+        "muốn",
+        "to",
+        "giày"
+       ],
+       "answer": [
+        "Tôi",
+        "cần",
+        "giày"
+       ],
+       "accepted": [
+        "Tôi cần một đôi giày."
+       ],
+       "words": [
+        "giày"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cái túi to.",
+       "promptLang": "target",
+       "tiles": [
+        "looking",
+        "bag",
+        "The",
+        "is",
+        "this",
+        "Can",
+        "big"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "túi",
+        "to"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi cần giày.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Tôi cần giày."
+       ],
+       "words": [
+        "giày"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi trả bằng thẻ được không?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "không"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "cửa hàng",
+        "tiệm"
+       ],
+       "words": [
+        "cửa hàng"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Tôi chỉ xem thôi.",
+       "e": "I am just looking.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tiền",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Money",
+        "Shirt",
+        "Shoes"
+       ],
+       "answer": "Money",
+       "words": [
+        "tiền"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "to",
+         "Big"
+        ],
+        [
+         "túi",
+         "Bag"
+        ],
+        [
+         "áo sơ mi",
+         "Shirt"
+        ],
+        [
+         "giày",
+         "Shoes"
+        ],
+        [
+         "đắt",
+         "Expensive"
+        ]
+       ],
+       "words": [
+        "to",
+        "túi",
+        "áo sơ mi",
+        "giày",
+        "đắt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tôi chỉ xem thôi.",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "I need shoes.",
+        "The bag is big.",
+        "Is the shop open?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Tôi chỉ xem thôi."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Đắt quá.",
+       "promptLang": "target",
+       "tiles": [
+        "need",
+        "open",
+        "It",
+        "is",
+        "expensive",
+        "too",
+        "card"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "đắt"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "chỉ",
+        "Cửa",
+        "xem",
+        "thôi",
+        "Tôi",
+        "thẻ",
+        "to"
+       ],
+       "answer": [
+        "Tôi",
+        "chỉ",
+        "xem",
+        "thôi"
+       ],
+       "accepted": [],
+       "words": [
+        "Tôi chỉ xem thôi."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "túi",
+        "trả",
+        "không",
+        "chỉ",
+        "Đắt",
+        "Tôi",
+        "bằng",
+        "được",
+        "thẻ"
+       ],
+       "answer": [
+        "Tôi",
+        "trả",
+        "bằng",
+        "thẻ",
+        "được",
+        "không"
+       ],
+       "accepted": [
+        "Trả bằng thẻ được không?"
+       ],
+       "words": [
+        "không"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi trả bằng thẻ được không?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Tôi trả bằng thẻ được không?"
+       ],
+       "words": [
+        "không"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Cửa hàng có mở cửa không?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "vâng",
+        "không",
+        "cửa hàng"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Cái túi to.",
+        "Cái túi lớn."
+       ],
+       "words": [
+        "túi",
+        "to"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "tiền"
+       ],
+       "words": [
+        "tiền"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tôi muốn cái này.",
+       "promptLang": "target",
+       "options": [
+        "The bag is big.",
+        "It is too expensive.",
+        "Is the shop open?",
+        "I would like this."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Tôi muốn cái này."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "tiền",
+         "Money"
+        ],
+        [
+         "cửa hàng",
+         "Shop"
+        ],
+        [
+         "túi",
+         "Bag"
+        ],
+        [
+         "giày",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "tiền",
+        "cửa hàng",
+        "túi",
+        "giày"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "đắt",
+       "words": [
+        "đắt"
+       ],
+       "options": [
+        "rẻ",
+        "đắt",
+        "túi",
+        "cửa hàng"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "không",
+        "Cửa",
+        "được",
+        "cửa",
+        "giày",
+        "có",
+        "mở",
+        "to",
+        "hàng"
+       ],
+       "answer": [
+        "Cửa",
+        "hàng",
+        "có",
+        "mở",
+        "cửa",
+        "không"
+       ],
+       "accepted": [],
+       "words": [
+        "vâng",
+        "không",
+        "cửa hàng"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi cần giày.",
+       "promptLang": "target",
+       "tiles": [
+        "bag",
+        "shoes",
+        "by",
+        "like",
+        "I",
+        "need"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "giày"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi chỉ xem thôi.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Tôi chỉ xem thôi."
+       ],
+       "words": [
+        "Tôi chỉ xem thôi."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cái túi to.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Cái túi to."
+       ],
+       "words": [
+        "túi",
+        "to"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Đắt quá.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "đắt"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answers": [
+        "to",
+        "lớn"
+       ],
+       "words": [
+        "to"
        ]
       }
      ]

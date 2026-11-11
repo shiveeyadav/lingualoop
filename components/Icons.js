@@ -37,6 +37,12 @@ const PATHS = {
       <path d="M8 2v3M12 2v3" />
     </>
   ),
+  bag: (
+    <>
+      <path d="M5 8h14l-1 12H6z" />
+      <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+    </>
+  ),
   home: (
     <>
       <path d="M3 11 12 4l9 7" />

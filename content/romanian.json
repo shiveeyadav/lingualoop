@@ -5548,6 +5548,911 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Aș vrea' (I would like) is the polite way to ask; 'cât costă?' asks the price."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "magazin",
+      "e": "Shop"
+     },
+     {
+      "t": "bani",
+      "e": "Money"
+     },
+     {
+      "t": "geantă",
+      "e": "Bag"
+     },
+     {
+      "t": "cămașă",
+      "e": "Shirt"
+     },
+     {
+      "t": "pantofi",
+      "e": "Shoes"
+     },
+     {
+      "t": "ieftin",
+      "e": "Cheap"
+     },
+     {
+      "t": "scump",
+      "e": "Expensive"
+     },
+     {
+      "t": "mare",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Aș vrea asta.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Este prea scump.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Magazinul este deschis?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Am nevoie de pantofi.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Geanta este mare.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Pot să plătesc cu cardul?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Doar mă uit.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "magazin",
+       "e": "Shop",
+       "kind": "word"
+      },
+      {
+       "t": "bani",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "geantă",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "cămașă",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Aș vrea asta.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Vreau asta."
+       ]
+      },
+      {
+       "t": "Magazinul este deschis?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "alts": [
+        "E deschis magazinul?"
+       ]
+      },
+      {
+       "t": "Este prea scump.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "E prea scump."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "magazin",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Shop",
+        "Money",
+        "Cheap"
+       ],
+       "answer": "Shop",
+       "words": [
+        "magazin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bani",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Shoes",
+        "Money",
+        "Shirt"
+       ],
+       "answer": "Money",
+       "words": [
+        "bani"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "magazin",
+         "Shop"
+        ],
+        [
+         "bani",
+         "Money"
+        ],
+        [
+         "geantă",
+         "Bag"
+        ],
+        [
+         "cămașă",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "magazin",
+        "bani",
+        "geantă",
+        "cămașă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "geantă",
+       "words": [
+        "geantă"
+       ],
+       "options": [
+        "scump",
+        "pantofi",
+        "geantă",
+        "magazin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cămașă",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Bag",
+        "Shoes",
+        "Shirt"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "cămașă"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "asta",
+        "Aș",
+        "Doar",
+        "vrea",
+        "mare",
+        "mă"
+       ],
+       "answer": [
+        "Aș",
+        "vrea",
+        "asta"
+       ],
+       "accepted": [
+        "Vreau asta."
+       ],
+       "words": [
+        "Aș vrea asta."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Magazinul este deschis?",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "the",
+        "Is",
+        "open",
+        "am",
+        "shop",
+        "expensive"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "Magazinul este deschis?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Este prea scump.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Este prea scump."
+       ],
+       "words": [
+        "scump"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Aș vrea asta.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Aș vrea asta."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "pantofi",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "ieftin",
+       "e": "Cheap",
+       "kind": "word"
+      },
+      {
+       "t": "scump",
+       "e": "Expensive",
+       "kind": "word"
+      },
+      {
+       "t": "mare",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Am nevoie de pantofi.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Geanta este mare.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "alts": [
+        "Geanta e mare."
+       ]
+      },
+      {
+       "t": "Pot să plătesc cu cardul?",
+       "e": "Can I pay by card?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pantofi",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Expensive",
+        "Shoes",
+        "Shop"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "pantofi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ieftin",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shoes",
+        "Big",
+        "Money"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "ieftin"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "pantofi",
+         "Shoes"
+        ],
+        [
+         "ieftin",
+         "Cheap"
+        ],
+        [
+         "scump",
+         "Expensive"
+        ],
+        [
+         "mare",
+         "Big"
+        ]
+       ],
+       "words": [
+        "pantofi",
+        "ieftin",
+        "scump",
+        "mare"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "scump",
+       "words": [
+        "scump"
+       ],
+       "options": [
+        "ieftin",
+        "pantofi",
+        "scump",
+        "mare"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "mare",
+       "words": [
+        "mare"
+       ],
+       "options": [
+        "ieftin",
+        "pantofi",
+        "mare",
+        "bani"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "Am",
+        "cu",
+        "deschis",
+        "Doar",
+        "pantofi",
+        "nevoie",
+        "de"
+       ],
+       "answer": [
+        "Am",
+        "nevoie",
+        "de",
+        "pantofi"
+       ],
+       "accepted": [],
+       "words": [
+        "pantofi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Geanta este mare.",
+       "promptLang": "target",
+       "tiles": [
+        "by",
+        "like",
+        "bag",
+        "The",
+        "is",
+        "big",
+        "this"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "mare"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Am nevoie de pantofi.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Am nevoie de pantofi."
+       ],
+       "words": [
+        "pantofi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Pot să plătesc cu cardul?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Pot să plătesc cu cardul?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "magazin"
+       ],
+       "words": [
+        "magazin"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Doar mă uit.",
+       "e": "I am just looking.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bani",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Shoes",
+        "Shop",
+        "Shirt"
+       ],
+       "answer": "Money",
+       "words": [
+        "bani"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "magazin",
+         "Shop"
+        ],
+        [
+         "bani",
+         "Money"
+        ],
+        [
+         "cămașă",
+         "Shirt"
+        ],
+        [
+         "mare",
+         "Big"
+        ],
+        [
+         "ieftin",
+         "Cheap"
+        ]
+       ],
+       "words": [
+        "magazin",
+        "bani",
+        "cămașă",
+        "mare",
+        "ieftin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Doar mă uit.",
+       "promptLang": "target",
+       "options": [
+        "It is too expensive.",
+        "I would like this.",
+        "I am just looking.",
+        "The bag is big."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Doar mă uit."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Este prea scump.",
+       "promptLang": "target",
+       "tiles": [
+        "too",
+        "It",
+        "is",
+        "Can",
+        "shop",
+        "expensive",
+        "like"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "scump"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "scump",
+        "cardul",
+        "de",
+        "Doar",
+        "mă",
+        "uit"
+       ],
+       "answer": [
+        "Doar",
+        "mă",
+        "uit"
+       ],
+       "accepted": [],
+       "words": [
+        "Doar mă uit."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "Aș",
+        "Magazinul",
+        "cardul",
+        "cu",
+        "asta",
+        "plătesc",
+        "să",
+        "Pot"
+       ],
+       "answer": [
+        "Pot",
+        "să",
+        "plătesc",
+        "cu",
+        "cardul"
+       ],
+       "accepted": [],
+       "words": [
+        "Pot să plătesc cu cardul?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Pot să plătesc cu cardul?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Pot să plătesc cu cardul?"
+       ],
+       "words": [
+        "Pot să plătesc cu cardul?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Magazinul este deschis?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "Magazinul este deschis?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Geanta este mare.",
+        "Geanta e mare."
+       ],
+       "words": [
+        "mare"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "bani"
+       ],
+       "words": [
+        "bani"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Aș vrea asta.",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "It is too expensive.",
+        "I need shoes.",
+        "The bag is big."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Aș vrea asta."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cămașă",
+         "Shirt"
+        ],
+        [
+         "scump",
+         "Expensive"
+        ],
+        [
+         "geantă",
+         "Bag"
+        ],
+        [
+         "ieftin",
+         "Cheap"
+        ]
+       ],
+       "words": [
+        "cămașă",
+        "scump",
+        "geantă",
+        "ieftin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answer": "bani",
+       "words": [
+        "bani"
+       ],
+       "options": [
+        "bani",
+        "magazin",
+        "geantă",
+        "mare"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "asta",
+        "deschis",
+        "Magazinul",
+        "este",
+        "prea",
+        "mă"
+       ],
+       "answer": [
+        "Magazinul",
+        "este",
+        "deschis"
+       ],
+       "accepted": [
+        "E deschis magazinul?"
+       ],
+       "words": [
+        "Magazinul este deschis?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Am nevoie de pantofi.",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "the",
+        "looking",
+        "shoes",
+        "need",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "pantofi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Doar mă uit.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Doar mă uit."
+       ],
+       "words": [
+        "Doar mă uit."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Geanta este mare.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Geanta este mare."
+       ],
+       "words": [
+        "mare"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Este prea scump.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "scump"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answers": [
+        "mare"
+       ],
+       "words": [
+        "mare"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -6778,6 +6778,1122 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Можна карткою?' (mozhna kartkoiu?) is the short way to ask if you can pay by card."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "магазин",
+      "e": "Shop",
+      "r": "mahazyn"
+     },
+     {
+      "t": "гроші",
+      "e": "Money",
+      "r": "hroshi"
+     },
+     {
+      "t": "сумка",
+      "e": "Bag",
+      "r": "sumka"
+     },
+     {
+      "t": "сорочка",
+      "e": "Shirt",
+      "r": "sorochka"
+     },
+     {
+      "t": "взуття",
+      "e": "Shoes",
+      "r": "vzuttia"
+     },
+     {
+      "t": "дешевий",
+      "e": "Cheap",
+      "r": "deshevyi"
+     },
+     {
+      "t": "дорогий",
+      "e": "Expensive",
+      "r": "dorohyi"
+     },
+     {
+      "t": "великий",
+      "e": "Big",
+      "r": "velykyi"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Я хочу це.",
+      "e": "I would like this.",
+      "r": "Ya khochu tse."
+     },
+     {
+      "t": "Це занадто дорого.",
+      "e": "It is too expensive.",
+      "r": "Tse zanadto doroho."
+     },
+     {
+      "t": "Магазин відчинений?",
+      "e": "Is the shop open?",
+      "r": "Mahazyn vidchynenyi?"
+     },
+     {
+      "t": "Мені потрібне взуття.",
+      "e": "I need shoes.",
+      "r": "Meni potribne vzuttia."
+     },
+     {
+      "t": "Сумка велика.",
+      "e": "The bag is big.",
+      "r": "Sumka velyka."
+     },
+     {
+      "t": "Можна оплатити карткою?",
+      "e": "Can I pay by card?",
+      "r": "Mozhna oplatyty kartkoiu?"
+     },
+     {
+      "t": "Я просто дивлюся.",
+      "e": "I am just looking.",
+      "r": "Ya prosto dyvliusia."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "магазин",
+       "e": "Shop",
+       "kind": "word",
+       "r": "mahazyn"
+      },
+      {
+       "t": "гроші",
+       "e": "Money",
+       "kind": "word",
+       "r": "hroshi"
+      },
+      {
+       "t": "сумка",
+       "e": "Bag",
+       "kind": "word",
+       "r": "sumka"
+      },
+      {
+       "t": "сорочка",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "sorochka"
+      },
+      {
+       "t": "Я хочу це.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "Ya khochu tse.",
+       "alts": [
+        "Мені це, будь ласка."
+       ]
+      },
+      {
+       "t": "Магазин відчинений?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "Mahazyn vidchynenyi?",
+       "alts": [
+        "Магазин відкритий?"
+       ]
+      },
+      {
+       "t": "Це занадто дорого.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "Tse zanadto doroho.",
+       "alts": [
+        "Це надто дорого."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "магазин",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Shop",
+        "Shoes",
+        "Money"
+       ],
+       "answer": "Shop",
+       "words": [
+        "магазин"
+       ],
+       "promptRoman": "mahazyn"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "гроші",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Cheap",
+        "Bag",
+        "Money"
+       ],
+       "answer": "Money",
+       "words": [
+        "гроші"
+       ],
+       "promptRoman": "hroshi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "магазин",
+         "Shop"
+        ],
+        [
+         "гроші",
+         "Money"
+        ],
+        [
+         "сумка",
+         "Bag"
+        ],
+        [
+         "сорочка",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "магазин",
+        "гроші",
+        "сумка",
+        "сорочка"
+       ],
+       "romans": [
+        "mahazyn",
+        "hroshi",
+        "sumka",
+        "sorochka"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "сумка",
+       "words": [
+        "сумка"
+       ],
+       "options": [
+        "взуття",
+        "дорогий",
+        "сумка",
+        "магазин"
+       ],
+       "optionsRoman": [
+        "vzuttia",
+        "dorohyi",
+        "sumka",
+        "mahazyn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "сорочка",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Big",
+        "Cheap",
+        "Shoes"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "сорочка"
+       ],
+       "promptRoman": "sorochka"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Ukrainian",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "це",
+        "занадто",
+        "Я",
+        "потрібне",
+        "дорого",
+        "хочу"
+       ],
+       "answer": [
+        "Я",
+        "хочу",
+        "це"
+       ],
+       "accepted": [
+        "Мені це, будь ласка."
+       ],
+       "words": [
+        "Я хочу це."
+       ],
+       "tilesRoman": [
+        "tse",
+        "zanadto",
+        "Ya",
+        "potribne",
+        "doroho",
+        "khochu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Магазин відчинений?",
+       "promptLang": "target",
+       "tiles": [
+        "shop",
+        "need",
+        "It",
+        "the",
+        "Is",
+        "this",
+        "open"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "магазин"
+       ],
+       "promptRoman": "Mahazyn vidchynenyi?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Це занадто дорого.",
+       "roman": "Tse zanadto doroho.",
+       "translation": "It is too expensive.",
+       "words": [
+        "дорогий"
+       ],
+       "options": [
+        "Мені потрібне взуття.",
+        "Я просто дивлюся.",
+        "Я хочу це.",
+        "Це занадто дорого."
+       ],
+       "optionsRoman": [
+        "Meni potribne vzuttia.",
+        "Ya prosto dyvliusia.",
+        "Ya khochu tse.",
+        "Tse zanadto doroho."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Я хочу це.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Я хочу це."
+       ],
+       "promptRoman": "Ya khochu tse."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "взуття",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "vzuttia",
+       "alts": [
+        "черевики"
+       ]
+      },
+      {
+       "t": "дешевий",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "deshevyi",
+       "alts": [
+        "дешево"
+       ]
+      },
+      {
+       "t": "дорогий",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "dorohyi",
+       "alts": [
+        "дорого"
+       ]
+      },
+      {
+       "t": "великий",
+       "e": "Big",
+       "kind": "word",
+       "r": "velykyi"
+      },
+      {
+       "t": "Мені потрібне взуття.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "Meni potribne vzuttia."
+      },
+      {
+       "t": "Сумка велика.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "Sumka velyka."
+      },
+      {
+       "t": "Можна оплатити карткою?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "Mozhna oplatyty kartkoiu?",
+       "alts": [
+        "Можна карткою?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "взуття",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Expensive",
+        "Shoes",
+        "Big"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "взуття"
+       ],
+       "promptRoman": "vzuttia"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "дешевий",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Bag",
+        "Expensive",
+        "Cheap"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "дешевий"
+       ],
+       "promptRoman": "deshevyi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "взуття",
+         "Shoes"
+        ],
+        [
+         "дешевий",
+         "Cheap"
+        ],
+        [
+         "дорогий",
+         "Expensive"
+        ],
+        [
+         "великий",
+         "Big"
+        ]
+       ],
+       "words": [
+        "взуття",
+        "дешевий",
+        "дорогий",
+        "великий"
+       ],
+       "romans": [
+        "vzuttia",
+        "deshevyi",
+        "dorohyi",
+        "velykyi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "дорогий",
+       "words": [
+        "дорогий"
+       ],
+       "options": [
+        "великий",
+        "сорочка",
+        "дорогий",
+        "магазин"
+       ],
+       "optionsRoman": [
+        "velykyi",
+        "sorochka",
+        "dorohyi",
+        "mahazyn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "великий",
+       "words": [
+        "великий"
+       ],
+       "options": [
+        "магазин",
+        "дорогий",
+        "сорочка",
+        "великий"
+       ],
+       "optionsRoman": [
+        "mahazyn",
+        "dorohyi",
+        "sorochka",
+        "velykyi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Ukrainian",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "потрібне",
+        "взуття",
+        "велика",
+        "Мені",
+        "це",
+        "оплатити"
+       ],
+       "answer": [
+        "Мені",
+        "потрібне",
+        "взуття"
+       ],
+       "accepted": [],
+       "words": [
+        "взуття"
+       ],
+       "tilesRoman": [
+        "potribne",
+        "vzuttia",
+        "velyka",
+        "Meni",
+        "tse",
+        "oplatyty"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Сумка велика.",
+       "promptLang": "target",
+       "tiles": [
+        "big",
+        "too",
+        "bag",
+        "is",
+        "just",
+        "The",
+        "open"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "сумка"
+       ],
+       "promptRoman": "Sumka velyka."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Мені потрібне взуття.",
+       "roman": "Meni potribne vzuttia.",
+       "translation": "I need shoes.",
+       "words": [
+        "взуття"
+       ],
+       "options": [
+        "Мені потрібне взуття.",
+        "Я хочу це.",
+        "Можна оплатити карткою?",
+        "Сумка велика."
+       ],
+       "optionsRoman": [
+        "Meni potribne vzuttia.",
+        "Ya khochu tse.",
+        "Mozhna oplatyty kartkoiu?",
+        "Sumka velyka."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Можна оплатити карткою?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Можна оплатити карткою?"
+       ],
+       "promptRoman": "Mozhna oplatyty kartkoiu?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Ukrainian",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "магазин",
+        "mahazyn"
+       ],
+       "words": [
+        "магазин"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Я просто дивлюся.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "Ya prosto dyvliusia."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "гроші",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Shop",
+        "Shirt",
+        "Money"
+       ],
+       "answer": "Money",
+       "words": [
+        "гроші"
+       ],
+       "promptRoman": "hroshi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "магазин",
+         "Shop"
+        ],
+        [
+         "гроші",
+         "Money"
+        ],
+        [
+         "сумка",
+         "Bag"
+        ],
+        [
+         "сорочка",
+         "Shirt"
+        ],
+        [
+         "взуття",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "магазин",
+        "гроші",
+        "сумка",
+        "сорочка",
+        "взуття"
+       ],
+       "romans": [
+        "mahazyn",
+        "hroshi",
+        "sumka",
+        "sorochka",
+        "vzuttia"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Я просто дивлюся.",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "I would like this.",
+        "It is too expensive.",
+        "I need shoes."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Я просто дивлюся."
+       ],
+       "promptRoman": "Ya prosto dyvliusia."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Це занадто дорого.",
+       "promptLang": "target",
+       "tiles": [
+        "too",
+        "It",
+        "would",
+        "is",
+        "expensive",
+        "card",
+        "Can"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "дорогий"
+       ],
+       "promptRoman": "Tse zanadto doroho."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Ukrainian",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "просто",
+        "дивлюся",
+        "Я",
+        "Магазин",
+        "це",
+        "потрібне"
+       ],
+       "answer": [
+        "Я",
+        "просто",
+        "дивлюся"
+       ],
+       "accepted": [],
+       "words": [
+        "Я просто дивлюся."
+       ],
+       "tilesRoman": [
+        "prosto",
+        "dyvliusia",
+        "Ya",
+        "Mahazyn",
+        "tse",
+        "potribne"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Ukrainian",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "потрібне",
+        "Можна",
+        "карткою",
+        "дорого",
+        "відчинений",
+        "оплатити"
+       ],
+       "answer": [
+        "Можна",
+        "оплатити",
+        "карткою"
+       ],
+       "accepted": [
+        "Можна карткою?"
+       ],
+       "words": [
+        "Можна оплатити карткою?"
+       ],
+       "tilesRoman": [
+        "potribne",
+        "Mozhna",
+        "kartkoiu",
+        "doroho",
+        "vidchynenyi",
+        "oplatyty"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Можна оплатити карткою?",
+       "roman": "Mozhna oplatyty kartkoiu?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "Можна оплатити карткою?"
+       ],
+       "options": [
+        "Я хочу це.",
+        "Я просто дивлюся.",
+        "Можна оплатити карткою?",
+        "Мені потрібне взуття."
+       ],
+       "optionsRoman": [
+        "Ya khochu tse.",
+        "Ya prosto dyvliusia.",
+        "Mozhna oplatyty kartkoiu?",
+        "Meni potribne vzuttia."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Магазин відчинений?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "магазин"
+       ],
+       "promptRoman": "Mahazyn vidchynenyi?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Ukrainian",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "оплатити",
+        "Можна",
+        "Сумка",
+        "хочу",
+        "велика"
+       ],
+       "answer": [
+        "Сумка",
+        "велика"
+       ],
+       "accepted": [],
+       "words": [
+        "сумка"
+       ],
+       "tilesRoman": [
+        "oplatyty",
+        "Mozhna",
+        "Sumka",
+        "khochu",
+        "velyka"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Ukrainian",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "гроші",
+        "hroshi"
+       ],
+       "words": [
+        "гроші"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Я хочу це.",
+       "promptLang": "target",
+       "options": [
+        "The bag is big.",
+        "I would like this.",
+        "I am just looking.",
+        "Can I pay by card?"
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Я хочу це."
+       ],
+       "promptRoman": "Ya khochu tse."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "магазин",
+         "Shop"
+        ],
+        [
+         "великий",
+         "Big"
+        ],
+        [
+         "сорочка",
+         "Shirt"
+        ],
+        [
+         "дорогий",
+         "Expensive"
+        ]
+       ],
+       "words": [
+        "магазин",
+        "великий",
+        "сорочка",
+        "дорогий"
+       ],
+       "romans": [
+        "mahazyn",
+        "velykyi",
+        "sorochka",
+        "dorohyi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answer": "гроші",
+       "words": [
+        "гроші"
+       ],
+       "options": [
+        "сумка",
+        "гроші",
+        "дешевий",
+        "дорогий"
+       ],
+       "optionsRoman": [
+        "sumka",
+        "hroshi",
+        "deshevyi",
+        "dorohyi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Ukrainian",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "Магазин",
+        "взуття",
+        "велика",
+        "дивлюся",
+        "відчинений"
+       ],
+       "answer": [
+        "Магазин",
+        "відчинений"
+       ],
+       "accepted": [
+        "Магазин відкритий?"
+       ],
+       "words": [
+        "магазин"
+       ],
+       "tilesRoman": [
+        "Mahazyn",
+        "vzuttia",
+        "velyka",
+        "dyvliusia",
+        "vidchynenyi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Мені потрібне взуття.",
+       "promptLang": "target",
+       "tiles": [
+        "It",
+        "bag",
+        "I",
+        "shoes",
+        "need",
+        "too"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "взуття"
+       ],
+       "promptRoman": "Meni potribne vzuttia."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Я просто дивлюся.",
+       "roman": "Ya prosto dyvliusia.",
+       "translation": "I am just looking.",
+       "words": [
+        "Я просто дивлюся."
+       ],
+       "options": [
+        "Це занадто дорого.",
+        "Я просто дивлюся.",
+        "Можна оплатити карткою?",
+        "Сумка велика."
+       ],
+       "optionsRoman": [
+        "Tse zanadto doroho.",
+        "Ya prosto dyvliusia.",
+        "Mozhna oplatyty kartkoiu?",
+        "Sumka velyka."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Сумка велика.",
+       "roman": "Sumka velyka.",
+       "translation": "The bag is big.",
+       "words": [
+        "сумка"
+       ],
+       "options": [
+        "Сумка велика.",
+        "Магазин відчинений?",
+        "Мені потрібне взуття.",
+        "Я хочу це."
+       ],
+       "optionsRoman": [
+        "Sumka velyka.",
+        "Mahazyn vidchynenyi?",
+        "Meni potribne vzuttia.",
+        "Ya khochu tse."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Це занадто дорого.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "дорогий"
+       ],
+       "promptRoman": "Tse zanadto doroho."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Ukrainian",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answers": [
+        "сумка",
+        "sumka"
+       ],
+       "words": [
+        "сумка"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -5475,6 +5475,915 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'Ne kadar?' asks how much; 'pahalı' is expensive and 'ucuz' is cheap."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "dükkan",
+      "e": "Shop"
+     },
+     {
+      "t": "para",
+      "e": "Money"
+     },
+     {
+      "t": "çanta",
+      "e": "Bag"
+     },
+     {
+      "t": "gömlek",
+      "e": "Shirt"
+     },
+     {
+      "t": "ayakkabı",
+      "e": "Shoes"
+     },
+     {
+      "t": "ucuz",
+      "e": "Cheap"
+     },
+     {
+      "t": "pahalı",
+      "e": "Expensive"
+     },
+     {
+      "t": "büyük",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Bunu istiyorum.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Çok pahalı.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Dükkan açık mı?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Ayakkabıya ihtiyacım var.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "Çanta büyük.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Kartla ödeyebilir miyim?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Sadece bakıyorum.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "dükkan",
+       "e": "Shop",
+       "kind": "word",
+       "alts": [
+        "mağaza"
+       ]
+      },
+      {
+       "t": "para",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "çanta",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "gömlek",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Bunu istiyorum.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Bunu alabilir miyim?"
+       ]
+      },
+      {
+       "t": "Dükkan açık mı?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "alts": [
+        "Mağaza açık mı?"
+       ]
+      },
+      {
+       "t": "Çok pahalı.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "Bu çok pahalı."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dükkan",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Cheap",
+        "Bag",
+        "Shirt"
+       ],
+       "answer": "Shop",
+       "words": [
+        "dükkan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "para",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Shop",
+        "Cheap",
+        "Expensive"
+       ],
+       "answer": "Money",
+       "words": [
+        "para"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "dükkan",
+         "Shop"
+        ],
+        [
+         "para",
+         "Money"
+        ],
+        [
+         "çanta",
+         "Bag"
+        ],
+        [
+         "gömlek",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "dükkan",
+        "para",
+        "çanta",
+        "gömlek"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "çanta",
+       "words": [
+        "çanta"
+       ],
+       "options": [
+        "pahalı",
+        "büyük",
+        "gömlek",
+        "çanta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "gömlek",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Big",
+        "Shirt",
+        "Money"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "gömlek"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "Çok",
+        "istiyorum",
+        "Çanta",
+        "Bunu",
+        "bakıyorum"
+       ],
+       "answer": [
+        "Bunu",
+        "istiyorum"
+       ],
+       "accepted": [
+        "Bunu alabilir miyim?"
+       ],
+       "words": [
+        "Bunu istiyorum."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Dükkan açık mı?",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "open",
+        "Is",
+        "by",
+        "Can",
+        "shop",
+        "too"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "dükkan"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Çok pahalı.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Çok pahalı."
+       ],
+       "words": [
+        "pahalı"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bunu istiyorum.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Bunu istiyorum."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "ayakkabı",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "ucuz",
+       "e": "Cheap",
+       "kind": "word"
+      },
+      {
+       "t": "pahalı",
+       "e": "Expensive",
+       "kind": "word"
+      },
+      {
+       "t": "büyük",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Ayakkabıya ihtiyacım var.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "alts": [
+        "Ayakkabı lazım."
+       ]
+      },
+      {
+       "t": "Çanta büyük.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Kartla ödeyebilir miyim?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Kredi kartıyla ödeyebilir miyim?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ayakkabı",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Cheap",
+        "Big",
+        "Expensive"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "ayakkabı"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ucuz",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shoes",
+        "Shop",
+        "Bag"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "ucuz"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ayakkabı",
+         "Shoes"
+        ],
+        [
+         "ucuz",
+         "Cheap"
+        ],
+        [
+         "pahalı",
+         "Expensive"
+        ],
+        [
+         "büyük",
+         "Big"
+        ]
+       ],
+       "words": [
+        "ayakkabı",
+        "ucuz",
+        "pahalı",
+        "büyük"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "pahalı",
+       "words": [
+        "pahalı"
+       ],
+       "options": [
+        "pahalı",
+        "çanta",
+        "ucuz",
+        "para"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "büyük",
+       "words": [
+        "büyük"
+       ],
+       "options": [
+        "büyük",
+        "para",
+        "pahalı",
+        "dükkan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "pahalı",
+        "ihtiyacım",
+        "Sadece",
+        "Ayakkabıya",
+        "mı",
+        "var"
+       ],
+       "answer": [
+        "Ayakkabıya",
+        "ihtiyacım",
+        "var"
+       ],
+       "accepted": [
+        "Ayakkabı lazım."
+       ],
+       "words": [
+        "Ayakkabıya ihtiyacım var."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Çanta büyük.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "Can",
+        "bag",
+        "It",
+        "need",
+        "big",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "çanta",
+        "büyük"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ayakkabıya ihtiyacım var.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Ayakkabıya ihtiyacım var."
+       ],
+       "words": [
+        "Ayakkabıya ihtiyacım var."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Kartla ödeyebilir miyim?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Kartla ödeyebilir miyim?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "dükkan",
+        "mağaza"
+       ],
+       "words": [
+        "dükkan"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Sadece bakıyorum.",
+       "e": "I am just looking.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "para",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Money",
+        "Cheap",
+        "Bag"
+       ],
+       "answer": "Money",
+       "words": [
+        "para"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "büyük",
+         "Big"
+        ],
+        [
+         "çanta",
+         "Bag"
+        ],
+        [
+         "ucuz",
+         "Cheap"
+        ],
+        [
+         "gömlek",
+         "Shirt"
+        ],
+        [
+         "dükkan",
+         "Shop"
+        ]
+       ],
+       "words": [
+        "büyük",
+        "çanta",
+        "ucuz",
+        "gömlek",
+        "dükkan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Sadece bakıyorum.",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "I need shoes.",
+        "I would like this.",
+        "Can I pay by card?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Sadece bakıyorum."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Çok pahalı.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "too",
+        "expensive",
+        "like",
+        "open",
+        "It",
+        "by"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "pahalı"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "Sadece",
+        "ihtiyacım",
+        "istiyorum",
+        "Çanta",
+        "bakıyorum"
+       ],
+       "answer": [
+        "Sadece",
+        "bakıyorum"
+       ],
+       "accepted": [],
+       "words": [
+        "Sadece bakıyorum."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "miyim",
+        "açık",
+        "Ayakkabıya",
+        "ödeyebilir",
+        "ihtiyacım",
+        "Kartla"
+       ],
+       "answer": [
+        "Kartla",
+        "ödeyebilir",
+        "miyim"
+       ],
+       "accepted": [
+        "Kredi kartıyla ödeyebilir miyim?"
+       ],
+       "words": [
+        "Kartla ödeyebilir miyim?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Kartla ödeyebilir miyim?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Kartla ödeyebilir miyim?"
+       ],
+       "words": [
+        "Kartla ödeyebilir miyim?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Dükkan açık mı?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "dükkan"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "Çanta büyük."
+       ],
+       "words": [
+        "çanta",
+        "büyük"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "para"
+       ],
+       "words": [
+        "para"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Bunu istiyorum.",
+       "promptLang": "target",
+       "options": [
+        "Is the shop open?",
+        "I need shoes.",
+        "I am just looking.",
+        "I would like this."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Bunu istiyorum."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ucuz",
+         "Cheap"
+        ],
+        [
+         "gömlek",
+         "Shirt"
+        ],
+        [
+         "çanta",
+         "Bag"
+        ],
+        [
+         "para",
+         "Money"
+        ]
+       ],
+       "words": [
+        "ucuz",
+        "gömlek",
+        "çanta",
+        "para"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "büyük",
+       "words": [
+        "büyük"
+       ],
+       "options": [
+        "pahalı",
+        "para",
+        "çanta",
+        "büyük"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Turkish",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "Kartla",
+        "Dükkan",
+        "mı",
+        "pahalı",
+        "Ayakkabıya",
+        "açık"
+       ],
+       "answer": [
+        "Dükkan",
+        "açık",
+        "mı"
+       ],
+       "accepted": [
+        "Mağaza açık mı?"
+       ],
+       "words": [
+        "dükkan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ayakkabıya ihtiyacım var.",
+       "promptLang": "target",
+       "tiles": [
+        "need",
+        "Can",
+        "like",
+        "am",
+        "shoes",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "Ayakkabıya ihtiyacım var."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sadece bakıyorum.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Sadece bakıyorum."
+       ],
+       "words": [
+        "Sadece bakıyorum."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Çanta büyük.",
+       "translation": "The bag is big.",
+       "answers": [
+        "Çanta büyük."
+       ],
+       "words": [
+        "çanta",
+        "büyük"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Çok pahalı.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "pahalı"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Turkish",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "dükkan",
+        "mağaza"
+       ],
+       "words": [
+        "dükkan"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

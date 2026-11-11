@@ -6673,6 +6673,1117 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'أريد' (urid) means 'I want'; add 'من فضلك' (min fadlak) to make it polite."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "متجر",
+      "e": "Shop",
+      "r": "matjar"
+     },
+     {
+      "t": "مال",
+      "e": "Money",
+      "r": "mal"
+     },
+     {
+      "t": "حقيبة",
+      "e": "Bag",
+      "r": "haqiba"
+     },
+     {
+      "t": "قميص",
+      "e": "Shirt",
+      "r": "qamis"
+     },
+     {
+      "t": "حذاء",
+      "e": "Shoes",
+      "r": "hidha'"
+     },
+     {
+      "t": "رخيص",
+      "e": "Cheap",
+      "r": "rakhis"
+     },
+     {
+      "t": "غالٍ",
+      "e": "Expensive",
+      "r": "ghali"
+     },
+     {
+      "t": "كبير",
+      "e": "Big",
+      "r": "kabir"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "أريد هذا.",
+      "e": "I would like this.",
+      "r": "urid hadha."
+     },
+     {
+      "t": "هذا غالٍ جدًا.",
+      "e": "It is too expensive.",
+      "r": "hadha ghali jiddan."
+     },
+     {
+      "t": "هل المتجر مفتوح؟",
+      "e": "Is the shop open?",
+      "r": "hal al-matjar maftuh?"
+     },
+     {
+      "t": "أحتاج إلى حذاء.",
+      "e": "I need shoes.",
+      "r": "ahtaju ila hidha'."
+     },
+     {
+      "t": "الحقيبة كبيرة.",
+      "e": "The bag is big.",
+      "r": "al-haqiba kabira."
+     },
+     {
+      "t": "هل يمكنني الدفع بالبطاقة؟",
+      "e": "Can I pay by card?",
+      "r": "hal yumkinuni ad-daf' bil-bitaqa?"
+     },
+     {
+      "t": "أنا أتفرج فقط.",
+      "e": "I am just looking.",
+      "r": "ana atafarraj faqat."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "متجر",
+       "e": "Shop",
+       "kind": "word",
+       "r": "matjar",
+       "alts": [
+        "دكان"
+       ]
+      },
+      {
+       "t": "مال",
+       "e": "Money",
+       "kind": "word",
+       "r": "mal",
+       "alts": [
+        "نقود"
+       ]
+      },
+      {
+       "t": "حقيبة",
+       "e": "Bag",
+       "kind": "word",
+       "r": "haqiba"
+      },
+      {
+       "t": "قميص",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "qamis"
+      },
+      {
+       "t": "أريد هذا.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "urid hadha."
+      },
+      {
+       "t": "هل المتجر مفتوح؟",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "hal al-matjar maftuh?"
+      },
+      {
+       "t": "هذا غالٍ جدًا.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "hadha ghali jiddan.",
+       "alts": [
+        "إنه غالٍ جدًا."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "متجر",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Shop",
+        "Expensive",
+        "Big"
+       ],
+       "answer": "Shop",
+       "words": [
+        "متجر"
+       ],
+       "promptRoman": "matjar"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "مال",
+       "promptLang": "target",
+       "options": [
+        "Bag",
+        "Money",
+        "Big",
+        "Shoes"
+       ],
+       "answer": "Money",
+       "words": [
+        "مال"
+       ],
+       "promptRoman": "mal"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "متجر",
+         "Shop"
+        ],
+        [
+         "مال",
+         "Money"
+        ],
+        [
+         "حقيبة",
+         "Bag"
+        ],
+        [
+         "قميص",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "متجر",
+        "مال",
+        "حقيبة",
+        "قميص"
+       ],
+       "romans": [
+        "matjar",
+        "mal",
+        "haqiba",
+        "qamis"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "حقيبة",
+       "words": [
+        "حقيبة"
+       ],
+       "options": [
+        "مال",
+        "كبير",
+        "غالٍ",
+        "حقيبة"
+       ],
+       "optionsRoman": [
+        "mal",
+        "kabir",
+        "ghali",
+        "haqiba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "قميص",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Bag",
+        "Cheap",
+        "Shirt"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "قميص"
+       ],
+       "promptRoman": "qamis"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "هذا",
+        "الدفع",
+        "فقط",
+        "مفتوح",
+        "أريد"
+       ],
+       "answer": [
+        "أريد",
+        "هذا"
+       ],
+       "accepted": [],
+       "words": [
+        "أريد هذا."
+       ],
+       "tilesRoman": [
+        "hadha",
+        "ad-daf'",
+        "faqat",
+        "maftuh",
+        "urid"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "هل المتجر مفتوح؟",
+       "promptLang": "target",
+       "tiles": [
+        "open",
+        "would",
+        "pay",
+        "the",
+        "expensive",
+        "shop",
+        "Is"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "هل المتجر مفتوح؟"
+       ],
+       "promptRoman": "hal al-matjar maftuh?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "هذا غالٍ جدًا.",
+       "roman": "hadha ghali jiddan.",
+       "translation": "It is too expensive.",
+       "words": [
+        "غالٍ"
+       ],
+       "options": [
+        "هل يمكنني الدفع بالبطاقة؟",
+        "أحتاج إلى حذاء.",
+        "هذا غالٍ جدًا.",
+        "أنا أتفرج فقط."
+       ],
+       "optionsRoman": [
+        "hal yumkinuni ad-daf' bil-bitaqa?",
+        "ahtaju ila hidha'.",
+        "hadha ghali jiddan.",
+        "ana atafarraj faqat."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "أريد هذا.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "أريد هذا."
+       ],
+       "promptRoman": "urid hadha."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "حذاء",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "hidha'"
+      },
+      {
+       "t": "رخيص",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "rakhis"
+      },
+      {
+       "t": "غالٍ",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "ghali",
+       "alts": [
+        "غالي"
+       ]
+      },
+      {
+       "t": "كبير",
+       "e": "Big",
+       "kind": "word",
+       "r": "kabir"
+      },
+      {
+       "t": "أحتاج إلى حذاء.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "ahtaju ila hidha'."
+      },
+      {
+       "t": "الحقيبة كبيرة.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "al-haqiba kabira."
+      },
+      {
+       "t": "هل يمكنني الدفع بالبطاقة؟",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "hal yumkinuni ad-daf' bil-bitaqa?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "حذاء",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Shoes",
+        "Bag",
+        "Shirt"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "حذاء"
+       ],
+       "promptRoman": "hidha'"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "رخيص",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Money",
+        "Cheap",
+        "Shoes"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "رخيص"
+       ],
+       "promptRoman": "rakhis"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "حذاء",
+         "Shoes"
+        ],
+        [
+         "رخيص",
+         "Cheap"
+        ],
+        [
+         "غالٍ",
+         "Expensive"
+        ],
+        [
+         "كبير",
+         "Big"
+        ]
+       ],
+       "words": [
+        "حذاء",
+        "رخيص",
+        "غالٍ",
+        "كبير"
+       ],
+       "romans": [
+        "hidha'",
+        "rakhis",
+        "ghali",
+        "kabir"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "غالٍ",
+       "words": [
+        "غالٍ"
+       ],
+       "options": [
+        "مال",
+        "غالٍ",
+        "حقيبة",
+        "كبير"
+       ],
+       "optionsRoman": [
+        "mal",
+        "ghali",
+        "haqiba",
+        "kabir"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "كبير",
+       "words": [
+        "كبير"
+       ],
+       "options": [
+        "حذاء",
+        "رخيص",
+        "كبير",
+        "غالٍ"
+       ],
+       "optionsRoman": [
+        "hidha'",
+        "rakhis",
+        "kabir",
+        "ghali"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "أتفرج",
+        "أحتاج",
+        "الحقيبة",
+        "حذاء",
+        "فقط",
+        "إلى"
+       ],
+       "answer": [
+        "أحتاج",
+        "إلى",
+        "حذاء"
+       ],
+       "accepted": [],
+       "words": [
+        "حذاء"
+       ],
+       "tilesRoman": [
+        "atafarraj",
+        "ahtaju",
+        "al-haqiba",
+        "hidha'",
+        "faqat",
+        "ila"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "الحقيبة كبيرة.",
+       "promptLang": "target",
+       "tiles": [
+        "bag",
+        "is",
+        "shoes",
+        "The",
+        "am",
+        "big",
+        "like"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "الحقيبة كبيرة."
+       ],
+       "promptRoman": "al-haqiba kabira."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أحتاج إلى حذاء.",
+       "roman": "ahtaju ila hidha'.",
+       "translation": "I need shoes.",
+       "words": [
+        "حذاء"
+       ],
+       "options": [
+        "أنا أتفرج فقط.",
+        "هذا غالٍ جدًا.",
+        "أريد هذا.",
+        "أحتاج إلى حذاء."
+       ],
+       "optionsRoman": [
+        "ana atafarraj faqat.",
+        "hadha ghali jiddan.",
+        "urid hadha.",
+        "ahtaju ila hidha'."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "هل يمكنني الدفع بالبطاقة؟",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "هل يمكنني الدفع بالبطاقة؟"
+       ],
+       "promptRoman": "hal yumkinuni ad-daf' bil-bitaqa?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "متجر",
+        "دكان",
+        "matjar"
+       ],
+       "words": [
+        "متجر"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "أنا أتفرج فقط.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "ana atafarraj faqat.",
+       "alts": [
+        "أنا أنظر فقط."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "مال",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shop",
+        "Money",
+        "Bag"
+       ],
+       "answer": "Money",
+       "words": [
+        "مال"
+       ],
+       "promptRoman": "mal"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "مال",
+         "Money"
+        ],
+        [
+         "متجر",
+         "Shop"
+        ],
+        [
+         "رخيص",
+         "Cheap"
+        ],
+        [
+         "قميص",
+         "Shirt"
+        ],
+        [
+         "حقيبة",
+         "Bag"
+        ]
+       ],
+       "words": [
+        "مال",
+        "متجر",
+        "رخيص",
+        "قميص",
+        "حقيبة"
+       ],
+       "romans": [
+        "mal",
+        "matjar",
+        "rakhis",
+        "qamis",
+        "haqiba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "أنا أتفرج فقط.",
+       "promptLang": "target",
+       "options": [
+        "Is the shop open?",
+        "The bag is big.",
+        "I am just looking.",
+        "It is too expensive."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "أنا أتفرج فقط."
+       ],
+       "promptRoman": "ana atafarraj faqat."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "هذا غالٍ جدًا.",
+       "promptLang": "target",
+       "tiles": [
+        "expensive",
+        "too",
+        "shop",
+        "is",
+        "looking",
+        "bag",
+        "It"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "غالٍ"
+       ],
+       "promptRoman": "hadha ghali jiddan."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "جدًا",
+        "أحتاج",
+        "فقط",
+        "يمكنني",
+        "أتفرج",
+        "أنا"
+       ],
+       "answer": [
+        "أنا",
+        "أتفرج",
+        "فقط"
+       ],
+       "accepted": [
+        "أنا أنظر فقط."
+       ],
+       "words": [
+        "أنا أتفرج فقط."
+       ],
+       "tilesRoman": [
+        "jiddan",
+        "ahtaju",
+        "faqat",
+        "yumkinuni",
+        "atafarraj",
+        "ana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "أريد",
+        "هل",
+        "بالبطاقة",
+        "يمكنني",
+        "أتفرج",
+        "غالٍ",
+        "الدفع"
+       ],
+       "answer": [
+        "هل",
+        "يمكنني",
+        "الدفع",
+        "بالبطاقة"
+       ],
+       "accepted": [],
+       "words": [
+        "هل يمكنني الدفع بالبطاقة؟"
+       ],
+       "tilesRoman": [
+        "urid",
+        "hal",
+        "bil-bitaqa",
+        "yumkinuni",
+        "atafarraj",
+        "ghali",
+        "ad-daf'"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "هل يمكنني الدفع بالبطاقة؟",
+       "roman": "hal yumkinuni ad-daf' bil-bitaqa?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "هل يمكنني الدفع بالبطاقة؟"
+       ],
+       "options": [
+        "هل يمكنني الدفع بالبطاقة؟",
+        "هذا غالٍ جدًا.",
+        "أحتاج إلى حذاء.",
+        "الحقيبة كبيرة."
+       ],
+       "optionsRoman": [
+        "hal yumkinuni ad-daf' bil-bitaqa?",
+        "hadha ghali jiddan.",
+        "ahtaju ila hidha'.",
+        "al-haqiba kabira."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "هل المتجر مفتوح؟",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "هل المتجر مفتوح؟"
+       ],
+       "promptRoman": "hal al-matjar maftuh?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "بالبطاقة",
+        "فقط",
+        "كبيرة",
+        "الحقيبة",
+        "أتفرج"
+       ],
+       "answer": [
+        "الحقيبة",
+        "كبيرة"
+       ],
+       "accepted": [],
+       "words": [
+        "الحقيبة كبيرة."
+       ],
+       "tilesRoman": [
+        "bil-bitaqa",
+        "faqat",
+        "kabira",
+        "al-haqiba",
+        "atafarraj"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "مال",
+        "نقود",
+        "mal"
+       ],
+       "words": [
+        "مال"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "أريد هذا.",
+       "promptLang": "target",
+       "options": [
+        "Is the shop open?",
+        "I am just looking.",
+        "I would like this.",
+        "Can I pay by card?"
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "أريد هذا."
+       ],
+       "promptRoman": "urid hadha."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "كبير",
+         "Big"
+        ],
+        [
+         "متجر",
+         "Shop"
+        ],
+        [
+         "قميص",
+         "Shirt"
+        ],
+        [
+         "حذاء",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "كبير",
+        "متجر",
+        "قميص",
+        "حذاء"
+       ],
+       "romans": [
+        "kabir",
+        "matjar",
+        "qamis",
+        "hidha'"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "غالٍ",
+       "words": [
+        "غالٍ"
+       ],
+       "options": [
+        "حقيبة",
+        "غالٍ",
+        "قميص",
+        "كبير"
+       ],
+       "optionsRoman": [
+        "haqiba",
+        "ghali",
+        "qamis",
+        "kabir"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Arabic",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "هذا",
+        "هل",
+        "بالبطاقة",
+        "المتجر",
+        "حذاء",
+        "مفتوح"
+       ],
+       "answer": [
+        "هل",
+        "المتجر",
+        "مفتوح"
+       ],
+       "accepted": [],
+       "words": [
+        "هل المتجر مفتوح؟"
+       ],
+       "tilesRoman": [
+        "hadha",
+        "hal",
+        "bil-bitaqa",
+        "al-matjar",
+        "hidha'",
+        "maftuh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "أحتاج إلى حذاء.",
+       "promptLang": "target",
+       "tiles": [
+        "shoes",
+        "open",
+        "It",
+        "this",
+        "I",
+        "need"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "حذاء"
+       ],
+       "promptRoman": "ahtaju ila hidha'."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "أنا أتفرج فقط.",
+       "roman": "ana atafarraj faqat.",
+       "translation": "I am just looking.",
+       "words": [
+        "أنا أتفرج فقط."
+       ],
+       "options": [
+        "أنا أتفرج فقط.",
+        "هل المتجر مفتوح؟",
+        "أريد هذا.",
+        "الحقيبة كبيرة."
+       ],
+       "optionsRoman": [
+        "ana atafarraj faqat.",
+        "hal al-matjar maftuh?",
+        "urid hadha.",
+        "al-haqiba kabira."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "الحقيبة كبيرة.",
+       "roman": "al-haqiba kabira.",
+       "translation": "The bag is big.",
+       "words": [
+        "الحقيبة كبيرة."
+       ],
+       "options": [
+        "الحقيبة كبيرة.",
+        "هل المتجر مفتوح؟",
+        "أريد هذا.",
+        "هذا غالٍ جدًا."
+       ],
+       "optionsRoman": [
+        "al-haqiba kabira.",
+        "hal al-matjar maftuh?",
+        "urid hadha.",
+        "hadha ghali jiddan."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "هذا غالٍ جدًا.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "غالٍ"
+       ],
+       "promptRoman": "hadha ghali jiddan."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Arabic",
+       "prompt": "Cheap",
+       "promptLang": "en",
+       "answers": [
+        "رخيص",
+        "rakhis"
+       ],
+       "words": [
+        "رخيص"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

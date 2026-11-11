@@ -113,3 +113,24 @@ T = {
     "children_school": "I bambini vanno a scuola.",
     "what_time_now": "Che ore sono adesso? | Che ora è adesso?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "\"Vorrei\" (I would like) is the polite way to ask; \"quanto costa?\" asks the price."
+
+T.update({
+    "shop": "negozio",
+    "money": "soldi | denaro",
+    "bag": "borsa",
+    "shirt": "camicia",
+    "shoes": "scarpe",
+    "cheap": "economico | economica",
+    "expensive": "caro | cara | costoso",
+    "big": "grande",
+    "i_want_this": "Vorrei questo. | Vorrei questa.",
+    "too_expensive": "È troppo caro. | È troppo cara.",
+    "shop_open": "Il negozio è aperto?",
+    "i_need_shoes": "Ho bisogno di scarpe.",
+    "bag_is_big": "La borsa è grande.",
+    "pay_card": "Posso pagare con la carta? | Posso pagare con carta?",
+    "just_looking": "Sto solo guardando. | Do solo un'occhiata.",
+})

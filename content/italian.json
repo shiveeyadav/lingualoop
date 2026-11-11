@@ -5613,6 +5613,927 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "\"Vorrei\" (I would like) is the polite way to ask; \"quanto costa?\" asks the price."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "negozio",
+      "e": "Shop"
+     },
+     {
+      "t": "soldi",
+      "e": "Money"
+     },
+     {
+      "t": "borsa",
+      "e": "Bag"
+     },
+     {
+      "t": "camicia",
+      "e": "Shirt"
+     },
+     {
+      "t": "scarpe",
+      "e": "Shoes"
+     },
+     {
+      "t": "economico",
+      "e": "Cheap"
+     },
+     {
+      "t": "caro",
+      "e": "Expensive"
+     },
+     {
+      "t": "grande",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Vorrei questo.",
+      "e": "I would like this."
+     },
+     {
+      "t": "È troppo caro.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Il negozio è aperto?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Ho bisogno di scarpe.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "La borsa è grande.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Posso pagare con la carta?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Sto solo guardando.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "negozio",
+       "e": "Shop",
+       "kind": "word"
+      },
+      {
+       "t": "soldi",
+       "e": "Money",
+       "kind": "word",
+       "alts": [
+        "denaro"
+       ]
+      },
+      {
+       "t": "borsa",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "camicia",
+       "e": "Shirt",
+       "kind": "word"
+      },
+      {
+       "t": "Vorrei questo.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Vorrei questa."
+       ]
+      },
+      {
+       "t": "Il negozio è aperto?",
+       "e": "Is the shop open?",
+       "kind": "phrase"
+      },
+      {
+       "t": "È troppo caro.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "È troppo cara."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "negozio",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shop",
+        "Big",
+        "Expensive"
+       ],
+       "answer": "Shop",
+       "words": [
+        "negozio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "soldi",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Bag",
+        "Money",
+        "Shop"
+       ],
+       "answer": "Money",
+       "words": [
+        "soldi"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "negozio",
+         "Shop"
+        ],
+        [
+         "soldi",
+         "Money"
+        ],
+        [
+         "borsa",
+         "Bag"
+        ],
+        [
+         "camicia",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "negozio",
+        "soldi",
+        "borsa",
+        "camicia"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "borsa",
+       "words": [
+        "borsa"
+       ],
+       "options": [
+        "borsa",
+        "caro",
+        "soldi",
+        "negozio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "camicia",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Big",
+        "Expensive",
+        "Shirt"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "camicia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "scarpe",
+        "caro",
+        "Vorrei",
+        "Sto",
+        "questo"
+       ],
+       "answer": [
+        "Vorrei",
+        "questo"
+       ],
+       "accepted": [
+        "Vorrei questa."
+       ],
+       "words": [
+        "Vorrei questo."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Il negozio è aperto?",
+       "promptLang": "target",
+       "tiles": [
+        "It",
+        "Is",
+        "would",
+        "the",
+        "shop",
+        "open",
+        "Can"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "negozio"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "È troppo caro.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "È troppo caro."
+       ],
+       "words": [
+        "caro"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Vorrei questo.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Vorrei questo."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "scarpe",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "economico",
+       "e": "Cheap",
+       "kind": "word",
+       "alts": [
+        "economica"
+       ]
+      },
+      {
+       "t": "caro",
+       "e": "Expensive",
+       "kind": "word",
+       "alts": [
+        "cara",
+        "costoso"
+       ]
+      },
+      {
+       "t": "grande",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Ho bisogno di scarpe.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "La borsa è grande.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Posso pagare con la carta?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Posso pagare con carta?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "scarpe",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Bag",
+        "Big",
+        "Shoes"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "scarpe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "economico",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shoes",
+        "Bag",
+        "Expensive"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "economico"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "scarpe",
+         "Shoes"
+        ],
+        [
+         "economico",
+         "Cheap"
+        ],
+        [
+         "caro",
+         "Expensive"
+        ],
+        [
+         "grande",
+         "Big"
+        ]
+       ],
+       "words": [
+        "scarpe",
+        "economico",
+        "caro",
+        "grande"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "caro",
+       "words": [
+        "caro"
+       ],
+       "options": [
+        "grande",
+        "borsa",
+        "economico",
+        "caro"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "grande",
+       "words": [
+        "grande"
+       ],
+       "options": [
+        "economico",
+        "negozio",
+        "grande",
+        "caro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "bisogno",
+        "Ho",
+        "questo",
+        "negozio",
+        "carta",
+        "scarpe",
+        "di"
+       ],
+       "answer": [
+        "Ho",
+        "bisogno",
+        "di",
+        "scarpe"
+       ],
+       "accepted": [],
+       "words": [
+        "scarpe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "La borsa è grande.",
+       "promptLang": "target",
+       "tiles": [
+        "looking",
+        "would",
+        "I",
+        "bag",
+        "big",
+        "is",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "borsa",
+        "grande"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ho bisogno di scarpe.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Ho bisogno di scarpe."
+       ],
+       "words": [
+        "scarpe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Posso pagare con la carta?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Posso pagare con la carta?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "negozio"
+       ],
+       "words": [
+        "negozio"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Sto solo guardando.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "alts": [
+        "Do solo un'occhiata."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "soldi",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Cheap",
+        "Shoes",
+        "Money"
+       ],
+       "answer": "Money",
+       "words": [
+        "soldi"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "economico",
+         "Cheap"
+        ],
+        [
+         "grande",
+         "Big"
+        ],
+        [
+         "soldi",
+         "Money"
+        ],
+        [
+         "borsa",
+         "Bag"
+        ],
+        [
+         "negozio",
+         "Shop"
+        ]
+       ],
+       "words": [
+        "economico",
+        "grande",
+        "soldi",
+        "borsa",
+        "negozio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Sto solo guardando.",
+       "promptLang": "target",
+       "options": [
+        "The bag is big.",
+        "I would like this.",
+        "I am just looking.",
+        "Can I pay by card?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Sto solo guardando."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "È troppo caro.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "too",
+        "the",
+        "It",
+        "am",
+        "expensive",
+        "looking"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "caro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "Vorrei",
+        "caro",
+        "Sto",
+        "solo",
+        "Posso",
+        "guardando"
+       ],
+       "answer": [
+        "Sto",
+        "solo",
+        "guardando"
+       ],
+       "accepted": [
+        "Do solo un'occhiata."
+       ],
+       "words": [
+        "Sto solo guardando."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "la",
+        "pagare",
+        "Il",
+        "con",
+        "di",
+        "carta",
+        "Posso",
+        "caro"
+       ],
+       "answer": [
+        "Posso",
+        "pagare",
+        "con",
+        "la",
+        "carta"
+       ],
+       "accepted": [
+        "Posso pagare con carta?"
+       ],
+       "words": [
+        "Posso pagare con la carta?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Posso pagare con la carta?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Posso pagare con la carta?"
+       ],
+       "words": [
+        "Posso pagare con la carta?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Il negozio è aperto?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "negozio"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "La borsa è grande."
+       ],
+       "words": [
+        "borsa",
+        "grande"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "soldi",
+        "denaro"
+       ],
+       "words": [
+        "soldi"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Vorrei questo.",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "It is too expensive.",
+        "Is the shop open?",
+        "I am just looking."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Vorrei questo."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "negozio",
+         "Shop"
+        ],
+        [
+         "grande",
+         "Big"
+        ],
+        [
+         "economico",
+         "Cheap"
+        ],
+        [
+         "scarpe",
+         "Shoes"
+        ]
+       ],
+       "words": [
+        "negozio",
+        "grande",
+        "economico",
+        "scarpe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shirt",
+       "promptLang": "en",
+       "answer": "camicia",
+       "words": [
+        "camicia"
+       ],
+       "options": [
+        "scarpe",
+        "negozio",
+        "camicia",
+        "caro"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Italian",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "Sto",
+        "aperto",
+        "negozio",
+        "carta",
+        "caro",
+        "Il",
+        "è"
+       ],
+       "answer": [
+        "Il",
+        "negozio",
+        "è",
+        "aperto"
+       ],
+       "accepted": [],
+       "words": [
+        "negozio"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ho bisogno di scarpe.",
+       "promptLang": "target",
+       "tiles": [
+        "too",
+        "need",
+        "am",
+        "shoes",
+        "I",
+        "is"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "scarpe"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sto solo guardando.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Sto solo guardando."
+       ],
+       "words": [
+        "Sto solo guardando."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "La borsa è grande.",
+       "translation": "The bag is big.",
+       "answers": [
+        "La borsa è grande."
+       ],
+       "words": [
+        "borsa",
+        "grande"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "È troppo caro.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "caro"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Italian",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "soldi",
+        "denaro"
+       ],
+       "words": [
+        "soldi"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

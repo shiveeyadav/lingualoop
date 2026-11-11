@@ -3782,7 +3782,7 @@
        "roman": "duōshao qián?",
        "translation": "How much is it?",
        "words": [
-        "多少钱？"
+        "钱"
        ],
        "options": [
         "请给我一杯咖啡。",
@@ -4236,7 +4236,7 @@
         "How much does this cost?"
        ],
        "words": [
-        "多少钱？"
+        "钱"
        ],
        "promptRoman": "duōshao qián?"
       },
@@ -4614,7 +4614,7 @@
         "How much does this cost?"
        ],
        "words": [
-        "多少钱？"
+        "钱"
        ],
        "promptRoman": "duōshao qián?"
       },
@@ -6924,6 +6924,1159 @@
        ],
        "words": [
         "明天"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'太…了' (tài … le) means 'too …': 太 贵 了 (tài guì le) = too expensive."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "商店",
+      "e": "Shop",
+      "r": "shāngdiàn"
+     },
+     {
+      "t": "钱",
+      "e": "Money",
+      "r": "qián"
+     },
+     {
+      "t": "包",
+      "e": "Bag",
+      "r": "bāo"
+     },
+     {
+      "t": "衬衫",
+      "e": "Shirt",
+      "r": "chènshān"
+     },
+     {
+      "t": "鞋",
+      "e": "Shoes",
+      "r": "xié"
+     },
+     {
+      "t": "便宜",
+      "e": "Cheap",
+      "r": "piányi"
+     },
+     {
+      "t": "贵",
+      "e": "Expensive",
+      "r": "guì"
+     },
+     {
+      "t": "大",
+      "e": "Big",
+      "r": "dà"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "我要这个。",
+      "e": "I would like this.",
+      "r": "wǒ yào zhège."
+     },
+     {
+      "t": "太贵了。",
+      "e": "It is too expensive.",
+      "r": "tài guì le."
+     },
+     {
+      "t": "商店开门吗？",
+      "e": "Is the shop open?",
+      "r": "shāngdiàn kāi mén ma?"
+     },
+     {
+      "t": "我需要鞋。",
+      "e": "I need shoes.",
+      "r": "wǒ xūyào xié."
+     },
+     {
+      "t": "包很大。",
+      "e": "The bag is big.",
+      "r": "bāo hěn dà."
+     },
+     {
+      "t": "可以刷卡吗？",
+      "e": "Can I pay by card?",
+      "r": "kěyǐ shuākǎ ma?"
+     },
+     {
+      "t": "我只是看看。",
+      "e": "I am just looking.",
+      "r": "wǒ zhǐshì kànkan."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "商店",
+       "e": "Shop",
+       "kind": "word",
+       "r": "shāngdiàn",
+       "alts": [
+        "店"
+       ]
+      },
+      {
+       "t": "钱",
+       "e": "Money",
+       "kind": "word",
+       "r": "qián"
+      },
+      {
+       "t": "包",
+       "e": "Bag",
+       "kind": "word",
+       "r": "bāo"
+      },
+      {
+       "t": "衬衫",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "chènshān"
+      },
+      {
+       "t": "我要这个。",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "wǒ yào zhège.",
+       "alts": [
+        "我想要这个。"
+       ]
+      },
+      {
+       "t": "商店开门吗？",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "shāngdiàn kāi mén ma?",
+       "alts": [
+        "商店开着吗？"
+       ]
+      },
+      {
+       "t": "太贵了。",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "tài guì le.",
+       "alts": [
+        "这太贵了。"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "商店",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Shop",
+        "Shirt",
+        "Money"
+       ],
+       "answer": "Shop",
+       "words": [
+        "商店"
+       ],
+       "promptRoman": "shāngdiàn"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "钱",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Money",
+        "Cheap",
+        "Bag"
+       ],
+       "answer": "Money",
+       "words": [
+        "钱"
+       ],
+       "promptRoman": "qián"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "商店",
+         "Shop"
+        ],
+        [
+         "钱",
+         "Money"
+        ],
+        [
+         "包",
+         "Bag"
+        ],
+        [
+         "衬衫",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "商店",
+        "钱",
+        "包",
+        "衬衫"
+       ],
+       "romans": [
+        "shāngdiàn",
+        "qián",
+        "bāo",
+        "chènshān"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "包",
+       "words": [
+        "包"
+       ],
+       "options": [
+        "钱",
+        "便宜",
+        "包",
+        "商店"
+       ],
+       "optionsRoman": [
+        "qián",
+        "piányi",
+        "bāo",
+        "shāngdiàn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "衬衫",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shirt",
+        "Bag",
+        "Shoes"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "衬衫"
+       ],
+       "promptRoman": "chènshān"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "鞋",
+        "要",
+        "我",
+        "大",
+        "这个",
+        "看看"
+       ],
+       "answer": [
+        "我",
+        "要",
+        "这个"
+       ],
+       "accepted": [
+        "我想要这个。"
+       ],
+       "words": [
+        "我要这个。"
+       ],
+       "tilesRoman": [
+        "xié",
+        "yào",
+        "wǒ",
+        "dà",
+        "zhège",
+        "kànkan"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "商店开门吗？",
+       "promptLang": "target",
+       "tiles": [
+        "this",
+        "shop",
+        "need",
+        "bag",
+        "Is",
+        "open",
+        "the"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "商店"
+       ],
+       "promptRoman": "shāngdiàn kāi mén ma?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "太贵了。",
+       "roman": "tài guì le.",
+       "translation": "It is too expensive.",
+       "words": [
+        "贵"
+       ],
+       "options": [
+        "太贵了。",
+        "我需要鞋。",
+        "我要这个。",
+        "可以刷卡吗？"
+       ],
+       "optionsRoman": [
+        "tài guì le.",
+        "wǒ xūyào xié.",
+        "wǒ yào zhège.",
+        "kěyǐ shuākǎ ma?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "我要这个。",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "我要这个。"
+       ],
+       "promptRoman": "wǒ yào zhège."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "鞋",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "xié",
+       "alts": [
+        "鞋子"
+       ]
+      },
+      {
+       "t": "便宜",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "piányi"
+      },
+      {
+       "t": "贵",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "guì"
+      },
+      {
+       "t": "大",
+       "e": "Big",
+       "kind": "word",
+       "r": "dà"
+      },
+      {
+       "t": "我需要鞋。",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "wǒ xūyào xié.",
+       "alts": [
+        "我需要鞋子。"
+       ]
+      },
+      {
+       "t": "包很大。",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "bāo hěn dà.",
+       "alts": [
+        "这个包很大。"
+       ]
+      },
+      {
+       "t": "可以刷卡吗？",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "kěyǐ shuākǎ ma?",
+       "alts": [
+        "我可以刷卡吗？"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "鞋",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Shoes",
+        "Money",
+        "Shirt"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "鞋"
+       ],
+       "promptRoman": "xié"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "便宜",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Expensive",
+        "Big",
+        "Shirt"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "便宜"
+       ],
+       "promptRoman": "piányi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "鞋",
+         "Shoes"
+        ],
+        [
+         "便宜",
+         "Cheap"
+        ],
+        [
+         "贵",
+         "Expensive"
+        ],
+        [
+         "大",
+         "Big"
+        ]
+       ],
+       "words": [
+        "鞋",
+        "便宜",
+        "贵",
+        "大"
+       ],
+       "romans": [
+        "xié",
+        "piányi",
+        "guì",
+        "dà"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "贵",
+       "words": [
+        "贵"
+       ],
+       "options": [
+        "包",
+        "钱",
+        "商店",
+        "贵"
+       ],
+       "optionsRoman": [
+        "bāo",
+        "qián",
+        "shāngdiàn",
+        "guì"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "大",
+       "words": [
+        "大"
+       ],
+       "options": [
+        "鞋",
+        "便宜",
+        "贵",
+        "大"
+       ],
+       "optionsRoman": [
+        "xié",
+        "piányi",
+        "guì",
+        "dà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "鞋",
+        "需要",
+        "门",
+        "很",
+        "我",
+        "可以"
+       ],
+       "answer": [
+        "我",
+        "需要",
+        "鞋"
+       ],
+       "accepted": [
+        "我需要鞋子。"
+       ],
+       "words": [
+        "鞋"
+       ],
+       "tilesRoman": [
+        "xié",
+        "xūyào",
+        "mén",
+        "hěn",
+        "wǒ",
+        "kěyǐ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "包很大。",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "The",
+        "bag",
+        "too",
+        "is",
+        "big",
+        "shop"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "包",
+        "大"
+       ],
+       "promptRoman": "bāo hěn dà."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我需要鞋。",
+       "roman": "wǒ xūyào xié.",
+       "translation": "I need shoes.",
+       "words": [
+        "鞋"
+       ],
+       "options": [
+        "我只是看看。",
+        "我要这个。",
+        "包很大。",
+        "我需要鞋。"
+       ],
+       "optionsRoman": [
+        "wǒ zhǐshì kànkan.",
+        "wǒ yào zhège.",
+        "bāo hěn dà.",
+        "wǒ xūyào xié."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "可以刷卡吗？",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "可以刷卡吗？"
+       ],
+       "promptRoman": "kěyǐ shuākǎ ma?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "商店",
+        "店",
+        "shāngdiàn"
+       ],
+       "words": [
+        "商店"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "我只是看看。",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "wǒ zhǐshì kànkan.",
+       "alts": [
+        "我随便看看。"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "钱",
+       "promptLang": "target",
+       "options": [
+        "Shoes",
+        "Shop",
+        "Money",
+        "Bag"
+       ],
+       "answer": "Money",
+       "words": [
+        "钱"
+       ],
+       "promptRoman": "qián"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "商店",
+         "Shop"
+        ],
+        [
+         "贵",
+         "Expensive"
+        ],
+        [
+         "便宜",
+         "Cheap"
+        ],
+        [
+         "包",
+         "Bag"
+        ],
+        [
+         "大",
+         "Big"
+        ]
+       ],
+       "words": [
+        "商店",
+        "贵",
+        "便宜",
+        "包",
+        "大"
+       ],
+       "romans": [
+        "shāngdiàn",
+        "guì",
+        "piányi",
+        "bāo",
+        "dà"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "我只是看看。",
+       "promptLang": "target",
+       "options": [
+        "I need shoes.",
+        "I am just looking.",
+        "The bag is big.",
+        "Is the shop open?"
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "我只是看看。"
+       ],
+       "promptRoman": "wǒ zhǐshì kànkan."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "太贵了。",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "is",
+        "It",
+        "expensive",
+        "need",
+        "shoes",
+        "too"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "贵"
+       ],
+       "promptRoman": "tài guì le."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "商店",
+        "只是",
+        "看看",
+        "太",
+        "门",
+        "我"
+       ],
+       "answer": [
+        "我",
+        "只是",
+        "看看"
+       ],
+       "accepted": [
+        "我随便看看。"
+       ],
+       "words": [
+        "我只是看看。"
+       ],
+       "tilesRoman": [
+        "shāngdiàn",
+        "zhǐshì",
+        "kànkan",
+        "tài",
+        "mén",
+        "wǒ"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "我",
+        "可以",
+        "刷卡",
+        "太",
+        "门",
+        "吗"
+       ],
+       "answer": [
+        "可以",
+        "刷卡",
+        "吗"
+       ],
+       "accepted": [
+        "我可以刷卡吗？"
+       ],
+       "words": [
+        "可以刷卡吗？"
+       ],
+       "tilesRoman": [
+        "wǒ",
+        "kěyǐ",
+        "shuākǎ",
+        "tài",
+        "mén",
+        "ma"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "可以刷卡吗？",
+       "roman": "kěyǐ shuākǎ ma?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "可以刷卡吗？"
+       ],
+       "options": [
+        "可以刷卡吗？",
+        "我要这个。",
+        "我只是看看。",
+        "商店开门吗？"
+       ],
+       "optionsRoman": [
+        "kěyǐ shuākǎ ma?",
+        "wǒ yào zhège.",
+        "wǒ zhǐshì kànkan.",
+        "shāngdiàn kāi mén ma?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "商店开门吗？",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "商店"
+       ],
+       "promptRoman": "shāngdiàn kāi mén ma?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "需要",
+        "大",
+        "很",
+        "了",
+        "包",
+        "只是"
+       ],
+       "answer": [
+        "包",
+        "很",
+        "大"
+       ],
+       "accepted": [
+        "这个包很大。"
+       ],
+       "words": [
+        "包",
+        "大"
+       ],
+       "tilesRoman": [
+        "xūyào",
+        "dà",
+        "hěn",
+        "le",
+        "bāo",
+        "zhǐshì"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "钱",
+        "qián"
+       ],
+       "words": [
+        "钱"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "我要这个。",
+       "promptLang": "target",
+       "options": [
+        "It is too expensive.",
+        "The bag is big.",
+        "I am just looking.",
+        "I would like this."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "我要这个。"
+       ],
+       "promptRoman": "wǒ yào zhège."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "贵",
+         "Expensive"
+        ],
+        [
+         "钱",
+         "Money"
+        ],
+        [
+         "鞋",
+         "Shoes"
+        ],
+        [
+         "大",
+         "Big"
+        ]
+       ],
+       "words": [
+        "贵",
+        "钱",
+        "鞋",
+        "大"
+       ],
+       "romans": [
+        "guì",
+        "qián",
+        "xié",
+        "dà"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shirt",
+       "promptLang": "en",
+       "answer": "衬衫",
+       "words": [
+        "衬衫"
+       ],
+       "options": [
+        "贵",
+        "包",
+        "商店",
+        "衬衫"
+       ],
+       "optionsRoman": [
+        "guì",
+        "bāo",
+        "shāngdiàn",
+        "chènshān"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Chinese",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "要",
+        "门",
+        "吗",
+        "可以",
+        "鞋",
+        "开",
+        "商店"
+       ],
+       "answer": [
+        "商店",
+        "开",
+        "门",
+        "吗"
+       ],
+       "accepted": [
+        "商店开着吗？"
+       ],
+       "words": [
+        "商店"
+       ],
+       "tilesRoman": [
+        "yào",
+        "mén",
+        "ma",
+        "kěyǐ",
+        "xié",
+        "kāi",
+        "shāngdiàn"
+       ],
+       "joiner": "",
+       "looseSpaces": true
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "我需要鞋。",
+       "promptLang": "target",
+       "tiles": [
+        "card",
+        "need",
+        "shoes",
+        "big",
+        "I",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "鞋"
+       ],
+       "promptRoman": "wǒ xūyào xié."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "我只是看看。",
+       "roman": "wǒ zhǐshì kànkan.",
+       "translation": "I am just looking.",
+       "words": [
+        "我只是看看。"
+       ],
+       "options": [
+        "我要这个。",
+        "我只是看看。",
+        "可以刷卡吗？",
+        "包很大。"
+       ],
+       "optionsRoman": [
+        "wǒ yào zhège.",
+        "wǒ zhǐshì kànkan.",
+        "kěyǐ shuākǎ ma?",
+        "bāo hěn dà."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "包很大。",
+       "roman": "bāo hěn dà.",
+       "translation": "The bag is big.",
+       "words": [
+        "包",
+        "大"
+       ],
+       "options": [
+        "包很大。",
+        "太贵了。",
+        "商店开门吗？",
+        "可以刷卡吗？"
+       ],
+       "optionsRoman": [
+        "bāo hěn dà.",
+        "tài guì le.",
+        "shāngdiàn kāi mén ma?",
+        "kěyǐ shuākǎ ma?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "太贵了。",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "贵"
+       ],
+       "promptRoman": "tài guì le."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Chinese",
+       "prompt": "Cheap",
+       "promptLang": "en",
+       "answers": [
+        "便宜",
+        "piányi"
+       ],
+       "words": [
+        "便宜"
        ],
        "looseSpaces": true,
        "romanAllowed": true

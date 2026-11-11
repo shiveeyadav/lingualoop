@@ -113,3 +113,24 @@ T = {
     "children_school": "Dzieci idą do szkoły. | Dzieci chodzą do szkoły.",
     "what_time_now": "Która jest teraz godzina? | Która godzina?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "\"Poproszę\" (I'll have, please) is the easiest way to ask for something in a Polish shop."
+
+T.update({
+    "shop": "sklep",
+    "money": "pieniądze",
+    "bag": "torba",
+    "shirt": "koszula",
+    "shoes": "buty",
+    "cheap": "tani | tania | tanie",
+    "expensive": "drogi | droga | drogie",
+    "big": "duży | duża | duże",
+    "i_want_this": "Poproszę to. | Chciałbym to. | Chciałabym to.",
+    "too_expensive": "To jest za drogie. | To za drogie.",
+    "shop_open": "Czy sklep jest otwarty?",
+    "i_need_shoes": "Potrzebuję butów.",
+    "bag_is_big": "Torba jest duża.",
+    "pay_card": "Czy mogę zapłacić kartą?",
+    "just_looking": "Tylko się rozglądam. | Tylko oglądam.",
+})

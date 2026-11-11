@@ -120,3 +120,24 @@ T = {
     "children_school": "Les enfants vont à l'école.",
     "what_time_now": "Quelle heure est-il maintenant ? | Il est quelle heure maintenant ?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "Ask for something with \"je voudrais\" (I would like): it is politer than \"je veux\" (I want)."
+
+T.update({
+    "shop": "magasin | boutique",
+    "money": "argent",
+    "bag": "sac",
+    "shirt": "chemise",
+    "shoes": "chaussures",
+    "cheap": "bon marché | pas cher",
+    "expensive": "cher | chère",
+    "big": "grand | grande | gros",
+    "i_want_this": "Je voudrais ceci. | Je voudrais ça. | Je veux ça.",
+    "too_expensive": "C'est trop cher.",
+    "shop_open": "Le magasin est ouvert ? | Est-ce que le magasin est ouvert ?",
+    "i_need_shoes": "J'ai besoin de chaussures.",
+    "bag_is_big": "Le sac est grand.",
+    "pay_card": "Je peux payer par carte ? | Est-ce que je peux payer par carte ?",
+    "just_looking": "Je regarde seulement. | Je regarde juste.",
+})

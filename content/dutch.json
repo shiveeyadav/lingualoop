@@ -5651,6 +5651,930 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "In the Netherlands \"pinnen\" means paying by bank card: \"Kan ik pinnen?\""
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "winkel",
+      "e": "Shop"
+     },
+     {
+      "t": "geld",
+      "e": "Money"
+     },
+     {
+      "t": "tas",
+      "e": "Bag"
+     },
+     {
+      "t": "overhemd",
+      "e": "Shirt"
+     },
+     {
+      "t": "schoenen",
+      "e": "Shoes"
+     },
+     {
+      "t": "goedkoop",
+      "e": "Cheap"
+     },
+     {
+      "t": "duur",
+      "e": "Expensive"
+     },
+     {
+      "t": "groot",
+      "e": "Big"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ik wil dit graag.",
+      "e": "I would like this."
+     },
+     {
+      "t": "Het is te duur.",
+      "e": "It is too expensive."
+     },
+     {
+      "t": "Is de winkel open?",
+      "e": "Is the shop open?"
+     },
+     {
+      "t": "Ik heb schoenen nodig.",
+      "e": "I need shoes."
+     },
+     {
+      "t": "De tas is groot.",
+      "e": "The bag is big."
+     },
+     {
+      "t": "Kan ik met de kaart betalen?",
+      "e": "Can I pay by card?"
+     },
+     {
+      "t": "Ik kijk alleen even.",
+      "e": "I am just looking."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "winkel",
+       "e": "Shop",
+       "kind": "word"
+      },
+      {
+       "t": "geld",
+       "e": "Money",
+       "kind": "word"
+      },
+      {
+       "t": "tas",
+       "e": "Bag",
+       "kind": "word"
+      },
+      {
+       "t": "overhemd",
+       "e": "Shirt",
+       "kind": "word",
+       "alts": [
+        "shirt"
+       ]
+      },
+      {
+       "t": "Ik wil dit graag.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "alts": [
+        "Ik wil graag dit.",
+        "Ik wil dit."
+       ]
+      },
+      {
+       "t": "Is de winkel open?",
+       "e": "Is the shop open?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Het is te duur.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "alts": [
+        "Dat is te duur."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "winkel",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Money",
+        "Bag",
+        "Shoes"
+       ],
+       "answer": "Shop",
+       "words": [
+        "winkel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "geld",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Money",
+        "Bag",
+        "Big"
+       ],
+       "answer": "Money",
+       "words": [
+        "geld"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "winkel",
+         "Shop"
+        ],
+        [
+         "geld",
+         "Money"
+        ],
+        [
+         "tas",
+         "Bag"
+        ],
+        [
+         "overhemd",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "winkel",
+        "geld",
+        "tas",
+        "overhemd"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "tas",
+       "words": [
+        "tas"
+       ],
+       "options": [
+        "geld",
+        "tas",
+        "groot",
+        "goedkoop"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "overhemd",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Expensive",
+        "Cheap",
+        "Shoes"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "overhemd"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "wil",
+        "graag",
+        "even",
+        "te",
+        "Ik",
+        "groot",
+        "dit"
+       ],
+       "answer": [
+        "Ik",
+        "wil",
+        "dit",
+        "graag"
+       ],
+       "accepted": [
+        "Ik wil graag dit.",
+        "Ik wil dit."
+       ],
+       "words": [
+        "Ik wil dit graag."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Is de winkel open?",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "It",
+        "the",
+        "open",
+        "like",
+        "shop",
+        "Is"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "winkel"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Het is te duur.",
+       "translation": "It is too expensive.",
+       "answers": [
+        "Het is te duur."
+       ],
+       "words": [
+        "duur"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ik wil dit graag.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "Ik wil dit graag."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "schoenen",
+       "e": "Shoes",
+       "kind": "word"
+      },
+      {
+       "t": "goedkoop",
+       "e": "Cheap",
+       "kind": "word"
+      },
+      {
+       "t": "duur",
+       "e": "Expensive",
+       "kind": "word"
+      },
+      {
+       "t": "groot",
+       "e": "Big",
+       "kind": "word"
+      },
+      {
+       "t": "Ik heb schoenen nodig.",
+       "e": "I need shoes.",
+       "kind": "phrase"
+      },
+      {
+       "t": "De tas is groot.",
+       "e": "The bag is big.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Kan ik met de kaart betalen?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "alts": [
+        "Kan ik met kaart betalen?",
+        "Kan ik pinnen?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "schoenen",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shirt",
+        "Shoes",
+        "Money"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "schoenen"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "goedkoop",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Shop",
+        "Big",
+        "Money"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "goedkoop"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "schoenen",
+         "Shoes"
+        ],
+        [
+         "goedkoop",
+         "Cheap"
+        ],
+        [
+         "duur",
+         "Expensive"
+        ],
+        [
+         "groot",
+         "Big"
+        ]
+       ],
+       "words": [
+        "schoenen",
+        "goedkoop",
+        "duur",
+        "groot"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "duur",
+       "words": [
+        "duur"
+       ],
+       "options": [
+        "tas",
+        "winkel",
+        "duur",
+        "groot"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "groot",
+       "words": [
+        "groot"
+       ],
+       "options": [
+        "goedkoop",
+        "groot",
+        "geld",
+        "schoenen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "nodig",
+        "winkel",
+        "betalen",
+        "schoenen",
+        "Ik",
+        "heb",
+        "kijk"
+       ],
+       "answer": [
+        "Ik",
+        "heb",
+        "schoenen",
+        "nodig"
+       ],
+       "accepted": [],
+       "words": [
+        "schoenen"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "De tas is groot.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "big",
+        "I",
+        "bag",
+        "am",
+        "The",
+        "need"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "tas",
+        "groot"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ik heb schoenen nodig.",
+       "translation": "I need shoes.",
+       "answers": [
+        "Ik heb schoenen nodig."
+       ],
+       "words": [
+        "schoenen"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Kan ik met de kaart betalen?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "Kan ik met de kaart betalen?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "winkel"
+       ],
+       "words": [
+        "winkel"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Ik kijk alleen even.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "alts": [
+        "Ik kijk alleen."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "geld",
+       "promptLang": "target",
+       "options": [
+        "Cheap",
+        "Bag",
+        "Money",
+        "Big"
+       ],
+       "answer": "Money",
+       "words": [
+        "geld"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "overhemd",
+         "Shirt"
+        ],
+        [
+         "groot",
+         "Big"
+        ],
+        [
+         "goedkoop",
+         "Cheap"
+        ],
+        [
+         "geld",
+         "Money"
+        ],
+        [
+         "tas",
+         "Bag"
+        ]
+       ],
+       "words": [
+        "overhemd",
+        "groot",
+        "goedkoop",
+        "geld",
+        "tas"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ik kijk alleen even.",
+       "promptLang": "target",
+       "options": [
+        "I am just looking.",
+        "Can I pay by card?",
+        "I would like this.",
+        "I need shoes."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "Ik kijk alleen even."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Het is te duur.",
+       "promptLang": "target",
+       "tiles": [
+        "by",
+        "just",
+        "It",
+        "shop",
+        "expensive",
+        "is",
+        "too"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "duur"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "te",
+        "alleen",
+        "Ik",
+        "winkel",
+        "even",
+        "kijk",
+        "is"
+       ],
+       "answer": [
+        "Ik",
+        "kijk",
+        "alleen",
+        "even"
+       ],
+       "accepted": [
+        "Ik kijk alleen."
+       ],
+       "words": [
+        "Ik kijk alleen even."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "de",
+        "graag",
+        "even",
+        "kaart",
+        "betalen",
+        "tas",
+        "Kan",
+        "met",
+        "ik"
+       ],
+       "answer": [
+        "Kan",
+        "ik",
+        "met",
+        "de",
+        "kaart",
+        "betalen"
+       ],
+       "accepted": [
+        "Kan ik met kaart betalen?",
+        "Kan ik pinnen?"
+       ],
+       "words": [
+        "Kan ik met de kaart betalen?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Kan ik met de kaart betalen?",
+       "translation": "Can I pay by card?",
+       "answers": [
+        "Kan ik met de kaart betalen?"
+       ],
+       "words": [
+        "Kan ik met de kaart betalen?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Is de winkel open?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "winkel"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "answers": [
+        "De tas is groot."
+       ],
+       "words": [
+        "tas",
+        "groot"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "geld"
+       ],
+       "words": [
+        "geld"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ik wil dit graag.",
+       "promptLang": "target",
+       "options": [
+        "I would like this.",
+        "I am just looking.",
+        "The bag is big.",
+        "Can I pay by card?"
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "Ik wil dit graag."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "groot",
+         "Big"
+        ],
+        [
+         "overhemd",
+         "Shirt"
+        ],
+        [
+         "tas",
+         "Bag"
+        ],
+        [
+         "winkel",
+         "Shop"
+        ]
+       ],
+       "words": [
+        "groot",
+        "overhemd",
+        "tas",
+        "winkel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Shoes",
+       "promptLang": "en",
+       "answer": "schoenen",
+       "words": [
+        "schoenen"
+       ],
+       "options": [
+        "schoenen",
+        "duur",
+        "overhemd",
+        "geld"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Dutch",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "te",
+        "winkel",
+        "open",
+        "Is",
+        "wil",
+        "graag",
+        "de"
+       ],
+       "answer": [
+        "Is",
+        "de",
+        "winkel",
+        "open"
+       ],
+       "accepted": [],
+       "words": [
+        "winkel"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ik heb schoenen nodig.",
+       "promptLang": "target",
+       "tiles": [
+        "would",
+        "I",
+        "shoes",
+        "the",
+        "this",
+        "need"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "schoenen"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ik kijk alleen even.",
+       "translation": "I am just looking.",
+       "answers": [
+        "Ik kijk alleen even."
+       ],
+       "words": [
+        "Ik kijk alleen even."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "De tas is groot.",
+       "translation": "The bag is big.",
+       "answers": [
+        "De tas is groot."
+       ],
+       "words": [
+        "tas",
+        "groot"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Het is te duur.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "duur"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Dutch",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "geld"
+       ],
+       "words": [
+        "geld"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -118,3 +118,24 @@ T = {
     "children_school": "孩子们 去 上学。 @ háizimen qù shàngxué.",
     "what_time_now": "现在 几 点？ @ xiànzài jǐ diǎn?",
 }
+
+# ---- Shopping unit (added Nov 2026) ----
+TIPS["shopping"] = "'太…了' (tài … le) means 'too …': 太 贵 了 (tài guì le) = too expensive."
+
+T.update({
+    "shop": "商店 | 店 @ shāngdiàn",
+    "money": "钱 @ qián",
+    "bag": "包 @ bāo",
+    "shirt": "衬衫 @ chènshān",
+    "shoes": "鞋 | 鞋子 @ xié",
+    "cheap": "便宜 @ piányi",
+    "expensive": "贵 @ guì",
+    "big": "大 @ dà",
+    "i_want_this": "我 要 这个。 | 我 想要 这个。 @ wǒ yào zhège.",
+    "too_expensive": "太 贵 了。 | 这 太 贵 了。 @ tài guì le.",
+    "shop_open": "商店 开 门 吗？ | 商店 开 着 吗？ @ shāngdiàn kāi mén ma?",
+    "i_need_shoes": "我 需要 鞋。 | 我 需要 鞋子。 @ wǒ xūyào xié.",
+    "bag_is_big": "包 很 大。 | 这个 包 很 大。 @ bāo hěn dà.",
+    "pay_card": "可以 刷卡 吗？ | 我 可以 刷卡 吗？ @ kěyǐ shuākǎ ma?",
+    "just_looking": "我 只是 看看。 | 我 随便 看看。 @ wǒ zhǐshì kànkan.",
+})
