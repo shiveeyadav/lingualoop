@@ -1,6 +1,6 @@
 # LinguaLoop
 
-A Duolingo-style language app: short, game-like lessons in **14 languages**, all taught from English. You get XP, daily streaks (UK date), a daily XP goal, hearts, a learning-path map with locked and unlocked lessons, a mistakes review at the end of each lesson, a weekly leaderboard and spaced-repetition practice. You can try a lesson as a guest without signing up, and your progress is kept when you create a profile.
+A Duolingo-style language app: short, game-like lessons in **20 languages**, all taught from English. You get XP, daily streaks (UK date), a daily XP goal, hearts, a learning-path map with locked and unlocked lessons, a mistakes review at the end of each lesson, a weekly leaderboard and spaced-repetition practice. You can try a lesson as a guest without signing up, and your progress is kept when you create a profile.
 
 Stack: Next.js 14 (pages router, plain JavaScript), PostgreSQL (`pg`), `bcryptjs`, plain CSS. Sessions use an httpOnly cookie backed by the `sessions` table. No other dependencies.
 
@@ -22,10 +22,16 @@ Stack: Next.js 14 (pages router, plain JavaScript), PostgreSQL (`pg`), `bcryptjs
 | Chinese (Mandarin, simplified) | 中文 | zh-CN | pinyin | 6 | 24 | 228 |
 | Japanese | 日本語 | ja-JP | romaji | 6 | 24 | 228 |
 | Korean | 한국어 | ko-KR | romanization | 6 | 24 | 228 |
+| Swedish | Svenska | sv-SE | - | 6 | 24 | 228 |
+| Romanian | Română | ro-RO | - | 6 | 24 | 228 |
+| Indonesian | Bahasa Indonesia | id-ID | - | 6 | 24 | 228 |
+| Vietnamese | Tiếng Việt | vi-VN | - | 6 | 24 | 228 |
+| Ukrainian | Українська | uk-UA | transliteration | 6 | 24 | 228 |
+| Greek | Ελληνικά | el-GR | romanization | 6 | 24 | 228 |
 
-**3,420 exercises in total.** The 12 newer courses share one syllabus: Greetings, People and family, Food and drink, Numbers (1-10, prices, the time), Travel and directions, Daily routine. Spanish and Portuguese keep their original nine topics (greetings, introductions, being polite, numbers, food, family, getting around, at the café, days and time). Every unit has 4 lessons (New words, More words, Sentences, Unit review) of 9-10 exercises.
+**4,788 exercises in total.** The 18 concept-based courses share one syllabus: Greetings, People and family, Food and drink, Numbers (1-10, prices, the time), Travel and directions, Daily routine. Spanish and Portuguese keep their original nine topics (greetings, introductions, being polite, numbers, food, family, getting around, at the café, days and time). Every unit has 4 lessons (New words, More words, Sentences, Unit review) of 9-10 exercises.
 
-Content uses only common vocabulary and short, simple sentences. Where a sentence depends on the speaker's gender (Arabic, Hindi, Polish, Russian), the masculine form is shown and the feminine form is accepted. **Before launch, have a native speaker skim each course** - see "Content review" below.
+Content uses only common vocabulary and short, simple sentences. Where a sentence depends on the speaker's gender (Arabic, Hindi, Polish, Russian, Ukrainian, Romanian), the masculine form is shown and the feminine form is accepted. **Before launch, have a native speaker skim each course** - see "Content review" below.
 
 ## How learners are taught
 
@@ -102,7 +108,7 @@ npm run build && npm start  # production: start runs init-db, then next start -p
 3. **Set the environment:** `DATABASE_URL`, `SESSION_SECRET`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`, and `DATABASE_SSL=true` if the database needs TLS. Leave `PORT` alone if the platform injects it, otherwise set `PORT=3000` and expose port 3000.
 4. **Health check path:** `/api/health` (returns 503 if the database is unreachable).
 5. **Domain and HTTPS:** attach the domain and enable TLS on the platform's proxy. Session cookies are `Secure`, so login needs HTTPS in production.
-6. **Deploy.** The logs should show `content ok` for all 14 courses, then `schema applied`, then the admin line. If course content is invalid, the deploy fails here instead of breaking at runtime.
+6. **Deploy.** The logs should show `content ok` for all 20 courses, then `schema applied`, then the admin line. If course content is invalid, the deploy fails here instead of breaking at runtime.
 7. Log in with the admin account and open `/admin`.
 
 **Updates:** push and redeploy. The schema is idempotent and runs on every start.
@@ -195,7 +201,7 @@ npm test          # node:test, no dependencies: grading, hints, learning path, e
 
 ## Status of this version (November 2026)
 
-Built and checked in the development container: content generation for all 14 courses, the content validator, and `npm test` (grading for all scripts, lesson unlocking, and a check that every one of the 3,420 exercises accepts its own answer and rejects its wrong options). The client components (lesson player with new-word cards and hints, all five exercise types, path map, guidebook, course picker) were also bundled with esbuild against a locally available React 19 and clicked through in headless Chromium: the first lesson of every course plus several later lessons (with and without a speech voice, including one deliberate mistake), confirming the lesson completes, the mistake is re-asked and listed in the review, and the submitted answers pass the server's re-grading.
+Built and checked in the development container: content generation for all 20 courses, the content validator, and `npm test` (grading for all scripts, lesson unlocking, and a check that every one of the 3,420 exercises accepts its own answer and rejects its wrong options). The client components (lesson player with new-word cards and hints, all five exercise types, path map, guidebook, course picker) were also bundled with esbuild against a locally available React 19 and clicked through in headless Chromium: the first lesson of every course plus several later lessons (with and without a speech voice, including one deliberate mistake), confirming the lesson completes, the mistake is re-asked and listed in the review, and the submitted answers pass the server's re-grading.
 
 **Not run here:** npm could not reach the registry from the container, so `npm install`, `next build`, the API routes with PostgreSQL, the Docker image and the real Next.js app were **not** run for this version. No new npm dependencies were added. Before deploying, run `npm install && npm run build` (or `docker compose up -d --build`) and click through one lesson in a Latin-script course, Arabic and Japanese, including a listening exercise on a phone.
 

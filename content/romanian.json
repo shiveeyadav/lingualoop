@@ -1,0 +1,5553 @@
+{
+ "id": "romanian",
+ "title": "Romanian",
+ "shortName": "Romanian",
+ "nativeName": "Română",
+ "fromLanguage": "en",
+ "speechLang": "ro-RO",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [
+  "ă",
+  "â",
+  "î",
+  "ș",
+  "ț"
+ ],
+ "particles": [],
+ "order": 160,
+ "description": "Everyday Romanian: greetings, family, food, numbers, getting around and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tips": [
+    "'Salut' is casual; 'bună ziua' is the polite hello. Use 'vă rog' (please) with strangers and 'te rog' with friends."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "bună",
+      "e": "Hello"
+     },
+     {
+      "t": "la revedere",
+      "e": "Goodbye"
+     },
+     {
+      "t": "mulțumesc",
+      "e": "Thank you"
+     },
+     {
+      "t": "vă rog",
+      "e": "Please"
+     },
+     {
+      "t": "da",
+      "e": "Yes"
+     },
+     {
+      "t": "nu",
+      "e": "No"
+     },
+     {
+      "t": "bună dimineața",
+      "e": "Good morning"
+     },
+     {
+      "t": "scuze",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ce faci?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Bine, mulțumesc.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Mă numesc Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Îmi pare bine.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Mulțumesc mult.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Ne vedem mâine.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Cum te numești?",
+      "e": "What is your name?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "bună",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "salut",
+        "bună ziua"
+       ]
+      },
+      {
+       "t": "la revedere",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "pa"
+       ]
+      },
+      {
+       "t": "mulțumesc",
+       "e": "Thank you",
+       "kind": "word",
+       "alts": [
+        "mersi"
+       ]
+      },
+      {
+       "t": "vă rog",
+       "e": "Please",
+       "kind": "word",
+       "alts": [
+        "te rog"
+       ]
+      },
+      {
+       "t": "Ce faci?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Ce mai faci?",
+        "Ce faceți?"
+       ]
+      },
+      {
+       "t": "Mă numesc Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Numele meu este Anna."
+       ]
+      },
+      {
+       "t": "Bine, mulțumesc.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Sunt bine, mulțumesc."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bună",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Good morning",
+        "Goodbye",
+        "Sorry"
+       ],
+       "answer": "Hello",
+       "words": [
+        "bună"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "la revedere",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "Hello",
+        "Goodbye",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "la revedere"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bună",
+         "Hello"
+        ],
+        [
+         "la revedere",
+         "Goodbye"
+        ],
+        [
+         "mulțumesc",
+         "Thank you"
+        ],
+        [
+         "vă rog",
+         "Please"
+        ]
+       ],
+       "words": [
+        "bună",
+        "la revedere",
+        "mulțumesc",
+        "vă rog"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "mulțumesc",
+       "words": [
+        "mulțumesc"
+       ],
+       "options": [
+        "scuze",
+        "bună",
+        "vă rog",
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vă rog",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Good morning",
+        "Yes",
+        "Please"
+       ],
+       "answer": "Please",
+       "words": [
+        "vă rog"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "Ce",
+        "faci",
+        "Cum",
+        "Anna",
+        "Ne"
+       ],
+       "answer": [
+        "Ce",
+        "faci"
+       ],
+       "accepted": [
+        "Ce mai faci?",
+        "Ce faceți?"
+       ],
+       "words": [
+        "Ce faci?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mă numesc Anna.",
+       "promptLang": "target",
+       "tiles": [
+        "My",
+        "name",
+        "tomorrow",
+        "thank",
+        "to",
+        "is",
+        "Anna"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Mă numesc Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bine, mulțumesc.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Bine, mulțumesc."
+       ],
+       "words": [
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ce faci?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "Ce faci?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "da",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "nu",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "bună dimineața",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "scuze",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "îmi pare rău",
+        "scuzați-mă"
+       ]
+      },
+      {
+       "t": "Îmi pare bine.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "alts": [
+        "Încântat de cunoștință.",
+        "Încântată de cunoștință."
+       ]
+      },
+      {
+       "t": "Mulțumesc mult.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Mulțumesc frumos."
+       ]
+      },
+      {
+       "t": "Ne vedem mâine.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "alts": [
+        "Pe mâine."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "da",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "Goodbye",
+        "Hello",
+        "Thank you"
+       ],
+       "answer": "Yes",
+       "words": [
+        "da"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nu",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Hello",
+        "No",
+        "Yes"
+       ],
+       "answer": "No",
+       "words": [
+        "nu"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "da",
+         "Yes"
+        ],
+        [
+         "nu",
+         "No"
+        ],
+        [
+         "bună dimineața",
+         "Good morning"
+        ],
+        [
+         "scuze",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "da",
+        "nu",
+        "bună dimineața",
+        "scuze"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "bună dimineața",
+       "words": [
+        "bună dimineața"
+       ],
+       "options": [
+        "bună dimineața",
+        "mulțumesc",
+        "nu",
+        "bună"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "scuze",
+       "words": [
+        "scuze"
+       ],
+       "options": [
+        "scuze",
+        "bună",
+        "da",
+        "bună dimineața"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "Îmi",
+        "te",
+        "Cum",
+        "pare",
+        "numesc",
+        "bine"
+       ],
+       "answer": [
+        "Îmi",
+        "pare",
+        "bine"
+       ],
+       "accepted": [
+        "Încântat de cunoștință.",
+        "Încântată de cunoștință."
+       ],
+       "words": [
+        "Îmi pare bine."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mulțumesc mult.",
+       "promptLang": "target",
+       "tiles": [
+        "Nice",
+        "you",
+        "See",
+        "are",
+        "very",
+        "Thank",
+        "much"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Îmi pare bine.",
+       "translation": "Nice to meet you.",
+       "answers": [
+        "Îmi pare bine."
+       ],
+       "words": [
+        "Îmi pare bine."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ne vedem mâine.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "mâine"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "bună",
+        "salut",
+        "bună ziua"
+       ],
+       "words": [
+        "bună"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Cum te numești?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Cum vă numiți?",
+        "Cum te cheamă?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "la revedere",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Goodbye",
+        "Good morning",
+        "No"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "la revedere"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mulțumesc",
+         "Thank you"
+        ],
+        [
+         "bună",
+         "Hello"
+        ],
+        [
+         "bună dimineața",
+         "Good morning"
+        ],
+        [
+         "scuze",
+         "Sorry"
+        ],
+        [
+         "nu",
+         "No"
+        ]
+       ],
+       "words": [
+        "mulțumesc",
+        "bună",
+        "bună dimineața",
+        "scuze",
+        "nu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Cum te numești?",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "What is your name?",
+        "See you tomorrow.",
+        "How are you?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "Cum te numești?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Bine, mulțumesc.",
+       "promptLang": "target",
+       "tiles": [
+        "Anna",
+        "your",
+        "am",
+        "you",
+        "fine",
+        "name",
+        "I",
+        "thank"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "Cum",
+        "numești",
+        "te",
+        "vedem",
+        "mult",
+        "Anna"
+       ],
+       "answer": [
+        "Cum",
+        "te",
+        "numești"
+       ],
+       "accepted": [
+        "Cum vă numiți?",
+        "Cum te cheamă?"
+       ],
+       "words": [
+        "Cum te numești?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "vedem",
+        "Anna",
+        "Ne",
+        "mâine",
+        "Îmi",
+        "mulțumesc"
+       ],
+       "answer": [
+        "Ne",
+        "vedem",
+        "mâine"
+       ],
+       "accepted": [
+        "Pe mâine."
+       ],
+       "words": [
+        "mâine"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ne vedem mâine.",
+       "translation": "See you tomorrow.",
+       "answers": [
+        "Ne vedem mâine."
+       ],
+       "words": [
+        "mâine"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mă numesc Anna.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Mă numesc Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Mulțumesc mult.",
+        "Mulțumesc frumos."
+       ],
+       "words": [
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "la revedere",
+        "pa"
+       ],
+       "words": [
+        "la revedere"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ce faci?",
+       "promptLang": "target",
+       "options": [
+        "How are you?",
+        "See you tomorrow.",
+        "I am fine, thank you.",
+        "My name is Anna."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "Ce faci?"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "da",
+         "Yes"
+        ],
+        [
+         "mulțumesc",
+         "Thank you"
+        ],
+        [
+         "vă rog",
+         "Please"
+        ],
+        [
+         "la revedere",
+         "Goodbye"
+        ]
+       ],
+       "words": [
+        "da",
+        "mulțumesc",
+        "vă rog",
+        "la revedere"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "No",
+       "promptLang": "en",
+       "answer": "nu",
+       "words": [
+        "nu"
+       ],
+       "options": [
+        "mulțumesc",
+        "scuze",
+        "la revedere",
+        "nu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "Anna",
+        "Ne",
+        "Mă",
+        "mult",
+        "numesc",
+        "Bine"
+       ],
+       "answer": [
+        "Mă",
+        "numesc",
+        "Anna"
+       ],
+       "accepted": [
+        "Numele meu este Anna."
+       ],
+       "words": [
+        "Mă numesc Anna."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Îmi pare bine.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "meet",
+        "you",
+        "thank",
+        "fine",
+        "Nice",
+        "much"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "Îmi pare bine."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cum te numești?",
+       "translation": "What is your name?",
+       "answers": [
+        "Cum te numești?"
+       ],
+       "words": [
+        "Cum te numești?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mulțumesc mult.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Mulțumesc mult."
+       ],
+       "words": [
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bine, mulțumesc.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "mulțumesc"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "bună",
+        "salut",
+        "bună ziua"
+       ],
+       "words": [
+        "bună"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tips": [
+    "'The' is added to the end of a noun: 'prieten' (friend) becomes 'prietenul' (the friend)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "bărbat",
+      "e": "Man"
+     },
+     {
+      "t": "femeie",
+      "e": "Woman"
+     },
+     {
+      "t": "copil",
+      "e": "Child"
+     },
+     {
+      "t": "prieten",
+      "e": "Friend"
+     },
+     {
+      "t": "mamă",
+      "e": "Mother"
+     },
+     {
+      "t": "tată",
+      "e": "Father"
+     },
+     {
+      "t": "fiu",
+      "e": "Son"
+     },
+     {
+      "t": "fiică",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Aceasta este mama mea.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "El este prietenul meu.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Am un fiu.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Unde este tatăl meu?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Mama mea este acasă.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "Ea este fiica mea.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Cine este acest bărbat?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "bărbat",
+       "e": "Man",
+       "kind": "word"
+      },
+      {
+       "t": "femeie",
+       "e": "Woman",
+       "kind": "word"
+      },
+      {
+       "t": "copil",
+       "e": "Child",
+       "kind": "word"
+      },
+      {
+       "t": "prieten",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "prietenă"
+       ]
+      },
+      {
+       "t": "Aceasta este mama mea.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "Ea este mama mea."
+       ]
+      },
+      {
+       "t": "Am un fiu.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "alts": [
+        "Am un băiat."
+       ]
+      },
+      {
+       "t": "El este prietenul meu.",
+       "e": "He is my friend.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bărbat",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Man",
+        "Father",
+        "Mother"
+       ],
+       "answer": "Man",
+       "words": [
+        "bărbat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "femeie",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Friend",
+        "Woman",
+        "Son"
+       ],
+       "answer": "Woman",
+       "words": [
+        "femeie"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bărbat",
+         "Man"
+        ],
+        [
+         "femeie",
+         "Woman"
+        ],
+        [
+         "copil",
+         "Child"
+        ],
+        [
+         "prieten",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "bărbat",
+        "femeie",
+        "copil",
+        "prieten"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "copil",
+       "words": [
+        "copil"
+       ],
+       "options": [
+        "tată",
+        "mamă",
+        "copil",
+        "prieten"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "prieten",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Man",
+        "Child",
+        "Friend"
+       ],
+       "answer": "Friend",
+       "words": [
+        "prieten"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "Aceasta",
+        "Ea",
+        "fiu",
+        "mea",
+        "mama",
+        "tatăl",
+        "este"
+       ],
+       "answer": [
+        "Aceasta",
+        "este",
+        "mama",
+        "mea"
+       ],
+       "accepted": [
+        "Ea este mama mea."
+       ],
+       "words": [
+        "Aceasta este mama mea."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Am un fiu.",
+       "promptLang": "target",
+       "tiles": [
+        "son",
+        "have",
+        "This",
+        "a",
+        "I",
+        "at",
+        "Who"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "fiu",
+        "unu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "El este prietenul meu.",
+       "translation": "He is my friend.",
+       "answers": [
+        "El este prietenul meu."
+       ],
+       "words": [
+        "El este prietenul meu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Aceasta este mama mea.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "Aceasta este mama mea."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "mamă",
+       "e": "Mother",
+       "kind": "word"
+      },
+      {
+       "t": "tată",
+       "e": "Father",
+       "kind": "word"
+      },
+      {
+       "t": "fiu",
+       "e": "Son",
+       "kind": "word"
+      },
+      {
+       "t": "fiică",
+       "e": "Daughter",
+       "kind": "word"
+      },
+      {
+       "t": "Unde este tatăl meu?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Unde e tata?"
+       ]
+      },
+      {
+       "t": "Mama mea este acasă.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "alts": [
+        "Mama e acasă."
+       ]
+      },
+      {
+       "t": "Ea este fiica mea.",
+       "e": "She is my daughter.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mamă",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Son",
+        "Mother",
+        "Father"
+       ],
+       "answer": "Mother",
+       "words": [
+        "mamă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tată",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Child",
+        "Woman",
+        "Father"
+       ],
+       "answer": "Father",
+       "words": [
+        "tată"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mamă",
+         "Mother"
+        ],
+        [
+         "tată",
+         "Father"
+        ],
+        [
+         "fiu",
+         "Son"
+        ],
+        [
+         "fiică",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "mamă",
+        "tată",
+        "fiu",
+        "fiică"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "fiu",
+       "words": [
+        "fiu"
+       ],
+       "options": [
+        "tată",
+        "bărbat",
+        "prieten",
+        "fiu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "fiică",
+       "words": [
+        "fiică"
+       ],
+       "options": [
+        "copil",
+        "fiică",
+        "femeie",
+        "prieten"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "Unde",
+        "acasă",
+        "meu",
+        "este",
+        "tatăl",
+        "prietenul",
+        "mea"
+       ],
+       "answer": [
+        "Unde",
+        "este",
+        "tatăl",
+        "meu"
+       ],
+       "accepted": [
+        "Unde e tata?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mama mea este acasă.",
+       "promptLang": "target",
+       "tiles": [
+        "have",
+        "mother",
+        "at",
+        "home",
+        "This",
+        "is",
+        "My",
+        "a"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "Mama mea este acasă."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Unde este tatăl meu?",
+       "translation": "Where is my father?",
+       "answers": [
+        "Unde este tatăl meu?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ea este fiica mea.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "Ea este fiica mea."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "bărbat"
+       ],
+       "words": [
+        "bărbat"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Cine este acest bărbat?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "alts": [
+        "Cine e bărbatul acesta?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "femeie",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Daughter",
+        "Mother",
+        "Woman"
+       ],
+       "answer": "Woman",
+       "words": [
+        "femeie"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "prieten",
+         "Friend"
+        ],
+        [
+         "bărbat",
+         "Man"
+        ],
+        [
+         "copil",
+         "Child"
+        ],
+        [
+         "fiică",
+         "Daughter"
+        ],
+        [
+         "femeie",
+         "Woman"
+        ]
+       ],
+       "words": [
+        "prieten",
+        "bărbat",
+        "copil",
+        "fiică",
+        "femeie"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Cine este acest bărbat?",
+       "promptLang": "target",
+       "options": [
+        "She is my daughter.",
+        "Who is this man?",
+        "My mother is at home.",
+        "Where is my father?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "bărbat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "El este prietenul meu.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "He",
+        "my",
+        "She",
+        "daughter",
+        "at",
+        "friend"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "El este prietenul meu."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "acest",
+        "bărbat",
+        "Cine",
+        "este",
+        "tatăl",
+        "Unde",
+        "mea"
+       ],
+       "answer": [
+        "Cine",
+        "este",
+        "acest",
+        "bărbat"
+       ],
+       "accepted": [
+        "Cine e bărbatul acesta?"
+       ],
+       "words": [
+        "bărbat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "mea",
+        "fiica",
+        "acasă",
+        "acest",
+        "El",
+        "este",
+        "Ea"
+       ],
+       "answer": [
+        "Ea",
+        "este",
+        "fiica",
+        "mea"
+       ],
+       "accepted": [],
+       "words": [
+        "Ea este fiica mea."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ea este fiica mea.",
+       "translation": "She is my daughter.",
+       "answers": [
+        "Ea este fiica mea."
+       ],
+       "words": [
+        "Ea este fiica mea."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Am un fiu.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "fiu",
+        "unu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Mama mea este acasă.",
+        "Mama e acasă."
+       ],
+       "words": [
+        "Mama mea este acasă."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "femeie"
+       ],
+       "words": [
+        "femeie"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Aceasta este mama mea.",
+       "promptLang": "target",
+       "options": [
+        "I have a son.",
+        "Where is my father?",
+        "This is my mother.",
+        "He is my friend."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "Aceasta este mama mea."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "copil",
+         "Child"
+        ],
+        [
+         "fiică",
+         "Daughter"
+        ],
+        [
+         "femeie",
+         "Woman"
+        ],
+        [
+         "fiu",
+         "Son"
+        ]
+       ],
+       "words": [
+        "copil",
+        "fiică",
+        "femeie",
+        "fiu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answer": "bărbat",
+       "words": [
+        "bărbat"
+       ],
+       "options": [
+        "fiu",
+        "bărbat",
+        "tată",
+        "mamă"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "Am",
+        "un",
+        "El",
+        "fiu",
+        "fiica",
+        "tatăl"
+       ],
+       "answer": [
+        "Am",
+        "un",
+        "fiu"
+       ],
+       "accepted": [
+        "Am un băiat."
+       ],
+       "words": [
+        "fiu",
+        "unu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Unde este tatăl meu?",
+       "promptLang": "target",
+       "tiles": [
+        "father",
+        "is",
+        "She",
+        "Where",
+        "at",
+        "mother",
+        "my"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cine este acest bărbat?",
+       "translation": "Who is this man?",
+       "answers": [
+        "Cine este acest bărbat?"
+       ],
+       "words": [
+        "bărbat"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mama mea este acasă.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Mama mea este acasă."
+       ],
+       "words": [
+        "Mama mea este acasă."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "El este prietenul meu.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "El este prietenul meu."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answers": [
+        "tată"
+       ],
+       "words": [
+        "tată"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tips": [
+    "'I am hungry' is 'mi-e foame', literally 'to me it is hunger'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "apă",
+      "e": "Water"
+     },
+     {
+      "t": "pâine",
+      "e": "Bread"
+     },
+     {
+      "t": "cafea",
+      "e": "Coffee"
+     },
+     {
+      "t": "ceai",
+      "e": "Tea"
+     },
+     {
+      "t": "lapte",
+      "e": "Milk"
+     },
+     {
+      "t": "măr",
+      "e": "Apple"
+     },
+     {
+      "t": "orez",
+      "e": "Rice"
+     },
+     {
+      "t": "ou",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Apă, vă rog.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Beau cafea.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Mănânc pâine.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Ceaiul este fierbinte.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Nu beau lapte.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Îmi plac merele.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Mi-e foame.",
+      "e": "I am hungry."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "apă",
+       "e": "Water",
+       "kind": "word"
+      },
+      {
+       "t": "pâine",
+       "e": "Bread",
+       "kind": "word"
+      },
+      {
+       "t": "cafea",
+       "e": "Coffee",
+       "kind": "word"
+      },
+      {
+       "t": "ceai",
+       "e": "Tea",
+       "kind": "word"
+      },
+      {
+       "t": "Apă, vă rog.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Apă, te rog."
+       ]
+      },
+      {
+       "t": "Mănânc pâine.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Beau cafea.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "apă",
+       "promptLang": "target",
+       "options": [
+        "Coffee",
+        "Tea",
+        "Apple",
+        "Water"
+       ],
+       "answer": "Water",
+       "words": [
+        "apă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pâine",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Tea",
+        "Bread",
+        "Egg"
+       ],
+       "answer": "Bread",
+       "words": [
+        "pâine"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "apă",
+         "Water"
+        ],
+        [
+         "pâine",
+         "Bread"
+        ],
+        [
+         "cafea",
+         "Coffee"
+        ],
+        [
+         "ceai",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "apă",
+        "pâine",
+        "cafea",
+        "ceai"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "cafea",
+       "words": [
+        "cafea"
+       ],
+       "options": [
+        "cafea",
+        "apă",
+        "ou",
+        "măr"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ceai",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Tea",
+        "Water",
+        "Rice"
+       ],
+       "answer": "Tea",
+       "words": [
+        "ceai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "fierbinte",
+        "Nu",
+        "rog",
+        "vă",
+        "Apă",
+        "Mi-e"
+       ],
+       "answer": [
+        "Apă",
+        "vă",
+        "rog"
+       ],
+       "accepted": [
+        "Apă, te rog."
+       ],
+       "words": [
+        "vă rog",
+        "apă"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mănânc pâine.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "eat",
+        "tea",
+        "not",
+        "bread",
+        "drink"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "pâine"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Beau cafea.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Beau cafea."
+       ],
+       "words": [
+        "cafea"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Apă, vă rog.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "vă rog",
+        "apă"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "lapte",
+       "e": "Milk",
+       "kind": "word"
+      },
+      {
+       "t": "măr",
+       "e": "Apple",
+       "kind": "word"
+      },
+      {
+       "t": "orez",
+       "e": "Rice",
+       "kind": "word"
+      },
+      {
+       "t": "ou",
+       "e": "Egg",
+       "kind": "word"
+      },
+      {
+       "t": "Ceaiul este fierbinte.",
+       "e": "The tea is hot.",
+       "kind": "phrase",
+       "alts": [
+        "Ceaiul e fierbinte."
+       ]
+      },
+      {
+       "t": "Nu beau lapte.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Îmi plac merele.",
+       "e": "I like apples.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "lapte",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Coffee",
+        "Bread",
+        "Milk"
+       ],
+       "answer": "Milk",
+       "words": [
+        "lapte"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "măr",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Tea",
+        "Apple",
+        "Milk"
+       ],
+       "answer": "Apple",
+       "words": [
+        "măr"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "lapte",
+         "Milk"
+        ],
+        [
+         "măr",
+         "Apple"
+        ],
+        [
+         "orez",
+         "Rice"
+        ],
+        [
+         "ou",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "lapte",
+        "măr",
+        "orez",
+        "ou"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "orez",
+       "words": [
+        "orez"
+       ],
+       "options": [
+        "orez",
+        "ceai",
+        "pâine",
+        "lapte"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "ou",
+       "words": [
+        "ou"
+       ],
+       "options": [
+        "lapte",
+        "apă",
+        "ou",
+        "pâine"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "Beau",
+        "plac",
+        "este",
+        "Ceaiul",
+        "Îmi",
+        "fierbinte"
+       ],
+       "answer": [
+        "Ceaiul",
+        "este",
+        "fierbinte"
+       ],
+       "accepted": [
+        "Ceaiul e fierbinte."
+       ],
+       "words": [
+        "Ceaiul este fierbinte."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Nu beau lapte.",
+       "promptLang": "target",
+       "tiles": [
+        "do",
+        "am",
+        "like",
+        "milk",
+        "not",
+        "I",
+        "drink",
+        "apples"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "nu",
+        "lapte"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ceaiul este fierbinte.",
+       "translation": "The tea is hot.",
+       "answers": [
+        "Ceaiul este fierbinte."
+       ],
+       "words": [
+        "Ceaiul este fierbinte."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Îmi plac merele.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "Îmi plac merele."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "apă"
+       ],
+       "words": [
+        "apă"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Mi-e foame.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "alts": [
+        "Îmi este foame."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pâine",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Apple",
+        "Bread",
+        "Coffee"
+       ],
+       "answer": "Bread",
+       "words": [
+        "pâine"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ceai",
+         "Tea"
+        ],
+        [
+         "pâine",
+         "Bread"
+        ],
+        [
+         "măr",
+         "Apple"
+        ],
+        [
+         "lapte",
+         "Milk"
+        ],
+        [
+         "apă",
+         "Water"
+        ]
+       ],
+       "words": [
+        "ceai",
+        "pâine",
+        "măr",
+        "lapte",
+        "apă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Mi-e foame.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "The tea is hot.",
+        "I eat bread.",
+        "I drink coffee."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Mi-e foame."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Beau cafea.",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "drink",
+        "hungry",
+        "not",
+        "coffee",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "cafea"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "Mi-e",
+        "Ceaiul",
+        "foame",
+        "cafea",
+        "Îmi"
+       ],
+       "answer": [
+        "Mi-e",
+        "foame"
+       ],
+       "accepted": [
+        "Îmi este foame."
+       ],
+       "words": [
+        "Mi-e foame."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "plac",
+        "Apă",
+        "lapte",
+        "foame",
+        "Îmi",
+        "merele"
+       ],
+       "answer": [
+        "Îmi",
+        "plac",
+        "merele"
+       ],
+       "accepted": [],
+       "words": [
+        "Îmi plac merele."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Îmi plac merele.",
+       "translation": "I like apples.",
+       "answers": [
+        "Îmi plac merele."
+       ],
+       "words": [
+        "Îmi plac merele."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Mănânc pâine.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "pâine"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Nu beau lapte."
+       ],
+       "words": [
+        "nu",
+        "lapte"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "pâine"
+       ],
+       "words": [
+        "pâine"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Apă, vă rog.",
+       "promptLang": "target",
+       "options": [
+        "I eat bread.",
+        "The tea is hot.",
+        "I am hungry.",
+        "Water, please."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "vă rog",
+        "apă"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "măr",
+         "Apple"
+        ],
+        [
+         "ceai",
+         "Tea"
+        ],
+        [
+         "pâine",
+         "Bread"
+        ],
+        [
+         "orez",
+         "Rice"
+        ]
+       ],
+       "words": [
+        "măr",
+        "ceai",
+        "pâine",
+        "orez"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "ou",
+       "words": [
+        "ou"
+       ],
+       "options": [
+        "lapte",
+        "ceai",
+        "ou",
+        "pâine"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "Apă",
+        "Mănânc",
+        "Nu",
+        "plac",
+        "pâine"
+       ],
+       "answer": [
+        "Mănânc",
+        "pâine"
+       ],
+       "accepted": [],
+       "words": [
+        "pâine"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ceaiul este fierbinte.",
+       "promptLang": "target",
+       "tiles": [
+        "hot",
+        "hungry",
+        "tea",
+        "drink",
+        "The",
+        "is",
+        "apples"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "Ceaiul este fierbinte."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mi-e foame.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Mi-e foame."
+       ],
+       "words": [
+        "Mi-e foame."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Nu beau lapte.",
+       "translation": "I do not drink milk.",
+       "answers": [
+        "Nu beau lapte."
+       ],
+       "words": [
+        "nu",
+        "lapte"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Beau cafea.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "cafea"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answers": [
+        "cafea"
+       ],
+       "words": [
+        "cafea"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tips": [
+    "Some numbers change with the noun: 'doi copii' (two children) but 'două ceaiuri' (two teas)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "unu",
+      "e": "One"
+     },
+     {
+      "t": "doi",
+      "e": "Two"
+     },
+     {
+      "t": "trei",
+      "e": "Three"
+     },
+     {
+      "t": "patru",
+      "e": "Four"
+     },
+     {
+      "t": "cinci",
+      "e": "Five"
+     },
+     {
+      "t": "șase",
+      "e": "Six"
+     },
+     {
+      "t": "șapte",
+      "e": "Seven"
+     },
+     {
+      "t": "opt",
+      "e": "Eight"
+     },
+     {
+      "t": "nouă",
+      "e": "Nine"
+     },
+     {
+      "t": "zece",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Am doi copii.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Cât costă?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Am patru mere.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "O cafea, vă rog.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Două ceaiuri, vă rog.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Este ora trei.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Un moment, vă rog.",
+      "e": "One moment, please."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "unu",
+       "e": "One",
+       "kind": "word",
+       "alts": [
+        "un",
+        "una"
+       ]
+      },
+      {
+       "t": "doi",
+       "e": "Two",
+       "kind": "word",
+       "alts": [
+        "două"
+       ]
+      },
+      {
+       "t": "trei",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "patru",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Am doi copii.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Am patru mere.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Cât costă?",
+       "e": "How much is it?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "unu",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Two",
+        "Ten",
+        "Eight"
+       ],
+       "answer": "One",
+       "words": [
+        "unu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "doi",
+       "promptLang": "target",
+       "options": [
+        "Ten",
+        "One",
+        "Eight",
+        "Two"
+       ],
+       "answer": "Two",
+       "words": [
+        "doi"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "unu",
+         "One"
+        ],
+        [
+         "doi",
+         "Two"
+        ],
+        [
+         "trei",
+         "Three"
+        ],
+        [
+         "patru",
+         "Four"
+        ]
+       ],
+       "words": [
+        "unu",
+        "doi",
+        "trei",
+        "patru"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "trei",
+       "words": [
+        "trei"
+       ],
+       "options": [
+        "șase",
+        "trei",
+        "doi",
+        "zece"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "patru",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Ten",
+        "One",
+        "Seven"
+       ],
+       "answer": "Four",
+       "words": [
+        "patru"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "costă",
+        "cafea",
+        "Am",
+        "copii",
+        "doi",
+        "O"
+       ],
+       "answer": [
+        "Am",
+        "doi",
+        "copii"
+       ],
+       "accepted": [],
+       "words": [
+        "doi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Am patru mere.",
+       "promptLang": "target",
+       "tiles": [
+        "have",
+        "apples",
+        "children",
+        "How",
+        "four",
+        "I",
+        "o'clock"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "patru"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cât costă?",
+       "translation": "How much is it?",
+       "answers": [
+        "Cât costă?"
+       ],
+       "words": [
+        "Cât costă?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Am doi copii.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "doi"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "cinci",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "șase",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "șapte",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "opt",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "O cafea, vă rog.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "alts": [
+        "O cafea, te rog."
+       ]
+      },
+      {
+       "t": "Două ceaiuri, vă rog.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "alts": [
+        "Două ceaiuri, te rog."
+       ]
+      },
+      {
+       "t": "Este ora trei.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "alts": [
+        "E ora trei."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "cinci",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Seven",
+        "Five",
+        "Nine"
+       ],
+       "answer": "Five",
+       "words": [
+        "cinci"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "șase",
+       "promptLang": "target",
+       "options": [
+        "Five",
+        "Six",
+        "Three",
+        "Four"
+       ],
+       "answer": "Six",
+       "words": [
+        "șase"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "cinci",
+         "Five"
+        ],
+        [
+         "șase",
+         "Six"
+        ],
+        [
+         "șapte",
+         "Seven"
+        ],
+        [
+         "opt",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "cinci",
+        "șase",
+        "șapte",
+        "opt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "șapte",
+       "words": [
+        "șapte"
+       ],
+       "options": [
+        "șapte",
+        "opt",
+        "unu",
+        "șase"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "opt",
+       "words": [
+        "opt"
+       ],
+       "options": [
+        "opt",
+        "șapte",
+        "nouă",
+        "zece"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "vă",
+        "O",
+        "cafea",
+        "rog",
+        "Un",
+        "ora",
+        "doi"
+       ],
+       "answer": [
+        "O",
+        "cafea",
+        "vă",
+        "rog"
+       ],
+       "accepted": [
+        "O cafea, te rog."
+       ],
+       "words": [
+        "vă rog",
+        "cafea"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Două ceaiuri, vă rog.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "Two",
+        "have",
+        "teas",
+        "I",
+        "it"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "vă rog",
+        "doi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "O cafea, vă rog.",
+       "translation": "One coffee, please.",
+       "answers": [
+        "O cafea, vă rog."
+       ],
+       "words": [
+        "vă rog",
+        "cafea"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Este ora trei.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "trei"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "unu",
+        "un",
+        "una"
+       ],
+       "words": [
+        "unu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "nouă",
+       "e": "Nine",
+       "kind": "word"
+      },
+      {
+       "t": "zece",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Un moment, vă rog.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "O clipă, vă rog."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nouă",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Three",
+        "Six",
+        "Seven"
+       ],
+       "answer": "Nine",
+       "words": [
+        "nouă"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "șapte",
+         "Seven"
+        ],
+        [
+         "trei",
+         "Three"
+        ],
+        [
+         "patru",
+         "Four"
+        ],
+        [
+         "doi",
+         "Two"
+        ],
+        [
+         "unu",
+         "One"
+        ]
+       ],
+       "words": [
+        "șapte",
+        "trei",
+        "patru",
+        "doi",
+        "unu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Un moment, vă rog.",
+       "promptLang": "target",
+       "options": [
+        "How much is it?",
+        "One moment, please.",
+        "I have two children.",
+        "I have four apples."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "vă rog",
+        "unu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cât costă?",
+       "promptLang": "target",
+       "tiles": [
+        "much",
+        "three",
+        "is",
+        "it",
+        "four",
+        "moment",
+        "How"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Cât costă?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "vă",
+        "rog",
+        "Un",
+        "ora",
+        "moment",
+        "copii",
+        "costă"
+       ],
+       "answer": [
+        "Un",
+        "moment",
+        "vă",
+        "rog"
+       ],
+       "accepted": [
+        "O clipă, vă rog."
+       ],
+       "words": [
+        "vă rog",
+        "unu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "Cât",
+        "vă",
+        "ora",
+        "trei",
+        "Este",
+        "doi"
+       ],
+       "answer": [
+        "Este",
+        "ora",
+        "trei"
+       ],
+       "accepted": [
+        "E ora trei."
+       ],
+       "words": [
+        "trei"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Este ora trei.",
+       "translation": "It is three o'clock.",
+       "answers": [
+        "Este ora trei."
+       ],
+       "words": [
+        "trei"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Am patru mere.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "patru"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Două ceaiuri, vă rog.",
+        "Două ceaiuri, te rog."
+       ],
+       "words": [
+        "vă rog",
+        "doi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "zece"
+       ],
+       "words": [
+        "zece"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Am doi copii.",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "One moment, please.",
+        "It is three o'clock.",
+        "Two teas, please."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "doi"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "trei",
+         "Three"
+        ],
+        [
+         "patru",
+         "Four"
+        ],
+        [
+         "nouă",
+         "Nine"
+        ],
+        [
+         "cinci",
+         "Five"
+        ]
+       ],
+       "words": [
+        "trei",
+        "patru",
+        "nouă",
+        "cinci"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "One",
+       "promptLang": "en",
+       "answer": "unu",
+       "words": [
+        "unu"
+       ],
+       "options": [
+        "opt",
+        "doi",
+        "unu",
+        "patru"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Cât",
+        "Am",
+        "cafea",
+        "patru",
+        "moment",
+        "mere"
+       ],
+       "answer": [
+        "Am",
+        "patru",
+        "mere"
+       ],
+       "accepted": [],
+       "words": [
+        "patru"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "O cafea, vă rog.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "One",
+        "is",
+        "coffee",
+        "children",
+        "have"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "vă rog",
+        "cafea"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un moment, vă rog.",
+       "translation": "One moment, please.",
+       "answers": [
+        "Un moment, vă rog."
+       ],
+       "words": [
+        "vă rog",
+        "unu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Două ceaiuri, vă rog.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Două ceaiuri, vă rog."
+       ],
+       "words": [
+        "vă rog",
+        "doi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Cât costă?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Cât costă?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answers": [
+        "șapte"
+       ],
+       "words": [
+        "șapte"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tips": [
+    "'La stânga' means to the left; 'pe dreapta' means on the right."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hotel",
+      "e": "Hotel"
+     },
+     {
+      "t": "gară",
+      "e": "Station"
+     },
+     {
+      "t": "aeroport",
+      "e": "Airport"
+     },
+     {
+      "t": "bilet",
+      "e": "Ticket"
+     },
+     {
+      "t": "stânga",
+      "e": "Left"
+     },
+     {
+      "t": "dreapta",
+      "e": "Right"
+     },
+     {
+      "t": "unde",
+      "e": "Where"
+     },
+     {
+      "t": "toaletă",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Unde este hotelul?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Unde este toaleta?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Faceți la stânga.",
+      "e": "Turn left."
+     },
+     {
+      "t": "Gara este pe dreapta.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Un bilet, vă rog.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Merg la aeroport.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Este departe?",
+      "e": "Is it far?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "hotel",
+       "e": "Hotel",
+       "kind": "word"
+      },
+      {
+       "t": "gară",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "stație"
+       ]
+      },
+      {
+       "t": "aeroport",
+       "e": "Airport",
+       "kind": "word"
+      },
+      {
+       "t": "bilet",
+       "e": "Ticket",
+       "kind": "word"
+      },
+      {
+       "t": "Unde este hotelul?",
+       "e": "Where is the hotel?",
+       "kind": "phrase",
+       "alts": [
+        "Unde e hotelul?"
+       ]
+      },
+      {
+       "t": "Faceți la stânga.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Fă la stânga.",
+        "Virați la stânga."
+       ]
+      },
+      {
+       "t": "Unde este toaleta?",
+       "e": "Where is the toilet?",
+       "kind": "phrase",
+       "alts": [
+        "Unde e toaleta?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hotel",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Station",
+        "Toilet",
+        "Left"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "gară",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Hotel",
+        "Ticket",
+        "Where"
+       ],
+       "answer": "Station",
+       "words": [
+        "gară"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "gară",
+         "Station"
+        ],
+        [
+         "aeroport",
+         "Airport"
+        ],
+        [
+         "bilet",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "hotel",
+        "gară",
+        "aeroport",
+        "bilet"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "aeroport",
+       "words": [
+        "aeroport"
+       ],
+       "options": [
+        "toaletă",
+        "aeroport",
+        "dreapta",
+        "hotel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bilet",
+       "promptLang": "target",
+       "options": [
+        "Left",
+        "Hotel",
+        "Where",
+        "Ticket"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "bilet"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "Un",
+        "la",
+        "este",
+        "Gara",
+        "Unde",
+        "hotelul"
+       ],
+       "answer": [
+        "Unde",
+        "este",
+        "hotelul"
+       ],
+       "accepted": [
+        "Unde e hotelul?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Faceți la stânga.",
+       "promptLang": "target",
+       "tiles": [
+        "left",
+        "Turn",
+        "on",
+        "airport",
+        "the"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "stânga"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Unde este toaleta?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Unde este toaleta?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Unde este hotelul?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "unde"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "stânga",
+       "e": "Left",
+       "kind": "word"
+      },
+      {
+       "t": "dreapta",
+       "e": "Right",
+       "kind": "word"
+      },
+      {
+       "t": "unde",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "toaletă",
+       "e": "Toilet",
+       "kind": "word"
+      },
+      {
+       "t": "Gara este pe dreapta.",
+       "e": "The station is on the right.",
+       "kind": "phrase",
+       "alts": [
+        "Gara e pe dreapta."
+       ]
+      },
+      {
+       "t": "Un bilet, vă rog.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "alts": [
+        "Un bilet, te rog."
+       ]
+      },
+      {
+       "t": "Merg la aeroport.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "stânga",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Toilet",
+        "Airport",
+        "Left"
+       ],
+       "answer": "Left",
+       "words": [
+        "stânga"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dreapta",
+       "promptLang": "target",
+       "options": [
+        "Right",
+        "Toilet",
+        "Where",
+        "Airport"
+       ],
+       "answer": "Right",
+       "words": [
+        "dreapta"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "stânga",
+         "Left"
+        ],
+        [
+         "dreapta",
+         "Right"
+        ],
+        [
+         "unde",
+         "Where"
+        ],
+        [
+         "toaletă",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "stânga",
+        "dreapta",
+        "unde",
+        "toaletă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "unde",
+       "words": [
+        "unde"
+       ],
+       "options": [
+        "unde",
+        "gară",
+        "aeroport",
+        "stânga"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "toaletă",
+       "words": [
+        "toaletă"
+       ],
+       "options": [
+        "dreapta",
+        "toaletă",
+        "gară",
+        "bilet"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "este",
+        "Unde",
+        "Gara",
+        "dreapta",
+        "Merg",
+        "pe",
+        "vă"
+       ],
+       "answer": [
+        "Gara",
+        "este",
+        "pe",
+        "dreapta"
+       ],
+       "accepted": [
+        "Gara e pe dreapta."
+       ],
+       "words": [
+        "dreapta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Un bilet, vă rog.",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "station",
+        "please",
+        "am",
+        "ticket",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "vă rog",
+        "unu",
+        "bilet"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Gara este pe dreapta.",
+       "translation": "The station is on the right.",
+       "answers": [
+        "Gara este pe dreapta."
+       ],
+       "words": [
+        "dreapta"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Merg la aeroport.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "aeroport"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "hotel"
+       ],
+       "words": [
+        "hotel"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Este departe?",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "alts": [
+        "E departe?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "gară",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Airport",
+        "Station",
+        "Right"
+       ],
+       "answer": "Station",
+       "words": [
+        "gară"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "unde",
+         "Where"
+        ],
+        [
+         "bilet",
+         "Ticket"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "toaletă",
+         "Toilet"
+        ],
+        [
+         "dreapta",
+         "Right"
+        ]
+       ],
+       "words": [
+        "unde",
+        "bilet",
+        "hotel",
+        "toaletă",
+        "dreapta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Este departe?",
+       "promptLang": "target",
+       "options": [
+        "Turn left.",
+        "Is it far?",
+        "Where is the toilet?",
+        "The station is on the right."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "Este departe?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Unde este toaleta?",
+       "promptLang": "target",
+       "tiles": [
+        "toilet",
+        "is",
+        "Where",
+        "the",
+        "it",
+        "ticket",
+        "going"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "Unde",
+        "departe",
+        "aeroport",
+        "Este",
+        "rog"
+       ],
+       "answer": [
+        "Este",
+        "departe"
+       ],
+       "accepted": [
+        "E departe?"
+       ],
+       "words": [
+        "Este departe?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "Gara",
+        "Un",
+        "Merg",
+        "pe",
+        "aeroport",
+        "la"
+       ],
+       "answer": [
+        "Merg",
+        "la",
+        "aeroport"
+       ],
+       "accepted": [],
+       "words": [
+        "aeroport"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Merg la aeroport.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Merg la aeroport."
+       ],
+       "words": [
+        "aeroport"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Faceți la stânga.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "stânga"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Un bilet, vă rog.",
+        "Un bilet, te rog."
+       ],
+       "words": [
+        "vă rog",
+        "unu",
+        "bilet"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "gară",
+        "stație"
+       ],
+       "words": [
+        "gară"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Unde este hotelul?",
+       "promptLang": "target",
+       "options": [
+        "The station is on the right.",
+        "Where is the toilet?",
+        "Where is the hotel?",
+        "A ticket, please."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "stânga",
+         "Left"
+        ],
+        [
+         "unde",
+         "Where"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "bilet",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "stânga",
+        "unde",
+        "hotel",
+        "bilet"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "aeroport",
+       "words": [
+        "aeroport"
+       ],
+       "options": [
+        "stânga",
+        "dreapta",
+        "aeroport",
+        "bilet"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "Faceți",
+        "departe",
+        "dreapta",
+        "hotelul",
+        "stânga",
+        "la"
+       ],
+       "answer": [
+        "Faceți",
+        "la",
+        "stânga"
+       ],
+       "accepted": [
+        "Fă la stânga.",
+        "Virați la stânga."
+       ],
+       "words": [
+        "stânga"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Gara este pe dreapta.",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "A",
+        "I",
+        "right",
+        "The",
+        "is",
+        "on",
+        "please",
+        "the"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "dreapta"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Este departe?",
+       "translation": "Is it far?",
+       "answers": [
+        "Este departe?"
+       ],
+       "words": [
+        "Este departe?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Un bilet, vă rog.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Un bilet, vă rog."
+       ],
+       "words": [
+        "vă rog",
+        "unu",
+        "bilet"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Unde este toaleta?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "unde"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "gară",
+        "stație"
+       ],
+       "words": [
+        "gară"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tips": [
+    "Days of the week take no capital letter: 'luni' (Monday)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "azi",
+      "e": "Today"
+     },
+     {
+      "t": "mâine",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "acum",
+      "e": "Now"
+     },
+     {
+      "t": "dimineață",
+      "e": "Morning"
+     },
+     {
+      "t": "noapte",
+      "e": "Night"
+     },
+     {
+      "t": "casă",
+      "e": "House"
+     },
+     {
+      "t": "muncă",
+      "e": "Work"
+     },
+     {
+      "t": "școală",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Merg la muncă.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Sunt acasă.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Azi este luni.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Beau cafea dimineața.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Dorm noaptea.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Copiii merg la școală.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Cât este ceasul acum?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "azi",
+       "e": "Today",
+       "kind": "word",
+       "alts": [
+        "astăzi"
+       ]
+      },
+      {
+       "t": "mâine",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "acum",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "dimineață",
+       "e": "Morning",
+       "kind": "word"
+      },
+      {
+       "t": "Merg la muncă.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "alts": [
+        "Merg la serviciu."
+       ]
+      },
+      {
+       "t": "Azi este luni.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "alts": [
+        "Astăzi este luni.",
+        "Azi e luni."
+       ]
+      },
+      {
+       "t": "Sunt acasă.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "azi",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "School",
+        "Now",
+        "Today"
+       ],
+       "answer": "Today",
+       "words": [
+        "azi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mâine",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Morning",
+        "School",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "mâine"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "azi",
+         "Today"
+        ],
+        [
+         "mâine",
+         "Tomorrow"
+        ],
+        [
+         "acum",
+         "Now"
+        ],
+        [
+         "dimineață",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "azi",
+        "mâine",
+        "acum",
+        "dimineață"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "acum",
+       "words": [
+        "acum"
+       ],
+       "options": [
+        "muncă",
+        "casă",
+        "mâine",
+        "acum"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dimineață",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "Morning",
+        "Work",
+        "Today"
+       ],
+       "answer": "Morning",
+       "words": [
+        "dimineață"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "Cât",
+        "muncă",
+        "la",
+        "acasă",
+        "dimineața",
+        "Merg"
+       ],
+       "answer": [
+        "Merg",
+        "la",
+        "muncă"
+       ],
+       "accepted": [
+        "Merg la serviciu."
+       ],
+       "words": [
+        "muncă"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Azi este luni.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "is",
+        "Today",
+        "morning",
+        "Monday",
+        "the"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "azi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sunt acasă.",
+       "translation": "I am at home.",
+       "answers": [
+        "Sunt acasă."
+       ],
+       "words": [
+        "Sunt acasă."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Merg la muncă.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "muncă"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "noapte",
+       "e": "Night",
+       "kind": "word"
+      },
+      {
+       "t": "casă",
+       "e": "House",
+       "kind": "word"
+      },
+      {
+       "t": "muncă",
+       "e": "Work",
+       "kind": "word",
+       "alts": [
+        "serviciu"
+       ]
+      },
+      {
+       "t": "școală",
+       "e": "School",
+       "kind": "word"
+      },
+      {
+       "t": "Beau cafea dimineața.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Dimineața beau cafea."
+       ]
+      },
+      {
+       "t": "Dorm noaptea.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "alts": [
+        "Noaptea dorm."
+       ]
+      },
+      {
+       "t": "Copiii merg la școală.",
+       "e": "The children go to school.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "noapte",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Tomorrow",
+        "Work",
+        "Now"
+       ],
+       "answer": "Night",
+       "words": [
+        "noapte"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "casă",
+       "promptLang": "target",
+       "options": [
+        "House",
+        "Morning",
+        "School",
+        "Now"
+       ],
+       "answer": "House",
+       "words": [
+        "casă"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "noapte",
+         "Night"
+        ],
+        [
+         "casă",
+         "House"
+        ],
+        [
+         "muncă",
+         "Work"
+        ],
+        [
+         "școală",
+         "School"
+        ]
+       ],
+       "words": [
+        "noapte",
+        "casă",
+        "muncă",
+        "școală"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "muncă",
+       "words": [
+        "muncă"
+       ],
+       "options": [
+        "azi",
+        "dimineață",
+        "acum",
+        "muncă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "școală",
+       "words": [
+        "școală"
+       ],
+       "options": [
+        "azi",
+        "noapte",
+        "casă",
+        "școală"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "Beau",
+        "dimineața",
+        "Dorm",
+        "cafea",
+        "Azi",
+        "Copiii"
+       ],
+       "answer": [
+        "Beau",
+        "cafea",
+        "dimineața"
+       ],
+       "accepted": [
+        "Dimineața beau cafea."
+       ],
+       "words": [
+        "cafea"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Dorm noaptea.",
+       "promptLang": "target",
+       "tiles": [
+        "sleep",
+        "I",
+        "at",
+        "night",
+        "home",
+        "in",
+        "drink"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "Dorm noaptea."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Beau cafea dimineața.",
+       "translation": "I drink coffee in the morning.",
+       "answers": [
+        "Beau cafea dimineața."
+       ],
+       "words": [
+        "cafea"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Copiii merg la școală.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "școală"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "azi",
+        "astăzi"
+       ],
+       "words": [
+        "azi"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Cât este ceasul acum?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "alts": [
+        "Cât e ceasul?",
+        "Ce oră este acum?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mâine",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Tomorrow",
+        "School",
+        "Morning"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "mâine"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "muncă",
+         "Work"
+        ],
+        [
+         "casă",
+         "House"
+        ],
+        [
+         "dimineață",
+         "Morning"
+        ],
+        [
+         "mâine",
+         "Tomorrow"
+        ],
+        [
+         "acum",
+         "Now"
+        ]
+       ],
+       "words": [
+        "muncă",
+        "casă",
+        "dimineață",
+        "mâine",
+        "acum"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Cât este ceasul acum?",
+       "promptLang": "target",
+       "options": [
+        "Today is Monday.",
+        "What time is it now?",
+        "I go to work.",
+        "The children go to school."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "acum"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Sunt acasă.",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "in",
+        "am",
+        "the",
+        "I",
+        "now",
+        "home"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "Sunt acasă."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "acum",
+        "Sunt",
+        "Cât",
+        "dimineața",
+        "este",
+        "ceasul",
+        "Dorm"
+       ],
+       "answer": [
+        "Cât",
+        "este",
+        "ceasul",
+        "acum"
+       ],
+       "accepted": [
+        "Cât e ceasul?",
+        "Ce oră este acum?"
+       ],
+       "words": [
+        "acum"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "Cât",
+        "ceasul",
+        "școală",
+        "la",
+        "acasă",
+        "merg",
+        "Copiii"
+       ],
+       "answer": [
+        "Copiii",
+        "merg",
+        "la",
+        "școală"
+       ],
+       "accepted": [],
+       "words": [
+        "școală"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Copiii merg la școală.",
+       "translation": "The children go to school.",
+       "answers": [
+        "Copiii merg la școală."
+       ],
+       "words": [
+        "școală"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Azi este luni.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "azi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Dorm noaptea.",
+        "Noaptea dorm."
+       ],
+       "words": [
+        "Dorm noaptea."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "mâine"
+       ],
+       "words": [
+        "mâine"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Merg la muncă.",
+       "promptLang": "target",
+       "options": [
+        "I am at home.",
+        "I sleep at night.",
+        "I go to work.",
+        "I drink coffee in the morning."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "muncă"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "școală",
+         "School"
+        ],
+        [
+         "dimineață",
+         "Morning"
+        ],
+        [
+         "azi",
+         "Today"
+        ],
+        [
+         "casă",
+         "House"
+        ]
+       ],
+       "words": [
+        "școală",
+        "dimineață",
+        "azi",
+        "casă"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "muncă",
+       "words": [
+        "muncă"
+       ],
+       "options": [
+        "școală",
+        "muncă",
+        "acum",
+        "casă"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Romanian",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "Azi",
+        "este",
+        "Dorm",
+        "luni",
+        "ceasul",
+        "la"
+       ],
+       "answer": [
+        "Azi",
+        "este",
+        "luni"
+       ],
+       "accepted": [
+        "Astăzi este luni.",
+        "Azi e luni."
+       ],
+       "words": [
+        "azi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Beau cafea dimineața.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "is",
+        "am",
+        "coffee",
+        "drink",
+        "the",
+        "morning",
+        "in",
+        "time"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "cafea"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cât este ceasul acum?",
+       "translation": "What time is it now?",
+       "answers": [
+        "Cât este ceasul acum?"
+       ],
+       "words": [
+        "acum"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dorm noaptea.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Dorm noaptea."
+       ],
+       "words": [
+        "Dorm noaptea."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sunt acasă.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "Sunt acasă."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Romanian",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "mâine"
+       ],
+       "words": [
+        "mâine"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5532 @@
+{
+ "id": "indonesian",
+ "title": "Indonesian",
+ "shortName": "Indonesian",
+ "nativeName": "Bahasa Indonesia",
+ "fromLanguage": "en",
+ "speechLang": "id-ID",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [],
+ "particles": [],
+ "order": 170,
+ "description": "Everyday Indonesian: greetings, family, food, numbers, getting around and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tips": [
+    "Greetings follow the time of day: 'selamat pagi' (morning), 'selamat siang' (midday), 'selamat malam' (evening)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "halo",
+      "e": "Hello"
+     },
+     {
+      "t": "sampai jumpa",
+      "e": "Goodbye"
+     },
+     {
+      "t": "terima kasih",
+      "e": "Thank you"
+     },
+     {
+      "t": "tolong",
+      "e": "Please"
+     },
+     {
+      "t": "ya",
+      "e": "Yes"
+     },
+     {
+      "t": "tidak",
+      "e": "No"
+     },
+     {
+      "t": "selamat pagi",
+      "e": "Good morning"
+     },
+     {
+      "t": "maaf",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Apa kabar?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Baik, terima kasih.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Nama saya Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Senang bertemu dengan Anda.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Terima kasih banyak.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Sampai jumpa besok.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Siapa nama Anda?",
+      "e": "What is your name?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "halo",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "hai"
+       ]
+      },
+      {
+       "t": "sampai jumpa",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "selamat tinggal",
+        "dah"
+       ]
+      },
+      {
+       "t": "terima kasih",
+       "e": "Thank you",
+       "kind": "word",
+       "alts": [
+        "makasih"
+       ]
+      },
+      {
+       "t": "tolong",
+       "e": "Please",
+       "kind": "word",
+       "alts": [
+        "silakan"
+       ]
+      },
+      {
+       "t": "Apa kabar?",
+       "e": "How are you?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Nama saya Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Baik, terima kasih.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Kabar baik, terima kasih.",
+        "Saya baik, terima kasih."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "halo",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "Thank you",
+        "Hello",
+        "Good morning"
+       ],
+       "answer": "Hello",
+       "words": [
+        "halo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sampai jumpa",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "No",
+        "Goodbye",
+        "Yes"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "sampai jumpa"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "halo",
+         "Hello"
+        ],
+        [
+         "sampai jumpa",
+         "Goodbye"
+        ],
+        [
+         "terima kasih",
+         "Thank you"
+        ],
+        [
+         "tolong",
+         "Please"
+        ]
+       ],
+       "words": [
+        "halo",
+        "sampai jumpa",
+        "terima kasih",
+        "tolong"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "terima kasih",
+       "words": [
+        "terima kasih"
+       ],
+       "options": [
+        "selamat pagi",
+        "tolong",
+        "terima kasih",
+        "tidak"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tolong",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Please",
+        "Sorry",
+        "Thank you"
+       ],
+       "answer": "Please",
+       "words": [
+        "tolong"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "kabar",
+        "Apa",
+        "Anda",
+        "Baik",
+        "Siapa"
+       ],
+       "answer": [
+        "Apa",
+        "kabar"
+       ],
+       "accepted": [],
+       "words": [
+        "Apa kabar?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Nama saya Anna.",
+       "promptLang": "target",
+       "tiles": [
+        "My",
+        "See",
+        "name",
+        "is",
+        "meet",
+        "your",
+        "Anna"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Nama saya Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Baik, terima kasih.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Baik, terima kasih."
+       ],
+       "words": [
+        "terima kasih"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Apa kabar?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "Apa kabar?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "ya",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "tidak",
+       "e": "No",
+       "kind": "word",
+       "alts": [
+        "bukan"
+       ]
+      },
+      {
+       "t": "selamat pagi",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "maaf",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "permisi"
+       ]
+      },
+      {
+       "t": "Senang bertemu dengan Anda.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "alts": [
+        "Senang berkenalan."
+       ]
+      },
+      {
+       "t": "Terima kasih banyak.",
+       "e": "Thank you very much.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sampai jumpa besok.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "alts": [
+        "Sampai besok."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ya",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Please",
+        "Yes",
+        "Hello"
+       ],
+       "answer": "Yes",
+       "words": [
+        "ya"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tidak",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Hello",
+        "Goodbye",
+        "No"
+       ],
+       "answer": "No",
+       "words": [
+        "tidak"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ya",
+         "Yes"
+        ],
+        [
+         "tidak",
+         "No"
+        ],
+        [
+         "selamat pagi",
+         "Good morning"
+        ],
+        [
+         "maaf",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "ya",
+        "tidak",
+        "selamat pagi",
+        "maaf"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "selamat pagi",
+       "words": [
+        "selamat pagi"
+       ],
+       "options": [
+        "maaf",
+        "terima kasih",
+        "selamat pagi",
+        "sampai jumpa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "maaf",
+       "words": [
+        "maaf"
+       ],
+       "options": [
+        "maaf",
+        "ya",
+        "tolong",
+        "sampai jumpa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "banyak",
+        "Apa",
+        "Senang",
+        "besok",
+        "Anda",
+        "dengan",
+        "bertemu"
+       ],
+       "answer": [
+        "Senang",
+        "bertemu",
+        "dengan",
+        "Anda"
+       ],
+       "accepted": [
+        "Senang berkenalan."
+       ],
+       "words": [
+        "Senang bertemu dengan Anda."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Terima kasih banyak.",
+       "promptLang": "target",
+       "tiles": [
+        "very",
+        "much",
+        "is",
+        "to",
+        "you",
+        "I",
+        "Thank"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "terima kasih"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Senang bertemu dengan Anda.",
+       "translation": "Nice to meet you.",
+       "answers": [
+        "Senang bertemu dengan Anda."
+       ],
+       "words": [
+        "Senang bertemu dengan Anda."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sampai jumpa besok.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "sampai jumpa",
+        "besok"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "halo",
+        "hai"
+       ],
+       "words": [
+        "halo"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Siapa nama Anda?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "alts": [
+        "Siapa namamu?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sampai jumpa",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Yes",
+        "Goodbye",
+        "Thank you"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "sampai jumpa"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "selamat pagi",
+         "Good morning"
+        ],
+        [
+         "halo",
+         "Hello"
+        ],
+        [
+         "ya",
+         "Yes"
+        ],
+        [
+         "terima kasih",
+         "Thank you"
+        ],
+        [
+         "maaf",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "selamat pagi",
+        "halo",
+        "ya",
+        "terima kasih",
+        "maaf"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Siapa nama Anda?",
+       "promptLang": "target",
+       "options": [
+        "My name is Anna.",
+        "See you tomorrow.",
+        "How are you?",
+        "What is your name?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "Siapa nama Anda?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Baik, terima kasih.",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "fine",
+        "meet",
+        "thank",
+        "name",
+        "your",
+        "you",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "terima kasih"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "Siapa",
+        "Anda",
+        "dengan",
+        "terima",
+        "banyak",
+        "nama"
+       ],
+       "answer": [
+        "Siapa",
+        "nama",
+        "Anda"
+       ],
+       "accepted": [
+        "Siapa namamu?"
+       ],
+       "words": [
+        "Siapa nama Anda?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "Sampai",
+        "terima",
+        "bertemu",
+        "jumpa",
+        "besok",
+        "saya"
+       ],
+       "answer": [
+        "Sampai",
+        "jumpa",
+        "besok"
+       ],
+       "accepted": [
+        "Sampai besok."
+       ],
+       "words": [
+        "sampai jumpa",
+        "besok"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sampai jumpa besok.",
+       "translation": "See you tomorrow.",
+       "answers": [
+        "Sampai jumpa besok."
+       ],
+       "words": [
+        "sampai jumpa",
+        "besok"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Nama saya Anna.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Nama saya Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Terima kasih banyak."
+       ],
+       "words": [
+        "terima kasih"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "sampai jumpa",
+        "selamat tinggal",
+        "dah"
+       ],
+       "words": [
+        "sampai jumpa"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Apa kabar?",
+       "promptLang": "target",
+       "options": [
+        "My name is Anna.",
+        "Nice to meet you.",
+        "Thank you very much.",
+        "How are you?"
+       ],
+       "answer": "How are you?",
+       "words": [
+        "Apa kabar?"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "terima kasih",
+         "Thank you"
+        ],
+        [
+         "halo",
+         "Hello"
+        ],
+        [
+         "sampai jumpa",
+         "Goodbye"
+        ],
+        [
+         "tolong",
+         "Please"
+        ]
+       ],
+       "words": [
+        "terima kasih",
+        "halo",
+        "sampai jumpa",
+        "tolong"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Yes",
+       "promptLang": "en",
+       "answer": "ya",
+       "words": [
+        "ya"
+       ],
+       "options": [
+        "halo",
+        "maaf",
+        "terima kasih",
+        "ya"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "Senang",
+        "Nama",
+        "saya",
+        "Anna",
+        "Anda",
+        "terima"
+       ],
+       "answer": [
+        "Nama",
+        "saya",
+        "Anna"
+       ],
+       "accepted": [],
+       "words": [
+        "Nama saya Anna."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Senang bertemu dengan Anda.",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "I",
+        "Nice",
+        "your",
+        "meet",
+        "fine",
+        "to"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "Senang bertemu dengan Anda."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Siapa nama Anda?",
+       "translation": "What is your name?",
+       "answers": [
+        "Siapa nama Anda?"
+       ],
+       "words": [
+        "Siapa nama Anda?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Terima kasih banyak.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Terima kasih banyak."
+       ],
+       "words": [
+        "terima kasih"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Baik, terima kasih.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "terima kasih"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answers": [
+        "selamat pagi"
+       ],
+       "words": [
+        "selamat pagi"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tips": [
+    "Verbs never change for 'I', 'you' or 'she', and 'dia' means both he and she."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "laki-laki",
+      "e": "Man"
+     },
+     {
+      "t": "perempuan",
+      "e": "Woman"
+     },
+     {
+      "t": "anak",
+      "e": "Child"
+     },
+     {
+      "t": "teman",
+      "e": "Friend"
+     },
+     {
+      "t": "ibu",
+      "e": "Mother"
+     },
+     {
+      "t": "ayah",
+      "e": "Father"
+     },
+     {
+      "t": "anak laki-laki",
+      "e": "Son"
+     },
+     {
+      "t": "anak perempuan",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Ini ibu saya.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "Dia teman saya.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Saya punya anak laki-laki.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Di mana ayah saya?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Ibu saya di rumah.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "Dia anak perempuan saya.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Siapa laki-laki ini?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "laki-laki",
+       "e": "Man",
+       "kind": "word",
+       "alts": [
+        "pria"
+       ]
+      },
+      {
+       "t": "perempuan",
+       "e": "Woman",
+       "kind": "word",
+       "alts": [
+        "wanita"
+       ]
+      },
+      {
+       "t": "anak",
+       "e": "Child",
+       "kind": "word"
+      },
+      {
+       "t": "teman",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "kawan"
+       ]
+      },
+      {
+       "t": "Ini ibu saya.",
+       "e": "This is my mother.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Saya punya anak laki-laki.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "alts": [
+        "Saya punya seorang anak laki-laki."
+       ]
+      },
+      {
+       "t": "Dia teman saya.",
+       "e": "He is my friend.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "laki-laki",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Daughter",
+        "Man",
+        "Father"
+       ],
+       "answer": "Man",
+       "words": [
+        "laki-laki"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "perempuan",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Man",
+        "Woman",
+        "Father"
+       ],
+       "answer": "Woman",
+       "words": [
+        "perempuan"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "laki-laki",
+         "Man"
+        ],
+        [
+         "perempuan",
+         "Woman"
+        ],
+        [
+         "anak",
+         "Child"
+        ],
+        [
+         "teman",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "laki-laki",
+        "perempuan",
+        "anak",
+        "teman"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "anak",
+       "words": [
+        "anak"
+       ],
+       "options": [
+        "anak laki-laki",
+        "anak",
+        "anak perempuan",
+        "ayah"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "teman",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Friend",
+        "Father",
+        "Mother"
+       ],
+       "answer": "Friend",
+       "words": [
+        "teman"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "ibu",
+        "ayah",
+        "Siapa",
+        "Ini",
+        "saya",
+        "perempuan"
+       ],
+       "answer": [
+        "Ini",
+        "ibu",
+        "saya"
+       ],
+       "accepted": [],
+       "words": [
+        "ibu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya punya anak laki-laki.",
+       "promptLang": "target",
+       "tiles": [
+        "have",
+        "I",
+        "a",
+        "son",
+        "This",
+        "Where",
+        "Who"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "laki-laki",
+        "anak",
+        "anak laki-laki"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dia teman saya.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Dia teman saya."
+       ],
+       "words": [
+        "teman"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Ini ibu saya.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "ibu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "ibu",
+       "e": "Mother",
+       "kind": "word"
+      },
+      {
+       "t": "ayah",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "bapak"
+       ]
+      },
+      {
+       "t": "anak laki-laki",
+       "e": "Son",
+       "kind": "word"
+      },
+      {
+       "t": "anak perempuan",
+       "e": "Daughter",
+       "kind": "word"
+      },
+      {
+       "t": "Di mana ayah saya?",
+       "e": "Where is my father?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Ibu saya di rumah.",
+       "e": "My mother is at home.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Dia anak perempuan saya.",
+       "e": "She is my daughter.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ibu",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Mother",
+        "Father",
+        "Son"
+       ],
+       "answer": "Mother",
+       "words": [
+        "ibu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ayah",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Child",
+        "Daughter",
+        "Father"
+       ],
+       "answer": "Father",
+       "words": [
+        "ayah"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ibu",
+         "Mother"
+        ],
+        [
+         "ayah",
+         "Father"
+        ],
+        [
+         "anak laki-laki",
+         "Son"
+        ],
+        [
+         "anak perempuan",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "ibu",
+        "ayah",
+        "anak laki-laki",
+        "anak perempuan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "anak laki-laki",
+       "words": [
+        "anak laki-laki"
+       ],
+       "options": [
+        "anak laki-laki",
+        "anak",
+        "teman",
+        "perempuan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "anak perempuan",
+       "words": [
+        "anak perempuan"
+       ],
+       "options": [
+        "teman",
+        "anak",
+        "anak perempuan",
+        "ayah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "punya",
+        "saya",
+        "ibu",
+        "mana",
+        "Di",
+        "ayah",
+        "teman"
+       ],
+       "answer": [
+        "Di",
+        "mana",
+        "ayah",
+        "saya"
+       ],
+       "accepted": [],
+       "words": [
+        "ayah",
+        "di mana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ibu saya di rumah.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "is",
+        "This",
+        "My",
+        "mother",
+        "I",
+        "man",
+        "at"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "ibu",
+        "rumah"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Di mana ayah saya?",
+       "translation": "Where is my father?",
+       "answers": [
+        "Di mana ayah saya?"
+       ],
+       "words": [
+        "ayah",
+        "di mana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Dia anak perempuan saya.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "perempuan",
+        "anak",
+        "anak perempuan"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "laki-laki",
+        "pria"
+       ],
+       "words": [
+        "laki-laki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Siapa laki-laki ini?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "alts": [
+        "Siapa pria ini?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "perempuan",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Man",
+        "Son",
+        "Friend"
+       ],
+       "answer": "Woman",
+       "words": [
+        "perempuan"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "teman",
+         "Friend"
+        ],
+        [
+         "anak perempuan",
+         "Daughter"
+        ],
+        [
+         "perempuan",
+         "Woman"
+        ],
+        [
+         "ayah",
+         "Father"
+        ],
+        [
+         "anak laki-laki",
+         "Son"
+        ]
+       ],
+       "words": [
+        "teman",
+        "anak perempuan",
+        "perempuan",
+        "ayah",
+        "anak laki-laki"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Siapa laki-laki ini?",
+       "promptLang": "target",
+       "options": [
+        "Who is this man?",
+        "Where is my father?",
+        "This is my mother.",
+        "My mother is at home."
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "laki-laki"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Dia teman saya.",
+       "promptLang": "target",
+       "tiles": [
+        "Who",
+        "my",
+        "man",
+        "He",
+        "is",
+        "friend",
+        "mother"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "teman"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "laki-laki",
+        "Siapa",
+        "ayah",
+        "rumah",
+        "anak",
+        "ini"
+       ],
+       "answer": [
+        "Siapa",
+        "laki-laki",
+        "ini"
+       ],
+       "accepted": [
+        "Siapa pria ini?"
+       ],
+       "words": [
+        "laki-laki"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "Dia",
+        "perempuan",
+        "Di",
+        "saya",
+        "Ini",
+        "anak",
+        "ayah"
+       ],
+       "answer": [
+        "Dia",
+        "anak",
+        "perempuan",
+        "saya"
+       ],
+       "accepted": [],
+       "words": [
+        "perempuan",
+        "anak",
+        "anak perempuan"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dia anak perempuan saya.",
+       "translation": "She is my daughter.",
+       "answers": [
+        "Dia anak perempuan saya."
+       ],
+       "words": [
+        "perempuan",
+        "anak",
+        "anak perempuan"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya punya anak laki-laki.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "laki-laki",
+        "anak",
+        "anak laki-laki"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Ibu saya di rumah."
+       ],
+       "words": [
+        "ibu",
+        "rumah"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "perempuan",
+        "wanita"
+       ],
+       "words": [
+        "perempuan"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ini ibu saya.",
+       "promptLang": "target",
+       "options": [
+        "This is my mother.",
+        "I have a son.",
+        "He is my friend.",
+        "Who is this man?"
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "ibu"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "perempuan",
+         "Woman"
+        ],
+        [
+         "ayah",
+         "Father"
+        ],
+        [
+         "anak perempuan",
+         "Daughter"
+        ],
+        [
+         "anak laki-laki",
+         "Son"
+        ]
+       ],
+       "words": [
+        "perempuan",
+        "ayah",
+        "anak perempuan",
+        "anak laki-laki"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "anak",
+       "words": [
+        "anak"
+       ],
+       "options": [
+        "ibu",
+        "teman",
+        "anak",
+        "anak perempuan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "ayah",
+        "punya",
+        "perempuan",
+        "anak",
+        "laki-laki",
+        "Saya",
+        "Di"
+       ],
+       "answer": [
+        "Saya",
+        "punya",
+        "anak",
+        "laki-laki"
+       ],
+       "accepted": [
+        "Saya punya seorang anak laki-laki."
+       ],
+       "words": [
+        "laki-laki",
+        "anak",
+        "anak laki-laki"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Di mana ayah saya?",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "mother",
+        "man",
+        "friend",
+        "my",
+        "father",
+        "is"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "ayah",
+        "di mana"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Siapa laki-laki ini?",
+       "translation": "Who is this man?",
+       "answers": [
+        "Siapa laki-laki ini?"
+       ],
+       "words": [
+        "laki-laki"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ibu saya di rumah.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Ibu saya di rumah."
+       ],
+       "words": [
+        "ibu",
+        "rumah"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Dia teman saya.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "teman"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Friend",
+       "promptLang": "en",
+       "answers": [
+        "teman",
+        "kawan"
+       ],
+       "words": [
+        "teman"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tips": [
+    "'Nasi' is cooked rice; 'beras' is uncooked rice in the shop."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "air",
+      "e": "Water"
+     },
+     {
+      "t": "roti",
+      "e": "Bread"
+     },
+     {
+      "t": "kopi",
+      "e": "Coffee"
+     },
+     {
+      "t": "teh",
+      "e": "Tea"
+     },
+     {
+      "t": "susu",
+      "e": "Milk"
+     },
+     {
+      "t": "apel",
+      "e": "Apple"
+     },
+     {
+      "t": "nasi",
+      "e": "Rice"
+     },
+     {
+      "t": "telur",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Minta air.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Saya minum kopi.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Saya makan roti.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Tehnya panas.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Saya tidak minum susu.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Saya suka apel.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Saya lapar.",
+      "e": "I am hungry."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "air",
+       "e": "Water",
+       "kind": "word"
+      },
+      {
+       "t": "roti",
+       "e": "Bread",
+       "kind": "word"
+      },
+      {
+       "t": "kopi",
+       "e": "Coffee",
+       "kind": "word"
+      },
+      {
+       "t": "teh",
+       "e": "Tea",
+       "kind": "word"
+      },
+      {
+       "t": "Minta air.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Air, tolong."
+       ]
+      },
+      {
+       "t": "Saya makan roti.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Saya minum kopi.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "air",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Water",
+        "Milk",
+        "Coffee"
+       ],
+       "answer": "Water",
+       "words": [
+        "air"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "roti",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Apple",
+        "Bread",
+        "Milk"
+       ],
+       "answer": "Bread",
+       "words": [
+        "roti"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "air",
+         "Water"
+        ],
+        [
+         "roti",
+         "Bread"
+        ],
+        [
+         "kopi",
+         "Coffee"
+        ],
+        [
+         "teh",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "air",
+        "roti",
+        "kopi",
+        "teh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "kopi",
+       "words": [
+        "kopi"
+       ],
+       "options": [
+        "kopi",
+        "air",
+        "telur",
+        "nasi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "teh",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Coffee",
+        "Tea",
+        "Bread"
+       ],
+       "answer": "Tea",
+       "words": [
+        "teh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "Minta",
+        "tidak",
+        "air",
+        "Saya",
+        "kopi"
+       ],
+       "answer": [
+        "Minta",
+        "air"
+       ],
+       "accepted": [
+        "Air, tolong."
+       ],
+       "words": [
+        "air"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya makan roti.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "I",
+        "drink",
+        "bread",
+        "eat",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "roti"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya minum kopi.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Saya minum kopi."
+       ],
+       "words": [
+        "kopi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Minta air.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "air"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "susu",
+       "e": "Milk",
+       "kind": "word"
+      },
+      {
+       "t": "apel",
+       "e": "Apple",
+       "kind": "word"
+      },
+      {
+       "t": "nasi",
+       "e": "Rice",
+       "kind": "word",
+       "alts": [
+        "beras"
+       ]
+      },
+      {
+       "t": "telur",
+       "e": "Egg",
+       "kind": "word"
+      },
+      {
+       "t": "Tehnya panas.",
+       "e": "The tea is hot.",
+       "kind": "phrase",
+       "alts": [
+        "Teh ini panas."
+       ]
+      },
+      {
+       "t": "Saya tidak minum susu.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Saya suka apel.",
+       "e": "I like apples.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "susu",
+       "promptLang": "target",
+       "options": [
+        "Rice",
+        "Water",
+        "Tea",
+        "Milk"
+       ],
+       "answer": "Milk",
+       "words": [
+        "susu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "apel",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Coffee",
+        "Apple",
+        "Bread"
+       ],
+       "answer": "Apple",
+       "words": [
+        "apel"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "susu",
+         "Milk"
+        ],
+        [
+         "apel",
+         "Apple"
+        ],
+        [
+         "nasi",
+         "Rice"
+        ],
+        [
+         "telur",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "susu",
+        "apel",
+        "nasi",
+        "telur"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "nasi",
+       "words": [
+        "nasi"
+       ],
+       "options": [
+        "nasi",
+        "susu",
+        "roti",
+        "kopi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "telur",
+       "words": [
+        "telur"
+       ],
+       "options": [
+        "telur",
+        "apel",
+        "air",
+        "nasi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "Tehnya",
+        "panas",
+        "apel",
+        "minum",
+        "suka"
+       ],
+       "answer": [
+        "Tehnya",
+        "panas"
+       ],
+       "accepted": [
+        "Teh ini panas."
+       ],
+       "words": [
+        "Tehnya panas."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya tidak minum susu.",
+       "promptLang": "target",
+       "tiles": [
+        "milk",
+        "Water",
+        "do",
+        "tea",
+        "I",
+        "not",
+        "hungry",
+        "drink"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "tidak",
+        "susu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tehnya panas.",
+       "translation": "The tea is hot.",
+       "answers": [
+        "Tehnya panas."
+       ],
+       "words": [
+        "Tehnya panas."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya suka apel.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "apel"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "air"
+       ],
+       "words": [
+        "air"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Saya lapar.",
+       "e": "I am hungry.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "roti",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Water",
+        "Egg",
+        "Milk"
+       ],
+       "answer": "Bread",
+       "words": [
+        "roti"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "susu",
+         "Milk"
+        ],
+        [
+         "kopi",
+         "Coffee"
+        ],
+        [
+         "air",
+         "Water"
+        ],
+        [
+         "teh",
+         "Tea"
+        ],
+        [
+         "roti",
+         "Bread"
+        ]
+       ],
+       "words": [
+        "susu",
+        "kopi",
+        "air",
+        "teh",
+        "roti"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Saya lapar.",
+       "promptLang": "target",
+       "options": [
+        "I eat bread.",
+        "The tea is hot.",
+        "I am hungry.",
+        "I do not drink milk."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Saya lapar."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya minum kopi.",
+       "promptLang": "target",
+       "tiles": [
+        "not",
+        "I",
+        "hot",
+        "drink",
+        "coffee",
+        "do"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "kopi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "lapar",
+        "tidak",
+        "suka",
+        "Saya",
+        "Tehnya"
+       ],
+       "answer": [
+        "Saya",
+        "lapar"
+       ],
+       "accepted": [],
+       "words": [
+        "Saya lapar."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "kopi",
+        "tidak",
+        "Saya",
+        "apel",
+        "suka",
+        "Minta"
+       ],
+       "answer": [
+        "Saya",
+        "suka",
+        "apel"
+       ],
+       "accepted": [],
+       "words": [
+        "apel"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya suka apel.",
+       "translation": "I like apples.",
+       "answers": [
+        "Saya suka apel."
+       ],
+       "words": [
+        "apel"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya makan roti.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "roti"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Saya tidak minum susu."
+       ],
+       "words": [
+        "tidak",
+        "susu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "roti"
+       ],
+       "words": [
+        "roti"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Minta air.",
+       "promptLang": "target",
+       "options": [
+        "I like apples.",
+        "I do not drink milk.",
+        "The tea is hot.",
+        "Water, please."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "air"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "teh",
+         "Tea"
+        ],
+        [
+         "nasi",
+         "Rice"
+        ],
+        [
+         "air",
+         "Water"
+        ],
+        [
+         "telur",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "teh",
+        "nasi",
+        "air",
+        "telur"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "kopi",
+       "words": [
+        "kopi"
+       ],
+       "options": [
+        "kopi",
+        "teh",
+        "roti",
+        "air"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "roti",
+        "makan",
+        "Saya",
+        "susu",
+        "apel",
+        "Minta"
+       ],
+       "answer": [
+        "Saya",
+        "makan",
+        "roti"
+       ],
+       "accepted": [],
+       "words": [
+        "roti"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tehnya panas.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "drink",
+        "tea",
+        "hot",
+        "eat",
+        "The",
+        "do"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "Tehnya panas."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya lapar.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Saya lapar."
+       ],
+       "words": [
+        "Saya lapar."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya tidak minum susu.",
+       "translation": "I do not drink milk.",
+       "answers": [
+        "Saya tidak minum susu."
+       ],
+       "words": [
+        "tidak",
+        "susu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya minum kopi.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "kopi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answers": [
+        "susu"
+       ],
+       "words": [
+        "susu"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tips": [
+    "Plurals are optional: 'dua anak' (two children) needs no plural ending."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "satu",
+      "e": "One"
+     },
+     {
+      "t": "dua",
+      "e": "Two"
+     },
+     {
+      "t": "tiga",
+      "e": "Three"
+     },
+     {
+      "t": "empat",
+      "e": "Four"
+     },
+     {
+      "t": "lima",
+      "e": "Five"
+     },
+     {
+      "t": "enam",
+      "e": "Six"
+     },
+     {
+      "t": "tujuh",
+      "e": "Seven"
+     },
+     {
+      "t": "delapan",
+      "e": "Eight"
+     },
+     {
+      "t": "sembilan",
+      "e": "Nine"
+     },
+     {
+      "t": "sepuluh",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Saya punya dua anak.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Berapa harganya?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Saya punya empat apel.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Satu kopi, tolong.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Dua teh, tolong.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Sekarang jam tiga.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Tunggu sebentar.",
+      "e": "One moment, please."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "satu",
+       "e": "One",
+       "kind": "word"
+      },
+      {
+       "t": "dua",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "tiga",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "empat",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Saya punya dua anak.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Saya punya empat apel.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Berapa harganya?",
+       "e": "How much is it?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "satu",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Nine",
+        "One",
+        "Seven"
+       ],
+       "answer": "One",
+       "words": [
+        "satu"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "dua",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Ten",
+        "Seven",
+        "Five"
+       ],
+       "answer": "Two",
+       "words": [
+        "dua"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "satu",
+         "One"
+        ],
+        [
+         "dua",
+         "Two"
+        ],
+        [
+         "tiga",
+         "Three"
+        ],
+        [
+         "empat",
+         "Four"
+        ]
+       ],
+       "words": [
+        "satu",
+        "dua",
+        "tiga",
+        "empat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "tiga",
+       "words": [
+        "tiga"
+       ],
+       "options": [
+        "empat",
+        "tiga",
+        "lima",
+        "delapan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "empat",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "One",
+        "Ten",
+        "Three"
+       ],
+       "answer": "Four",
+       "words": [
+        "empat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "dua",
+        "Saya",
+        "Berapa",
+        "sebentar",
+        "punya",
+        "harganya",
+        "anak"
+       ],
+       "answer": [
+        "Saya",
+        "punya",
+        "dua",
+        "anak"
+       ],
+       "accepted": [],
+       "words": [
+        "anak",
+        "dua"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya punya empat apel.",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "One",
+        "please",
+        "four",
+        "moment",
+        "I",
+        "have"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "apel",
+        "empat"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Berapa harganya?",
+       "translation": "How much is it?",
+       "answers": [
+        "Berapa harganya?"
+       ],
+       "words": [
+        "Berapa harganya?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya punya dua anak.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "anak",
+        "dua"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "lima",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "enam",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "tujuh",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "delapan",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Satu kopi, tolong.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "alts": [
+        "Kopi satu, tolong."
+       ]
+      },
+      {
+       "t": "Dua teh, tolong.",
+       "e": "Two teas, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sekarang jam tiga.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "alts": [
+        "Jam tiga."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "lima",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "Two",
+        "Ten",
+        "Five"
+       ],
+       "answer": "Five",
+       "words": [
+        "lima"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "enam",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Four",
+        "Three",
+        "Eight"
+       ],
+       "answer": "Six",
+       "words": [
+        "enam"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "lima",
+         "Five"
+        ],
+        [
+         "enam",
+         "Six"
+        ],
+        [
+         "tujuh",
+         "Seven"
+        ],
+        [
+         "delapan",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "lima",
+        "enam",
+        "tujuh",
+        "delapan"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "tujuh",
+       "words": [
+        "tujuh"
+       ],
+       "options": [
+        "tujuh",
+        "dua",
+        "delapan",
+        "lima"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "delapan",
+       "words": [
+        "delapan"
+       ],
+       "options": [
+        "delapan",
+        "enam",
+        "lima",
+        "tiga"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "punya",
+        "tolong",
+        "dua",
+        "sebentar",
+        "kopi",
+        "Satu"
+       ],
+       "answer": [
+        "Satu",
+        "kopi",
+        "tolong"
+       ],
+       "accepted": [
+        "Kopi satu, tolong."
+       ],
+       "words": [
+        "tolong",
+        "kopi",
+        "satu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Dua teh, tolong.",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "How",
+        "Two",
+        "please",
+        "have",
+        "teas"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "tolong",
+        "teh",
+        "dua"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Satu kopi, tolong.",
+       "translation": "One coffee, please.",
+       "answers": [
+        "Satu kopi, tolong."
+       ],
+       "words": [
+        "tolong",
+        "kopi",
+        "satu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sekarang jam tiga.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "tiga",
+        "sekarang"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "satu"
+       ],
+       "words": [
+        "satu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "sembilan",
+       "e": "Nine",
+       "kind": "word"
+      },
+      {
+       "t": "sepuluh",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Tunggu sebentar.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Sebentar, ya."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sembilan",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Six",
+        "Nine",
+        "Five"
+       ],
+       "answer": "Nine",
+       "words": [
+        "sembilan"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "lima",
+         "Five"
+        ],
+        [
+         "satu",
+         "One"
+        ],
+        [
+         "tujuh",
+         "Seven"
+        ],
+        [
+         "tiga",
+         "Three"
+        ],
+        [
+         "empat",
+         "Four"
+        ]
+       ],
+       "words": [
+        "lima",
+        "satu",
+        "tujuh",
+        "tiga",
+        "empat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tunggu sebentar.",
+       "promptLang": "target",
+       "options": [
+        "How much is it?",
+        "It is three o'clock.",
+        "One moment, please.",
+        "I have four apples."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "Tunggu sebentar."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Berapa harganya?",
+       "promptLang": "target",
+       "tiles": [
+        "How",
+        "One",
+        "much",
+        "it",
+        "o'clock",
+        "moment",
+        "is"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Berapa harganya?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "harganya",
+        "jam",
+        "sebentar",
+        "tiga",
+        "Tunggu"
+       ],
+       "answer": [
+        "Tunggu",
+        "sebentar"
+       ],
+       "accepted": [
+        "Sebentar, ya."
+       ],
+       "words": [
+        "Tunggu sebentar."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "tiga",
+        "Sekarang",
+        "punya",
+        "dua",
+        "harganya",
+        "jam"
+       ],
+       "answer": [
+        "Sekarang",
+        "jam",
+        "tiga"
+       ],
+       "accepted": [
+        "Jam tiga."
+       ],
+       "words": [
+        "tiga",
+        "sekarang"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sekarang jam tiga.",
+       "translation": "It is three o'clock.",
+       "answers": [
+        "Sekarang jam tiga."
+       ],
+       "words": [
+        "tiga",
+        "sekarang"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya punya empat apel.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "apel",
+        "empat"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Dua teh, tolong."
+       ],
+       "words": [
+        "tolong",
+        "teh",
+        "dua"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "sepuluh"
+       ],
+       "words": [
+        "sepuluh"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Saya punya dua anak.",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "It is three o'clock.",
+        "Two teas, please.",
+        "One moment, please."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "anak",
+        "dua"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "empat",
+         "Four"
+        ],
+        [
+         "tiga",
+         "Three"
+        ],
+        [
+         "dua",
+         "Two"
+        ],
+        [
+         "tujuh",
+         "Seven"
+        ]
+       ],
+       "words": [
+        "empat",
+        "tiga",
+        "dua",
+        "tujuh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "One",
+       "promptLang": "en",
+       "answer": "satu",
+       "words": [
+        "satu"
+       ],
+       "options": [
+        "satu",
+        "delapan",
+        "enam",
+        "sembilan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "tolong",
+        "apel",
+        "punya",
+        "anak",
+        "dua",
+        "empat",
+        "Saya"
+       ],
+       "answer": [
+        "Saya",
+        "punya",
+        "empat",
+        "apel"
+       ],
+       "accepted": [],
+       "words": [
+        "apel",
+        "empat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Satu kopi, tolong.",
+       "promptLang": "target",
+       "tiles": [
+        "coffee",
+        "please",
+        "moment",
+        "it",
+        "three",
+        "One"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "tolong",
+        "kopi",
+        "satu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tunggu sebentar.",
+       "translation": "One moment, please.",
+       "answers": [
+        "Tunggu sebentar."
+       ],
+       "words": [
+        "Tunggu sebentar."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Dua teh, tolong.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Dua teh, tolong."
+       ],
+       "words": [
+        "tolong",
+        "teh",
+        "dua"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Berapa harganya?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Berapa harganya?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answers": [
+        "delapan"
+       ],
+       "words": [
+        "delapan"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tips": [
+    "'Di' means at or in: 'di mana' (where), 'di kanan' (on the right)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hotel",
+      "e": "Hotel"
+     },
+     {
+      "t": "stasiun",
+      "e": "Station"
+     },
+     {
+      "t": "bandara",
+      "e": "Airport"
+     },
+     {
+      "t": "tiket",
+      "e": "Ticket"
+     },
+     {
+      "t": "kiri",
+      "e": "Left"
+     },
+     {
+      "t": "kanan",
+      "e": "Right"
+     },
+     {
+      "t": "di mana",
+      "e": "Where"
+     },
+     {
+      "t": "toilet",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Di mana hotelnya?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Di mana toiletnya?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Belok kiri.",
+      "e": "Turn left."
+     },
+     {
+      "t": "Stasiunnya di sebelah kanan.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Satu tiket, tolong.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Saya pergi ke bandara.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Apakah jauh?",
+      "e": "Is it far?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "hotel",
+       "e": "Hotel",
+       "kind": "word"
+      },
+      {
+       "t": "stasiun",
+       "e": "Station",
+       "kind": "word"
+      },
+      {
+       "t": "bandara",
+       "e": "Airport",
+       "kind": "word",
+       "alts": [
+        "bandar udara"
+       ]
+      },
+      {
+       "t": "tiket",
+       "e": "Ticket",
+       "kind": "word",
+       "alts": [
+        "karcis"
+       ]
+      },
+      {
+       "t": "Di mana hotelnya?",
+       "e": "Where is the hotel?",
+       "kind": "phrase",
+       "alts": [
+        "Di mana hotel?"
+       ]
+      },
+      {
+       "t": "Belok kiri.",
+       "e": "Turn left.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Di mana toiletnya?",
+       "e": "Where is the toilet?",
+       "kind": "phrase",
+       "alts": [
+        "Di mana toilet?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hotel",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Ticket",
+        "Hotel",
+        "Station"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "hotel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "stasiun",
+       "promptLang": "target",
+       "options": [
+        "Where",
+        "Airport",
+        "Station",
+        "Right"
+       ],
+       "answer": "Station",
+       "words": [
+        "stasiun"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "stasiun",
+         "Station"
+        ],
+        [
+         "bandara",
+         "Airport"
+        ],
+        [
+         "tiket",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "hotel",
+        "stasiun",
+        "bandara",
+        "tiket"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "bandara",
+       "words": [
+        "bandara"
+       ],
+       "options": [
+        "stasiun",
+        "kanan",
+        "bandara",
+        "di mana"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tiket",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Right",
+        "Hotel",
+        "Station"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "tiket"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "Di",
+        "kanan",
+        "mana",
+        "tiket",
+        "hotelnya",
+        "Belok"
+       ],
+       "answer": [
+        "Di",
+        "mana",
+        "hotelnya"
+       ],
+       "accepted": [
+        "Di mana hotel?"
+       ],
+       "words": [
+        "di mana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Belok kiri.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "left",
+        "hotel",
+        "Turn",
+        "Where"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "kiri"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Di mana toiletnya?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Di mana toiletnya?"
+       ],
+       "words": [
+        "di mana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Di mana hotelnya?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "di mana"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "kiri",
+       "e": "Left",
+       "kind": "word"
+      },
+      {
+       "t": "kanan",
+       "e": "Right",
+       "kind": "word"
+      },
+      {
+       "t": "di mana",
+       "e": "Where",
+       "kind": "word",
+       "alts": [
+        "mana"
+       ]
+      },
+      {
+       "t": "toilet",
+       "e": "Toilet",
+       "kind": "word",
+       "alts": [
+        "kamar kecil",
+        "WC"
+       ]
+      },
+      {
+       "t": "Stasiunnya di sebelah kanan.",
+       "e": "The station is on the right.",
+       "kind": "phrase",
+       "alts": [
+        "Stasiun di kanan."
+       ]
+      },
+      {
+       "t": "Satu tiket, tolong.",
+       "e": "A ticket, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Saya pergi ke bandara.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "kiri",
+       "promptLang": "target",
+       "options": [
+        "Where",
+        "Hotel",
+        "Left",
+        "Airport"
+       ],
+       "answer": "Left",
+       "words": [
+        "kiri"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "kanan",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Left",
+        "Station",
+        "Right"
+       ],
+       "answer": "Right",
+       "words": [
+        "kanan"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "kiri",
+         "Left"
+        ],
+        [
+         "kanan",
+         "Right"
+        ],
+        [
+         "di mana",
+         "Where"
+        ],
+        [
+         "toilet",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "kiri",
+        "kanan",
+        "di mana",
+        "toilet"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "di mana",
+       "words": [
+        "di mana"
+       ],
+       "options": [
+        "di mana",
+        "toilet",
+        "kanan",
+        "bandara"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "toilet",
+       "words": [
+        "toilet"
+       ],
+       "options": [
+        "bandara",
+        "toilet",
+        "kiri",
+        "stasiun"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "Apakah",
+        "kanan",
+        "di",
+        "Stasiunnya",
+        "mana",
+        "tiket",
+        "sebelah"
+       ],
+       "answer": [
+        "Stasiunnya",
+        "di",
+        "sebelah",
+        "kanan"
+       ],
+       "accepted": [
+        "Stasiun di kanan."
+       ],
+       "words": [
+        "kanan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Satu tiket, tolong.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "ticket",
+        "the",
+        "to",
+        "please",
+        "A"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "tolong",
+        "satu",
+        "tiket"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Stasiunnya di sebelah kanan.",
+       "translation": "The station is on the right.",
+       "answers": [
+        "Stasiunnya di sebelah kanan."
+       ],
+       "words": [
+        "kanan"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya pergi ke bandara.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "bandara"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "hotel"
+       ],
+       "words": [
+        "hotel"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Apakah jauh?",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "alts": [
+        "Jauh tidak?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "stasiun",
+       "promptLang": "target",
+       "options": [
+        "Left",
+        "Station",
+        "Hotel",
+        "Right"
+       ],
+       "answer": "Station",
+       "words": [
+        "stasiun"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "di mana",
+         "Where"
+        ],
+        [
+         "kanan",
+         "Right"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ],
+        [
+         "toilet",
+         "Toilet"
+        ],
+        [
+         "stasiun",
+         "Station"
+        ]
+       ],
+       "words": [
+        "di mana",
+        "kanan",
+        "hotel",
+        "toilet",
+        "stasiun"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Apakah jauh?",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "Turn left.",
+        "Is it far?",
+        "Where is the hotel?"
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "Apakah jauh?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Di mana toiletnya?",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "toilet",
+        "Where",
+        "is",
+        "far",
+        "right",
+        "it"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "di mana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "ke",
+        "jauh",
+        "Apakah",
+        "Belok",
+        "Stasiunnya"
+       ],
+       "answer": [
+        "Apakah",
+        "jauh"
+       ],
+       "accepted": [
+        "Jauh tidak?"
+       ],
+       "words": [
+        "Apakah jauh?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "kanan",
+        "toiletnya",
+        "bandara",
+        "Saya",
+        "ke",
+        "pergi",
+        "jauh"
+       ],
+       "answer": [
+        "Saya",
+        "pergi",
+        "ke",
+        "bandara"
+       ],
+       "accepted": [],
+       "words": [
+        "bandara"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya pergi ke bandara.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Saya pergi ke bandara."
+       ],
+       "words": [
+        "bandara"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Belok kiri.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "kiri"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Satu tiket, tolong."
+       ],
+       "words": [
+        "tolong",
+        "satu",
+        "tiket"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "stasiun"
+       ],
+       "words": [
+        "stasiun"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Di mana hotelnya?",
+       "promptLang": "target",
+       "options": [
+        "Is it far?",
+        "Turn left.",
+        "Where is the hotel?",
+        "The station is on the right."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "di mana"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bandara",
+         "Airport"
+        ],
+        [
+         "stasiun",
+         "Station"
+        ],
+        [
+         "kiri",
+         "Left"
+        ],
+        [
+         "hotel",
+         "Hotel"
+        ]
+       ],
+       "words": [
+        "bandara",
+        "stasiun",
+        "kiri",
+        "hotel"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "kanan",
+       "words": [
+        "kanan"
+       ],
+       "options": [
+        "toilet",
+        "kanan",
+        "hotel",
+        "di mana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "kiri",
+        "Stasiunnya",
+        "Belok",
+        "jauh",
+        "Saya"
+       ],
+       "answer": [
+        "Belok",
+        "kiri"
+       ],
+       "accepted": [],
+       "words": [
+        "kiri"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Stasiunnya di sebelah kanan.",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "please",
+        "The",
+        "right",
+        "the",
+        "on",
+        "Where",
+        "is",
+        "toilet"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "kanan"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Apakah jauh?",
+       "translation": "Is it far?",
+       "answers": [
+        "Apakah jauh?"
+       ],
+       "words": [
+        "Apakah jauh?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Satu tiket, tolong.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Satu tiket, tolong."
+       ],
+       "words": [
+        "tolong",
+        "satu",
+        "tiket"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Di mana toiletnya?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "di mana"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answers": [
+        "toilet",
+        "kamar kecil",
+        "WC"
+       ],
+       "words": [
+        "toilet"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tips": [
+    "Repeating a word makes a plural: 'anak' (child), 'anak-anak' (children)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hari ini",
+      "e": "Today"
+     },
+     {
+      "t": "besok",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "sekarang",
+      "e": "Now"
+     },
+     {
+      "t": "pagi",
+      "e": "Morning"
+     },
+     {
+      "t": "malam",
+      "e": "Night"
+     },
+     {
+      "t": "rumah",
+      "e": "House"
+     },
+     {
+      "t": "kerja",
+      "e": "Work"
+     },
+     {
+      "t": "sekolah",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Saya pergi kerja.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Saya di rumah.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Hari ini hari Senin.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Saya minum kopi di pagi hari.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Saya tidur di malam hari.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Anak-anak pergi ke sekolah.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Sekarang jam berapa?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "hari ini",
+       "e": "Today",
+       "kind": "word"
+      },
+      {
+       "t": "besok",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "sekarang",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "pagi",
+       "e": "Morning",
+       "kind": "word"
+      },
+      {
+       "t": "Saya pergi kerja.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "alts": [
+        "Saya pergi bekerja."
+       ]
+      },
+      {
+       "t": "Hari ini hari Senin.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "alts": [
+        "Hari ini Senin."
+       ]
+      },
+      {
+       "t": "Saya di rumah.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hari ini",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Today",
+        "Morning",
+        "Work"
+       ],
+       "answer": "Today",
+       "words": [
+        "hari ini"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "besok",
+       "promptLang": "target",
+       "options": [
+        "House",
+        "Morning",
+        "Tomorrow",
+        "School"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "besok"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hari ini",
+         "Today"
+        ],
+        [
+         "besok",
+         "Tomorrow"
+        ],
+        [
+         "sekarang",
+         "Now"
+        ],
+        [
+         "pagi",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "hari ini",
+        "besok",
+        "sekarang",
+        "pagi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "sekarang",
+       "words": [
+        "sekarang"
+       ],
+       "options": [
+        "malam",
+        "sekarang",
+        "kerja",
+        "besok"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pagi",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Now",
+        "House",
+        "Morning"
+       ],
+       "answer": "Morning",
+       "words": [
+        "pagi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "Sekarang",
+        "kerja",
+        "berapa",
+        "Anak-anak",
+        "Saya",
+        "pergi"
+       ],
+       "answer": [
+        "Saya",
+        "pergi",
+        "kerja"
+       ],
+       "accepted": [
+        "Saya pergi bekerja."
+       ],
+       "words": [
+        "kerja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Hari ini hari Senin.",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "Today",
+        "children",
+        "is",
+        "night",
+        "Monday"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "hari ini"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya di rumah.",
+       "translation": "I am at home.",
+       "answers": [
+        "Saya di rumah."
+       ],
+       "words": [
+        "rumah"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya pergi kerja.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "kerja"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "malam",
+       "e": "Night",
+       "kind": "word"
+      },
+      {
+       "t": "rumah",
+       "e": "House",
+       "kind": "word"
+      },
+      {
+       "t": "kerja",
+       "e": "Work",
+       "kind": "word",
+       "alts": [
+        "pekerjaan"
+       ]
+      },
+      {
+       "t": "sekolah",
+       "e": "School",
+       "kind": "word"
+      },
+      {
+       "t": "Saya minum kopi di pagi hari.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "alts": [
+        "Saya minum kopi pada pagi hari."
+       ]
+      },
+      {
+       "t": "Saya tidur di malam hari.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "alts": [
+        "Saya tidur pada malam hari."
+       ]
+      },
+      {
+       "t": "Anak-anak pergi ke sekolah.",
+       "e": "The children go to school.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "malam",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Today",
+        "School",
+        "Now"
+       ],
+       "answer": "Night",
+       "words": [
+        "malam"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "rumah",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Work",
+        "House",
+        "Night"
+       ],
+       "answer": "House",
+       "words": [
+        "rumah"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "malam",
+         "Night"
+        ],
+        [
+         "rumah",
+         "House"
+        ],
+        [
+         "kerja",
+         "Work"
+        ],
+        [
+         "sekolah",
+         "School"
+        ]
+       ],
+       "words": [
+        "malam",
+        "rumah",
+        "kerja",
+        "sekolah"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "kerja",
+       "words": [
+        "kerja"
+       ],
+       "options": [
+        "sekarang",
+        "hari ini",
+        "kerja",
+        "rumah"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "sekolah",
+       "words": [
+        "sekolah"
+       ],
+       "options": [
+        "malam",
+        "sekolah",
+        "hari ini",
+        "kerja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "hari",
+        "pagi",
+        "ke",
+        "Saya",
+        "minum",
+        "kopi",
+        "Anak-anak",
+        "di",
+        "ini"
+       ],
+       "answer": [
+        "Saya",
+        "minum",
+        "kopi",
+        "di",
+        "pagi",
+        "hari"
+       ],
+       "accepted": [
+        "Saya minum kopi pada pagi hari."
+       ],
+       "words": [
+        "kopi",
+        "pagi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya tidur di malam hari.",
+       "promptLang": "target",
+       "tiles": [
+        "drink",
+        "Today",
+        "I",
+        "night",
+        "at",
+        "sleep",
+        "the"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "malam"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya minum kopi di pagi hari.",
+       "translation": "I drink coffee in the morning.",
+       "answers": [
+        "Saya minum kopi di pagi hari."
+       ],
+       "words": [
+        "kopi",
+        "pagi"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Anak-anak pergi ke sekolah.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "anak",
+        "sekolah"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "hari ini"
+       ],
+       "words": [
+        "hari ini"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Sekarang jam berapa?",
+       "e": "What time is it now?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "besok",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Work",
+        "Today",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "besok"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "malam",
+         "Night"
+        ],
+        [
+         "sekarang",
+         "Now"
+        ],
+        [
+         "hari ini",
+         "Today"
+        ],
+        [
+         "sekolah",
+         "School"
+        ],
+        [
+         "rumah",
+         "House"
+        ]
+       ],
+       "words": [
+        "malam",
+        "sekarang",
+        "hari ini",
+        "sekolah",
+        "rumah"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Sekarang jam berapa?",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee in the morning.",
+        "I am at home.",
+        "What time is it now?",
+        "I sleep at night."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "sekarang"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya di rumah.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "Today",
+        "am",
+        "in",
+        "children",
+        "I",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "rumah"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "jam",
+        "Hari",
+        "berapa",
+        "rumah",
+        "Sekarang",
+        "ke"
+       ],
+       "answer": [
+        "Sekarang",
+        "jam",
+        "berapa"
+       ],
+       "accepted": [],
+       "words": [
+        "sekarang"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "rumah",
+        "ke",
+        "sekolah",
+        "pergi",
+        "berapa",
+        "Anak-anak",
+        "ini"
+       ],
+       "answer": [
+        "Anak-anak",
+        "pergi",
+        "ke",
+        "sekolah"
+       ],
+       "accepted": [],
+       "words": [
+        "anak",
+        "sekolah"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Anak-anak pergi ke sekolah.",
+       "translation": "The children go to school.",
+       "answers": [
+        "Anak-anak pergi ke sekolah."
+       ],
+       "words": [
+        "anak",
+        "sekolah"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hari ini hari Senin.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "hari ini"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Saya tidur di malam hari.",
+        "Saya tidur pada malam hari."
+       ],
+       "words": [
+        "malam"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "besok"
+       ],
+       "words": [
+        "besok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Saya pergi kerja.",
+       "promptLang": "target",
+       "options": [
+        "I am at home.",
+        "I go to work.",
+        "What time is it now?",
+        "I sleep at night."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "kerja"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "pagi",
+         "Morning"
+        ],
+        [
+         "hari ini",
+         "Today"
+        ],
+        [
+         "malam",
+         "Night"
+        ],
+        [
+         "kerja",
+         "Work"
+        ]
+       ],
+       "words": [
+        "pagi",
+        "hari ini",
+        "malam",
+        "kerja"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "House",
+       "promptLang": "en",
+       "answer": "rumah",
+       "words": [
+        "rumah"
+       ],
+       "options": [
+        "sekolah",
+        "rumah",
+        "pagi",
+        "kerja"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Indonesian",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "jam",
+        "Saya",
+        "Senin",
+        "Sekarang",
+        "hari",
+        "ini",
+        "Hari"
+       ],
+       "answer": [
+        "Hari",
+        "ini",
+        "hari",
+        "Senin"
+       ],
+       "accepted": [
+        "Hari ini Senin."
+       ],
+       "words": [
+        "hari ini"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Saya minum kopi di pagi hari.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "go",
+        "in",
+        "drink",
+        "coffee",
+        "children",
+        "to",
+        "morning",
+        "the"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "kopi",
+        "pagi"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Sekarang jam berapa?",
+       "translation": "What time is it now?",
+       "answers": [
+        "Sekarang jam berapa?"
+       ],
+       "words": [
+        "sekarang"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Saya tidur di malam hari.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Saya tidur di malam hari."
+       ],
+       "words": [
+        "malam"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Saya di rumah.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "rumah"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Indonesian",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "besok"
+       ],
+       "words": [
+        "besok"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

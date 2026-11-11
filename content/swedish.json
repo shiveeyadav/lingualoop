@@ -1,0 +1,5505 @@
+{
+ "id": "swedish",
+ "title": "Swedish",
+ "shortName": "Swedish",
+ "nativeName": "Svenska",
+ "fromLanguage": "en",
+ "speechLang": "sv-SE",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [
+  "å",
+  "ä",
+  "ö"
+ ],
+ "particles": [],
+ "order": 150,
+ "description": "Everyday Swedish: greetings, family, food, numbers, getting around and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tips": [
+    "'Hej' works almost everywhere, with friends and in shops. 'Hej då' means goodbye."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hej",
+      "e": "Hello"
+     },
+     {
+      "t": "hej då",
+      "e": "Goodbye"
+     },
+     {
+      "t": "tack",
+      "e": "Thank you"
+     },
+     {
+      "t": "snälla",
+      "e": "Please"
+     },
+     {
+      "t": "ja",
+      "e": "Yes"
+     },
+     {
+      "t": "nej",
+      "e": "No"
+     },
+     {
+      "t": "god morgon",
+      "e": "Good morning"
+     },
+     {
+      "t": "förlåt",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Hur mår du?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Jag mår bra, tack.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Jag heter Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Trevligt att träffas.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Tack så mycket.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Vi ses i morgon.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Vad heter du?",
+      "e": "What is your name?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "hej",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "hallå"
+       ]
+      },
+      {
+       "t": "hej då",
+       "e": "Goodbye",
+       "kind": "word",
+       "alts": [
+        "adjö"
+       ]
+      },
+      {
+       "t": "tack",
+       "e": "Thank you",
+       "kind": "word"
+      },
+      {
+       "t": "snälla",
+       "e": "Please",
+       "kind": "word"
+      },
+      {
+       "t": "Hur mår du?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Hur är det?"
+       ]
+      },
+      {
+       "t": "Jag heter Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag mår bra, tack.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Bra, tack."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hej",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Hello",
+        "Good morning",
+        "Sorry"
+       ],
+       "answer": "Hello",
+       "words": [
+        "hej"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hej då",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Please",
+        "Goodbye",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "hej då"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hej",
+         "Hello"
+        ],
+        [
+         "hej då",
+         "Goodbye"
+        ],
+        [
+         "tack",
+         "Thank you"
+        ],
+        [
+         "snälla",
+         "Please"
+        ]
+       ],
+       "words": [
+        "hej",
+        "hej då",
+        "tack",
+        "snälla"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "tack",
+       "words": [
+        "tack"
+       ],
+       "options": [
+        "förlåt",
+        "hej",
+        "tack",
+        "snälla"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "snälla",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Yes",
+        "Please",
+        "Hello"
+       ],
+       "answer": "Please",
+       "words": [
+        "snälla"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "ses",
+        "Hur",
+        "träffas",
+        "du",
+        "att",
+        "mår"
+       ],
+       "answer": [
+        "Hur",
+        "mår",
+        "du"
+       ],
+       "accepted": [
+        "Hur är det?"
+       ],
+       "words": [
+        "Hur mår du?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag heter Anna.",
+       "promptLang": "target",
+       "tiles": [
+        "meet",
+        "name",
+        "My",
+        "is",
+        "much",
+        "Anna",
+        "are"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Jag heter Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag mår bra, tack.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Jag mår bra, tack."
+       ],
+       "words": [
+        "tack"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hur mår du?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "Hur mår du?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "ja",
+       "e": "Yes",
+       "kind": "word"
+      },
+      {
+       "t": "nej",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "god morgon",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "förlåt",
+       "e": "Sorry",
+       "kind": "word",
+       "alts": [
+        "ursäkta"
+       ]
+      },
+      {
+       "t": "Trevligt att träffas.",
+       "e": "Nice to meet you.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tack så mycket.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Tusen tack."
+       ]
+      },
+      {
+       "t": "Vi ses i morgon.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "alts": [
+        "Vi ses imorgon."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ja",
+       "promptLang": "target",
+       "options": [
+        "Sorry",
+        "Good morning",
+        "Yes",
+        "No"
+       ],
+       "answer": "Yes",
+       "words": [
+        "ja"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nej",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Yes",
+        "Good morning",
+        "Hello"
+       ],
+       "answer": "No",
+       "words": [
+        "nej"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ja",
+         "Yes"
+        ],
+        [
+         "nej",
+         "No"
+        ],
+        [
+         "god morgon",
+         "Good morning"
+        ],
+        [
+         "förlåt",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "ja",
+        "nej",
+        "god morgon",
+        "förlåt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "god morgon",
+       "words": [
+        "god morgon"
+       ],
+       "options": [
+        "hej då",
+        "god morgon",
+        "ja",
+        "hej"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "förlåt",
+       "words": [
+        "förlåt"
+       ],
+       "options": [
+        "tack",
+        "god morgon",
+        "förlåt",
+        "hej"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "i",
+        "träffas",
+        "mår",
+        "tack",
+        "att",
+        "Trevligt"
+       ],
+       "answer": [
+        "Trevligt",
+        "att",
+        "träffas"
+       ],
+       "accepted": [],
+       "words": [
+        "Trevligt att träffas."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tack så mycket.",
+       "promptLang": "target",
+       "tiles": [
+        "Thank",
+        "meet",
+        "See",
+        "very",
+        "much",
+        "you",
+        "to"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "tack"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Trevligt att träffas.",
+       "translation": "Nice to meet you.",
+       "answers": [
+        "Trevligt att träffas."
+       ],
+       "words": [
+        "Trevligt att träffas."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Vi ses i morgon.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "i morgon",
+        "morgon"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "hej",
+        "hallå"
+       ],
+       "words": [
+        "hej"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Vad heter du?",
+       "e": "What is your name?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hej då",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Thank you",
+        "Goodbye",
+        "Hello"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "hej då"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "snälla",
+         "Please"
+        ],
+        [
+         "ja",
+         "Yes"
+        ],
+        [
+         "hej",
+         "Hello"
+        ],
+        [
+         "tack",
+         "Thank you"
+        ],
+        [
+         "nej",
+         "No"
+        ]
+       ],
+       "words": [
+        "snälla",
+        "ja",
+        "hej",
+        "tack",
+        "nej"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Vad heter du?",
+       "promptLang": "target",
+       "options": [
+        "I am fine, thank you.",
+        "Thank you very much.",
+        "See you tomorrow.",
+        "What is your name?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "Vad heter du?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag mår bra, tack.",
+       "promptLang": "target",
+       "tiles": [
+        "tomorrow",
+        "am",
+        "Nice",
+        "I",
+        "fine",
+        "meet",
+        "thank",
+        "you"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "tack"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "tack",
+        "heter",
+        "du",
+        "träffas",
+        "ses",
+        "Vad"
+       ],
+       "answer": [
+        "Vad",
+        "heter",
+        "du"
+       ],
+       "accepted": [],
+       "words": [
+        "Vad heter du?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "träffas",
+        "morgon",
+        "heter",
+        "i",
+        "Vi",
+        "ses",
+        "Jag"
+       ],
+       "answer": [
+        "Vi",
+        "ses",
+        "i",
+        "morgon"
+       ],
+       "accepted": [
+        "Vi ses imorgon."
+       ],
+       "words": [
+        "i morgon",
+        "morgon"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Vi ses i morgon.",
+       "translation": "See you tomorrow.",
+       "answers": [
+        "Vi ses i morgon."
+       ],
+       "words": [
+        "i morgon",
+        "morgon"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag heter Anna.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Jag heter Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Tack så mycket.",
+        "Tusen tack."
+       ],
+       "words": [
+        "tack"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "hej då",
+        "adjö"
+       ],
+       "words": [
+        "hej då"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Hur mår du?",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "How are you?",
+        "See you tomorrow.",
+        "I am fine, thank you."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "Hur mår du?"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ja",
+         "Yes"
+        ],
+        [
+         "snälla",
+         "Please"
+        ],
+        [
+         "nej",
+         "No"
+        ],
+        [
+         "god morgon",
+         "Good morning"
+        ]
+       ],
+       "words": [
+        "ja",
+        "snälla",
+        "nej",
+        "god morgon"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answer": "hej då",
+       "words": [
+        "hej då"
+       ],
+       "options": [
+        "tack",
+        "hej",
+        "hej då",
+        "nej"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "heter",
+        "morgon",
+        "träffas",
+        "Jag",
+        "Anna",
+        "mycket"
+       ],
+       "answer": [
+        "Jag",
+        "heter",
+        "Anna"
+       ],
+       "accepted": [],
+       "words": [
+        "Jag heter Anna."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Trevligt att träffas.",
+       "promptLang": "target",
+       "tiles": [
+        "What",
+        "Nice",
+        "you",
+        "tomorrow",
+        "are",
+        "meet",
+        "to"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "Trevligt att träffas."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Vad heter du?",
+       "translation": "What is your name?",
+       "answers": [
+        "Vad heter du?"
+       ],
+       "words": [
+        "Vad heter du?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tack så mycket.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Tack så mycket."
+       ],
+       "words": [
+        "tack"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag mår bra, tack.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "tack"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answers": [
+        "förlåt",
+        "ursäkta"
+       ],
+       "words": [
+        "förlåt"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tips": [
+    "Swedish nouns are 'en' or 'ett' words: 'en man' (a man), 'ett barn' (a child)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "man",
+      "e": "Man"
+     },
+     {
+      "t": "kvinna",
+      "e": "Woman"
+     },
+     {
+      "t": "barn",
+      "e": "Child"
+     },
+     {
+      "t": "vän",
+      "e": "Friend"
+     },
+     {
+      "t": "mamma",
+      "e": "Mother"
+     },
+     {
+      "t": "pappa",
+      "e": "Father"
+     },
+     {
+      "t": "son",
+      "e": "Son"
+     },
+     {
+      "t": "dotter",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Det här är min mamma.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "Han är min vän.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Jag har en son.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Var är min pappa?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Min mamma är hemma.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "Hon är min dotter.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Vem är den här mannen?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "man",
+       "e": "Man",
+       "kind": "word"
+      },
+      {
+       "t": "kvinna",
+       "e": "Woman",
+       "kind": "word"
+      },
+      {
+       "t": "barn",
+       "e": "Child",
+       "kind": "word"
+      },
+      {
+       "t": "vän",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "kompis"
+       ]
+      },
+      {
+       "t": "Det här är min mamma.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "alts": [
+        "Detta är min mamma."
+       ]
+      },
+      {
+       "t": "Jag har en son.",
+       "e": "I have a son.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Han är min vän.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "alts": [
+        "Han är min kompis."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "man",
+       "promptLang": "target",
+       "options": [
+        "Father",
+        "Friend",
+        "Mother",
+        "Man"
+       ],
+       "answer": "Man",
+       "words": [
+        "man"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "kvinna",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Daughter",
+        "Son",
+        "Child"
+       ],
+       "answer": "Woman",
+       "words": [
+        "kvinna"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "man",
+         "Man"
+        ],
+        [
+         "kvinna",
+         "Woman"
+        ],
+        [
+         "barn",
+         "Child"
+        ],
+        [
+         "vän",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "man",
+        "kvinna",
+        "barn",
+        "vän"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "barn",
+       "words": [
+        "barn"
+       ],
+       "options": [
+        "barn",
+        "vän",
+        "pappa",
+        "mamma"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vän",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Son",
+        "Friend",
+        "Mother"
+       ],
+       "answer": "Friend",
+       "words": [
+        "vän"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "Han",
+        "Det",
+        "vän",
+        "mamma",
+        "pappa",
+        "här",
+        "min",
+        "är"
+       ],
+       "answer": [
+        "Det",
+        "här",
+        "är",
+        "min",
+        "mamma"
+       ],
+       "accepted": [
+        "Detta är min mamma."
+       ],
+       "words": [
+        "mamma"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag har en son.",
+       "promptLang": "target",
+       "tiles": [
+        "a",
+        "daughter",
+        "have",
+        "I",
+        "son",
+        "friend",
+        "father"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "son",
+        "en"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Han är min vän.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Han är min vän."
+       ],
+       "words": [
+        "vän"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Det här är min mamma.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "mamma"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "mamma",
+       "e": "Mother",
+       "kind": "word",
+       "alts": [
+        "mor"
+       ]
+      },
+      {
+       "t": "pappa",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "far"
+       ]
+      },
+      {
+       "t": "son",
+       "e": "Son",
+       "kind": "word"
+      },
+      {
+       "t": "dotter",
+       "e": "Daughter",
+       "kind": "word"
+      },
+      {
+       "t": "Var är min pappa?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Var är pappa?"
+       ]
+      },
+      {
+       "t": "Min mamma är hemma.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "alts": [
+        "Mamma är hemma."
+       ]
+      },
+      {
+       "t": "Hon är min dotter.",
+       "e": "She is my daughter.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mamma",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Mother",
+        "Father",
+        "Daughter"
+       ],
+       "answer": "Mother",
+       "words": [
+        "mamma"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "pappa",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Son",
+        "Father",
+        "Friend"
+       ],
+       "answer": "Father",
+       "words": [
+        "pappa"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mamma",
+         "Mother"
+        ],
+        [
+         "pappa",
+         "Father"
+        ],
+        [
+         "son",
+         "Son"
+        ],
+        [
+         "dotter",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "mamma",
+        "pappa",
+        "son",
+        "dotter"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "son",
+       "words": [
+        "son"
+       ],
+       "options": [
+        "son",
+        "kvinna",
+        "pappa",
+        "barn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "dotter",
+       "words": [
+        "dotter"
+       ],
+       "options": [
+        "dotter",
+        "son",
+        "vän",
+        "kvinna"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "min",
+        "Han",
+        "mamma",
+        "här",
+        "Var",
+        "är",
+        "pappa"
+       ],
+       "answer": [
+        "Var",
+        "är",
+        "min",
+        "pappa"
+       ],
+       "accepted": [
+        "Var är pappa?"
+       ],
+       "words": [
+        "pappa",
+        "var"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Min mamma är hemma.",
+       "promptLang": "target",
+       "tiles": [
+        "son",
+        "friend",
+        "Where",
+        "My",
+        "home",
+        "mother",
+        "is",
+        "at"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "mamma"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Var är min pappa?",
+       "translation": "Where is my father?",
+       "answers": [
+        "Var är min pappa?"
+       ],
+       "words": [
+        "pappa",
+        "var"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hon är min dotter.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "dotter"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "man"
+       ],
+       "words": [
+        "man"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Vem är den här mannen?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "alts": [
+        "Vem är mannen?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "kvinna",
+       "promptLang": "target",
+       "options": [
+        "Mother",
+        "Son",
+        "Woman",
+        "Father"
+       ],
+       "answer": "Woman",
+       "words": [
+        "kvinna"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "pappa",
+         "Father"
+        ],
+        [
+         "barn",
+         "Child"
+        ],
+        [
+         "mamma",
+         "Mother"
+        ],
+        [
+         "vän",
+         "Friend"
+        ],
+        [
+         "man",
+         "Man"
+        ]
+       ],
+       "words": [
+        "pappa",
+        "barn",
+        "mamma",
+        "vän",
+        "man"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Vem är den här mannen?",
+       "promptLang": "target",
+       "options": [
+        "Who is this man?",
+        "Where is my father?",
+        "This is my mother.",
+        "He is my friend."
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "Vem är den här mannen?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Han är min vän.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "friend",
+        "Who",
+        "He",
+        "man",
+        "my",
+        "at"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "vän"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "Vem",
+        "Jag",
+        "dotter",
+        "mannen",
+        "den",
+        "här",
+        "min",
+        "är"
+       ],
+       "answer": [
+        "Vem",
+        "är",
+        "den",
+        "här",
+        "mannen"
+       ],
+       "accepted": [
+        "Vem är mannen?"
+       ],
+       "words": [
+        "Vem är den här mannen?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "Hon",
+        "är",
+        "dotter",
+        "vän",
+        "Han",
+        "min",
+        "en"
+       ],
+       "answer": [
+        "Hon",
+        "är",
+        "min",
+        "dotter"
+       ],
+       "accepted": [],
+       "words": [
+        "dotter"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hon är min dotter.",
+       "translation": "She is my daughter.",
+       "answers": [
+        "Hon är min dotter."
+       ],
+       "words": [
+        "dotter"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag har en son.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "son",
+        "en"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Min mamma är hemma.",
+        "Mamma är hemma."
+       ],
+       "words": [
+        "mamma"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "kvinna"
+       ],
+       "words": [
+        "kvinna"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Det här är min mamma.",
+       "promptLang": "target",
+       "options": [
+        "He is my friend.",
+        "Where is my father?",
+        "She is my daughter.",
+        "This is my mother."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "mamma"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "pappa",
+         "Father"
+        ],
+        [
+         "dotter",
+         "Daughter"
+        ],
+        [
+         "son",
+         "Son"
+        ],
+        [
+         "barn",
+         "Child"
+        ]
+       ],
+       "words": [
+        "pappa",
+        "dotter",
+        "son",
+        "barn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Mother",
+       "promptLang": "en",
+       "answer": "mamma",
+       "words": [
+        "mamma"
+       ],
+       "options": [
+        "man",
+        "pappa",
+        "dotter",
+        "mamma"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "Jag",
+        "den",
+        "en",
+        "son",
+        "vän",
+        "har",
+        "mannen"
+       ],
+       "answer": [
+        "Jag",
+        "har",
+        "en",
+        "son"
+       ],
+       "accepted": [],
+       "words": [
+        "son",
+        "en"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Var är min pappa?",
+       "promptLang": "target",
+       "tiles": [
+        "daughter",
+        "is",
+        "Where",
+        "This",
+        "my",
+        "father",
+        "He"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "pappa",
+        "var"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Vem är den här mannen?",
+       "translation": "Who is this man?",
+       "answers": [
+        "Vem är den här mannen?"
+       ],
+       "words": [
+        "Vem är den här mannen?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Min mamma är hemma.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Min mamma är hemma."
+       ],
+       "words": [
+        "mamma"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Han är min vän.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "vän"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "kvinna"
+       ],
+       "words": [
+        "kvinna"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tips": [
+    "'The' goes on the end of the word: 'te' (tea) becomes 'teet' (the tea), 'vatten' stays 'vattnet'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "vatten",
+      "e": "Water"
+     },
+     {
+      "t": "bröd",
+      "e": "Bread"
+     },
+     {
+      "t": "kaffe",
+      "e": "Coffee"
+     },
+     {
+      "t": "te",
+      "e": "Tea"
+     },
+     {
+      "t": "mjölk",
+      "e": "Milk"
+     },
+     {
+      "t": "äpple",
+      "e": "Apple"
+     },
+     {
+      "t": "ris",
+      "e": "Rice"
+     },
+     {
+      "t": "ägg",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Vatten, tack.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Jag dricker kaffe.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Jag äter bröd.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Teet är varmt.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Jag dricker inte mjölk.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Jag tycker om äpplen.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Jag är hungrig.",
+      "e": "I am hungry."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "vatten",
+       "e": "Water",
+       "kind": "word"
+      },
+      {
+       "t": "bröd",
+       "e": "Bread",
+       "kind": "word"
+      },
+      {
+       "t": "kaffe",
+       "e": "Coffee",
+       "kind": "word"
+      },
+      {
+       "t": "te",
+       "e": "Tea",
+       "kind": "word"
+      },
+      {
+       "t": "Vatten, tack.",
+       "e": "Water, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag äter bröd.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag dricker kaffe.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vatten",
+       "promptLang": "target",
+       "options": [
+        "Coffee",
+        "Apple",
+        "Egg",
+        "Water"
+       ],
+       "answer": "Water",
+       "words": [
+        "vatten"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bröd",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Rice",
+        "Water",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "bröd"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vatten",
+         "Water"
+        ],
+        [
+         "bröd",
+         "Bread"
+        ],
+        [
+         "kaffe",
+         "Coffee"
+        ],
+        [
+         "te",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "vatten",
+        "bröd",
+        "kaffe",
+        "te"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "kaffe",
+       "words": [
+        "kaffe"
+       ],
+       "options": [
+        "kaffe",
+        "äpple",
+        "mjölk",
+        "vatten"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "te",
+       "promptLang": "target",
+       "options": [
+        "Coffee",
+        "Tea",
+        "Water",
+        "Apple"
+       ],
+       "answer": "Tea",
+       "words": [
+        "te"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "kaffe",
+        "Vatten",
+        "Teet",
+        "äpplen",
+        "tack"
+       ],
+       "answer": [
+        "Vatten",
+        "tack"
+       ],
+       "accepted": [],
+       "words": [
+        "tack",
+        "vatten"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag äter bröd.",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "I",
+        "not",
+        "eat",
+        "apples",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "bröd"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag dricker kaffe.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Jag dricker kaffe."
+       ],
+       "words": [
+        "kaffe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Vatten, tack.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "tack",
+        "vatten"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "mjölk",
+       "e": "Milk",
+       "kind": "word"
+      },
+      {
+       "t": "äpple",
+       "e": "Apple",
+       "kind": "word"
+      },
+      {
+       "t": "ris",
+       "e": "Rice",
+       "kind": "word"
+      },
+      {
+       "t": "ägg",
+       "e": "Egg",
+       "kind": "word"
+      },
+      {
+       "t": "Teet är varmt.",
+       "e": "The tea is hot.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag dricker inte mjölk.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag tycker om äpplen.",
+       "e": "I like apples.",
+       "kind": "phrase",
+       "alts": [
+        "Jag gillar äpplen."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mjölk",
+       "promptLang": "target",
+       "options": [
+        "Coffee",
+        "Water",
+        "Egg",
+        "Milk"
+       ],
+       "answer": "Milk",
+       "words": [
+        "mjölk"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "äpple",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Coffee",
+        "Tea",
+        "Bread"
+       ],
+       "answer": "Apple",
+       "words": [
+        "äpple"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mjölk",
+         "Milk"
+        ],
+        [
+         "äpple",
+         "Apple"
+        ],
+        [
+         "ris",
+         "Rice"
+        ],
+        [
+         "ägg",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "mjölk",
+        "äpple",
+        "ris",
+        "ägg"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "ris",
+       "words": [
+        "ris"
+       ],
+       "options": [
+        "vatten",
+        "ägg",
+        "ris",
+        "kaffe"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "ägg",
+       "words": [
+        "ägg"
+       ],
+       "options": [
+        "ris",
+        "bröd",
+        "mjölk",
+        "ägg"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "är",
+        "mjölk",
+        "Teet",
+        "varmt",
+        "äter",
+        "bröd"
+       ],
+       "answer": [
+        "Teet",
+        "är",
+        "varmt"
+       ],
+       "accepted": [],
+       "words": [
+        "Teet är varmt."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag dricker inte mjölk.",
+       "promptLang": "target",
+       "tiles": [
+        "do",
+        "drink",
+        "milk",
+        "not",
+        "I",
+        "bread",
+        "am",
+        "please"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "mjölk"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Teet är varmt.",
+       "translation": "The tea is hot.",
+       "answers": [
+        "Teet är varmt."
+       ],
+       "words": [
+        "Teet är varmt."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag tycker om äpplen.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "Jag tycker om äpplen."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "vatten"
+       ],
+       "words": [
+        "vatten"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Jag är hungrig.",
+       "e": "I am hungry.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bröd",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Egg",
+        "Apple",
+        "Rice"
+       ],
+       "answer": "Bread",
+       "words": [
+        "bröd"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bröd",
+         "Bread"
+        ],
+        [
+         "ris",
+         "Rice"
+        ],
+        [
+         "mjölk",
+         "Milk"
+        ],
+        [
+         "ägg",
+         "Egg"
+        ],
+        [
+         "te",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "bröd",
+        "ris",
+        "mjölk",
+        "ägg",
+        "te"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jag är hungrig.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "The tea is hot.",
+        "I eat bread.",
+        "I do not drink milk."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Jag är hungrig."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag dricker kaffe.",
+       "promptLang": "target",
+       "tiles": [
+        "drink",
+        "I",
+        "hungry",
+        "Water",
+        "not",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "kaffe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "om",
+        "hungrig",
+        "Jag",
+        "är",
+        "tack",
+        "Teet"
+       ],
+       "answer": [
+        "Jag",
+        "är",
+        "hungrig"
+       ],
+       "accepted": [],
+       "words": [
+        "Jag är hungrig."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "om",
+        "varmt",
+        "tycker",
+        "äpplen",
+        "inte",
+        "äter",
+        "Jag"
+       ],
+       "answer": [
+        "Jag",
+        "tycker",
+        "om",
+        "äpplen"
+       ],
+       "accepted": [
+        "Jag gillar äpplen."
+       ],
+       "words": [
+        "Jag tycker om äpplen."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag tycker om äpplen.",
+       "translation": "I like apples.",
+       "answers": [
+        "Jag tycker om äpplen."
+       ],
+       "words": [
+        "Jag tycker om äpplen."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag äter bröd.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "bröd"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Jag dricker inte mjölk."
+       ],
+       "words": [
+        "mjölk"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "bröd"
+       ],
+       "words": [
+        "bröd"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Vatten, tack.",
+       "promptLang": "target",
+       "options": [
+        "I like apples.",
+        "Water, please.",
+        "I drink coffee.",
+        "I eat bread."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "tack",
+        "vatten"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vatten",
+         "Water"
+        ],
+        [
+         "ägg",
+         "Egg"
+        ],
+        [
+         "kaffe",
+         "Coffee"
+        ],
+        [
+         "bröd",
+         "Bread"
+        ]
+       ],
+       "words": [
+        "vatten",
+        "ägg",
+        "kaffe",
+        "bröd"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Tea",
+       "promptLang": "en",
+       "answer": "te",
+       "words": [
+        "te"
+       ],
+       "options": [
+        "äpple",
+        "te",
+        "kaffe",
+        "bröd"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "äter",
+        "är",
+        "Jag",
+        "om",
+        "bröd",
+        "hungrig"
+       ],
+       "answer": [
+        "Jag",
+        "äter",
+        "bröd"
+       ],
+       "accepted": [],
+       "words": [
+        "bröd"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Teet är varmt.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "tea",
+        "The",
+        "Water",
+        "hot",
+        "hungry",
+        "coffee"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "Teet är varmt."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag är hungrig.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Jag är hungrig."
+       ],
+       "words": [
+        "Jag är hungrig."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag dricker inte mjölk.",
+       "translation": "I do not drink milk.",
+       "answers": [
+        "Jag dricker inte mjölk."
+       ],
+       "words": [
+        "mjölk"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag dricker kaffe.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "kaffe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answers": [
+        "mjölk"
+       ],
+       "words": [
+        "mjölk"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tips": [
+    "'En' and 'ett' both mean one: 'en kaffe', 'ett äpple'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "en",
+      "e": "One"
+     },
+     {
+      "t": "två",
+      "e": "Two"
+     },
+     {
+      "t": "tre",
+      "e": "Three"
+     },
+     {
+      "t": "fyra",
+      "e": "Four"
+     },
+     {
+      "t": "fem",
+      "e": "Five"
+     },
+     {
+      "t": "sex",
+      "e": "Six"
+     },
+     {
+      "t": "sju",
+      "e": "Seven"
+     },
+     {
+      "t": "åtta",
+      "e": "Eight"
+     },
+     {
+      "t": "nio",
+      "e": "Nine"
+     },
+     {
+      "t": "tio",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Jag har två barn.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Hur mycket kostar det?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Jag har fyra äpplen.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "En kaffe, tack.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Två te, tack.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Klockan är tre.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Ett ögonblick, tack.",
+      "e": "One moment, please."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "en",
+       "e": "One",
+       "kind": "word",
+       "alts": [
+        "ett"
+       ]
+      },
+      {
+       "t": "två",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "tre",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "fyra",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Jag har två barn.",
+       "e": "I have two children.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag har fyra äpplen.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Hur mycket kostar det?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Vad kostar det?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "en",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "One"
+       ],
+       "answer": "One",
+       "words": [
+        "en"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "två",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Eight",
+        "Two",
+        "Six"
+       ],
+       "answer": "Two",
+       "words": [
+        "två"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "en",
+         "One"
+        ],
+        [
+         "två",
+         "Two"
+        ],
+        [
+         "tre",
+         "Three"
+        ],
+        [
+         "fyra",
+         "Four"
+        ]
+       ],
+       "words": [
+        "en",
+        "två",
+        "tre",
+        "fyra"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "tre",
+       "words": [
+        "tre"
+       ],
+       "options": [
+        "sju",
+        "två",
+        "fyra",
+        "tre"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "fyra",
+       "promptLang": "target",
+       "options": [
+        "Eight",
+        "Four",
+        "Five",
+        "Seven"
+       ],
+       "answer": "Four",
+       "words": [
+        "fyra"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "har",
+        "barn",
+        "Jag",
+        "äpplen",
+        "kaffe",
+        "två",
+        "te"
+       ],
+       "answer": [
+        "Jag",
+        "har",
+        "två",
+        "barn"
+       ],
+       "accepted": [],
+       "words": [
+        "barn",
+        "två"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag har fyra äpplen.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "have",
+        "apples",
+        "three",
+        "o'clock",
+        "four",
+        "moment"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "fyra"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hur mycket kostar det?",
+       "translation": "How much is it?",
+       "answers": [
+        "Hur mycket kostar det?"
+       ],
+       "words": [
+        "Hur mycket kostar det?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag har två barn.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "barn",
+        "två"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "fem",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "sex",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "sju",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "åtta",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "En kaffe, tack.",
+       "e": "One coffee, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Två te, tack.",
+       "e": "Two teas, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Klockan är tre.",
+       "e": "It is three o'clock.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "fem",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "One",
+        "Five",
+        "Seven"
+       ],
+       "answer": "Five",
+       "words": [
+        "fem"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sex",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Nine",
+        "Six",
+        "Two"
+       ],
+       "answer": "Six",
+       "words": [
+        "sex"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "fem",
+         "Five"
+        ],
+        [
+         "sex",
+         "Six"
+        ],
+        [
+         "sju",
+         "Seven"
+        ],
+        [
+         "åtta",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "fem",
+        "sex",
+        "sju",
+        "åtta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "sju",
+       "words": [
+        "sju"
+       ],
+       "options": [
+        "sex",
+        "sju",
+        "tio",
+        "tre"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "åtta",
+       "words": [
+        "åtta"
+       ],
+       "options": [
+        "tio",
+        "åtta",
+        "tre",
+        "nio"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "kaffe",
+        "kostar",
+        "En",
+        "det",
+        "tack",
+        "te"
+       ],
+       "answer": [
+        "En",
+        "kaffe",
+        "tack"
+       ],
+       "accepted": [],
+       "words": [
+        "tack",
+        "kaffe",
+        "en"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Två te, tack.",
+       "promptLang": "target",
+       "tiles": [
+        "three",
+        "Two",
+        "much",
+        "please",
+        "teas",
+        "One"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "tack",
+        "te",
+        "två"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "En kaffe, tack.",
+       "translation": "One coffee, please.",
+       "answers": [
+        "En kaffe, tack."
+       ],
+       "words": [
+        "tack",
+        "kaffe",
+        "en"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Klockan är tre.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "tre"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "en",
+        "ett"
+       ],
+       "words": [
+        "en"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "nio",
+       "e": "Nine",
+       "kind": "word"
+      },
+      {
+       "t": "tio",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Ett ögonblick, tack.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Ett ögonblick."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nio",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "One",
+        "Eight",
+        "Ten"
+       ],
+       "answer": "Nine",
+       "words": [
+        "nio"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "två",
+         "Two"
+        ],
+        [
+         "tre",
+         "Three"
+        ],
+        [
+         "tio",
+         "Ten"
+        ],
+        [
+         "en",
+         "One"
+        ],
+        [
+         "fyra",
+         "Four"
+        ]
+       ],
+       "words": [
+        "två",
+        "tre",
+        "tio",
+        "en",
+        "fyra"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ett ögonblick, tack.",
+       "promptLang": "target",
+       "options": [
+        "How much is it?",
+        "One moment, please.",
+        "Two teas, please.",
+        "I have four apples."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "tack",
+        "en"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Hur mycket kostar det?",
+       "promptLang": "target",
+       "tiles": [
+        "much",
+        "One",
+        "it",
+        "please",
+        "How",
+        "moment",
+        "is"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Hur mycket kostar det?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "ögonblick",
+        "Hur",
+        "Ett",
+        "tack",
+        "tre",
+        "te"
+       ],
+       "answer": [
+        "Ett",
+        "ögonblick",
+        "tack"
+       ],
+       "accepted": [
+        "Ett ögonblick."
+       ],
+       "words": [
+        "tack",
+        "en"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "mycket",
+        "te",
+        "Klockan",
+        "tre",
+        "kaffe",
+        "är"
+       ],
+       "answer": [
+        "Klockan",
+        "är",
+        "tre"
+       ],
+       "accepted": [],
+       "words": [
+        "tre"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Klockan är tre.",
+       "translation": "It is three o'clock.",
+       "answers": [
+        "Klockan är tre."
+       ],
+       "words": [
+        "tre"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag har fyra äpplen.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "fyra"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Två te, tack."
+       ],
+       "words": [
+        "tack",
+        "te",
+        "två"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "tio"
+       ],
+       "words": [
+        "tio"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jag har två barn.",
+       "promptLang": "target",
+       "options": [
+        "One coffee, please.",
+        "I have two children.",
+        "I have four apples.",
+        "It is three o'clock."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "barn",
+        "två"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "fyra",
+         "Four"
+        ],
+        [
+         "tre",
+         "Three"
+        ],
+        [
+         "tio",
+         "Ten"
+        ],
+        [
+         "två",
+         "Two"
+        ]
+       ],
+       "words": [
+        "fyra",
+        "tre",
+        "tio",
+        "två"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Nine",
+       "promptLang": "en",
+       "answer": "nio",
+       "words": [
+        "nio"
+       ],
+       "options": [
+        "två",
+        "nio",
+        "sex",
+        "åtta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "har",
+        "Jag",
+        "fyra",
+        "te",
+        "Ett",
+        "äpplen",
+        "tre"
+       ],
+       "answer": [
+        "Jag",
+        "har",
+        "fyra",
+        "äpplen"
+       ],
+       "accepted": [],
+       "words": [
+        "fyra"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "En kaffe, tack.",
+       "promptLang": "target",
+       "tiles": [
+        "children",
+        "I",
+        "much",
+        "please",
+        "One",
+        "coffee"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "tack",
+        "kaffe",
+        "en"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Ett ögonblick, tack.",
+       "translation": "One moment, please.",
+       "answers": [
+        "Ett ögonblick, tack."
+       ],
+       "words": [
+        "tack",
+        "en"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Två te, tack.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Två te, tack."
+       ],
+       "words": [
+        "tack",
+        "te",
+        "två"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hur mycket kostar det?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Hur mycket kostar det?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Five",
+       "promptLang": "en",
+       "answers": [
+        "fem"
+       ],
+       "words": [
+        "fem"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tips": [
+    "The verb comes second in a statement: 'I dag åker jag' = Today go I."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hotell",
+      "e": "Hotel"
+     },
+     {
+      "t": "station",
+      "e": "Station"
+     },
+     {
+      "t": "flygplats",
+      "e": "Airport"
+     },
+     {
+      "t": "biljett",
+      "e": "Ticket"
+     },
+     {
+      "t": "vänster",
+      "e": "Left"
+     },
+     {
+      "t": "höger",
+      "e": "Right"
+     },
+     {
+      "t": "var",
+      "e": "Where"
+     },
+     {
+      "t": "toalett",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Var är hotellet?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Var är toaletten?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Sväng vänster.",
+      "e": "Turn left."
+     },
+     {
+      "t": "Stationen är till höger.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "En biljett, tack.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Jag åker till flygplatsen.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Är det långt?",
+      "e": "Is it far?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "hotell",
+       "e": "Hotel",
+       "kind": "word"
+      },
+      {
+       "t": "station",
+       "e": "Station",
+       "kind": "word"
+      },
+      {
+       "t": "flygplats",
+       "e": "Airport",
+       "kind": "word"
+      },
+      {
+       "t": "biljett",
+       "e": "Ticket",
+       "kind": "word"
+      },
+      {
+       "t": "Var är hotellet?",
+       "e": "Where is the hotel?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Sväng vänster.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Sväng till vänster."
+       ]
+      },
+      {
+       "t": "Var är toaletten?",
+       "e": "Where is the toilet?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hotell",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Airport",
+        "Hotel",
+        "Where"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "hotell"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "station",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Left",
+        "Station",
+        "Airport"
+       ],
+       "answer": "Station",
+       "words": [
+        "station"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hotell",
+         "Hotel"
+        ],
+        [
+         "station",
+         "Station"
+        ],
+        [
+         "flygplats",
+         "Airport"
+        ],
+        [
+         "biljett",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "hotell",
+        "station",
+        "flygplats",
+        "biljett"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "flygplats",
+       "words": [
+        "flygplats"
+       ],
+       "options": [
+        "flygplats",
+        "toalett",
+        "var",
+        "biljett"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "biljett",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Airport",
+        "Right",
+        "Where"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "biljett"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "Var",
+        "toaletten",
+        "är",
+        "Sväng",
+        "Jag",
+        "hotellet"
+       ],
+       "answer": [
+        "Var",
+        "är",
+        "hotellet"
+       ],
+       "accepted": [],
+       "words": [
+        "var"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Sväng vänster.",
+       "promptLang": "target",
+       "tiles": [
+        "right",
+        "Turn",
+        "left",
+        "A",
+        "please"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "vänster"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Var är toaletten?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Var är toaletten?"
+       ],
+       "words": [
+        "var"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Var är hotellet?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "var"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "vänster",
+       "e": "Left",
+       "kind": "word"
+      },
+      {
+       "t": "höger",
+       "e": "Right",
+       "kind": "word"
+      },
+      {
+       "t": "var",
+       "e": "Where",
+       "kind": "word"
+      },
+      {
+       "t": "toalett",
+       "e": "Toilet",
+       "kind": "word"
+      },
+      {
+       "t": "Stationen är till höger.",
+       "e": "The station is on the right.",
+       "kind": "phrase"
+      },
+      {
+       "t": "En biljett, tack.",
+       "e": "A ticket, please.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag åker till flygplatsen.",
+       "e": "I am going to the airport.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vänster",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Left",
+        "Airport",
+        "Where"
+       ],
+       "answer": "Left",
+       "words": [
+        "vänster"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "höger",
+       "promptLang": "target",
+       "options": [
+        "Right",
+        "Ticket",
+        "Hotel",
+        "Airport"
+       ],
+       "answer": "Right",
+       "words": [
+        "höger"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vänster",
+         "Left"
+        ],
+        [
+         "höger",
+         "Right"
+        ],
+        [
+         "var",
+         "Where"
+        ],
+        [
+         "toalett",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "vänster",
+        "höger",
+        "var",
+        "toalett"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "var",
+       "words": [
+        "var"
+       ],
+       "options": [
+        "var",
+        "toalett",
+        "vänster",
+        "biljett"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "toalett",
+       "words": [
+        "toalett"
+       ],
+       "options": [
+        "toalett",
+        "station",
+        "hotell",
+        "vänster"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "Jag",
+        "höger",
+        "Stationen",
+        "Var",
+        "är",
+        "toaletten",
+        "till"
+       ],
+       "answer": [
+        "Stationen",
+        "är",
+        "till",
+        "höger"
+       ],
+       "accepted": [],
+       "words": [
+        "höger"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "En biljett, tack.",
+       "promptLang": "target",
+       "tiles": [
+        "far",
+        "ticket",
+        "please",
+        "am",
+        "A",
+        "I"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "tack",
+        "en",
+        "biljett"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Stationen är till höger.",
+       "translation": "The station is on the right.",
+       "answers": [
+        "Stationen är till höger."
+       ],
+       "words": [
+        "höger"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag åker till flygplatsen.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "Jag åker till flygplatsen."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "hotell"
+       ],
+       "words": [
+        "hotell"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Är det långt?",
+       "e": "Is it far?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "station",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Where",
+        "Ticket",
+        "Left"
+       ],
+       "answer": "Station",
+       "words": [
+        "station"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "var",
+         "Where"
+        ],
+        [
+         "hotell",
+         "Hotel"
+        ],
+        [
+         "station",
+         "Station"
+        ],
+        [
+         "biljett",
+         "Ticket"
+        ],
+        [
+         "flygplats",
+         "Airport"
+        ]
+       ],
+       "words": [
+        "var",
+        "hotell",
+        "station",
+        "biljett",
+        "flygplats"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Är det långt?",
+       "promptLang": "target",
+       "options": [
+        "Is it far?",
+        "A ticket, please.",
+        "The station is on the right.",
+        "I am going to the airport."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "Är det långt?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Var är toaletten?",
+       "promptLang": "target",
+       "tiles": [
+        "right",
+        "the",
+        "Where",
+        "far",
+        "toilet",
+        "station",
+        "is"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "var"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "Sväng",
+        "Är",
+        "flygplatsen",
+        "långt",
+        "det",
+        "toaletten"
+       ],
+       "answer": [
+        "Är",
+        "det",
+        "långt"
+       ],
+       "accepted": [],
+       "words": [
+        "Är det långt?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "vänster",
+        "det",
+        "åker",
+        "Jag",
+        "toaletten",
+        "flygplatsen",
+        "till"
+       ],
+       "answer": [
+        "Jag",
+        "åker",
+        "till",
+        "flygplatsen"
+       ],
+       "accepted": [],
+       "words": [
+        "Jag åker till flygplatsen."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag åker till flygplatsen.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Jag åker till flygplatsen."
+       ],
+       "words": [
+        "Jag åker till flygplatsen."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Sväng vänster.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "vänster"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "En biljett, tack."
+       ],
+       "words": [
+        "tack",
+        "en",
+        "biljett"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "station"
+       ],
+       "words": [
+        "station"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Var är hotellet?",
+       "promptLang": "target",
+       "options": [
+        "I am going to the airport.",
+        "A ticket, please.",
+        "Turn left.",
+        "Where is the hotel?"
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "var"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vänster",
+         "Left"
+        ],
+        [
+         "hotell",
+         "Hotel"
+        ],
+        [
+         "toalett",
+         "Toilet"
+        ],
+        [
+         "höger",
+         "Right"
+        ]
+       ],
+       "words": [
+        "vänster",
+        "hotell",
+        "toalett",
+        "höger"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "var",
+       "words": [
+        "var"
+       ],
+       "options": [
+        "toalett",
+        "vänster",
+        "biljett",
+        "var"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "Stationen",
+        "vänster",
+        "åker",
+        "är",
+        "Sväng"
+       ],
+       "answer": [
+        "Sväng",
+        "vänster"
+       ],
+       "accepted": [
+        "Sväng till vänster."
+       ],
+       "words": [
+        "vänster"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Stationen är till höger.",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "the",
+        "please",
+        "right",
+        "is",
+        "ticket",
+        "The",
+        "toilet",
+        "on"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "höger"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Är det långt?",
+       "translation": "Is it far?",
+       "answers": [
+        "Är det långt?"
+       ],
+       "words": [
+        "Är det långt?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "En biljett, tack.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "En biljett, tack."
+       ],
+       "words": [
+        "tack",
+        "en",
+        "biljett"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Var är toaletten?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "var"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Ticket",
+       "promptLang": "en",
+       "answers": [
+        "biljett"
+       ],
+       "words": [
+        "biljett"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tips": [
+    "'I morgon' (two words) means tomorrow, 'på morgonen' means in the morning."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "i dag",
+      "e": "Today"
+     },
+     {
+      "t": "i morgon",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "nu",
+      "e": "Now"
+     },
+     {
+      "t": "morgon",
+      "e": "Morning"
+     },
+     {
+      "t": "natt",
+      "e": "Night"
+     },
+     {
+      "t": "hus",
+      "e": "House"
+     },
+     {
+      "t": "jobb",
+      "e": "Work"
+     },
+     {
+      "t": "skola",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Jag går till jobbet.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Jag är hemma.",
+      "e": "I am at home."
+     },
+     {
+      "t": "I dag är det måndag.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Jag dricker kaffe på morgonen.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Jag sover på natten.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Barnen går till skolan.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Vad är klockan nu?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "i dag",
+       "e": "Today",
+       "kind": "word",
+       "alts": [
+        "idag"
+       ]
+      },
+      {
+       "t": "i morgon",
+       "e": "Tomorrow",
+       "kind": "word",
+       "alts": [
+        "imorgon"
+       ]
+      },
+      {
+       "t": "nu",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "morgon",
+       "e": "Morning",
+       "kind": "word"
+      },
+      {
+       "t": "Jag går till jobbet.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "alts": [
+        "Jag åker till jobbet.",
+        "Jag går till arbetet."
+       ]
+      },
+      {
+       "t": "I dag är det måndag.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "alts": [
+        "Idag är det måndag."
+       ]
+      },
+      {
+       "t": "Jag är hemma.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "i dag",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Morning",
+        "House",
+        "Today"
+       ],
+       "answer": "Today",
+       "words": [
+        "i dag"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "i morgon",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "House",
+        "Work",
+        "Night"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "i morgon"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "i dag",
+         "Today"
+        ],
+        [
+         "i morgon",
+         "Tomorrow"
+        ],
+        [
+         "nu",
+         "Now"
+        ],
+        [
+         "morgon",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "i dag",
+        "i morgon",
+        "nu",
+        "morgon"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "nu",
+       "words": [
+        "nu"
+       ],
+       "options": [
+        "hus",
+        "nu",
+        "i dag",
+        "natt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "morgon",
+       "promptLang": "target",
+       "options": [
+        "House",
+        "School",
+        "Morning",
+        "Night"
+       ],
+       "answer": "Morning",
+       "words": [
+        "morgon"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "dag",
+        "Jag",
+        "sover",
+        "jobbet",
+        "går",
+        "dricker",
+        "till"
+       ],
+       "answer": [
+        "Jag",
+        "går",
+        "till",
+        "jobbet"
+       ],
+       "accepted": [
+        "Jag åker till jobbet.",
+        "Jag går till arbetet."
+       ],
+       "words": [
+        "Jag går till jobbet."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "I dag är det måndag.",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "Today",
+        "sleep",
+        "Monday",
+        "is",
+        "night"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "i dag"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag är hemma.",
+       "translation": "I am at home.",
+       "answers": [
+        "Jag är hemma."
+       ],
+       "words": [
+        "Jag är hemma."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag går till jobbet.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "Jag går till jobbet."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "natt",
+       "e": "Night",
+       "kind": "word"
+      },
+      {
+       "t": "hus",
+       "e": "House",
+       "kind": "word"
+      },
+      {
+       "t": "jobb",
+       "e": "Work",
+       "kind": "word",
+       "alts": [
+        "arbete"
+       ]
+      },
+      {
+       "t": "skola",
+       "e": "School",
+       "kind": "word"
+      },
+      {
+       "t": "Jag dricker kaffe på morgonen.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Jag sover på natten.",
+       "e": "I sleep at night.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Barnen går till skolan.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "alts": [
+        "Barnen går i skolan."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "natt",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Today",
+        "Work",
+        "School"
+       ],
+       "answer": "Night",
+       "words": [
+        "natt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hus",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Night",
+        "House",
+        "Tomorrow"
+       ],
+       "answer": "House",
+       "words": [
+        "hus"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "natt",
+         "Night"
+        ],
+        [
+         "hus",
+         "House"
+        ],
+        [
+         "jobb",
+         "Work"
+        ],
+        [
+         "skola",
+         "School"
+        ]
+       ],
+       "words": [
+        "natt",
+        "hus",
+        "jobb",
+        "skola"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "jobb",
+       "words": [
+        "jobb"
+       ],
+       "options": [
+        "i dag",
+        "morgon",
+        "skola",
+        "jobb"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "skola",
+       "words": [
+        "skola"
+       ],
+       "options": [
+        "morgon",
+        "skola",
+        "natt",
+        "hus"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "Barnen",
+        "kaffe",
+        "dricker",
+        "på",
+        "natten",
+        "Vad",
+        "Jag",
+        "morgonen"
+       ],
+       "answer": [
+        "Jag",
+        "dricker",
+        "kaffe",
+        "på",
+        "morgonen"
+       ],
+       "accepted": [],
+       "words": [
+        "kaffe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag sover på natten.",
+       "promptLang": "target",
+       "tiles": [
+        "What",
+        "sleep",
+        "I",
+        "night",
+        "in",
+        "now",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "Jag sover på natten."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag dricker kaffe på morgonen.",
+       "translation": "I drink coffee in the morning.",
+       "answers": [
+        "Jag dricker kaffe på morgonen."
+       ],
+       "words": [
+        "kaffe"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Barnen går till skolan.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "Barnen går till skolan."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "i dag",
+        "idag"
+       ],
+       "words": [
+        "i dag"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Vad är klockan nu?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "alts": [
+        "Vad är klockan?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "i morgon",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "Tomorrow",
+        "Today",
+        "Now"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "i morgon"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "i morgon",
+         "Tomorrow"
+        ],
+        [
+         "skola",
+         "School"
+        ],
+        [
+         "hus",
+         "House"
+        ],
+        [
+         "jobb",
+         "Work"
+        ],
+        [
+         "natt",
+         "Night"
+        ]
+       ],
+       "words": [
+        "i morgon",
+        "skola",
+        "hus",
+        "jobb",
+        "natt"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Vad är klockan nu?",
+       "promptLang": "target",
+       "options": [
+        "Today is Monday.",
+        "I drink coffee in the morning.",
+        "What time is it now?",
+        "I go to work."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "nu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag är hemma.",
+       "promptLang": "target",
+       "tiles": [
+        "go",
+        "I",
+        "am",
+        "to",
+        "at",
+        "home",
+        "drink"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "Jag är hemma."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "jobbet",
+        "klockan",
+        "I",
+        "nu",
+        "Vad",
+        "sover",
+        "är"
+       ],
+       "answer": [
+        "Vad",
+        "är",
+        "klockan",
+        "nu"
+       ],
+       "accepted": [
+        "Vad är klockan?"
+       ],
+       "words": [
+        "nu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "går",
+        "det",
+        "kaffe",
+        "skolan",
+        "hemma",
+        "Barnen",
+        "till"
+       ],
+       "answer": [
+        "Barnen",
+        "går",
+        "till",
+        "skolan"
+       ],
+       "accepted": [
+        "Barnen går i skolan."
+       ],
+       "words": [
+        "Barnen går till skolan."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Barnen går till skolan.",
+       "translation": "The children go to school.",
+       "answers": [
+        "Barnen går till skolan."
+       ],
+       "words": [
+        "Barnen går till skolan."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "I dag är det måndag.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "i dag"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Jag sover på natten."
+       ],
+       "words": [
+        "Jag sover på natten."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "i morgon",
+        "imorgon"
+       ],
+       "words": [
+        "i morgon"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Jag går till jobbet.",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee in the morning.",
+        "I go to work.",
+        "I sleep at night.",
+        "I am at home."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "Jag går till jobbet."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "i morgon",
+         "Tomorrow"
+        ],
+        [
+         "jobb",
+         "Work"
+        ],
+        [
+         "nu",
+         "Now"
+        ],
+        [
+         "i dag",
+         "Today"
+        ]
+       ],
+       "words": [
+        "i morgon",
+        "jobb",
+        "nu",
+        "i dag"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Night",
+       "promptLang": "en",
+       "answer": "natt",
+       "words": [
+        "natt"
+       ],
+       "options": [
+        "skola",
+        "i morgon",
+        "natt",
+        "hus"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Swedish",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "skolan",
+        "hemma",
+        "det",
+        "måndag",
+        "är",
+        "kaffe",
+        "I",
+        "dag"
+       ],
+       "answer": [
+        "I",
+        "dag",
+        "är",
+        "det",
+        "måndag"
+       ],
+       "accepted": [
+        "Idag är det måndag."
+       ],
+       "words": [
+        "i dag"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Jag dricker kaffe på morgonen.",
+       "promptLang": "target",
+       "tiles": [
+        "morning",
+        "coffee",
+        "sleep",
+        "I",
+        "the",
+        "Monday",
+        "drink",
+        "at",
+        "in"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "kaffe"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Vad är klockan nu?",
+       "translation": "What time is it now?",
+       "answers": [
+        "Vad är klockan nu?"
+       ],
+       "words": [
+        "nu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Jag sover på natten.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Jag sover på natten."
+       ],
+       "words": [
+        "Jag sover på natten."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Jag är hemma.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "Jag är hemma."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Swedish",
+       "prompt": "House",
+       "promptLang": "en",
+       "answers": [
+        "hus"
+       ],
+       "words": [
+        "hus"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

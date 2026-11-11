@@ -1,0 +1,6782 @@
+{
+ "id": "greek",
+ "title": "Greek",
+ "shortName": "Greek",
+ "nativeName": "Ελληνικά",
+ "fromLanguage": "en",
+ "speechLang": "el-GR",
+ "dir": "ltr",
+ "romanization": "romanization",
+ "noSpaces": false,
+ "keyboard": [],
+ "particles": [],
+ "order": 200,
+ "description": "Everyday Greek in the Greek alphabet with romanization: greetings, family, food, numbers, travel and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tips": [
+    "'Γεια σου' (ya sou) is hello and bye to one friend; 'γεια σας' (ya sas) is the polite or plural form."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "γεια σου",
+      "e": "Hello",
+      "r": "ya sou"
+     },
+     {
+      "t": "αντίο",
+      "e": "Goodbye",
+      "r": "antio"
+     },
+     {
+      "t": "ευχαριστώ",
+      "e": "Thank you",
+      "r": "efcharisto"
+     },
+     {
+      "t": "παρακαλώ",
+      "e": "Please",
+      "r": "parakalo"
+     },
+     {
+      "t": "ναι",
+      "e": "Yes",
+      "r": "ne"
+     },
+     {
+      "t": "όχι",
+      "e": "No",
+      "r": "ochi"
+     },
+     {
+      "t": "καλημέρα",
+      "e": "Good morning",
+      "r": "kalimera"
+     },
+     {
+      "t": "συγγνώμη",
+      "e": "Sorry",
+      "r": "signomi"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Τι κάνεις;",
+      "e": "How are you?",
+      "r": "Ti kaneis?"
+     },
+     {
+      "t": "Καλά, ευχαριστώ.",
+      "e": "I am fine, thank you.",
+      "r": "Kala, efcharisto."
+     },
+     {
+      "t": "Με λένε Άννα.",
+      "e": "My name is Anna.",
+      "r": "Me lene Anna."
+     },
+     {
+      "t": "Χάρηκα.",
+      "e": "Nice to meet you.",
+      "r": "Charika."
+     },
+     {
+      "t": "Ευχαριστώ πολύ.",
+      "e": "Thank you very much.",
+      "r": "Efcharisto poli."
+     },
+     {
+      "t": "Τα λέμε αύριο.",
+      "e": "See you tomorrow.",
+      "r": "Ta leme avrio."
+     },
+     {
+      "t": "Πώς σε λένε;",
+      "e": "What is your name?",
+      "r": "Pos se lene?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "γεια σου",
+       "e": "Hello",
+       "kind": "word",
+       "r": "ya sou",
+       "alts": [
+        "γεια σας",
+        "γεια"
+       ]
+      },
+      {
+       "t": "αντίο",
+       "e": "Goodbye",
+       "kind": "word",
+       "r": "antio"
+      },
+      {
+       "t": "ευχαριστώ",
+       "e": "Thank you",
+       "kind": "word",
+       "r": "efcharisto"
+      },
+      {
+       "t": "παρακαλώ",
+       "e": "Please",
+       "kind": "word",
+       "r": "parakalo"
+      },
+      {
+       "t": "Τι κάνεις;",
+       "e": "How are you?",
+       "kind": "phrase",
+       "r": "Ti kaneis?",
+       "alts": [
+        "Τι κάνετε;"
+       ]
+      },
+      {
+       "t": "Με λένε Άννα.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "r": "Me lene Anna.",
+       "alts": [
+        "Λέγομαι Άννα."
+       ]
+      },
+      {
+       "t": "Καλά, ευχαριστώ.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "r": "Kala, efcharisto.",
+       "alts": [
+        "Είμαι καλά, ευχαριστώ."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "γεια σου",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Yes",
+        "Please",
+        "Hello"
+       ],
+       "answer": "Hello",
+       "words": [
+        "γεια σου"
+       ],
+       "promptRoman": "ya sou"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "αντίο",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Please",
+        "Goodbye",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "αντίο"
+       ],
+       "promptRoman": "antio"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "γεια σου",
+         "Hello"
+        ],
+        [
+         "αντίο",
+         "Goodbye"
+        ],
+        [
+         "ευχαριστώ",
+         "Thank you"
+        ],
+        [
+         "παρακαλώ",
+         "Please"
+        ]
+       ],
+       "words": [
+        "γεια σου",
+        "αντίο",
+        "ευχαριστώ",
+        "παρακαλώ"
+       ],
+       "romans": [
+        "ya sou",
+        "antio",
+        "efcharisto",
+        "parakalo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "ευχαριστώ",
+       "words": [
+        "ευχαριστώ"
+       ],
+       "options": [
+        "ευχαριστώ",
+        "γεια σου",
+        "καλημέρα",
+        "ναι"
+       ],
+       "optionsRoman": [
+        "efcharisto",
+        "ya sou",
+        "kalimera",
+        "ne"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "παρακαλώ",
+       "promptLang": "target",
+       "options": [
+        "Good morning",
+        "Sorry",
+        "Thank you",
+        "Please"
+       ],
+       "answer": "Please",
+       "words": [
+        "παρακαλώ"
+       ],
+       "promptRoman": "parakalo"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "Με",
+        "κάνεις",
+        "Πώς",
+        "Καλά",
+        "Τι"
+       ],
+       "answer": [
+        "Τι",
+        "κάνεις"
+       ],
+       "accepted": [
+        "Τι κάνετε;"
+       ],
+       "words": [
+        "Τι κάνεις;"
+       ],
+       "tilesRoman": [
+        "Me",
+        "kaneis",
+        "Pos",
+        "Kala",
+        "Ti"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Με λένε Άννα.",
+       "promptLang": "target",
+       "tiles": [
+        "Anna",
+        "is",
+        "See",
+        "My",
+        "to",
+        "meet",
+        "name"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Με λένε Άννα."
+       ],
+       "promptRoman": "Me lene Anna."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Καλά, ευχαριστώ.",
+       "roman": "Kala, efcharisto.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "ευχαριστώ"
+       ],
+       "options": [
+        "Τι κάνεις;",
+        "Καλά, ευχαριστώ.",
+        "Με λένε Άννα.",
+        "Χάρηκα."
+       ],
+       "optionsRoman": [
+        "Ti kaneis?",
+        "Kala, efcharisto.",
+        "Me lene Anna.",
+        "Charika."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Τι κάνεις;",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "Τι κάνεις;"
+       ],
+       "promptRoman": "Ti kaneis?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "ναι",
+       "e": "Yes",
+       "kind": "word",
+       "r": "ne"
+      },
+      {
+       "t": "όχι",
+       "e": "No",
+       "kind": "word",
+       "r": "ochi"
+      },
+      {
+       "t": "καλημέρα",
+       "e": "Good morning",
+       "kind": "word",
+       "r": "kalimera"
+      },
+      {
+       "t": "συγγνώμη",
+       "e": "Sorry",
+       "kind": "word",
+       "r": "signomi"
+      },
+      {
+       "t": "Χάρηκα.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "r": "Charika.",
+       "alts": [
+        "Χαίρω πολύ."
+       ]
+      },
+      {
+       "t": "Ευχαριστώ πολύ.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "r": "Efcharisto poli."
+      },
+      {
+       "t": "Τα λέμε αύριο.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "r": "Ta leme avrio."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ναι",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Yes",
+        "Goodbye",
+        "Thank you"
+       ],
+       "answer": "Yes",
+       "words": [
+        "ναι"
+       ],
+       "promptRoman": "ne"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "όχι",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Hello",
+        "No",
+        "Good morning"
+       ],
+       "answer": "No",
+       "words": [
+        "όχι"
+       ],
+       "promptRoman": "ochi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ναι",
+         "Yes"
+        ],
+        [
+         "όχι",
+         "No"
+        ],
+        [
+         "καλημέρα",
+         "Good morning"
+        ],
+        [
+         "συγγνώμη",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "ναι",
+        "όχι",
+        "καλημέρα",
+        "συγγνώμη"
+       ],
+       "romans": [
+        "ne",
+        "ochi",
+        "kalimera",
+        "signomi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "καλημέρα",
+       "words": [
+        "καλημέρα"
+       ],
+       "options": [
+        "όχι",
+        "καλημέρα",
+        "ευχαριστώ",
+        "αντίο"
+       ],
+       "optionsRoman": [
+        "ochi",
+        "kalimera",
+        "efcharisto",
+        "antio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "συγγνώμη",
+       "words": [
+        "συγγνώμη"
+       ],
+       "options": [
+        "καλημέρα",
+        "όχι",
+        "συγγνώμη",
+        "γεια σου"
+       ],
+       "optionsRoman": [
+        "kalimera",
+        "ochi",
+        "signomi",
+        "ya sou"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "πολύ",
+        "κάνεις",
+        "Τι",
+        "Χάρηκα"
+       ],
+       "answer": [
+        "Χάρηκα"
+       ],
+       "accepted": [
+        "Χαίρω πολύ."
+       ],
+       "words": [
+        "Χάρηκα."
+       ],
+       "tilesRoman": [
+        "poli",
+        "kaneis",
+        "Ti",
+        "Charika"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ευχαριστώ πολύ.",
+       "promptLang": "target",
+       "tiles": [
+        "Thank",
+        "very",
+        "What",
+        "much",
+        "you",
+        "Nice",
+        "to"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "ευχαριστώ"
+       ],
+       "promptRoman": "Efcharisto poli."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Χάρηκα.",
+       "roman": "Charika.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "Χάρηκα."
+       ],
+       "options": [
+        "Τα λέμε αύριο.",
+        "Ευχαριστώ πολύ.",
+        "Χάρηκα.",
+        "Με λένε Άννα."
+       ],
+       "optionsRoman": [
+        "Ta leme avrio.",
+        "Efcharisto poli.",
+        "Charika.",
+        "Me lene Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Τα λέμε αύριο.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "αύριο"
+       ],
+       "promptRoman": "Ta leme avrio."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "γεια σου",
+        "γεια σας",
+        "γεια",
+        "ya sou",
+        "geia sou"
+       ],
+       "words": [
+        "γεια σου"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Πώς σε λένε;",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "r": "Pos se lene?",
+       "alts": [
+        "Πώς σας λένε;"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "αντίο",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Hello",
+        "Thank you",
+        "Goodbye"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "αντίο"
+       ],
+       "promptRoman": "antio"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ευχαριστώ",
+         "Thank you"
+        ],
+        [
+         "αντίο",
+         "Goodbye"
+        ],
+        [
+         "καλημέρα",
+         "Good morning"
+        ],
+        [
+         "ναι",
+         "Yes"
+        ],
+        [
+         "όχι",
+         "No"
+        ]
+       ],
+       "words": [
+        "ευχαριστώ",
+        "αντίο",
+        "καλημέρα",
+        "ναι",
+        "όχι"
+       ],
+       "romans": [
+        "efcharisto",
+        "antio",
+        "kalimera",
+        "ne",
+        "ochi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Πώς σε λένε;",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "See you tomorrow.",
+        "Thank you very much.",
+        "What is your name?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "Πώς σε λένε;"
+       ],
+       "promptRoman": "Pos se lene?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Καλά, ευχαριστώ.",
+       "promptLang": "target",
+       "tiles": [
+        "fine",
+        "to",
+        "I",
+        "How",
+        "thank",
+        "What",
+        "you",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "ευχαριστώ"
+       ],
+       "promptRoman": "Kala, efcharisto."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "λένε",
+        "λέμε",
+        "Τα",
+        "σε",
+        "πολύ",
+        "Πώς"
+       ],
+       "answer": [
+        "Πώς",
+        "σε",
+        "λένε"
+       ],
+       "accepted": [
+        "Πώς σας λένε;"
+       ],
+       "words": [
+        "Πώς σε λένε;"
+       ],
+       "tilesRoman": [
+        "lene",
+        "leme",
+        "Ta",
+        "se",
+        "poli",
+        "Pos"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "Τα",
+        "Χάρηκα",
+        "λέμε",
+        "σε",
+        "πολύ",
+        "αύριο"
+       ],
+       "answer": [
+        "Τα",
+        "λέμε",
+        "αύριο"
+       ],
+       "accepted": [],
+       "words": [
+        "αύριο"
+       ],
+       "tilesRoman": [
+        "Ta",
+        "Charika",
+        "leme",
+        "se",
+        "poli",
+        "avrio"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Τα λέμε αύριο.",
+       "roman": "Ta leme avrio.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "αύριο"
+       ],
+       "options": [
+        "Με λένε Άννα.",
+        "Τα λέμε αύριο.",
+        "Καλά, ευχαριστώ.",
+        "Χάρηκα."
+       ],
+       "optionsRoman": [
+        "Me lene Anna.",
+        "Ta leme avrio.",
+        "Kala, efcharisto.",
+        "Charika."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Με λένε Άννα.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Με λένε Άννα."
+       ],
+       "promptRoman": "Me lene Anna."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "Καλά",
+        "πολύ",
+        "Πώς",
+        "Ευχαριστώ",
+        "σε"
+       ],
+       "answer": [
+        "Ευχαριστώ",
+        "πολύ"
+       ],
+       "accepted": [],
+       "words": [
+        "ευχαριστώ"
+       ],
+       "tilesRoman": [
+        "Kala",
+        "poli",
+        "Pos",
+        "Efcharisto",
+        "se"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "αντίο",
+        "antio"
+       ],
+       "words": [
+        "αντίο"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Τι κάνεις;",
+       "promptLang": "target",
+       "options": [
+        "See you tomorrow.",
+        "How are you?",
+        "Thank you very much.",
+        "I am fine, thank you."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "Τι κάνεις;"
+       ],
+       "promptRoman": "Ti kaneis?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ευχαριστώ",
+         "Thank you"
+        ],
+        [
+         "παρακαλώ",
+         "Please"
+        ],
+        [
+         "αντίο",
+         "Goodbye"
+        ],
+        [
+         "γεια σου",
+         "Hello"
+        ]
+       ],
+       "words": [
+        "ευχαριστώ",
+        "παρακαλώ",
+        "αντίο",
+        "γεια σου"
+       ],
+       "romans": [
+        "efcharisto",
+        "parakalo",
+        "antio",
+        "ya sou"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Yes",
+       "promptLang": "en",
+       "answer": "ναι",
+       "words": [
+        "ναι"
+       ],
+       "options": [
+        "αντίο",
+        "ναι",
+        "γεια σου",
+        "όχι"
+       ],
+       "optionsRoman": [
+        "antio",
+        "ne",
+        "ya sou",
+        "ochi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "Πώς",
+        "λένε",
+        "Άννα",
+        "Με",
+        "αύριο",
+        "Τι"
+       ],
+       "answer": [
+        "Με",
+        "λένε",
+        "Άννα"
+       ],
+       "accepted": [
+        "Λέγομαι Άννα."
+       ],
+       "words": [
+        "Με λένε Άννα."
+       ],
+       "tilesRoman": [
+        "Pos",
+        "lene",
+        "Anna",
+        "Me",
+        "avrio",
+        "Ti"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Χάρηκα.",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "Nice",
+        "See",
+        "to",
+        "am",
+        "meet",
+        "Anna"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "Χάρηκα."
+       ],
+       "promptRoman": "Charika."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πώς σε λένε;",
+       "roman": "Pos se lene?",
+       "translation": "What is your name?",
+       "words": [
+        "Πώς σε λένε;"
+       ],
+       "options": [
+        "Πώς σε λένε;",
+        "Τι κάνεις;",
+        "Τα λέμε αύριο.",
+        "Χάρηκα."
+       ],
+       "optionsRoman": [
+        "Pos se lene?",
+        "Ti kaneis?",
+        "Ta leme avrio.",
+        "Charika."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Ευχαριστώ πολύ.",
+       "roman": "Efcharisto poli.",
+       "translation": "Thank you very much.",
+       "words": [
+        "ευχαριστώ"
+       ],
+       "options": [
+        "Ευχαριστώ πολύ.",
+        "Τι κάνεις;",
+        "Πώς σε λένε;",
+        "Με λένε Άννα."
+       ],
+       "optionsRoman": [
+        "Efcharisto poli.",
+        "Ti kaneis?",
+        "Pos se lene?",
+        "Me lene Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Καλά, ευχαριστώ.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "ευχαριστώ"
+       ],
+       "promptRoman": "Kala, efcharisto."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answers": [
+        "συγγνώμη",
+        "signomi",
+        "sygnomi"
+       ],
+       "words": [
+        "συγγνώμη"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tips": [
+    "Greek uses 'the' with names and family words: 'η μητέρα μου' = the mother my (my mother)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "άντρας",
+      "e": "Man",
+      "r": "antras"
+     },
+     {
+      "t": "γυναίκα",
+      "e": "Woman",
+      "r": "gynaika"
+     },
+     {
+      "t": "παιδί",
+      "e": "Child",
+      "r": "paidi"
+     },
+     {
+      "t": "φίλος",
+      "e": "Friend",
+      "r": "filos"
+     },
+     {
+      "t": "μητέρα",
+      "e": "Mother",
+      "r": "mitera"
+     },
+     {
+      "t": "πατέρας",
+      "e": "Father",
+      "r": "pateras"
+     },
+     {
+      "t": "γιος",
+      "e": "Son",
+      "r": "yios"
+     },
+     {
+      "t": "κόρη",
+      "e": "Daughter",
+      "r": "kori"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Αυτή είναι η μητέρα μου.",
+      "e": "This is my mother.",
+      "r": "Afti einai i mitera mou."
+     },
+     {
+      "t": "Αυτός είναι ο φίλος μου.",
+      "e": "He is my friend.",
+      "r": "Aftos einai o filos mou."
+     },
+     {
+      "t": "Έχω έναν γιο.",
+      "e": "I have a son.",
+      "r": "Echo enan yio."
+     },
+     {
+      "t": "Πού είναι ο πατέρας μου;",
+      "e": "Where is my father?",
+      "r": "Pou einai o pateras mou?"
+     },
+     {
+      "t": "Η μητέρα μου είναι στο σπίτι.",
+      "e": "My mother is at home.",
+      "r": "I mitera mou einai sto spiti."
+     },
+     {
+      "t": "Αυτή είναι η κόρη μου.",
+      "e": "She is my daughter.",
+      "r": "Afti einai i kori mou."
+     },
+     {
+      "t": "Ποιος είναι αυτός ο άντρας;",
+      "e": "Who is this man?",
+      "r": "Poios einai aftos o antras?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "άντρας",
+       "e": "Man",
+       "kind": "word",
+       "r": "antras",
+       "alts": [
+        "άνδρας"
+       ]
+      },
+      {
+       "t": "γυναίκα",
+       "e": "Woman",
+       "kind": "word",
+       "r": "gynaika"
+      },
+      {
+       "t": "παιδί",
+       "e": "Child",
+       "kind": "word",
+       "r": "paidi"
+      },
+      {
+       "t": "φίλος",
+       "e": "Friend",
+       "kind": "word",
+       "r": "filos",
+       "alts": [
+        "φίλη"
+       ]
+      },
+      {
+       "t": "Αυτή είναι η μητέρα μου.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "r": "Afti einai i mitera mou.",
+       "alts": [
+        "Αυτή είναι η μαμά μου."
+       ]
+      },
+      {
+       "t": "Έχω έναν γιο.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "r": "Echo enan yio.",
+       "alts": [
+        "Έχω ένα γιο."
+       ]
+      },
+      {
+       "t": "Αυτός είναι ο φίλος μου.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "r": "Aftos einai o filos mou.",
+       "alts": [
+        "Είναι φίλος μου."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "άντρας",
+       "promptLang": "target",
+       "options": [
+        "Man",
+        "Son",
+        "Child",
+        "Daughter"
+       ],
+       "answer": "Man",
+       "words": [
+        "άντρας"
+       ],
+       "promptRoman": "antras"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "γυναίκα",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Woman",
+        "Man",
+        "Son"
+       ],
+       "answer": "Woman",
+       "words": [
+        "γυναίκα"
+       ],
+       "promptRoman": "gynaika"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "άντρας",
+         "Man"
+        ],
+        [
+         "γυναίκα",
+         "Woman"
+        ],
+        [
+         "παιδί",
+         "Child"
+        ],
+        [
+         "φίλος",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "άντρας",
+        "γυναίκα",
+        "παιδί",
+        "φίλος"
+       ],
+       "romans": [
+        "antras",
+        "gynaika",
+        "paidi",
+        "filos"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "παιδί",
+       "words": [
+        "παιδί"
+       ],
+       "options": [
+        "μητέρα",
+        "γυναίκα",
+        "γιος",
+        "παιδί"
+       ],
+       "optionsRoman": [
+        "mitera",
+        "gynaika",
+        "yios",
+        "paidi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "φίλος",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Mother",
+        "Man",
+        "Father"
+       ],
+       "answer": "Friend",
+       "words": [
+        "φίλος"
+       ],
+       "promptRoman": "filos"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "μου",
+        "γιο",
+        "μητέρα",
+        "Αυτή",
+        "Έχω",
+        "είναι",
+        "η",
+        "έναν"
+       ],
+       "answer": [
+        "Αυτή",
+        "είναι",
+        "η",
+        "μητέρα",
+        "μου"
+       ],
+       "accepted": [
+        "Αυτή είναι η μαμά μου."
+       ],
+       "words": [
+        "μητέρα"
+       ],
+       "tilesRoman": [
+        "mou",
+        "yio",
+        "mitera",
+        "Afti",
+        "Echo",
+        "einai",
+        "i",
+        "enan"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Έχω έναν γιο.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "son",
+        "mother",
+        "He",
+        "have",
+        "a",
+        "man"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "Έχω έναν γιο."
+       ],
+       "promptRoman": "Echo enan yio."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Αυτός είναι ο φίλος μου.",
+       "roman": "Aftos einai o filos mou.",
+       "translation": "He is my friend.",
+       "words": [
+        "φίλος"
+       ],
+       "options": [
+        "Η μητέρα μου είναι στο σπίτι.",
+        "Έχω έναν γιο.",
+        "Αυτός είναι ο φίλος μου.",
+        "Ποιος είναι αυτός ο άντρας;"
+       ],
+       "optionsRoman": [
+        "I mitera mou einai sto spiti.",
+        "Echo enan yio.",
+        "Aftos einai o filos mou.",
+        "Poios einai aftos o antras?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Αυτή είναι η μητέρα μου.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "μητέρα"
+       ],
+       "promptRoman": "Afti einai i mitera mou."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "μητέρα",
+       "e": "Mother",
+       "kind": "word",
+       "r": "mitera",
+       "alts": [
+        "μαμά"
+       ]
+      },
+      {
+       "t": "πατέρας",
+       "e": "Father",
+       "kind": "word",
+       "r": "pateras",
+       "alts": [
+        "μπαμπάς"
+       ]
+      },
+      {
+       "t": "γιος",
+       "e": "Son",
+       "kind": "word",
+       "r": "yios"
+      },
+      {
+       "t": "κόρη",
+       "e": "Daughter",
+       "kind": "word",
+       "r": "kori"
+      },
+      {
+       "t": "Πού είναι ο πατέρας μου;",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "r": "Pou einai o pateras mou?",
+       "alts": [
+        "Πού είναι ο μπαμπάς μου;"
+       ]
+      },
+      {
+       "t": "Η μητέρα μου είναι στο σπίτι.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "r": "I mitera mou einai sto spiti.",
+       "alts": [
+        "Η μαμά μου είναι στο σπίτι."
+       ]
+      },
+      {
+       "t": "Αυτή είναι η κόρη μου.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "r": "Afti einai i kori mou."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "μητέρα",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Man",
+        "Woman",
+        "Mother"
+       ],
+       "answer": "Mother",
+       "words": [
+        "μητέρα"
+       ],
+       "promptRoman": "mitera"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "πατέρας",
+       "promptLang": "target",
+       "options": [
+        "Father",
+        "Daughter",
+        "Son",
+        "Child"
+       ],
+       "answer": "Father",
+       "words": [
+        "πατέρας"
+       ],
+       "promptRoman": "pateras"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "μητέρα",
+         "Mother"
+        ],
+        [
+         "πατέρας",
+         "Father"
+        ],
+        [
+         "γιος",
+         "Son"
+        ],
+        [
+         "κόρη",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "μητέρα",
+        "πατέρας",
+        "γιος",
+        "κόρη"
+       ],
+       "romans": [
+        "mitera",
+        "pateras",
+        "yios",
+        "kori"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "γιος",
+       "words": [
+        "γιος"
+       ],
+       "options": [
+        "κόρη",
+        "γιος",
+        "παιδί",
+        "γυναίκα"
+       ],
+       "optionsRoman": [
+        "kori",
+        "yios",
+        "paidi",
+        "gynaika"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "κόρη",
+       "words": [
+        "κόρη"
+       ],
+       "options": [
+        "παιδί",
+        "γυναίκα",
+        "μητέρα",
+        "κόρη"
+       ],
+       "optionsRoman": [
+        "paidi",
+        "gynaika",
+        "mitera",
+        "kori"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "είναι",
+        "Πού",
+        "άντρας",
+        "Ποιος",
+        "μου",
+        "πατέρας",
+        "ο",
+        "κόρη"
+       ],
+       "answer": [
+        "Πού",
+        "είναι",
+        "ο",
+        "πατέρας",
+        "μου"
+       ],
+       "accepted": [
+        "Πού είναι ο μπαμπάς μου;"
+       ],
+       "words": [
+        "πατέρας",
+        "πού"
+       ],
+       "tilesRoman": [
+        "einai",
+        "Pou",
+        "antras",
+        "Poios",
+        "mou",
+        "pateras",
+        "o",
+        "kori"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Η μητέρα μου είναι στο σπίτι.",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "My",
+        "at",
+        "home",
+        "is",
+        "mother",
+        "He",
+        "friend"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "μητέρα",
+        "σπίτι"
+       ],
+       "promptRoman": "I mitera mou einai sto spiti."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πού είναι ο πατέρας μου;",
+       "roman": "Pou einai o pateras mou?",
+       "translation": "Where is my father?",
+       "words": [
+        "πατέρας",
+        "πού"
+       ],
+       "options": [
+        "Η μητέρα μου είναι στο σπίτι.",
+        "Πού είναι ο πατέρας μου;",
+        "Ποιος είναι αυτός ο άντρας;",
+        "Έχω έναν γιο."
+       ],
+       "optionsRoman": [
+        "I mitera mou einai sto spiti.",
+        "Pou einai o pateras mou?",
+        "Poios einai aftos o antras?",
+        "Echo enan yio."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Αυτή είναι η κόρη μου.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "κόρη"
+       ],
+       "promptRoman": "Afti einai i kori mou."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "άντρας",
+        "άνδρας",
+        "antras"
+       ],
+       "words": [
+        "άντρας"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Ποιος είναι αυτός ο άντρας;",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "r": "Poios einai aftos o antras?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "γυναίκα",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Woman",
+        "Daughter",
+        "Father"
+       ],
+       "answer": "Woman",
+       "words": [
+        "γυναίκα"
+       ],
+       "promptRoman": "gynaika"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "παιδί",
+         "Child"
+        ],
+        [
+         "μητέρα",
+         "Mother"
+        ],
+        [
+         "γυναίκα",
+         "Woman"
+        ],
+        [
+         "άντρας",
+         "Man"
+        ],
+        [
+         "γιος",
+         "Son"
+        ]
+       ],
+       "words": [
+        "παιδί",
+        "μητέρα",
+        "γυναίκα",
+        "άντρας",
+        "γιος"
+       ],
+       "romans": [
+        "paidi",
+        "mitera",
+        "gynaika",
+        "antras",
+        "yios"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Ποιος είναι αυτός ο άντρας;",
+       "promptLang": "target",
+       "options": [
+        "He is my friend.",
+        "This is my mother.",
+        "Who is this man?",
+        "My mother is at home."
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "άντρας"
+       ],
+       "promptRoman": "Poios einai aftos o antras?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Αυτός είναι ο φίλος μου.",
+       "promptLang": "target",
+       "tiles": [
+        "at",
+        "This",
+        "friend",
+        "He",
+        "is",
+        "son",
+        "my"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "φίλος"
+       ],
+       "promptRoman": "Aftos einai o filos mou."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "Ποιος",
+        "γιο",
+        "φίλος",
+        "είναι",
+        "στο",
+        "άντρας",
+        "ο",
+        "αυτός"
+       ],
+       "answer": [
+        "Ποιος",
+        "είναι",
+        "αυτός",
+        "ο",
+        "άντρας"
+       ],
+       "accepted": [],
+       "words": [
+        "άντρας"
+       ],
+       "tilesRoman": [
+        "Poios",
+        "yio",
+        "filos",
+        "einai",
+        "sto",
+        "antras",
+        "o",
+        "aftos"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "κόρη",
+        "η",
+        "είναι",
+        "μου",
+        "Ποιος",
+        "έναν",
+        "Αυτή",
+        "πατέρας"
+       ],
+       "answer": [
+        "Αυτή",
+        "είναι",
+        "η",
+        "κόρη",
+        "μου"
+       ],
+       "accepted": [],
+       "words": [
+        "κόρη"
+       ],
+       "tilesRoman": [
+        "kori",
+        "i",
+        "einai",
+        "mou",
+        "Poios",
+        "enan",
+        "Afti",
+        "pateras"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Αυτή είναι η κόρη μου.",
+       "roman": "Afti einai i kori mou.",
+       "translation": "She is my daughter.",
+       "words": [
+        "κόρη"
+       ],
+       "options": [
+        "Έχω έναν γιο.",
+        "Αυτή είναι η κόρη μου.",
+        "Ποιος είναι αυτός ο άντρας;",
+        "Αυτή είναι η μητέρα μου."
+       ],
+       "optionsRoman": [
+        "Echo enan yio.",
+        "Afti einai i kori mou.",
+        "Poios einai aftos o antras?",
+        "Afti einai i mitera mou."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Έχω έναν γιο.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "Έχω έναν γιο."
+       ],
+       "promptRoman": "Echo enan yio."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "κόρη",
+        "είναι",
+        "γιο",
+        "σπίτι",
+        "μου",
+        "στο",
+        "Ποιος",
+        "Η",
+        "μητέρα"
+       ],
+       "answer": [
+        "Η",
+        "μητέρα",
+        "μου",
+        "είναι",
+        "στο",
+        "σπίτι"
+       ],
+       "accepted": [
+        "Η μαμά μου είναι στο σπίτι."
+       ],
+       "words": [
+        "μητέρα",
+        "σπίτι"
+       ],
+       "tilesRoman": [
+        "kori",
+        "einai",
+        "yio",
+        "spiti",
+        "mou",
+        "sto",
+        "Poios",
+        "I",
+        "mitera"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "γυναίκα",
+        "gynaika",
+        "ginaika"
+       ],
+       "words": [
+        "γυναίκα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Αυτή είναι η μητέρα μου.",
+       "promptLang": "target",
+       "options": [
+        "This is my mother.",
+        "She is my daughter.",
+        "My mother is at home.",
+        "Who is this man?"
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "μητέρα"
+       ],
+       "promptRoman": "Afti einai i mitera mou."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "πατέρας",
+         "Father"
+        ],
+        [
+         "άντρας",
+         "Man"
+        ],
+        [
+         "γιος",
+         "Son"
+        ],
+        [
+         "μητέρα",
+         "Mother"
+        ]
+       ],
+       "words": [
+        "πατέρας",
+        "άντρας",
+        "γιος",
+        "μητέρα"
+       ],
+       "romans": [
+        "pateras",
+        "antras",
+        "yios",
+        "mitera"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "παιδί",
+       "words": [
+        "παιδί"
+       ],
+       "options": [
+        "άντρας",
+        "γυναίκα",
+        "παιδί",
+        "κόρη"
+       ],
+       "optionsRoman": [
+        "antras",
+        "gynaika",
+        "paidi",
+        "kori"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "Έχω",
+        "έναν",
+        "στο",
+        "άντρας",
+        "γιο",
+        "φίλος"
+       ],
+       "answer": [
+        "Έχω",
+        "έναν",
+        "γιο"
+       ],
+       "accepted": [
+        "Έχω ένα γιο."
+       ],
+       "words": [
+        "Έχω έναν γιο."
+       ],
+       "tilesRoman": [
+        "Echo",
+        "enan",
+        "sto",
+        "antras",
+        "yio",
+        "filos"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Πού είναι ο πατέρας μου;",
+       "promptLang": "target",
+       "tiles": [
+        "Where",
+        "I",
+        "my",
+        "He",
+        "friend",
+        "father",
+        "is"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "πατέρας",
+        "πού"
+       ],
+       "promptRoman": "Pou einai o pateras mou?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Ποιος είναι αυτός ο άντρας;",
+       "roman": "Poios einai aftos o antras?",
+       "translation": "Who is this man?",
+       "words": [
+        "άντρας"
+       ],
+       "options": [
+        "Αυτή είναι η μητέρα μου.",
+        "Αυτός είναι ο φίλος μου.",
+        "Ποιος είναι αυτός ο άντρας;",
+        "Η μητέρα μου είναι στο σπίτι."
+       ],
+       "optionsRoman": [
+        "Afti einai i mitera mou.",
+        "Aftos einai o filos mou.",
+        "Poios einai aftos o antras?",
+        "I mitera mou einai sto spiti."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Η μητέρα μου είναι στο σπίτι.",
+       "roman": "I mitera mou einai sto spiti.",
+       "translation": "My mother is at home.",
+       "words": [
+        "μητέρα",
+        "σπίτι"
+       ],
+       "options": [
+        "Αυτός είναι ο φίλος μου.",
+        "Αυτή είναι η μητέρα μου.",
+        "Η μητέρα μου είναι στο σπίτι.",
+        "Πού είναι ο πατέρας μου;"
+       ],
+       "optionsRoman": [
+        "Aftos einai o filos mou.",
+        "Afti einai i mitera mou.",
+        "I mitera mou einai sto spiti.",
+        "Pou einai o pateras mou?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Αυτός είναι ο φίλος μου.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "φίλος"
+       ],
+       "promptRoman": "Aftos einai o filos mou."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "γυναίκα",
+        "gynaika",
+        "ginaika"
+       ],
+       "words": [
+        "γυναίκα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tips": [
+    "'Μου αρέσει' (mou aresei) means 'I like', literally 'it pleases me'."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "νερό",
+      "e": "Water",
+      "r": "nero"
+     },
+     {
+      "t": "ψωμί",
+      "e": "Bread",
+      "r": "psomi"
+     },
+     {
+      "t": "καφές",
+      "e": "Coffee",
+      "r": "kafes"
+     },
+     {
+      "t": "τσάι",
+      "e": "Tea",
+      "r": "tsai"
+     },
+     {
+      "t": "γάλα",
+      "e": "Milk",
+      "r": "gala"
+     },
+     {
+      "t": "μήλο",
+      "e": "Apple",
+      "r": "milo"
+     },
+     {
+      "t": "ρύζι",
+      "e": "Rice",
+      "r": "rizi"
+     },
+     {
+      "t": "αυγό",
+      "e": "Egg",
+      "r": "avgo"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Νερό, παρακαλώ.",
+      "e": "Water, please.",
+      "r": "Nero, parakalo."
+     },
+     {
+      "t": "Πίνω καφέ.",
+      "e": "I drink coffee.",
+      "r": "Pino kafe."
+     },
+     {
+      "t": "Τρώω ψωμί.",
+      "e": "I eat bread.",
+      "r": "Troo psomi."
+     },
+     {
+      "t": "Το τσάι είναι ζεστό.",
+      "e": "The tea is hot.",
+      "r": "To tsai einai zesto."
+     },
+     {
+      "t": "Δεν πίνω γάλα.",
+      "e": "I do not drink milk.",
+      "r": "Den pino gala."
+     },
+     {
+      "t": "Μου αρέσουν τα μήλα.",
+      "e": "I like apples.",
+      "r": "Mou aresoun ta mila."
+     },
+     {
+      "t": "Πεινάω.",
+      "e": "I am hungry.",
+      "r": "Peinao."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "νερό",
+       "e": "Water",
+       "kind": "word",
+       "r": "nero"
+      },
+      {
+       "t": "ψωμί",
+       "e": "Bread",
+       "kind": "word",
+       "r": "psomi"
+      },
+      {
+       "t": "καφές",
+       "e": "Coffee",
+       "kind": "word",
+       "r": "kafes"
+      },
+      {
+       "t": "τσάι",
+       "e": "Tea",
+       "kind": "word",
+       "r": "tsai"
+      },
+      {
+       "t": "Νερό, παρακαλώ.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "r": "Nero, parakalo."
+      },
+      {
+       "t": "Τρώω ψωμί.",
+       "e": "I eat bread.",
+       "kind": "phrase",
+       "r": "Troo psomi."
+      },
+      {
+       "t": "Πίνω καφέ.",
+       "e": "I drink coffee.",
+       "kind": "phrase",
+       "r": "Pino kafe."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "νερό",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Rice",
+        "Milk",
+        "Bread"
+       ],
+       "answer": "Water",
+       "words": [
+        "νερό"
+       ],
+       "promptRoman": "nero"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ψωμί",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Bread",
+        "Egg",
+        "Tea"
+       ],
+       "answer": "Bread",
+       "words": [
+        "ψωμί"
+       ],
+       "promptRoman": "psomi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "νερό",
+         "Water"
+        ],
+        [
+         "ψωμί",
+         "Bread"
+        ],
+        [
+         "καφές",
+         "Coffee"
+        ],
+        [
+         "τσάι",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "νερό",
+        "ψωμί",
+        "καφές",
+        "τσάι"
+       ],
+       "romans": [
+        "nero",
+        "psomi",
+        "kafes",
+        "tsai"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "καφές",
+       "words": [
+        "καφές"
+       ],
+       "options": [
+        "μήλο",
+        "ψωμί",
+        "αυγό",
+        "καφές"
+       ],
+       "optionsRoman": [
+        "milo",
+        "psomi",
+        "avgo",
+        "kafes"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "τσάι",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Rice",
+        "Bread",
+        "Egg"
+       ],
+       "answer": "Tea",
+       "words": [
+        "τσάι"
+       ],
+       "promptRoman": "tsai"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "παρακαλώ",
+        "Το",
+        "Νερό",
+        "ψωμί",
+        "Πίνω"
+       ],
+       "answer": [
+        "Νερό",
+        "παρακαλώ"
+       ],
+       "accepted": [],
+       "words": [
+        "παρακαλώ",
+        "νερό"
+       ],
+       "tilesRoman": [
+        "parakalo",
+        "To",
+        "Nero",
+        "psomi",
+        "Pino"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Τρώω ψωμί.",
+       "promptLang": "target",
+       "tiles": [
+        "eat",
+        "bread",
+        "I",
+        "tea",
+        "like",
+        "The"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "ψωμί"
+       ],
+       "promptRoman": "Troo psomi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πίνω καφέ.",
+       "roman": "Pino kafe.",
+       "translation": "I drink coffee.",
+       "words": [
+        "Πίνω καφέ."
+       ],
+       "options": [
+        "Νερό, παρακαλώ.",
+        "Πίνω καφέ.",
+        "Πεινάω.",
+        "Το τσάι είναι ζεστό."
+       ],
+       "optionsRoman": [
+        "Nero, parakalo.",
+        "Pino kafe.",
+        "Peinao.",
+        "To tsai einai zesto."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Νερό, παρακαλώ.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "παρακαλώ",
+        "νερό"
+       ],
+       "promptRoman": "Nero, parakalo."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "γάλα",
+       "e": "Milk",
+       "kind": "word",
+       "r": "gala"
+      },
+      {
+       "t": "μήλο",
+       "e": "Apple",
+       "kind": "word",
+       "r": "milo"
+      },
+      {
+       "t": "ρύζι",
+       "e": "Rice",
+       "kind": "word",
+       "r": "rizi"
+      },
+      {
+       "t": "αυγό",
+       "e": "Egg",
+       "kind": "word",
+       "r": "avgo"
+      },
+      {
+       "t": "Το τσάι είναι ζεστό.",
+       "e": "The tea is hot.",
+       "kind": "phrase",
+       "r": "To tsai einai zesto."
+      },
+      {
+       "t": "Δεν πίνω γάλα.",
+       "e": "I do not drink milk.",
+       "kind": "phrase",
+       "r": "Den pino gala."
+      },
+      {
+       "t": "Μου αρέσουν τα μήλα.",
+       "e": "I like apples.",
+       "kind": "phrase",
+       "r": "Mou aresoun ta mila."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "γάλα",
+       "promptLang": "target",
+       "options": [
+        "Milk",
+        "Egg",
+        "Apple",
+        "Rice"
+       ],
+       "answer": "Milk",
+       "words": [
+        "γάλα"
+       ],
+       "promptRoman": "gala"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "μήλο",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Egg",
+        "Apple",
+        "Tea"
+       ],
+       "answer": "Apple",
+       "words": [
+        "μήλο"
+       ],
+       "promptRoman": "milo"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "γάλα",
+         "Milk"
+        ],
+        [
+         "μήλο",
+         "Apple"
+        ],
+        [
+         "ρύζι",
+         "Rice"
+        ],
+        [
+         "αυγό",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "γάλα",
+        "μήλο",
+        "ρύζι",
+        "αυγό"
+       ],
+       "romans": [
+        "gala",
+        "milo",
+        "rizi",
+        "avgo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "ρύζι",
+       "words": [
+        "ρύζι"
+       ],
+       "options": [
+        "ρύζι",
+        "ψωμί",
+        "καφές",
+        "γάλα"
+       ],
+       "optionsRoman": [
+        "rizi",
+        "psomi",
+        "kafes",
+        "gala"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "αυγό",
+       "words": [
+        "αυγό"
+       ],
+       "options": [
+        "μήλο",
+        "καφές",
+        "τσάι",
+        "αυγό"
+       ],
+       "optionsRoman": [
+        "milo",
+        "kafes",
+        "tsai",
+        "avgo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "είναι",
+        "ζεστό",
+        "Το",
+        "Μου",
+        "τα",
+        "Τρώω",
+        "τσάι"
+       ],
+       "answer": [
+        "Το",
+        "τσάι",
+        "είναι",
+        "ζεστό"
+       ],
+       "accepted": [],
+       "words": [
+        "τσάι"
+       ],
+       "tilesRoman": [
+        "einai",
+        "zesto",
+        "To",
+        "Mou",
+        "ta",
+        "Troo",
+        "tsai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Δεν πίνω γάλα.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "drink",
+        "not",
+        "milk",
+        "coffee",
+        "hot",
+        "do",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "γάλα"
+       ],
+       "promptRoman": "Den pino gala."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Το τσάι είναι ζεστό.",
+       "roman": "To tsai einai zesto.",
+       "translation": "The tea is hot.",
+       "words": [
+        "τσάι"
+       ],
+       "options": [
+        "Νερό, παρακαλώ.",
+        "Δεν πίνω γάλα.",
+        "Τρώω ψωμί.",
+        "Το τσάι είναι ζεστό."
+       ],
+       "optionsRoman": [
+        "Nero, parakalo.",
+        "Den pino gala.",
+        "Troo psomi.",
+        "To tsai einai zesto."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Μου αρέσουν τα μήλα.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "Μου αρέσουν τα μήλα."
+       ],
+       "promptRoman": "Mou aresoun ta mila."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "νερό",
+        "nero"
+       ],
+       "words": [
+        "νερό"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Πεινάω.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "r": "Peinao.",
+       "alts": [
+        "Πεινώ."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ψωμί",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Coffee",
+        "Egg",
+        "Milk"
+       ],
+       "answer": "Bread",
+       "words": [
+        "ψωμί"
+       ],
+       "promptRoman": "psomi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "τσάι",
+         "Tea"
+        ],
+        [
+         "νερό",
+         "Water"
+        ],
+        [
+         "ρύζι",
+         "Rice"
+        ],
+        [
+         "καφές",
+         "Coffee"
+        ],
+        [
+         "αυγό",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "τσάι",
+        "νερό",
+        "ρύζι",
+        "καφές",
+        "αυγό"
+       ],
+       "romans": [
+        "tsai",
+        "nero",
+        "rizi",
+        "kafes",
+        "avgo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Πεινάω.",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee.",
+        "I like apples.",
+        "I am hungry.",
+        "I do not drink milk."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Πεινάω."
+       ],
+       "promptRoman": "Peinao."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Πίνω καφέ.",
+       "promptLang": "target",
+       "tiles": [
+        "eat",
+        "milk",
+        "I",
+        "drink",
+        "coffee",
+        "is"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "Πίνω καφέ."
+       ],
+       "promptRoman": "Pino kafe."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "Δεν",
+        "παρακαλώ",
+        "Πεινάω",
+        "τα"
+       ],
+       "answer": [
+        "Πεινάω"
+       ],
+       "accepted": [
+        "Πεινώ."
+       ],
+       "words": [
+        "Πεινάω."
+       ],
+       "tilesRoman": [
+        "Den",
+        "parakalo",
+        "Peinao",
+        "ta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Μου",
+        "τα",
+        "μήλα",
+        "ψωμί",
+        "Νερό",
+        "αρέσουν",
+        "καφέ"
+       ],
+       "answer": [
+        "Μου",
+        "αρέσουν",
+        "τα",
+        "μήλα"
+       ],
+       "accepted": [],
+       "words": [
+        "Μου αρέσουν τα μήλα."
+       ],
+       "tilesRoman": [
+        "Mou",
+        "ta",
+        "mila",
+        "psomi",
+        "Nero",
+        "aresoun",
+        "kafe"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Μου αρέσουν τα μήλα.",
+       "roman": "Mou aresoun ta mila.",
+       "translation": "I like apples.",
+       "words": [
+        "Μου αρέσουν τα μήλα."
+       ],
+       "options": [
+        "Το τσάι είναι ζεστό.",
+        "Πίνω καφέ.",
+        "Νερό, παρακαλώ.",
+        "Μου αρέσουν τα μήλα."
+       ],
+       "optionsRoman": [
+        "To tsai einai zesto.",
+        "Pino kafe.",
+        "Nero, parakalo.",
+        "Mou aresoun ta mila."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Τρώω ψωμί.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "ψωμί"
+       ],
+       "promptRoman": "Troo psomi."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "γάλα",
+        "πίνω",
+        "αρέσουν",
+        "Δεν",
+        "ψωμί",
+        "Τρώω"
+       ],
+       "answer": [
+        "Δεν",
+        "πίνω",
+        "γάλα"
+       ],
+       "accepted": [],
+       "words": [
+        "γάλα"
+       ],
+       "tilesRoman": [
+        "gala",
+        "pino",
+        "aresoun",
+        "Den",
+        "psomi",
+        "Troo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "ψωμί",
+        "psomi"
+       ],
+       "words": [
+        "ψωμί"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Νερό, παρακαλώ.",
+       "promptLang": "target",
+       "options": [
+        "Water, please.",
+        "I like apples.",
+        "I eat bread.",
+        "I do not drink milk."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "παρακαλώ",
+        "νερό"
+       ],
+       "promptRoman": "Nero, parakalo."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ψωμί",
+         "Bread"
+        ],
+        [
+         "μήλο",
+         "Apple"
+        ],
+        [
+         "ρύζι",
+         "Rice"
+        ],
+        [
+         "νερό",
+         "Water"
+        ]
+       ],
+       "words": [
+        "ψωμί",
+        "μήλο",
+        "ρύζι",
+        "νερό"
+       ],
+       "romans": [
+        "psomi",
+        "milo",
+        "rizi",
+        "nero"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "καφές",
+       "words": [
+        "καφές"
+       ],
+       "options": [
+        "μήλο",
+        "καφές",
+        "ρύζι",
+        "ψωμί"
+       ],
+       "optionsRoman": [
+        "milo",
+        "kafes",
+        "rizi",
+        "psomi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "Πίνω",
+        "Τρώω",
+        "είναι",
+        "ψωμί",
+        "τσάι"
+       ],
+       "answer": [
+        "Τρώω",
+        "ψωμί"
+       ],
+       "accepted": [],
+       "words": [
+        "ψωμί"
+       ],
+       "tilesRoman": [
+        "Pino",
+        "Troo",
+        "einai",
+        "psomi",
+        "tsai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Το τσάι είναι ζεστό.",
+       "promptLang": "target",
+       "tiles": [
+        "hot",
+        "do",
+        "apples",
+        "tea",
+        "The",
+        "is",
+        "please"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "τσάι"
+       ],
+       "promptRoman": "To tsai einai zesto."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πεινάω.",
+       "roman": "Peinao.",
+       "translation": "I am hungry.",
+       "words": [
+        "Πεινάω."
+       ],
+       "options": [
+        "Νερό, παρακαλώ.",
+        "Πεινάω.",
+        "Το τσάι είναι ζεστό.",
+        "Μου αρέσουν τα μήλα."
+       ],
+       "optionsRoman": [
+        "Nero, parakalo.",
+        "Peinao.",
+        "To tsai einai zesto.",
+        "Mou aresoun ta mila."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Δεν πίνω γάλα.",
+       "roman": "Den pino gala.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "γάλα"
+       ],
+       "options": [
+        "Το τσάι είναι ζεστό.",
+        "Μου αρέσουν τα μήλα.",
+        "Δεν πίνω γάλα.",
+        "Πεινάω."
+       ],
+       "optionsRoman": [
+        "To tsai einai zesto.",
+        "Mou aresoun ta mila.",
+        "Den pino gala.",
+        "Peinao."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Πίνω καφέ.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "Πίνω καφέ."
+       ],
+       "promptRoman": "Pino kafe."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Milk",
+       "promptLang": "en",
+       "answers": [
+        "γάλα",
+        "gala"
+       ],
+       "words": [
+        "γάλα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tips": [
+    "A Greek question mark looks like a semicolon: 'Πόσο κάνει;' = How much is it?"
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "ένα",
+      "e": "One",
+      "r": "ena"
+     },
+     {
+      "t": "δύο",
+      "e": "Two",
+      "r": "dyo"
+     },
+     {
+      "t": "τρία",
+      "e": "Three",
+      "r": "tria"
+     },
+     {
+      "t": "τέσσερα",
+      "e": "Four",
+      "r": "tessera"
+     },
+     {
+      "t": "πέντε",
+      "e": "Five",
+      "r": "pente"
+     },
+     {
+      "t": "έξι",
+      "e": "Six",
+      "r": "exi"
+     },
+     {
+      "t": "επτά",
+      "e": "Seven",
+      "r": "epta"
+     },
+     {
+      "t": "οκτώ",
+      "e": "Eight",
+      "r": "okto"
+     },
+     {
+      "t": "εννέα",
+      "e": "Nine",
+      "r": "ennea"
+     },
+     {
+      "t": "δέκα",
+      "e": "Ten",
+      "r": "deka"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Έχω δύο παιδιά.",
+      "e": "I have two children.",
+      "r": "Echo dyo paidia."
+     },
+     {
+      "t": "Πόσο κάνει;",
+      "e": "How much is it?",
+      "r": "Poso kanei?"
+     },
+     {
+      "t": "Έχω τέσσερα μήλα.",
+      "e": "I have four apples.",
+      "r": "Echo tessera mila."
+     },
+     {
+      "t": "Έναν καφέ, παρακαλώ.",
+      "e": "One coffee, please.",
+      "r": "Enan kafe, parakalo."
+     },
+     {
+      "t": "Δύο τσάι, παρακαλώ.",
+      "e": "Two teas, please.",
+      "r": "Dyo tsai, parakalo."
+     },
+     {
+      "t": "Είναι τρεις η ώρα.",
+      "e": "It is three o'clock.",
+      "r": "Einai treis i ora."
+     },
+     {
+      "t": "Μια στιγμή, παρακαλώ.",
+      "e": "One moment, please.",
+      "r": "Mia stigmi, parakalo."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "ένα",
+       "e": "One",
+       "kind": "word",
+       "r": "ena",
+       "alts": [
+        "ένας",
+        "μία"
+       ]
+      },
+      {
+       "t": "δύο",
+       "e": "Two",
+       "kind": "word",
+       "r": "dyo"
+      },
+      {
+       "t": "τρία",
+       "e": "Three",
+       "kind": "word",
+       "r": "tria",
+       "alts": [
+        "τρεις"
+       ]
+      },
+      {
+       "t": "τέσσερα",
+       "e": "Four",
+       "kind": "word",
+       "r": "tessera",
+       "alts": [
+        "τέσσερις"
+       ]
+      },
+      {
+       "t": "Έχω δύο παιδιά.",
+       "e": "I have two children.",
+       "kind": "phrase",
+       "r": "Echo dyo paidia."
+      },
+      {
+       "t": "Έχω τέσσερα μήλα.",
+       "e": "I have four apples.",
+       "kind": "phrase",
+       "r": "Echo tessera mila."
+      },
+      {
+       "t": "Πόσο κάνει;",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "r": "Poso kanei?",
+       "alts": [
+        "Πόσο κοστίζει;"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ένα",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Four",
+        "One",
+        "Five"
+       ],
+       "answer": "One",
+       "words": [
+        "ένα"
+       ],
+       "promptRoman": "ena"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "δύο",
+       "promptLang": "target",
+       "options": [
+        "Five",
+        "Two",
+        "Nine",
+        "One"
+       ],
+       "answer": "Two",
+       "words": [
+        "δύο"
+       ],
+       "promptRoman": "dyo"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ένα",
+         "One"
+        ],
+        [
+         "δύο",
+         "Two"
+        ],
+        [
+         "τρία",
+         "Three"
+        ],
+        [
+         "τέσσερα",
+         "Four"
+        ]
+       ],
+       "words": [
+        "ένα",
+        "δύο",
+        "τρία",
+        "τέσσερα"
+       ],
+       "romans": [
+        "ena",
+        "dyo",
+        "tria",
+        "tessera"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "τρία",
+       "words": [
+        "τρία"
+       ],
+       "options": [
+        "δέκα",
+        "επτά",
+        "τρία",
+        "έξι"
+       ],
+       "optionsRoman": [
+        "deka",
+        "epta",
+        "tria",
+        "exi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "τέσσερα",
+       "promptLang": "target",
+       "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Three"
+       ],
+       "answer": "Four",
+       "words": [
+        "τέσσερα"
+       ],
+       "promptRoman": "tessera"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "τέσσερα",
+        "Έχω",
+        "παιδιά",
+        "ώρα",
+        "δύο",
+        "τρεις"
+       ],
+       "answer": [
+        "Έχω",
+        "δύο",
+        "παιδιά"
+       ],
+       "accepted": [],
+       "words": [
+        "δύο"
+       ],
+       "tilesRoman": [
+        "tessera",
+        "Echo",
+        "paidia",
+        "ora",
+        "dyo",
+        "treis"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Έχω τέσσερα μήλα.",
+       "promptLang": "target",
+       "tiles": [
+        "children",
+        "three",
+        "have",
+        "four",
+        "apples",
+        "o'clock",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "τέσσερα"
+       ],
+       "promptRoman": "Echo tessera mila."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πόσο κάνει;",
+       "roman": "Poso kanei?",
+       "translation": "How much is it?",
+       "words": [
+        "Πόσο κάνει;"
+       ],
+       "options": [
+        "Έχω τέσσερα μήλα.",
+        "Δύο τσάι, παρακαλώ.",
+        "Έχω δύο παιδιά.",
+        "Πόσο κάνει;"
+       ],
+       "optionsRoman": [
+        "Echo tessera mila.",
+        "Dyo tsai, parakalo.",
+        "Echo dyo paidia.",
+        "Poso kanei?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Έχω δύο παιδιά.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "δύο"
+       ],
+       "promptRoman": "Echo dyo paidia."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "πέντε",
+       "e": "Five",
+       "kind": "word",
+       "r": "pente"
+      },
+      {
+       "t": "έξι",
+       "e": "Six",
+       "kind": "word",
+       "r": "exi"
+      },
+      {
+       "t": "επτά",
+       "e": "Seven",
+       "kind": "word",
+       "r": "epta",
+       "alts": [
+        "εφτά"
+       ]
+      },
+      {
+       "t": "οκτώ",
+       "e": "Eight",
+       "kind": "word",
+       "r": "okto",
+       "alts": [
+        "οχτώ"
+       ]
+      },
+      {
+       "t": "Έναν καφέ, παρακαλώ.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "r": "Enan kafe, parakalo."
+      },
+      {
+       "t": "Δύο τσάι, παρακαλώ.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "r": "Dyo tsai, parakalo."
+      },
+      {
+       "t": "Είναι τρεις η ώρα.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "r": "Einai treis i ora."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "πέντε",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Three",
+        "One",
+        "Five"
+       ],
+       "answer": "Five",
+       "words": [
+        "πέντε"
+       ],
+       "promptRoman": "pente"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "έξι",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Two",
+        "Five",
+        "Three"
+       ],
+       "answer": "Six",
+       "words": [
+        "έξι"
+       ],
+       "promptRoman": "exi"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "πέντε",
+         "Five"
+        ],
+        [
+         "έξι",
+         "Six"
+        ],
+        [
+         "επτά",
+         "Seven"
+        ],
+        [
+         "οκτώ",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "πέντε",
+        "έξι",
+        "επτά",
+        "οκτώ"
+       ],
+       "romans": [
+        "pente",
+        "exi",
+        "epta",
+        "okto"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "επτά",
+       "words": [
+        "επτά"
+       ],
+       "options": [
+        "επτά",
+        "δύο",
+        "τέσσερα",
+        "οκτώ"
+       ],
+       "optionsRoman": [
+        "epta",
+        "dyo",
+        "tessera",
+        "okto"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "οκτώ",
+       "words": [
+        "οκτώ"
+       ],
+       "options": [
+        "δύο",
+        "οκτώ",
+        "ένα",
+        "επτά"
+       ],
+       "optionsRoman": [
+        "dyo",
+        "okto",
+        "ena",
+        "epta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "μήλα",
+        "τρεις",
+        "Έναν",
+        "καφέ",
+        "παρακαλώ",
+        "στιγμή"
+       ],
+       "answer": [
+        "Έναν",
+        "καφέ",
+        "παρακαλώ"
+       ],
+       "accepted": [],
+       "words": [
+        "παρακαλώ"
+       ],
+       "tilesRoman": [
+        "mila",
+        "treis",
+        "Enan",
+        "kafe",
+        "parakalo",
+        "stigmi"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Δύο τσάι, παρακαλώ.",
+       "promptLang": "target",
+       "tiles": [
+        "teas",
+        "please",
+        "is",
+        "children",
+        "Two",
+        "How"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "παρακαλώ",
+        "τσάι",
+        "δύο"
+       ],
+       "promptRoman": "Dyo tsai, parakalo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Έναν καφέ, παρακαλώ.",
+       "roman": "Enan kafe, parakalo.",
+       "translation": "One coffee, please.",
+       "words": [
+        "παρακαλώ"
+       ],
+       "options": [
+        "Είναι τρεις η ώρα.",
+        "Πόσο κάνει;",
+        "Δύο τσάι, παρακαλώ.",
+        "Έναν καφέ, παρακαλώ."
+       ],
+       "optionsRoman": [
+        "Einai treis i ora.",
+        "Poso kanei?",
+        "Dyo tsai, parakalo.",
+        "Enan kafe, parakalo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Είναι τρεις η ώρα.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "τρία"
+       ],
+       "promptRoman": "Einai treis i ora."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "ένα",
+        "ένας",
+        "μία",
+        "ena"
+       ],
+       "words": [
+        "ένα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "εννέα",
+       "e": "Nine",
+       "kind": "word",
+       "r": "ennea",
+       "alts": [
+        "εννιά"
+       ]
+      },
+      {
+       "t": "δέκα",
+       "e": "Ten",
+       "kind": "word",
+       "r": "deka"
+      },
+      {
+       "t": "Μια στιγμή, παρακαλώ.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "r": "Mia stigmi, parakalo.",
+       "alts": [
+        "Μια στιγμή."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "εννέα",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Nine",
+        "One",
+        "Two"
+       ],
+       "answer": "Nine",
+       "words": [
+        "εννέα"
+       ],
+       "promptRoman": "ennea"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "τέσσερα",
+         "Four"
+        ],
+        [
+         "ένα",
+         "One"
+        ],
+        [
+         "τρία",
+         "Three"
+        ],
+        [
+         "πέντε",
+         "Five"
+        ],
+        [
+         "δύο",
+         "Two"
+        ]
+       ],
+       "words": [
+        "τέσσερα",
+        "ένα",
+        "τρία",
+        "πέντε",
+        "δύο"
+       ],
+       "romans": [
+        "tessera",
+        "ena",
+        "tria",
+        "pente",
+        "dyo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Μια στιγμή, παρακαλώ.",
+       "promptLang": "target",
+       "options": [
+        "One moment, please.",
+        "I have four apples.",
+        "I have two children.",
+        "One coffee, please."
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "παρακαλώ"
+       ],
+       "promptRoman": "Mia stigmi, parakalo."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Πόσο κάνει;",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "two",
+        "is",
+        "I",
+        "much",
+        "three",
+        "How"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Πόσο κάνει;"
+       ],
+       "promptRoman": "Poso kanei?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "παρακαλώ",
+        "Μια",
+        "Είναι",
+        "στιγμή",
+        "μήλα",
+        "Πόσο"
+       ],
+       "answer": [
+        "Μια",
+        "στιγμή",
+        "παρακαλώ"
+       ],
+       "accepted": [
+        "Μια στιγμή."
+       ],
+       "words": [
+        "παρακαλώ"
+       ],
+       "tilesRoman": [
+        "parakalo",
+        "Mia",
+        "Einai",
+        "stigmi",
+        "mila",
+        "Poso"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "παρακαλώ",
+        "τρεις",
+        "τέσσερα",
+        "ώρα",
+        "η",
+        "Είναι",
+        "τσάι"
+       ],
+       "answer": [
+        "Είναι",
+        "τρεις",
+        "η",
+        "ώρα"
+       ],
+       "accepted": [],
+       "words": [
+        "τρία"
+       ],
+       "tilesRoman": [
+        "parakalo",
+        "treis",
+        "tessera",
+        "ora",
+        "i",
+        "Einai",
+        "tsai"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Είναι τρεις η ώρα.",
+       "roman": "Einai treis i ora.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "τρία"
+       ],
+       "options": [
+        "Είναι τρεις η ώρα.",
+        "Έχω δύο παιδιά.",
+        "Μια στιγμή, παρακαλώ.",
+        "Δύο τσάι, παρακαλώ."
+       ],
+       "optionsRoman": [
+        "Einai treis i ora.",
+        "Echo dyo paidia.",
+        "Mia stigmi, parakalo.",
+        "Dyo tsai, parakalo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Έχω τέσσερα μήλα.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "τέσσερα"
+       ],
+       "promptRoman": "Echo tessera mila."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "τσάι",
+        "στιγμή",
+        "καφέ",
+        "παρακαλώ",
+        "Δύο",
+        "Έχω"
+       ],
+       "answer": [
+        "Δύο",
+        "τσάι",
+        "παρακαλώ"
+       ],
+       "accepted": [],
+       "words": [
+        "παρακαλώ",
+        "τσάι",
+        "δύο"
+       ],
+       "tilesRoman": [
+        "tsai",
+        "stigmi",
+        "kafe",
+        "parakalo",
+        "Dyo",
+        "Echo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "δέκα",
+        "deka"
+       ],
+       "words": [
+        "δέκα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Έχω δύο παιδιά.",
+       "promptLang": "target",
+       "options": [
+        "I have four apples.",
+        "One moment, please.",
+        "Two teas, please.",
+        "I have two children."
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "δύο"
+       ],
+       "promptRoman": "Echo dyo paidia."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "οκτώ",
+         "Eight"
+        ],
+        [
+         "ένα",
+         "One"
+        ],
+        [
+         "εννέα",
+         "Nine"
+        ],
+        [
+         "έξι",
+         "Six"
+        ]
+       ],
+       "words": [
+        "οκτώ",
+        "ένα",
+        "εννέα",
+        "έξι"
+       ],
+       "romans": [
+        "okto",
+        "ena",
+        "ennea",
+        "exi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Five",
+       "promptLang": "en",
+       "answer": "πέντε",
+       "words": [
+        "πέντε"
+       ],
+       "options": [
+        "εννέα",
+        "έξι",
+        "πέντε",
+        "τρία"
+       ],
+       "optionsRoman": [
+        "ennea",
+        "exi",
+        "pente",
+        "tria"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "τέσσερα",
+        "Πόσο",
+        "μήλα",
+        "τσάι",
+        "Έχω",
+        "δύο"
+       ],
+       "answer": [
+        "Έχω",
+        "τέσσερα",
+        "μήλα"
+       ],
+       "accepted": [],
+       "words": [
+        "τέσσερα"
+       ],
+       "tilesRoman": [
+        "tessera",
+        "Poso",
+        "mila",
+        "tsai",
+        "Echo",
+        "dyo"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Έναν καφέ, παρακαλώ.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "teas",
+        "One",
+        "How",
+        "coffee",
+        "three"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "παρακαλώ"
+       ],
+       "promptRoman": "Enan kafe, parakalo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Μια στιγμή, παρακαλώ.",
+       "roman": "Mia stigmi, parakalo.",
+       "translation": "One moment, please.",
+       "words": [
+        "παρακαλώ"
+       ],
+       "options": [
+        "Είναι τρεις η ώρα.",
+        "Μια στιγμή, παρακαλώ.",
+        "Έχω τέσσερα μήλα.",
+        "Δύο τσάι, παρακαλώ."
+       ],
+       "optionsRoman": [
+        "Einai treis i ora.",
+        "Mia stigmi, parakalo.",
+        "Echo tessera mila.",
+        "Dyo tsai, parakalo."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Δύο τσάι, παρακαλώ.",
+       "roman": "Dyo tsai, parakalo.",
+       "translation": "Two teas, please.",
+       "words": [
+        "παρακαλώ",
+        "τσάι",
+        "δύο"
+       ],
+       "options": [
+        "Μια στιγμή, παρακαλώ.",
+        "Έχω δύο παιδιά.",
+        "Δύο τσάι, παρακαλώ.",
+        "Έναν καφέ, παρακαλώ."
+       ],
+       "optionsRoman": [
+        "Mia stigmi, parakalo.",
+        "Echo dyo paidia.",
+        "Dyo tsai, parakalo.",
+        "Enan kafe, parakalo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Πόσο κάνει;",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Πόσο κάνει;"
+       ],
+       "promptRoman": "Poso kanei?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "δέκα",
+        "deka"
+       ],
+       "words": [
+        "δέκα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tips": [
+    "'Πού' (pou) with an accent means where; 'που' without it means that/which."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "ξενοδοχείο",
+      "e": "Hotel",
+      "r": "xenodocheio"
+     },
+     {
+      "t": "σταθμός",
+      "e": "Station",
+      "r": "stathmos"
+     },
+     {
+      "t": "αεροδρόμιο",
+      "e": "Airport",
+      "r": "aerodromio"
+     },
+     {
+      "t": "εισιτήριο",
+      "e": "Ticket",
+      "r": "eisitirio"
+     },
+     {
+      "t": "αριστερά",
+      "e": "Left",
+      "r": "aristera"
+     },
+     {
+      "t": "δεξιά",
+      "e": "Right",
+      "r": "dexia"
+     },
+     {
+      "t": "πού",
+      "e": "Where",
+      "r": "pou"
+     },
+     {
+      "t": "τουαλέτα",
+      "e": "Toilet",
+      "r": "toualeta"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Πού είναι το ξενοδοχείο;",
+      "e": "Where is the hotel?",
+      "r": "Pou einai to xenodocheio?"
+     },
+     {
+      "t": "Πού είναι η τουαλέτα;",
+      "e": "Where is the toilet?",
+      "r": "Pou einai i toualeta?"
+     },
+     {
+      "t": "Στρίψτε αριστερά.",
+      "e": "Turn left.",
+      "r": "Stripste aristera."
+     },
+     {
+      "t": "Ο σταθμός είναι δεξιά.",
+      "e": "The station is on the right.",
+      "r": "O stathmos einai dexia."
+     },
+     {
+      "t": "Ένα εισιτήριο, παρακαλώ.",
+      "e": "A ticket, please.",
+      "r": "Ena eisitirio, parakalo."
+     },
+     {
+      "t": "Πηγαίνω στο αεροδρόμιο.",
+      "e": "I am going to the airport.",
+      "r": "Pigaino sto aerodromio."
+     },
+     {
+      "t": "Είναι μακριά;",
+      "e": "Is it far?",
+      "r": "Einai makria?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "ξενοδοχείο",
+       "e": "Hotel",
+       "kind": "word",
+       "r": "xenodocheio"
+      },
+      {
+       "t": "σταθμός",
+       "e": "Station",
+       "kind": "word",
+       "r": "stathmos"
+      },
+      {
+       "t": "αεροδρόμιο",
+       "e": "Airport",
+       "kind": "word",
+       "r": "aerodromio"
+      },
+      {
+       "t": "εισιτήριο",
+       "e": "Ticket",
+       "kind": "word",
+       "r": "eisitirio"
+      },
+      {
+       "t": "Πού είναι το ξενοδοχείο;",
+       "e": "Where is the hotel?",
+       "kind": "phrase",
+       "r": "Pou einai to xenodocheio?"
+      },
+      {
+       "t": "Στρίψτε αριστερά.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "r": "Stripste aristera.",
+       "alts": [
+        "Στρίψε αριστερά."
+       ]
+      },
+      {
+       "t": "Πού είναι η τουαλέτα;",
+       "e": "Where is the toilet?",
+       "kind": "phrase",
+       "r": "Pou einai i toualeta?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ξενοδοχείο",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Airport",
+        "Station",
+        "Ticket"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "ξενοδοχείο"
+       ],
+       "promptRoman": "xenodocheio"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "σταθμός",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Airport",
+        "Where",
+        "Hotel"
+       ],
+       "answer": "Station",
+       "words": [
+        "σταθμός"
+       ],
+       "promptRoman": "stathmos"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ξενοδοχείο",
+         "Hotel"
+        ],
+        [
+         "σταθμός",
+         "Station"
+        ],
+        [
+         "αεροδρόμιο",
+         "Airport"
+        ],
+        [
+         "εισιτήριο",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "ξενοδοχείο",
+        "σταθμός",
+        "αεροδρόμιο",
+        "εισιτήριο"
+       ],
+       "romans": [
+        "xenodocheio",
+        "stathmos",
+        "aerodromio",
+        "eisitirio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "αεροδρόμιο",
+       "words": [
+        "αεροδρόμιο"
+       ],
+       "options": [
+        "αεροδρόμιο",
+        "δεξιά",
+        "εισιτήριο",
+        "αριστερά"
+       ],
+       "optionsRoman": [
+        "aerodromio",
+        "dexia",
+        "eisitirio",
+        "aristera"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "εισιτήριο",
+       "promptLang": "target",
+       "options": [
+        "Right",
+        "Ticket",
+        "Where",
+        "Toilet"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "εισιτήριο"
+       ],
+       "promptRoman": "eisitirio"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "Πού",
+        "μακριά",
+        "το",
+        "ξενοδοχείο",
+        "Πηγαίνω",
+        "είναι",
+        "τουαλέτα"
+       ],
+       "answer": [
+        "Πού",
+        "είναι",
+        "το",
+        "ξενοδοχείο"
+       ],
+       "accepted": [],
+       "words": [
+        "ξενοδοχείο",
+        "πού"
+       ],
+       "tilesRoman": [
+        "Pou",
+        "makria",
+        "to",
+        "xenodocheio",
+        "Pigaino",
+        "einai",
+        "toualeta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Στρίψτε αριστερά.",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "hotel",
+        "going",
+        "left",
+        "Turn"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "αριστερά"
+       ],
+       "promptRoman": "Stripste aristera."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πού είναι η τουαλέτα;",
+       "roman": "Pou einai i toualeta?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "πού",
+        "τουαλέτα"
+       ],
+       "options": [
+        "Στρίψτε αριστερά.",
+        "Ο σταθμός είναι δεξιά.",
+        "Πού είναι η τουαλέτα;",
+        "Πηγαίνω στο αεροδρόμιο."
+       ],
+       "optionsRoman": [
+        "Stripste aristera.",
+        "O stathmos einai dexia.",
+        "Pou einai i toualeta?",
+        "Pigaino sto aerodromio."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Πού είναι το ξενοδοχείο;",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "ξενοδοχείο",
+        "πού"
+       ],
+       "promptRoman": "Pou einai to xenodocheio?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "αριστερά",
+       "e": "Left",
+       "kind": "word",
+       "r": "aristera"
+      },
+      {
+       "t": "δεξιά",
+       "e": "Right",
+       "kind": "word",
+       "r": "dexia"
+      },
+      {
+       "t": "πού",
+       "e": "Where",
+       "kind": "word",
+       "r": "pou"
+      },
+      {
+       "t": "τουαλέτα",
+       "e": "Toilet",
+       "kind": "word",
+       "r": "toualeta"
+      },
+      {
+       "t": "Ο σταθμός είναι δεξιά.",
+       "e": "The station is on the right.",
+       "kind": "phrase",
+       "r": "O stathmos einai dexia."
+      },
+      {
+       "t": "Ένα εισιτήριο, παρακαλώ.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "r": "Ena eisitirio, parakalo."
+      },
+      {
+       "t": "Πηγαίνω στο αεροδρόμιο.",
+       "e": "I am going to the airport.",
+       "kind": "phrase",
+       "r": "Pigaino sto aerodromio.",
+       "alts": [
+        "Πάω στο αεροδρόμιο."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "αριστερά",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Ticket",
+        "Left",
+        "Station"
+       ],
+       "answer": "Left",
+       "words": [
+        "αριστερά"
+       ],
+       "promptRoman": "aristera"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "δεξιά",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Left",
+        "Right",
+        "Airport"
+       ],
+       "answer": "Right",
+       "words": [
+        "δεξιά"
+       ],
+       "promptRoman": "dexia"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "αριστερά",
+         "Left"
+        ],
+        [
+         "δεξιά",
+         "Right"
+        ],
+        [
+         "πού",
+         "Where"
+        ],
+        [
+         "τουαλέτα",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "αριστερά",
+        "δεξιά",
+        "πού",
+        "τουαλέτα"
+       ],
+       "romans": [
+        "aristera",
+        "dexia",
+        "pou",
+        "toualeta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "πού",
+       "words": [
+        "πού"
+       ],
+       "options": [
+        "τουαλέτα",
+        "πού",
+        "αριστερά",
+        "αεροδρόμιο"
+       ],
+       "optionsRoman": [
+        "toualeta",
+        "pou",
+        "aristera",
+        "aerodromio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "τουαλέτα",
+       "words": [
+        "τουαλέτα"
+       ],
+       "options": [
+        "σταθμός",
+        "εισιτήριο",
+        "αριστερά",
+        "τουαλέτα"
+       ],
+       "optionsRoman": [
+        "stathmos",
+        "eisitirio",
+        "aristera",
+        "toualeta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "Πηγαίνω",
+        "Ο",
+        "Ένα",
+        "Πού",
+        "είναι",
+        "δεξιά",
+        "σταθμός"
+       ],
+       "answer": [
+        "Ο",
+        "σταθμός",
+        "είναι",
+        "δεξιά"
+       ],
+       "accepted": [],
+       "words": [
+        "σταθμός",
+        "δεξιά"
+       ],
+       "tilesRoman": [
+        "Pigaino",
+        "O",
+        "Ena",
+        "Pou",
+        "einai",
+        "dexia",
+        "stathmos"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ένα εισιτήριο, παρακαλώ.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "hotel",
+        "am",
+        "A",
+        "ticket",
+        "it"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "παρακαλώ",
+        "ένα",
+        "εισιτήριο"
+       ],
+       "promptRoman": "Ena eisitirio, parakalo."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Ο σταθμός είναι δεξιά.",
+       "roman": "O stathmos einai dexia.",
+       "translation": "The station is on the right.",
+       "words": [
+        "σταθμός",
+        "δεξιά"
+       ],
+       "options": [
+        "Ο σταθμός είναι δεξιά.",
+        "Στρίψτε αριστερά.",
+        "Πού είναι η τουαλέτα;",
+        "Πηγαίνω στο αεροδρόμιο."
+       ],
+       "optionsRoman": [
+        "O stathmos einai dexia.",
+        "Stripste aristera.",
+        "Pou einai i toualeta?",
+        "Pigaino sto aerodromio."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Πηγαίνω στο αεροδρόμιο.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "αεροδρόμιο"
+       ],
+       "promptRoman": "Pigaino sto aerodromio."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "ξενοδοχείο",
+        "xenodocheio",
+        "xenodohio"
+       ],
+       "words": [
+        "ξενοδοχείο"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Είναι μακριά;",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "r": "Einai makria?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "σταθμός",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Toilet",
+        "Hotel",
+        "Where"
+       ],
+       "answer": "Station",
+       "words": [
+        "σταθμός"
+       ],
+       "promptRoman": "stathmos"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ξενοδοχείο",
+         "Hotel"
+        ],
+        [
+         "σταθμός",
+         "Station"
+        ],
+        [
+         "εισιτήριο",
+         "Ticket"
+        ],
+        [
+         "τουαλέτα",
+         "Toilet"
+        ],
+        [
+         "αεροδρόμιο",
+         "Airport"
+        ]
+       ],
+       "words": [
+        "ξενοδοχείο",
+        "σταθμός",
+        "εισιτήριο",
+        "τουαλέτα",
+        "αεροδρόμιο"
+       ],
+       "romans": [
+        "xenodocheio",
+        "stathmos",
+        "eisitirio",
+        "toualeta",
+        "aerodromio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Είναι μακριά;",
+       "promptLang": "target",
+       "options": [
+        "Where is the hotel?",
+        "Is it far?",
+        "Turn left.",
+        "I am going to the airport."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "Είναι μακριά;"
+       ],
+       "promptRoman": "Einai makria?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Πού είναι η τουαλέτα;",
+       "promptLang": "target",
+       "tiles": [
+        "going",
+        "toilet",
+        "Where",
+        "is",
+        "the",
+        "it",
+        "I"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "πού",
+        "τουαλέτα"
+       ],
+       "promptRoman": "Pou einai i toualeta?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "Είναι",
+        "το",
+        "σταθμός",
+        "Πού",
+        "μακριά"
+       ],
+       "answer": [
+        "Είναι",
+        "μακριά"
+       ],
+       "accepted": [],
+       "words": [
+        "Είναι μακριά;"
+       ],
+       "tilesRoman": [
+        "Einai",
+        "to",
+        "stathmos",
+        "Pou",
+        "makria"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "Πηγαίνω",
+        "δεξιά",
+        "αεροδρόμιο",
+        "παρακαλώ",
+        "Πού",
+        "στο"
+       ],
+       "answer": [
+        "Πηγαίνω",
+        "στο",
+        "αεροδρόμιο"
+       ],
+       "accepted": [
+        "Πάω στο αεροδρόμιο."
+       ],
+       "words": [
+        "αεροδρόμιο"
+       ],
+       "tilesRoman": [
+        "Pigaino",
+        "dexia",
+        "aerodromio",
+        "parakalo",
+        "Pou",
+        "sto"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πηγαίνω στο αεροδρόμιο.",
+       "roman": "Pigaino sto aerodromio.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "αεροδρόμιο"
+       ],
+       "options": [
+        "Στρίψτε αριστερά.",
+        "Ο σταθμός είναι δεξιά.",
+        "Πού είναι το ξενοδοχείο;",
+        "Πηγαίνω στο αεροδρόμιο."
+       ],
+       "optionsRoman": [
+        "Stripste aristera.",
+        "O stathmos einai dexia.",
+        "Pou einai to xenodocheio?",
+        "Pigaino sto aerodromio."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Στρίψτε αριστερά.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "αριστερά"
+       ],
+       "promptRoman": "Stripste aristera."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "παρακαλώ",
+        "εισιτήριο",
+        "Ένα",
+        "τουαλέτα",
+        "Πού",
+        "δεξιά"
+       ],
+       "answer": [
+        "Ένα",
+        "εισιτήριο",
+        "παρακαλώ"
+       ],
+       "accepted": [],
+       "words": [
+        "παρακαλώ",
+        "ένα",
+        "εισιτήριο"
+       ],
+       "tilesRoman": [
+        "parakalo",
+        "eisitirio",
+        "Ena",
+        "toualeta",
+        "Pou",
+        "dexia"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "σταθμός",
+        "stathmos"
+       ],
+       "words": [
+        "σταθμός"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Πού είναι το ξενοδοχείο;",
+       "promptLang": "target",
+       "options": [
+        "The station is on the right.",
+        "Where is the toilet?",
+        "Where is the hotel?",
+        "Is it far?"
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "ξενοδοχείο",
+        "πού"
+       ],
+       "promptRoman": "Pou einai to xenodocheio?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "πού",
+         "Where"
+        ],
+        [
+         "αεροδρόμιο",
+         "Airport"
+        ],
+        [
+         "αριστερά",
+         "Left"
+        ],
+        [
+         "τουαλέτα",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "πού",
+        "αεροδρόμιο",
+        "αριστερά",
+        "τουαλέτα"
+       ],
+       "romans": [
+        "pou",
+        "aerodromio",
+        "aristera",
+        "toualeta"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answer": "σταθμός",
+       "words": [
+        "σταθμός"
+       ],
+       "options": [
+        "ξενοδοχείο",
+        "σταθμός",
+        "πού",
+        "δεξιά"
+       ],
+       "optionsRoman": [
+        "xenodocheio",
+        "stathmos",
+        "pou",
+        "dexia"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "είναι",
+        "το",
+        "αριστερά",
+        "Στρίψτε",
+        "τουαλέτα"
+       ],
+       "answer": [
+        "Στρίψτε",
+        "αριστερά"
+       ],
+       "accepted": [
+        "Στρίψε αριστερά."
+       ],
+       "words": [
+        "αριστερά"
+       ],
+       "tilesRoman": [
+        "einai",
+        "to",
+        "aristera",
+        "Stripste",
+        "toualeta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Ο σταθμός είναι δεξιά.",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "station",
+        "is",
+        "left",
+        "right",
+        "far",
+        "The",
+        "toilet",
+        "on"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "σταθμός",
+        "δεξιά"
+       ],
+       "promptRoman": "O stathmos einai dexia."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Είναι μακριά;",
+       "roman": "Einai makria?",
+       "translation": "Is it far?",
+       "words": [
+        "Είναι μακριά;"
+       ],
+       "options": [
+        "Στρίψτε αριστερά.",
+        "Ένα εισιτήριο, παρακαλώ.",
+        "Είναι μακριά;",
+        "Ο σταθμός είναι δεξιά."
+       ],
+       "optionsRoman": [
+        "Stripste aristera.",
+        "Ena eisitirio, parakalo.",
+        "Einai makria?",
+        "O stathmos einai dexia."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Ένα εισιτήριο, παρακαλώ.",
+       "roman": "Ena eisitirio, parakalo.",
+       "translation": "A ticket, please.",
+       "words": [
+        "παρακαλώ",
+        "ένα",
+        "εισιτήριο"
+       ],
+       "options": [
+        "Πού είναι το ξενοδοχείο;",
+        "Είναι μακριά;",
+        "Ο σταθμός είναι δεξιά.",
+        "Ένα εισιτήριο, παρακαλώ."
+       ],
+       "optionsRoman": [
+        "Pou einai to xenodocheio?",
+        "Einai makria?",
+        "O stathmos einai dexia.",
+        "Ena eisitirio, parakalo."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Πού είναι η τουαλέτα;",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "πού",
+        "τουαλέτα"
+       ],
+       "promptRoman": "Pou einai i toualeta?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Ticket",
+       "promptLang": "en",
+       "answers": [
+        "εισιτήριο",
+        "eisitirio",
+        "isitirio"
+       ],
+       "words": [
+        "εισιτήριο"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tips": [
+    "'Το πρωί' (to proi) means in the morning and 'τη νύχτα' (ti nychta) at night."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "σήμερα",
+      "e": "Today",
+      "r": "simera"
+     },
+     {
+      "t": "αύριο",
+      "e": "Tomorrow",
+      "r": "avrio"
+     },
+     {
+      "t": "τώρα",
+      "e": "Now",
+      "r": "tora"
+     },
+     {
+      "t": "πρωί",
+      "e": "Morning",
+      "r": "proi"
+     },
+     {
+      "t": "νύχτα",
+      "e": "Night",
+      "r": "nychta"
+     },
+     {
+      "t": "σπίτι",
+      "e": "House",
+      "r": "spiti"
+     },
+     {
+      "t": "δουλειά",
+      "e": "Work",
+      "r": "douleia"
+     },
+     {
+      "t": "σχολείο",
+      "e": "School",
+      "r": "scholeio"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Πηγαίνω στη δουλειά.",
+      "e": "I go to work.",
+      "r": "Pigaino sti douleia."
+     },
+     {
+      "t": "Είμαι στο σπίτι.",
+      "e": "I am at home.",
+      "r": "Eimai sto spiti."
+     },
+     {
+      "t": "Σήμερα είναι Δευτέρα.",
+      "e": "Today is Monday.",
+      "r": "Simera einai Deftera."
+     },
+     {
+      "t": "Πίνω καφέ το πρωί.",
+      "e": "I drink coffee in the morning.",
+      "r": "Pino kafe to proi."
+     },
+     {
+      "t": "Κοιμάμαι τη νύχτα.",
+      "e": "I sleep at night.",
+      "r": "Koimamai ti nychta."
+     },
+     {
+      "t": "Τα παιδιά πηγαίνουν στο σχολείο.",
+      "e": "The children go to school.",
+      "r": "Ta paidia pigainoun sto scholeio."
+     },
+     {
+      "t": "Τι ώρα είναι τώρα;",
+      "e": "What time is it now?",
+      "r": "Ti ora einai tora?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "σήμερα",
+       "e": "Today",
+       "kind": "word",
+       "r": "simera"
+      },
+      {
+       "t": "αύριο",
+       "e": "Tomorrow",
+       "kind": "word",
+       "r": "avrio"
+      },
+      {
+       "t": "τώρα",
+       "e": "Now",
+       "kind": "word",
+       "r": "tora"
+      },
+      {
+       "t": "πρωί",
+       "e": "Morning",
+       "kind": "word",
+       "r": "proi"
+      },
+      {
+       "t": "Πηγαίνω στη δουλειά.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "r": "Pigaino sti douleia.",
+       "alts": [
+        "Πάω στη δουλειά."
+       ]
+      },
+      {
+       "t": "Σήμερα είναι Δευτέρα.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "r": "Simera einai Deftera."
+      },
+      {
+       "t": "Είμαι στο σπίτι.",
+       "e": "I am at home.",
+       "kind": "phrase",
+       "r": "Eimai sto spiti."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "σήμερα",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Morning",
+        "Today",
+        "Now"
+       ],
+       "answer": "Today",
+       "words": [
+        "σήμερα"
+       ],
+       "promptRoman": "simera"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "αύριο",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "House",
+        "Morning",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "αύριο"
+       ],
+       "promptRoman": "avrio"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "σήμερα",
+         "Today"
+        ],
+        [
+         "αύριο",
+         "Tomorrow"
+        ],
+        [
+         "τώρα",
+         "Now"
+        ],
+        [
+         "πρωί",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "σήμερα",
+        "αύριο",
+        "τώρα",
+        "πρωί"
+       ],
+       "romans": [
+        "simera",
+        "avrio",
+        "tora",
+        "proi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "τώρα",
+       "words": [
+        "τώρα"
+       ],
+       "options": [
+        "σήμερα",
+        "αύριο",
+        "τώρα",
+        "σχολείο"
+       ],
+       "optionsRoman": [
+        "simera",
+        "avrio",
+        "tora",
+        "scholeio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "πρωί",
+       "promptLang": "target",
+       "options": [
+        "Morning",
+        "Tomorrow",
+        "Night",
+        "Today"
+       ],
+       "answer": "Morning",
+       "words": [
+        "πρωί"
+       ],
+       "promptRoman": "proi"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "Πηγαίνω",
+        "στη",
+        "καφέ",
+        "νύχτα",
+        "δουλειά",
+        "το"
+       ],
+       "answer": [
+        "Πηγαίνω",
+        "στη",
+        "δουλειά"
+       ],
+       "accepted": [
+        "Πάω στη δουλειά."
+       ],
+       "words": [
+        "δουλειά"
+       ],
+       "tilesRoman": [
+        "Pigaino",
+        "sti",
+        "kafe",
+        "nychta",
+        "douleia",
+        "to"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Σήμερα είναι Δευτέρα.",
+       "promptLang": "target",
+       "tiles": [
+        "time",
+        "is",
+        "Monday",
+        "drink",
+        "Today",
+        "coffee"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "σήμερα"
+       ],
+       "promptRoman": "Simera einai Deftera."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Είμαι στο σπίτι.",
+       "roman": "Eimai sto spiti.",
+       "translation": "I am at home.",
+       "words": [
+        "σπίτι"
+       ],
+       "options": [
+        "Τα παιδιά πηγαίνουν στο σχολείο.",
+        "Σήμερα είναι Δευτέρα.",
+        "Κοιμάμαι τη νύχτα.",
+        "Είμαι στο σπίτι."
+       ],
+       "optionsRoman": [
+        "Ta paidia pigainoun sto scholeio.",
+        "Simera einai Deftera.",
+        "Koimamai ti nychta.",
+        "Eimai sto spiti."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Πηγαίνω στη δουλειά.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "δουλειά"
+       ],
+       "promptRoman": "Pigaino sti douleia."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "νύχτα",
+       "e": "Night",
+       "kind": "word",
+       "r": "nychta"
+      },
+      {
+       "t": "σπίτι",
+       "e": "House",
+       "kind": "word",
+       "r": "spiti"
+      },
+      {
+       "t": "δουλειά",
+       "e": "Work",
+       "kind": "word",
+       "r": "douleia"
+      },
+      {
+       "t": "σχολείο",
+       "e": "School",
+       "kind": "word",
+       "r": "scholeio"
+      },
+      {
+       "t": "Πίνω καφέ το πρωί.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "r": "Pino kafe to proi."
+      },
+      {
+       "t": "Κοιμάμαι τη νύχτα.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "r": "Koimamai ti nychta."
+      },
+      {
+       "t": "Τα παιδιά πηγαίνουν στο σχολείο.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "r": "Ta paidia pigainoun sto scholeio."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "νύχτα",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Now",
+        "School",
+        "Today"
+       ],
+       "answer": "Night",
+       "words": [
+        "νύχτα"
+       ],
+       "promptRoman": "nychta"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "σπίτι",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Work",
+        "Night",
+        "House"
+       ],
+       "answer": "House",
+       "words": [
+        "σπίτι"
+       ],
+       "promptRoman": "spiti"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "νύχτα",
+         "Night"
+        ],
+        [
+         "σπίτι",
+         "House"
+        ],
+        [
+         "δουλειά",
+         "Work"
+        ],
+        [
+         "σχολείο",
+         "School"
+        ]
+       ],
+       "words": [
+        "νύχτα",
+        "σπίτι",
+        "δουλειά",
+        "σχολείο"
+       ],
+       "romans": [
+        "nychta",
+        "spiti",
+        "douleia",
+        "scholeio"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "δουλειά",
+       "words": [
+        "δουλειά"
+       ],
+       "options": [
+        "δουλειά",
+        "σήμερα",
+        "σχολείο",
+        "πρωί"
+       ],
+       "optionsRoman": [
+        "douleia",
+        "simera",
+        "scholeio",
+        "proi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "σχολείο",
+       "words": [
+        "σχολείο"
+       ],
+       "options": [
+        "σπίτι",
+        "πρωί",
+        "νύχτα",
+        "σχολείο"
+       ],
+       "optionsRoman": [
+        "spiti",
+        "proi",
+        "nychta",
+        "scholeio"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "πρωί",
+        "παιδιά",
+        "το",
+        "νύχτα",
+        "Πίνω",
+        "Πηγαίνω",
+        "καφέ"
+       ],
+       "answer": [
+        "Πίνω",
+        "καφέ",
+        "το",
+        "πρωί"
+       ],
+       "accepted": [],
+       "words": [
+        "πρωί"
+       ],
+       "tilesRoman": [
+        "proi",
+        "paidia",
+        "to",
+        "nychta",
+        "Pino",
+        "Pigaino",
+        "kafe"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Κοιμάμαι τη νύχτα.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "night",
+        "coffee",
+        "in",
+        "at",
+        "Monday",
+        "sleep"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "νύχτα"
+       ],
+       "promptRoman": "Koimamai ti nychta."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Πίνω καφέ το πρωί.",
+       "roman": "Pino kafe to proi.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "πρωί"
+       ],
+       "options": [
+        "Πηγαίνω στη δουλειά.",
+        "Τα παιδιά πηγαίνουν στο σχολείο.",
+        "Σήμερα είναι Δευτέρα.",
+        "Πίνω καφέ το πρωί."
+       ],
+       "optionsRoman": [
+        "Pigaino sti douleia.",
+        "Ta paidia pigainoun sto scholeio.",
+        "Simera einai Deftera.",
+        "Pino kafe to proi."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Τα παιδιά πηγαίνουν στο σχολείο.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "σχολείο"
+       ],
+       "promptRoman": "Ta paidia pigainoun sto scholeio."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "σήμερα",
+        "simera"
+       ],
+       "words": [
+        "σήμερα"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Τι ώρα είναι τώρα;",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "r": "Ti ora einai tora?",
+       "alts": [
+        "Τι ώρα είναι;"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "αύριο",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Tomorrow",
+        "Morning",
+        "Today"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "αύριο"
+       ],
+       "promptRoman": "avrio"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "σήμερα",
+         "Today"
+        ],
+        [
+         "πρωί",
+         "Morning"
+        ],
+        [
+         "σπίτι",
+         "House"
+        ],
+        [
+         "νύχτα",
+         "Night"
+        ],
+        [
+         "δουλειά",
+         "Work"
+        ]
+       ],
+       "words": [
+        "σήμερα",
+        "πρωί",
+        "σπίτι",
+        "νύχτα",
+        "δουλειά"
+       ],
+       "romans": [
+        "simera",
+        "proi",
+        "spiti",
+        "nychta",
+        "douleia"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Τι ώρα είναι τώρα;",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I drink coffee in the morning.",
+        "Today is Monday.",
+        "I sleep at night."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "τώρα"
+       ],
+       "promptRoman": "Ti ora einai tora?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Είμαι στο σπίτι.",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "children",
+        "am",
+        "sleep",
+        "I",
+        "home",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "σπίτι"
+       ],
+       "promptRoman": "Eimai sto spiti."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "τώρα",
+        "παιδιά",
+        "είναι",
+        "πηγαίνουν",
+        "ώρα",
+        "Τι",
+        "στο"
+       ],
+       "answer": [
+        "Τι",
+        "ώρα",
+        "είναι",
+        "τώρα"
+       ],
+       "accepted": [
+        "Τι ώρα είναι;"
+       ],
+       "words": [
+        "τώρα"
+       ],
+       "tilesRoman": [
+        "tora",
+        "paidia",
+        "einai",
+        "pigainoun",
+        "ora",
+        "Ti",
+        "sto"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "Σήμερα",
+        "είναι",
+        "σχολείο",
+        "Τα",
+        "στο",
+        "πηγαίνουν",
+        "παιδιά",
+        "σπίτι"
+       ],
+       "answer": [
+        "Τα",
+        "παιδιά",
+        "πηγαίνουν",
+        "στο",
+        "σχολείο"
+       ],
+       "accepted": [],
+       "words": [
+        "σχολείο"
+       ],
+       "tilesRoman": [
+        "Simera",
+        "einai",
+        "scholeio",
+        "Ta",
+        "sto",
+        "pigainoun",
+        "paidia",
+        "spiti"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Τα παιδιά πηγαίνουν στο σχολείο.",
+       "roman": "Ta paidia pigainoun sto scholeio.",
+       "translation": "The children go to school.",
+       "words": [
+        "σχολείο"
+       ],
+       "options": [
+        "Πίνω καφέ το πρωί.",
+        "Είμαι στο σπίτι.",
+        "Τα παιδιά πηγαίνουν στο σχολείο.",
+        "Τι ώρα είναι τώρα;"
+       ],
+       "optionsRoman": [
+        "Pino kafe to proi.",
+        "Eimai sto spiti.",
+        "Ta paidia pigainoun sto scholeio.",
+        "Ti ora einai tora?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Σήμερα είναι Δευτέρα.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "σήμερα"
+       ],
+       "promptRoman": "Simera einai Deftera."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "Πίνω",
+        "Τα",
+        "Τι",
+        "τη",
+        "Κοιμάμαι",
+        "νύχτα"
+       ],
+       "answer": [
+        "Κοιμάμαι",
+        "τη",
+        "νύχτα"
+       ],
+       "accepted": [],
+       "words": [
+        "νύχτα"
+       ],
+       "tilesRoman": [
+        "Pino",
+        "Ta",
+        "Ti",
+        "ti",
+        "Koimamai",
+        "nychta"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "αύριο",
+        "avrio"
+       ],
+       "words": [
+        "αύριο"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Πηγαίνω στη δουλειά.",
+       "promptLang": "target",
+       "options": [
+        "The children go to school.",
+        "I go to work.",
+        "Today is Monday.",
+        "What time is it now?"
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "δουλειά"
+       ],
+       "promptRoman": "Pigaino sti douleia."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "σπίτι",
+         "House"
+        ],
+        [
+         "αύριο",
+         "Tomorrow"
+        ],
+        [
+         "τώρα",
+         "Now"
+        ],
+        [
+         "δουλειά",
+         "Work"
+        ]
+       ],
+       "words": [
+        "σπίτι",
+        "αύριο",
+        "τώρα",
+        "δουλειά"
+       ],
+       "romans": [
+        "spiti",
+        "avrio",
+        "tora",
+        "douleia"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Night",
+       "promptLang": "en",
+       "answer": "νύχτα",
+       "words": [
+        "νύχτα"
+       ],
+       "options": [
+        "αύριο",
+        "πρωί",
+        "σήμερα",
+        "νύχτα"
+       ],
+       "optionsRoman": [
+        "avrio",
+        "proi",
+        "simera",
+        "nychta"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Greek",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "πηγαίνουν",
+        "Δευτέρα",
+        "είναι",
+        "Πηγαίνω",
+        "Σήμερα",
+        "σχολείο"
+       ],
+       "answer": [
+        "Σήμερα",
+        "είναι",
+        "Δευτέρα"
+       ],
+       "accepted": [],
+       "words": [
+        "σήμερα"
+       ],
+       "tilesRoman": [
+        "pigainoun",
+        "Deftera",
+        "einai",
+        "Pigaino",
+        "Simera",
+        "scholeio"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Πίνω καφέ το πρωί.",
+       "promptLang": "target",
+       "tiles": [
+        "morning",
+        "at",
+        "I",
+        "drink",
+        "coffee",
+        "it",
+        "the",
+        "is",
+        "in"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "πρωί"
+       ],
+       "promptRoman": "Pino kafe to proi."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Τι ώρα είναι τώρα;",
+       "roman": "Ti ora einai tora?",
+       "translation": "What time is it now?",
+       "words": [
+        "τώρα"
+       ],
+       "options": [
+        "Σήμερα είναι Δευτέρα.",
+        "Τα παιδιά πηγαίνουν στο σχολείο.",
+        "Κοιμάμαι τη νύχτα.",
+        "Τι ώρα είναι τώρα;"
+       ],
+       "optionsRoman": [
+        "Simera einai Deftera.",
+        "Ta paidia pigainoun sto scholeio.",
+        "Koimamai ti nychta.",
+        "Ti ora einai tora?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "Κοιμάμαι τη νύχτα.",
+       "roman": "Koimamai ti nychta.",
+       "translation": "I sleep at night.",
+       "words": [
+        "νύχτα"
+       ],
+       "options": [
+        "Κοιμάμαι τη νύχτα.",
+        "Σήμερα είναι Δευτέρα.",
+        "Είμαι στο σπίτι.",
+        "Τα παιδιά πηγαίνουν στο σχολείο."
+       ],
+       "optionsRoman": [
+        "Koimamai ti nychta.",
+        "Simera einai Deftera.",
+        "Eimai sto spiti.",
+        "Ta paidia pigainoun sto scholeio."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Είμαι στο σπίτι.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "σπίτι"
+       ],
+       "promptRoman": "Eimai sto spiti."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Greek",
+       "prompt": "School",
+       "promptLang": "en",
+       "answers": [
+        "σχολείο",
+        "scholeio",
+        "scholio"
+       ],
+       "words": [
+        "σχολείο"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

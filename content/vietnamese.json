@@ -1,0 +1,5625 @@
+{
+ "id": "vietnamese",
+ "title": "Vietnamese",
+ "shortName": "Vietnamese",
+ "nativeName": "Tiếng Việt",
+ "fromLanguage": "en",
+ "speechLang": "vi-VN",
+ "dir": "ltr",
+ "romanization": "",
+ "noSpaces": false,
+ "keyboard": [
+  "ă",
+  "â",
+  "đ",
+  "ê",
+  "ô",
+  "ơ",
+  "ư",
+  "à",
+  "á",
+  "ả",
+  "ã",
+  "ạ"
+ ],
+ "particles": [],
+ "order": 180,
+ "description": "Everyday Vietnamese: greetings, family, food, numbers, getting around and your day.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tips": [
+    "Vietnamese has six tones, shown by the accent marks: 'ma', 'má' and 'mà' are different words."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "xin chào",
+      "e": "Hello"
+     },
+     {
+      "t": "tạm biệt",
+      "e": "Goodbye"
+     },
+     {
+      "t": "cảm ơn",
+      "e": "Thank you"
+     },
+     {
+      "t": "làm ơn",
+      "e": "Please"
+     },
+     {
+      "t": "vâng",
+      "e": "Yes"
+     },
+     {
+      "t": "không",
+      "e": "No"
+     },
+     {
+      "t": "chào buổi sáng",
+      "e": "Good morning"
+     },
+     {
+      "t": "xin lỗi",
+      "e": "Sorry"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Bạn có khỏe không?",
+      "e": "How are you?"
+     },
+     {
+      "t": "Tôi khỏe, cảm ơn.",
+      "e": "I am fine, thank you."
+     },
+     {
+      "t": "Tôi tên là Anna.",
+      "e": "My name is Anna."
+     },
+     {
+      "t": "Rất vui được gặp bạn.",
+      "e": "Nice to meet you."
+     },
+     {
+      "t": "Cảm ơn rất nhiều.",
+      "e": "Thank you very much."
+     },
+     {
+      "t": "Hẹn gặp lại ngày mai.",
+      "e": "See you tomorrow."
+     },
+     {
+      "t": "Bạn tên là gì?",
+      "e": "What is your name?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "xin chào",
+       "e": "Hello",
+       "kind": "word",
+       "alts": [
+        "chào"
+       ]
+      },
+      {
+       "t": "tạm biệt",
+       "e": "Goodbye",
+       "kind": "word"
+      },
+      {
+       "t": "cảm ơn",
+       "e": "Thank you",
+       "kind": "word",
+       "alts": [
+        "cám ơn"
+       ]
+      },
+      {
+       "t": "làm ơn",
+       "e": "Please",
+       "kind": "word",
+       "alts": [
+        "xin"
+       ]
+      },
+      {
+       "t": "Bạn có khỏe không?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "alts": [
+        "Bạn khỏe không?"
+       ]
+      },
+      {
+       "t": "Tôi tên là Anna.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "alts": [
+        "Tên tôi là Anna."
+       ]
+      },
+      {
+       "t": "Tôi khỏe, cảm ơn.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "alts": [
+        "Tôi khỏe, cảm ơn bạn."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "xin chào",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Please",
+        "Goodbye",
+        "Sorry"
+       ],
+       "answer": "Hello",
+       "words": [
+        "xin chào"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tạm biệt",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Yes",
+        "Sorry",
+        "Goodbye"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "tạm biệt"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "xin chào",
+         "Hello"
+        ],
+        [
+         "tạm biệt",
+         "Goodbye"
+        ],
+        [
+         "cảm ơn",
+         "Thank you"
+        ],
+        [
+         "làm ơn",
+         "Please"
+        ]
+       ],
+       "words": [
+        "xin chào",
+        "tạm biệt",
+        "cảm ơn",
+        "làm ơn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "cảm ơn",
+       "words": [
+        "cảm ơn"
+       ],
+       "options": [
+        "cảm ơn",
+        "không",
+        "tạm biệt",
+        "xin chào"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "làm ơn",
+       "promptLang": "target",
+       "options": [
+        "No",
+        "Hello",
+        "Thank you",
+        "Please"
+       ],
+       "answer": "Please",
+       "words": [
+        "làm ơn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "không",
+        "có",
+        "gặp",
+        "cảm",
+        "Bạn",
+        "ngày",
+        "khỏe"
+       ],
+       "answer": [
+        "Bạn",
+        "có",
+        "khỏe",
+        "không"
+       ],
+       "accepted": [
+        "Bạn khỏe không?"
+       ],
+       "words": [
+        "vâng",
+        "không",
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi tên là Anna.",
+       "promptLang": "target",
+       "tiles": [
+        "Anna",
+        "much",
+        "How",
+        "is",
+        "name",
+        "My",
+        "See"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Tôi tên là Anna."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi khỏe, cảm ơn.",
+       "translation": "I am fine, thank you.",
+       "answers": [
+        "Tôi khỏe, cảm ơn."
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bạn có khỏe không?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "vâng",
+        "không",
+        "bạn"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "vâng",
+       "e": "Yes",
+       "kind": "word",
+       "alts": [
+        "dạ",
+        "có"
+       ]
+      },
+      {
+       "t": "không",
+       "e": "No",
+       "kind": "word"
+      },
+      {
+       "t": "chào buổi sáng",
+       "e": "Good morning",
+       "kind": "word"
+      },
+      {
+       "t": "xin lỗi",
+       "e": "Sorry",
+       "kind": "word"
+      },
+      {
+       "t": "Rất vui được gặp bạn.",
+       "e": "Nice to meet you.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Cảm ơn rất nhiều.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "alts": [
+        "Cảm ơn nhiều."
+       ]
+      },
+      {
+       "t": "Hẹn gặp lại ngày mai.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "alts": [
+        "Mai gặp lại."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vâng",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "No",
+        "Please",
+        "Yes"
+       ],
+       "answer": "Yes",
+       "words": [
+        "vâng"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "không",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "Hello",
+        "No",
+        "Good morning"
+       ],
+       "answer": "No",
+       "words": [
+        "không"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vâng",
+         "Yes"
+        ],
+        [
+         "không",
+         "No"
+        ],
+        [
+         "chào buổi sáng",
+         "Good morning"
+        ],
+        [
+         "xin lỗi",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "vâng",
+        "không",
+        "chào buổi sáng",
+        "xin lỗi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "chào buổi sáng",
+       "words": [
+        "chào buổi sáng"
+       ],
+       "options": [
+        "xin chào",
+        "cảm ơn",
+        "tạm biệt",
+        "chào buổi sáng"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "xin lỗi",
+       "words": [
+        "xin lỗi"
+       ],
+       "options": [
+        "làm ơn",
+        "xin lỗi",
+        "không",
+        "xin chào"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "bạn",
+        "gì",
+        "mai",
+        "vui",
+        "Anna",
+        "gặp",
+        "Rất",
+        "được"
+       ],
+       "answer": [
+        "Rất",
+        "vui",
+        "được",
+        "gặp",
+        "bạn"
+       ],
+       "accepted": [],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cảm ơn rất nhiều.",
+       "promptLang": "target",
+       "tiles": [
+        "you",
+        "fine",
+        "Anna",
+        "much",
+        "to",
+        "Thank",
+        "very"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Rất vui được gặp bạn.",
+       "translation": "Nice to meet you.",
+       "answers": [
+        "Rất vui được gặp bạn."
+       ],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hẹn gặp lại ngày mai.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "ngày mai"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "xin chào",
+        "chào"
+       ],
+       "words": [
+        "xin chào"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Bạn tên là gì?",
+       "e": "What is your name?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "tạm biệt",
+       "promptLang": "target",
+       "options": [
+        "Hello",
+        "Goodbye",
+        "Sorry",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "tạm biệt"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vâng",
+         "Yes"
+        ],
+        [
+         "tạm biệt",
+         "Goodbye"
+        ],
+        [
+         "cảm ơn",
+         "Thank you"
+        ],
+        [
+         "chào buổi sáng",
+         "Good morning"
+        ],
+        [
+         "xin lỗi",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "vâng",
+        "tạm biệt",
+        "cảm ơn",
+        "chào buổi sáng",
+        "xin lỗi"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Bạn tên là gì?",
+       "promptLang": "target",
+       "options": [
+        "What is your name?",
+        "Nice to meet you.",
+        "My name is Anna.",
+        "I am fine, thank you."
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi khỏe, cảm ơn.",
+       "promptLang": "target",
+       "tiles": [
+        "thank",
+        "My",
+        "is",
+        "I",
+        "meet",
+        "you",
+        "am",
+        "fine"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "Bạn",
+        "gì",
+        "tên",
+        "khỏe",
+        "ngày",
+        "là",
+        "Tôi"
+       ],
+       "answer": [
+        "Bạn",
+        "tên",
+        "là",
+        "gì"
+       ],
+       "accepted": [],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "vui",
+        "gặp",
+        "mai",
+        "lại",
+        "Hẹn",
+        "ơn",
+        "ngày",
+        "là"
+       ],
+       "answer": [
+        "Hẹn",
+        "gặp",
+        "lại",
+        "ngày",
+        "mai"
+       ],
+       "accepted": [
+        "Mai gặp lại."
+       ],
+       "words": [
+        "ngày mai"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Hẹn gặp lại ngày mai.",
+       "translation": "See you tomorrow.",
+       "answers": [
+        "Hẹn gặp lại ngày mai."
+       ],
+       "words": [
+        "ngày mai"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi tên là Anna.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "Tôi tên là Anna."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "answers": [
+        "Cảm ơn rất nhiều.",
+        "Cảm ơn nhiều."
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "tạm biệt"
+       ],
+       "words": [
+        "tạm biệt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Bạn có khỏe không?",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "How are you?",
+        "I am fine, thank you.",
+        "Thank you very much."
+       ],
+       "answer": "How are you?",
+       "words": [
+        "vâng",
+        "không",
+        "bạn"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "xin chào",
+         "Hello"
+        ],
+        [
+         "xin lỗi",
+         "Sorry"
+        ],
+        [
+         "làm ơn",
+         "Please"
+        ],
+        [
+         "không",
+         "No"
+        ]
+       ],
+       "words": [
+        "xin chào",
+        "xin lỗi",
+        "làm ơn",
+        "không"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "chào buổi sáng",
+       "words": [
+        "chào buổi sáng"
+       ],
+       "options": [
+        "cảm ơn",
+        "vâng",
+        "chào buổi sáng",
+        "xin chào"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "Anna",
+        "Tôi",
+        "tên",
+        "không",
+        "cảm",
+        "có",
+        "là"
+       ],
+       "answer": [
+        "Tôi",
+        "tên",
+        "là",
+        "Anna"
+       ],
+       "accepted": [
+        "Tên tôi là Anna."
+       ],
+       "words": [
+        "Tôi tên là Anna."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Rất vui được gặp bạn.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "What",
+        "you",
+        "How",
+        "Nice",
+        "fine",
+        "meet"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bạn tên là gì?",
+       "translation": "What is your name?",
+       "answers": [
+        "Bạn tên là gì?"
+       ],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cảm ơn rất nhiều.",
+       "translation": "Thank you very much.",
+       "answers": [
+        "Cảm ơn rất nhiều."
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi khỏe, cảm ơn.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answers": [
+        "cảm ơn",
+        "cám ơn"
+       ],
+       "words": [
+        "cảm ơn"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tips": [
+    "Words for 'he' and 'she' depend on age: 'anh ấy' (he, a young man), 'cô ấy' (she, a young woman)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "đàn ông",
+      "e": "Man"
+     },
+     {
+      "t": "phụ nữ",
+      "e": "Woman"
+     },
+     {
+      "t": "đứa trẻ",
+      "e": "Child"
+     },
+     {
+      "t": "bạn",
+      "e": "Friend"
+     },
+     {
+      "t": "mẹ",
+      "e": "Mother"
+     },
+     {
+      "t": "bố",
+      "e": "Father"
+     },
+     {
+      "t": "con trai",
+      "e": "Son"
+     },
+     {
+      "t": "con gái",
+      "e": "Daughter"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Đây là mẹ tôi.",
+      "e": "This is my mother."
+     },
+     {
+      "t": "Anh ấy là bạn tôi.",
+      "e": "He is my friend."
+     },
+     {
+      "t": "Tôi có một con trai.",
+      "e": "I have a son."
+     },
+     {
+      "t": "Bố tôi ở đâu?",
+      "e": "Where is my father?"
+     },
+     {
+      "t": "Mẹ tôi ở nhà.",
+      "e": "My mother is at home."
+     },
+     {
+      "t": "Cô ấy là con gái tôi.",
+      "e": "She is my daughter."
+     },
+     {
+      "t": "Người đàn ông này là ai?",
+      "e": "Who is this man?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "đàn ông",
+       "e": "Man",
+       "kind": "word",
+       "alts": [
+        "người đàn ông"
+       ]
+      },
+      {
+       "t": "phụ nữ",
+       "e": "Woman",
+       "kind": "word",
+       "alts": [
+        "người phụ nữ"
+       ]
+      },
+      {
+       "t": "đứa trẻ",
+       "e": "Child",
+       "kind": "word",
+       "alts": [
+        "trẻ em"
+       ]
+      },
+      {
+       "t": "bạn",
+       "e": "Friend",
+       "kind": "word",
+       "alts": [
+        "bạn bè"
+       ]
+      },
+      {
+       "t": "Đây là mẹ tôi.",
+       "e": "This is my mother.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tôi có một con trai.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "alts": [
+        "Tôi có một đứa con trai."
+       ]
+      },
+      {
+       "t": "Anh ấy là bạn tôi.",
+       "e": "He is my friend.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "đàn ông",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Man",
+        "Woman",
+        "Mother"
+       ],
+       "answer": "Man",
+       "words": [
+        "đàn ông"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "phụ nữ",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Friend",
+        "Man",
+        "Woman"
+       ],
+       "answer": "Woman",
+       "words": [
+        "phụ nữ"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "đàn ông",
+         "Man"
+        ],
+        [
+         "phụ nữ",
+         "Woman"
+        ],
+        [
+         "đứa trẻ",
+         "Child"
+        ],
+        [
+         "bạn",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "đàn ông",
+        "phụ nữ",
+        "đứa trẻ",
+        "bạn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "đứa trẻ",
+       "words": [
+        "đứa trẻ"
+       ],
+       "options": [
+        "đứa trẻ",
+        "bạn",
+        "con gái",
+        "mẹ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bạn",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Mother",
+        "Father",
+        "Friend"
+       ],
+       "answer": "Friend",
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "Đây",
+        "đâu",
+        "tôi",
+        "mẹ",
+        "nhà",
+        "Anh",
+        "là"
+       ],
+       "answer": [
+        "Đây",
+        "là",
+        "mẹ",
+        "tôi"
+       ],
+       "accepted": [],
+       "words": [
+        "mẹ"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi có một con trai.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "a",
+        "son",
+        "have",
+        "I",
+        "mother",
+        "He"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "vâng",
+        "con trai",
+        "một"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Anh ấy là bạn tôi.",
+       "translation": "He is my friend.",
+       "answers": [
+        "Anh ấy là bạn tôi."
+       ],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Đây là mẹ tôi.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "mẹ"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "mẹ",
+       "e": "Mother",
+       "kind": "word",
+       "alts": [
+        "má"
+       ]
+      },
+      {
+       "t": "bố",
+       "e": "Father",
+       "kind": "word",
+       "alts": [
+        "cha",
+        "ba"
+       ]
+      },
+      {
+       "t": "con trai",
+       "e": "Son",
+       "kind": "word"
+      },
+      {
+       "t": "con gái",
+       "e": "Daughter",
+       "kind": "word"
+      },
+      {
+       "t": "Bố tôi ở đâu?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "alts": [
+        "Ba tôi ở đâu?"
+       ]
+      },
+      {
+       "t": "Mẹ tôi ở nhà.",
+       "e": "My mother is at home.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Cô ấy là con gái tôi.",
+       "e": "She is my daughter.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "mẹ",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Woman",
+        "Mother",
+        "Daughter"
+       ],
+       "answer": "Mother",
+       "words": [
+        "mẹ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bố",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Mother",
+        "Father",
+        "Friend"
+       ],
+       "answer": "Father",
+       "words": [
+        "bố"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "mẹ",
+         "Mother"
+        ],
+        [
+         "bố",
+         "Father"
+        ],
+        [
+         "con trai",
+         "Son"
+        ],
+        [
+         "con gái",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "mẹ",
+        "bố",
+        "con trai",
+        "con gái"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "con trai",
+       "words": [
+        "con trai"
+       ],
+       "options": [
+        "bố",
+        "con trai",
+        "bạn",
+        "con gái"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "con gái",
+       "words": [
+        "con gái"
+       ],
+       "options": [
+        "con trai",
+        "bố",
+        "phụ nữ",
+        "con gái"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "Bố",
+        "này",
+        "tôi",
+        "nhà",
+        "ở",
+        "đàn",
+        "đâu"
+       ],
+       "answer": [
+        "Bố",
+        "tôi",
+        "ở",
+        "đâu"
+       ],
+       "accepted": [
+        "Ba tôi ở đâu?"
+       ],
+       "words": [
+        "bố",
+        "ở đâu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Mẹ tôi ở nhà.",
+       "promptLang": "target",
+       "tiles": [
+        "mother",
+        "My",
+        "is",
+        "This",
+        "Where",
+        "at",
+        "home",
+        "friend"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "mẹ",
+        "nhà"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bố tôi ở đâu?",
+       "translation": "Where is my father?",
+       "answers": [
+        "Bố tôi ở đâu?"
+       ],
+       "words": [
+        "bố",
+        "ở đâu"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Cô ấy là con gái tôi.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "con gái"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "đàn ông",
+        "người đàn ông"
+       ],
+       "words": [
+        "đàn ông"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Người đàn ông này là ai?",
+       "e": "Who is this man?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "phụ nữ",
+       "promptLang": "target",
+       "options": [
+        "Child",
+        "Woman",
+        "Daughter",
+        "Mother"
+       ],
+       "answer": "Woman",
+       "words": [
+        "phụ nữ"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "phụ nữ",
+         "Woman"
+        ],
+        [
+         "bố",
+         "Father"
+        ],
+        [
+         "con gái",
+         "Daughter"
+        ],
+        [
+         "đứa trẻ",
+         "Child"
+        ],
+        [
+         "con trai",
+         "Son"
+        ]
+       ],
+       "words": [
+        "phụ nữ",
+        "bố",
+        "con gái",
+        "đứa trẻ",
+        "con trai"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Người đàn ông này là ai?",
+       "promptLang": "target",
+       "options": [
+        "My mother is at home.",
+        "This is my mother.",
+        "He is my friend.",
+        "Who is this man?"
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "đàn ông"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Anh ấy là bạn tôi.",
+       "promptLang": "target",
+       "tiles": [
+        "my",
+        "is",
+        "friend",
+        "He",
+        "mother",
+        "Where",
+        "Who"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "đàn",
+        "này",
+        "ông",
+        "một",
+        "Người",
+        "mẹ",
+        "ai",
+        "là",
+        "bạn"
+       ],
+       "answer": [
+        "Người",
+        "đàn",
+        "ông",
+        "này",
+        "là",
+        "ai"
+       ],
+       "accepted": [],
+       "words": [
+        "đàn ông"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "Cô",
+        "là",
+        "một",
+        "tôi",
+        "con",
+        "gái",
+        "đàn",
+        "ông",
+        "ấy"
+       ],
+       "answer": [
+        "Cô",
+        "ấy",
+        "là",
+        "con",
+        "gái",
+        "tôi"
+       ],
+       "accepted": [],
+       "words": [
+        "con gái"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cô ấy là con gái tôi.",
+       "translation": "She is my daughter.",
+       "answers": [
+        "Cô ấy là con gái tôi."
+       ],
+       "words": [
+        "con gái"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi có một con trai.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "vâng",
+        "con trai",
+        "một"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "answers": [
+        "Mẹ tôi ở nhà."
+       ],
+       "words": [
+        "mẹ",
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "phụ nữ",
+        "người phụ nữ"
+       ],
+       "words": [
+        "phụ nữ"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Đây là mẹ tôi.",
+       "promptLang": "target",
+       "options": [
+        "Where is my father?",
+        "I have a son.",
+        "This is my mother.",
+        "He is my friend."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "mẹ"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "đàn ông",
+         "Man"
+        ],
+        [
+         "bạn",
+         "Friend"
+        ],
+        [
+         "mẹ",
+         "Mother"
+        ],
+        [
+         "đứa trẻ",
+         "Child"
+        ]
+       ],
+       "words": [
+        "đàn ông",
+        "bạn",
+        "mẹ",
+        "đứa trẻ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "con gái",
+       "words": [
+        "con gái"
+       ],
+       "options": [
+        "phụ nữ",
+        "con gái",
+        "mẹ",
+        "bạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "Tôi",
+        "Bố",
+        "bạn",
+        "là",
+        "con",
+        "một",
+        "có",
+        "trai"
+       ],
+       "answer": [
+        "Tôi",
+        "có",
+        "một",
+        "con",
+        "trai"
+       ],
+       "accepted": [
+        "Tôi có một đứa con trai."
+       ],
+       "words": [
+        "vâng",
+        "con trai",
+        "một"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Bố tôi ở đâu?",
+       "promptLang": "target",
+       "tiles": [
+        "father",
+        "have",
+        "daughter",
+        "my",
+        "is",
+        "Who",
+        "Where"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "bố",
+        "ở đâu"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Người đàn ông này là ai?",
+       "translation": "Who is this man?",
+       "answers": [
+        "Người đàn ông này là ai?"
+       ],
+       "words": [
+        "đàn ông"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Mẹ tôi ở nhà.",
+       "translation": "My mother is at home.",
+       "answers": [
+        "Mẹ tôi ở nhà."
+       ],
+       "words": [
+        "mẹ",
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Anh ấy là bạn tôi.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "bạn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Father",
+       "promptLang": "en",
+       "answers": [
+        "bố",
+        "cha",
+        "ba"
+       ],
+       "words": [
+        "bố"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tips": [
+    "'Cơm' is cooked rice and also means a meal; 'gạo' is uncooked rice."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "nước",
+      "e": "Water"
+     },
+     {
+      "t": "bánh mì",
+      "e": "Bread"
+     },
+     {
+      "t": "cà phê",
+      "e": "Coffee"
+     },
+     {
+      "t": "trà",
+      "e": "Tea"
+     },
+     {
+      "t": "sữa",
+      "e": "Milk"
+     },
+     {
+      "t": "táo",
+      "e": "Apple"
+     },
+     {
+      "t": "cơm",
+      "e": "Rice"
+     },
+     {
+      "t": "trứng",
+      "e": "Egg"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Cho tôi nước.",
+      "e": "Water, please."
+     },
+     {
+      "t": "Tôi uống cà phê.",
+      "e": "I drink coffee."
+     },
+     {
+      "t": "Tôi ăn bánh mì.",
+      "e": "I eat bread."
+     },
+     {
+      "t": "Trà nóng.",
+      "e": "The tea is hot."
+     },
+     {
+      "t": "Tôi không uống sữa.",
+      "e": "I do not drink milk."
+     },
+     {
+      "t": "Tôi thích táo.",
+      "e": "I like apples."
+     },
+     {
+      "t": "Tôi đói.",
+      "e": "I am hungry."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "nước",
+       "e": "Water",
+       "kind": "word"
+      },
+      {
+       "t": "bánh mì",
+       "e": "Bread",
+       "kind": "word"
+      },
+      {
+       "t": "cà phê",
+       "e": "Coffee",
+       "kind": "word"
+      },
+      {
+       "t": "trà",
+       "e": "Tea",
+       "kind": "word",
+       "alts": [
+        "chè"
+       ]
+      },
+      {
+       "t": "Cho tôi nước.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "alts": [
+        "Làm ơn cho tôi nước."
+       ]
+      },
+      {
+       "t": "Tôi ăn bánh mì.",
+       "e": "I eat bread.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tôi uống cà phê.",
+       "e": "I drink coffee.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nước",
+       "promptLang": "target",
+       "options": [
+        "Coffee",
+        "Bread",
+        "Apple",
+        "Water"
+       ],
+       "answer": "Water",
+       "words": [
+        "nước"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bánh mì",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Apple",
+        "Bread",
+        "Milk"
+       ],
+       "answer": "Bread",
+       "words": [
+        "bánh mì"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "nước",
+         "Water"
+        ],
+        [
+         "bánh mì",
+         "Bread"
+        ],
+        [
+         "cà phê",
+         "Coffee"
+        ],
+        [
+         "trà",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "nước",
+        "bánh mì",
+        "cà phê",
+        "trà"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "cà phê",
+       "words": [
+        "cà phê"
+       ],
+       "options": [
+        "trứng",
+        "cà phê",
+        "sữa",
+        "táo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "trà",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Rice",
+        "Water",
+        "Tea"
+       ],
+       "answer": "Tea",
+       "words": [
+        "trà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "phê",
+        "nước",
+        "sữa",
+        "đói",
+        "tôi",
+        "Cho"
+       ],
+       "answer": [
+        "Cho",
+        "tôi",
+        "nước"
+       ],
+       "accepted": [
+        "Làm ơn cho tôi nước."
+       ],
+       "words": [
+        "nước"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi ăn bánh mì.",
+       "promptLang": "target",
+       "tiles": [
+        "Water",
+        "I",
+        "am",
+        "drink",
+        "eat",
+        "bread"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "bánh mì"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi uống cà phê.",
+       "translation": "I drink coffee.",
+       "answers": [
+        "Tôi uống cà phê."
+       ],
+       "words": [
+        "cà phê"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Cho tôi nước.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "nước"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "sữa",
+       "e": "Milk",
+       "kind": "word"
+      },
+      {
+       "t": "táo",
+       "e": "Apple",
+       "kind": "word",
+       "alts": [
+        "quả táo"
+       ]
+      },
+      {
+       "t": "cơm",
+       "e": "Rice",
+       "kind": "word",
+       "alts": [
+        "gạo"
+       ]
+      },
+      {
+       "t": "trứng",
+       "e": "Egg",
+       "kind": "word"
+      },
+      {
+       "t": "Trà nóng.",
+       "e": "The tea is hot.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tôi không uống sữa.",
+       "e": "I do not drink milk.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tôi thích táo.",
+       "e": "I like apples.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sữa",
+       "promptLang": "target",
+       "options": [
+        "Egg",
+        "Milk",
+        "Coffee",
+        "Apple"
+       ],
+       "answer": "Milk",
+       "words": [
+        "sữa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "táo",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Apple",
+        "Coffee",
+        "Tea"
+       ],
+       "answer": "Apple",
+       "words": [
+        "táo"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "sữa",
+         "Milk"
+        ],
+        [
+         "táo",
+         "Apple"
+        ],
+        [
+         "cơm",
+         "Rice"
+        ],
+        [
+         "trứng",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "sữa",
+        "táo",
+        "cơm",
+        "trứng"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "cơm",
+       "words": [
+        "cơm"
+       ],
+       "options": [
+        "bánh mì",
+        "cà phê",
+        "táo",
+        "cơm"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "trứng",
+       "words": [
+        "trứng"
+       ],
+       "options": [
+        "bánh mì",
+        "cơm",
+        "trứng",
+        "sữa"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "Cho",
+        "uống",
+        "Trà",
+        "cà",
+        "nóng"
+       ],
+       "answer": [
+        "Trà",
+        "nóng"
+       ],
+       "accepted": [],
+       "words": [
+        "trà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi không uống sữa.",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "not",
+        "do",
+        "like",
+        "milk",
+        "coffee",
+        "drink",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "không",
+        "sữa"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Trà nóng.",
+       "translation": "The tea is hot.",
+       "answers": [
+        "Trà nóng."
+       ],
+       "words": [
+        "trà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi thích táo.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "táo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "nước"
+       ],
+       "words": [
+        "nước"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Tôi đói.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "alts": [
+        "Tôi đói bụng."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bánh mì",
+       "promptLang": "target",
+       "options": [
+        "Egg",
+        "Water",
+        "Apple",
+        "Bread"
+       ],
+       "answer": "Bread",
+       "words": [
+        "bánh mì"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "táo",
+         "Apple"
+        ],
+        [
+         "cà phê",
+         "Coffee"
+        ],
+        [
+         "trứng",
+         "Egg"
+        ],
+        [
+         "nước",
+         "Water"
+        ],
+        [
+         "sữa",
+         "Milk"
+        ]
+       ],
+       "words": [
+        "táo",
+        "cà phê",
+        "trứng",
+        "nước",
+        "sữa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tôi đói.",
+       "promptLang": "target",
+       "options": [
+        "I do not drink milk.",
+        "I eat bread.",
+        "Water, please.",
+        "I am hungry."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "Tôi đói."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi uống cà phê.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "drink",
+        "do",
+        "is",
+        "coffee",
+        "bread"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "cà phê"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "Tôi",
+        "cà",
+        "bánh",
+        "mì",
+        "đói"
+       ],
+       "answer": [
+        "Tôi",
+        "đói"
+       ],
+       "accepted": [
+        "Tôi đói bụng."
+       ],
+       "words": [
+        "Tôi đói."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "đói",
+        "mì",
+        "táo",
+        "thích",
+        "không",
+        "Tôi"
+       ],
+       "answer": [
+        "Tôi",
+        "thích",
+        "táo"
+       ],
+       "accepted": [],
+       "words": [
+        "táo"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi thích táo.",
+       "translation": "I like apples.",
+       "answers": [
+        "Tôi thích táo."
+       ],
+       "words": [
+        "táo"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi ăn bánh mì.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "bánh mì"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "answers": [
+        "Tôi không uống sữa."
+       ],
+       "words": [
+        "không",
+        "sữa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "bánh mì"
+       ],
+       "words": [
+        "bánh mì"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Cho tôi nước.",
+       "promptLang": "target",
+       "options": [
+        "I am hungry.",
+        "The tea is hot.",
+        "I do not drink milk.",
+        "Water, please."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "nước"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "trà",
+         "Tea"
+        ],
+        [
+         "bánh mì",
+         "Bread"
+        ],
+        [
+         "táo",
+         "Apple"
+        ],
+        [
+         "nước",
+         "Water"
+        ]
+       ],
+       "words": [
+        "trà",
+        "bánh mì",
+        "táo",
+        "nước"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "cơm",
+       "words": [
+        "cơm"
+       ],
+       "options": [
+        "nước",
+        "bánh mì",
+        "cơm",
+        "trà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "mì",
+        "uống",
+        "nước",
+        "ăn",
+        "bánh",
+        "không",
+        "Tôi"
+       ],
+       "answer": [
+        "Tôi",
+        "ăn",
+        "bánh",
+        "mì"
+       ],
+       "accepted": [],
+       "words": [
+        "bánh mì"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Trà nóng.",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "eat",
+        "tea",
+        "Water",
+        "hot",
+        "is",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "trà"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi đói.",
+       "translation": "I am hungry.",
+       "answers": [
+        "Tôi đói."
+       ],
+       "words": [
+        "Tôi đói."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi không uống sữa.",
+       "translation": "I do not drink milk.",
+       "answers": [
+        "Tôi không uống sữa."
+       ],
+       "words": [
+        "không",
+        "sữa"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi uống cà phê.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "cà phê"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answers": [
+        "cà phê"
+       ],
+       "words": [
+        "cà phê"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tips": [
+    "Counting words come before nouns: 'bốn quả táo' (four apples), 'hai đứa con' (two children)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "một",
+      "e": "One"
+     },
+     {
+      "t": "hai",
+      "e": "Two"
+     },
+     {
+      "t": "ba",
+      "e": "Three"
+     },
+     {
+      "t": "bốn",
+      "e": "Four"
+     },
+     {
+      "t": "năm",
+      "e": "Five"
+     },
+     {
+      "t": "sáu",
+      "e": "Six"
+     },
+     {
+      "t": "bảy",
+      "e": "Seven"
+     },
+     {
+      "t": "tám",
+      "e": "Eight"
+     },
+     {
+      "t": "chín",
+      "e": "Nine"
+     },
+     {
+      "t": "mười",
+      "e": "Ten"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Tôi có hai con.",
+      "e": "I have two children."
+     },
+     {
+      "t": "Bao nhiêu tiền?",
+      "e": "How much is it?"
+     },
+     {
+      "t": "Tôi có bốn quả táo.",
+      "e": "I have four apples."
+     },
+     {
+      "t": "Cho tôi một cà phê.",
+      "e": "One coffee, please."
+     },
+     {
+      "t": "Cho tôi hai trà.",
+      "e": "Two teas, please."
+     },
+     {
+      "t": "Bây giờ là ba giờ.",
+      "e": "It is three o'clock."
+     },
+     {
+      "t": "Xin chờ một chút.",
+      "e": "One moment, please."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "một",
+       "e": "One",
+       "kind": "word"
+      },
+      {
+       "t": "hai",
+       "e": "Two",
+       "kind": "word"
+      },
+      {
+       "t": "ba",
+       "e": "Three",
+       "kind": "word"
+      },
+      {
+       "t": "bốn",
+       "e": "Four",
+       "kind": "word"
+      },
+      {
+       "t": "Tôi có hai con.",
+       "e": "I have two children.",
+       "kind": "phrase",
+       "alts": [
+        "Tôi có hai đứa con."
+       ]
+      },
+      {
+       "t": "Tôi có bốn quả táo.",
+       "e": "I have four apples.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Bao nhiêu tiền?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "alts": [
+        "Cái này bao nhiêu tiền?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "một",
+       "promptLang": "target",
+       "options": [
+        "Three",
+        "Eight",
+        "One",
+        "Six"
+       ],
+       "answer": "One",
+       "words": [
+        "một"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hai",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Four",
+        "Eight",
+        "Two"
+       ],
+       "answer": "Two",
+       "words": [
+        "hai"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "một",
+         "One"
+        ],
+        [
+         "hai",
+         "Two"
+        ],
+        [
+         "ba",
+         "Three"
+        ],
+        [
+         "bốn",
+         "Four"
+        ]
+       ],
+       "words": [
+        "một",
+        "hai",
+        "ba",
+        "bốn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "ba",
+       "words": [
+        "ba"
+       ],
+       "options": [
+        "năm",
+        "hai",
+        "bảy",
+        "ba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bốn",
+       "promptLang": "target",
+       "options": [
+        "Four",
+        "Five",
+        "Nine",
+        "Seven"
+       ],
+       "answer": "Four",
+       "words": [
+        "bốn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "có",
+        "chút",
+        "một",
+        "quả",
+        "hai",
+        "Tôi",
+        "con"
+       ],
+       "answer": [
+        "Tôi",
+        "có",
+        "hai",
+        "con"
+       ],
+       "accepted": [
+        "Tôi có hai đứa con."
+       ],
+       "words": [
+        "vâng",
+        "hai"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi có bốn quả táo.",
+       "promptLang": "target",
+       "tiles": [
+        "apples",
+        "I",
+        "please",
+        "One",
+        "have",
+        "four",
+        "two"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "vâng",
+        "táo",
+        "bốn"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bao nhiêu tiền?",
+       "translation": "How much is it?",
+       "answers": [
+        "Bao nhiêu tiền?"
+       ],
+       "words": [
+        "Bao nhiêu tiền?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi có hai con.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "vâng",
+        "hai"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "năm",
+       "e": "Five",
+       "kind": "word"
+      },
+      {
+       "t": "sáu",
+       "e": "Six",
+       "kind": "word"
+      },
+      {
+       "t": "bảy",
+       "e": "Seven",
+       "kind": "word"
+      },
+      {
+       "t": "tám",
+       "e": "Eight",
+       "kind": "word"
+      },
+      {
+       "t": "Cho tôi một cà phê.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "alts": [
+        "Một cà phê, làm ơn."
+       ]
+      },
+      {
+       "t": "Cho tôi hai trà.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "alts": [
+        "Hai trà, làm ơn."
+       ]
+      },
+      {
+       "t": "Bây giờ là ba giờ.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "alts": [
+        "Ba giờ."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "năm",
+       "promptLang": "target",
+       "options": [
+        "One",
+        "Three",
+        "Four",
+        "Five"
+       ],
+       "answer": "Five",
+       "words": [
+        "năm"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "sáu",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Two",
+        "One",
+        "Six"
+       ],
+       "answer": "Six",
+       "words": [
+        "sáu"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "năm",
+         "Five"
+        ],
+        [
+         "sáu",
+         "Six"
+        ],
+        [
+         "bảy",
+         "Seven"
+        ],
+        [
+         "tám",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "năm",
+        "sáu",
+        "bảy",
+        "tám"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "bảy",
+       "words": [
+        "bảy"
+       ],
+       "options": [
+        "mười",
+        "bảy",
+        "hai",
+        "bốn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "tám",
+       "words": [
+        "tám"
+       ],
+       "options": [
+        "tám",
+        "năm",
+        "một",
+        "bảy"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "chút",
+        "tiền",
+        "phê",
+        "một",
+        "tôi",
+        "cà",
+        "giờ",
+        "Cho"
+       ],
+       "answer": [
+        "Cho",
+        "tôi",
+        "một",
+        "cà",
+        "phê"
+       ],
+       "accepted": [
+        "Một cà phê, làm ơn."
+       ],
+       "words": [
+        "cà phê",
+        "một"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cho tôi hai trà.",
+       "promptLang": "target",
+       "tiles": [
+        "Two",
+        "it",
+        "teas",
+        "I",
+        "three",
+        "please"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "trà",
+        "hai"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cho tôi một cà phê.",
+       "translation": "One coffee, please.",
+       "answers": [
+        "Cho tôi một cà phê."
+       ],
+       "words": [
+        "cà phê",
+        "một"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bây giờ là ba giờ.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "bố",
+        "ba",
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "một"
+       ],
+       "words": [
+        "một"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "chín",
+       "e": "Nine",
+       "kind": "word"
+      },
+      {
+       "t": "mười",
+       "e": "Ten",
+       "kind": "word"
+      },
+      {
+       "t": "Xin chờ một chút.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "alts": [
+        "Chờ một chút."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "chín",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Seven",
+        "One",
+        "Six"
+       ],
+       "answer": "Nine",
+       "words": [
+        "chín"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hai",
+         "Two"
+        ],
+        [
+         "chín",
+         "Nine"
+        ],
+        [
+         "tám",
+         "Eight"
+        ],
+        [
+         "năm",
+         "Five"
+        ],
+        [
+         "mười",
+         "Ten"
+        ]
+       ],
+       "words": [
+        "hai",
+        "chín",
+        "tám",
+        "năm",
+        "mười"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Xin chờ một chút.",
+       "promptLang": "target",
+       "options": [
+        "Two teas, please.",
+        "I have two children.",
+        "One moment, please.",
+        "How much is it?"
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "làm ơn",
+        "một"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Bao nhiêu tiền?",
+       "promptLang": "target",
+       "tiles": [
+        "it",
+        "two",
+        "How",
+        "three",
+        "is",
+        "coffee",
+        "much"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Bao nhiêu tiền?"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "trà",
+        "Xin",
+        "chút",
+        "Bây",
+        "chờ",
+        "là",
+        "một"
+       ],
+       "answer": [
+        "Xin",
+        "chờ",
+        "một",
+        "chút"
+       ],
+       "accepted": [
+        "Chờ một chút."
+       ],
+       "words": [
+        "làm ơn",
+        "một"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "giờ",
+        "ba",
+        "quả",
+        "giờ",
+        "Bây",
+        "con",
+        "là",
+        "nhiêu"
+       ],
+       "answer": [
+        "Bây",
+        "giờ",
+        "là",
+        "ba",
+        "giờ"
+       ],
+       "accepted": [
+        "Ba giờ."
+       ],
+       "words": [
+        "bố",
+        "ba",
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bây giờ là ba giờ.",
+       "translation": "It is three o'clock.",
+       "answers": [
+        "Bây giờ là ba giờ."
+       ],
+       "words": [
+        "bố",
+        "ba",
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi có bốn quả táo.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "vâng",
+        "táo",
+        "bốn"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "answers": [
+        "Cho tôi hai trà.",
+        "Hai trà, làm ơn."
+       ],
+       "words": [
+        "trà",
+        "hai"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "mười"
+       ],
+       "words": [
+        "mười"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tôi có hai con.",
+       "promptLang": "target",
+       "options": [
+        "I have two children.",
+        "One coffee, please.",
+        "I have four apples.",
+        "How much is it?"
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "vâng",
+        "hai"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "một",
+         "One"
+        ],
+        [
+         "chín",
+         "Nine"
+        ],
+        [
+         "ba",
+         "Three"
+        ],
+        [
+         "hai",
+         "Two"
+        ]
+       ],
+       "words": [
+        "một",
+        "chín",
+        "ba",
+        "hai"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Four",
+       "promptLang": "en",
+       "answer": "bốn",
+       "words": [
+        "bốn"
+       ],
+       "options": [
+        "bảy",
+        "một",
+        "bốn",
+        "chín"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "Tôi",
+        "con",
+        "táo",
+        "có",
+        "quả",
+        "bốn",
+        "nhiêu",
+        "Bao"
+       ],
+       "answer": [
+        "Tôi",
+        "có",
+        "bốn",
+        "quả",
+        "táo"
+       ],
+       "accepted": [],
+       "words": [
+        "vâng",
+        "táo",
+        "bốn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cho tôi một cà phê.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "coffee",
+        "One",
+        "please",
+        "is",
+        "moment"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "cà phê",
+        "một"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Xin chờ một chút.",
+       "translation": "One moment, please.",
+       "answers": [
+        "Xin chờ một chút."
+       ],
+       "words": [
+        "làm ơn",
+        "một"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cho tôi hai trà.",
+       "translation": "Two teas, please.",
+       "answers": [
+        "Cho tôi hai trà."
+       ],
+       "words": [
+        "trà",
+        "hai"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bao nhiêu tiền?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "Bao nhiêu tiền?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answers": [
+        "bảy"
+       ],
+       "words": [
+        "bảy"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tips": [
+    "'Ở đâu' (where) goes at the end: 'Khách sạn ở đâu?' = Hotel is where?"
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "khách sạn",
+      "e": "Hotel"
+     },
+     {
+      "t": "nhà ga",
+      "e": "Station"
+     },
+     {
+      "t": "sân bay",
+      "e": "Airport"
+     },
+     {
+      "t": "vé",
+      "e": "Ticket"
+     },
+     {
+      "t": "bên trái",
+      "e": "Left"
+     },
+     {
+      "t": "bên phải",
+      "e": "Right"
+     },
+     {
+      "t": "ở đâu",
+      "e": "Where"
+     },
+     {
+      "t": "nhà vệ sinh",
+      "e": "Toilet"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Khách sạn ở đâu?",
+      "e": "Where is the hotel?"
+     },
+     {
+      "t": "Nhà vệ sinh ở đâu?",
+      "e": "Where is the toilet?"
+     },
+     {
+      "t": "Rẽ trái.",
+      "e": "Turn left."
+     },
+     {
+      "t": "Nhà ga ở bên phải.",
+      "e": "The station is on the right."
+     },
+     {
+      "t": "Cho tôi một vé.",
+      "e": "A ticket, please."
+     },
+     {
+      "t": "Tôi đi sân bay.",
+      "e": "I am going to the airport."
+     },
+     {
+      "t": "Có xa không?",
+      "e": "Is it far?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "khách sạn",
+       "e": "Hotel",
+       "kind": "word"
+      },
+      {
+       "t": "nhà ga",
+       "e": "Station",
+       "kind": "word",
+       "alts": [
+        "ga"
+       ]
+      },
+      {
+       "t": "sân bay",
+       "e": "Airport",
+       "kind": "word"
+      },
+      {
+       "t": "vé",
+       "e": "Ticket",
+       "kind": "word"
+      },
+      {
+       "t": "Khách sạn ở đâu?",
+       "e": "Where is the hotel?",
+       "kind": "phrase"
+      },
+      {
+       "t": "Rẽ trái.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "alts": [
+        "Quẹo trái."
+       ]
+      },
+      {
+       "t": "Nhà vệ sinh ở đâu?",
+       "e": "Where is the toilet?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "khách sạn",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Airport",
+        "Ticket",
+        "Hotel"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "khách sạn"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nhà ga",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Airport",
+        "Station",
+        "Right"
+       ],
+       "answer": "Station",
+       "words": [
+        "nhà ga"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "khách sạn",
+         "Hotel"
+        ],
+        [
+         "nhà ga",
+         "Station"
+        ],
+        [
+         "sân bay",
+         "Airport"
+        ],
+        [
+         "vé",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "khách sạn",
+        "nhà ga",
+        "sân bay",
+        "vé"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "sân bay",
+       "words": [
+        "sân bay"
+       ],
+       "options": [
+        "khách sạn",
+        "bên trái",
+        "nhà ga",
+        "sân bay"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "vé",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Ticket",
+        "Left",
+        "Right"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "vé"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "đi",
+        "bay",
+        "sạn",
+        "Khách",
+        "đâu",
+        "vệ",
+        "ở"
+       ],
+       "answer": [
+        "Khách",
+        "sạn",
+        "ở",
+        "đâu"
+       ],
+       "accepted": [],
+       "words": [
+        "khách sạn",
+        "ở đâu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Rẽ trái.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "Turn",
+        "station",
+        "left",
+        "airport"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "bên trái"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Nhà vệ sinh ở đâu?",
+       "translation": "Where is the toilet?",
+       "answers": [
+        "Nhà vệ sinh ở đâu?"
+       ],
+       "words": [
+        "ở đâu",
+        "nhà vệ sinh",
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Khách sạn ở đâu?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "khách sạn",
+        "ở đâu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "bên trái",
+       "e": "Left",
+       "kind": "word",
+       "alts": [
+        "trái"
+       ]
+      },
+      {
+       "t": "bên phải",
+       "e": "Right",
+       "kind": "word",
+       "alts": [
+        "phải"
+       ]
+      },
+      {
+       "t": "ở đâu",
+       "e": "Where",
+       "kind": "word",
+       "alts": [
+        "đâu"
+       ]
+      },
+      {
+       "t": "nhà vệ sinh",
+       "e": "Toilet",
+       "kind": "word"
+      },
+      {
+       "t": "Nhà ga ở bên phải.",
+       "e": "The station is on the right.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Cho tôi một vé.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "alts": [
+        "Một vé, làm ơn."
+       ]
+      },
+      {
+       "t": "Tôi đi sân bay.",
+       "e": "I am going to the airport.",
+       "kind": "phrase",
+       "alts": [
+        "Tôi đi ra sân bay."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bên trái",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Hotel",
+        "Toilet",
+        "Left"
+       ],
+       "answer": "Left",
+       "words": [
+        "bên trái"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "bên phải",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Airport",
+        "Station",
+        "Right"
+       ],
+       "answer": "Right",
+       "words": [
+        "bên phải"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "bên trái",
+         "Left"
+        ],
+        [
+         "bên phải",
+         "Right"
+        ],
+        [
+         "ở đâu",
+         "Where"
+        ],
+        [
+         "nhà vệ sinh",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "bên trái",
+        "bên phải",
+        "ở đâu",
+        "nhà vệ sinh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "ở đâu",
+       "words": [
+        "ở đâu"
+       ],
+       "options": [
+        "ở đâu",
+        "vé",
+        "nhà ga",
+        "sân bay"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "nhà vệ sinh",
+       "words": [
+        "nhà vệ sinh"
+       ],
+       "options": [
+        "nhà ga",
+        "nhà vệ sinh",
+        "vé",
+        "khách sạn"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "bên",
+        "ga",
+        "phải",
+        "ở",
+        "tôi",
+        "bay",
+        "đâu",
+        "Nhà"
+       ],
+       "answer": [
+        "Nhà",
+        "ga",
+        "ở",
+        "bên",
+        "phải"
+       ],
+       "accepted": [],
+       "words": [
+        "nhà ga",
+        "bên phải",
+        "nhà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Cho tôi một vé.",
+       "promptLang": "target",
+       "tiles": [
+        "ticket",
+        "A",
+        "airport",
+        "it",
+        "please",
+        "am"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "một",
+        "vé"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Nhà ga ở bên phải.",
+       "translation": "The station is on the right.",
+       "answers": [
+        "Nhà ga ở bên phải."
+       ],
+       "words": [
+        "nhà ga",
+        "bên phải",
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi đi sân bay.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "sân bay"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "khách sạn"
+       ],
+       "words": [
+        "khách sạn"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Có xa không?",
+       "e": "Is it far?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nhà ga",
+       "promptLang": "target",
+       "options": [
+        "Airport",
+        "Station",
+        "Right",
+        "Ticket"
+       ],
+       "answer": "Station",
+       "words": [
+        "nhà ga"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "vé",
+         "Ticket"
+        ],
+        [
+         "nhà ga",
+         "Station"
+        ],
+        [
+         "ở đâu",
+         "Where"
+        ],
+        [
+         "nhà vệ sinh",
+         "Toilet"
+        ],
+        [
+         "bên phải",
+         "Right"
+        ]
+       ],
+       "words": [
+        "vé",
+        "nhà ga",
+        "ở đâu",
+        "nhà vệ sinh",
+        "bên phải"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Có xa không?",
+       "promptLang": "target",
+       "options": [
+        "Where is the toilet?",
+        "Is it far?",
+        "The station is on the right.",
+        "Turn left."
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "vâng",
+        "không"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Nhà vệ sinh ở đâu?",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "far",
+        "A",
+        "the",
+        "Where",
+        "going",
+        "toilet"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "ở đâu",
+        "nhà vệ sinh",
+        "nhà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "xa",
+        "không",
+        "trái",
+        "Có",
+        "Khách",
+        "ở"
+       ],
+       "answer": [
+        "Có",
+        "xa",
+        "không"
+       ],
+       "accepted": [],
+       "words": [
+        "vâng",
+        "không"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "không",
+        "sân",
+        "Cho",
+        "sạn",
+        "đi",
+        "bay",
+        "Tôi"
+       ],
+       "answer": [
+        "Tôi",
+        "đi",
+        "sân",
+        "bay"
+       ],
+       "accepted": [
+        "Tôi đi ra sân bay."
+       ],
+       "words": [
+        "sân bay"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi đi sân bay.",
+       "translation": "I am going to the airport.",
+       "answers": [
+        "Tôi đi sân bay."
+       ],
+       "words": [
+        "sân bay"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Rẽ trái.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "bên trái"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "answers": [
+        "Cho tôi một vé.",
+        "Một vé, làm ơn."
+       ],
+       "words": [
+        "một",
+        "vé"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "nhà ga",
+        "ga"
+       ],
+       "words": [
+        "nhà ga"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Khách sạn ở đâu?",
+       "promptLang": "target",
+       "options": [
+        "Where is the hotel?",
+        "Is it far?",
+        "The station is on the right.",
+        "Where is the toilet?"
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "khách sạn",
+        "ở đâu"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "khách sạn",
+         "Hotel"
+        ],
+        [
+         "ở đâu",
+         "Where"
+        ],
+        [
+         "vé",
+         "Ticket"
+        ],
+        [
+         "bên phải",
+         "Right"
+        ]
+       ],
+       "words": [
+        "khách sạn",
+        "ở đâu",
+        "vé",
+        "bên phải"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "sân bay",
+       "words": [
+        "sân bay"
+       ],
+       "options": [
+        "bên phải",
+        "sân bay",
+        "nhà vệ sinh",
+        "ở đâu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "xa",
+        "Rẽ",
+        "phải",
+        "trái",
+        "đi"
+       ],
+       "answer": [
+        "Rẽ",
+        "trái"
+       ],
+       "accepted": [
+        "Quẹo trái."
+       ],
+       "words": [
+        "bên trái"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Nhà ga ở bên phải.",
+       "promptLang": "target",
+       "tiles": [
+        "far",
+        "is",
+        "right",
+        "it",
+        "please",
+        "The",
+        "on",
+        "the",
+        "station"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "nhà ga",
+        "bên phải",
+        "nhà"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Có xa không?",
+       "translation": "Is it far?",
+       "answers": [
+        "Có xa không?"
+       ],
+       "words": [
+        "vâng",
+        "không"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Cho tôi một vé.",
+       "translation": "A ticket, please.",
+       "answers": [
+        "Cho tôi một vé."
+       ],
+       "words": [
+        "một",
+        "vé"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Nhà vệ sinh ở đâu?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "ở đâu",
+        "nhà vệ sinh",
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answers": [
+        "nhà vệ sinh"
+       ],
+       "words": [
+        "nhà vệ sinh"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tips": [
+    "Verbs never change: 'tôi đi', 'bạn đi', 'họ đi' (I go, you go, they go)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "hôm nay",
+      "e": "Today"
+     },
+     {
+      "t": "ngày mai",
+      "e": "Tomorrow"
+     },
+     {
+      "t": "bây giờ",
+      "e": "Now"
+     },
+     {
+      "t": "buổi sáng",
+      "e": "Morning"
+     },
+     {
+      "t": "ban đêm",
+      "e": "Night"
+     },
+     {
+      "t": "nhà",
+      "e": "House"
+     },
+     {
+      "t": "công việc",
+      "e": "Work"
+     },
+     {
+      "t": "trường học",
+      "e": "School"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "Tôi đi làm.",
+      "e": "I go to work."
+     },
+     {
+      "t": "Tôi ở nhà.",
+      "e": "I am at home."
+     },
+     {
+      "t": "Hôm nay là thứ Hai.",
+      "e": "Today is Monday."
+     },
+     {
+      "t": "Tôi uống cà phê vào buổi sáng.",
+      "e": "I drink coffee in the morning."
+     },
+     {
+      "t": "Tôi ngủ vào ban đêm.",
+      "e": "I sleep at night."
+     },
+     {
+      "t": "Bọn trẻ đi học.",
+      "e": "The children go to school."
+     },
+     {
+      "t": "Bây giờ là mấy giờ?",
+      "e": "What time is it now?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "hôm nay",
+       "e": "Today",
+       "kind": "word"
+      },
+      {
+       "t": "ngày mai",
+       "e": "Tomorrow",
+       "kind": "word"
+      },
+      {
+       "t": "bây giờ",
+       "e": "Now",
+       "kind": "word"
+      },
+      {
+       "t": "buổi sáng",
+       "e": "Morning",
+       "kind": "word"
+      },
+      {
+       "t": "Tôi đi làm.",
+       "e": "I go to work.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Hôm nay là thứ Hai.",
+       "e": "Today is Monday.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tôi ở nhà.",
+       "e": "I am at home.",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "hôm nay",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "Night",
+        "Today",
+        "Tomorrow"
+       ],
+       "answer": "Today",
+       "words": [
+        "hôm nay"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ngày mai",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Today",
+        "Tomorrow",
+        "Night"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "ngày mai"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hôm nay",
+         "Today"
+        ],
+        [
+         "ngày mai",
+         "Tomorrow"
+        ],
+        [
+         "bây giờ",
+         "Now"
+        ],
+        [
+         "buổi sáng",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "hôm nay",
+        "ngày mai",
+        "bây giờ",
+        "buổi sáng"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "bây giờ",
+       "words": [
+        "bây giờ"
+       ],
+       "options": [
+        "buổi sáng",
+        "nhà",
+        "công việc",
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "buổi sáng",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "Now",
+        "Tomorrow",
+        "Morning"
+       ],
+       "answer": "Morning",
+       "words": [
+        "buổi sáng"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "Bây",
+        "đi",
+        "nhà",
+        "Tôi",
+        "sáng",
+        "làm"
+       ],
+       "answer": [
+        "Tôi",
+        "đi",
+        "làm"
+       ],
+       "accepted": [],
+       "words": [
+        "Tôi đi làm."
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Hôm nay là thứ Hai.",
+       "promptLang": "target",
+       "tiles": [
+        "school",
+        "is",
+        "Today",
+        "Monday",
+        "now",
+        "coffee"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "hai",
+        "hôm nay"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi ở nhà.",
+       "translation": "I am at home.",
+       "answers": [
+        "Tôi ở nhà."
+       ],
+       "words": [
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi đi làm.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "Tôi đi làm."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "ban đêm",
+       "e": "Night",
+       "kind": "word",
+       "alts": [
+        "đêm"
+       ]
+      },
+      {
+       "t": "nhà",
+       "e": "House",
+       "kind": "word"
+      },
+      {
+       "t": "công việc",
+       "e": "Work",
+       "kind": "word"
+      },
+      {
+       "t": "trường học",
+       "e": "School",
+       "kind": "word",
+       "alts": [
+        "trường"
+       ]
+      },
+      {
+       "t": "Tôi uống cà phê vào buổi sáng.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Tôi ngủ vào ban đêm.",
+       "e": "I sleep at night.",
+       "kind": "phrase"
+      },
+      {
+       "t": "Bọn trẻ đi học.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "alts": [
+        "Trẻ em đi học."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ban đêm",
+       "promptLang": "target",
+       "options": [
+        "Night",
+        "Tomorrow",
+        "House",
+        "Morning"
+       ],
+       "answer": "Night",
+       "words": [
+        "ban đêm"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "nhà",
+       "promptLang": "target",
+       "options": [
+        "Work",
+        "House",
+        "School",
+        "Morning"
+       ],
+       "answer": "House",
+       "words": [
+        "nhà"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ban đêm",
+         "Night"
+        ],
+        [
+         "nhà",
+         "House"
+        ],
+        [
+         "công việc",
+         "Work"
+        ],
+        [
+         "trường học",
+         "School"
+        ]
+       ],
+       "words": [
+        "ban đêm",
+        "nhà",
+        "công việc",
+        "trường học"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "công việc",
+       "words": [
+        "công việc"
+       ],
+       "options": [
+        "ban đêm",
+        "nhà",
+        "buổi sáng",
+        "công việc"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "trường học",
+       "words": [
+        "trường học"
+       ],
+       "options": [
+        "bây giờ",
+        "công việc",
+        "hôm nay",
+        "trường học"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "cà",
+        "vào",
+        "Hai",
+        "Tôi",
+        "nhà",
+        "sáng",
+        "uống",
+        "ngủ",
+        "phê",
+        "buổi"
+       ],
+       "answer": [
+        "Tôi",
+        "uống",
+        "cà",
+        "phê",
+        "vào",
+        "buổi",
+        "sáng"
+       ],
+       "accepted": [],
+       "words": [
+        "cà phê",
+        "buổi sáng"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi ngủ vào ban đêm.",
+       "promptLang": "target",
+       "tiles": [
+        "in",
+        "I",
+        "coffee",
+        "to",
+        "night",
+        "sleep",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "ban đêm"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi uống cà phê vào buổi sáng.",
+       "translation": "I drink coffee in the morning.",
+       "answers": [
+        "Tôi uống cà phê vào buổi sáng."
+       ],
+       "words": [
+        "cà phê",
+        "buổi sáng"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Bọn trẻ đi học.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "Bọn trẻ đi học."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "hôm nay"
+       ],
+       "words": [
+        "hôm nay"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "Bây giờ là mấy giờ?",
+       "e": "What time is it now?",
+       "kind": "phrase"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ngày mai",
+       "promptLang": "target",
+       "options": [
+        "Tomorrow",
+        "School",
+        "Today",
+        "Morning"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "ngày mai"
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "hôm nay",
+         "Today"
+        ],
+        [
+         "ngày mai",
+         "Tomorrow"
+        ],
+        [
+         "công việc",
+         "Work"
+        ],
+        [
+         "bây giờ",
+         "Now"
+        ],
+        [
+         "trường học",
+         "School"
+        ]
+       ],
+       "words": [
+        "hôm nay",
+        "ngày mai",
+        "công việc",
+        "bây giờ",
+        "trường học"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Bây giờ là mấy giờ?",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "Today is Monday.",
+        "I am at home.",
+        "The children go to school."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi ở nhà.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "at",
+        "sleep",
+        "home",
+        "in",
+        "I",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "nhà"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "giờ",
+        "là",
+        "nay",
+        "mấy",
+        "nhà",
+        "giờ",
+        "ngủ",
+        "Bây"
+       ],
+       "answer": [
+        "Bây",
+        "giờ",
+        "là",
+        "mấy",
+        "giờ"
+       ],
+       "accepted": [],
+       "words": [
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "giờ",
+        "trẻ",
+        "uống",
+        "Bọn",
+        "Hai",
+        "học",
+        "đi"
+       ],
+       "answer": [
+        "Bọn",
+        "trẻ",
+        "đi",
+        "học"
+       ],
+       "accepted": [
+        "Trẻ em đi học."
+       ],
+       "words": [
+        "Bọn trẻ đi học."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bọn trẻ đi học.",
+       "translation": "The children go to school.",
+       "answers": [
+        "Bọn trẻ đi học."
+       ],
+       "words": [
+        "Bọn trẻ đi học."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Hôm nay là thứ Hai.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "hai",
+        "hôm nay"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "answers": [
+        "Tôi ngủ vào ban đêm."
+       ],
+       "words": [
+        "ban đêm"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "ngày mai"
+       ],
+       "words": [
+        "ngày mai"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "Tôi đi làm.",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "The children go to school.",
+        "I drink coffee in the morning.",
+        "I go to work."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "Tôi đi làm."
+       ]
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "buổi sáng",
+         "Morning"
+        ],
+        [
+         "ban đêm",
+         "Night"
+        ],
+        [
+         "ngày mai",
+         "Tomorrow"
+        ],
+        [
+         "bây giờ",
+         "Now"
+        ]
+       ],
+       "words": [
+        "buổi sáng",
+        "ban đêm",
+        "ngày mai",
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "công việc",
+       "words": [
+        "công việc"
+       ],
+       "options": [
+        "công việc",
+        "hôm nay",
+        "nhà",
+        "buổi sáng"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Vietnamese",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "là",
+        "Hai",
+        "Hôm",
+        "ngủ",
+        "Bọn",
+        "thứ",
+        "nay",
+        "uống"
+       ],
+       "answer": [
+        "Hôm",
+        "nay",
+        "là",
+        "thứ",
+        "Hai"
+       ],
+       "accepted": [],
+       "words": [
+        "hai",
+        "hôm nay"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "Tôi uống cà phê vào buổi sáng.",
+       "promptLang": "target",
+       "tiles": [
+        "time",
+        "I",
+        "drink",
+        "in",
+        "now",
+        "the",
+        "morning",
+        "am",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "cà phê",
+        "buổi sáng"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Bây giờ là mấy giờ?",
+       "translation": "What time is it now?",
+       "answers": [
+        "Bây giờ là mấy giờ?"
+       ],
+       "words": [
+        "bây giờ"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Type what you hear",
+       "text": "Tôi ngủ vào ban đêm.",
+       "translation": "I sleep at night.",
+       "answers": [
+        "Tôi ngủ vào ban đêm."
+       ],
+       "words": [
+        "ban đêm"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "Tôi ở nhà.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "nhà"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Vietnamese",
+       "prompt": "House",
+       "promptLang": "en",
+       "answers": [
+        "nhà"
+       ],
+       "words": [
+        "nhà"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
