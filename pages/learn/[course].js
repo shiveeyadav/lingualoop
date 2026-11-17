@@ -35,13 +35,13 @@ export async function getServerSideProps(ctx) {
 // Zig-zag offsets for the path nodes (in units of node width), repeating.
 const OFFSETS = [0, 0.6, 0.9, 0.6, 0, -0.6, -0.9, -0.6];
 
-function PathNode({ lesson, number, state, current, courseId, unitTitle, offset }) {
+function PathNode({ lesson, number, state, current, courseId, unitTitle, offset, last }) {
   const done = state.times > 0;
   const locked = !state.unlocked;
   const status = locked ? 'locked' : done ? 'completed' : current ? 'start here' : 'open';
   const label = 'Lesson ' + number + ': ' + lesson.title + ' (' + unitTitle + '), ' + status;
   const cls = 'path-node' + (done ? ' is-done' : '') + (locked ? ' is-locked' : '') + (current ? ' is-current' : '');
-  const icon = locked ? 'lock' : done ? 'check' : current ? 'star' : 'bolt';
+  const icon = last && !done ? 'crown' : locked ? 'lock' : done ? 'check' : current ? 'star' : 'bolt';
   return (
     <li className={'path-item' + (current ? ' has-bubble' : '')} style={{ '--offset': offset }}>
       {current ? (
@@ -97,6 +97,7 @@ function Unit({ unit, index, map, courseId, currentId }) {
             courseId={courseId}
             unitTitle={unit.title}
             offset={OFFSETS[(index * 2 + i) % OFFSETS.length]}
+            last={i === unit.lessons.length - 1}
           />
         ))}
       </ol>
