@@ -1,6 +1,6 @@
 # LinguaLoop
 
-A Duolingo-style language app: short, game-like lessons in **20 languages**, all taught from English. You get XP, daily streaks (UK date), a daily XP goal, hearts, a learning-path map with locked and unlocked lessons, a mistakes review at the end of each lesson, a weekly leaderboard and spaced-repetition practice. You can try a lesson as a guest without signing up, and your progress is kept when you create a profile.
+A Duolingo-style language app: short, game-like lessons in **21 languages**, all taught from English. You get XP, daily streaks (UK date), a daily XP goal, hearts, a learning-path map with locked and unlocked lessons, a mistakes review at the end of each lesson, a weekly leaderboard and spaced-repetition practice. You can try a lesson as a guest without signing up, and your progress is kept when you create a profile.
 
 Stack: Next.js 14 (pages router, plain JavaScript), PostgreSQL (`pg`), `bcryptjs`, plain CSS. Sessions use an httpOnly cookie backed by the `sessions` table. No other dependencies.
 
@@ -108,7 +108,7 @@ npm run build && npm start  # production: start runs init-db, then next start -p
 3. **Set the environment:** `DATABASE_URL`, `SESSION_SECRET`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`, and `DATABASE_SSL=true` if the database needs TLS. Leave `PORT` alone if the platform injects it, otherwise set `PORT=3000` and expose port 3000.
 4. **Health check path:** `/api/health` (returns 503 if the database is unreachable).
 5. **Domain and HTTPS:** attach the domain and enable TLS on the platform's proxy. Session cookies are `Secure`, so login needs HTTPS in production.
-6. **Deploy.** The logs should show `content ok` for all 20 courses, then `schema applied`, then the admin line. If course content is invalid, the deploy fails here instead of breaking at runtime.
+6. **Deploy.** The logs should show `content ok` for all 21 courses, then `schema applied`, then the admin line. If course content is invalid, the deploy fails here instead of breaking at runtime.
 7. Log in with the admin account and open `/admin`.
 
 **Updates:** push and redeploy. The schema is idempotent and runs on every start.

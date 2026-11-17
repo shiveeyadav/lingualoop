@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en-GB">
       <Head>
-        <meta name="description" content="LinguaLoop: short, game-like lessons in 20 languages, from Spanish, French and Swedish to Arabic, Hindi, Vietnamese, Chinese, Japanese and Korean." />
+        <meta name="description" content="LinguaLoop: short, game-like lessons in 21 languages, from Spanish, French and Swedish to Arabic, Hebrew, Hindi, Vietnamese, Chinese, Japanese and Korean." />
         <meta name="theme-color" content="#0c1121" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

@@ -1,0 +1,7921 @@
+{
+ "id": "hebrew",
+ "title": "Hebrew",
+ "shortName": "Hebrew",
+ "nativeName": "עברית",
+ "fromLanguage": "en",
+ "speechLang": "he-IL",
+ "dir": "rtl",
+ "romanization": "transliteration",
+ "noSpaces": false,
+ "keyboard": [],
+ "particles": [],
+ "order": 105,
+ "description": "Modern Hebrew as spoken in Israel, written right to left with transliteration: greetings, family, food, numbers, travel, your day and shopping.",
+ "units": [
+  {
+   "id": "u1",
+   "title": "Greetings",
+   "description": "Say hello, introduce yourself and be polite.",
+   "icon": "wave",
+   "tips": [
+    "Hebrew is written from right to left, and everyday text leaves out the vowels: 'שלום' is read shalom.",
+    "'שלום' (shalom) means hello, goodbye and peace. 'להתראות' (lehitra'ot) is see you / goodbye."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "שלום",
+      "e": "Hello",
+      "r": "shalom"
+     },
+     {
+      "t": "להתראות",
+      "e": "Goodbye",
+      "r": "lehitra'ot"
+     },
+     {
+      "t": "תודה",
+      "e": "Thank you",
+      "r": "toda"
+     },
+     {
+      "t": "בבקשה",
+      "e": "Please",
+      "r": "bevakasha"
+     },
+     {
+      "t": "כן",
+      "e": "Yes",
+      "r": "ken"
+     },
+     {
+      "t": "לא",
+      "e": "No",
+      "r": "lo"
+     },
+     {
+      "t": "בוקר טוב",
+      "e": "Good morning",
+      "r": "boker tov"
+     },
+     {
+      "t": "סליחה",
+      "e": "Sorry",
+      "r": "slicha"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "מה שלומך?",
+      "e": "How are you?",
+      "r": "ma shlomcha?"
+     },
+     {
+      "t": "אני בסדר, תודה.",
+      "e": "I am fine, thank you.",
+      "r": "ani beseder, toda."
+     },
+     {
+      "t": "קוראים לי אנה.",
+      "e": "My name is Anna.",
+      "r": "kor'im li Anna."
+     },
+     {
+      "t": "נעים מאוד.",
+      "e": "Nice to meet you.",
+      "r": "na'im me'od."
+     },
+     {
+      "t": "תודה רבה.",
+      "e": "Thank you very much.",
+      "r": "toda raba."
+     },
+     {
+      "t": "נתראה מחר.",
+      "e": "See you tomorrow.",
+      "r": "nitra'e machar."
+     },
+     {
+      "t": "איך קוראים לך?",
+      "e": "What is your name?",
+      "r": "eich kor'im lecha?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u1l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "שלום",
+       "e": "Hello",
+       "kind": "word",
+       "r": "shalom",
+       "alts": [
+        "היי"
+       ]
+      },
+      {
+       "t": "להתראות",
+       "e": "Goodbye",
+       "kind": "word",
+       "r": "lehitra'ot",
+       "alts": [
+        "ביי"
+       ]
+      },
+      {
+       "t": "תודה",
+       "e": "Thank you",
+       "kind": "word",
+       "r": "toda"
+      },
+      {
+       "t": "בבקשה",
+       "e": "Please",
+       "kind": "word",
+       "r": "bevakasha"
+      },
+      {
+       "t": "מה שלומך?",
+       "e": "How are you?",
+       "kind": "phrase",
+       "r": "ma shlomcha?",
+       "alts": [
+        "מה נשמע?"
+       ]
+      },
+      {
+       "t": "קוראים לי אנה.",
+       "e": "My name is Anna.",
+       "kind": "phrase",
+       "r": "kor'im li Anna.",
+       "alts": [
+        "שמי אנה."
+       ]
+      },
+      {
+       "t": "אני בסדר, תודה.",
+       "e": "I am fine, thank you.",
+       "kind": "phrase",
+       "r": "ani beseder, toda."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "שלום",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "Yes",
+        "Thank you",
+        "Hello"
+       ],
+       "answer": "Hello",
+       "words": [
+        "שלום"
+       ],
+       "promptRoman": "shalom"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "להתראות",
+       "promptLang": "target",
+       "options": [
+        "Thank you",
+        "Sorry",
+        "Goodbye",
+        "Please"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "להתראות"
+       ],
+       "promptRoman": "lehitra'ot"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "שלום",
+         "Hello"
+        ],
+        [
+         "להתראות",
+         "Goodbye"
+        ],
+        [
+         "תודה",
+         "Thank you"
+        ],
+        [
+         "בבקשה",
+         "Please"
+        ]
+       ],
+       "words": [
+        "שלום",
+        "להתראות",
+        "תודה",
+        "בבקשה"
+       ],
+       "romans": [
+        "shalom",
+        "lehitra'ot",
+        "toda",
+        "bevakasha"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Thank you",
+       "promptLang": "en",
+       "answer": "תודה",
+       "words": [
+        "תודה"
+       ],
+       "options": [
+        "כן",
+        "תודה",
+        "לא",
+        "שלום"
+       ],
+       "optionsRoman": [
+        "ken",
+        "toda",
+        "lo",
+        "shalom"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "בבקשה",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "Good morning",
+        "Sorry",
+        "Hello"
+       ],
+       "answer": "Please",
+       "words": [
+        "בבקשה"
+       ],
+       "promptRoman": "bevakasha"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "How are you?",
+       "promptLang": "en",
+       "tiles": [
+        "מאוד",
+        "מחר",
+        "מה",
+        "שלומך",
+        "איך"
+       ],
+       "answer": [
+        "מה",
+        "שלומך"
+       ],
+       "accepted": [
+        "מה נשמע?"
+       ],
+       "words": [
+        "מה שלומך?"
+       ],
+       "tilesRoman": [
+        "me'od",
+        "machar",
+        "ma",
+        "shlomcha",
+        "eich"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "קוראים לי אנה.",
+       "promptLang": "target",
+       "tiles": [
+        "name",
+        "See",
+        "is",
+        "My",
+        "Anna",
+        "are",
+        "to"
+       ],
+       "answer": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "accepted": [
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "קוראים לי אנה."
+       ],
+       "promptRoman": "kor'im li Anna."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני בסדר, תודה.",
+       "roman": "ani beseder, toda.",
+       "translation": "I am fine, thank you.",
+       "words": [
+        "תודה"
+       ],
+       "options": [
+        "מה שלומך?",
+        "איך קוראים לך?",
+        "נעים מאוד.",
+        "אני בסדר, תודה."
+       ],
+       "optionsRoman": [
+        "ma shlomcha?",
+        "eich kor'im lecha?",
+        "na'im me'od.",
+        "ani beseder, toda."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "מה שלומך?",
+       "promptLang": "target",
+       "answers": [
+        "How are you?",
+        "How are you doing?"
+       ],
+       "words": [
+        "מה שלומך?"
+       ],
+       "promptRoman": "ma shlomcha?"
+      }
+     ]
+    },
+    {
+     "id": "u1l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "כן",
+       "e": "Yes",
+       "kind": "word",
+       "r": "ken"
+      },
+      {
+       "t": "לא",
+       "e": "No",
+       "kind": "word",
+       "r": "lo"
+      },
+      {
+       "t": "בוקר טוב",
+       "e": "Good morning",
+       "kind": "word",
+       "r": "boker tov"
+      },
+      {
+       "t": "סליחה",
+       "e": "Sorry",
+       "kind": "word",
+       "r": "slicha",
+       "alts": [
+        "מצטער",
+        "מצטערת"
+       ]
+      },
+      {
+       "t": "נעים מאוד.",
+       "e": "Nice to meet you.",
+       "kind": "phrase",
+       "r": "na'im me'od.",
+       "alts": [
+        "נעים להכיר."
+       ]
+      },
+      {
+       "t": "תודה רבה.",
+       "e": "Thank you very much.",
+       "kind": "phrase",
+       "r": "toda raba."
+      },
+      {
+       "t": "נתראה מחר.",
+       "e": "See you tomorrow.",
+       "kind": "phrase",
+       "r": "nitra'e machar.",
+       "alts": [
+        "להתראות מחר."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "כן",
+       "promptLang": "target",
+       "options": [
+        "Yes",
+        "Good morning",
+        "Sorry",
+        "Goodbye"
+       ],
+       "answer": "Yes",
+       "words": [
+        "כן"
+       ],
+       "promptRoman": "ken"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "לא",
+       "promptLang": "target",
+       "options": [
+        "Goodbye",
+        "No",
+        "Yes",
+        "Hello"
+       ],
+       "answer": "No",
+       "words": [
+        "לא"
+       ],
+       "promptRoman": "lo"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "כן",
+         "Yes"
+        ],
+        [
+         "לא",
+         "No"
+        ],
+        [
+         "בוקר טוב",
+         "Good morning"
+        ],
+        [
+         "סליחה",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "כן",
+        "לא",
+        "בוקר טוב",
+        "סליחה"
+       ],
+       "romans": [
+        "ken",
+        "lo",
+        "boker tov",
+        "slicha"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Good morning",
+       "promptLang": "en",
+       "answer": "בוקר טוב",
+       "words": [
+        "בוקר טוב"
+       ],
+       "options": [
+        "בוקר טוב",
+        "כן",
+        "לא",
+        "שלום"
+       ],
+       "optionsRoman": [
+        "boker tov",
+        "ken",
+        "lo",
+        "shalom"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Sorry",
+       "promptLang": "en",
+       "answer": "סליחה",
+       "words": [
+        "סליחה"
+       ],
+       "options": [
+        "בוקר טוב",
+        "תודה",
+        "להתראות",
+        "סליחה"
+       ],
+       "optionsRoman": [
+        "boker tov",
+        "toda",
+        "lehitra'ot",
+        "slicha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Nice to meet you.",
+       "promptLang": "en",
+       "tiles": [
+        "איך",
+        "מאוד",
+        "נעים",
+        "תודה",
+        "שלומך"
+       ],
+       "answer": [
+        "נעים",
+        "מאוד"
+       ],
+       "accepted": [
+        "נעים להכיר."
+       ],
+       "words": [
+        "נעים מאוד."
+       ],
+       "tilesRoman": [
+        "eich",
+        "me'od",
+        "na'im",
+        "toda",
+        "shlomcha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "תודה רבה.",
+       "promptLang": "target",
+       "tiles": [
+        "much",
+        "Thank",
+        "very",
+        "you",
+        "name",
+        "am",
+        "I"
+       ],
+       "answer": [
+        "Thank",
+        "you",
+        "very",
+        "much"
+       ],
+       "accepted": [
+        "Thanks a lot.",
+        "Many thanks.",
+        "Thank you so much."
+       ],
+       "words": [
+        "תודה"
+       ],
+       "promptRoman": "toda raba."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "נעים מאוד.",
+       "roman": "na'im me'od.",
+       "translation": "Nice to meet you.",
+       "words": [
+        "נעים מאוד."
+       ],
+       "options": [
+        "נתראה מחר.",
+        "מה שלומך?",
+        "אני בסדר, תודה.",
+        "נעים מאוד."
+       ],
+       "optionsRoman": [
+        "nitra'e machar.",
+        "ma shlomcha?",
+        "ani beseder, toda.",
+        "na'im me'od."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "נתראה מחר.",
+       "promptLang": "target",
+       "answers": [
+        "See you tomorrow.",
+        "Until tomorrow."
+       ],
+       "words": [
+        "מחר"
+       ],
+       "promptRoman": "nitra'e machar."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answers": [
+        "שלום",
+        "היי",
+        "shalom"
+       ],
+       "words": [
+        "שלום"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "איך קוראים לך?",
+       "e": "What is your name?",
+       "kind": "phrase",
+       "r": "eich kor'im lecha?",
+       "alts": [
+        "מה שמך?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "להתראות",
+       "promptLang": "target",
+       "options": [
+        "Please",
+        "No",
+        "Goodbye",
+        "Good morning"
+       ],
+       "answer": "Goodbye",
+       "words": [
+        "להתראות"
+       ],
+       "promptRoman": "lehitra'ot"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "שלום",
+         "Hello"
+        ],
+        [
+         "בבקשה",
+         "Please"
+        ],
+        [
+         "כן",
+         "Yes"
+        ],
+        [
+         "תודה",
+         "Thank you"
+        ],
+        [
+         "סליחה",
+         "Sorry"
+        ]
+       ],
+       "words": [
+        "שלום",
+        "בבקשה",
+        "כן",
+        "תודה",
+        "סליחה"
+       ],
+       "romans": [
+        "shalom",
+        "bevakasha",
+        "ken",
+        "toda",
+        "slicha"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "איך קוראים לך?",
+       "promptLang": "target",
+       "options": [
+        "Nice to meet you.",
+        "See you tomorrow.",
+        "I am fine, thank you.",
+        "What is your name?"
+       ],
+       "answer": "What is your name?",
+       "words": [
+        "איך קוראים לך?"
+       ],
+       "promptRoman": "eich kor'im lecha?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני בסדר, תודה.",
+       "promptLang": "target",
+       "tiles": [
+        "thank",
+        "very",
+        "fine",
+        "Nice",
+        "My",
+        "I",
+        "you",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "fine",
+        "thank",
+        "you"
+       ],
+       "accepted": [
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "תודה"
+       ],
+       "promptRoman": "ani beseder, toda."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "What is your name?",
+       "promptLang": "en",
+       "tiles": [
+        "איך",
+        "רבה",
+        "בסדר",
+        "קוראים",
+        "לך",
+        "אנה"
+       ],
+       "answer": [
+        "איך",
+        "קוראים",
+        "לך"
+       ],
+       "accepted": [
+        "מה שמך?"
+       ],
+       "words": [
+        "איך קוראים לך?"
+       ],
+       "tilesRoman": [
+        "eich",
+        "raba",
+        "beseder",
+        "kor'im",
+        "lecha",
+        "Anna"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "See you tomorrow.",
+       "promptLang": "en",
+       "tiles": [
+        "מה",
+        "נתראה",
+        "מחר",
+        "תודה",
+        "אנה"
+       ],
+       "answer": [
+        "נתראה",
+        "מחר"
+       ],
+       "accepted": [
+        "להתראות מחר."
+       ],
+       "words": [
+        "מחר"
+       ],
+       "tilesRoman": [
+        "ma",
+        "nitra'e",
+        "machar",
+        "toda",
+        "Anna"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "נתראה מחר.",
+       "roman": "nitra'e machar.",
+       "translation": "See you tomorrow.",
+       "words": [
+        "מחר"
+       ],
+       "options": [
+        "נתראה מחר.",
+        "תודה רבה.",
+        "איך קוראים לך?",
+        "מה שלומך?"
+       ],
+       "optionsRoman": [
+        "nitra'e machar.",
+        "toda raba.",
+        "eich kor'im lecha?",
+        "ma shlomcha?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "קוראים לי אנה.",
+       "promptLang": "target",
+       "answers": [
+        "My name is Anna.",
+        "I am Anna.",
+        "I am called Anna."
+       ],
+       "words": [
+        "קוראים לי אנה."
+       ],
+       "promptRoman": "kor'im li Anna."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Thank you very much.",
+       "promptLang": "en",
+       "tiles": [
+        "בסדר",
+        "שלומך",
+        "רבה",
+        "אני",
+        "תודה"
+       ],
+       "answer": [
+        "תודה",
+        "רבה"
+       ],
+       "accepted": [],
+       "words": [
+        "תודה"
+       ],
+       "tilesRoman": [
+        "beseder",
+        "shlomcha",
+        "raba",
+        "ani",
+        "toda"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Goodbye",
+       "promptLang": "en",
+       "answers": [
+        "להתראות",
+        "ביי",
+        "lehitra'ot",
+        "lehitraot"
+       ],
+       "words": [
+        "להתראות"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u1l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "מה שלומך?",
+       "promptLang": "target",
+       "options": [
+        "My name is Anna.",
+        "Thank you very much.",
+        "What is your name?",
+        "How are you?"
+       ],
+       "answer": "How are you?",
+       "words": [
+        "מה שלומך?"
+       ],
+       "promptRoman": "ma shlomcha?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "סליחה",
+         "Sorry"
+        ],
+        [
+         "להתראות",
+         "Goodbye"
+        ],
+        [
+         "תודה",
+         "Thank you"
+        ],
+        [
+         "כן",
+         "Yes"
+        ]
+       ],
+       "words": [
+        "סליחה",
+        "להתראות",
+        "תודה",
+        "כן"
+       ],
+       "romans": [
+        "slicha",
+        "lehitra'ot",
+        "toda",
+        "ken"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Hello",
+       "promptLang": "en",
+       "answer": "שלום",
+       "words": [
+        "שלום"
+       ],
+       "options": [
+        "כן",
+        "לא",
+        "שלום",
+        "בוקר טוב"
+       ],
+       "optionsRoman": [
+        "ken",
+        "lo",
+        "shalom",
+        "boker tov"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "My name is Anna.",
+       "promptLang": "en",
+       "tiles": [
+        "מה",
+        "אנה",
+        "לי",
+        "קוראים",
+        "תודה",
+        "שלומך"
+       ],
+       "answer": [
+        "קוראים",
+        "לי",
+        "אנה"
+       ],
+       "accepted": [
+        "שמי אנה."
+       ],
+       "words": [
+        "קוראים לי אנה."
+       ],
+       "tilesRoman": [
+        "ma",
+        "Anna",
+        "li",
+        "kor'im",
+        "toda",
+        "shlomcha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "נעים מאוד.",
+       "promptLang": "target",
+       "tiles": [
+        "to",
+        "you",
+        "meet",
+        "are",
+        "am",
+        "What",
+        "Nice"
+       ],
+       "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "accepted": [
+        "Pleased to meet you."
+       ],
+       "words": [
+        "נעים מאוד."
+       ],
+       "promptRoman": "na'im me'od."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "איך קוראים לך?",
+       "roman": "eich kor'im lecha?",
+       "translation": "What is your name?",
+       "words": [
+        "איך קוראים לך?"
+       ],
+       "options": [
+        "איך קוראים לך?",
+        "תודה רבה.",
+        "מה שלומך?",
+        "נעים מאוד."
+       ],
+       "optionsRoman": [
+        "eich kor'im lecha?",
+        "toda raba.",
+        "ma shlomcha?",
+        "na'im me'od."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "תודה רבה.",
+       "roman": "toda raba.",
+       "translation": "Thank you very much.",
+       "words": [
+        "תודה"
+       ],
+       "options": [
+        "נעים מאוד.",
+        "תודה רבה.",
+        "נתראה מחר.",
+        "איך קוראים לך?"
+       ],
+       "optionsRoman": [
+        "na'im me'od.",
+        "toda raba.",
+        "nitra'e machar.",
+        "eich kor'im lecha?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני בסדר, תודה.",
+       "promptLang": "target",
+       "answers": [
+        "I am fine, thank you.",
+        "I am fine, thanks.",
+        "I am well, thank you.",
+        "I am well, thanks.",
+        "I am good, thank you.",
+        "Fine, thank you.",
+        "Fine, thanks."
+       ],
+       "words": [
+        "תודה"
+       ],
+       "promptRoman": "ani beseder, toda."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "No",
+       "promptLang": "en",
+       "answers": [
+        "לא",
+        "lo"
+       ],
+       "words": [
+        "לא"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "People and family",
+   "description": "Talk about the people around you.",
+   "icon": "person",
+   "tips": [
+    "'שלי' (sheli) means 'my' and comes after the noun: 'אמא שלי' (ima sheli) = my mother."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "איש",
+      "e": "Man",
+      "r": "ish"
+     },
+     {
+      "t": "אישה",
+      "e": "Woman",
+      "r": "isha"
+     },
+     {
+      "t": "ילד",
+      "e": "Child",
+      "r": "yeled"
+     },
+     {
+      "t": "חבר",
+      "e": "Friend",
+      "r": "chaver"
+     },
+     {
+      "t": "אמא",
+      "e": "Mother",
+      "r": "ima"
+     },
+     {
+      "t": "אבא",
+      "e": "Father",
+      "r": "aba"
+     },
+     {
+      "t": "בן",
+      "e": "Son",
+      "r": "ben"
+     },
+     {
+      "t": "בת",
+      "e": "Daughter",
+      "r": "bat"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "זאת אמא שלי.",
+      "e": "This is my mother.",
+      "r": "zot ima sheli."
+     },
+     {
+      "t": "הוא החבר שלי.",
+      "e": "He is my friend.",
+      "r": "hu hachaver sheli."
+     },
+     {
+      "t": "יש לי בן.",
+      "e": "I have a son.",
+      "r": "yesh li ben."
+     },
+     {
+      "t": "איפה אבא שלי?",
+      "e": "Where is my father?",
+      "r": "eifo aba sheli?"
+     },
+     {
+      "t": "אמא שלי בבית.",
+      "e": "My mother is at home.",
+      "r": "ima sheli babayit."
+     },
+     {
+      "t": "היא הבת שלי.",
+      "e": "She is my daughter.",
+      "r": "hi habat sheli."
+     },
+     {
+      "t": "מי האיש הזה?",
+      "e": "Who is this man?",
+      "r": "mi ha'ish haze?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u2l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "איש",
+       "e": "Man",
+       "kind": "word",
+       "r": "ish",
+       "alts": [
+        "גבר"
+       ]
+      },
+      {
+       "t": "אישה",
+       "e": "Woman",
+       "kind": "word",
+       "r": "isha",
+       "alts": [
+        "אשה"
+       ]
+      },
+      {
+       "t": "ילד",
+       "e": "Child",
+       "kind": "word",
+       "r": "yeled",
+       "alts": [
+        "ילדה"
+       ]
+      },
+      {
+       "t": "חבר",
+       "e": "Friend",
+       "kind": "word",
+       "r": "chaver",
+       "alts": [
+        "חברה"
+       ]
+      },
+      {
+       "t": "זאת אמא שלי.",
+       "e": "This is my mother.",
+       "kind": "phrase",
+       "r": "zot ima sheli.",
+       "alts": [
+        "זו אמא שלי."
+       ]
+      },
+      {
+       "t": "יש לי בן.",
+       "e": "I have a son.",
+       "kind": "phrase",
+       "r": "yesh li ben."
+      },
+      {
+       "t": "הוא החבר שלי.",
+       "e": "He is my friend.",
+       "kind": "phrase",
+       "r": "hu hachaver sheli.",
+       "alts": [
+        "הוא חבר שלי."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "איש",
+       "promptLang": "target",
+       "options": [
+        "Son",
+        "Daughter",
+        "Woman",
+        "Man"
+       ],
+       "answer": "Man",
+       "words": [
+        "איש"
+       ],
+       "promptRoman": "ish"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "אישה",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Woman",
+        "Child",
+        "Son"
+       ],
+       "answer": "Woman",
+       "words": [
+        "אישה"
+       ],
+       "promptRoman": "isha"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "איש",
+         "Man"
+        ],
+        [
+         "אישה",
+         "Woman"
+        ],
+        [
+         "ילד",
+         "Child"
+        ],
+        [
+         "חבר",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "איש",
+        "אישה",
+        "ילד",
+        "חבר"
+       ],
+       "romans": [
+        "ish",
+        "isha",
+        "yeled",
+        "chaver"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Child",
+       "promptLang": "en",
+       "answer": "ילד",
+       "words": [
+        "ילד"
+       ],
+       "options": [
+        "בת",
+        "בן",
+        "ילד",
+        "איש"
+       ],
+       "optionsRoman": [
+        "bat",
+        "ben",
+        "yeled",
+        "ish"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "חבר",
+       "promptLang": "target",
+       "options": [
+        "Friend",
+        "Woman",
+        "Father",
+        "Man"
+       ],
+       "answer": "Friend",
+       "words": [
+        "חבר"
+       ],
+       "promptRoman": "chaver"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "This is my mother.",
+       "promptLang": "en",
+       "tiles": [
+        "זאת",
+        "יש",
+        "אמא",
+        "איפה",
+        "שלי",
+        "האיש"
+       ],
+       "answer": [
+        "זאת",
+        "אמא",
+        "שלי"
+       ],
+       "accepted": [
+        "זו אמא שלי."
+       ],
+       "words": [
+        "אמא"
+       ],
+       "tilesRoman": [
+        "zot",
+        "yesh",
+        "ima",
+        "eifo",
+        "sheli",
+        "ha'ish"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "יש לי בן.",
+       "promptLang": "target",
+       "tiles": [
+        "He",
+        "son",
+        "have",
+        "a",
+        "I",
+        "friend",
+        "She"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "a",
+        "son"
+       ],
+       "accepted": [
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "בן"
+       ],
+       "promptRoman": "yesh li ben."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "הוא החבר שלי.",
+       "roman": "hu hachaver sheli.",
+       "translation": "He is my friend.",
+       "words": [
+        "הוא החבר שלי."
+       ],
+       "options": [
+        "היא הבת שלי.",
+        "הוא החבר שלי.",
+        "זאת אמא שלי.",
+        "אמא שלי בבית."
+       ],
+       "optionsRoman": [
+        "hi habat sheli.",
+        "hu hachaver sheli.",
+        "zot ima sheli.",
+        "ima sheli babayit."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "זאת אמא שלי.",
+       "promptLang": "target",
+       "answers": [
+        "This is my mother.",
+        "This is my mum.",
+        "This is my mom."
+       ],
+       "words": [
+        "אמא"
+       ],
+       "promptRoman": "zot ima sheli."
+      }
+     ]
+    },
+    {
+     "id": "u2l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "אמא",
+       "e": "Mother",
+       "kind": "word",
+       "r": "ima",
+       "alts": [
+        "אם"
+       ]
+      },
+      {
+       "t": "אבא",
+       "e": "Father",
+       "kind": "word",
+       "r": "aba",
+       "alts": [
+        "אב"
+       ]
+      },
+      {
+       "t": "בן",
+       "e": "Son",
+       "kind": "word",
+       "r": "ben"
+      },
+      {
+       "t": "בת",
+       "e": "Daughter",
+       "kind": "word",
+       "r": "bat"
+      },
+      {
+       "t": "איפה אבא שלי?",
+       "e": "Where is my father?",
+       "kind": "phrase",
+       "r": "eifo aba sheli?"
+      },
+      {
+       "t": "אמא שלי בבית.",
+       "e": "My mother is at home.",
+       "kind": "phrase",
+       "r": "ima sheli babayit."
+      },
+      {
+       "t": "היא הבת שלי.",
+       "e": "She is my daughter.",
+       "kind": "phrase",
+       "r": "hi habat sheli.",
+       "alts": [
+        "היא בתי."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "אמא",
+       "promptLang": "target",
+       "options": [
+        "Woman",
+        "Son",
+        "Mother",
+        "Daughter"
+       ],
+       "answer": "Mother",
+       "words": [
+        "אמא"
+       ],
+       "promptRoman": "ima"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "אבא",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Father",
+        "Woman",
+        "Friend"
+       ],
+       "answer": "Father",
+       "words": [
+        "אבא"
+       ],
+       "promptRoman": "aba"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "אמא",
+         "Mother"
+        ],
+        [
+         "אבא",
+         "Father"
+        ],
+        [
+         "בן",
+         "Son"
+        ],
+        [
+         "בת",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "אמא",
+        "אבא",
+        "בן",
+        "בת"
+       ],
+       "romans": [
+        "ima",
+        "aba",
+        "ben",
+        "bat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Son",
+       "promptLang": "en",
+       "answer": "בן",
+       "words": [
+        "בן"
+       ],
+       "options": [
+        "אישה",
+        "בן",
+        "בת",
+        "איש"
+       ],
+       "optionsRoman": [
+        "isha",
+        "ben",
+        "bat",
+        "ish"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Daughter",
+       "promptLang": "en",
+       "answer": "בת",
+       "words": [
+        "בת"
+       ],
+       "options": [
+        "בת",
+        "אמא",
+        "אישה",
+        "חבר"
+       ],
+       "optionsRoman": [
+        "bat",
+        "ima",
+        "isha",
+        "chaver"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Where is my father?",
+       "promptLang": "en",
+       "tiles": [
+        "אבא",
+        "איפה",
+        "שלי",
+        "האיש",
+        "הוא",
+        "הבת"
+       ],
+       "answer": [
+        "איפה",
+        "אבא",
+        "שלי"
+       ],
+       "accepted": [],
+       "words": [
+        "אבא",
+        "איפה"
+       ],
+       "tilesRoman": [
+        "aba",
+        "eifo",
+        "sheli",
+        "ha'ish",
+        "hu",
+        "habat"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אמא שלי בבית.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "mother",
+        "My",
+        "at",
+        "a",
+        "is",
+        "son",
+        "She"
+       ],
+       "answer": [
+        "My",
+        "mother",
+        "is",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "My mum is at home.",
+        "My mom is at home.",
+        "My mother is home.",
+        "My mum is home.",
+        "My mom is home."
+       ],
+       "words": [
+        "אמא"
+       ],
+       "promptRoman": "ima sheli babayit."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "איפה אבא שלי?",
+       "roman": "eifo aba sheli?",
+       "translation": "Where is my father?",
+       "words": [
+        "אבא",
+        "איפה"
+       ],
+       "options": [
+        "איפה אבא שלי?",
+        "היא הבת שלי.",
+        "אמא שלי בבית.",
+        "מי האיש הזה?"
+       ],
+       "optionsRoman": [
+        "eifo aba sheli?",
+        "hi habat sheli.",
+        "ima sheli babayit.",
+        "mi ha'ish haze?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "היא הבת שלי.",
+       "promptLang": "target",
+       "answers": [
+        "She is my daughter."
+       ],
+       "words": [
+        "היא הבת שלי."
+       ],
+       "promptRoman": "hi habat sheli."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answers": [
+        "איש",
+        "גבר",
+        "ish"
+       ],
+       "words": [
+        "איש"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "מי האיש הזה?",
+       "e": "Who is this man?",
+       "kind": "phrase",
+       "r": "mi ha'ish haze?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "אישה",
+       "promptLang": "target",
+       "options": [
+        "Daughter",
+        "Friend",
+        "Child",
+        "Woman"
+       ],
+       "answer": "Woman",
+       "words": [
+        "אישה"
+       ],
+       "promptRoman": "isha"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "בת",
+         "Daughter"
+        ],
+        [
+         "אישה",
+         "Woman"
+        ],
+        [
+         "ילד",
+         "Child"
+        ],
+        [
+         "אמא",
+         "Mother"
+        ],
+        [
+         "חבר",
+         "Friend"
+        ]
+       ],
+       "words": [
+        "בת",
+        "אישה",
+        "ילד",
+        "אמא",
+        "חבר"
+       ],
+       "romans": [
+        "bat",
+        "isha",
+        "yeled",
+        "ima",
+        "chaver"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "מי האיש הזה?",
+       "promptLang": "target",
+       "options": [
+        "I have a son.",
+        "Who is this man?",
+        "He is my friend.",
+        "My mother is at home."
+       ],
+       "answer": "Who is this man?",
+       "words": [
+        "מי האיש הזה?"
+       ],
+       "promptRoman": "mi ha'ish haze?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "הוא החבר שלי.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "mother",
+        "my",
+        "She",
+        "He",
+        "This",
+        "friend"
+       ],
+       "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+       ],
+       "accepted": [],
+       "words": [
+        "הוא החבר שלי."
+       ],
+       "promptRoman": "hu hachaver sheli."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Who is this man?",
+       "promptLang": "en",
+       "tiles": [
+        "מי",
+        "האיש",
+        "שלי",
+        "הזה",
+        "הבת",
+        "הוא"
+       ],
+       "answer": [
+        "מי",
+        "האיש",
+        "הזה"
+       ],
+       "accepted": [],
+       "words": [
+        "מי האיש הזה?"
+       ],
+       "tilesRoman": [
+        "mi",
+        "ha'ish",
+        "sheli",
+        "haze",
+        "habat",
+        "hu"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "She is my daughter.",
+       "promptLang": "en",
+       "tiles": [
+        "היא",
+        "זאת",
+        "הוא",
+        "אבא",
+        "הבת",
+        "שלי"
+       ],
+       "answer": [
+        "היא",
+        "הבת",
+        "שלי"
+       ],
+       "accepted": [
+        "היא בתי."
+       ],
+       "words": [
+        "היא הבת שלי."
+       ],
+       "tilesRoman": [
+        "hi",
+        "zot",
+        "hu",
+        "aba",
+        "habat",
+        "sheli"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "היא הבת שלי.",
+       "roman": "hi habat sheli.",
+       "translation": "She is my daughter.",
+       "words": [
+        "היא הבת שלי."
+       ],
+       "options": [
+        "מי האיש הזה?",
+        "הוא החבר שלי.",
+        "אמא שלי בבית.",
+        "היא הבת שלי."
+       ],
+       "optionsRoman": [
+        "mi ha'ish haze?",
+        "hu hachaver sheli.",
+        "ima sheli babayit.",
+        "hi habat sheli."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "יש לי בן.",
+       "promptLang": "target",
+       "answers": [
+        "I have a son.",
+        "I have one son.",
+        "I have got a son."
+       ],
+       "words": [
+        "בן"
+       ],
+       "promptRoman": "yesh li ben."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "My mother is at home.",
+       "promptLang": "en",
+       "tiles": [
+        "בבית",
+        "שלי",
+        "הוא",
+        "מי",
+        "אמא",
+        "החבר"
+       ],
+       "answer": [
+        "אמא",
+        "שלי",
+        "בבית"
+       ],
+       "accepted": [],
+       "words": [
+        "אמא"
+       ],
+       "tilesRoman": [
+        "babayit",
+        "sheli",
+        "hu",
+        "mi",
+        "ima",
+        "hachaver"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Woman",
+       "promptLang": "en",
+       "answers": [
+        "אישה",
+        "אשה",
+        "isha"
+       ],
+       "words": [
+        "אישה"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u2l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "זאת אמא שלי.",
+       "promptLang": "target",
+       "options": [
+        "He is my friend.",
+        "Where is my father?",
+        "My mother is at home.",
+        "This is my mother."
+       ],
+       "answer": "This is my mother.",
+       "words": [
+        "אמא"
+       ],
+       "promptRoman": "zot ima sheli."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "חבר",
+         "Friend"
+        ],
+        [
+         "אבא",
+         "Father"
+        ],
+        [
+         "בן",
+         "Son"
+        ],
+        [
+         "בת",
+         "Daughter"
+        ]
+       ],
+       "words": [
+        "חבר",
+        "אבא",
+        "בן",
+        "בת"
+       ],
+       "romans": [
+        "chaver",
+        "aba",
+        "ben",
+        "bat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Man",
+       "promptLang": "en",
+       "answer": "איש",
+       "words": [
+        "איש"
+       ],
+       "options": [
+        "בת",
+        "ילד",
+        "איש",
+        "חבר"
+       ],
+       "optionsRoman": [
+        "bat",
+        "yeled",
+        "ish",
+        "chaver"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I have a son.",
+       "promptLang": "en",
+       "tiles": [
+        "בן",
+        "לי",
+        "מי",
+        "איפה",
+        "שלי",
+        "יש"
+       ],
+       "answer": [
+        "יש",
+        "לי",
+        "בן"
+       ],
+       "accepted": [],
+       "words": [
+        "בן"
+       ],
+       "tilesRoman": [
+        "ben",
+        "li",
+        "mi",
+        "eifo",
+        "sheli",
+        "yesh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "איפה אבא שלי?",
+       "promptLang": "target",
+       "tiles": [
+        "my",
+        "mother",
+        "man",
+        "is",
+        "have",
+        "father",
+        "Where"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "my",
+        "father"
+       ],
+       "accepted": [
+        "Where is my dad?"
+       ],
+       "words": [
+        "אבא",
+        "איפה"
+       ],
+       "promptRoman": "eifo aba sheli?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "מי האיש הזה?",
+       "roman": "mi ha'ish haze?",
+       "translation": "Who is this man?",
+       "words": [
+        "מי האיש הזה?"
+       ],
+       "options": [
+        "יש לי בן.",
+        "זאת אמא שלי.",
+        "הוא החבר שלי.",
+        "מי האיש הזה?"
+       ],
+       "optionsRoman": [
+        "yesh li ben.",
+        "zot ima sheli.",
+        "hu hachaver sheli.",
+        "mi ha'ish haze?"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אמא שלי בבית.",
+       "roman": "ima sheli babayit.",
+       "translation": "My mother is at home.",
+       "words": [
+        "אמא"
+       ],
+       "options": [
+        "יש לי בן.",
+        "הוא החבר שלי.",
+        "אמא שלי בבית.",
+        "היא הבת שלי."
+       ],
+       "optionsRoman": [
+        "yesh li ben.",
+        "hu hachaver sheli.",
+        "ima sheli babayit.",
+        "hi habat sheli."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "הוא החבר שלי.",
+       "promptLang": "target",
+       "answers": [
+        "He is my friend."
+       ],
+       "words": [
+        "הוא החבר שלי."
+       ],
+       "promptRoman": "hu hachaver sheli."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Mother",
+       "promptLang": "en",
+       "answers": [
+        "אמא",
+        "אם",
+        "ima"
+       ],
+       "words": [
+        "אמא"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Food and drink",
+   "description": "Order, eat and drink.",
+   "icon": "cup",
+   "tips": [
+    "'ה' (ha-) on the front of a word means 'the': 'תה' (te) is tea, 'התה' (hate) is the tea."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "מים",
+      "e": "Water",
+      "r": "mayim"
+     },
+     {
+      "t": "לחם",
+      "e": "Bread",
+      "r": "lechem"
+     },
+     {
+      "t": "קפה",
+      "e": "Coffee",
+      "r": "kafe"
+     },
+     {
+      "t": "תה",
+      "e": "Tea",
+      "r": "te"
+     },
+     {
+      "t": "חלב",
+      "e": "Milk",
+      "r": "chalav"
+     },
+     {
+      "t": "תפוח",
+      "e": "Apple",
+      "r": "tapuach"
+     },
+     {
+      "t": "אורז",
+      "e": "Rice",
+      "r": "orez"
+     },
+     {
+      "t": "ביצה",
+      "e": "Egg",
+      "r": "beitsa"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "מים, בבקשה.",
+      "e": "Water, please.",
+      "r": "mayim, bevakasha."
+     },
+     {
+      "t": "אני שותה קפה.",
+      "e": "I drink coffee.",
+      "r": "ani shote kafe."
+     },
+     {
+      "t": "אני אוכל לחם.",
+      "e": "I eat bread.",
+      "r": "ani ochel lechem."
+     },
+     {
+      "t": "התה חם.",
+      "e": "The tea is hot.",
+      "r": "hate cham."
+     },
+     {
+      "t": "אני לא שותה חלב.",
+      "e": "I do not drink milk.",
+      "r": "ani lo shote chalav."
+     },
+     {
+      "t": "אני אוהב תפוחים.",
+      "e": "I like apples.",
+      "r": "ani ohev tapuchim."
+     },
+     {
+      "t": "אני רעב.",
+      "e": "I am hungry.",
+      "r": "ani ra'ev."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u3l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "מים",
+       "e": "Water",
+       "kind": "word",
+       "r": "mayim"
+      },
+      {
+       "t": "לחם",
+       "e": "Bread",
+       "kind": "word",
+       "r": "lechem"
+      },
+      {
+       "t": "קפה",
+       "e": "Coffee",
+       "kind": "word",
+       "r": "kafe"
+      },
+      {
+       "t": "תה",
+       "e": "Tea",
+       "kind": "word",
+       "r": "te"
+      },
+      {
+       "t": "מים, בבקשה.",
+       "e": "Water, please.",
+       "kind": "phrase",
+       "r": "mayim, bevakasha."
+      },
+      {
+       "t": "אני אוכל לחם.",
+       "e": "I eat bread.",
+       "kind": "phrase",
+       "r": "ani ochel lechem.",
+       "alts": [
+        "אני אוכלת לחם."
+       ]
+      },
+      {
+       "t": "אני שותה קפה.",
+       "e": "I drink coffee.",
+       "kind": "phrase",
+       "r": "ani shote kafe."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "מים",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Egg",
+        "Tea",
+        "Coffee"
+       ],
+       "answer": "Water",
+       "words": [
+        "מים"
+       ],
+       "promptRoman": "mayim"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "לחם",
+       "promptLang": "target",
+       "options": [
+        "Water",
+        "Apple",
+        "Bread",
+        "Coffee"
+       ],
+       "answer": "Bread",
+       "words": [
+        "לחם"
+       ],
+       "promptRoman": "lechem"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "מים",
+         "Water"
+        ],
+        [
+         "לחם",
+         "Bread"
+        ],
+        [
+         "קפה",
+         "Coffee"
+        ],
+        [
+         "תה",
+         "Tea"
+        ]
+       ],
+       "words": [
+        "מים",
+        "לחם",
+        "קפה",
+        "תה"
+       ],
+       "romans": [
+        "mayim",
+        "lechem",
+        "kafe",
+        "te"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "קפה",
+       "words": [
+        "קפה"
+       ],
+       "options": [
+        "מים",
+        "אורז",
+        "קפה",
+        "ביצה"
+       ],
+       "optionsRoman": [
+        "mayim",
+        "orez",
+        "kafe",
+        "beitsa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "תה",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Bread",
+        "Milk",
+        "Water"
+       ],
+       "answer": "Tea",
+       "words": [
+        "תה"
+       ],
+       "promptRoman": "te"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Water, please.",
+       "promptLang": "en",
+       "tiles": [
+        "לחם",
+        "מים",
+        "אני",
+        "חם",
+        "בבקשה"
+       ],
+       "answer": [
+        "מים",
+        "בבקשה"
+       ],
+       "accepted": [],
+       "words": [
+        "בבקשה",
+        "מים"
+       ],
+       "tilesRoman": [
+        "lechem",
+        "mayim",
+        "ani",
+        "cham",
+        "bevakasha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני אוכל לחם.",
+       "promptLang": "target",
+       "tiles": [
+        "bread",
+        "apples",
+        "eat",
+        "I",
+        "like",
+        "is"
+       ],
+       "answer": [
+        "I",
+        "eat",
+        "bread"
+       ],
+       "accepted": [
+        "I am eating bread."
+       ],
+       "words": [
+        "לחם"
+       ],
+       "promptRoman": "ani ochel lechem."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני שותה קפה.",
+       "roman": "ani shote kafe.",
+       "translation": "I drink coffee.",
+       "words": [
+        "קפה"
+       ],
+       "options": [
+        "אני אוכל לחם.",
+        "אני רעב.",
+        "אני לא שותה חלב.",
+        "אני שותה קפה."
+       ],
+       "optionsRoman": [
+        "ani ochel lechem.",
+        "ani ra'ev.",
+        "ani lo shote chalav.",
+        "ani shote kafe."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "מים, בבקשה.",
+       "promptLang": "target",
+       "answers": [
+        "Water, please.",
+        "Some water, please."
+       ],
+       "words": [
+        "בבקשה",
+        "מים"
+       ],
+       "promptRoman": "mayim, bevakasha."
+      }
+     ]
+    },
+    {
+     "id": "u3l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "חלב",
+       "e": "Milk",
+       "kind": "word",
+       "r": "chalav"
+      },
+      {
+       "t": "תפוח",
+       "e": "Apple",
+       "kind": "word",
+       "r": "tapuach"
+      },
+      {
+       "t": "אורז",
+       "e": "Rice",
+       "kind": "word",
+       "r": "orez"
+      },
+      {
+       "t": "ביצה",
+       "e": "Egg",
+       "kind": "word",
+       "r": "beitsa"
+      },
+      {
+       "t": "התה חם.",
+       "e": "The tea is hot.",
+       "kind": "phrase",
+       "r": "hate cham."
+      },
+      {
+       "t": "אני לא שותה חלב.",
+       "e": "I do not drink milk.",
+       "kind": "phrase",
+       "r": "ani lo shote chalav."
+      },
+      {
+       "t": "אני אוהב תפוחים.",
+       "e": "I like apples.",
+       "kind": "phrase",
+       "r": "ani ohev tapuchim.",
+       "alts": [
+        "אני אוהבת תפוחים."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "חלב",
+       "promptLang": "target",
+       "options": [
+        "Tea",
+        "Bread",
+        "Apple",
+        "Milk"
+       ],
+       "answer": "Milk",
+       "words": [
+        "חלב"
+       ],
+       "promptRoman": "chalav"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "תפוח",
+       "promptLang": "target",
+       "options": [
+        "Apple",
+        "Water",
+        "Egg",
+        "Coffee"
+       ],
+       "answer": "Apple",
+       "words": [
+        "תפוח"
+       ],
+       "promptRoman": "tapuach"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "חלב",
+         "Milk"
+        ],
+        [
+         "תפוח",
+         "Apple"
+        ],
+        [
+         "אורז",
+         "Rice"
+        ],
+        [
+         "ביצה",
+         "Egg"
+        ]
+       ],
+       "words": [
+        "חלב",
+        "תפוח",
+        "אורז",
+        "ביצה"
+       ],
+       "romans": [
+        "chalav",
+        "tapuach",
+        "orez",
+        "beitsa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Rice",
+       "promptLang": "en",
+       "answer": "אורז",
+       "words": [
+        "אורז"
+       ],
+       "options": [
+        "אורז",
+        "ביצה",
+        "מים",
+        "תה"
+       ],
+       "optionsRoman": [
+        "orez",
+        "beitsa",
+        "mayim",
+        "te"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Egg",
+       "promptLang": "en",
+       "answer": "ביצה",
+       "words": [
+        "ביצה"
+       ],
+       "options": [
+        "ביצה",
+        "קפה",
+        "תפוח",
+        "מים"
+       ],
+       "optionsRoman": [
+        "beitsa",
+        "kafe",
+        "tapuach",
+        "mayim"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "The tea is hot.",
+       "promptLang": "en",
+       "tiles": [
+        "התה",
+        "אוהב",
+        "חם",
+        "לחם",
+        "בבקשה"
+       ],
+       "answer": [
+        "התה",
+        "חם"
+       ],
+       "accepted": [],
+       "words": [
+        "התה חם."
+       ],
+       "tilesRoman": [
+        "hate",
+        "ohev",
+        "cham",
+        "lechem",
+        "bevakasha"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני לא שותה חלב.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "milk",
+        "drink",
+        "I",
+        "not",
+        "do",
+        "bread",
+        "is"
+       ],
+       "answer": [
+        "I",
+        "do",
+        "not",
+        "drink",
+        "milk"
+       ],
+       "accepted": [],
+       "words": [
+        "לא",
+        "חלב"
+       ],
+       "promptRoman": "ani lo shote chalav."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "התה חם.",
+       "roman": "hate cham.",
+       "translation": "The tea is hot.",
+       "words": [
+        "התה חם."
+       ],
+       "options": [
+        "אני אוכל לחם.",
+        "אני שותה קפה.",
+        "התה חם.",
+        "אני לא שותה חלב."
+       ],
+       "optionsRoman": [
+        "ani ochel lechem.",
+        "ani shote kafe.",
+        "hate cham.",
+        "ani lo shote chalav."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני אוהב תפוחים.",
+       "promptLang": "target",
+       "answers": [
+        "I like apples."
+       ],
+       "words": [
+        "אני אוהב תפוחים."
+       ],
+       "promptRoman": "ani ohev tapuchim."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Water",
+       "promptLang": "en",
+       "answers": [
+        "מים",
+        "mayim"
+       ],
+       "words": [
+        "מים"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "אני רעב.",
+       "e": "I am hungry.",
+       "kind": "phrase",
+       "r": "ani ra'ev.",
+       "alts": [
+        "אני רעבה."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "לחם",
+       "promptLang": "target",
+       "options": [
+        "Bread",
+        "Milk",
+        "Coffee",
+        "Egg"
+       ],
+       "answer": "Bread",
+       "words": [
+        "לחם"
+       ],
+       "promptRoman": "lechem"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "אורז",
+         "Rice"
+        ],
+        [
+         "ביצה",
+         "Egg"
+        ],
+        [
+         "לחם",
+         "Bread"
+        ],
+        [
+         "תה",
+         "Tea"
+        ],
+        [
+         "מים",
+         "Water"
+        ]
+       ],
+       "words": [
+        "אורז",
+        "ביצה",
+        "לחם",
+        "תה",
+        "מים"
+       ],
+       "romans": [
+        "orez",
+        "beitsa",
+        "lechem",
+        "te",
+        "mayim"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "אני רעב.",
+       "promptLang": "target",
+       "options": [
+        "I do not drink milk.",
+        "I like apples.",
+        "I eat bread.",
+        "I am hungry."
+       ],
+       "answer": "I am hungry.",
+       "words": [
+        "אני רעב."
+       ],
+       "promptRoman": "ani ra'ev."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני שותה קפה.",
+       "promptLang": "target",
+       "tiles": [
+        "hungry",
+        "drink",
+        "I",
+        "am",
+        "is",
+        "coffee"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee"
+       ],
+       "accepted": [
+        "I am drinking coffee."
+       ],
+       "words": [
+        "קפה"
+       ],
+       "promptRoman": "ani shote kafe."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I am hungry.",
+       "promptLang": "en",
+       "tiles": [
+        "רעב",
+        "תפוחים",
+        "אני",
+        "לחם",
+        "התה"
+       ],
+       "answer": [
+        "אני",
+        "רעב"
+       ],
+       "accepted": [
+        "אני רעבה."
+       ],
+       "words": [
+        "אני רעב."
+       ],
+       "tilesRoman": [
+        "ra'ev",
+        "tapuchim",
+        "ani",
+        "lechem",
+        "hate"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I like apples.",
+       "promptLang": "en",
+       "tiles": [
+        "לא",
+        "אני",
+        "שותה",
+        "רעב",
+        "אוהב",
+        "תפוחים"
+       ],
+       "answer": [
+        "אני",
+        "אוהב",
+        "תפוחים"
+       ],
+       "accepted": [
+        "אני אוהבת תפוחים."
+       ],
+       "words": [
+        "אני אוהב תפוחים."
+       ],
+       "tilesRoman": [
+        "lo",
+        "ani",
+        "shote",
+        "ra'ev",
+        "ohev",
+        "tapuchim"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני אוהב תפוחים.",
+       "roman": "ani ohev tapuchim.",
+       "translation": "I like apples.",
+       "words": [
+        "אני אוהב תפוחים."
+       ],
+       "options": [
+        "אני אוכל לחם.",
+        "אני אוהב תפוחים.",
+        "התה חם.",
+        "מים, בבקשה."
+       ],
+       "optionsRoman": [
+        "ani ochel lechem.",
+        "ani ohev tapuchim.",
+        "hate cham.",
+        "mayim, bevakasha."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני אוכל לחם.",
+       "promptLang": "target",
+       "answers": [
+        "I eat bread.",
+        "I am eating bread."
+       ],
+       "words": [
+        "לחם"
+       ],
+       "promptRoman": "ani ochel lechem."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I do not drink milk.",
+       "promptLang": "en",
+       "tiles": [
+        "שותה",
+        "קפה",
+        "אני",
+        "לא",
+        "מים",
+        "בבקשה",
+        "חלב"
+       ],
+       "answer": [
+        "אני",
+        "לא",
+        "שותה",
+        "חלב"
+       ],
+       "accepted": [],
+       "words": [
+        "לא",
+        "חלב"
+       ],
+       "tilesRoman": [
+        "shote",
+        "kafe",
+        "ani",
+        "lo",
+        "mayim",
+        "bevakasha",
+        "chalav"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Bread",
+       "promptLang": "en",
+       "answers": [
+        "לחם",
+        "lechem",
+        "lekhem"
+       ],
+       "words": [
+        "לחם"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u3l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "מים, בבקשה.",
+       "promptLang": "target",
+       "options": [
+        "I do not drink milk.",
+        "I eat bread.",
+        "The tea is hot.",
+        "Water, please."
+       ],
+       "answer": "Water, please.",
+       "words": [
+        "בבקשה",
+        "מים"
+       ],
+       "promptRoman": "mayim, bevakasha."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "אורז",
+         "Rice"
+        ],
+        [
+         "ביצה",
+         "Egg"
+        ],
+        [
+         "תפוח",
+         "Apple"
+        ],
+        [
+         "מים",
+         "Water"
+        ]
+       ],
+       "words": [
+        "אורז",
+        "ביצה",
+        "תפוח",
+        "מים"
+       ],
+       "romans": [
+        "orez",
+        "beitsa",
+        "tapuach",
+        "mayim"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Coffee",
+       "promptLang": "en",
+       "answer": "קפה",
+       "words": [
+        "קפה"
+       ],
+       "options": [
+        "חלב",
+        "לחם",
+        "קפה",
+        "תפוח"
+       ],
+       "optionsRoman": [
+        "chalav",
+        "lechem",
+        "kafe",
+        "tapuach"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I eat bread.",
+       "promptLang": "en",
+       "tiles": [
+        "לחם",
+        "רעב",
+        "אני",
+        "אוהב",
+        "אוכל",
+        "תפוחים"
+       ],
+       "answer": [
+        "אני",
+        "אוכל",
+        "לחם"
+       ],
+       "accepted": [
+        "אני אוכלת לחם."
+       ],
+       "words": [
+        "לחם"
+       ],
+       "tilesRoman": [
+        "lechem",
+        "ra'ev",
+        "ani",
+        "ohev",
+        "ochel",
+        "tapuchim"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "התה חם.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "drink",
+        "tea",
+        "hot",
+        "is",
+        "Water",
+        "The"
+       ],
+       "answer": [
+        "The",
+        "tea",
+        "is",
+        "hot"
+       ],
+       "accepted": [],
+       "words": [
+        "התה חם."
+       ],
+       "promptRoman": "hate cham."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני רעב.",
+       "roman": "ani ra'ev.",
+       "translation": "I am hungry.",
+       "words": [
+        "אני רעב."
+       ],
+       "options": [
+        "אני אוהב תפוחים.",
+        "אני שותה קפה.",
+        "התה חם.",
+        "אני רעב."
+       ],
+       "optionsRoman": [
+        "ani ohev tapuchim.",
+        "ani shote kafe.",
+        "hate cham.",
+        "ani ra'ev."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני לא שותה חלב.",
+       "roman": "ani lo shote chalav.",
+       "translation": "I do not drink milk.",
+       "words": [
+        "לא",
+        "חלב"
+       ],
+       "options": [
+        "אני אוכל לחם.",
+        "מים, בבקשה.",
+        "אני לא שותה חלב.",
+        "התה חם."
+       ],
+       "optionsRoman": [
+        "ani ochel lechem.",
+        "mayim, bevakasha.",
+        "ani lo shote chalav.",
+        "hate cham."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני שותה קפה.",
+       "promptLang": "target",
+       "answers": [
+        "I drink coffee.",
+        "I am drinking coffee."
+       ],
+       "words": [
+        "קפה"
+       ],
+       "promptRoman": "ani shote kafe."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Tea",
+       "promptLang": "en",
+       "answers": [
+        "תה",
+        "te",
+        "teh"
+       ],
+       "words": [
+        "תה"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Numbers",
+   "description": "Count from one to ten, ask prices and tell the time.",
+   "icon": "hash",
+   "tips": [
+    "Numbers have a feminine and a masculine form. For counting you use the feminine ones: אחת, שתיים, שלוש (achat, shtayim, shalosh)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "אחת",
+      "e": "One",
+      "r": "achat"
+     },
+     {
+      "t": "שתיים",
+      "e": "Two",
+      "r": "shtayim"
+     },
+     {
+      "t": "שלוש",
+      "e": "Three",
+      "r": "shalosh"
+     },
+     {
+      "t": "ארבע",
+      "e": "Four",
+      "r": "arba"
+     },
+     {
+      "t": "חמש",
+      "e": "Five",
+      "r": "chamesh"
+     },
+     {
+      "t": "שש",
+      "e": "Six",
+      "r": "shesh"
+     },
+     {
+      "t": "שבע",
+      "e": "Seven",
+      "r": "sheva"
+     },
+     {
+      "t": "שמונה",
+      "e": "Eight",
+      "r": "shmone"
+     },
+     {
+      "t": "תשע",
+      "e": "Nine",
+      "r": "tesha"
+     },
+     {
+      "t": "עשר",
+      "e": "Ten",
+      "r": "eser"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "יש לי שני ילדים.",
+      "e": "I have two children.",
+      "r": "yesh li shnei yeladim."
+     },
+     {
+      "t": "כמה זה עולה?",
+      "e": "How much is it?",
+      "r": "kama ze ole?"
+     },
+     {
+      "t": "יש לי ארבעה תפוחים.",
+      "e": "I have four apples.",
+      "r": "yesh li arba'a tapuchim."
+     },
+     {
+      "t": "קפה אחד, בבקשה.",
+      "e": "One coffee, please.",
+      "r": "kafe echad, bevakasha."
+     },
+     {
+      "t": "שתי כוסות תה, בבקשה.",
+      "e": "Two teas, please.",
+      "r": "shtei kosot te, bevakasha."
+     },
+     {
+      "t": "השעה שלוש.",
+      "e": "It is three o'clock.",
+      "r": "hasha'a shalosh."
+     },
+     {
+      "t": "רגע אחד, בבקשה.",
+      "e": "One moment, please.",
+      "r": "rega echad, bevakasha."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u4l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "אחת",
+       "e": "One",
+       "kind": "word",
+       "r": "achat",
+       "alts": [
+        "אחד"
+       ]
+      },
+      {
+       "t": "שתיים",
+       "e": "Two",
+       "kind": "word",
+       "r": "shtayim",
+       "alts": [
+        "שניים"
+       ]
+      },
+      {
+       "t": "שלוש",
+       "e": "Three",
+       "kind": "word",
+       "r": "shalosh",
+       "alts": [
+        "שלושה"
+       ]
+      },
+      {
+       "t": "ארבע",
+       "e": "Four",
+       "kind": "word",
+       "r": "arba",
+       "alts": [
+        "ארבעה"
+       ]
+      },
+      {
+       "t": "יש לי שני ילדים.",
+       "e": "I have two children.",
+       "kind": "phrase",
+       "r": "yesh li shnei yeladim."
+      },
+      {
+       "t": "יש לי ארבעה תפוחים.",
+       "e": "I have four apples.",
+       "kind": "phrase",
+       "r": "yesh li arba'a tapuchim."
+      },
+      {
+       "t": "כמה זה עולה?",
+       "e": "How much is it?",
+       "kind": "phrase",
+       "r": "kama ze ole?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "אחת",
+       "promptLang": "target",
+       "options": [
+        "Five",
+        "Six",
+        "Ten",
+        "One"
+       ],
+       "answer": "One",
+       "words": [
+        "אחת"
+       ],
+       "promptRoman": "achat"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "שתיים",
+       "promptLang": "target",
+       "options": [
+        "Three",
+        "Eight",
+        "Two",
+        "Seven"
+       ],
+       "answer": "Two",
+       "words": [
+        "שתיים"
+       ],
+       "promptRoman": "shtayim"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "אחת",
+         "One"
+        ],
+        [
+         "שתיים",
+         "Two"
+        ],
+        [
+         "שלוש",
+         "Three"
+        ],
+        [
+         "ארבע",
+         "Four"
+        ]
+       ],
+       "words": [
+        "אחת",
+        "שתיים",
+        "שלוש",
+        "ארבע"
+       ],
+       "romans": [
+        "achat",
+        "shtayim",
+        "shalosh",
+        "arba"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Three",
+       "promptLang": "en",
+       "answer": "שלוש",
+       "words": [
+        "שלוש"
+       ],
+       "options": [
+        "שלוש",
+        "שבע",
+        "תשע",
+        "אחת"
+       ],
+       "optionsRoman": [
+        "shalosh",
+        "sheva",
+        "tesha",
+        "achat"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ארבע",
+       "promptLang": "target",
+       "options": [
+        "Nine",
+        "Three",
+        "Four",
+        "Ten"
+       ],
+       "answer": "Four",
+       "words": [
+        "ארבע"
+       ],
+       "promptRoman": "arba"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I have two children.",
+       "promptLang": "en",
+       "tiles": [
+        "יש",
+        "שני",
+        "כוסות",
+        "ילדים",
+        "לי",
+        "עולה",
+        "תה"
+       ],
+       "answer": [
+        "יש",
+        "לי",
+        "שני",
+        "ילדים"
+       ],
+       "accepted": [],
+       "words": [
+        "יש לי שני ילדים."
+       ],
+       "tilesRoman": [
+        "yesh",
+        "shnei",
+        "kosot",
+        "yeladim",
+        "li",
+        "ole",
+        "te"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "יש לי ארבעה תפוחים.",
+       "promptLang": "target",
+       "tiles": [
+        "How",
+        "have",
+        "I",
+        "apples",
+        "please",
+        "four",
+        "moment"
+       ],
+       "answer": [
+        "I",
+        "have",
+        "four",
+        "apples"
+       ],
+       "accepted": [
+        "I have 4 apples."
+       ],
+       "words": [
+        "ארבע"
+       ],
+       "promptRoman": "yesh li arba'a tapuchim."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "כמה זה עולה?",
+       "roman": "kama ze ole?",
+       "translation": "How much is it?",
+       "words": [
+        "כמה זה עולה?"
+       ],
+       "options": [
+        "כמה זה עולה?",
+        "רגע אחד, בבקשה.",
+        "שתי כוסות תה, בבקשה.",
+        "יש לי שני ילדים."
+       ],
+       "optionsRoman": [
+        "kama ze ole?",
+        "rega echad, bevakasha.",
+        "shtei kosot te, bevakasha.",
+        "yesh li shnei yeladim."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "יש לי שני ילדים.",
+       "promptLang": "target",
+       "answers": [
+        "I have two children.",
+        "I have 2 children.",
+        "I have two kids.",
+        "I have 2 kids."
+       ],
+       "words": [
+        "יש לי שני ילדים."
+       ],
+       "promptRoman": "yesh li shnei yeladim."
+      }
+     ]
+    },
+    {
+     "id": "u4l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "חמש",
+       "e": "Five",
+       "kind": "word",
+       "r": "chamesh",
+       "alts": [
+        "חמישה"
+       ]
+      },
+      {
+       "t": "שש",
+       "e": "Six",
+       "kind": "word",
+       "r": "shesh",
+       "alts": [
+        "שישה"
+       ]
+      },
+      {
+       "t": "שבע",
+       "e": "Seven",
+       "kind": "word",
+       "r": "sheva",
+       "alts": [
+        "שבעה"
+       ]
+      },
+      {
+       "t": "שמונה",
+       "e": "Eight",
+       "kind": "word",
+       "r": "shmone"
+      },
+      {
+       "t": "קפה אחד, בבקשה.",
+       "e": "One coffee, please.",
+       "kind": "phrase",
+       "r": "kafe echad, bevakasha."
+      },
+      {
+       "t": "שתי כוסות תה, בבקשה.",
+       "e": "Two teas, please.",
+       "kind": "phrase",
+       "r": "shtei kosot te, bevakasha.",
+       "alts": [
+        "שני תה, בבקשה."
+       ]
+      },
+      {
+       "t": "השעה שלוש.",
+       "e": "It is three o'clock.",
+       "kind": "phrase",
+       "r": "hasha'a shalosh."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "חמש",
+       "promptLang": "target",
+       "options": [
+        "Five",
+        "Six",
+        "Two",
+        "Seven"
+       ],
+       "answer": "Five",
+       "words": [
+        "חמש"
+       ],
+       "promptRoman": "chamesh"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "שש",
+       "promptLang": "target",
+       "options": [
+        "Six",
+        "Seven",
+        "Ten",
+        "Five"
+       ],
+       "answer": "Six",
+       "words": [
+        "שש"
+       ],
+       "promptRoman": "shesh"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "חמש",
+         "Five"
+        ],
+        [
+         "שש",
+         "Six"
+        ],
+        [
+         "שבע",
+         "Seven"
+        ],
+        [
+         "שמונה",
+         "Eight"
+        ]
+       ],
+       "words": [
+        "חמש",
+        "שש",
+        "שבע",
+        "שמונה"
+       ],
+       "romans": [
+        "chamesh",
+        "shesh",
+        "sheva",
+        "shmone"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Seven",
+       "promptLang": "en",
+       "answer": "שבע",
+       "words": [
+        "שבע"
+       ],
+       "options": [
+        "שש",
+        "שבע",
+        "עשר",
+        "חמש"
+       ],
+       "optionsRoman": [
+        "shesh",
+        "sheva",
+        "eser",
+        "chamesh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Eight",
+       "promptLang": "en",
+       "answer": "שמונה",
+       "words": [
+        "שמונה"
+       ],
+       "options": [
+        "תשע",
+        "שש",
+        "חמש",
+        "שמונה"
+       ],
+       "optionsRoman": [
+        "tesha",
+        "shesh",
+        "chamesh",
+        "shmone"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "One coffee, please.",
+       "promptLang": "en",
+       "tiles": [
+        "זה",
+        "רגע",
+        "עולה",
+        "בבקשה",
+        "קפה",
+        "אחד"
+       ],
+       "answer": [
+        "קפה",
+        "אחד",
+        "בבקשה"
+       ],
+       "accepted": [],
+       "words": [
+        "בבקשה",
+        "קפה",
+        "אחת"
+       ],
+       "tilesRoman": [
+        "ze",
+        "rega",
+        "ole",
+        "bevakasha",
+        "kafe",
+        "echad"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "שתי כוסות תה, בבקשה.",
+       "promptLang": "target",
+       "tiles": [
+        "Two",
+        "please",
+        "is",
+        "teas",
+        "I",
+        "moment"
+       ],
+       "answer": [
+        "Two",
+        "teas",
+        "please"
+       ],
+       "accepted": [
+        "2 teas, please.",
+        "Two cups of tea, please.",
+        "2 cups of tea, please."
+       ],
+       "words": [
+        "בבקשה",
+        "תה"
+       ],
+       "promptRoman": "shtei kosot te, bevakasha."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "קפה אחד, בבקשה.",
+       "roman": "kafe echad, bevakasha.",
+       "translation": "One coffee, please.",
+       "words": [
+        "בבקשה",
+        "קפה",
+        "אחת"
+       ],
+       "options": [
+        "השעה שלוש.",
+        "יש לי ארבעה תפוחים.",
+        "יש לי שני ילדים.",
+        "קפה אחד, בבקשה."
+       ],
+       "optionsRoman": [
+        "hasha'a shalosh.",
+        "yesh li arba'a tapuchim.",
+        "yesh li shnei yeladim.",
+        "kafe echad, bevakasha."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "השעה שלוש.",
+       "promptLang": "target",
+       "answers": [
+        "It is three o'clock.",
+        "It is three.",
+        "It is 3 o'clock.",
+        "It is 3.",
+        "It's three o'clock."
+       ],
+       "words": [
+        "שלוש"
+       ],
+       "promptRoman": "hasha'a shalosh."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "אחת",
+        "אחד",
+        "achat",
+        "akhat"
+       ],
+       "words": [
+        "אחת"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "תשע",
+       "e": "Nine",
+       "kind": "word",
+       "r": "tesha",
+       "alts": [
+        "תשעה"
+       ]
+      },
+      {
+       "t": "עשר",
+       "e": "Ten",
+       "kind": "word",
+       "r": "eser",
+       "alts": [
+        "עשרה"
+       ]
+      },
+      {
+       "t": "רגע אחד, בבקשה.",
+       "e": "One moment, please.",
+       "kind": "phrase",
+       "r": "rega echad, bevakasha."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "תשע",
+       "promptLang": "target",
+       "options": [
+        "Seven",
+        "One",
+        "Ten",
+        "Nine"
+       ],
+       "answer": "Nine",
+       "words": [
+        "תשע"
+       ],
+       "promptRoman": "tesha"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "אחת",
+         "One"
+        ],
+        [
+         "ארבע",
+         "Four"
+        ],
+        [
+         "חמש",
+         "Five"
+        ],
+        [
+         "שבע",
+         "Seven"
+        ],
+        [
+         "שלוש",
+         "Three"
+        ]
+       ],
+       "words": [
+        "אחת",
+        "ארבע",
+        "חמש",
+        "שבע",
+        "שלוש"
+       ],
+       "romans": [
+        "achat",
+        "arba",
+        "chamesh",
+        "sheva",
+        "shalosh"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "רגע אחד, בבקשה.",
+       "promptLang": "target",
+       "options": [
+        "One moment, please.",
+        "It is three o'clock.",
+        "Two teas, please.",
+        "How much is it?"
+       ],
+       "answer": "One moment, please.",
+       "words": [
+        "בבקשה",
+        "אחת"
+       ],
+       "promptRoman": "rega echad, bevakasha."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "כמה זה עולה?",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "How",
+        "have",
+        "One",
+        "it",
+        "much",
+        "children"
+       ],
+       "answer": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "accepted": [
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "כמה זה עולה?"
+       ],
+       "promptRoman": "kama ze ole?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "One moment, please.",
+       "promptLang": "en",
+       "tiles": [
+        "רגע",
+        "כמה",
+        "עולה",
+        "אחד",
+        "בבקשה",
+        "שלוש"
+       ],
+       "answer": [
+        "רגע",
+        "אחד",
+        "בבקשה"
+       ],
+       "accepted": [],
+       "words": [
+        "בבקשה",
+        "אחת"
+       ],
+       "tilesRoman": [
+        "rega",
+        "kama",
+        "ole",
+        "echad",
+        "bevakasha",
+        "shalosh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "It is three o'clock.",
+       "promptLang": "en",
+       "tiles": [
+        "שלוש",
+        "אחד",
+        "ארבעה",
+        "כמה",
+        "השעה"
+       ],
+       "answer": [
+        "השעה",
+        "שלוש"
+       ],
+       "accepted": [],
+       "words": [
+        "שלוש"
+       ],
+       "tilesRoman": [
+        "shalosh",
+        "echad",
+        "arba'a",
+        "kama",
+        "hasha'a"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "השעה שלוש.",
+       "roman": "hasha'a shalosh.",
+       "translation": "It is three o'clock.",
+       "words": [
+        "שלוש"
+       ],
+       "options": [
+        "שתי כוסות תה, בבקשה.",
+        "השעה שלוש.",
+        "רגע אחד, בבקשה.",
+        "יש לי ארבעה תפוחים."
+       ],
+       "optionsRoman": [
+        "shtei kosot te, bevakasha.",
+        "hasha'a shalosh.",
+        "rega echad, bevakasha.",
+        "yesh li arba'a tapuchim."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "יש לי ארבעה תפוחים.",
+       "promptLang": "target",
+       "answers": [
+        "I have four apples.",
+        "I have 4 apples."
+       ],
+       "words": [
+        "ארבע"
+       ],
+       "promptRoman": "yesh li arba'a tapuchim."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Two teas, please.",
+       "promptLang": "en",
+       "tiles": [
+        "רגע",
+        "כוסות",
+        "שתי",
+        "בבקשה",
+        "תה",
+        "שני",
+        "תפוחים"
+       ],
+       "answer": [
+        "שתי",
+        "כוסות",
+        "תה",
+        "בבקשה"
+       ],
+       "accepted": [
+        "שני תה, בבקשה."
+       ],
+       "words": [
+        "בבקשה",
+        "תה"
+       ],
+       "tilesRoman": [
+        "rega",
+        "kosot",
+        "shtei",
+        "bevakasha",
+        "te",
+        "shnei",
+        "tapuchim"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Ten",
+       "promptLang": "en",
+       "answers": [
+        "עשר",
+        "עשרה",
+        "eser"
+       ],
+       "words": [
+        "עשר"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u4l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "יש לי שני ילדים.",
+       "promptLang": "target",
+       "options": [
+        "It is three o'clock.",
+        "I have two children.",
+        "Two teas, please.",
+        "How much is it?"
+       ],
+       "answer": "I have two children.",
+       "words": [
+        "יש לי שני ילדים."
+       ],
+       "promptRoman": "yesh li shnei yeladim."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "ארבע",
+         "Four"
+        ],
+        [
+         "שבע",
+         "Seven"
+        ],
+        [
+         "שמונה",
+         "Eight"
+        ],
+        [
+         "שתיים",
+         "Two"
+        ]
+       ],
+       "words": [
+        "ארבע",
+        "שבע",
+        "שמונה",
+        "שתיים"
+       ],
+       "romans": [
+        "arba",
+        "sheva",
+        "shmone",
+        "shtayim"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Six",
+       "promptLang": "en",
+       "answer": "שש",
+       "words": [
+        "שש"
+       ],
+       "options": [
+        "ארבע",
+        "שבע",
+        "שמונה",
+        "שש"
+       ],
+       "optionsRoman": [
+        "arba",
+        "sheva",
+        "shmone",
+        "shesh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I have four apples.",
+       "promptLang": "en",
+       "tiles": [
+        "תפוחים",
+        "זה",
+        "לי",
+        "בבקשה",
+        "ארבעה",
+        "עולה",
+        "יש"
+       ],
+       "answer": [
+        "יש",
+        "לי",
+        "ארבעה",
+        "תפוחים"
+       ],
+       "accepted": [],
+       "words": [
+        "ארבע"
+       ],
+       "tilesRoman": [
+        "tapuchim",
+        "ze",
+        "li",
+        "bevakasha",
+        "arba'a",
+        "ole",
+        "yesh"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "קפה אחד, בבקשה.",
+       "promptLang": "target",
+       "tiles": [
+        "children",
+        "four",
+        "please",
+        "apples",
+        "One",
+        "coffee"
+       ],
+       "answer": [
+        "One",
+        "coffee",
+        "please"
+       ],
+       "accepted": [
+        "A coffee, please.",
+        "1 coffee, please."
+       ],
+       "words": [
+        "בבקשה",
+        "קפה",
+        "אחת"
+       ],
+       "promptRoman": "kafe echad, bevakasha."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "רגע אחד, בבקשה.",
+       "roman": "rega echad, bevakasha.",
+       "translation": "One moment, please.",
+       "words": [
+        "בבקשה",
+        "אחת"
+       ],
+       "options": [
+        "יש לי ארבעה תפוחים.",
+        "רגע אחד, בבקשה.",
+        "שתי כוסות תה, בבקשה.",
+        "השעה שלוש."
+       ],
+       "optionsRoman": [
+        "yesh li arba'a tapuchim.",
+        "rega echad, bevakasha.",
+        "shtei kosot te, bevakasha.",
+        "hasha'a shalosh."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "שתי כוסות תה, בבקשה.",
+       "roman": "shtei kosot te, bevakasha.",
+       "translation": "Two teas, please.",
+       "words": [
+        "בבקשה",
+        "תה"
+       ],
+       "options": [
+        "שתי כוסות תה, בבקשה.",
+        "יש לי ארבעה תפוחים.",
+        "קפה אחד, בבקשה.",
+        "השעה שלוש."
+       ],
+       "optionsRoman": [
+        "shtei kosot te, bevakasha.",
+        "yesh li arba'a tapuchim.",
+        "kafe echad, bevakasha.",
+        "hasha'a shalosh."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "כמה זה עולה?",
+       "promptLang": "target",
+       "answers": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?",
+        "How much does this cost?"
+       ],
+       "words": [
+        "כמה זה עולה?"
+       ],
+       "promptRoman": "kama ze ole?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "One",
+       "promptLang": "en",
+       "answers": [
+        "אחת",
+        "אחד",
+        "achat",
+        "akhat"
+       ],
+       "words": [
+        "אחת"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Travel and directions",
+   "description": "Find your way around a new city.",
+   "icon": "train",
+   "tips": [
+    "'ל' (le-) on the front of a word means 'to': 'לשדה התעופה' (lisde hate'ufa) = to the airport."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "מלון",
+      "e": "Hotel",
+      "r": "malon"
+     },
+     {
+      "t": "תחנה",
+      "e": "Station",
+      "r": "tachana"
+     },
+     {
+      "t": "שדה תעופה",
+      "e": "Airport",
+      "r": "sde te'ufa"
+     },
+     {
+      "t": "כרטיס",
+      "e": "Ticket",
+      "r": "kartis"
+     },
+     {
+      "t": "שמאל",
+      "e": "Left",
+      "r": "smol"
+     },
+     {
+      "t": "ימין",
+      "e": "Right",
+      "r": "yamin"
+     },
+     {
+      "t": "איפה",
+      "e": "Where",
+      "r": "eifo"
+     },
+     {
+      "t": "שירותים",
+      "e": "Toilet",
+      "r": "sherutim"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "איפה המלון?",
+      "e": "Where is the hotel?",
+      "r": "eifo hamalon?"
+     },
+     {
+      "t": "איפה השירותים?",
+      "e": "Where is the toilet?",
+      "r": "eifo hasherutim?"
+     },
+     {
+      "t": "פנה שמאלה.",
+      "e": "Turn left.",
+      "r": "pne smola."
+     },
+     {
+      "t": "התחנה מימין.",
+      "e": "The station is on the right.",
+      "r": "hatachana miyamin."
+     },
+     {
+      "t": "כרטיס אחד, בבקשה.",
+      "e": "A ticket, please.",
+      "r": "kartis echad, bevakasha."
+     },
+     {
+      "t": "אני נוסע לשדה התעופה.",
+      "e": "I am going to the airport.",
+      "r": "ani nose'a lisde hate'ufa."
+     },
+     {
+      "t": "זה רחוק?",
+      "e": "Is it far?",
+      "r": "ze rachok?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u5l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "מלון",
+       "e": "Hotel",
+       "kind": "word",
+       "r": "malon",
+       "alts": [
+        "בית מלון"
+       ]
+      },
+      {
+       "t": "תחנה",
+       "e": "Station",
+       "kind": "word",
+       "r": "tachana"
+      },
+      {
+       "t": "שדה תעופה",
+       "e": "Airport",
+       "kind": "word",
+       "r": "sde te'ufa",
+       "alts": [
+        "נמל תעופה"
+       ]
+      },
+      {
+       "t": "כרטיס",
+       "e": "Ticket",
+       "kind": "word",
+       "r": "kartis"
+      },
+      {
+       "t": "איפה המלון?",
+       "e": "Where is the hotel?",
+       "kind": "phrase",
+       "r": "eifo hamalon?"
+      },
+      {
+       "t": "פנה שמאלה.",
+       "e": "Turn left.",
+       "kind": "phrase",
+       "r": "pne smola.",
+       "alts": [
+        "תפנה שמאלה.",
+        "פני שמאלה."
+       ]
+      },
+      {
+       "t": "איפה השירותים?",
+       "e": "Where is the toilet?",
+       "kind": "phrase",
+       "r": "eifo hasherutim?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "מלון",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Ticket",
+        "Hotel",
+        "Toilet"
+       ],
+       "answer": "Hotel",
+       "words": [
+        "מלון"
+       ],
+       "promptRoman": "malon"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "תחנה",
+       "promptLang": "target",
+       "options": [
+        "Hotel",
+        "Left",
+        "Airport",
+        "Station"
+       ],
+       "answer": "Station",
+       "words": [
+        "תחנה"
+       ],
+       "promptRoman": "tachana"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "מלון",
+         "Hotel"
+        ],
+        [
+         "תחנה",
+         "Station"
+        ],
+        [
+         "שדה תעופה",
+         "Airport"
+        ],
+        [
+         "כרטיס",
+         "Ticket"
+        ]
+       ],
+       "words": [
+        "מלון",
+        "תחנה",
+        "שדה תעופה",
+        "כרטיס"
+       ],
+       "romans": [
+        "malon",
+        "tachana",
+        "sde te'ufa",
+        "kartis"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Airport",
+       "promptLang": "en",
+       "answer": "שדה תעופה",
+       "words": [
+        "שדה תעופה"
+       ],
+       "options": [
+        "שדה תעופה",
+        "כרטיס",
+        "תחנה",
+        "איפה"
+       ],
+       "optionsRoman": [
+        "sde te'ufa",
+        "kartis",
+        "tachana",
+        "eifo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "כרטיס",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Ticket",
+        "Left",
+        "Airport"
+       ],
+       "answer": "Ticket",
+       "words": [
+        "כרטיס"
+       ],
+       "promptRoman": "kartis"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Where is the hotel?",
+       "promptLang": "en",
+       "tiles": [
+        "המלון",
+        "איפה",
+        "רחוק",
+        "בבקשה",
+        "מימין"
+       ],
+       "answer": [
+        "איפה",
+        "המלון"
+       ],
+       "accepted": [],
+       "words": [
+        "איפה"
+       ],
+       "tilesRoman": [
+        "hamalon",
+        "eifo",
+        "rachok",
+        "bevakasha",
+        "miyamin"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "פנה שמאלה.",
+       "promptLang": "target",
+       "tiles": [
+        "please",
+        "airport",
+        "Where",
+        "left",
+        "Turn"
+       ],
+       "answer": [
+        "Turn",
+        "left"
+       ],
+       "accepted": [
+        "Go left."
+       ],
+       "words": [
+        "שמאל"
+       ],
+       "promptRoman": "pne smola."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "איפה השירותים?",
+       "roman": "eifo hasherutim?",
+       "translation": "Where is the toilet?",
+       "words": [
+        "איפה"
+       ],
+       "options": [
+        "אני נוסע לשדה התעופה.",
+        "התחנה מימין.",
+        "איפה השירותים?",
+        "זה רחוק?"
+       ],
+       "optionsRoman": [
+        "ani nose'a lisde hate'ufa.",
+        "hatachana miyamin.",
+        "eifo hasherutim?",
+        "ze rachok?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "איפה המלון?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the hotel?"
+       ],
+       "words": [
+        "איפה"
+       ],
+       "promptRoman": "eifo hamalon?"
+      }
+     ]
+    },
+    {
+     "id": "u5l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "שמאל",
+       "e": "Left",
+       "kind": "word",
+       "r": "smol",
+       "alts": [
+        "שמאלה"
+       ]
+      },
+      {
+       "t": "ימין",
+       "e": "Right",
+       "kind": "word",
+       "r": "yamin",
+       "alts": [
+        "ימינה"
+       ]
+      },
+      {
+       "t": "איפה",
+       "e": "Where",
+       "kind": "word",
+       "r": "eifo"
+      },
+      {
+       "t": "שירותים",
+       "e": "Toilet",
+       "kind": "word",
+       "r": "sherutim"
+      },
+      {
+       "t": "התחנה מימין.",
+       "e": "The station is on the right.",
+       "kind": "phrase",
+       "r": "hatachana miyamin.",
+       "alts": [
+        "התחנה בצד ימין."
+       ]
+      },
+      {
+       "t": "כרטיס אחד, בבקשה.",
+       "e": "A ticket, please.",
+       "kind": "phrase",
+       "r": "kartis echad, bevakasha.",
+       "alts": [
+        "כרטיס, בבקשה."
+       ]
+      },
+      {
+       "t": "אני נוסע לשדה התעופה.",
+       "e": "I am going to the airport.",
+       "kind": "phrase",
+       "r": "ani nose'a lisde hate'ufa.",
+       "alts": [
+        "אני נוסעת לשדה התעופה."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "שמאל",
+       "promptLang": "target",
+       "options": [
+        "Toilet",
+        "Ticket",
+        "Left",
+        "Station"
+       ],
+       "answer": "Left",
+       "words": [
+        "שמאל"
+       ],
+       "promptRoman": "smol"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "ימין",
+       "promptLang": "target",
+       "options": [
+        "Ticket",
+        "Right",
+        "Station",
+        "Left"
+       ],
+       "answer": "Right",
+       "words": [
+        "ימין"
+       ],
+       "promptRoman": "yamin"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "שמאל",
+         "Left"
+        ],
+        [
+         "ימין",
+         "Right"
+        ],
+        [
+         "איפה",
+         "Where"
+        ],
+        [
+         "שירותים",
+         "Toilet"
+        ]
+       ],
+       "words": [
+        "שמאל",
+        "ימין",
+        "איפה",
+        "שירותים"
+       ],
+       "romans": [
+        "smol",
+        "yamin",
+        "eifo",
+        "sherutim"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answer": "איפה",
+       "words": [
+        "איפה"
+       ],
+       "options": [
+        "ימין",
+        "מלון",
+        "שמאל",
+        "איפה"
+       ],
+       "optionsRoman": [
+        "yamin",
+        "malon",
+        "smol",
+        "eifo"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Toilet",
+       "promptLang": "en",
+       "answer": "שירותים",
+       "words": [
+        "שירותים"
+       ],
+       "options": [
+        "תחנה",
+        "שירותים",
+        "שדה תעופה",
+        "שמאל"
+       ],
+       "optionsRoman": [
+        "tachana",
+        "sherutim",
+        "sde te'ufa",
+        "smol"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "The station is on the right.",
+       "promptLang": "en",
+       "tiles": [
+        "התחנה",
+        "בבקשה",
+        "מימין",
+        "פנה",
+        "השירותים"
+       ],
+       "answer": [
+        "התחנה",
+        "מימין"
+       ],
+       "accepted": [
+        "התחנה בצד ימין."
+       ],
+       "words": [
+        "התחנה מימין."
+       ],
+       "tilesRoman": [
+        "hatachana",
+        "bevakasha",
+        "miyamin",
+        "pne",
+        "hasherutim"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "כרטיס אחד, בבקשה.",
+       "promptLang": "target",
+       "tiles": [
+        "far",
+        "please",
+        "ticket",
+        "A",
+        "hotel",
+        "Where"
+       ],
+       "answer": [
+        "A",
+        "ticket",
+        "please"
+       ],
+       "accepted": [
+        "One ticket, please."
+       ],
+       "words": [
+        "בבקשה",
+        "אחת",
+        "כרטיס"
+       ],
+       "promptRoman": "kartis echad, bevakasha."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "התחנה מימין.",
+       "roman": "hatachana miyamin.",
+       "translation": "The station is on the right.",
+       "words": [
+        "התחנה מימין."
+       ],
+       "options": [
+        "זה רחוק?",
+        "התחנה מימין.",
+        "איפה המלון?",
+        "אני נוסע לשדה התעופה."
+       ],
+       "optionsRoman": [
+        "ze rachok?",
+        "hatachana miyamin.",
+        "eifo hamalon?",
+        "ani nose'a lisde hate'ufa."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני נוסע לשדה התעופה.",
+       "promptLang": "target",
+       "answers": [
+        "I am going to the airport.",
+        "I go to the airport."
+       ],
+       "words": [
+        "אני נוסע לשדה התעופה."
+       ],
+       "promptRoman": "ani nose'a lisde hate'ufa."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Hotel",
+       "promptLang": "en",
+       "answers": [
+        "מלון",
+        "בית מלון",
+        "malon"
+       ],
+       "words": [
+        "מלון"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "זה רחוק?",
+       "e": "Is it far?",
+       "kind": "phrase",
+       "r": "ze rachok?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "תחנה",
+       "promptLang": "target",
+       "options": [
+        "Station",
+        "Right",
+        "Hotel",
+        "Where"
+       ],
+       "answer": "Station",
+       "words": [
+        "תחנה"
+       ],
+       "promptRoman": "tachana"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "איפה",
+         "Where"
+        ],
+        [
+         "שירותים",
+         "Toilet"
+        ],
+        [
+         "כרטיס",
+         "Ticket"
+        ],
+        [
+         "מלון",
+         "Hotel"
+        ],
+        [
+         "ימין",
+         "Right"
+        ]
+       ],
+       "words": [
+        "איפה",
+        "שירותים",
+        "כרטיס",
+        "מלון",
+        "ימין"
+       ],
+       "romans": [
+        "eifo",
+        "sherutim",
+        "kartis",
+        "malon",
+        "yamin"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "זה רחוק?",
+       "promptLang": "target",
+       "options": [
+        "The station is on the right.",
+        "I am going to the airport.",
+        "A ticket, please.",
+        "Is it far?"
+       ],
+       "answer": "Is it far?",
+       "words": [
+        "זה רחוק?"
+       ],
+       "promptRoman": "ze rachok?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "איפה השירותים?",
+       "promptLang": "target",
+       "tiles": [
+        "station",
+        "is",
+        "the",
+        "Where",
+        "it",
+        "right",
+        "toilet"
+       ],
+       "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet"
+       ],
+       "accepted": [
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "איפה"
+       ],
+       "promptRoman": "eifo hasherutim?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Is it far?",
+       "promptLang": "en",
+       "tiles": [
+        "רחוק",
+        "זה",
+        "אני",
+        "התחנה",
+        "שמאלה"
+       ],
+       "answer": [
+        "זה",
+        "רחוק"
+       ],
+       "accepted": [],
+       "words": [
+        "זה רחוק?"
+       ],
+       "tilesRoman": [
+        "rachok",
+        "ze",
+        "ani",
+        "hatachana",
+        "smola"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I am going to the airport.",
+       "promptLang": "en",
+       "tiles": [
+        "נוסע",
+        "התחנה",
+        "כרטיס",
+        "לשדה",
+        "פנה",
+        "אני",
+        "התעופה"
+       ],
+       "answer": [
+        "אני",
+        "נוסע",
+        "לשדה",
+        "התעופה"
+       ],
+       "accepted": [
+        "אני נוסעת לשדה התעופה."
+       ],
+       "words": [
+        "אני נוסע לשדה התעופה."
+       ],
+       "tilesRoman": [
+        "nose'a",
+        "hatachana",
+        "kartis",
+        "lisde",
+        "pne",
+        "ani",
+        "hate'ufa"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני נוסע לשדה התעופה.",
+       "roman": "ani nose'a lisde hate'ufa.",
+       "translation": "I am going to the airport.",
+       "words": [
+        "אני נוסע לשדה התעופה."
+       ],
+       "options": [
+        "זה רחוק?",
+        "אני נוסע לשדה התעופה.",
+        "איפה המלון?",
+        "איפה השירותים?"
+       ],
+       "optionsRoman": [
+        "ze rachok?",
+        "ani nose'a lisde hate'ufa.",
+        "eifo hamalon?",
+        "eifo hasherutim?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "פנה שמאלה.",
+       "promptLang": "target",
+       "answers": [
+        "Turn left.",
+        "Go left."
+       ],
+       "words": [
+        "שמאל"
+       ],
+       "promptRoman": "pne smola."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "A ticket, please.",
+       "promptLang": "en",
+       "tiles": [
+        "כרטיס",
+        "בבקשה",
+        "אחד",
+        "אני",
+        "מימין",
+        "לשדה"
+       ],
+       "answer": [
+        "כרטיס",
+        "אחד",
+        "בבקשה"
+       ],
+       "accepted": [
+        "כרטיס, בבקשה."
+       ],
+       "words": [
+        "בבקשה",
+        "אחת",
+        "כרטיס"
+       ],
+       "tilesRoman": [
+        "kartis",
+        "bevakasha",
+        "echad",
+        "ani",
+        "miyamin",
+        "lisde"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Station",
+       "promptLang": "en",
+       "answers": [
+        "תחנה",
+        "tachana",
+        "takhana"
+       ],
+       "words": [
+        "תחנה"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u5l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "איפה המלון?",
+       "promptLang": "target",
+       "options": [
+        "Is it far?",
+        "Where is the hotel?",
+        "I am going to the airport.",
+        "A ticket, please."
+       ],
+       "answer": "Where is the hotel?",
+       "words": [
+        "איפה"
+       ],
+       "promptRoman": "eifo hamalon?"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "מלון",
+         "Hotel"
+        ],
+        [
+         "שירותים",
+         "Toilet"
+        ],
+        [
+         "שדה תעופה",
+         "Airport"
+        ],
+        [
+         "תחנה",
+         "Station"
+        ]
+       ],
+       "words": [
+        "מלון",
+        "שירותים",
+        "שדה תעופה",
+        "תחנה"
+       ],
+       "romans": [
+        "malon",
+        "sherutim",
+        "sde te'ufa",
+        "tachana"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Right",
+       "promptLang": "en",
+       "answer": "ימין",
+       "words": [
+        "ימין"
+       ],
+       "options": [
+        "שמאל",
+        "איפה",
+        "ימין",
+        "תחנה"
+       ],
+       "optionsRoman": [
+        "smol",
+        "eifo",
+        "yamin",
+        "tachana"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Turn left.",
+       "promptLang": "en",
+       "tiles": [
+        "התחנה",
+        "אני",
+        "פנה",
+        "המלון",
+        "שמאלה"
+       ],
+       "answer": [
+        "פנה",
+        "שמאלה"
+       ],
+       "accepted": [
+        "תפנה שמאלה.",
+        "פני שמאלה."
+       ],
+       "words": [
+        "שמאל"
+       ],
+       "tilesRoman": [
+        "hatachana",
+        "ani",
+        "pne",
+        "hamalon",
+        "smola"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "התחנה מימין.",
+       "promptLang": "target",
+       "tiles": [
+        "A",
+        "the",
+        "The",
+        "it",
+        "right",
+        "left",
+        "is",
+        "station",
+        "on"
+       ],
+       "answer": [
+        "The",
+        "station",
+        "is",
+        "on",
+        "the",
+        "right"
+       ],
+       "accepted": [
+        "The station is to the right.",
+        "The station is on your right."
+       ],
+       "words": [
+        "התחנה מימין."
+       ],
+       "promptRoman": "hatachana miyamin."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "זה רחוק?",
+       "roman": "ze rachok?",
+       "translation": "Is it far?",
+       "words": [
+        "זה רחוק?"
+       ],
+       "options": [
+        "איפה השירותים?",
+        "אני נוסע לשדה התעופה.",
+        "זה רחוק?",
+        "כרטיס אחד, בבקשה."
+       ],
+       "optionsRoman": [
+        "eifo hasherutim?",
+        "ani nose'a lisde hate'ufa.",
+        "ze rachok?",
+        "kartis echad, bevakasha."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "כרטיס אחד, בבקשה.",
+       "roman": "kartis echad, bevakasha.",
+       "translation": "A ticket, please.",
+       "words": [
+        "בבקשה",
+        "אחת",
+        "כרטיס"
+       ],
+       "options": [
+        "אני נוסע לשדה התעופה.",
+        "כרטיס אחד, בבקשה.",
+        "זה רחוק?",
+        "איפה השירותים?"
+       ],
+       "optionsRoman": [
+        "ani nose'a lisde hate'ufa.",
+        "kartis echad, bevakasha.",
+        "ze rachok?",
+        "eifo hasherutim?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "איפה השירותים?",
+       "promptLang": "target",
+       "answers": [
+        "Where is the toilet?",
+        "Where is the bathroom?",
+        "Where are the toilets?",
+        "Where is the restroom?"
+       ],
+       "words": [
+        "איפה"
+       ],
+       "promptRoman": "eifo hasherutim?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Where",
+       "promptLang": "en",
+       "answers": [
+        "איפה",
+        "eifo",
+        "eyfo"
+       ],
+       "words": [
+        "איפה"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Daily routine",
+   "description": "Home, work, school and the time of day.",
+   "icon": "calendar",
+   "tips": [
+    "Verbs change for men and women: a man says 'אני הולך' (ani holech), a woman 'אני הולכת' (ani holechet)."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "היום",
+      "e": "Today",
+      "r": "hayom"
+     },
+     {
+      "t": "מחר",
+      "e": "Tomorrow",
+      "r": "machar"
+     },
+     {
+      "t": "עכשיו",
+      "e": "Now",
+      "r": "achshav"
+     },
+     {
+      "t": "בוקר",
+      "e": "Morning",
+      "r": "boker"
+     },
+     {
+      "t": "לילה",
+      "e": "Night",
+      "r": "laila"
+     },
+     {
+      "t": "בית",
+      "e": "House",
+      "r": "bayit"
+     },
+     {
+      "t": "עבודה",
+      "e": "Work",
+      "r": "avoda"
+     },
+     {
+      "t": "בית ספר",
+      "e": "School",
+      "r": "beit sefer"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "אני הולך לעבודה.",
+      "e": "I go to work.",
+      "r": "ani holech la'avoda."
+     },
+     {
+      "t": "אני בבית.",
+      "e": "I am at home.",
+      "r": "ani babayit."
+     },
+     {
+      "t": "היום יום שני.",
+      "e": "Today is Monday.",
+      "r": "hayom yom sheni."
+     },
+     {
+      "t": "אני שותה קפה בבוקר.",
+      "e": "I drink coffee in the morning.",
+      "r": "ani shote kafe baboker."
+     },
+     {
+      "t": "אני ישן בלילה.",
+      "e": "I sleep at night.",
+      "r": "ani yashen balaila."
+     },
+     {
+      "t": "הילדים הולכים לבית הספר.",
+      "e": "The children go to school.",
+      "r": "hayeladim holchim leveit hasefer."
+     },
+     {
+      "t": "מה השעה עכשיו?",
+      "e": "What time is it now?",
+      "r": "ma hasha'a achshav?"
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u6l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "היום",
+       "e": "Today",
+       "kind": "word",
+       "r": "hayom"
+      },
+      {
+       "t": "מחר",
+       "e": "Tomorrow",
+       "kind": "word",
+       "r": "machar"
+      },
+      {
+       "t": "עכשיו",
+       "e": "Now",
+       "kind": "word",
+       "r": "achshav"
+      },
+      {
+       "t": "בוקר",
+       "e": "Morning",
+       "kind": "word",
+       "r": "boker",
+       "alts": [
+        "הבוקר"
+       ]
+      },
+      {
+       "t": "אני הולך לעבודה.",
+       "e": "I go to work.",
+       "kind": "phrase",
+       "r": "ani holech la'avoda.",
+       "alts": [
+        "אני הולכת לעבודה."
+       ]
+      },
+      {
+       "t": "היום יום שני.",
+       "e": "Today is Monday.",
+       "kind": "phrase",
+       "r": "hayom yom sheni."
+      },
+      {
+       "t": "אני בבית.",
+       "e": "I am at home.",
+       "kind": "phrase",
+       "r": "ani babayit."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "היום",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "House",
+        "Today",
+        "Morning"
+       ],
+       "answer": "Today",
+       "words": [
+        "היום"
+       ],
+       "promptRoman": "hayom"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "מחר",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Night",
+        "Morning",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "מחר"
+       ],
+       "promptRoman": "machar"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "היום",
+         "Today"
+        ],
+        [
+         "מחר",
+         "Tomorrow"
+        ],
+        [
+         "עכשיו",
+         "Now"
+        ],
+        [
+         "בוקר",
+         "Morning"
+        ]
+       ],
+       "words": [
+        "היום",
+        "מחר",
+        "עכשיו",
+        "בוקר"
+       ],
+       "romans": [
+        "hayom",
+        "machar",
+        "achshav",
+        "boker"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Now",
+       "promptLang": "en",
+       "answer": "עכשיו",
+       "words": [
+        "עכשיו"
+       ],
+       "options": [
+        "עבודה",
+        "לילה",
+        "עכשיו",
+        "מחר"
+       ],
+       "optionsRoman": [
+        "avoda",
+        "laila",
+        "achshav",
+        "machar"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "בוקר",
+       "promptLang": "target",
+       "options": [
+        "Now",
+        "Today",
+        "Morning",
+        "School"
+       ],
+       "answer": "Morning",
+       "words": [
+        "בוקר"
+       ],
+       "promptRoman": "boker"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I go to work.",
+       "promptLang": "en",
+       "tiles": [
+        "אני",
+        "ישן",
+        "הולך",
+        "שני",
+        "לעבודה",
+        "שותה"
+       ],
+       "answer": [
+        "אני",
+        "הולך",
+        "לעבודה"
+       ],
+       "accepted": [
+        "אני הולכת לעבודה."
+       ],
+       "words": [
+        "אני הולך לעבודה."
+       ],
+       "tilesRoman": [
+        "ani",
+        "yashen",
+        "holech",
+        "sheni",
+        "la'avoda",
+        "shote"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "היום יום שני.",
+       "promptLang": "target",
+       "tiles": [
+        "am",
+        "is",
+        "Today",
+        "the",
+        "Monday",
+        "home"
+       ],
+       "answer": [
+        "Today",
+        "is",
+        "Monday"
+       ],
+       "accepted": [
+        "It is Monday today."
+       ],
+       "words": [
+        "היום"
+       ],
+       "promptRoman": "hayom yom sheni."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני בבית.",
+       "roman": "ani babayit.",
+       "translation": "I am at home.",
+       "words": [
+        "אני בבית."
+       ],
+       "options": [
+        "אני הולך לעבודה.",
+        "היום יום שני.",
+        "אני בבית.",
+        "מה השעה עכשיו?"
+       ],
+       "optionsRoman": [
+        "ani holech la'avoda.",
+        "hayom yom sheni.",
+        "ani babayit.",
+        "ma hasha'a achshav?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני הולך לעבודה.",
+       "promptLang": "target",
+       "answers": [
+        "I go to work.",
+        "I am going to work."
+       ],
+       "words": [
+        "אני הולך לעבודה."
+       ],
+       "promptRoman": "ani holech la'avoda."
+      }
+     ]
+    },
+    {
+     "id": "u6l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "לילה",
+       "e": "Night",
+       "kind": "word",
+       "r": "laila",
+       "alts": [
+        "הלילה"
+       ]
+      },
+      {
+       "t": "בית",
+       "e": "House",
+       "kind": "word",
+       "r": "bayit",
+       "alts": [
+        "הבית"
+       ]
+      },
+      {
+       "t": "עבודה",
+       "e": "Work",
+       "kind": "word",
+       "r": "avoda",
+       "alts": [
+        "העבודה"
+       ]
+      },
+      {
+       "t": "בית ספר",
+       "e": "School",
+       "kind": "word",
+       "r": "beit sefer",
+       "alts": [
+        "בית הספר"
+       ]
+      },
+      {
+       "t": "אני שותה קפה בבוקר.",
+       "e": "I drink coffee in the morning.",
+       "kind": "phrase",
+       "r": "ani shote kafe baboker."
+      },
+      {
+       "t": "אני ישן בלילה.",
+       "e": "I sleep at night.",
+       "kind": "phrase",
+       "r": "ani yashen balaila.",
+       "alts": [
+        "אני ישנה בלילה."
+       ]
+      },
+      {
+       "t": "הילדים הולכים לבית הספר.",
+       "e": "The children go to school.",
+       "kind": "phrase",
+       "r": "hayeladim holchim leveit hasefer."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "לילה",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Morning",
+        "Night",
+        "Today"
+       ],
+       "answer": "Night",
+       "words": [
+        "לילה"
+       ],
+       "promptRoman": "laila"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "בית",
+       "promptLang": "target",
+       "options": [
+        "Today",
+        "Tomorrow",
+        "House",
+        "School"
+       ],
+       "answer": "House",
+       "words": [
+        "בית"
+       ],
+       "promptRoman": "bayit"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "לילה",
+         "Night"
+        ],
+        [
+         "בית",
+         "House"
+        ],
+        [
+         "עבודה",
+         "Work"
+        ],
+        [
+         "בית ספר",
+         "School"
+        ]
+       ],
+       "words": [
+        "לילה",
+        "בית",
+        "עבודה",
+        "בית ספר"
+       ],
+       "romans": [
+        "laila",
+        "bayit",
+        "avoda",
+        "beit sefer"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Work",
+       "promptLang": "en",
+       "answer": "עבודה",
+       "words": [
+        "עבודה"
+       ],
+       "options": [
+        "בוקר",
+        "עבודה",
+        "בית ספר",
+        "לילה"
+       ],
+       "optionsRoman": [
+        "boker",
+        "avoda",
+        "beit sefer",
+        "laila"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "School",
+       "promptLang": "en",
+       "answer": "בית ספר",
+       "words": [
+        "בית ספר"
+       ],
+       "options": [
+        "היום",
+        "בית",
+        "בוקר",
+        "בית ספר"
+       ],
+       "optionsRoman": [
+        "hayom",
+        "bayit",
+        "boker",
+        "beit sefer"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I drink coffee in the morning.",
+       "promptLang": "en",
+       "tiles": [
+        "לעבודה",
+        "שותה",
+        "בבוקר",
+        "קפה",
+        "הילדים",
+        "הולכים",
+        "אני"
+       ],
+       "answer": [
+        "אני",
+        "שותה",
+        "קפה",
+        "בבוקר"
+       ],
+       "accepted": [],
+       "words": [
+        "קפה"
+       ],
+       "tilesRoman": [
+        "la'avoda",
+        "shote",
+        "baboker",
+        "kafe",
+        "hayeladim",
+        "holchim",
+        "ani"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני ישן בלילה.",
+       "promptLang": "target",
+       "tiles": [
+        "sleep",
+        "now",
+        "it",
+        "night",
+        "children",
+        "I",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "sleep",
+        "at",
+        "night"
+       ],
+       "accepted": [
+        "At night I sleep.",
+        "At night, I sleep."
+       ],
+       "words": [
+        "אני ישן בלילה."
+       ],
+       "promptRoman": "ani yashen balaila."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני שותה קפה בבוקר.",
+       "roman": "ani shote kafe baboker.",
+       "translation": "I drink coffee in the morning.",
+       "words": [
+        "קפה"
+       ],
+       "options": [
+        "אני שותה קפה בבוקר.",
+        "הילדים הולכים לבית הספר.",
+        "אני הולך לעבודה.",
+        "מה השעה עכשיו?"
+       ],
+       "optionsRoman": [
+        "ani shote kafe baboker.",
+        "hayeladim holchim leveit hasefer.",
+        "ani holech la'avoda.",
+        "ma hasha'a achshav?"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "הילדים הולכים לבית הספר.",
+       "promptLang": "target",
+       "answers": [
+        "The children go to school.",
+        "The kids go to school.",
+        "The children are going to school."
+       ],
+       "words": [
+        "הילדים הולכים לבית הספר."
+       ],
+       "promptRoman": "hayeladim holchim leveit hasefer."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Today",
+       "promptLang": "en",
+       "answers": [
+        "היום",
+        "hayom"
+       ],
+       "words": [
+        "היום"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "מה השעה עכשיו?",
+       "e": "What time is it now?",
+       "kind": "phrase",
+       "r": "ma hasha'a achshav?"
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "מחר",
+       "promptLang": "target",
+       "options": [
+        "School",
+        "Work",
+        "Night",
+        "Tomorrow"
+       ],
+       "answer": "Tomorrow",
+       "words": [
+        "מחר"
+       ],
+       "promptRoman": "machar"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "בית ספר",
+         "School"
+        ],
+        [
+         "מחר",
+         "Tomorrow"
+        ],
+        [
+         "היום",
+         "Today"
+        ],
+        [
+         "לילה",
+         "Night"
+        ],
+        [
+         "בית",
+         "House"
+        ]
+       ],
+       "words": [
+        "בית ספר",
+        "מחר",
+        "היום",
+        "לילה",
+        "בית"
+       ],
+       "romans": [
+        "beit sefer",
+        "machar",
+        "hayom",
+        "laila",
+        "bayit"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "מה השעה עכשיו?",
+       "promptLang": "target",
+       "options": [
+        "What time is it now?",
+        "I drink coffee in the morning.",
+        "The children go to school.",
+        "I am at home."
+       ],
+       "answer": "What time is it now?",
+       "words": [
+        "עכשיו"
+       ],
+       "promptRoman": "ma hasha'a achshav?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני בבית.",
+       "promptLang": "target",
+       "tiles": [
+        "home",
+        "I",
+        "Monday",
+        "school",
+        "am",
+        "night",
+        "at"
+       ],
+       "answer": [
+        "I",
+        "am",
+        "at",
+        "home"
+       ],
+       "accepted": [
+        "I am home."
+       ],
+       "words": [
+        "אני בבית."
+       ],
+       "promptRoman": "ani babayit."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "What time is it now?",
+       "promptLang": "en",
+       "tiles": [
+        "מה",
+        "השעה",
+        "שני",
+        "בבית",
+        "עכשיו",
+        "שותה"
+       ],
+       "answer": [
+        "מה",
+        "השעה",
+        "עכשיו"
+       ],
+       "accepted": [],
+       "words": [
+        "עכשיו"
+       ],
+       "tilesRoman": [
+        "ma",
+        "hasha'a",
+        "sheni",
+        "babayit",
+        "achshav",
+        "shote"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "The children go to school.",
+       "promptLang": "en",
+       "tiles": [
+        "שני",
+        "הספר",
+        "לבית",
+        "הולכים",
+        "קפה",
+        "הולך",
+        "הילדים"
+       ],
+       "answer": [
+        "הילדים",
+        "הולכים",
+        "לבית",
+        "הספר"
+       ],
+       "accepted": [],
+       "words": [
+        "הילדים הולכים לבית הספר."
+       ],
+       "tilesRoman": [
+        "sheni",
+        "hasefer",
+        "leveit",
+        "holchim",
+        "kafe",
+        "holech",
+        "hayeladim"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "הילדים הולכים לבית הספר.",
+       "roman": "hayeladim holchim leveit hasefer.",
+       "translation": "The children go to school.",
+       "words": [
+        "הילדים הולכים לבית הספר."
+       ],
+       "options": [
+        "היום יום שני.",
+        "הילדים הולכים לבית הספר.",
+        "אני הולך לעבודה.",
+        "אני שותה קפה בבוקר."
+       ],
+       "optionsRoman": [
+        "hayom yom sheni.",
+        "hayeladim holchim leveit hasefer.",
+        "ani holech la'avoda.",
+        "ani shote kafe baboker."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "היום יום שני.",
+       "promptLang": "target",
+       "answers": [
+        "Today is Monday.",
+        "It is Monday today."
+       ],
+       "words": [
+        "היום"
+       ],
+       "promptRoman": "hayom yom sheni."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I sleep at night.",
+       "promptLang": "en",
+       "tiles": [
+        "השעה",
+        "היום",
+        "ישן",
+        "אני",
+        "קפה",
+        "בלילה"
+       ],
+       "answer": [
+        "אני",
+        "ישן",
+        "בלילה"
+       ],
+       "accepted": [
+        "אני ישנה בלילה."
+       ],
+       "words": [
+        "אני ישן בלילה."
+       ],
+       "tilesRoman": [
+        "hasha'a",
+        "hayom",
+        "yashen",
+        "ani",
+        "kafe",
+        "balaila"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "מחר",
+        "machar",
+        "makhar"
+       ],
+       "words": [
+        "מחר"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u6l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "אני הולך לעבודה.",
+       "promptLang": "target",
+       "options": [
+        "I drink coffee in the morning.",
+        "The children go to school.",
+        "I go to work.",
+        "I sleep at night."
+       ],
+       "answer": "I go to work.",
+       "words": [
+        "אני הולך לעבודה."
+       ],
+       "promptRoman": "ani holech la'avoda."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "בית",
+         "House"
+        ],
+        [
+         "עכשיו",
+         "Now"
+        ],
+        [
+         "עבודה",
+         "Work"
+        ],
+        [
+         "היום",
+         "Today"
+        ]
+       ],
+       "words": [
+        "בית",
+        "עכשיו",
+        "עבודה",
+        "היום"
+       ],
+       "romans": [
+        "bayit",
+        "achshav",
+        "avoda",
+        "hayom"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Morning",
+       "promptLang": "en",
+       "answer": "בוקר",
+       "words": [
+        "בוקר"
+       ],
+       "options": [
+        "בוקר",
+        "בית",
+        "עכשיו",
+        "היום"
+       ],
+       "optionsRoman": [
+        "boker",
+        "bayit",
+        "achshav",
+        "hayom"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Today is Monday.",
+       "promptLang": "en",
+       "tiles": [
+        "היום",
+        "לבית",
+        "יום",
+        "שני",
+        "הולכים",
+        "הולך"
+       ],
+       "answer": [
+        "היום",
+        "יום",
+        "שני"
+       ],
+       "accepted": [],
+       "words": [
+        "היום"
+       ],
+       "tilesRoman": [
+        "hayom",
+        "leveit",
+        "yom",
+        "sheni",
+        "holchim",
+        "holech"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני שותה קפה בבוקר.",
+       "promptLang": "target",
+       "tiles": [
+        "school",
+        "in",
+        "the",
+        "coffee",
+        "work",
+        "drink",
+        "is",
+        "morning",
+        "I"
+       ],
+       "answer": [
+        "I",
+        "drink",
+        "coffee",
+        "in",
+        "the",
+        "morning"
+       ],
+       "accepted": [
+        "In the morning I drink coffee.",
+        "In the morning, I drink coffee."
+       ],
+       "words": [
+        "קפה"
+       ],
+       "promptRoman": "ani shote kafe baboker."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "מה השעה עכשיו?",
+       "roman": "ma hasha'a achshav?",
+       "translation": "What time is it now?",
+       "words": [
+        "עכשיו"
+       ],
+       "options": [
+        "אני בבית.",
+        "היום יום שני.",
+        "מה השעה עכשיו?",
+        "אני שותה קפה בבוקר."
+       ],
+       "optionsRoman": [
+        "ani babayit.",
+        "hayom yom sheni.",
+        "ma hasha'a achshav?",
+        "ani shote kafe baboker."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני ישן בלילה.",
+       "roman": "ani yashen balaila.",
+       "translation": "I sleep at night.",
+       "words": [
+        "אני ישן בלילה."
+       ],
+       "options": [
+        "היום יום שני.",
+        "מה השעה עכשיו?",
+        "אני ישן בלילה.",
+        "אני שותה קפה בבוקר."
+       ],
+       "optionsRoman": [
+        "hayom yom sheni.",
+        "ma hasha'a achshav?",
+        "ani yashen balaila.",
+        "ani shote kafe baboker."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני בבית.",
+       "promptLang": "target",
+       "answers": [
+        "I am at home.",
+        "I am home."
+       ],
+       "words": [
+        "אני בבית."
+       ],
+       "promptRoman": "ani babayit."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Tomorrow",
+       "promptLang": "en",
+       "answers": [
+        "מחר",
+        "machar",
+        "makhar"
+       ],
+       "words": [
+        "מחר"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Shopping",
+   "description": "Ask for things, prices and how to pay.",
+   "icon": "bag",
+   "tips": [
+    "'אני רוצה' (ani rotse) means 'I want'; a woman says 'אני רוצה' too but reads it ani rotsa. Add 'בבקשה' (bevakasha) to be polite."
+   ],
+   "guide": {
+    "words": [
+     {
+      "t": "חנות",
+      "e": "Shop",
+      "r": "chanut"
+     },
+     {
+      "t": "כסף",
+      "e": "Money",
+      "r": "kesef"
+     },
+     {
+      "t": "תיק",
+      "e": "Bag",
+      "r": "tik"
+     },
+     {
+      "t": "חולצה",
+      "e": "Shirt",
+      "r": "chultsa"
+     },
+     {
+      "t": "נעליים",
+      "e": "Shoes",
+      "r": "na'alayim"
+     },
+     {
+      "t": "זול",
+      "e": "Cheap",
+      "r": "zol"
+     },
+     {
+      "t": "יקר",
+      "e": "Expensive",
+      "r": "yakar"
+     },
+     {
+      "t": "גדול",
+      "e": "Big",
+      "r": "gadol"
+     }
+    ],
+    "phrases": [
+     {
+      "t": "אני רוצה את זה.",
+      "e": "I would like this.",
+      "r": "ani rotse et ze."
+     },
+     {
+      "t": "זה יקר מדי.",
+      "e": "It is too expensive.",
+      "r": "ze yakar midai."
+     },
+     {
+      "t": "החנות פתוחה?",
+      "e": "Is the shop open?",
+      "r": "hachanut ptucha?"
+     },
+     {
+      "t": "אני צריך נעליים.",
+      "e": "I need shoes.",
+      "r": "ani tsarich na'alayim."
+     },
+     {
+      "t": "התיק גדול.",
+      "e": "The bag is big.",
+      "r": "hatik gadol."
+     },
+     {
+      "t": "אפשר לשלם בכרטיס אשראי?",
+      "e": "Can I pay by card?",
+      "r": "efshar leshalem bekartis ashrai?"
+     },
+     {
+      "t": "אני רק מסתכל.",
+      "e": "I am just looking.",
+      "r": "ani rak mistakel."
+     }
+    ]
+   },
+   "lessons": [
+    {
+     "id": "u7l1",
+     "title": "New words",
+     "teach": [
+      {
+       "t": "חנות",
+       "e": "Shop",
+       "kind": "word",
+       "r": "chanut"
+      },
+      {
+       "t": "כסף",
+       "e": "Money",
+       "kind": "word",
+       "r": "kesef"
+      },
+      {
+       "t": "תיק",
+       "e": "Bag",
+       "kind": "word",
+       "r": "tik",
+       "alts": [
+        "שקית"
+       ]
+      },
+      {
+       "t": "חולצה",
+       "e": "Shirt",
+       "kind": "word",
+       "r": "chultsa"
+      },
+      {
+       "t": "אני רוצה את זה.",
+       "e": "I would like this.",
+       "kind": "phrase",
+       "r": "ani rotse et ze."
+      },
+      {
+       "t": "החנות פתוחה?",
+       "e": "Is the shop open?",
+       "kind": "phrase",
+       "r": "hachanut ptucha?",
+       "alts": [
+        "האם החנות פתוחה?"
+       ]
+      },
+      {
+       "t": "זה יקר מדי.",
+       "e": "It is too expensive.",
+       "kind": "phrase",
+       "r": "ze yakar midai."
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "חנות",
+       "promptLang": "target",
+       "options": [
+        "Shop",
+        "Money",
+        "Bag",
+        "Expensive"
+       ],
+       "answer": "Shop",
+       "words": [
+        "חנות"
+       ],
+       "promptRoman": "chanut"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "כסף",
+       "promptLang": "target",
+       "options": [
+        "Big",
+        "Shoes",
+        "Bag",
+        "Money"
+       ],
+       "answer": "Money",
+       "words": [
+        "כסף"
+       ],
+       "promptRoman": "kesef"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "חנות",
+         "Shop"
+        ],
+        [
+         "כסף",
+         "Money"
+        ],
+        [
+         "תיק",
+         "Bag"
+        ],
+        [
+         "חולצה",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "חנות",
+        "כסף",
+        "תיק",
+        "חולצה"
+       ],
+       "romans": [
+        "chanut",
+        "kesef",
+        "tik",
+        "chultsa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Bag",
+       "promptLang": "en",
+       "answer": "תיק",
+       "words": [
+        "תיק"
+       ],
+       "options": [
+        "חנות",
+        "חולצה",
+        "תיק",
+        "יקר"
+       ],
+       "optionsRoman": [
+        "chanut",
+        "chultsa",
+        "tik",
+        "yakar"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "חולצה",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Cheap",
+        "Shop",
+        "Expensive"
+       ],
+       "answer": "Shirt",
+       "words": [
+        "חולצה"
+       ],
+       "promptRoman": "chultsa"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I would like this.",
+       "promptLang": "en",
+       "tiles": [
+        "יקר",
+        "זה",
+        "פתוחה",
+        "אני",
+        "מסתכל",
+        "רוצה",
+        "את"
+       ],
+       "answer": [
+        "אני",
+        "רוצה",
+        "את",
+        "זה"
+       ],
+       "accepted": [],
+       "words": [
+        "אני רוצה את זה."
+       ],
+       "tilesRoman": [
+        "yakar",
+        "ze",
+        "ptucha",
+        "ani",
+        "mistakel",
+        "rotse",
+        "et"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "החנות פתוחה?",
+       "promptLang": "target",
+       "tiles": [
+        "the",
+        "would",
+        "open",
+        "shop",
+        "Can",
+        "Is",
+        "this"
+       ],
+       "answer": [
+        "Is",
+        "the",
+        "shop",
+        "open"
+       ],
+       "accepted": [
+        "Is the store open?"
+       ],
+       "words": [
+        "החנות פתוחה?"
+       ],
+       "promptRoman": "hachanut ptucha?"
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "זה יקר מדי.",
+       "roman": "ze yakar midai.",
+       "translation": "It is too expensive.",
+       "words": [
+        "יקר"
+       ],
+       "options": [
+        "אפשר לשלם בכרטיס אשראי?",
+        "התיק גדול.",
+        "החנות פתוחה?",
+        "זה יקר מדי."
+       ],
+       "optionsRoman": [
+        "efshar leshalem bekartis ashrai?",
+        "hatik gadol.",
+        "hachanut ptucha?",
+        "ze yakar midai."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אני רוצה את זה.",
+       "promptLang": "target",
+       "answers": [
+        "I would like this.",
+        "I want this.",
+        "I'd like this.",
+        "This one, please."
+       ],
+       "words": [
+        "אני רוצה את זה."
+       ],
+       "promptRoman": "ani rotse et ze."
+      }
+     ]
+    },
+    {
+     "id": "u7l2",
+     "title": "More words",
+     "teach": [
+      {
+       "t": "נעליים",
+       "e": "Shoes",
+       "kind": "word",
+       "r": "na'alayim",
+       "alts": [
+        "נעלים"
+       ]
+      },
+      {
+       "t": "זול",
+       "e": "Cheap",
+       "kind": "word",
+       "r": "zol"
+      },
+      {
+       "t": "יקר",
+       "e": "Expensive",
+       "kind": "word",
+       "r": "yakar"
+      },
+      {
+       "t": "גדול",
+       "e": "Big",
+       "kind": "word",
+       "r": "gadol"
+      },
+      {
+       "t": "אני צריך נעליים.",
+       "e": "I need shoes.",
+       "kind": "phrase",
+       "r": "ani tsarich na'alayim.",
+       "alts": [
+        "אני צריכה נעליים."
+       ]
+      },
+      {
+       "t": "התיק גדול.",
+       "e": "The bag is big.",
+       "kind": "phrase",
+       "r": "hatik gadol."
+      },
+      {
+       "t": "אפשר לשלם בכרטיס אשראי?",
+       "e": "Can I pay by card?",
+       "kind": "phrase",
+       "r": "efshar leshalem bekartis ashrai?",
+       "alts": [
+        "אפשר לשלם בכרטיס?"
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "נעליים",
+       "promptLang": "target",
+       "options": [
+        "Shirt",
+        "Shoes",
+        "Money",
+        "Cheap"
+       ],
+       "answer": "Shoes",
+       "words": [
+        "נעליים"
+       ],
+       "promptRoman": "na'alayim"
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "זול",
+       "promptLang": "target",
+       "options": [
+        "Expensive",
+        "Cheap",
+        "Money",
+        "Shop"
+       ],
+       "answer": "Cheap",
+       "words": [
+        "זול"
+       ],
+       "promptRoman": "zol"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "נעליים",
+         "Shoes"
+        ],
+        [
+         "זול",
+         "Cheap"
+        ],
+        [
+         "יקר",
+         "Expensive"
+        ],
+        [
+         "גדול",
+         "Big"
+        ]
+       ],
+       "words": [
+        "נעליים",
+        "זול",
+        "יקר",
+        "גדול"
+       ],
+       "romans": [
+        "na'alayim",
+        "zol",
+        "yakar",
+        "gadol"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "יקר",
+       "words": [
+        "יקר"
+       ],
+       "options": [
+        "יקר",
+        "חולצה",
+        "חנות",
+        "זול"
+       ],
+       "optionsRoman": [
+        "yakar",
+        "chultsa",
+        "chanut",
+        "zol"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answer": "גדול",
+       "words": [
+        "גדול"
+       ],
+       "options": [
+        "חנות",
+        "יקר",
+        "גדול",
+        "כסף"
+       ],
+       "optionsRoman": [
+        "chanut",
+        "yakar",
+        "gadol",
+        "kesef"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I need shoes.",
+       "promptLang": "en",
+       "tiles": [
+        "מדי",
+        "נעליים",
+        "זה",
+        "צריך",
+        "רוצה",
+        "אני"
+       ],
+       "answer": [
+        "אני",
+        "צריך",
+        "נעליים"
+       ],
+       "accepted": [
+        "אני צריכה נעליים."
+       ],
+       "words": [
+        "נעליים"
+       ],
+       "tilesRoman": [
+        "midai",
+        "na'alayim",
+        "ze",
+        "tsarich",
+        "rotse",
+        "ani"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "התיק גדול.",
+       "promptLang": "target",
+       "tiles": [
+        "The",
+        "big",
+        "am",
+        "bag",
+        "by",
+        "expensive",
+        "is"
+       ],
+       "answer": [
+        "The",
+        "bag",
+        "is",
+        "big"
+       ],
+       "accepted": [
+        "The bag is large."
+       ],
+       "words": [
+        "גדול"
+       ],
+       "promptRoman": "hatik gadol."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני צריך נעליים.",
+       "roman": "ani tsarich na'alayim.",
+       "translation": "I need shoes.",
+       "words": [
+        "נעליים"
+       ],
+       "options": [
+        "החנות פתוחה?",
+        "אני רוצה את זה.",
+        "זה יקר מדי.",
+        "אני צריך נעליים."
+       ],
+       "optionsRoman": [
+        "hachanut ptucha?",
+        "ani rotse et ze.",
+        "ze yakar midai.",
+        "ani tsarich na'alayim."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "אפשר לשלם בכרטיס אשראי?",
+       "promptLang": "target",
+       "answers": [
+        "Can I pay by card?",
+        "Can I pay with a card?",
+        "Can I pay by credit card?"
+       ],
+       "words": [
+        "אפשר לשלם בכרטיס אשראי?"
+       ],
+       "promptRoman": "efshar leshalem bekartis ashrai?"
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Shop",
+       "promptLang": "en",
+       "answers": [
+        "חנות",
+        "chanut",
+        "khanut"
+       ],
+       "words": [
+        "חנות"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l3",
+     "title": "Sentences",
+     "teach": [
+      {
+       "t": "אני רק מסתכל.",
+       "e": "I am just looking.",
+       "kind": "phrase",
+       "r": "ani rak mistakel.",
+       "alts": [
+        "אני רק מסתכלת."
+       ]
+      }
+     ],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this mean?",
+       "prompt": "כסף",
+       "promptLang": "target",
+       "options": [
+        "Money",
+        "Shoes",
+        "Shirt",
+        "Bag"
+       ],
+       "answer": "Money",
+       "words": [
+        "כסף"
+       ],
+       "promptRoman": "kesef"
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "זול",
+         "Cheap"
+        ],
+        [
+         "תיק",
+         "Bag"
+        ],
+        [
+         "יקר",
+         "Expensive"
+        ],
+        [
+         "גדול",
+         "Big"
+        ],
+        [
+         "כסף",
+         "Money"
+        ]
+       ],
+       "words": [
+        "זול",
+        "תיק",
+        "יקר",
+        "גדול",
+        "כסף"
+       ],
+       "romans": [
+        "zol",
+        "tik",
+        "yakar",
+        "gadol",
+        "kesef"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "אני רק מסתכל.",
+       "promptLang": "target",
+       "options": [
+        "It is too expensive.",
+        "I would like this.",
+        "Can I pay by card?",
+        "I am just looking."
+       ],
+       "answer": "I am just looking.",
+       "words": [
+        "אני רק מסתכל."
+       ],
+       "promptRoman": "ani rak mistakel."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "זה יקר מדי.",
+       "promptLang": "target",
+       "tiles": [
+        "is",
+        "too",
+        "looking",
+        "pay",
+        "expensive",
+        "card",
+        "It"
+       ],
+       "answer": [
+        "It",
+        "is",
+        "too",
+        "expensive"
+       ],
+       "accepted": [
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "יקר"
+       ],
+       "promptRoman": "ze yakar midai."
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "I am just looking.",
+       "promptLang": "en",
+       "tiles": [
+        "מסתכל",
+        "צריך",
+        "אני",
+        "זה",
+        "רק",
+        "רוצה"
+       ],
+       "answer": [
+        "אני",
+        "רק",
+        "מסתכל"
+       ],
+       "accepted": [
+        "אני רק מסתכלת."
+       ],
+       "words": [
+        "אני רק מסתכל."
+       ],
+       "tilesRoman": [
+        "mistakel",
+        "tsarich",
+        "ani",
+        "ze",
+        "rak",
+        "rotse"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Can I pay by card?",
+       "promptLang": "en",
+       "tiles": [
+        "אפשר",
+        "לשלם",
+        "אשראי",
+        "בכרטיס",
+        "את",
+        "גדול",
+        "מסתכל"
+       ],
+       "answer": [
+        "אפשר",
+        "לשלם",
+        "בכרטיס",
+        "אשראי"
+       ],
+       "accepted": [
+        "אפשר לשלם בכרטיס?"
+       ],
+       "words": [
+        "אפשר לשלם בכרטיס אשראי?"
+       ],
+       "tilesRoman": [
+        "efshar",
+        "leshalem",
+        "ashrai",
+        "bekartis",
+        "et",
+        "gadol",
+        "mistakel"
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אפשר לשלם בכרטיס אשראי?",
+       "roman": "efshar leshalem bekartis ashrai?",
+       "translation": "Can I pay by card?",
+       "words": [
+        "אפשר לשלם בכרטיס אשראי?"
+       ],
+       "options": [
+        "אני רק מסתכל.",
+        "החנות פתוחה?",
+        "אפשר לשלם בכרטיס אשראי?",
+        "זה יקר מדי."
+       ],
+       "optionsRoman": [
+        "ani rak mistakel.",
+        "hachanut ptucha?",
+        "efshar leshalem bekartis ashrai?",
+        "ze yakar midai."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "החנות פתוחה?",
+       "promptLang": "target",
+       "answers": [
+        "Is the shop open?",
+        "Is the store open?"
+       ],
+       "words": [
+        "החנות פתוחה?"
+       ],
+       "promptRoman": "hachanut ptucha?"
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "The bag is big.",
+       "promptLang": "en",
+       "tiles": [
+        "גדול",
+        "פתוחה",
+        "נעליים",
+        "רוצה",
+        "התיק"
+       ],
+       "answer": [
+        "התיק",
+        "גדול"
+       ],
+       "accepted": [],
+       "words": [
+        "גדול"
+       ],
+       "tilesRoman": [
+        "gadol",
+        "ptucha",
+        "na'alayim",
+        "rotse",
+        "hatik"
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Money",
+       "promptLang": "en",
+       "answers": [
+        "כסף",
+        "kesef"
+       ],
+       "words": [
+        "כסף"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    },
+    {
+     "id": "u7l4",
+     "title": "Unit review",
+     "teach": [],
+     "exercises": [
+      {
+       "type": "mc",
+       "instruction": "What does this sentence mean?",
+       "prompt": "אני רוצה את זה.",
+       "promptLang": "target",
+       "options": [
+        "It is too expensive.",
+        "The bag is big.",
+        "I would like this.",
+        "I need shoes."
+       ],
+       "answer": "I would like this.",
+       "words": [
+        "אני רוצה את זה."
+       ],
+       "promptRoman": "ani rotse et ze."
+      },
+      {
+       "type": "match",
+       "instruction": "Match the pairs",
+       "pairs": [
+        [
+         "חנות",
+         "Shop"
+        ],
+        [
+         "נעליים",
+         "Shoes"
+        ],
+        [
+         "זול",
+         "Cheap"
+        ],
+        [
+         "חולצה",
+         "Shirt"
+        ]
+       ],
+       "words": [
+        "חנות",
+        "נעליים",
+        "זול",
+        "חולצה"
+       ],
+       "romans": [
+        "chanut",
+        "na'alayim",
+        "zol",
+        "chultsa"
+       ]
+      },
+      {
+       "type": "mc",
+       "instruction": "Pick the correct translation",
+       "prompt": "Expensive",
+       "promptLang": "en",
+       "answer": "יקר",
+       "words": [
+        "יקר"
+       ],
+       "options": [
+        "כסף",
+        "יקר",
+        "חנות",
+        "זול"
+       ],
+       "optionsRoman": [
+        "kesef",
+        "yakar",
+        "chanut",
+        "zol"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in Hebrew",
+       "prompt": "Is the shop open?",
+       "promptLang": "en",
+       "tiles": [
+        "רק",
+        "התיק",
+        "פתוחה",
+        "אפשר",
+        "החנות"
+       ],
+       "answer": [
+        "החנות",
+        "פתוחה"
+       ],
+       "accepted": [
+        "האם החנות פתוחה?"
+       ],
+       "words": [
+        "החנות פתוחה?"
+       ],
+       "tilesRoman": [
+        "rak",
+        "hatik",
+        "ptucha",
+        "efshar",
+        "hachanut"
+       ]
+      },
+      {
+       "type": "tap",
+       "instruction": "Build the sentence in English",
+       "prompt": "אני צריך נעליים.",
+       "promptLang": "target",
+       "tiles": [
+        "I",
+        "too",
+        "need",
+        "shoes",
+        "the",
+        "am"
+       ],
+       "answer": [
+        "I",
+        "need",
+        "shoes"
+       ],
+       "accepted": [
+        "I need some shoes."
+       ],
+       "words": [
+        "נעליים"
+       ],
+       "promptRoman": "ani tsarich na'alayim."
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "אני רק מסתכל.",
+       "roman": "ani rak mistakel.",
+       "translation": "I am just looking.",
+       "words": [
+        "אני רק מסתכל."
+       ],
+       "options": [
+        "אני רוצה את זה.",
+        "החנות פתוחה?",
+        "התיק גדול.",
+        "אני רק מסתכל."
+       ],
+       "optionsRoman": [
+        "ani rotse et ze.",
+        "hachanut ptucha?",
+        "hatik gadol.",
+        "ani rak mistakel."
+       ]
+      },
+      {
+       "type": "listen",
+       "instruction": "Tap what you hear",
+       "text": "התיק גדול.",
+       "roman": "hatik gadol.",
+       "translation": "The bag is big.",
+       "words": [
+        "גדול"
+       ],
+       "options": [
+        "אני צריך נעליים.",
+        "החנות פתוחה?",
+        "אני רוצה את זה.",
+        "התיק גדול."
+       ],
+       "optionsRoman": [
+        "ani tsarich na'alayim.",
+        "hachanut ptucha?",
+        "ani rotse et ze.",
+        "hatik gadol."
+       ]
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in English",
+       "prompt": "זה יקר מדי.",
+       "promptLang": "target",
+       "answers": [
+        "It is too expensive.",
+        "That is too expensive.",
+        "This is too expensive.",
+        "It's too expensive.",
+        "It is very expensive."
+       ],
+       "words": [
+        "יקר"
+       ],
+       "promptRoman": "ze yakar midai."
+      },
+      {
+       "type": "type",
+       "instruction": "Type this in Hebrew",
+       "prompt": "Big",
+       "promptLang": "en",
+       "answers": [
+        "גדול",
+        "gadol"
+       ],
+       "words": [
+        "גדול"
+       ],
+       "looseSpaces": true,
+       "romanAllowed": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
